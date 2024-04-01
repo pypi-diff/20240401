@@ -10794,3 +10794,33 @@ EOFError: EOF read where object expected
 [2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: Remove: archive file [/home/abi/fetcher/tmp/msgraphhelper-0.2.0.tar.gz]
 [2024-04-01 19:24:16] INFO root fetch - main [MainThread]: End processing [msgraphhelper]: success
 [2024-04-01 19:24:16] INFO root fetch - main [MainThread]: Store serial: [22572723]
+[2024-04-01 19:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572723]
+[2024-04-01 19:26:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 19:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ghunt
+[2024-04-01 19:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SingleOrigin
+[2024-04-01 19:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chargily-pay
+[2024-04-01 19:26:25] INFO root fetch - processPackages [SingleOrigin]: New version: [2.5.6] Old Version: [2.5.5]
+[2024-04-01 19:26:25] INFO root fetch - processPackages [chargily-pay]: New version: [2.1.3] Old Version: [2.1.1]
+[2024-04-01 19:26:25] INFO root fetch - processPackages [ghunt]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-01 19:26:25] INFO root fetch - processPackages [SingleOrigin]: Downloading https://files.pythonhosted.org/packages/ab/11/7e0f876fd380bbe84e2cb8d175855362cc9dd4a90e8a6e0647866bb6ab48/SingleOrigin-2.5.5.tar.gz
+[2024-04-01 19:26:25] INFO root fetch - processPackages [ghunt]: Downloading https://files.pythonhosted.org/packages/32/7a/399afb7b26ef0657e85328e3550eefbef11151de7e9ca2f78f4841debbfe/ghunt-2.1.3-py3-none-any.whl
+[2024-04-01 19:26:25] INFO root fetch - processPackages [chargily-pay]: Downloading https://files.pythonhosted.org/packages/15/74/5ac199845b06304c527977cc364a828ec6b29ba21d8965daf60d35d5a50c/chargily_pay-2.1.1.tar.gz
+[2024-04-01 19:26:26] INFO root fetch - processPackages [chargily-pay]: Downloading https://files.pythonhosted.org/packages/27/19/6a61f8f607abf3fbca9902ab53f181678920cb73cd427a07da6c4994c6d2/chargily_pay-2.1.3.tar.gz
+[2024-04-01 19:26:26] INFO root fetch - processPackages [SingleOrigin]: Downloading https://files.pythonhosted.org/packages/7c/fb/3fdb77ebf1dcd531879988845adc78275143a6aa68eaa04bcfd29ebc1ee2/SingleOrigin-2.5.6.tar.gz
+[2024-04-01 19:26:26] INFO root fetch - processPackages [ghunt]: Downloading https://files.pythonhosted.org/packages/fe/87/2d5e1b3185f0f1e4580aa75ae84076eb9232b08a6c965f0670cf831e8ee7/ghunt-2.1.4-py3-none-any.whl
+[2024-04-01 19:26:26] INFO root fetch - processPackages [ghunt]: executing diffoscope
+[2024-04-01 19:26:26] INFO root fetch - processPackages [ghunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghunt-2.1.3-py3-none-any.whl.zip tmp/ghunt-2.1.4-py3-none-any.whl.zip --markdown 20240401/g/ghunt/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2024-04-01 19:26:26] INFO root fetch - processPackages [chargily-pay]: executing diffoscope
+[2024-04-01 19:26:26] INFO root fetch - processPackages [chargily-pay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chargily_pay-2.1.1.tar.gz tmp/chargily_pay-2.1.3.tar.gz --markdown 20240401/c/chargily-pay/2.1.1-2.1.3/diff.md --exclude *.pyd
+[2024-04-01 19:26:26] INFO root fetch - processPackages [SingleOrigin]: executing diffoscope
+[2024-04-01 19:26:26] INFO root fetch - processPackages [SingleOrigin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SingleOrigin-2.5.5.tar.gz tmp/SingleOrigin-2.5.6.tar.gz --markdown 20240401/S/SingleOrigin/2.5.5-2.5.6/diff.md --exclude *.pyd
+[2024-04-01 19:26:26] INFO root fetch - processPackages [SingleOrigin]: Remove: archive file [/home/abi/fetcher/tmp/SingleOrigin-2.5.5.tar.gz]
+[2024-04-01 19:26:26] INFO root fetch - processPackages [SingleOrigin]: Remove: archive file [/home/abi/fetcher/tmp/SingleOrigin-2.5.6.tar.gz]
+[2024-04-01 19:26:26] INFO root fetch - main [MainThread]: End processing [SingleOrigin]: success
+[2024-04-01 19:26:27] INFO root fetch - processPackages [chargily-pay]: Remove: archive file [/home/abi/fetcher/tmp/chargily_pay-2.1.1.tar.gz]
+[2024-04-01 19:26:27] INFO root fetch - processPackages [chargily-pay]: Remove: archive file [/home/abi/fetcher/tmp/chargily_pay-2.1.3.tar.gz]
+[2024-04-01 19:26:27] INFO root fetch - main [MainThread]: End processing [chargily-pay]: success
+[2024-04-01 19:26:27] INFO root fetch - processPackages [ghunt]: Remove: archive file [/home/abi/fetcher/tmp/ghunt-2.1.3-py3-none-any.whl.zip]
+[2024-04-01 19:26:27] INFO root fetch - processPackages [ghunt]: Remove: archive file [/home/abi/fetcher/tmp/ghunt-2.1.4-py3-none-any.whl.zip]
+[2024-04-01 19:26:27] INFO root fetch - main [MainThread]: End processing [ghunt]: success
+[2024-04-01 19:26:27] INFO root fetch - main [MainThread]: Store serial: [22572742]
