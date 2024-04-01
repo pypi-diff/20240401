@@ -2957,3 +2957,50 @@ EOFError: EOF read where object expected
 [2024-04-01 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-01 14:08:32] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
 [2024-04-01 14:08:32] INFO root fetch - main [MainThread]: Store serial: [22568954]
+[2024-04-01 14:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568954]
+[2024-04-01 14:10:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esiaccel
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autovenv
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyJsBitwise
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torcheval-nightly
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: palworld-pal-editor
+[2024-04-01 14:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-awscdk-resolver
+[2024-04-01 14:10:43] INFO root fetch - processPackages [palworld-pal-editor]: New version: [0.3.4] Old Version: [0.3.3.post2]
+[2024-04-01 14:10:43] INFO root fetch - processPackages [esiaccel]: New version: [0.1.dev7955] Old Version: [0.1.dev7953]
+[2024-04-01 14:10:43] WARNING root fetch - processPackages [PyJsBitwise]: Skipping, unable to determine old version
+[2024-04-01 14:10:43] INFO root fetch - main [MainThread]: End processing [PyJsBitwise] error
+[2024-04-01 14:10:43] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 14:10:43] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/2e/de/81d617d5c53e44bd7eda6dfd9a7e7ceddd40a4e16641bd907db84d0c3733/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 14:10:43] INFO root fetch - processPackages [palworld-pal-editor]: Downloading https://files.pythonhosted.org/packages/29/0c/5d65f26f8defdffb1a3fe3331815ccd545ff5b91e3baa12e26849de11c0a/palworld-pal-editor-0.3.3.post2.tar.gz
+[2024-04-01 14:10:43] INFO root fetch - processPackages [autovenv]: New version: [0.3.1671337561] Old Version: [0.3.1671337560]
+[2024-04-01 14:10:43] WARNING root fetch - processPackages [palworld-pal-editor]: Skipping package: exceeds size limit 19814359>=10485760
+[2024-04-01 14:10:43] INFO root fetch - main [MainThread]: End processing [palworld-pal-editor] error
+[2024-04-01 14:10:43] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 14:10:43] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/1e/5b/73b562c0a82838f575e8e44fd85a2b8db984b382658320c9072148c97cf9/cdk8s-awscdk-resolver-0.0.8.tar.gz
+[2024-04-01 14:10:43] INFO root fetch - processPackages [autovenv]: Downloading https://files.pythonhosted.org/packages/be/2f/985109a0bad97b73eb074312079240b201e8cee71de99f2b612c40f99ade/autovenv-0.3.1671337560.tar.gz
+[2024-04-01 14:10:43] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/42/f7/783b1d40c27875d1a5df4e1248804fca119fb84c3e74b4a967db52dd53ef/torcheval-nightly-2024.3.9.tar.gz
+[2024-04-01 14:10:43] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/61/ef/e4d47adfaf6fa6503a17330a1aa8a78880606fd81a789e39c648bef6c804/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 14:10:43] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-04-01 14:10:43] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/e/esiaccel/0.1.dev7953-0.1.dev7955/diff.md --exclude *.pyd
+[2024-04-01 14:10:43] INFO root fetch - processPackages [autovenv]: Downloading https://files.pythonhosted.org/packages/91/03/0c21218acc69d8b2b30628c8fd629d119e103b5fc7d1aab2eb7feee63849/autovenv-0.3.1671337561.tar.gz
+[2024-04-01 14:10:43] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Downloading https://files.pythonhosted.org/packages/e4/ba/3b1af2b8b411cdb77e57e6b1d4e656a18d1c62c5fddbd831b369378f4fbd/cdk8s-awscdk-resolver-0.0.9.tar.gz
+[2024-04-01 14:10:44] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/de/82/1d9e6679ac8f83ac468895a4d81790534a61683e20536e861c6168afba2d/torcheval-nightly-2024.4.1.tar.gz
+[2024-04-01 14:10:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: executing diffoscope
+[2024-04-01 14:10:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz --markdown 20240401/c/cdk8s-awscdk-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:10:44] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-01 14:10:44] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.3.9.tar.gz tmp/torcheval-nightly-2024.4.1.tar.gz --markdown 20240401/t/torcheval-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 14:10:44] INFO root fetch - processPackages [autovenv]: executing diffoscope
+[2024-04-01 14:10:44] INFO root fetch - processPackages [autovenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autovenv-0.3.1671337560.tar.gz tmp/autovenv-0.3.1671337561.tar.gz --markdown 20240401/a/autovenv/0.3.1671337560-0.3.1671337561/diff.md --exclude *.pyd
+[2024-04-01 14:10:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.8.tar.gz]
+[2024-04-01 14:10:44] INFO root fetch - processPackages [cdk8s-awscdk-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-awscdk-resolver-0.0.9.tar.gz]
+[2024-04-01 14:10:44] INFO root fetch - main [MainThread]: End processing [cdk8s-awscdk-resolver]: success
+[2024-04-01 14:10:45] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.3.9.tar.gz]
+[2024-04-01 14:10:45] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.1.tar.gz]
+[2024-04-01 14:10:45] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-01 14:10:45] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 14:10:45] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 14:10:45] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-04-01 14:10:47] INFO root fetch - processPackages [autovenv]: Remove: archive file [/home/abi/fetcher/tmp/autovenv-0.3.1671337560.tar.gz]
+[2024-04-01 14:10:47] INFO root fetch - processPackages [autovenv]: Remove: archive file [/home/abi/fetcher/tmp/autovenv-0.3.1671337561.tar.gz]
+[2024-04-01 14:10:47] INFO root fetch - main [MainThread]: End processing [autovenv]: success
+[2024-04-01 14:10:47] INFO root fetch - main [MainThread]: Store serial: [22568977]
