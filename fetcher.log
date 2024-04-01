@@ -13635,3 +13635,60 @@ EOFError: EOF read where object expected
 [2024-04-01 21:30:05] INFO root fetch - processPackages [eth-typing]: Remove: archive file [/home/abi/fetcher/tmp/eth-typing-4.1.0.tar.gz]
 [2024-04-01 21:30:05] INFO root fetch - main [MainThread]: End processing [eth-typing]: success
 [2024-04-01 21:30:05] INFO root fetch - main [MainThread]: Store serial: [22574089]
+[2024-04-01 21:32:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574089]
+[2024-04-01 21:32:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langtrace-python-sdk
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netsblox
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pip-services4-http
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-repair
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: outpostkit
+[2024-04-01 21:32:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shell-proc
+[2024-04-01 21:32:14] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [shell-proc]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [pip-services4-http]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [netsblox]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-01 21:32:14] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [netsblox]: Downloading https://files.pythonhosted.org/packages/21/09/bfe2e090869757af6c9b81312ba653993a39ab4c8e2a7db90876eb13b9ce/netsblox-0.6.5.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [pip-services4-http]: Downloading https://files.pythonhosted.org/packages/74/d3/1ad9b1e2634546acfd8bcc2572f8ece4c963880f7838a8f17009d981ce56/pip_services4_http-0.0.3.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [shell-proc]: Downloading https://files.pythonhosted.org/packages/c9/c1/d173b559194e772acbc41c221aee6bf878cc05c209f8803913dbcdb720dc/shell_proc-3.0.8.tar.gz
+[2024-04-01 21:32:14] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-01 21:32:14] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240401/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-01 21:32:14] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-01 21:32:14] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240401/o/outpostkit/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 21:32:15] INFO root fetch - processPackages [pip-services4-http]: Downloading https://files.pythonhosted.org/packages/16/82/7156fab885429d1c95b5ef01eb868029b2554593820d8536d983d0cc800b/pip_services4_http-0.0.4.tar.gz
+[2024-04-01 21:32:15] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-01 21:32:15] INFO root fetch - processPackages [shell-proc]: Downloading https://files.pythonhosted.org/packages/33/d1/5d23fffcd1a100ea7e61e6d05d84af83d49541b6efa26d3f5dba821301ed/shell_proc-3.0.9.tar.gz
+[2024-04-01 21:32:15] INFO root fetch - processPackages [pip-services4-http]: executing diffoscope
+[2024-04-01 21:32:15] INFO root fetch - processPackages [pip-services4-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip_services4_http-0.0.3.tar.gz tmp/pip_services4_http-0.0.4.tar.gz --markdown 20240401/p/pip-services4-http/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 21:32:15] INFO root fetch - processPackages [netsblox]: Downloading https://files.pythonhosted.org/packages/67/1b/7b0dd00d0dc09ccc235d25d2bcd03ee3c9f989444c16d24eab798af873f8/netsblox-0.6.6.tar.gz
+[2024-04-01 21:32:15] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-01 21:32:15] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240401/j/json-repair/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 21:32:15] INFO root fetch - processPackages [shell-proc]: executing diffoscope
+[2024-04-01 21:32:15] INFO root fetch - processPackages [shell-proc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell_proc-3.0.8.tar.gz tmp/shell_proc-3.0.9.tar.gz --markdown 20240401/s/shell-proc/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2024-04-01 21:32:15] INFO root fetch - processPackages [netsblox]: executing diffoscope
+[2024-04-01 21:32:15] INFO root fetch - processPackages [netsblox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netsblox-0.6.5.tar.gz tmp/netsblox-0.6.6.tar.gz --markdown 20240401/n/netsblox/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2024-04-01 21:32:15] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-01 21:32:15] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-01 21:32:15] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-01 21:32:15] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-01 21:32:16] INFO root fetch - processPackages [pip-services4-http]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_http-0.0.3.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - processPackages [pip-services4-http]: Remove: archive file [/home/abi/fetcher/tmp/pip_services4_http-0.0.4.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - main [MainThread]: End processing [pip-services4-http]: success
+[2024-04-01 21:32:16] INFO root fetch - processPackages [shell-proc]: Remove: archive file [/home/abi/fetcher/tmp/shell_proc-3.0.8.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - processPackages [shell-proc]: Remove: archive file [/home/abi/fetcher/tmp/shell_proc-3.0.9.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - main [MainThread]: End processing [shell-proc]: success
+[2024-04-01 21:32:16] INFO root fetch - processPackages [netsblox]: Remove: archive file [/home/abi/fetcher/tmp/netsblox-0.6.5.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - processPackages [netsblox]: Remove: archive file [/home/abi/fetcher/tmp/netsblox-0.6.6.tar.gz]
+[2024-04-01 21:32:16] INFO root fetch - main [MainThread]: End processing [netsblox]: success
+[2024-04-01 21:32:16] INFO root fetch - main [MainThread]: Store serial: [22574108]
