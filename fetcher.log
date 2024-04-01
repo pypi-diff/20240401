@@ -2889,3 +2889,71 @@ EOFError: EOF read where object expected
 [2024-04-01 14:06:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
 [2024-04-01 14:06:19] INFO root fetch - main [MainThread]: End processing [bbot]: success
 [2024-04-01 14:06:19] INFO root fetch - main [MainThread]: Store serial: [22568927]
+[2024-04-01 14:08:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568927]
+[2024-04-01 14:08:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yandexcloud
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocat
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: palworld-pal-editor
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-segment-everything
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fructose
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docspotter
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mteb
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hw2latex
+[2024-04-01 14:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: esiaccel
+[2024-04-01 14:08:28] INFO root fetch - processPackages [rocat]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 14:08:28] WARNING root fetch - processPackages [docspotter]: Skipping, unable to determine old version
+[2024-04-01 14:08:28] INFO root fetch - main [MainThread]: End processing [docspotter] error
+[2024-04-01 14:08:28] INFO root fetch - processPackages [yandexcloud]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-01 14:08:28] INFO root fetch - processPackages [fructose]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 14:08:28] INFO root fetch - processPackages [mteb]: New version: [1.4.0] Old Version: [1.3.4]
+[2024-04-01 14:08:28] WARNING root fetch - processPackages [napari-segment-everything]: Skipping, unable to determine old version
+[2024-04-01 14:08:28] INFO root fetch - main [MainThread]: End processing [napari-segment-everything] error
+[2024-04-01 14:08:28] INFO root fetch - processPackages [palworld-pal-editor]: New version: [0.3.4] Old Version: [0.3.3.post2]
+[2024-04-01 14:08:28] INFO root fetch - processPackages [hw2latex]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 14:08:28] INFO root fetch - processPackages [esiaccel]: New version: [0.1.dev7955] Old Version: [0.1.dev7953]
+[2024-04-01 14:08:28] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/bc/50/4acd7ff71140551463a342105fbd9b4ee55d0ec910af199700acab6f9381/rocat-0.1.2.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/76/3b/1649bfb2078286e8152c6e1bba2e34340ec1d2135c6ede304fed08ff6f42/yandexcloud-0.98.0.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [fructose]: Downloading https://files.pythonhosted.org/packages/30/35/2f9ec4357f956a5bfbccd7cfab208f5079311a6fc0b6d2011c0bd0b69944/fructose-0.0.8.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/8d/69/e5eddef59d983cfc80a8966f6ac73959234a14b4e9ffb20d7a8043370316/mteb-1.3.4.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [hw2latex]: Downloading https://files.pythonhosted.org/packages/c2/16/61acdfca291e973015911645e58e962762c1f422235d54c2bfd565d63629/hw2latex-0.1.2.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [palworld-pal-editor]: Downloading https://files.pythonhosted.org/packages/29/0c/5d65f26f8defdffb1a3fe3331815ccd545ff5b91e3baa12e26849de11c0a/palworld-pal-editor-0.3.3.post2.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/2e/de/81d617d5c53e44bd7eda6dfd9a7e7ceddd40a4e16641bd907db84d0c3733/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 14:08:28] WARNING root fetch - processPackages [palworld-pal-editor]: Skipping package: exceeds size limit 19814359>=10485760
+[2024-04-01 14:08:28] INFO root fetch - main [MainThread]: End processing [palworld-pal-editor] error
+[2024-04-01 14:08:28] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/19/5b/49b0e706fe239e68f9771a7a8ba953eadb82229de7ee0afef9f33a330ec5/rocat-0.1.3.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/ef/567a85023c3bc87e03e6bdb7dad473f3be9232cb82b929ddeaecc2859a98/mteb-1.4.0.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [fructose]: Downloading https://files.pythonhosted.org/packages/e7/ac/6ddbb1c91de68202002e125cec37ae80f1d644bdc02cc664ee5fb1635f10/fructose-0.0.9.tar.gz
+[2024-04-01 14:08:28] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-01 14:08:28] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.2.tar.gz tmp/rocat-0.1.3.tar.gz --markdown 20240401/r/rocat/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 14:08:28] INFO root fetch - processPackages [hw2latex]: Downloading https://files.pythonhosted.org/packages/86/8b/34bdef8a52cf8e570bb84afa5bda7ba1419800fe9e7f3addf78f92665e09/hw2latex-0.1.3.tar.gz
+[2024-04-01 14:08:29] INFO root fetch - processPackages [yandexcloud]: Downloading https://files.pythonhosted.org/packages/2f/1f/b188f3c823e00c4f3114cbe85a4db73a89c7317f9bbc6634a6021521a9ab/yandexcloud-0.99.0.tar.gz
+[2024-04-01 14:08:29] INFO root fetch - processPackages [fructose]: executing diffoscope
+[2024-04-01 14:08:29] INFO root fetch - processPackages [fructose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fructose-0.0.8.tar.gz tmp/fructose-0.0.9.tar.gz --markdown 20240401/f/fructose/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:08:29] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-01 14:08:29] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.3.4.tar.gz tmp/mteb-1.4.0.tar.gz --markdown 20240401/m/mteb/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 14:08:29] INFO root fetch - processPackages [hw2latex]: executing diffoscope
+[2024-04-01 14:08:29] INFO root fetch - processPackages [hw2latex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hw2latex-0.1.2.tar.gz tmp/hw2latex-0.1.3.tar.gz --markdown 20240401/h/hw2latex/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 14:08:29] INFO root fetch - processPackages [yandexcloud]: executing diffoscope
+[2024-04-01 14:08:29] INFO root fetch - processPackages [yandexcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yandexcloud-0.98.0.tar.gz tmp/yandexcloud-0.99.0.tar.gz --markdown 20240401/y/yandexcloud/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 14:08:29] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.2.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.3.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-01 14:08:29] INFO root fetch - processPackages [hw2latex]: Remove: archive file [/home/abi/fetcher/tmp/hw2latex-0.1.2.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - processPackages [hw2latex]: Remove: archive file [/home/abi/fetcher/tmp/hw2latex-0.1.3.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - main [MainThread]: End processing [hw2latex]: success
+[2024-04-01 14:08:29] INFO root fetch - processPackages [fructose]: Remove: archive file [/home/abi/fetcher/tmp/fructose-0.0.8.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - processPackages [fructose]: Remove: archive file [/home/abi/fetcher/tmp/fructose-0.0.9.tar.gz]
+[2024-04-01 14:08:29] INFO root fetch - main [MainThread]: End processing [fructose]: success
+[2024-04-01 14:08:30] INFO root fetch - processPackages [esiaccel]: Downloading https://files.pythonhosted.org/packages/61/ef/e4d47adfaf6fa6503a17330a1aa8a78880606fd81a789e39c648bef6c804/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 14:08:30] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.3.4.tar.gz]
+[2024-04-01 14:08:30] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.4.0.tar.gz]
+[2024-04-01 14:08:30] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-01 14:08:30] INFO root fetch - processPackages [esiaccel]: executing diffoscope
+[2024-04-01 14:08:30] INFO root fetch - processPackages [esiaccel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/e/esiaccel/0.1.dev7953-0.1.dev7955/diff.md --exclude *.pyd
+[2024-04-01 14:08:32] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.98.0.tar.gz]
+[2024-04-01 14:08:32] INFO root fetch - processPackages [yandexcloud]: Remove: archive file [/home/abi/fetcher/tmp/yandexcloud-0.99.0.tar.gz]
+[2024-04-01 14:08:32] INFO root fetch - main [MainThread]: End processing [yandexcloud]: success
+[2024-04-01 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7953-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 14:08:32] INFO root fetch - processPackages [esiaccel]: Remove: archive file [/home/abi/fetcher/tmp/esiaccel-0.1.dev7955-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 14:08:32] INFO root fetch - main [MainThread]: End processing [esiaccel]: success
+[2024-04-01 14:08:32] INFO root fetch - main [MainThread]: Store serial: [22568954]
