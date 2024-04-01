@@ -6042,3 +6042,54 @@ EOFError: EOF read where object expected
 [2024-04-01 16:26:41] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.5.tar.gz]
 [2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [qteasy]: success
 [2024-04-01 16:26:41] INFO root fetch - main [MainThread]: Store serial: [22570481]
+[2024-04-01 16:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570481]
+[2024-04-01 16:28:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rocat
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tradingcomdados
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-quizblock
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parseid
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jiraone
+[2024-04-01 16:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quarkstudio
+[2024-04-01 16:28:50] INFO root fetch - processPackages [parseid]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 16:28:50] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/9a/95/e7bd0d95dcc8162f15902e0d5a16f95ffeaf121f1ec63a59c4c63b2bcfcf/parseid-0.1.2-py3-none-any.whl
+[2024-04-01 16:28:50] INFO root fetch - processPackages [django-quizblock]: New version: [1.3.0] Old Version: [1.2.8]
+[2024-04-01 16:28:50] WARNING root fetch - processPackages [rocat]: Skipping, unable to determine old version
+[2024-04-01 16:28:50] INFO root fetch - main [MainThread]: End processing [rocat] error
+[2024-04-01 16:28:50] INFO root fetch - processPackages [tradingcomdados]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-01 16:28:50] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.7] Old Version: [6.6.2.6]
+[2024-04-01 16:28:50] INFO root fetch - processPackages [jiraone]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-01 16:28:50] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/f0/35/0c4cd544134752dedae66db95b384d53bbe9a3b95dc52c816c3d24739c62/tradingcomdados-1.3.5.tar.gz
+[2024-04-01 16:28:50] INFO root fetch - processPackages [django-quizblock]: Downloading https://files.pythonhosted.org/packages/ae/6f/2a5a1e22abfc3d00fe59c18ca2f5f64960c7ad67af5bfb070f13163ca895/django-quizblock-1.2.8.tar.gz
+[2024-04-01 16:28:50] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/88/8c/623b614ed97301cdb84310d825eb45fe9c368d11eabe0446fa1c5e9e7a35/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl
+[2024-04-01 16:28:50] INFO root fetch - processPackages [jiraone]: Downloading https://files.pythonhosted.org/packages/25/e1/3b1dfb82808919e0c7baf83c508474e12690133242b71c1dd3b7d0a660b8/jiraone-0.8.2.tar.gz
+[2024-04-01 16:28:50] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/90/c4/2398a18c525118c834d6b0417427f55d47a9c083a733ce18eb94779d1869/parseid-0.1.3-py3-none-any.whl
+[2024-04-01 16:28:51] INFO root fetch - processPackages [parseid]: executing diffoscope
+[2024-04-01 16:28:51] INFO root fetch - processPackages [parseid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseid-0.1.2-py3-none-any.whl.zip tmp/parseid-0.1.3-py3-none-any.whl.zip --markdown 20240401/p/parseid/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 16:28:51] INFO root fetch - processPackages [tradingcomdados]: Downloading https://files.pythonhosted.org/packages/fc/6d/96c6a3cf9a7a072d15adc0a5f4e1f024a338a1a72a8faa6e66c3a8edfcad/tradingcomdados-1.3.6.tar.gz
+[2024-04-01 16:28:51] INFO root fetch - processPackages [django-quizblock]: Downloading https://files.pythonhosted.org/packages/06/e9/7e70382454e16fa4e1390adb89e65360e6154965e8e2f9dda07f5caaf831/django-quizblock-1.3.0.tar.gz
+[2024-04-01 16:28:51] INFO root fetch - processPackages [tradingcomdados]: executing diffoscope
+[2024-04-01 16:28:51] INFO root fetch - processPackages [tradingcomdados]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tradingcomdados-1.3.5.tar.gz tmp/tradingcomdados-1.3.6.tar.gz --markdown 20240401/t/tradingcomdados/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2024-04-01 16:28:51] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/3f/50/e05b0cbb975f4b8abe068bf7c860ad70e156da129aa64e0c33707dd0c70e/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl
+[2024-04-01 16:28:51] INFO root fetch - processPackages [django-quizblock]: executing diffoscope
+[2024-04-01 16:28:51] INFO root fetch - processPackages [django-quizblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-quizblock-1.2.8.tar.gz tmp/django-quizblock-1.3.0.tar.gz --markdown 20240401/d/django-quizblock/1.2.8-1.3.0/diff.md --exclude *.pyd
+[2024-04-01 16:28:51] INFO root fetch - processPackages [jiraone]: Downloading https://files.pythonhosted.org/packages/c0/28/4734a1b1711f0d779acc145cb833766749c7866e34105e54b985cce2b029/jiraone-0.8.3.tar.gz
+[2024-04-01 16:28:51] INFO root fetch - processPackages [jiraone]: executing diffoscope
+[2024-04-01 16:28:51] INFO root fetch - processPackages [jiraone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiraone-0.8.2.tar.gz tmp/jiraone-0.8.3.tar.gz --markdown 20240401/j/jiraone/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-01 16:28:51] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 16:28:51] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.3-py3-none-any.whl.zip]
+[2024-04-01 16:28:51] INFO root fetch - main [MainThread]: End processing [parseid]: success
+[2024-04-01 16:28:51] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.3.5.tar.gz]
+[2024-04-01 16:28:51] INFO root fetch - processPackages [tradingcomdados]: Remove: archive file [/home/abi/fetcher/tmp/tradingcomdados-1.3.6.tar.gz]
+[2024-04-01 16:28:51] INFO root fetch - main [MainThread]: End processing [tradingcomdados]: success
+[2024-04-01 16:28:51] INFO root fetch - processPackages [django-quizblock]: Remove: archive file [/home/abi/fetcher/tmp/django-quizblock-1.2.8.tar.gz]
+[2024-04-01 16:28:51] INFO root fetch - processPackages [django-quizblock]: Remove: archive file [/home/abi/fetcher/tmp/django-quizblock-1.3.0.tar.gz]
+[2024-04-01 16:28:51] INFO root fetch - main [MainThread]: End processing [django-quizblock]: success
+[2024-04-01 16:28:52] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-04-01 16:28:52] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl.zip --markdown 20240401/q/quarkstudio/6.6.2.6-6.6.2.7/diff.md --exclude *.pyd
+[2024-04-01 16:28:52] INFO root fetch - processPackages [jiraone]: Remove: archive file [/home/abi/fetcher/tmp/jiraone-0.8.2.tar.gz]
+[2024-04-01 16:28:52] INFO root fetch - processPackages [jiraone]: Remove: archive file [/home/abi/fetcher/tmp/jiraone-0.8.3.tar.gz]
+[2024-04-01 16:28:52] INFO root fetch - main [MainThread]: End processing [jiraone]: success
+[2024-04-01 16:28:52] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl.zip]
+[2024-04-01 16:28:52] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl.zip]
+[2024-04-01 16:28:52] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-04-01 16:28:52] INFO root fetch - main [MainThread]: Store serial: [22570499]
