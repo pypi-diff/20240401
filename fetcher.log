@@ -13316,3 +13316,63 @@ EOFError: EOF read where object expected
 [2024-04-01 21:16:21] INFO root fetch - processPackages [sentry-kafka-schemas]: Remove: archive file [/home/abi/fetcher/tmp/sentry-kafka-schemas-0.1.9.tar.gz]
 [2024-04-01 21:16:21] INFO root fetch - main [MainThread]: End processing [sentry-kafka-schemas]: success
 [2024-04-01 21:16:21] INFO root fetch - main [MainThread]: Store serial: [22573940]
+[2024-04-01 21:18:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573940]
+[2024-04-01 21:18:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioomics
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BotsOnRails
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reflex-google-auth
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyeventmanager
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcrypt
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seedhelper
+[2024-04-01 21:18:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dt-extensions-sdk
+[2024-04-01 21:18:30] INFO root fetch - processPackages [seedhelper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 21:18:30] INFO root fetch - processPackages [bioomics]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dt-extensions-sdk]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-01 21:18:30] WARNING root fetch - processPackages [BotsOnRails]: Skipping, unable to determine old version
+[2024-04-01 21:18:30] INFO root fetch - main [MainThread]: End processing [BotsOnRails] error
+[2024-04-01 21:18:30] INFO root fetch - processPackages [seedhelper]: Downloading https://files.pythonhosted.org/packages/65/7a/6f24ac02a9d41009c0517c7eec059782cf76e140ae992793416897ec8b47/seedhelper-0.1.1.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [pyeventmanager]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dcrypt]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 21:18:30] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/f1/0d/1390746e73b015c2dd5bd06c1c7cb4fbef10a2fbe3543ce286db32910da1/bioomics-0.1.7.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [reflex-google-auth]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/0e/10/88f712fb8d939e102905206d922adc64d215445dc102c3d5d30f1193f00f/dt_extensions_sdk-1.1.8.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [reflex-google-auth]: Downloading https://files.pythonhosted.org/packages/36/98/b4bc3749de0ddec31ef79aa5f7301c69ab36a282020f54d99b8fb84ae41e/reflex-google-auth-0.0.3.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [pyeventmanager]: Downloading https://files.pythonhosted.org/packages/0a/65/d18fe57d0e2c5d36fcc4b4d28637966130261dddca78567e577864999176/pyeventmanager-0.4.1.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dcrypt]: Downloading https://files.pythonhosted.org/packages/e8/94/f2dcdc4aad90cb15c1c89da771d6764a689ff51c2bc8997bdb68553d924c/dcrypt-0.0.3.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/d0/69/1fb807ab0556c3290d7e4559989eae122f02d55012c500b024683c793888/bioomics-0.1.9.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [seedhelper]: Downloading https://files.pythonhosted.org/packages/fb/fd/410f7fe4eab8c1bd39c4797e162e7329a26e7d92caed2789b79128d6daad/seedhelper-0.1.2.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [bioomics]: executing diffoscope
+[2024-04-01 21:18:30] INFO root fetch - processPackages [bioomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioomics-0.1.7.tar.gz tmp/bioomics-0.1.9.tar.gz --markdown 20240401/b/bioomics/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:18:30] INFO root fetch - processPackages [seedhelper]: executing diffoscope
+[2024-04-01 21:18:30] INFO root fetch - processPackages [seedhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedhelper-0.1.1.tar.gz tmp/seedhelper-0.1.2.tar.gz --markdown 20240401/s/seedhelper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dt-extensions-sdk]: Downloading https://files.pythonhosted.org/packages/07/5f/1daa7695f0fbf0df9cd8703b66137d3cab861632d5449627125f40296700/dt_extensions_sdk-1.1.9.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [dcrypt]: Downloading https://files.pythonhosted.org/packages/75/33/d5e004d075b13b6ef7c5e37a64f3188a65709653933af051af43a5d15874/dcrypt-0.0.4.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [pyeventmanager]: Downloading https://files.pythonhosted.org/packages/3f/4f/fc0158ce24b41002e8914c91de4310941e4b36a0defc553401c8ff67f83a/pyeventmanager-0.5.0.tar.gz
+[2024-04-01 21:18:30] INFO root fetch - processPackages [reflex-google-auth]: Downloading https://files.pythonhosted.org/packages/d4/f7/2fc7cc62ee54699036dafbaa134acebc403316976f36151b2225bc8931b4/reflex-google-auth-0.0.4.tar.gz
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dcrypt]: executing diffoscope
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dcrypt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcrypt-0.0.3.tar.gz tmp/dcrypt-0.0.4.tar.gz --markdown 20240401/d/dcrypt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dt-extensions-sdk]: executing diffoscope
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dt-extensions-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dt_extensions_sdk-1.1.8.tar.gz tmp/dt_extensions_sdk-1.1.9.tar.gz --markdown 20240401/d/dt-extensions-sdk/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:18:31] INFO root fetch - processPackages [pyeventmanager]: executing diffoscope
+[2024-04-01 21:18:31] INFO root fetch - processPackages [pyeventmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeventmanager-0.4.1.tar.gz tmp/pyeventmanager-0.5.0.tar.gz --markdown 20240401/p/pyeventmanager/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 21:18:31] INFO root fetch - processPackages [reflex-google-auth]: executing diffoscope
+[2024-04-01 21:18:31] INFO root fetch - processPackages [reflex-google-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-google-auth-0.0.3.tar.gz tmp/reflex-google-auth-0.0.4.tar.gz --markdown 20240401/r/reflex-google-auth/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 21:18:31] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.7.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.9.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [bioomics]: success
+[2024-04-01 21:18:31] INFO root fetch - processPackages [seedhelper]: Remove: archive file [/home/abi/fetcher/tmp/seedhelper-0.1.1.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [seedhelper]: Remove: archive file [/home/abi/fetcher/tmp/seedhelper-0.1.2.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [seedhelper]: success
+[2024-04-01 21:18:31] INFO root fetch - processPackages [reflex-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/reflex-google-auth-0.0.3.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [reflex-google-auth]: Remove: archive file [/home/abi/fetcher/tmp/reflex-google-auth-0.0.4.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [reflex-google-auth]: success
+[2024-04-01 21:18:31] INFO root fetch - processPackages [pyeventmanager]: Remove: archive file [/home/abi/fetcher/tmp/pyeventmanager-0.4.1.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [pyeventmanager]: Remove: archive file [/home/abi/fetcher/tmp/pyeventmanager-0.5.0.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [pyeventmanager]: success
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dcrypt]: Remove: archive file [/home/abi/fetcher/tmp/dcrypt-0.0.3.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dcrypt]: Remove: archive file [/home/abi/fetcher/tmp/dcrypt-0.0.4.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [dcrypt]: success
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.8.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
+[2024-04-01 21:18:31] INFO root fetch - main [MainThread]: Store serial: [22573992]
