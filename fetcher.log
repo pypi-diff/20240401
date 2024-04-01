@@ -3938,3 +3938,42 @@ EOFError: EOF read where object expected
 [2024-04-01 15:05:47] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-04-01 15:05:47] INFO root fetch - main [MainThread]: End processing [ruleopt]: success
 [2024-04-01 15:05:47] INFO root fetch - main [MainThread]: Store serial: [22569361]
+[2024-04-01 15:07:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569361]
+[2024-04-01 15:07:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 15:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volcengine-python-sdk
+[2024-04-01 15:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geonomics
+[2024-04-01 15:07:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phone-email-auth
+[2024-04-01 15:07:56] INFO root fetch - processPackages [phone-email-auth]: New version: [0.7] Old Version: [0.6]
+[2024-04-01 15:07:56] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:07:56] INFO root fetch - processPackages [volcengine-python-sdk]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 15:07:56] INFO root fetch - processPackages [geonomics]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-04-01 15:07:56] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/87/16/b5a1a2710078c203b4c7db893122d48050d65ba939c0a83edd0a1d3f5372/phone_email_auth-0.6.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/ff/75/e607b174f4efc875809400aaf720dd84ad23c6cf463baaa0667f9f458263/volcengine-python-sdk-1.0.8.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/78/a0/aef9b006d16e172325489a50c1807ea8258090f4e5fca3699dbb5b916cd6/phone_email_auth-0.7.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/80/82/e545df016dfa7e1b900fe0091478c415642ddeca0577b6b8b9f341ae428a/geonomics-1.3.9.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:07:56] INFO root fetch - processPackages [phone-email-auth]: executing diffoscope
+[2024-04-01 15:07:56] INFO root fetch - processPackages [phone-email-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_email_auth-0.6.tar.gz tmp/phone_email_auth-0.7.tar.gz --markdown 20240401/p/phone-email-auth/0.6-0.7/diff.md --exclude *.pyd
+[2024-04-01 15:07:56] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:07:56] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:07:56] INFO root fetch - processPackages [volcengine-python-sdk]: Downloading https://files.pythonhosted.org/packages/53/6e/bc2e8996b329c0459547989d687871830a3d17036f25d8455e66ffe3b1a8/volcengine-python-sdk-1.0.9.tar.gz
+[2024-04-01 15:07:57] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/db/50/a946eb18d7fc69f8edeb2f33cb49091e620aba43512e2fd155dbae33006b/geonomics-1.4.0.tar.gz
+[2024-04-01 15:07:57] INFO root fetch - processPackages [volcengine-python-sdk]: executing diffoscope
+[2024-04-01 15:07:57] INFO root fetch - processPackages [volcengine-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-python-sdk-1.0.8.tar.gz tmp/volcengine-python-sdk-1.0.9.tar.gz --markdown 20240401/v/volcengine-python-sdk/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:07:57] INFO root fetch - processPackages [geonomics]: executing diffoscope
+[2024-04-01 15:07:57] INFO root fetch - processPackages [geonomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonomics-1.3.9.tar.gz tmp/geonomics-1.4.0.tar.gz --markdown 20240401/g/geonomics/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 15:07:57] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.6.tar.gz]
+[2024-04-01 15:07:57] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.7.tar.gz]
+[2024-04-01 15:07:57] INFO root fetch - main [MainThread]: End processing [phone-email-auth]: success
+[2024-04-01 15:07:57] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:07:57] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:07:57] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:07:58] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.3.9.tar.gz]
+[2024-04-01 15:07:58] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.0.tar.gz]
+[2024-04-01 15:07:58] INFO root fetch - main [MainThread]: End processing [geonomics]: success
+[2024-04-01 15:08:03] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.8.tar.gz]
+[2024-04-01 15:08:03] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
+[2024-04-01 15:08:03] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
+[2024-04-01 15:08:03] INFO root fetch - main [MainThread]: Store serial: [22569379]
