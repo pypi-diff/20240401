@@ -3630,3 +3630,33 @@ EOFError: EOF read where object expected
 [2024-04-01 14:48:22] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 14:48:22] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 14:48:22] INFO root fetch - main [MainThread]: Store serial: [22569263]
+[2024-04-01 14:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569263]
+[2024-04-01 14:50:30] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unibot_hn
+[2024-04-01 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-01 14:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conformal-tights
+[2024-04-01 14:50:30] INFO root fetch - processPackages [conformal-tights]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 14:50:30] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 14:50:30] INFO root fetch - processPackages [unibot_hn]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-01 14:50:30] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/90/e8/5ad544053fa22bb2ebae39fa92b399e8c5cf15afeba514819c6a751a7011/conformal_tights-0.2.1.tar.gz
+[2024-04-01 14:50:30] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 14:50:31] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/01/20/9b9c46b8b3553fc7defcd9e73efa12202bde302dd8df1ac25dbc890046c5/unibot_hn-0.0.7.tar.gz
+[2024-04-01 14:50:31] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/e3/7c/afe0f0fed43a17bd38e8c1d213c468ad821ecb02c95e34abef14c8625497/conformal_tights-0.2.2.tar.gz
+[2024-04-01 14:50:31] INFO root fetch - processPackages [conformal-tights]: executing diffoscope
+[2024-04-01 14:50:31] INFO root fetch - processPackages [conformal-tights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conformal_tights-0.2.1.tar.gz tmp/conformal_tights-0.2.2.tar.gz --markdown 20240401/c/conformal-tights/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 14:50:31] INFO root fetch - processPackages [unibot_hn]: Downloading https://files.pythonhosted.org/packages/75/8c/8b5171d805d25f812e9ac46a5ae7b3075e30347959ec2c80237d9f7ada6f/unibot_hn-0.0.8.tar.gz
+[2024-04-01 14:50:31] INFO root fetch - processPackages [unibot_hn]: executing diffoscope
+[2024-04-01 14:50:31] INFO root fetch - processPackages [unibot_hn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unibot_hn-0.0.7.tar.gz tmp/unibot_hn-0.0.8.tar.gz --markdown 20240401/u/unibot_hn/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 14:50:31] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 14:50:31] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.1.tar.gz]
+[2024-04-01 14:50:31] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.2.tar.gz]
+[2024-04-01 14:50:31] INFO root fetch - main [MainThread]: End processing [conformal-tights]: success
+[2024-04-01 14:50:31] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 14:50:31] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 14:50:32] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.0.7.tar.gz]
+[2024-04-01 14:50:32] INFO root fetch - processPackages [unibot_hn]: Remove: archive file [/home/abi/fetcher/tmp/unibot_hn-0.0.8.tar.gz]
+[2024-04-01 14:50:32] INFO root fetch - main [MainThread]: End processing [unibot_hn]: success
+[2024-04-01 14:50:32] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 14:50:32] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 14:50:32] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 14:50:32] INFO root fetch - main [MainThread]: Store serial: [22569271]
