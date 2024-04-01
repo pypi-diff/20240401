@@ -7469,3 +7469,54 @@ EOFError: EOF read where object expected
 [2024-04-01 17:24:13] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-hx8357-1.4.3.tar.gz]
 [2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-hx8357]: success
 [2024-04-01 17:24:13] INFO root fetch - main [MainThread]: Store serial: [22571138]
+[2024-04-01 17:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571138]
+[2024-04-01 17:26:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastembed
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-client-mount
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hartufo
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: earthstat
+[2024-04-01 17:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: manamodeller
+[2024-04-01 17:26:22] WARNING root fetch - processPackages [manamodeller]: Skipping, unable to determine old version
+[2024-04-01 17:26:22] INFO root fetch - main [MainThread]: End processing [manamodeller] error
+[2024-04-01 17:26:22] INFO root fetch - processPackages [girder-client-mount]: New version: [0.3.3.dev3] Old Version: [0.3.3.dev1]
+[2024-04-01 17:26:22] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/e7/04/3b386c6a581658b843c6404e725094b41d2c33a7e8de98297e3778052ce8/girder_client_mount-0.3.3.dev1.tar.gz
+[2024-04-01 17:26:22] INFO root fetch - processPackages [fastembed]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-01 17:26:22] INFO root fetch - processPackages [hartufo]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-01 17:26:22] INFO root fetch - processPackages [earthstat]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-01 17:26:22] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1711984643] Old Version: [0.0.11a1711943726]
+[2024-04-01 17:26:22] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/49/2f/481962c35c82a35d27deabac0d10eca0189377e6f7cb4c1932f486d5a9c2/fastembed-0.2.5.tar.gz
+[2024-04-01 17:26:22] INFO root fetch - processPackages [hartufo]: Downloading https://files.pythonhosted.org/packages/1f/c7/5e68bc7b27acbd1a8c79c63ef483386aaf3ed3045420ec90f37a68327039/hartufo-0.6.4.tar.gz
+[2024-04-01 17:26:22] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/fd/e8/1c04dad0cfdec700537a2b6ce841a1cea67f903d3a17a97ad7aa3be70e74/girder_client_mount-0.3.3.dev3.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [earthstat]: Downloading https://files.pythonhosted.org/packages/37/54/4cf4305f0c6e0e2bf832f8ee474b95337f42aacd23e4b2db0f8f5666b25f/earthstat-0.7.0.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/be/ff/bf77374828b28970192a3f912dae8ab0a5bf587852aad5fd9a7e2d874fd2/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [girder-client-mount]: executing diffoscope
+[2024-04-01 17:26:23] INFO root fetch - processPackages [girder-client-mount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder_client_mount-0.3.3.dev1.tar.gz tmp/girder_client_mount-0.3.3.dev3.tar.gz --markdown 20240401/g/girder-client-mount/0.3.3.dev1-0.3.3.dev3/diff.md --exclude *.pyd
+[2024-04-01 17:26:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/fa/8c/d557564ddeaad9d43b1519e1a37f23663715ddde0b52b9da4e3dcfee5e66/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [hartufo]: Downloading https://files.pythonhosted.org/packages/e7/70/65e102afff34c91d2b8095cd66ea2166cf4f4bd847d406fd4269ad1fa72d/hartufo-0.6.5.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [earthstat]: Downloading https://files.pythonhosted.org/packages/5e/99/84af0da559d9d594c9bcd24978142bb69c115bdebb0d1c827d48ca229fb4/earthstat-0.8.0.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [fastembed]: Downloading https://files.pythonhosted.org/packages/dc/4b/67ae61bae6e4fc3e75ee216a26a0d00dcfbe34f6f1eca688eeaa82e91c0b/fastembed-0.2.6.tar.gz
+[2024-04-01 17:26:23] INFO root fetch - processPackages [hartufo]: executing diffoscope
+[2024-04-01 17:26:23] INFO root fetch - processPackages [hartufo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hartufo-0.6.4.tar.gz tmp/hartufo-0.6.5.tar.gz --markdown 20240401/h/hartufo/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-01 17:26:23] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev1.tar.gz]
+[2024-04-01 17:26:23] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev3.tar.gz]
+[2024-04-01 17:26:23] INFO root fetch - main [MainThread]: End processing [girder-client-mount]: success
+[2024-04-01 17:26:23] INFO root fetch - processPackages [fastembed]: executing diffoscope
+[2024-04-01 17:26:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-01 17:26:23] INFO root fetch - processPackages [fastembed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastembed-0.2.5.tar.gz tmp/fastembed-0.2.6.tar.gz --markdown 20240401/f/fastembed/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-01 17:26:23] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz --markdown 20240401/p/pulumi-kubernetes-the-hard-way/0.0.11a1711943726-0.0.11a1711984643/diff.md --exclude *.pyd
+[2024-04-01 17:26:23] INFO root fetch - processPackages [earthstat]: executing diffoscope
+[2024-04-01 17:26:23] INFO root fetch - processPackages [earthstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthstat-0.7.0.tar.gz tmp/earthstat-0.8.0.tar.gz --markdown 20240401/e/earthstat/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-01 17:26:24] INFO root fetch - processPackages [hartufo]: Remove: archive file [/home/abi/fetcher/tmp/hartufo-0.6.4.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - processPackages [hartufo]: Remove: archive file [/home/abi/fetcher/tmp/hartufo-0.6.5.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - main [MainThread]: End processing [hartufo]: success
+[2024-04-01 17:26:24] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.2.5.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - processPackages [fastembed]: Remove: archive file [/home/abi/fetcher/tmp/fastembed-0.2.6.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - main [MainThread]: End processing [fastembed]: success
+[2024-04-01 17:26:24] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-01 17:26:24] INFO root fetch - processPackages [earthstat]: Remove: archive file [/home/abi/fetcher/tmp/earthstat-0.7.0.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - processPackages [earthstat]: Remove: archive file [/home/abi/fetcher/tmp/earthstat-0.8.0.tar.gz]
+[2024-04-01 17:26:24] INFO root fetch - main [MainThread]: End processing [earthstat]: success
+[2024-04-01 17:26:24] INFO root fetch - main [MainThread]: Store serial: [22571156]
