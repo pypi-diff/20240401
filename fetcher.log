@@ -2118,3 +2118,42 @@ EOFError: EOF read where object expected
 [2024-04-01 13:26:23] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev2.tar.gz]
 [2024-04-01 13:26:23] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
 [2024-04-01 13:26:23] INFO root fetch - main [MainThread]: Store serial: [22568635]
+[2024-04-01 13:28:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568635]
+[2024-04-01 13:28:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 13:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phenomApis
+[2024-04-01 13:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cvutils-IGNchinmay
+[2024-04-01 13:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airportsdata
+[2024-04-01 13:28:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-04-01 13:28:52] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 13:28:52] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:28:52] INFO root fetch - processPackages [cvutils-IGNchinmay]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 13:28:52] INFO root fetch - processPackages [airportsdata]: New version: [20240401] Old Version: [20240316.1]
+[2024-04-01 13:28:52] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-04-01 13:28:52] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:28:53] INFO root fetch - processPackages [cvutils-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/2c/ba/f0a54e180d90b458c6e9c6358ca78f9a9601bb33c3209b65ba58dac0b753/cvutils_IGNchinmay-0.0.2.tar.gz
+[2024-04-01 13:28:53] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/e2/b5/63c7671cae2f39045aa873ff63776623322723beb0f05b74a292b5a7ace9/airportsdata-20240316.1.tar.gz
+[2024-04-01 13:28:53] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-04-01 13:28:53] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:28:53] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-04-01 13:28:53] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240401/p/phenomApis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:28:53] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:28:53] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:28:53] INFO root fetch - processPackages [cvutils-IGNchinmay]: Downloading https://files.pythonhosted.org/packages/d5/5c/da774f2f3a2c5d166d7e202229040024f0ad21ad1d47703d620b16c4c215/cvutils_IGNchinmay-0.0.3.tar.gz
+[2024-04-01 13:28:53] INFO root fetch - processPackages [cvutils-IGNchinmay]: executing diffoscope
+[2024-04-01 13:28:53] INFO root fetch - processPackages [cvutils-IGNchinmay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvutils_IGNchinmay-0.0.2.tar.gz tmp/cvutils_IGNchinmay-0.0.3.tar.gz --markdown 20240401/c/cvutils-IGNchinmay/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 13:28:53] INFO root fetch - processPackages [airportsdata]: Downloading https://files.pythonhosted.org/packages/d0/22/227a5d50907617385be6968511710d71848bb973f58717e0cb1a40d53cbf/airportsdata-20240401.tar.gz
+[2024-04-01 13:28:53] INFO root fetch - processPackages [airportsdata]: executing diffoscope
+[2024-04-01 13:28:53] INFO root fetch - processPackages [airportsdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airportsdata-20240316.1.tar.gz tmp/airportsdata-20240401.tar.gz --markdown 20240401/a/airportsdata/20240316.1-20240401/diff.md --exclude *.pyd
+[2024-04-01 13:28:54] INFO root fetch - processPackages [cvutils-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/cvutils_IGNchinmay-0.0.2.tar.gz]
+[2024-04-01 13:28:54] INFO root fetch - processPackages [cvutils-IGNchinmay]: Remove: archive file [/home/abi/fetcher/tmp/cvutils_IGNchinmay-0.0.3.tar.gz]
+[2024-04-01 13:28:54] INFO root fetch - main [MainThread]: End processing [cvutils-IGNchinmay]: success
+[2024-04-01 13:28:54] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-04-01 13:28:54] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-04-01 13:28:54] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-04-01 13:28:54] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:28:54] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:28:54] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:28:56] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240316.1.tar.gz]
+[2024-04-01 13:28:56] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240401.tar.gz]
+[2024-04-01 13:28:56] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
+[2024-04-01 13:28:56] INFO root fetch - main [MainThread]: Store serial: [22568648]
