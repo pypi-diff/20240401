@@ -10359,3 +10359,24 @@ EOFError: EOF read where object expected
 [2024-04-01 19:05:40] INFO root fetch - processPackages [acquire-imaging]: Remove: archive file [/home/abi/fetcher/tmp/acquire_imaging-0.3.0rc5-cp38-abi3-win_amd64.whl.zip]
 [2024-04-01 19:05:40] INFO root fetch - main [MainThread]: End processing [acquire-imaging]: success
 [2024-04-01 19:05:40] INFO root fetch - main [MainThread]: Store serial: [22572523]
+[2024-04-01 19:07:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572523]
+[2024-04-01 19:07:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 19:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alas-ce0-client
+[2024-04-01 19:07:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordslab-llms
+[2024-04-01 19:07:54] INFO root fetch - processPackages [wordslab-llms]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 19:07:54] INFO root fetch - processPackages [wordslab-llms]: Downloading https://files.pythonhosted.org/packages/df/42/87ad704c58cbd642fd4c4c35033fcda6987c9844644aa7ef2388d3b88b62/wordslab_llms-0.0.1.tar.gz
+[2024-04-01 19:07:54] INFO root fetch - processPackages [alas-ce0-client]: New version: [5.0.78] Old Version: [4.0.9]
+[2024-04-01 19:07:54] INFO root fetch - processPackages [wordslab-llms]: Downloading https://files.pythonhosted.org/packages/3b/ea/7d1db5528b563f8177f0b17f3693c7c4862ed207906a62d41b74d48247c9/wordslab_llms-0.0.2.tar.gz
+[2024-04-01 19:07:54] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/a0/15/77351f4f5e9646f6cf6c8190140b46c7cbdc3282b903dd85a4da03e46df1/alas-ce0-client-4.0.9.tar.gz
+[2024-04-01 19:07:55] INFO root fetch - processPackages [wordslab-llms]: executing diffoscope
+[2024-04-01 19:07:55] INFO root fetch - processPackages [wordslab-llms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordslab_llms-0.0.1.tar.gz tmp/wordslab_llms-0.0.2.tar.gz --markdown 20240401/w/wordslab-llms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 19:07:55] INFO root fetch - processPackages [alas-ce0-client]: Downloading https://files.pythonhosted.org/packages/91/80/65355680388269809ebda517c877bfbde9f1dd114bafa09c2674ec867245/alas-ce0-client-5.0.78.tar.gz
+[2024-04-01 19:07:55] INFO root fetch - processPackages [alas-ce0-client]: executing diffoscope
+[2024-04-01 19:07:55] INFO root fetch - processPackages [alas-ce0-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alas-ce0-client-4.0.9.tar.gz tmp/alas-ce0-client-5.0.78.tar.gz --markdown 20240401/a/alas-ce0-client/4.0.9-5.0.78/diff.md --exclude *.pyd
+[2024-04-01 19:07:55] INFO root fetch - processPackages [wordslab-llms]: Remove: archive file [/home/abi/fetcher/tmp/wordslab_llms-0.0.1.tar.gz]
+[2024-04-01 19:07:55] INFO root fetch - processPackages [wordslab-llms]: Remove: archive file [/home/abi/fetcher/tmp/wordslab_llms-0.0.2.tar.gz]
+[2024-04-01 19:07:55] INFO root fetch - main [MainThread]: End processing [wordslab-llms]: success
+[2024-04-01 19:07:56] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-4.0.9.tar.gz]
+[2024-04-01 19:07:56] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-5.0.78.tar.gz]
+[2024-04-01 19:07:56] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
+[2024-04-01 19:07:56] INFO root fetch - main [MainThread]: Store serial: [22572533]
