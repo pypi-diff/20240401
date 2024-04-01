@@ -14050,3 +14050,99 @@ EOFError: EOF read where object expected
 [2024-04-01 21:50:45] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.6.0rc1.tar.gz]
 [2024-04-01 21:50:45] INFO root fetch - main [MainThread]: End processing [yfinance-cache]: success
 [2024-04-01 21:50:45] INFO root fetch - main [MainThread]: Store serial: [22574279]
+[2024-04-01 21:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574279]
+[2024-04-01 21:52:54] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenCasting
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitk
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cybrid-api-organization-python
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: edx-celeryutils
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataflows
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langserve
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dask-expr
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-bank-python
+[2024-04-01 21:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agogos
+[2024-04-01 21:52:55] INFO root fetch - processPackages [aitk]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-04-01 21:52:55] WARNING root fetch - processPackages [GenCasting]: Skipping, unable to determine old version
+[2024-04-01 21:52:55] INFO root fetch - processPackages [GenCasting]: Start processing: user-context-remote
+[2024-04-01 21:52:55] INFO root fetch - main [MainThread]: End processing [GenCasting] error
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [aitk]: Downloading https://files.pythonhosted.org/packages/0a/41/1b23fd33302b853491c3ac132de48165c5ec8af6d042d6b0a5e62b612e4e/aitk-1.0.9-py3-none-any.whl
+[2024-04-01 21:52:55] INFO root fetch - processPackages [edx-celeryutils]: New version: [1.3.0] Old Version: [1.2.5]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [agogos]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dask-expr]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [langserve]: New version: [0.1.0rc1] Old Version: [0.0.9]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dataflows]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.65] Old Version: [0.0.64]
+[2024-04-01 21:52:55] INFO root fetch - processPackages [edx-celeryutils]: Downloading https://files.pythonhosted.org/packages/24/42/10a9708f02795079482d369318b269d1b38b60a1fa7cc35a7ccf79e21cbf/edx-celeryutils-1.2.5.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/a5/35/d494f794c897c690b0c81a10d44d32afc11edd24806e809444bb79fc3b58/agogos-0.3.2.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [aitk]: Downloading https://files.pythonhosted.org/packages/0f/ae/14c579711bc76a33a75d6b5d27d2e92a78351931c87b084309c330f68ee2/aitk-2.0.0-py3-none-any.whl
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dask-expr]: Downloading https://files.pythonhosted.org/packages/5d/47/6ff8d8967ddd1d7a57c45c7fe058e4375005f6c7a90f30e4157097871b47/dask-expr-1.0.5.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [langserve]: Downloading https://files.pythonhosted.org/packages/e3/e3/b07fd11dc38a8f58347c2bcc209990a575f41a2648a7efda8c0441b01ad5/langserve-0.0.9.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/2a/b4/fe942525354d9b7539aaff40a83725b65a98d53295a3fa1ecdf926129ae1/dataflows-0.5.4.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/55/72/8d7a2ca42ed89068f8eefb855201642c509c7e722d2a1b9d903596ecf3fd/user-context-remote-0.0.64.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [aitk]: executing diffoscope
+[2024-04-01 21:52:55] INFO root fetch - processPackages [aitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitk-1.0.9-py3-none-any.whl.zip tmp/aitk-2.0.0-py3-none-any.whl.zip --markdown 20240401/a/aitk/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 21:52:55] INFO root fetch - processPackages [edx-celeryutils]: Downloading https://files.pythonhosted.org/packages/d8/0b/c1a2ae3d19917f5e71ac85efedfdfba17d30212f41397d805b6f5bd81a50/edx-celeryutils-1.3.0.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240401/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240401/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 21:52:55] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/e8/75/7b58e8a6f8c21d1b850f6d31e0bb1a9abe6069c39544dc2e9d988a08c151/agogos-0.3.3.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [langserve]: Downloading https://files.pythonhosted.org/packages/09/95/29cff9f71da5e397d219c418e8fab0ed383513371b1124ba342af9cd1dc2/langserve-0.1.0rc1.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dataflows]: Downloading https://files.pythonhosted.org/packages/66/b9/77473354f017186817c9be060a1617685f33f0f7cf4235a51c89be658e92/dataflows-0.5.5.tar.gz
+[2024-04-01 21:52:55] INFO root fetch - processPackages [dask-expr]: Downloading https://files.pythonhosted.org/packages/9a/3f/49d6d5ebc51e1f1c38f48be1adaa4310b8fe45063dc9738008ae52d3653b/dask-expr-1.0.6.tar.gz
+[2024-04-01 21:52:56] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/53/ee/2edf65f1b574e74c41d05c636879b6af451169941c66904b9467eb75f76e/user-context-remote-0.0.65.tar.gz
+[2024-04-01 21:52:56] INFO root fetch - processPackages [edx-celeryutils]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [edx-celeryutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-celeryutils-1.2.5.tar.gz tmp/edx-celeryutils-1.3.0.tar.gz --markdown 20240401/e/edx-celeryutils/1.2.5-1.3.0/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [agogos]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [agogos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agogos-0.3.2.tar.gz tmp/agogos-0.3.3.tar.gz --markdown 20240401/a/agogos/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [dataflows]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [dataflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataflows-0.5.4.tar.gz tmp/dataflows-0.5.5.tar.gz --markdown 20240401/d/dataflows/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [dask-expr]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [dask-expr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-expr-1.0.5.tar.gz tmp/dask-expr-1.0.6.tar.gz --markdown 20240401/d/dask-expr/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240401/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [langserve]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [langserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langserve-0.0.9.tar.gz tmp/langserve-0.1.0rc1.tar.gz --markdown 20240401/l/langserve/0.0.9-0.1.0rc1/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-01 21:52:56] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.64.tar.gz tmp/user-context-remote-0.0.65.tar.gz --markdown 20240401/u/user-context-remote/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2024-04-01 21:52:56] INFO root fetch - processPackages [aitk]: Remove: archive file [/home/abi/fetcher/tmp/aitk-1.0.9-py3-none-any.whl.zip]
+[2024-04-01 21:52:56] INFO root fetch - processPackages [aitk]: Remove: archive file [/home/abi/fetcher/tmp/aitk-2.0.0-py3-none-any.whl.zip]
+[2024-04-01 21:52:56] INFO root fetch - main [MainThread]: End processing [aitk]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [edx-celeryutils]: Remove: archive file [/home/abi/fetcher/tmp/edx-celeryutils-1.2.5.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [edx-celeryutils]: Remove: archive file [/home/abi/fetcher/tmp/edx-celeryutils-1.3.0.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [edx-celeryutils]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.3.2.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.3.3.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [agogos]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [dataflows]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-0.5.4.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [dataflows]: Remove: archive file [/home/abi/fetcher/tmp/dataflows-0.5.5.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [dataflows]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.64.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.65.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [langserve]: Remove: archive file [/home/abi/fetcher/tmp/langserve-0.0.9.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [langserve]: Remove: archive file [/home/abi/fetcher/tmp/langserve-0.1.0rc1.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [langserve]: success
+[2024-04-01 21:52:57] INFO root fetch - processPackages [dask-expr]: Remove: archive file [/home/abi/fetcher/tmp/dask-expr-1.0.5.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - processPackages [dask-expr]: Remove: archive file [/home/abi/fetcher/tmp/dask-expr-1.0.6.tar.gz]
+[2024-04-01 21:52:57] INFO root fetch - main [MainThread]: End processing [dask-expr]: success
+[2024-04-01 21:52:58] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-01 21:52:58] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-01 21:52:58] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-01 21:52:58] INFO root fetch - main [MainThread]: Store serial: [22574311]
