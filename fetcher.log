@@ -12711,3 +12711,42 @@ EOFError: EOF read where object expected
 [2024-04-01 20:46:45] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.6.0.tar.gz]
 [2024-04-01 20:46:45] INFO root fetch - main [MainThread]: End processing [blosc2]: success
 [2024-04-01 20:46:45] INFO root fetch - main [MainThread]: Store serial: [22573694]
+[2024-04-01 20:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573694]
+[2024-04-01 20:48:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 20:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sphinxcontrib-tikz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tksheet
+[2024-04-01 20:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: creyPY
+[2024-04-01 20:48:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: typos
+[2024-04-01 20:48:56] INFO root fetch - processPackages [creyPY]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-04-01 20:48:56] INFO root fetch - processPackages [sphinxcontrib-tikz]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-01 20:48:56] INFO root fetch - processPackages [tksheet]: New version: [7.1.6] Old Version: [7.1.5]
+[2024-04-01 20:48:56] INFO root fetch - processPackages [typos]: New version: [1.20.0] Old Version: [1.19.0]
+[2024-04-01 20:48:56] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/91/67/82f5925b0c58d9cc672d486421d52e3c03bcea853081fcb4ca56399c3249/creyPY-0.0.9.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [sphinxcontrib-tikz]: Downloading https://files.pythonhosted.org/packages/89/14/556af4439a88e3de2a0c6b86e896e00dea790b5f176aa9218078b8445f2b/sphinxcontrib-tikz-0.4.8.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/41/57/d5760be5160be3f87b2910c5f6a18f1871228d898535fe98ad2db01ee441/tksheet-7.1.5.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/e8/8c/5c2e1300c2cbaefaf988e51413e5f01230af03679746eac65b8bce5f0efd/typos-1.19.0.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [sphinxcontrib-tikz]: Downloading https://files.pythonhosted.org/packages/46/c3/a453ad165cc897d552ae6d50416059f20f7dc6a4f8a5f30ddb3d0d4708d1/sphinxcontrib-tikz-0.4.9.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/c7/22/e0b625c6d32d95bbc4119106c3afc205eb66554e42b76320d50e2553bcab/creyPY-0.1.1.tar.gz
+[2024-04-01 20:48:56] INFO root fetch - processPackages [tksheet]: Downloading https://files.pythonhosted.org/packages/e5/e6/c346ac33f4c28048ec9b1f2a2f1f2acb457cd76d6c812bd14e31118270ea/tksheet-7.1.6.tar.gz
+[2024-04-01 20:48:57] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 20:48:57] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.9.tar.gz tmp/creyPY-0.1.1.tar.gz --markdown 20240401/c/creyPY/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 20:48:57] INFO root fetch - processPackages [sphinxcontrib-tikz]: executing diffoscope
+[2024-04-01 20:48:57] INFO root fetch - processPackages [sphinxcontrib-tikz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxcontrib-tikz-0.4.8.tar.gz tmp/sphinxcontrib-tikz-0.4.9.tar.gz --markdown 20240401/s/sphinxcontrib-tikz/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-01 20:48:57] INFO root fetch - processPackages [tksheet]: executing diffoscope
+[2024-04-01 20:48:57] INFO root fetch - processPackages [tksheet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tksheet-7.1.5.tar.gz tmp/tksheet-7.1.6.tar.gz --markdown 20240401/t/tksheet/7.1.5-7.1.6/diff.md --exclude *.pyd
+[2024-04-01 20:48:57] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/aa/72/aa2daa17c6e1c03fbe04ac265f0cc3c037daabc7de313ab8918a5749c1e1/typos-1.20.0-py3-none-macosx_11_0_arm64.whl
+[2024-04-01 20:48:57] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.9.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.1.1.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 20:48:57] INFO root fetch - processPackages [sphinxcontrib-tikz]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-tikz-0.4.8.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - processPackages [sphinxcontrib-tikz]: Remove: archive file [/home/abi/fetcher/tmp/sphinxcontrib-tikz-0.4.9.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - main [MainThread]: End processing [sphinxcontrib-tikz]: success
+[2024-04-01 20:48:57] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.5.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - processPackages [tksheet]: Remove: archive file [/home/abi/fetcher/tmp/tksheet-7.1.6.tar.gz]
+[2024-04-01 20:48:57] INFO root fetch - main [MainThread]: End processing [tksheet]: success
+[2024-04-01 20:48:59] INFO root fetch - processPackages [typos]: executing diffoscope
+[2024-04-01 20:48:59] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.19.0.tar.gz tmp/typos-1.20.0-py3-none-macosx_11_0_arm64.whl.zip --markdown 20240401/t/typos/1.19.0-1.20.0/diff.md --exclude *.pyd
+[2024-04-01 20:49:00] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.19.0.tar.gz]
+[2024-04-01 20:49:00] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.0-py3-none-macosx_11_0_arm64.whl.zip]
+[2024-04-01 20:49:00] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2024-04-01 20:49:00] INFO root fetch - main [MainThread]: Store serial: [22573704]
