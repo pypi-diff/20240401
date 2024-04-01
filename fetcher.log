@@ -2352,3 +2352,72 @@ EOFError: EOF read where object expected
 [2024-04-01 13:38:50] INFO root fetch - processPackages [gaea-paddleclas]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddleclas-2.5.0.1-py3-none-any.whl.zip]
 [2024-04-01 13:38:50] INFO root fetch - main [MainThread]: End processing [gaea-paddleclas]: success
 [2024-04-01 13:38:50] INFO root fetch - main [MainThread]: Store serial: [22568722]
+[2024-04-01 13:41:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568722]
+[2024-04-01 13:41:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickfin
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ipex-llm
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upc-pymotion
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ro-account-edi-ubl
+[2024-04-01 13:41:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firebatch
+[2024-04-01 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eevee-chat
+[2024-04-01 13:41:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nested-chat-plugin-sdk
+[2024-04-01 13:41:18] WARNING root fetch - processPackages [quickfin]: Skipping, unable to determine old version
+[2024-04-01 13:41:18] INFO root fetch - main [MainThread]: End processing [quickfin] error
+[2024-04-01 13:41:18] INFO root fetch - processPackages [firebatch]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [upc-pymotion]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [ipex-llm]: New version: [2.1.0b20240401] Old Version: [2.1.0b20240331]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [firebatch]: Downloading https://files.pythonhosted.org/packages/f6/a4/8d76b11a57cb945b9821c56cb054bde2b3fb27844bb5e399d19acbe77626/firebatch-1.0.1.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: New version: [16.0.1.46.0] Old Version: [16.0.1.45.0]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [eevee-chat]: New version: [0.0.2] Old Version: [0.0.1.post1]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [nested-chat-plugin-sdk]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-01 13:41:18] INFO root fetch - processPackages [upc-pymotion]: Downloading https://files.pythonhosted.org/packages/2f/1a/f4eefa012aac23106d961309abee6ad0d5371aa187c4c29f6e76755d8d96/upc_pymotion-0.1.1.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:41:18] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/3d/6c/faefb27c9a54b249b589a3aff50bab9ff7254e4a29710e1c83fd9a4219be/ipex_llm-2.1.0b20240331-py3-none-win_amd64.whl
+[2024-04-01 13:41:18] INFO root fetch - processPackages [firebatch]: Downloading https://files.pythonhosted.org/packages/85/ed/30a0bde9bfa023b75edec629b9c2f2da1df780d6eb1199c43600f8198d40/firebatch-1.1.0.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [nested-chat-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/37/67/6be0a795348ad3c7650215e63a06014b003a700301fa3d9b26f43465a570/nested_chat_plugin_sdk-0.1.6.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/37/3a/fe625884be0080e86273b953bb3b6bcce789b324a52d042ea8532bfc0b5e/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl
+[2024-04-01 13:41:18] INFO root fetch - processPackages [eevee-chat]: Downloading https://files.pythonhosted.org/packages/b9/d6/b6d61995a65c608a444d2729639e573b27fb0204a6da6ea7821ba1ad3a87/eevee-chat-0.0.1.post1.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:41:18] INFO root fetch - processPackages [firebatch]: executing diffoscope
+[2024-04-01 13:41:18] INFO root fetch - processPackages [firebatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebatch-1.0.1.tar.gz tmp/firebatch-1.1.0.tar.gz --markdown 20240401/f/firebatch/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 13:41:18] INFO root fetch - processPackages [upc-pymotion]: Downloading https://files.pythonhosted.org/packages/6a/8b/51fc7f56d872748794bfd07849a60316d5d4809656caa317b424bf791070/upc_pymotion-0.1.2.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:41:18] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:41:18] INFO root fetch - processPackages [upc-pymotion]: executing diffoscope
+[2024-04-01 13:41:18] INFO root fetch - processPackages [upc-pymotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upc_pymotion-0.1.1.tar.gz tmp/upc_pymotion-0.1.2.tar.gz --markdown 20240401/u/upc-pymotion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 13:41:18] INFO root fetch - processPackages [eevee-chat]: Downloading https://files.pythonhosted.org/packages/7a/27/00ed382b11487277dc5226d63927f4f54b1d6ad1ea8c89cd355b3bffd83e/eevee-chat-0.0.2.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [nested-chat-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/bf/7c/c5b822865bc0f558ff83c047b7409137f720fad5aa34ad6b1653a6814ece/nested_chat_plugin_sdk-0.1.7.tar.gz
+[2024-04-01 13:41:18] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Downloading https://files.pythonhosted.org/packages/62/34/147484d147de690882d316ad399bc8e7d2cdd5dcda24e8da1b320db92726/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl
+[2024-04-01 13:41:19] INFO root fetch - processPackages [eevee-chat]: executing diffoscope
+[2024-04-01 13:41:19] INFO root fetch - processPackages [eevee-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eevee-chat-0.0.1.post1.tar.gz tmp/eevee-chat-0.0.2.tar.gz --markdown 20240401/e/eevee-chat/0.0.1.post1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 13:41:19] INFO root fetch - processPackages [nested-chat-plugin-sdk]: executing diffoscope
+[2024-04-01 13:41:19] INFO root fetch - processPackages [nested-chat-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nested_chat_plugin_sdk-0.1.6.tar.gz tmp/nested_chat_plugin_sdk-0.1.7.tar.gz --markdown 20240401/n/nested-chat-plugin-sdk/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 13:41:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: executing diffoscope
+[2024-04-01 13:41:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl.zip --markdown 20240401/o/odoo-addon-l10n-ro-account-edi-ubl/16.0.1.45.0-16.0.1.46.0/diff.md --exclude *.pyd
+[2024-04-01 13:41:19] INFO root fetch - processPackages [ipex-llm]: Downloading https://files.pythonhosted.org/packages/b3/4c/cd667732479b8fd46a41758c9af68db84e6405937acfe7429c99d66f8527/ipex_llm-2.1.0b20240401-py3-none-win_amd64.whl
+[2024-04-01 13:41:19] INFO root fetch - processPackages [firebatch]: Remove: archive file [/home/abi/fetcher/tmp/firebatch-1.0.1.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - processPackages [firebatch]: Remove: archive file [/home/abi/fetcher/tmp/firebatch-1.1.0.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - main [MainThread]: End processing [firebatch]: success
+[2024-04-01 13:41:19] INFO root fetch - processPackages [ipex-llm]: executing diffoscope
+[2024-04-01 13:41:19] INFO root fetch - processPackages [ipex-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipex_llm-2.1.0b20240331-py3-none-win_amd64.whl.zip tmp/ipex_llm-2.1.0b20240401-py3-none-win_amd64.whl.zip --markdown 20240401/i/ipex-llm/2.1.0b20240331-2.1.0b20240401/diff.md --exclude *.pyd
+[2024-04-01 13:41:19] INFO root fetch - processPackages [upc-pymotion]: Remove: archive file [/home/abi/fetcher/tmp/upc_pymotion-0.1.1.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - processPackages [upc-pymotion]: Remove: archive file [/home/abi/fetcher/tmp/upc_pymotion-0.1.2.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - main [MainThread]: End processing [upc-pymotion]: success
+[2024-04-01 13:41:19] INFO root fetch - processPackages [eevee-chat]: Remove: archive file [/home/abi/fetcher/tmp/eevee-chat-0.0.1.post1.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - processPackages [eevee-chat]: Remove: archive file [/home/abi/fetcher/tmp/eevee-chat-0.0.2.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - main [MainThread]: End processing [eevee-chat]: success
+[2024-04-01 13:41:19] INFO root fetch - processPackages [nested-chat-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nested_chat_plugin_sdk-0.1.6.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - processPackages [nested-chat-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nested_chat_plugin_sdk-0.1.7.tar.gz]
+[2024-04-01 13:41:19] INFO root fetch - main [MainThread]: End processing [nested-chat-plugin-sdk]: success
+[2024-04-01 13:41:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.45.0-py3-none-any.whl.zip]
+[2024-04-01 13:41:19] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-edi-ubl]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_edi_ubl-16.0.1.46.0-py3-none-any.whl.zip]
+[2024-04-01 13:41:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-edi-ubl]: success
+[2024-04-01 13:41:20] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:41:20] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:41:20] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:41:46] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240331-py3-none-win_amd64.whl.zip]
+[2024-04-01 13:41:46] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240401-py3-none-win_amd64.whl.zip]
+[2024-04-01 13:41:46] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
+[2024-04-01 13:41:46] INFO root fetch - main [MainThread]: Store serial: [22568744]
