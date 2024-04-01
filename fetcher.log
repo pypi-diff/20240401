@@ -11693,3 +11693,72 @@ EOFError: EOF read where object expected
 [2024-04-01 20:04:47] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.1-py3-none-any.whl.zip]
 [2024-04-01 20:04:47] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-01 20:04:47] INFO root fetch - main [MainThread]: Store serial: [22573182]
+[2024-04-01 20:06:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573182]
+[2024-04-01 20:06:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ScopusApyJson
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlimputer
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider-nightly
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: profiles-rudderstack
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dagster-meltano
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: recce-nightly
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pinjet
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: easyapi-django
+[2024-04-01 20:06:56] INFO root fetch - processPackages [mlimputer]: New version: [1.0.6] Old Version: [1.0.55]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ScopusApyJson]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [dagster-meltano]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-04-01 20:06:56] WARNING root fetch - processPackages [pinjet]: Skipping, unable to determine old version
+[2024-04-01 20:06:56] INFO root fetch - main [MainThread]: End processing [pinjet] error
+[2024-04-01 20:06:56] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [piperider-nightly]: New version: [0.9.0.20220921] Old Version: [0.9.0.20220920]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [recce-nightly]: New version: [0.9.0.20240313] Old Version: [0.9.0.20240312]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [easyapi-django]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:06:56] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/91/11/fca7db62af1cf548217867f454006b25e6b207c39adfb4ba36ec6f088b9b/mlimputer-1.0.55-py3-none-any.whl
+[2024-04-01 20:06:56] INFO root fetch - processPackages [ScopusApyJson]: Downloading https://files.pythonhosted.org/packages/4f/27/c9945a3669bd6513fa082efce0f47782ae8c0330bded325abd37815a0a5d/ScopusApyJson-1.0.0.tar.gz
+[2024-04-01 20:06:56] INFO root fetch - processPackages [dagster-meltano]: Downloading https://files.pythonhosted.org/packages/69/dd/5858ae4a5ffc7a0da8ba03bb7fb001acb0d6cd62f617ddb235109a2c637d/dagster_meltano-1.5.3.tar.gz
+[2024-04-01 20:06:56] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/95/97/64761d67cfe8069c67b7539134b24dcf170efd4dd29941c63fcf812e485c/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl
+[2024-04-01 20:06:56] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/ed/93/38dc4b24d947f1ec271781bdb47a50b77ff762d7a701730c6786ca4ec303/piperider-nightly-0.9.0.20220920.tar.gz
+[2024-04-01 20:06:56] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/c6/8c/cde0615abf888d0ccade0e1fc90482c4c402fedef38bf8fb00d1202e6ad2/recce-nightly-0.9.0.20240312.tar.gz
+[2024-04-01 20:06:56] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/09/0a6b31ed99ff9e717b38e2df00ebdc3e4db5e87f43f04a96d487c3ebf61e/easyapi_django-0.0.8.tar.gz
+[2024-04-01 20:06:57] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/20/f7/cf3cf2391a2d3f55d31a62dbb9c876ad0a9e05c5cc57f8426ab7b071aade/mlimputer-1.0.6-py3-none-any.whl
+[2024-04-01 20:06:57] INFO root fetch - processPackages [ScopusApyJson]: Downloading https://files.pythonhosted.org/packages/9f/c9/871b9f260d3d2f8d68006174b4312d4ea72b9a6a9554f89cd35c83140b7a/ScopusApyJson-1.1.0.tar.gz
+[2024-04-01 20:06:57] INFO root fetch - processPackages [dagster-meltano]: Downloading https://files.pythonhosted.org/packages/e3/56/e6094a6b51974a00b9bb48ff47c4d19b028e7456edf81867151ebfa4144f/dagster_meltano-1.5.4.tar.gz
+[2024-04-01 20:06:57] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/39/b7/6e7ce9481e261a834d0c894750e013daf1a82db51bb1d6162613963ab427/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl
+[2024-04-01 20:06:57] INFO root fetch - processPackages [mlimputer]: executing diffoscope
+[2024-04-01 20:06:57] INFO root fetch - processPackages [mlimputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlimputer-1.0.55-py3-none-any.whl.zip tmp/mlimputer-1.0.6-py3-none-any.whl.zip --markdown 20240401/m/mlimputer/1.0.55-1.0.6/diff.md --exclude *.pyd
+[2024-04-01 20:06:57] INFO root fetch - processPackages [ScopusApyJson]: executing diffoscope
+[2024-04-01 20:06:57] INFO root fetch - processPackages [ScopusApyJson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScopusApyJson-1.0.0.tar.gz tmp/ScopusApyJson-1.1.0.tar.gz --markdown 20240401/S/ScopusApyJson/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 20:06:57] INFO root fetch - processPackages [easyapi-django]: Downloading https://files.pythonhosted.org/packages/95/62/c460ae663ba5b8e9d71d071d3ec9427fbf583cfffe09c89d267e24fe810f/easyapi_django-0.0.9.tar.gz
+[2024-04-01 20:06:57] INFO root fetch - processPackages [dagster-meltano]: executing diffoscope
+[2024-04-01 20:06:57] INFO root fetch - processPackages [dagster-meltano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_meltano-1.5.3.tar.gz tmp/dagster_meltano-1.5.4.tar.gz --markdown 20240401/d/dagster-meltano/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2024-04-01 20:06:57] INFO root fetch - processPackages [easyapi-django]: executing diffoscope
+[2024-04-01 20:06:57] INFO root fetch - processPackages [easyapi-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyapi_django-0.0.8.tar.gz tmp/easyapi_django-0.0.9.tar.gz --markdown 20240401/e/easyapi-django/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:06:57] INFO root fetch - processPackages [profiles-rudderstack]: executing diffoscope
+[2024-04-01 20:06:57] INFO root fetch - processPackages [profiles-rudderstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip --markdown 20240401/p/profiles-rudderstack/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-01 20:06:57] INFO root fetch - processPackages [ScopusApyJson]: Remove: archive file [/home/abi/fetcher/tmp/ScopusApyJson-1.0.0.tar.gz]
+[2024-04-01 20:06:57] INFO root fetch - processPackages [ScopusApyJson]: Remove: archive file [/home/abi/fetcher/tmp/ScopusApyJson-1.1.0.tar.gz]
+[2024-04-01 20:06:57] INFO root fetch - main [MainThread]: End processing [ScopusApyJson]: success
+[2024-04-01 20:06:57] INFO root fetch - processPackages [mlimputer]: Remove: archive file [/home/abi/fetcher/tmp/mlimputer-1.0.55-py3-none-any.whl.zip]
+[2024-04-01 20:06:57] INFO root fetch - processPackages [mlimputer]: Remove: archive file [/home/abi/fetcher/tmp/mlimputer-1.0.6-py3-none-any.whl.zip]
+[2024-04-01 20:06:57] INFO root fetch - main [MainThread]: End processing [mlimputer]: success
+[2024-04-01 20:06:58] INFO root fetch - processPackages [recce-nightly]: Downloading https://files.pythonhosted.org/packages/52/11/d0c59f6609b46f5766293823d2b30e4fd872dbea146425e2d959b41a44a4/recce-nightly-0.9.0.20240313.tar.gz
+[2024-04-01 20:06:58] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.8.tar.gz]
+[2024-04-01 20:06:58] INFO root fetch - processPackages [easyapi-django]: Remove: archive file [/home/abi/fetcher/tmp/easyapi_django-0.0.9.tar.gz]
+[2024-04-01 20:06:58] INFO root fetch - main [MainThread]: End processing [easyapi-django]: success
+[2024-04-01 20:06:58] INFO root fetch - processPackages [dagster-meltano]: Remove: archive file [/home/abi/fetcher/tmp/dagster_meltano-1.5.3.tar.gz]
+[2024-04-01 20:06:58] INFO root fetch - processPackages [dagster-meltano]: Remove: archive file [/home/abi/fetcher/tmp/dagster_meltano-1.5.4.tar.gz]
+[2024-04-01 20:06:58] INFO root fetch - main [MainThread]: End processing [dagster-meltano]: success
+[2024-04-01 20:06:58] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.3-py3-none-win_amd64.whl.zip]
+[2024-04-01 20:06:58] INFO root fetch - processPackages [profiles-rudderstack]: Remove: archive file [/home/abi/fetcher/tmp/profiles_rudderstack-0.9.4-py3-none-win_amd64.whl.zip]
+[2024-04-01 20:06:58] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack]: success
+[2024-04-01 20:06:58] INFO root fetch - processPackages [recce-nightly]: executing diffoscope
+[2024-04-01 20:06:58] INFO root fetch - processPackages [recce-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recce-nightly-0.9.0.20240312.tar.gz tmp/recce-nightly-0.9.0.20240313.tar.gz --markdown 20240401/r/recce-nightly/0.9.0.20240312-0.9.0.20240313/diff.md --exclude *.pyd
+[2024-04-01 20:06:58] INFO root fetch - processPackages [piperider-nightly]: Downloading https://files.pythonhosted.org/packages/a4/47/99354233feb8a6a201731f0992c5656ca2eb5728a26eae7fd09fc5e04b4c/piperider-nightly-0.9.0.20220921.tar.gz
+[2024-04-01 20:07:00] INFO root fetch - processPackages [piperider-nightly]: executing diffoscope
+[2024-04-01 20:07:00] INFO root fetch - processPackages [piperider-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-nightly-0.9.0.20220920.tar.gz tmp/piperider-nightly-0.9.0.20220921.tar.gz --markdown 20240401/p/piperider-nightly/0.9.0.20220920-0.9.0.20220921/diff.md --exclude *.pyd
+[2024-04-01 20:07:00] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240312.tar.gz]
+[2024-04-01 20:07:00] INFO root fetch - processPackages [recce-nightly]: Remove: archive file [/home/abi/fetcher/tmp/recce-nightly-0.9.0.20240313.tar.gz]
+[2024-04-01 20:07:00] INFO root fetch - main [MainThread]: End processing [recce-nightly]: success
+[2024-04-01 20:07:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220920.tar.gz]
+[2024-04-01 20:07:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
+[2024-04-01 20:07:01] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
+[2024-04-01 20:07:01] INFO root fetch - main [MainThread]: Store serial: [22573208]
