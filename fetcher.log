@@ -7005,3 +7005,41 @@ EOFError: EOF read where object expected
 [2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: Remove: archive file [/home/abi/fetcher/tmp/dash-cognito-auth-0.0.3.tar.gz]
 [2024-04-01 17:01:59] INFO root fetch - main [MainThread]: End processing [dash-cognito-auth]: success
 [2024-04-01 17:01:59] INFO root fetch - main [MainThread]: Store serial: [22570882]
+[2024-04-01 17:04:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570882]
+[2024-04-01 17:04:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: natali-cart-project
+[2024-04-01 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zha
+[2024-04-01 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydwca
+[2024-04-01 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qodex-cameras
+[2024-04-01 17:04:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataframes-haystack
+[2024-04-01 17:04:09] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.6] Old Version: [2.1.5]
+[2024-04-01 17:04:09] INFO root fetch - processPackages [pydwca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 17:04:09] INFO root fetch - processPackages [dataframes-haystack]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-01 17:04:09] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/4c/f2/68e57682d03240c7e4b7c5c1e81c82efc87622eb9bef7e93b15bf921e520/qodex_cameras-2.1.5-py3-none-any.whl
+[2024-04-01 17:04:09] INFO root fetch - processPackages [pydwca]: Downloading https://files.pythonhosted.org/packages/2f/19/8f65faa78b79432abada531517765eb8326f43df0c80405cca219915e2ac/pydwca-0.0.8.tar.gz
+[2024-04-01 17:04:09] INFO root fetch - processPackages [zha]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 17:04:09] WARNING root fetch - processPackages [natali-cart-project]: Skipping, unable to determine old version
+[2024-04-01 17:04:09] INFO root fetch - main [MainThread]: End processing [natali-cart-project] error
+[2024-04-01 17:04:09] WARNING root fetch - processPackages [pydwca]: Skipping package: exceeds size limit 92569705>=10485760
+[2024-04-01 17:04:09] INFO root fetch - main [MainThread]: End processing [pydwca] error
+[2024-04-01 17:04:09] INFO root fetch - processPackages [dataframes-haystack]: Downloading https://files.pythonhosted.org/packages/14/9f/b89fbdb54c2e1efd8a6932911e92683ebcc5a8a68a80a44ca95e7939a96a/dataframes_haystack-0.0.1a0.tar.gz
+[2024-04-01 17:04:09] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/0e/d0/261f5e45dbb019b3402e000b51733827659e5495d0229dba03124a26315d/zha-0.0.3.tar.gz
+[2024-04-01 17:04:09] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/5d/94/3c87b0bc1f84e306b21941d941ade466f945c557680f9912dbb0e250e818/qodex_cameras-2.1.6-py3-none-any.whl
+[2024-04-01 17:04:09] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 17:04:09] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.5-py3-none-any.whl.zip tmp/qodex_cameras-2.1.6-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2024-04-01 17:04:09] INFO root fetch - processPackages [dataframes-haystack]: Downloading https://files.pythonhosted.org/packages/1d/ef/436c88e7ce77332db1bb372a3010bd154e8dee64e2441ac18eeacd3d16c5/dataframes_haystack-0.0.1a1.tar.gz
+[2024-04-01 17:04:09] INFO root fetch - processPackages [zha]: Downloading https://files.pythonhosted.org/packages/0e/02/e9ff9a93829dc126c07df44841a696ab7d8f18bfd0f17b07eed2aad72e35/zha-0.0.4.tar.gz
+[2024-04-01 17:04:09] INFO root fetch - processPackages [dataframes-haystack]: executing diffoscope
+[2024-04-01 17:04:09] INFO root fetch - processPackages [dataframes-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataframes_haystack-0.0.1a0.tar.gz tmp/dataframes_haystack-0.0.1a1.tar.gz --markdown 20240401/d/dataframes-haystack/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2024-04-01 17:04:09] INFO root fetch - processPackages [zha]: executing diffoscope
+[2024-04-01 17:04:09] INFO root fetch - processPackages [zha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zha-0.0.3.tar.gz tmp/zha-0.0.4.tar.gz --markdown 20240401/z/zha/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 17:04:10] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.5-py3-none-any.whl.zip]
+[2024-04-01 17:04:10] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.6-py3-none-any.whl.zip]
+[2024-04-01 17:04:10] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 17:04:10] INFO root fetch - processPackages [dataframes-haystack]: Remove: archive file [/home/abi/fetcher/tmp/dataframes_haystack-0.0.1a0.tar.gz]
+[2024-04-01 17:04:10] INFO root fetch - processPackages [dataframes-haystack]: Remove: archive file [/home/abi/fetcher/tmp/dataframes_haystack-0.0.1a1.tar.gz]
+[2024-04-01 17:04:10] INFO root fetch - main [MainThread]: End processing [dataframes-haystack]: success
+[2024-04-01 17:04:10] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.3.tar.gz]
+[2024-04-01 17:04:10] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.4.tar.gz]
+[2024-04-01 17:04:10] INFO root fetch - main [MainThread]: End processing [zha]: success
+[2024-04-01 17:04:10] INFO root fetch - main [MainThread]: Store serial: [22570899]
