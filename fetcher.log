@@ -19091,3 +19091,58 @@ EOFError: EOF read where object expected
 [2024-04-01 23:53:06] INFO root fetch - processPackages [whirlpool-sixth-sense]: Remove: archive file [/home/abi/fetcher/tmp/whirlpool_sixth_sense-0.18.7.tar.gz]
 [2024-04-01 23:53:06] INFO root fetch - main [MainThread]: End processing [whirlpool-sixth-sense]: success
 [2024-04-01 23:53:06] INFO root fetch - main [MainThread]: Store serial: [22576302]
+[2024-04-01 23:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576302]
+[2024-04-01 23:55:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-device-controls
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findatapy
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: talipp
+[2024-04-01 23:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2024-04-01 23:55:15] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev7] Old Version: [5.0.5.dev6]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [findatapy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [talipp]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [neon-skill-device-controls]: New version: [1.0.1a6] Old Version: [1.0.1a5]
+[2024-04-01 23:55:15] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/a8/ec/107884782aa4c59be162faf0249c164fe39280af45b16d8e725f77b63df0/moto-5.0.5.dev6.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [talipp]: Downloading https://files.pythonhosted.org/packages/e6/97/7145487943a051ebc904a4f32f6afd87bd10564565f46ffbff116adc84e5/talipp-2.1.1.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/62/42/3cb60df4d1c9f9318c6e13e27b88469d8b661bf946e08abb586e011410c8/findatapy-0.1.8.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/17/ed/80b700cc73625d908ee0f8bf39b9f0e421368cc7efd80af1d42891d023fc/neon-skill-device_controls-1.0.1a5.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:55:15] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:55:15] INFO root fetch - processPackages [talipp]: Downloading https://files.pythonhosted.org/packages/93/bd/3e86796af681648c953c1653c1c411f5e42e2e638fa006d0e4d9b9398dae/talipp-2.1.2.tar.gz
+[2024-04-01 23:55:16] INFO root fetch - processPackages [neon-skill-device-controls]: Downloading https://files.pythonhosted.org/packages/03/35/905fddd9d28894b38a958c6dc6a7beb2eb3e3d7eb12debf1509fae73df2b/neon-skill-device_controls-1.0.1a6.tar.gz
+[2024-04-01 23:55:16] INFO root fetch - processPackages [findatapy]: Downloading https://files.pythonhosted.org/packages/90/9a/510bde9636a0a5fcc7f0eac3b6f14cc6abcfc8cbe20da25cb83b1cbd86ea/findatapy-0.1.9.tar.gz
+[2024-04-01 23:55:16] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/7a/09/4e57eea8e569ce3265b6a047f42796e7c5b4de72890d5843640d02a1bcb4/moto-5.0.5.dev7.tar.gz
+[2024-04-01 23:55:16] INFO root fetch - processPackages [talipp]: executing diffoscope
+[2024-04-01 23:55:16] INFO root fetch - processPackages [talipp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talipp-2.1.1.tar.gz tmp/talipp-2.1.2.tar.gz --markdown 20240401/t/talipp/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-01 23:55:16] INFO root fetch - processPackages [neon-skill-device-controls]: executing diffoscope
+[2024-04-01 23:55:16] INFO root fetch - processPackages [neon-skill-device-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-device_controls-1.0.1a5.tar.gz tmp/neon-skill-device_controls-1.0.1a6.tar.gz --markdown 20240401/n/neon-skill-device-controls/1.0.1a5-1.0.1a6/diff.md --exclude *.pyd
+[2024-04-01 23:55:16] INFO root fetch - processPackages [findatapy]: executing diffoscope
+[2024-04-01 23:55:16] INFO root fetch - processPackages [findatapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findatapy-0.1.8.tar.gz tmp/findatapy-0.1.9.tar.gz --markdown 20240401/f/findatapy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 23:55:16] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-01 23:55:16] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev6.tar.gz tmp/moto-5.0.5.dev7.tar.gz --markdown 20240401/m/moto/5.0.5.dev6-5.0.5.dev7/diff.md --exclude *.pyd
+[2024-04-01 23:55:16] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-01 23:55:16] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-01 23:55:16] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-01 23:55:16] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-01 23:55:16] INFO root fetch - processPackages [neon-skill-device-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-device_controls-1.0.1a5.tar.gz]
+[2024-04-01 23:55:16] INFO root fetch - processPackages [neon-skill-device-controls]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-device_controls-1.0.1a6.tar.gz]
+[2024-04-01 23:55:16] INFO root fetch - main [MainThread]: End processing [neon-skill-device-controls]: success
+[2024-04-01 23:55:17] INFO root fetch - processPackages [talipp]: Remove: archive file [/home/abi/fetcher/tmp/talipp-2.1.1.tar.gz]
+[2024-04-01 23:55:17] INFO root fetch - processPackages [talipp]: Remove: archive file [/home/abi/fetcher/tmp/talipp-2.1.2.tar.gz]
+[2024-04-01 23:55:17] INFO root fetch - main [MainThread]: End processing [talipp]: success
+[2024-04-01 23:55:17] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.8.tar.gz]
+[2024-04-01 23:55:17] INFO root fetch - processPackages [findatapy]: Remove: archive file [/home/abi/fetcher/tmp/findatapy-0.1.9.tar.gz]
+[2024-04-01 23:55:17] INFO root fetch - main [MainThread]: End processing [findatapy]: success
+[2024-04-01 23:55:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev6.tar.gz]
+[2024-04-01 23:55:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev7.tar.gz]
+[2024-04-01 23:55:27] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-01 23:55:27] INFO root fetch - main [MainThread]: Store serial: [22576321]
