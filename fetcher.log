@@ -203,3 +203,51 @@
 [2024-04-01 11:35:43] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.2.tar.gz]
 [2024-04-01 11:35:43] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
 [2024-04-01 11:35:43] INFO root fetch - main [MainThread]: Store serial: [22567758]
+[2024-04-01 11:37:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567758]
+[2024-04-01 11:37:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 11:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 11:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virgo-modules
+[2024-04-01 11:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SightTraining
+[2024-04-01 11:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RTSDB
+[2024-04-01 11:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amazfit-pyclient
+[2024-04-01 11:37:51] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:37:51] INFO root fetch - processPackages [SightTraining]: New version: [0.1.13] Old Version: [0.1.12]
+[2024-04-01 11:37:52] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/d5/17/4e3b6cd33ee8fba6a12fa64335f0462df938e5b80f1e645bc3177088b1e6/SightTraining-0.1.12.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [amazfit-pyclient]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-01 11:37:52] INFO root fetch - processPackages [RTSDB]: New version: [1.1] Old Version: [1.0]
+[2024-04-01 11:37:52] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.74] Old Version: [0.0.73]
+[2024-04-01 11:37:52] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/24/ff/1de3946fd5c4b3d6ea6f186e41c9ae451771fd03bc7e1c3aea209035b5d3/RTSDB-1.0.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/89/31/d9b6da66268e0a6d182fa65738c152b5afd7598d72ad1ac999a84241f8ca/virgo_modules-0.0.73.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [amazfit-pyclient]: Downloading https://files.pythonhosted.org/packages/a2/c9/6a7e0770d62e5585f8de2a35c430cda33f0db2d19e78b5649b5748dee817/amazfit_pyclient-0.2.4-py3-none-any.whl
+[2024-04-01 11:37:52] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/41/d4/c9a6eb437572a1316609b3951464b3775fbedf5a6342ff5e447129a46a91/SightTraining-0.1.13.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:37:52] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:37:52] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-01 11:37:52] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.12.tar.gz tmp/SightTraining-0.1.13.tar.gz --markdown 20240401/S/SightTraining/0.1.12-0.1.13/diff.md --exclude *.pyd
+[2024-04-01 11:37:52] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/f2/b2/fabdea5a4b78898e89d88c9c025eba7d70f70ed79ca65606a82cc8e99d8c/RTSDB-1.1.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/db/31/e1c7c1319f245a65e9d4195a919dc011471895db81016f6a2e7326ed48b2/virgo_modules-0.0.74.tar.gz
+[2024-04-01 11:37:52] INFO root fetch - processPackages [amazfit-pyclient]: Downloading https://files.pythonhosted.org/packages/bc/ac/e5765ad8c02ac2aa7546d7b5a05b50c4bb77e210c99ba64c30ad267aa54f/amazfit_pyclient-0.2.5-py3-none-any.whl
+[2024-04-01 11:37:52] INFO root fetch - processPackages [RTSDB]: executing diffoscope
+[2024-04-01 11:37:52] INFO root fetch - processPackages [RTSDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSDB-1.0.tar.gz tmp/RTSDB-1.1.tar.gz --markdown 20240401/R/RTSDB/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-01 11:37:52] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-04-01 11:37:52] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.73.tar.gz tmp/virgo_modules-0.0.74.tar.gz --markdown 20240401/v/virgo-modules/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2024-04-01 11:37:52] INFO root fetch - processPackages [amazfit-pyclient]: executing diffoscope
+[2024-04-01 11:37:52] INFO root fetch - processPackages [amazfit-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazfit_pyclient-0.2.4-py3-none-any.whl.zip tmp/amazfit_pyclient-0.2.5-py3-none-any.whl.zip --markdown 20240401/a/amazfit-pyclient/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-01 11:37:53] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.12.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.13.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-01 11:37:53] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:37:53] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.0.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.1.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [RTSDB]: success
+[2024-04-01 11:37:53] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.73.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.74.tar.gz]
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-04-01 11:37:53] INFO root fetch - processPackages [amazfit-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/amazfit_pyclient-0.2.4-py3-none-any.whl.zip]
+[2024-04-01 11:37:53] INFO root fetch - processPackages [amazfit-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/amazfit_pyclient-0.2.5-py3-none-any.whl.zip]
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [amazfit-pyclient]: success
+[2024-04-01 11:37:53] INFO root fetch - main [MainThread]: Store serial: [22567771]
