@@ -8368,3 +8368,60 @@ EOFError: EOF read where object expected
 [2024-04-01 17:51:18] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b4.tar.gz]
 [2024-04-01 17:51:18] INFO root fetch - main [MainThread]: End processing [harp-proxy]: success
 [2024-04-01 17:51:18] INFO root fetch - main [MainThread]: Store serial: [22571532]
+[2024-04-01 17:53:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571532]
+[2024-04-01 17:53:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: han2kip
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: outsetapy
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: creyPY
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threadmem
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django_json_model_field
+[2024-04-01 17:53:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autoeis
+[2024-04-01 17:53:27] INFO root fetch - processPackages [han2kip]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [django_json_model_field]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [threadmem]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [outsetapy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [creyPY]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [django_json_model_field]: Downloading https://files.pythonhosted.org/packages/3f/70/51dd8a0c504e9ce20cc594781b4eae11e58e3010265ec2946bbb87eafbb2/django_json_model_field-0.0.1rc8.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/93/f8/550365ee2735387bb5f0cb74aece6328657de2a0d6e492be99db1bf57e2d/threadmem-0.2.7.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [autoeis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 17:53:27] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/79/0e/a49c9f62dacc1c9cebf0dce06ed200461fdd523f6486af43ebcc1ed7b708/han2kip-0.0.2.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [outsetapy]: Downloading https://files.pythonhosted.org/packages/1a/27/b0529ceca1584b2cf49fb2bb9763891b1b7570a41d4308ec8d6e874f2116/outsetapy-0.1.3.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/a2/73/e48fe23c10a6b15540223d5cab573c7c4d5f4d6180bc98ce3b1305e9dc84/creyPY-0.0.2.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [django_json_model_field]: Downloading https://files.pythonhosted.org/packages/40/e7/a7e3b581d821d600b54557427b42f83e24e99dd61bd2018ff89b456128e9/django_json_model_field-0.0.1rc9.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [autoeis]: Downloading https://files.pythonhosted.org/packages/00/26/988e7aed7dd0b576ab67f4c1539e1d9c25ff2bada850dee00535990d54cc/AutoEis-0.0.8.tar.gz
+[2024-04-01 17:53:27] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-01 17:53:27] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.7.tar.gz tmp/threadmem-0.2.8.tar.gz --markdown 20240401/t/threadmem/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 17:53:27] INFO root fetch - processPackages [django_json_model_field]: executing diffoscope
+[2024-04-01 17:53:27] INFO root fetch - processPackages [django_json_model_field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_model_field-0.0.1rc8.tar.gz tmp/django_json_model_field-0.0.1rc9.tar.gz --markdown 20240401/d/django_json_model_field/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2024-04-01 17:53:28] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/4d/d7/2a6152fc603d756767c607636a99b88647560a3afb4edcbde1362ce0f0c9/creyPY-0.0.3.tar.gz
+[2024-04-01 17:53:28] INFO root fetch - processPackages [outsetapy]: Downloading https://files.pythonhosted.org/packages/72/b7/48a737413a738eecf91faf7679361f3e0825e5b5a5a50ff093e92473a457/outsetapy-0.1.4.tar.gz
+[2024-04-01 17:53:28] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/88/57/6c41e7d4ba1606b2cd07589ce425e49314a8c6bc150faa3ef8af47df5cbc/han2kip-0.0.3.tar.gz
+[2024-04-01 17:53:28] INFO root fetch - processPackages [autoeis]: Downloading https://files.pythonhosted.org/packages/b7/e7/6fefef59057292dbdecd90be0618e952f22bdea301003f2d71284226e02f/AutoEis-0.0.9.tar.gz
+[2024-04-01 17:53:28] INFO root fetch - processPackages [outsetapy]: executing diffoscope
+[2024-04-01 17:53:28] INFO root fetch - processPackages [outsetapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outsetapy-0.1.3.tar.gz tmp/outsetapy-0.1.4.tar.gz --markdown 20240401/o/outsetapy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 17:53:28] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 17:53:28] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.2.tar.gz tmp/creyPY-0.0.3.tar.gz --markdown 20240401/c/creyPY/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 17:53:28] INFO root fetch - processPackages [autoeis]: executing diffoscope
+[2024-04-01 17:53:28] INFO root fetch - processPackages [autoeis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoEis-0.0.8.tar.gz tmp/AutoEis-0.0.9.tar.gz --markdown 20240401/a/autoeis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:53:28] INFO root fetch - processPackages [han2kip]: executing diffoscope
+[2024-04-01 17:53:28] INFO root fetch - processPackages [han2kip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/han2kip-0.0.2.tar.gz tmp/han2kip-0.0.3.tar.gz --markdown 20240401/h/han2kip/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 17:53:28] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.7.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-01 17:53:28] INFO root fetch - processPackages [django_json_model_field]: Remove: archive file [/home/abi/fetcher/tmp/django_json_model_field-0.0.1rc8.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - processPackages [django_json_model_field]: Remove: archive file [/home/abi/fetcher/tmp/django_json_model_field-0.0.1rc9.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - main [MainThread]: End processing [django_json_model_field]: success
+[2024-04-01 17:53:28] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.2.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.3.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 17:53:28] INFO root fetch - processPackages [autoeis]: Remove: archive file [/home/abi/fetcher/tmp/AutoEis-0.0.8.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - processPackages [autoeis]: Remove: archive file [/home/abi/fetcher/tmp/AutoEis-0.0.9.tar.gz]
+[2024-04-01 17:53:28] INFO root fetch - main [MainThread]: End processing [autoeis]: success
+[2024-04-01 17:53:29] INFO root fetch - processPackages [outsetapy]: Remove: archive file [/home/abi/fetcher/tmp/outsetapy-0.1.3.tar.gz]
+[2024-04-01 17:53:29] INFO root fetch - processPackages [outsetapy]: Remove: archive file [/home/abi/fetcher/tmp/outsetapy-0.1.4.tar.gz]
+[2024-04-01 17:53:29] INFO root fetch - main [MainThread]: End processing [outsetapy]: success
+[2024-04-01 17:53:29] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.0.2.tar.gz]
+[2024-04-01 17:53:29] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.0.3.tar.gz]
+[2024-04-01 17:53:29] INFO root fetch - main [MainThread]: End processing [han2kip]: success
+[2024-04-01 17:53:29] INFO root fetch - main [MainThread]: Store serial: [22571577]
