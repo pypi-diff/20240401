@@ -5352,3 +5352,26 @@ EOFError: EOF read where object expected
 [2024-04-01 16:10:30] INFO root fetch - processPackages [openbb-core]: Remove: archive file [/home/abi/fetcher/tmp/openbb_core-1.2.0.tar.gz]
 [2024-04-01 16:10:30] INFO root fetch - main [MainThread]: End processing [openbb-core]: success
 [2024-04-01 16:10:30] INFO root fetch - main [MainThread]: Store serial: [22570074]
+[2024-04-01 16:12:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570074]
+[2024-04-01 16:12:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 16:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gb-io
+[2024-04-01 16:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLAlchemy-serializer
+[2024-04-01 16:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utils-huna
+[2024-04-01 16:12:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unifyai
+[2024-04-01 16:12:40] INFO root fetch - processPackages [SQLAlchemy-serializer]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-04-01 16:12:40] INFO root fetch - processPackages [SQLAlchemy-serializer]: Downloading https://files.pythonhosted.org/packages/7c/11/8d196014628c8b1d5131c8748fa1c5f254b943a809e6ed1c3dc7de7d7a3b/SQLAlchemy-serializer-1.4.7.tar.gz
+[2024-04-01 16:12:40] WARNING root fetch - processPackages [utils-huna]: Skipping, unable to determine old version
+[2024-04-01 16:12:40] INFO root fetch - main [MainThread]: End processing [utils-huna] error
+[2024-04-01 16:12:40] WARNING root fetch - processPackages [unifyai]: Skipping, unable to determine old version
+[2024-04-01 16:12:40] INFO root fetch - main [MainThread]: End processing [unifyai] error
+[2024-04-01 16:12:40] INFO root fetch - processPackages [gb-io]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-01 16:12:40] INFO root fetch - processPackages [gb-io]: Downloading https://files.pythonhosted.org/packages/40/01/68f29728f90f5812723835f0465fcabcf1f853acc91dc06f29f82182cef2/gb-io-0.3.1.tar.gz
+[2024-04-01 16:12:40] WARNING root fetch - processPackages [gb-io]: Skipping package: exceeds size limit 18443396>=10485760
+[2024-04-01 16:12:40] INFO root fetch - main [MainThread]: End processing [gb-io] error
+[2024-04-01 16:12:40] INFO root fetch - processPackages [SQLAlchemy-serializer]: Downloading https://files.pythonhosted.org/packages/c4/a6/fee2efb1a24f3bc451424fd73f5a246672aa709c921d885111251578f4f8/SQLAlchemy-serializer-1.4.8.tar.gz
+[2024-04-01 16:12:40] INFO root fetch - processPackages [SQLAlchemy-serializer]: executing diffoscope
+[2024-04-01 16:12:40] INFO root fetch - processPackages [SQLAlchemy-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-serializer-1.4.7.tar.gz tmp/SQLAlchemy-serializer-1.4.8.tar.gz --markdown 20240401/S/SQLAlchemy-serializer/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2024-04-01 16:12:41] INFO root fetch - processPackages [SQLAlchemy-serializer]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-serializer-1.4.7.tar.gz]
+[2024-04-01 16:12:41] INFO root fetch - processPackages [SQLAlchemy-serializer]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-serializer-1.4.8.tar.gz]
+[2024-04-01 16:12:41] INFO root fetch - main [MainThread]: End processing [SQLAlchemy-serializer]: success
+[2024-04-01 16:12:41] INFO root fetch - main [MainThread]: Store serial: [22570133]
