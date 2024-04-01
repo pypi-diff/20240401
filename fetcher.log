@@ -251,3 +251,27 @@
 [2024-04-01 11:37:53] INFO root fetch - processPackages [amazfit-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/amazfit_pyclient-0.2.5-py3-none-any.whl.zip]
 [2024-04-01 11:37:53] INFO root fetch - main [MainThread]: End processing [amazfit-pyclient]: success
 [2024-04-01 11:37:53] INFO root fetch - main [MainThread]: Store serial: [22567771]
+[2024-04-01 11:39:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567771]
+[2024-04-01 11:40:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 11:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpsApi
+[2024-04-01 11:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fadoudou2
+[2024-04-01 11:40:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shuttleai
+[2024-04-01 11:40:03] WARNING root fetch - processPackages [OpsApi]: Skipping, unable to determine old version
+[2024-04-01 11:40:03] INFO root fetch - processPackages [fadoudou2]: New version: [2.7.0.3.8] Old Version: [2.7.0.3.7]
+[2024-04-01 11:40:03] INFO root fetch - main [MainThread]: End processing [OpsApi] error
+[2024-04-01 11:40:03] INFO root fetch - processPackages [shuttleai]: New version: [3.6] Old Version: [3.5]
+[2024-04-01 11:40:03] INFO root fetch - processPackages [shuttleai]: Downloading https://files.pythonhosted.org/packages/16/7d/709dc5c29ed8fd7fd571b83431ddb63b0abdc54bccc0b7a6168685020fc2/shuttleai-3.5.tar.gz
+[2024-04-01 11:40:03] INFO root fetch - processPackages [fadoudou2]: Downloading https://files.pythonhosted.org/packages/ce/13/c3bc75411a072d8efa674576d033b2775fd6e3c86db7cad682a18446f07b/fadoudou2-2.7.0.3.7.tar.gz
+[2024-04-01 11:40:04] INFO root fetch - processPackages [shuttleai]: Downloading https://files.pythonhosted.org/packages/fa/37/d24145aa1eacc2a0ef56d1fc77639823cfffe3c95574824eebc5783987bb/shuttleai-3.6.tar.gz
+[2024-04-01 11:40:04] INFO root fetch - processPackages [fadoudou2]: Downloading https://files.pythonhosted.org/packages/05/f8/bc025bec95658a150d546b8c1e5b99031635760566353cadfee6d81181b5/fadoudou2-2.7.0.3.8.tar.gz
+[2024-04-01 11:40:04] INFO root fetch - processPackages [shuttleai]: executing diffoscope
+[2024-04-01 11:40:04] INFO root fetch - processPackages [shuttleai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shuttleai-3.5.tar.gz tmp/shuttleai-3.6.tar.gz --markdown 20240401/s/shuttleai/3.5-3.6/diff.md --exclude *.pyd
+[2024-04-01 11:40:04] INFO root fetch - processPackages [fadoudou2]: executing diffoscope
+[2024-04-01 11:40:04] INFO root fetch - processPackages [fadoudou2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fadoudou2-2.7.0.3.7.tar.gz tmp/fadoudou2-2.7.0.3.8.tar.gz --markdown 20240401/f/fadoudou2/2.7.0.3.7-2.7.0.3.8/diff.md --exclude *.pyd
+[2024-04-01 11:40:04] INFO root fetch - processPackages [shuttleai]: Remove: archive file [/home/abi/fetcher/tmp/shuttleai-3.5.tar.gz]
+[2024-04-01 11:40:04] INFO root fetch - processPackages [shuttleai]: Remove: archive file [/home/abi/fetcher/tmp/shuttleai-3.6.tar.gz]
+[2024-04-01 11:40:04] INFO root fetch - main [MainThread]: End processing [shuttleai]: success
+[2024-04-01 11:40:05] INFO root fetch - processPackages [fadoudou2]: Remove: archive file [/home/abi/fetcher/tmp/fadoudou2-2.7.0.3.7.tar.gz]
+[2024-04-01 11:40:05] INFO root fetch - processPackages [fadoudou2]: Remove: archive file [/home/abi/fetcher/tmp/fadoudou2-2.7.0.3.8.tar.gz]
+[2024-04-01 11:40:05] INFO root fetch - main [MainThread]: End processing [fadoudou2]: success
+[2024-04-01 11:40:05] INFO root fetch - main [MainThread]: Store serial: [22567781]
