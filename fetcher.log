@@ -5544,3 +5544,126 @@ EOFError: EOF read where object expected
 [2024-04-01 16:17:22] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-04-01 16:17:22] INFO root fetch - main [MainThread]: Store serial: [22570187]
+[2024-04-01 16:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570187]
+[2024-04-01 16:19:31] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mrflagly
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-commodity
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-econometrics
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-news
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-devtools
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-fixedincome
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-equity
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-index
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: convictquandary
+[2024-04-01 16:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openbb-etf
+[2024-04-01 16:19:31] WARNING root fetch - processPackages [convictquandary]: Skipping, unable to determine old version
+[2024-04-01 16:19:31] INFO root fetch - processPackages [convictquandary]: Start processing: openbb-currency
+[2024-04-01 16:19:31] INFO root fetch - main [MainThread]: End processing [convictquandary] error
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-econometrics]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-devtools]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-news]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-commodity]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-equity]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-fixedincome]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-etf]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-index]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-currency]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [mrflagly]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-econometrics]: Downloading https://files.pythonhosted.org/packages/a5/0d/a86aee8a417984eb953713cabc5b6d0dff97eb129e3c334d75e7b3984c64/openbb_econometrics-1.1.3.tar.gz
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-devtools]: Downloading https://files.pythonhosted.org/packages/27/5c/2261c4f54c7756dc37eb7825f73eba8b3067b5242d44c6d1dbb43b4c849a/openbb_devtools-1.1.4.tar.gz
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-commodity]: Downloading https://files.pythonhosted.org/packages/96/1f/e9ed3d6bf1c06cdea471d9da2c88372cf787e4c0ac62bb7672aefc0eb42b/openbb_commodity-1.0.1.tar.gz
+[2024-04-01 16:19:31] INFO root fetch - processPackages [openbb-news]: Downloading https://files.pythonhosted.org/packages/7b/77/c49c96016fbffa2af009288252a614e508f0b67a84f2b914360a546cf92b/openbb_news-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-etf]: Downloading https://files.pythonhosted.org/packages/60/45/404e2197a188c80abd0fdb0b56ecc2c4a160ed715303dde00858f7343ec2/openbb_etf-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-fixedincome]: Downloading https://files.pythonhosted.org/packages/3c/d3/610f26d7a2be0d4069b83adf11d0d830528da888a2a54a5b70c00f93a431/openbb_fixedincome-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-index]: Downloading https://files.pythonhosted.org/packages/be/b7/1e9ed81b184c182d7b7ea54960d649a852e247368861c17932364a7208bb/openbb_index-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-equity]: Downloading https://files.pythonhosted.org/packages/b6/49/7b14065319bc2920a85b7bd998e8e9cfc74f06386cad17c5df7363c78e79/openbb_equity-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-currency]: Downloading https://files.pythonhosted.org/packages/78/36/cac77d1b293ed5da54aef7c8b38f968fe753e8c655a997f9dc3940031814/openbb_currency-1.1.3.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [mrflagly]: Downloading https://files.pythonhosted.org/packages/27/4e/eca71d9fcab9124fcd95c27c9d7a130718032326a8acb978411161ab4c29/mrflagly-0.2.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-econometrics]: Downloading https://files.pythonhosted.org/packages/87/54/73766a0938d21f98cb5317be05982a237c20f7a8727ea9338605d3169350/openbb_econometrics-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-devtools]: Downloading https://files.pythonhosted.org/packages/0d/e5/9036ef7616fa8d0d9ee0b19177cdc9470a36747d1551e24798807aced480/openbb_devtools-1.1.5.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-econometrics]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-econometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_econometrics-1.1.3.tar.gz tmp/openbb_econometrics-1.1.4.tar.gz --markdown 20240401/o/openbb-econometrics/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-news]: Downloading https://files.pythonhosted.org/packages/ee/fb/b3b2af954350229930794b05fbd7e43ebd9621fe493fa8007274b1b01e9c/openbb_news-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-etf]: Downloading https://files.pythonhosted.org/packages/8b/3a/16d3d6f2eed35e222138df5b9d61b1c8fb6caf75c07a07d1e4491ab3803d/openbb_etf-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-equity]: Downloading https://files.pythonhosted.org/packages/23/57/c2f5b3dec58a94ceb76eeb6e7fc6ca07a31d780d3ab996b402123c1d0c30/openbb_equity-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-commodity]: Downloading https://files.pythonhosted.org/packages/a9/6d/f324686ca3faf32e8c8bf1b0e7868a6c2b9e3de1cbccd6bb45d7a1c8939b/openbb_commodity-1.0.2.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-index]: Downloading https://files.pythonhosted.org/packages/06/f1/b28633cd6f6eea5a126344e70a1b0c1e7149f1ce1444eb7daab0da6d9e7a/openbb_index-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-currency]: Downloading https://files.pythonhosted.org/packages/01/81/88cd6d8826d6d4339f8a70fe7c6b7628a169a644e576dfede53bfbaac5a5/openbb_currency-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-fixedincome]: Downloading https://files.pythonhosted.org/packages/81/d2/069a544509832aab396f048c142f55b670442538740a677099b8638cb22f/openbb_fixedincome-1.1.4.tar.gz
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-devtools]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_devtools-1.1.4.tar.gz tmp/openbb_devtools-1.1.5.tar.gz --markdown 20240401/o/openbb-devtools/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-news]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_news-1.1.3.tar.gz tmp/openbb_news-1.1.4.tar.gz --markdown 20240401/o/openbb-news/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-etf]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-etf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_etf-1.1.3.tar.gz tmp/openbb_etf-1.1.4.tar.gz --markdown 20240401/o/openbb-etf/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-equity]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-equity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_equity-1.1.3.tar.gz tmp/openbb_equity-1.1.4.tar.gz --markdown 20240401/o/openbb-equity/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-commodity]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-commodity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_commodity-1.0.1.tar.gz tmp/openbb_commodity-1.0.2.tar.gz --markdown 20240401/o/openbb-commodity/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-index]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_index-1.1.3.tar.gz tmp/openbb_index-1.1.4.tar.gz --markdown 20240401/o/openbb-index/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [mrflagly]: Downloading https://files.pythonhosted.org/packages/af/26/fb5d2cb532d65a596d87532a9da6adc3cfcf299ee4a08d47070ef95ed73a/mrflagly-0.2.8-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-currency]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-currency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_currency-1.1.3.tar.gz tmp/openbb_currency-1.1.4.tar.gz --markdown 20240401/o/openbb-currency/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-fixedincome]: executing diffoscope
+[2024-04-01 16:19:32] INFO root fetch - processPackages [openbb-fixedincome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_fixedincome-1.1.3.tar.gz tmp/openbb_fixedincome-1.1.4.tar.gz --markdown 20240401/o/openbb-fixedincome/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-devtools]: Remove: archive file [/home/abi/fetcher/tmp/openbb_devtools-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-devtools]: Remove: archive file [/home/abi/fetcher/tmp/openbb_devtools-1.1.5.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-devtools]: Start processing: mteb
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-devtools]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-econometrics]: Remove: archive file [/home/abi/fetcher/tmp/openbb_econometrics-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-econometrics]: Remove: archive file [/home/abi/fetcher/tmp/openbb_econometrics-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-econometrics]: Start processing: openbb-regulators
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-econometrics]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [mteb]: New version: [1.4.0] Old Version: [1.3.4]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-index]: Remove: archive file [/home/abi/fetcher/tmp/openbb_index-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-index]: Remove: archive file [/home/abi/fetcher/tmp/openbb_index-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-index]: Start processing: openbb-technical
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-index]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-commodity]: Remove: archive file [/home/abi/fetcher/tmp/openbb_commodity-1.0.1.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-commodity]: Remove: archive file [/home/abi/fetcher/tmp/openbb_commodity-1.0.2.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-commodity]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/8d/69/e5eddef59d983cfc80a8966f6ac73959234a14b4e9ffb20d7a8043370316/mteb-1.3.4.tar.gz
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-etf]: Remove: archive file [/home/abi/fetcher/tmp/openbb_etf-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-etf]: Remove: archive file [/home/abi/fetcher/tmp/openbb_etf-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-regulators]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-etf]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-technical]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-fixedincome]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fixedincome-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-fixedincome]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fixedincome-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-fixedincome]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-currency]: Remove: archive file [/home/abi/fetcher/tmp/openbb_currency-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-currency]: Remove: archive file [/home/abi/fetcher/tmp/openbb_currency-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-currency]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-news]: Remove: archive file [/home/abi/fetcher/tmp/openbb_news-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-news]: Remove: archive file [/home/abi/fetcher/tmp/openbb_news-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-news]: success
+[2024-04-01 16:19:33] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/44/ef/567a85023c3bc87e03e6bdb7dad473f3be9232cb82b929ddeaecc2859a98/mteb-1.4.0.tar.gz
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-regulators]: Downloading https://files.pythonhosted.org/packages/b9/34/3ec43e94b01d39f2a0b72940a8f99c97dcb478bacd6825cf2748ec8878bd/openbb_regulators-1.1.3.tar.gz
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-technical]: Downloading https://files.pythonhosted.org/packages/e6/2d/b9c05e1118eabebe1d41cb96b176993f3838308adcb60f337cb7e2c40708/openbb_technical-1.1.4.tar.gz
+[2024-04-01 16:19:33] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-04-01 16:19:33] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.3.4.tar.gz tmp/mteb-1.4.0.tar.gz --markdown 20240401/m/mteb/1.3.4-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-equity]: Remove: archive file [/home/abi/fetcher/tmp/openbb_equity-1.1.3.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - processPackages [openbb-equity]: Remove: archive file [/home/abi/fetcher/tmp/openbb_equity-1.1.4.tar.gz]
+[2024-04-01 16:19:33] INFO root fetch - main [MainThread]: End processing [openbb-equity]: success
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-regulators]: Downloading https://files.pythonhosted.org/packages/f4/1c/f34bc42993ab1cdf4583293f8046a7c1bbfd393b56d9b286fdef0db511f7/openbb_regulators-1.1.4.tar.gz
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-technical]: Downloading https://files.pythonhosted.org/packages/3d/dd/b97a7ea8913b65e8f0a4640e3726e6171a817f69f2742be3fc6411ce7d76/openbb_technical-1.1.5.tar.gz
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-regulators]: executing diffoscope
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-regulators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_regulators-1.1.3.tar.gz tmp/openbb_regulators-1.1.4.tar.gz --markdown 20240401/o/openbb-regulators/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-technical]: executing diffoscope
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-technical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_technical-1.1.4.tar.gz tmp/openbb_technical-1.1.5.tar.gz --markdown 20240401/o/openbb-technical/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-01 16:19:34] INFO root fetch - processPackages [mrflagly]: executing diffoscope
+[2024-04-01 16:19:34] INFO root fetch - processPackages [mrflagly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrflagly-0.2.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/mrflagly-0.2.8-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240401/m/mrflagly/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-regulators]: Remove: archive file [/home/abi/fetcher/tmp/openbb_regulators-1.1.3.tar.gz]
+[2024-04-01 16:19:34] INFO root fetch - processPackages [openbb-regulators]: Remove: archive file [/home/abi/fetcher/tmp/openbb_regulators-1.1.4.tar.gz]
+[2024-04-01 16:19:34] INFO root fetch - main [MainThread]: End processing [openbb-regulators]: success
+[2024-04-01 16:19:35] INFO root fetch - processPackages [openbb-technical]: Remove: archive file [/home/abi/fetcher/tmp/openbb_technical-1.1.4.tar.gz]
+[2024-04-01 16:19:35] INFO root fetch - processPackages [openbb-technical]: Remove: archive file [/home/abi/fetcher/tmp/openbb_technical-1.1.5.tar.gz]
+[2024-04-01 16:19:35] INFO root fetch - main [MainThread]: End processing [openbb-technical]: success
+[2024-04-01 16:19:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.3.4.tar.gz]
+[2024-04-01 16:19:35] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.4.0.tar.gz]
+[2024-04-01 16:19:35] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-04-01 16:19:54] INFO root fetch - processPackages [mrflagly]: Remove: archive file [/home/abi/fetcher/tmp/mrflagly-0.2.7-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 16:19:54] INFO root fetch - processPackages [mrflagly]: Remove: archive file [/home/abi/fetcher/tmp/mrflagly-0.2.8-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-01 16:19:54] INFO root fetch - main [MainThread]: End processing [mrflagly]: success
+[2024-04-01 16:19:54] INFO root fetch - main [MainThread]: Store serial: [22570275]
