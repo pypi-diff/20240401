@@ -758,3 +758,15 @@
 [2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_cli-0.5.9.tar.gz]
 [2024-04-01 12:06:51] INFO root fetch - main [MainThread]: End processing [encapsia-cli]: success
 [2024-04-01 12:06:51] INFO root fetch - main [MainThread]: Store serial: [22568043]
+[2024-04-01 12:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568043]
+[2024-04-01 12:09:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 12:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-keras-nightly
+[2024-04-01 12:09:01] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024040109] Old Version: [2.17.0.dev2024033109]
+[2024-04-01 12:09:01] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/9c/ac/b5ec710705aba8825b59ef599bd007715c87874c43d2736664616e9e8aa8/tf_keras-nightly-2.17.0.dev2024033109.tar.gz
+[2024-04-01 12:09:01] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/5d/0e/ddd0d4eb5e229bf500eb111c84322a9c3eeb5ec058cde7a817cc9a7a169e/tf_keras-nightly-2.17.0.dev2024040109.tar.gz
+[2024-04-01 12:09:02] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-01 12:09:02] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras-nightly-2.17.0.dev2024033109.tar.gz tmp/tf_keras-nightly-2.17.0.dev2024040109.tar.gz --markdown 20240401/t/tf-keras-nightly/2.17.0.dev2024033109-2.17.0.dev2024040109/diff.md --exclude *.pyd
+[2024-04-01 12:09:04] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024033109.tar.gz]
+[2024-04-01 12:09:04] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040109.tar.gz]
+[2024-04-01 12:09:04] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-01 12:09:04] INFO root fetch - main [MainThread]: Store serial: [22568048]
