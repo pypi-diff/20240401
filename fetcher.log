@@ -2850,3 +2850,42 @@ EOFError: EOF read where object expected
 [2024-04-01 14:03:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-01 14:03:50] INFO root fetch - main [MainThread]: Store serial: [22568914]
+[2024-04-01 14:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568914]
+[2024-04-01 14:06:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 14:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bbot
+[2024-04-01 14:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: port-ocean
+[2024-04-01 14:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qodex-cameras
+[2024-04-01 14:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tutor-contrib-aspects
+[2024-04-01 14:06:16] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-01 14:06:16] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 14:06:16] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/ba/d4/a754c903ad0f9a0946ded437ce79ed302c1b104c52645b20857dd42d842d/qodex_cameras-2.0.3-py3-none-any.whl
+[2024-04-01 14:06:17] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/44/9b/42f75a2dd2aabf57992d9fdf7df713430e2195b4081316228b1010f3585f/tutor-contrib-aspects-0.9.0.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [port-ocean]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-01 14:06:17] INFO root fetch - processPackages [bbot]: New version: [1.1.7.7rc0] Old Version: [1.1.7.6rc0]
+[2024-04-01 14:06:17] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/5b/7d/a15527f4e85b136e77312a8c5163dff758db6086830bec732317b0889b89/qodex_cameras-2.1.0-py3-none-any.whl
+[2024-04-01 14:06:17] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0e/89/05677f40d2885a5aa8306d6e691a9c8e8bde59b2659d8c45e30c01a31b74/bbot-1.1.7.6rc0.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/78/bc/7cc9e8e2e79075a3c79c00273aaeb13f895d17585c027c53b61f77bdaba4/port_ocean-0.5.8.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/0d/7c/76d53426d6c4ad60ca2c7ed1be61f8ebb0096695b99381ebc54530dc03a7/tutor-contrib-aspects-0.9.1.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 14:06:17] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.0.3-py3-none-any.whl.zip tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-01 14:06:17] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-04-01 14:06:17] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.9.0.tar.gz tmp/tutor-contrib-aspects-0.9.1.tar.gz --markdown 20240401/t/tutor-contrib-aspects/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 14:06:17] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/9a/b8/b4b21f5c3d509271ff988cb9644c8429ce3f2eb23c44e309e16fc3f2c3d6/port_ocean-0.5.9.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/84/41/8580d0cea5bf01417fb7b7db4ce6c0bc6617c939c9859c98790d2121b508/bbot-1.1.7.7rc0.tar.gz
+[2024-04-01 14:06:17] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2024-04-01 14:06:17] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.5.8.tar.gz tmp/port_ocean-0.5.9.tar.gz --markdown 20240401/p/port-ocean/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-01 14:06:17] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-04-01 14:06:17] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.7.6rc0.tar.gz tmp/bbot-1.1.7.7rc0.tar.gz --markdown 20240401/b/bbot/1.1.7.6rc0-1.1.7.7rc0/diff.md --exclude *.pyd
+[2024-04-01 14:06:17] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.0.3-py3-none-any.whl.zip]
+[2024-04-01 14:06:17] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip]
+[2024-04-01 14:06:17] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 14:06:18] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.9.0.tar.gz]
+[2024-04-01 14:06:18] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.9.1.tar.gz]
+[2024-04-01 14:06:18] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-04-01 14:06:18] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.8.tar.gz]
+[2024-04-01 14:06:18] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.5.9.tar.gz]
+[2024-04-01 14:06:18] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2024-04-01 14:06:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.6rc0.tar.gz]
+[2024-04-01 14:06:19] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
+[2024-04-01 14:06:19] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-04-01 14:06:19] INFO root fetch - main [MainThread]: Store serial: [22568927]
