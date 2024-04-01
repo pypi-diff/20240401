@@ -4224,3 +4224,24 @@ EOFError: EOF read where object expected
 [2024-04-01 15:21:48] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.0.tar.gz]
 [2024-04-01 15:21:48] INFO root fetch - main [MainThread]: End processing [pybts]: success
 [2024-04-01 15:21:48] INFO root fetch - main [MainThread]: Store serial: [22569572]
+[2024-04-01 15:23:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569572]
+[2024-04-01 15:23:59] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 15:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcx-py
+[2024-04-01 15:23:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ckanext-or-facet
+[2024-04-01 15:23:59] INFO root fetch - processPackages [ckanext-or-facet]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-01 15:23:59] INFO root fetch - processPackages [vcx-py]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 15:23:59] INFO root fetch - processPackages [vcx-py]: Downloading https://files.pythonhosted.org/packages/5c/cb/cfddb1eef039663c4d83d76612a71aef2651562384c4193c3c1e9738c3e6/vcx_py-1.1.1.tar.gz
+[2024-04-01 15:23:59] INFO root fetch - processPackages [ckanext-or-facet]: Downloading https://files.pythonhosted.org/packages/bb/c3/5994359c70609506f6586296356189eba314851da6cc1e556f5a3ebfe20c/ckanext-or_facet-0.2.0.tar.gz
+[2024-04-01 15:24:00] INFO root fetch - processPackages [vcx-py]: Downloading https://files.pythonhosted.org/packages/ff/15/4d24b523ef9a4d79a248ee1709e1f0a1935167fd79ba2fc1ff4a872bfcdf/vcx_py-1.1.2.tar.gz
+[2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: Downloading https://files.pythonhosted.org/packages/cd/33/e2bec2f58bf9b143196d0038363dabe5aaaa62b3e9b0e3d9b433936d7bff/ckanext-or_facet-0.3.0.tar.gz
+[2024-04-01 15:24:00] INFO root fetch - processPackages [vcx-py]: executing diffoscope
+[2024-04-01 15:24:00] INFO root fetch - processPackages [vcx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcx_py-1.1.1.tar.gz tmp/vcx_py-1.1.2.tar.gz --markdown 20240401/v/vcx-py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: executing diffoscope
+[2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-or_facet-0.2.0.tar.gz tmp/ckanext-or_facet-0.3.0.tar.gz --markdown 20240401/c/ckanext-or-facet/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 15:24:00] INFO root fetch - processPackages [vcx-py]: Remove: archive file [/home/abi/fetcher/tmp/vcx_py-1.1.1.tar.gz]
+[2024-04-01 15:24:00] INFO root fetch - processPackages [vcx-py]: Remove: archive file [/home/abi/fetcher/tmp/vcx_py-1.1.2.tar.gz]
+[2024-04-01 15:24:00] INFO root fetch - main [MainThread]: End processing [vcx-py]: success
+[2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-or_facet-0.2.0.tar.gz]
+[2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-or_facet-0.3.0.tar.gz]
+[2024-04-01 15:24:00] INFO root fetch - main [MainThread]: End processing [ckanext-or-facet]: success
+[2024-04-01 15:24:00] INFO root fetch - main [MainThread]: Store serial: [22569580]
