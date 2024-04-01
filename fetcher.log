@@ -7868,3 +7868,51 @@ EOFError: EOF read where object expected
 [2024-04-01 17:33:02] INFO root fetch - processPackages [large-image-source-vips]: Remove: archive file [/home/abi/fetcher/tmp/large-image-source-vips-1.27.5.dev8.tar.gz]
 [2024-04-01 17:33:02] INFO root fetch - main [MainThread]: End processing [large-image-source-vips]: success
 [2024-04-01 17:33:02] INFO root fetch - main [MainThread]: Store serial: [22571288]
+[2024-04-01 17:35:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571288]
+[2024-04-01 17:35:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twofa
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex-roll
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wheelsmith
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: britive
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Eratosthenes
+[2024-04-01 17:35:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metacast
+[2024-04-01 17:35:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1711984643] Old Version: [0.0.11a1711943726]
+[2024-04-01 17:35:11] INFO root fetch - processPackages [Eratosthenes]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-01 17:35:11] WARNING root fetch - processPackages [twofa]: Skipping, unable to determine old version
+[2024-04-01 17:35:11] INFO root fetch - main [MainThread]: End processing [twofa] error
+[2024-04-01 17:35:11] ERROR root fetch - processPackages [wheelsmith]: Unable to get metadata: No such project 'wheelsmith'
+[2024-04-01 17:35:11] INFO root fetch - main [MainThread]: End processing [wheelsmith] error
+[2024-04-01 17:35:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/be/ff/bf77374828b28970192a3f912dae8ab0a5bf587852aad5fd9a7e2d874fd2/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz
+[2024-04-01 17:35:11] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/46/33/96f2b77d80333146c3feaf54a37b7d6ee34d4e4996f8c4b1d9a5df7fccf6/Eratosthenes-3.0.6.tar.gz
+[2024-04-01 17:35:11] WARNING root fetch - processPackages [reflex-roll]: Skipping, unable to determine old version
+[2024-04-01 17:35:11] INFO root fetch - main [MainThread]: End processing [reflex-roll] error
+[2024-04-01 17:35:11] INFO root fetch - processPackages [britive]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-01 17:35:11] INFO root fetch - processPackages [metacast]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 17:35:11] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/c6/41/20e757d0c3046bedb547b3221c6942d6e366d43dd4827329c91b191422da/Eratosthenes-3.0.7.tar.gz
+[2024-04-01 17:35:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/fa/8c/d557564ddeaad9d43b1519e1a37f23663715ddde0b52b9da4e3dcfee5e66/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz
+[2024-04-01 17:35:11] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/ad/fe/09512cf25bfb5eebb803da0b5f76924c129c7ffe22d960be8db84a4705d5/britive-2.8.1.tar.gz
+[2024-04-01 17:35:11] INFO root fetch - processPackages [metacast]: Downloading https://files.pythonhosted.org/packages/55/5e/b62ffc734486cfdac4c757738d808cfe1b96166910e3d2866c62892e8988/metacast-0.1.4.tar.gz
+[2024-04-01 17:35:11] INFO root fetch - processPackages [Eratosthenes]: executing diffoscope
+[2024-04-01 17:35:11] INFO root fetch - processPackages [Eratosthenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eratosthenes-3.0.6.tar.gz tmp/Eratosthenes-3.0.7.tar.gz --markdown 20240401/E/Eratosthenes/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2024-04-01 17:35:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-01 17:35:11] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz --markdown 20240401/p/pulumi-kubernetes-the-hard-way/0.0.11a1711943726-0.0.11a1711984643/diff.md --exclude *.pyd
+[2024-04-01 17:35:12] INFO root fetch - processPackages [britive]: Downloading https://files.pythonhosted.org/packages/f5/b8/6056ab55919b8f38bd45f07c3be6ed61a97bc56f413f4e0e1e8ebb38e7c4/britive-2.9.0.tar.gz
+[2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: Downloading https://files.pythonhosted.org/packages/3a/bb/ffff024d81974d674d377f5507e88ff0682e40c6256c279bbef492019129/metacast-0.1.5.tar.gz
+[2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: executing diffoscope
+[2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metacast-0.1.4.tar.gz tmp/metacast-0.1.5.tar.gz --markdown 20240401/m/metacast/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 17:35:12] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.6.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.7.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - main [MainThread]: End processing [Eratosthenes]: success
+[2024-04-01 17:35:12] INFO root fetch - processPackages [britive]: executing diffoscope
+[2024-04-01 17:35:12] INFO root fetch - processPackages [britive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/britive-2.8.1.tar.gz tmp/britive-2.9.0.tar.gz --markdown 20240401/b/britive/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2024-04-01 17:35:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711943726.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1711984643.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-01 17:35:12] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.8.1.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - processPackages [britive]: Remove: archive file [/home/abi/fetcher/tmp/britive-2.9.0.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - main [MainThread]: End processing [britive]: success
+[2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: Remove: archive file [/home/abi/fetcher/tmp/metacast-0.1.4.tar.gz]
+[2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: Remove: archive file [/home/abi/fetcher/tmp/metacast-0.1.5.tar.gz]
+[2024-04-01 17:35:13] INFO root fetch - main [MainThread]: End processing [metacast]: success
+[2024-04-01 17:35:13] INFO root fetch - main [MainThread]: Store serial: [22571314]
