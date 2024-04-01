@@ -11819,3 +11819,81 @@ EOFError: EOF read where object expected
 [2024-04-01 20:09:22] INFO root fetch - processPackages [PyWavelets]: Remove: archive file [/home/abi/fetcher/tmp/pywavelets-1.6.0rc1.tar.gz]
 [2024-04-01 20:09:22] INFO root fetch - main [MainThread]: End processing [PyWavelets]: success
 [2024-04-01 20:09:22] INFO root fetch - main [MainThread]: Store serial: [22573251]
+[2024-04-01 20:11:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573251]
+[2024-04-01 20:11:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camera-ui-python-types
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zetascale
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meditability
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MacroQueue
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: librus-apix
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modlee-onnx2torch
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-framework
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: honcho-ai
+[2024-04-01 20:11:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioecopanel
+[2024-04-01 20:11:44] INFO root fetch - processPackages [xia-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [MacroQueue]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [meditability]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [zetascale]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [librus-apix]: New version: [0.6.9.post3] Old Version: [0.6.9.post2]
+[2024-04-01 20:11:44] WARNING root fetch - processPackages [modlee-onnx2torch]: Skipping, unable to determine old version
+[2024-04-01 20:11:44] INFO root fetch - main [MainThread]: End processing [modlee-onnx2torch] error
+[2024-04-01 20:11:44] INFO root fetch - processPackages [aioecopanel]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [honcho-ai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 20:11:44] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/4d/ec/8ba56b22e3b523e06aaac69046406b53a851ada9fdfb0c21920204e3ccee/xia-framework-0.0.8.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/d3/fc/4a257ac682ca7c5126f90651442faf618bea7cef270e9f2809b00e5524ae/MacroQueue-0.2.2.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/81/50/3afad38a9eb49412986998c224140ea3136cc5fd376633b330647efbe52a/meditability-0.2.1.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/2e/dd/a1fb5ffdacacd59626a9f07ce118259a3ffc08935a555dfe1966d359f216/zetascale-2.2.6.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/80/92/1084523995350cdf2015073d9b1d2ed59b454f5d083d41edf716582e7acd/librus_apix-0.6.9.post2.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/62/cd/5f41c903b06a959a2f66364ecad15eb4579ef1e307a0fade8bc0477af76c/honcho_ai-0.0.6.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [aioecopanel]: Downloading https://files.pythonhosted.org/packages/70/41/2e3cbeb4e4ebbb919e2808d31063987a5c00477d0b8274017b11d4517b5f/aioecopanel-0.0.8.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/1a/aa/c1278b76a785a1c89cde0fa37b425dbc14d128e5a6542af6978710d87150/xia-framework-0.0.9.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/08/5a/b04ac25cd3d4469dffa0927e0812400cfebee4231540350195662333d6c7/MacroQueue-0.2.3.tar.gz
+[2024-04-01 20:11:44] INFO root fetch - processPackages [xia-framework]: executing diffoscope
+[2024-04-01 20:11:44] INFO root fetch - processPackages [xia-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-framework-0.0.8.tar.gz tmp/xia-framework-0.0.9.tar.gz --markdown 20240401/x/xia-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [meditability]: Downloading https://files.pythonhosted.org/packages/ad/1d/cb57989092f7ace4130d7643bebc83693c2e58a1a0b3580bec5022e2d77a/meditability-0.2.2.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/9a/39/bdd12cb7847eaa4ef4d6060e51d1dbdd0660b59365c9329b531dee2d2f3f/zetascale-2.2.7.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [honcho-ai]: Downloading https://files.pythonhosted.org/packages/c7/ea/aac5110267bac61fb880bb917ee47a000c332b88af1e4a2671f0846b4279/honcho_ai-0.0.7.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [aioecopanel]: Downloading https://files.pythonhosted.org/packages/f7/62/8fce3fa77805410a51eb082b823bc360df8aadacd46762b58f823582c1c7/aioecopanel-0.0.9.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/a3/94/74df5631d825f1689c17ee9ea928e016d0c8c022086352e698660f0a0f17/librus_apix-0.6.9.post3.tar.gz
+[2024-04-01 20:11:45] INFO root fetch - processPackages [meditability]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [meditability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meditability-0.2.1.tar.gz tmp/meditability-0.2.2.tar.gz --markdown 20240401/m/meditability/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [MacroQueue]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [MacroQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacroQueue-0.2.2.tar.gz tmp/MacroQueue-0.2.3.tar.gz --markdown 20240401/M/MacroQueue/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240401/c/camera-ui-python-types/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.6.9.post2.tar.gz tmp/librus_apix-0.6.9.post3.tar.gz --markdown 20240401/l/librus-apix/0.6.9.post2-0.6.9.post3/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [honcho-ai]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [honcho-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honcho_ai-0.0.6.tar.gz tmp/honcho_ai-0.0.7.tar.gz --markdown 20240401/h/honcho-ai/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.2.6.tar.gz tmp/zetascale-2.2.7.tar.gz --markdown 20240401/z/zetascale/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [aioecopanel]: executing diffoscope
+[2024-04-01 20:11:45] INFO root fetch - processPackages [aioecopanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioecopanel-0.0.8.tar.gz tmp/aioecopanel-0.0.9.tar.gz --markdown 20240401/a/aioecopanel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:11:45] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.8.tar.gz]
+[2024-04-01 20:11:45] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.9.tar.gz]
+[2024-04-01 20:11:45] INFO root fetch - main [MainThread]: End processing [xia-framework]: success
+[2024-04-01 20:11:45] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-04-01 20:11:45] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-04-01 20:11:45] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post2.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post3.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.2.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.3.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [MacroQueue]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [aioecopanel]: Remove: archive file [/home/abi/fetcher/tmp/aioecopanel-0.0.8.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [aioecopanel]: Remove: archive file [/home/abi/fetcher/tmp/aioecopanel-0.0.9.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [aioecopanel]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.1.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [meditability]: Remove: archive file [/home/abi/fetcher/tmp/meditability-0.2.2.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [meditability]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.6.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [honcho-ai]: Remove: archive file [/home/abi/fetcher/tmp/honcho_ai-0.0.7.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [honcho-ai]: success
+[2024-04-01 20:11:46] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.6.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.7.tar.gz]
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-01 20:11:46] INFO root fetch - main [MainThread]: Store serial: [22573286]
