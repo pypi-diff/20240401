@@ -17914,3 +17914,74 @@ EOFError: EOF read where object expected
 [2024-04-01 23:19:37] INFO root fetch - processPackages [tencentcloud-sdk-python-ssm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ssm-3.0.999.tar.gz]
 [2024-04-01 23:19:37] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssm]: success
 [2024-04-01 23:19:37] INFO root fetch - main [MainThread]: Store serial: [22575875]
+[2024-04-01 23:21:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575875]
+[2024-04-01 23:21:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-tag
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tan
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: damo
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tat
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tav
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: surge-api
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lightning-pose
+[2024-04-01 23:21:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cgat
+[2024-04-01 23:21:46] INFO root fetch - processPackages [surge-api]: New version: [1.5.2] Old Version: [1.5.1]
+[2024-04-01 23:21:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:21:46] INFO root fetch - processPackages [lightning-pose]: New version: [1.2.1] Old Version: [1.1.0]
+[2024-04-01 23:21:46] INFO root fetch - processPackages [cgat]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-04-01 23:21:46] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:21:46] INFO root fetch - processPackages [damo]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:21:47] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/d1/3d/9893de76a4920cb5e2065ad25a2277add038369591b214c8ebee30c727b1/surge_api-1.5.1-py3-none-any.whl
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/29/86/bc025d6e5c5acac1e46676e8598c5aea59c56d5c0936bfe9b5264abbab9a/tencentcloud-sdk-python-tag-3.0.998.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [cgat]: Downloading https://files.pythonhosted.org/packages/3f/a8/9a48c094a91bc3ce135636a8680246d017acb366fe7ee50acdbec071ad53/cgat-0.6.5.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/4b/f6/2773dae1511ae1d831231af6432bfb4bfbd7a0d261437da00cc49376f1c6/damo-2.2.7.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/48/68/7b0a4f5c6be6b795f71ed4953b785084c842dd66b1ca54964580aeaecd1a/tencentcloud-sdk-python-tan-3.0.998.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/9b/34/de50dfc88ceeb07111350b897df1a05300d50556c5113a6983134045a76f/tencentcloud-sdk-python-tav-3.0.998.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Downloading https://files.pythonhosted.org/packages/d8/27/79a5feb995e3477fb451345d06bce3fb604ab91633be13f8d372a2f4a7e6/tencentcloud-sdk-python-tat-3.0.998.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [lightning-pose]: Downloading https://files.pythonhosted.org/packages/cf/32/36f7e4f374f5ed16ff36fffdbb72119a3ffb9ad641889a5891299affbaba/lightning-pose-1.1.0.tar.gz
+[2024-04-01 23:21:47] WARNING root fetch - processPackages [lightning-pose]: Skipping package: exceeds size limit 60727049>=10485760
+[2024-04-01 23:21:47] INFO root fetch - main [MainThread]: End processing [lightning-pose] error
+[2024-04-01 23:21:47] INFO root fetch - processPackages [surge-api]: Downloading https://files.pythonhosted.org/packages/84/0d/d4782a403307fb2b549a2e278ffeeab834224f709292846336c47c07103e/surge_api-1.5.2-py3-none-any.whl
+[2024-04-01 23:21:47] INFO root fetch - processPackages [damo]: Downloading https://files.pythonhosted.org/packages/0d/ba/ab80738a6ac6556fb7db4c5abddca2d1bea24a645a762aa1d1f0bfc80000/damo-2.2.8.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [cgat]: Downloading https://files.pythonhosted.org/packages/48/d6/a2b30b119fa7e1ee3132a8b327e6295f7672e0fa596560a89f4eabf35404/cgat-0.7.0.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [surge-api]: executing diffoscope
+[2024-04-01 23:21:47] INFO root fetch - processPackages [surge-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surge_api-1.5.1-py3-none-any.whl.zip tmp/surge_api-1.5.2-py3-none-any.whl.zip --markdown 20240401/s/surge-api/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Downloading https://files.pythonhosted.org/packages/e2/bd/c533bdd6a2fef16b01bfe9399cc6b7c9316a33bb7b3c6b1a16e3c0b8b24a/tencentcloud-sdk-python-tan-3.0.999.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Downloading https://files.pythonhosted.org/packages/a8/05/e40eae77c8e9818894b67981ee6c9847b1a6fe1dd5ed93f0f292de0aaae7/tencentcloud-sdk-python-tav-3.0.999.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [damo]: executing diffoscope
+[2024-04-01 23:21:47] INFO root fetch - processPackages [damo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damo-2.2.7.tar.gz tmp/damo-2.2.8.tar.gz --markdown 20240401/d/damo/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: executing diffoscope
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tan/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Downloading https://files.pythonhosted.org/packages/87/17/00d12b740f2db59b50b189202cdf94cbe9b4b9b6f0cfd90d48efb1a3b21b/tencentcloud-sdk-python-tat-3.0.999.tar.gz
+[2024-04-01 23:21:47] INFO root fetch - processPackages [cgat]: executing diffoscope
+[2024-04-01 23:21:47] INFO root fetch - processPackages [cgat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgat-0.6.5.tar.gz tmp/cgat-0.7.0.tar.gz --markdown 20240401/c/cgat/0.6.5-0.7.0/diff.md --exclude *.pyd
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: executing diffoscope
+[2024-04-01 23:21:47] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tat-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tat-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tat/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: executing diffoscope
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:21:48] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.5.1-py3-none-any.whl.zip]
+[2024-04-01 23:21:48] INFO root fetch - processPackages [surge-api]: Remove: archive file [/home/abi/fetcher/tmp/surge_api-1.5.2-py3-none-any.whl.zip]
+[2024-04-01 23:21:48] INFO root fetch - main [MainThread]: End processing [surge-api]: success
+[2024-04-01 23:21:48] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.2.7.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - processPackages [damo]: Remove: archive file [/home/abi/fetcher/tmp/damo-2.2.8.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - main [MainThread]: End processing [damo]: success
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.998.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tan]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tan-3.0.999.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tan]: success
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Downloading https://files.pythonhosted.org/packages/26/0d/6cbab21bb92bb010935632e7faab0ec6641e13a2f6ed7421bcb7a0c87b4c/tencentcloud-sdk-python-tag-3.0.999.tar.gz
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tat-3.0.998.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tat]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tat-3.0.999.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tat]: success
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.998.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - processPackages [tencentcloud-sdk-python-tav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tav-3.0.999.tar.gz]
+[2024-04-01 23:21:48] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tav]: success
+[2024-04-01 23:21:49] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: executing diffoscope
+[2024-04-01 23:21:49] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tag/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:21:49] INFO root fetch - processPackages [cgat]: Remove: archive file [/home/abi/fetcher/tmp/cgat-0.6.5.tar.gz]
+[2024-04-01 23:21:49] INFO root fetch - processPackages [cgat]: Remove: archive file [/home/abi/fetcher/tmp/cgat-0.7.0.tar.gz]
+[2024-04-01 23:21:49] INFO root fetch - main [MainThread]: End processing [cgat]: success
+[2024-04-01 23:21:49] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.998.tar.gz]
+[2024-04-01 23:21:49] INFO root fetch - processPackages [tencentcloud-sdk-python-tag]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tag-3.0.999.tar.gz]
+[2024-04-01 23:21:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tag]: success
+[2024-04-01 23:21:49] INFO root fetch - main [MainThread]: Store serial: [22575897]
