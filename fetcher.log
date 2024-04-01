@@ -561,3 +561,15 @@
 [2024-04-01 11:55:57] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
 [2024-04-01 11:55:57] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2024-04-01 11:55:57] INFO root fetch - main [MainThread]: Store serial: [22567962]
+[2024-04-01 11:58:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567962]
+[2024-04-01 11:58:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 11:58:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liege.urban
+[2024-04-01 11:58:05] INFO root fetch - processPackages [liege.urban]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-01 11:58:05] INFO root fetch - processPackages [liege.urban]: Downloading https://files.pythonhosted.org/packages/ce/3c/fc2270060bf9d6d956eede4bdb1f64438f0bf1b51ffadb85adf4e3c33f78/liege.urban-1.0.2.tar.gz
+[2024-04-01 11:58:05] INFO root fetch - processPackages [liege.urban]: Downloading https://files.pythonhosted.org/packages/74/64/fb8c8662f3187b18e77a72f71487ec244a78cc55cce3c7fee989bdb79cc9/liege.urban-1.0.3.tar.gz
+[2024-04-01 11:58:06] INFO root fetch - processPackages [liege.urban]: executing diffoscope
+[2024-04-01 11:58:06] INFO root fetch - processPackages [liege.urban]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liege.urban-1.0.2.tar.gz tmp/liege.urban-1.0.3.tar.gz --markdown 20240401/l/liege.urban/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-01 11:58:07] INFO root fetch - processPackages [liege.urban]: Remove: archive file [/home/abi/fetcher/tmp/liege.urban-1.0.2.tar.gz]
+[2024-04-01 11:58:07] INFO root fetch - processPackages [liege.urban]: Remove: archive file [/home/abi/fetcher/tmp/liege.urban-1.0.3.tar.gz]
+[2024-04-01 11:58:07] INFO root fetch - main [MainThread]: End processing [liege.urban]: success
+[2024-04-01 11:58:07] INFO root fetch - main [MainThread]: Store serial: [22567964]
