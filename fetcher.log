@@ -5484,3 +5484,63 @@ EOFError: EOF read where object expected
 [2024-04-01 16:15:12] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.6.9.tar.gz]
 [2024-04-01 16:15:12] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
 [2024-04-01 16:15:12] INFO root fetch - main [MainThread]: Store serial: [22570158]
+[2024-04-01 16:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570158]
+[2024-04-01 16:17:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client-v2
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composio-langchain
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composio-crewai
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composio-autogen
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darcpy
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: parseid
+[2024-04-01 16:17:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eflips-ingest
+[2024-04-01 16:17:20] INFO root fetch - processPackages [parseid]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:17:21] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-01 16:17:21] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/f3/4a/f5a4f6de185a86dd9c00a099815d6909cf613b5f63b90a35ec03b08d0c4c/parseid-0.1.1.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [eflips-ingest]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-01 16:17:21] WARNING root fetch - processPackages [darcpy]: Skipping, unable to determine old version
+[2024-04-01 16:17:21] INFO root fetch - main [MainThread]: End processing [darcpy] error
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-langchain]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-crewai]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-04-01 16:17:21] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-autogen]: New version: [0.1.63] Old Version: [0.1.62]
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/02/eb/1e3aecf95299dd27629868acfd7f41f3556500323bdba02efb55e9e21b06/composio_crewai-0.1.62.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/85/40/daf7016b22d9b8cb339674a5dc19f1ace22e88d73fe6a176daab9eb8a35a/composio_langchain-0.1.8.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/9a/95/e7bd0d95dcc8162f15902e0d5a16f95ffeaf121f1ec63a59c4c63b2bcfcf/parseid-0.1.2-py3-none-any.whl
+[2024-04-01 16:17:21] INFO root fetch - processPackages [eflips-ingest]: Downloading https://files.pythonhosted.org/packages/c1/29/52fe207c06a90567fa328ea2c7dfc8b926fc2a814794118789805450f551/eflips_ingest-1.0.0.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [parseid]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [parseid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseid-0.1.1.tar.gz tmp/parseid-0.1.2-py3-none-any.whl.zip --markdown 20240401/p/parseid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/9d/43/f3f04eab680446eb52fee4cf70a502b6cae204a25573d3de10f61602ae24/composio_autogen-0.1.62.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240401/s/stigg-api-client-v2/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-crewai]: Downloading https://files.pythonhosted.org/packages/84/10/259cdc2a22e3dbec1472eec95da5c679c16fa1691b082f3fb11d62e06ec8/composio_crewai-0.1.63.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-langchain]: Downloading https://files.pythonhosted.org/packages/3b/cb/d26aeafeff11520aa109728d4bf54176301aec4470d9f5c58888e6269264/composio_langchain-0.1.9.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [eflips-ingest]: Downloading https://files.pythonhosted.org/packages/ad/00/e924ea244c16bd6ba8f138cdd8063beb549e3755cac28c0a1bf1683f9432/eflips_ingest-1.0.1.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-crewai]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_crewai-0.1.62.tar.gz tmp/composio_crewai-0.1.63.tar.gz --markdown 20240401/c/composio-crewai/0.1.62-0.1.63/diff.md --exclude *.pyd
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-langchain]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_langchain-0.1.8.tar.gz tmp/composio_langchain-0.1.9.tar.gz --markdown 20240401/c/composio-langchain/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-autogen]: Downloading https://files.pythonhosted.org/packages/fa/c2/9f21f57a79f8d9bf5987c842f9291af5d38ea6c90c2bef9975dc94ecf722/composio_autogen-0.1.63.tar.gz
+[2024-04-01 16:17:21] INFO root fetch - processPackages [eflips-ingest]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [eflips-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eflips_ingest-1.0.0.tar.gz tmp/eflips_ingest-1.0.1.tar.gz --markdown 20240401/e/eflips-ingest/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-autogen]: executing diffoscope
+[2024-04-01 16:17:21] INFO root fetch - processPackages [composio-autogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_autogen-0.1.62.tar.gz tmp/composio_autogen-0.1.63.tar.gz --markdown 20240401/c/composio-autogen/0.1.62-0.1.63/diff.md --exclude *.pyd
+[2024-04-01 16:17:22] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.1.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [parseid]: success
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.1.62.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-crewai]: Remove: archive file [/home/abi/fetcher/tmp/composio_crewai-0.1.63.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [composio-crewai]: success
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.1.8.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-langchain]: Remove: archive file [/home/abi/fetcher/tmp/composio_langchain-0.1.9.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [composio-langchain]: success
+[2024-04-01 16:17:22] INFO root fetch - processPackages [eflips-ingest]: Remove: archive file [/home/abi/fetcher/tmp/eflips_ingest-1.0.0.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [eflips-ingest]: Remove: archive file [/home/abi/fetcher/tmp/eflips_ingest-1.0.1.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [eflips-ingest]: success
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.1.62.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [composio-autogen]: Remove: archive file [/home/abi/fetcher/tmp/composio_autogen-0.1.63.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [composio-autogen]: success
+[2024-04-01 16:17:22] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-01 16:17:22] INFO root fetch - main [MainThread]: Store serial: [22570187]
