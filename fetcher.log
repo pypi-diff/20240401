@@ -12912,3 +12912,33 @@ EOFError: EOF read where object expected
 [2024-04-01 20:56:22] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-04-01 20:56:22] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-04-01 20:56:22] INFO root fetch - main [MainThread]: Store serial: [22573773]
+[2024-04-01 20:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573773]
+[2024-04-01 20:58:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anywidget
+[2024-04-01 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aitk
+[2024-04-01 20:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Werkzeug
+[2024-04-01 20:58:32] INFO root fetch - processPackages [Werkzeug]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-01 20:58:32] INFO root fetch - processPackages [anywidget]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-01 20:58:32] INFO root fetch - processPackages [aitk]: New version: [2.0.0] Old Version: [1.0.9]
+[2024-04-01 20:58:32] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/8c/47/75c7099c78dc207486e30cdb2b16059ca6d5c6cdcf9290f4621368bd06e4/werkzeug-3.0.0.tar.gz
+[2024-04-01 20:58:32] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/64/5c/9e5ef3be707d84b5fbe2700ff423a00869a1e10e43663faf17b5a5b9a27d/anywidget-0.9.3.tar.gz
+[2024-04-01 20:58:32] INFO root fetch - processPackages [aitk]: Downloading https://files.pythonhosted.org/packages/0a/41/1b23fd33302b853491c3ac132de48165c5ec8af6d042d6b0a5e62b612e4e/aitk-1.0.9-py3-none-any.whl
+[2024-04-01 20:58:32] INFO root fetch - processPackages [Werkzeug]: Downloading https://files.pythonhosted.org/packages/0d/cc/ff1904eb5eb4b455e442834dabf9427331ac0fa02853bf83db817a7dd53d/werkzeug-3.0.1.tar.gz
+[2024-04-01 20:58:33] INFO root fetch - processPackages [aitk]: Downloading https://files.pythonhosted.org/packages/0f/ae/14c579711bc76a33a75d6b5d27d2e92a78351931c87b084309c330f68ee2/aitk-2.0.0-py3-none-any.whl
+[2024-04-01 20:58:33] INFO root fetch - processPackages [Werkzeug]: executing diffoscope
+[2024-04-01 20:58:33] INFO root fetch - processPackages [Werkzeug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werkzeug-3.0.0.tar.gz tmp/werkzeug-3.0.1.tar.gz --markdown 20240401/W/Werkzeug/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-01 20:58:33] INFO root fetch - processPackages [aitk]: executing diffoscope
+[2024-04-01 20:58:33] INFO root fetch - processPackages [aitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aitk-1.0.9-py3-none-any.whl.zip tmp/aitk-2.0.0-py3-none-any.whl.zip --markdown 20240401/a/aitk/1.0.9-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 20:58:33] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/b9/70/b0ddd9f37a633106b21cb27fd36c01776eb333f752e318d4683b936bb0c4/anywidget-0.9.4.tar.gz
+[2024-04-01 20:58:33] INFO root fetch - processPackages [aitk]: Remove: archive file [/home/abi/fetcher/tmp/aitk-1.0.9-py3-none-any.whl.zip]
+[2024-04-01 20:58:33] INFO root fetch - processPackages [aitk]: Remove: archive file [/home/abi/fetcher/tmp/aitk-2.0.0-py3-none-any.whl.zip]
+[2024-04-01 20:58:33] INFO root fetch - main [MainThread]: End processing [aitk]: success
+[2024-04-01 20:58:34] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2024-04-01 20:58:34] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.9.3.tar.gz tmp/anywidget-0.9.4.tar.gz --markdown 20240401/a/anywidget/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-01 20:58:34] INFO root fetch - processPackages [Werkzeug]: Remove: archive file [/home/abi/fetcher/tmp/werkzeug-3.0.0.tar.gz]
+[2024-04-01 20:58:34] INFO root fetch - processPackages [Werkzeug]: Remove: archive file [/home/abi/fetcher/tmp/werkzeug-3.0.1.tar.gz]
+[2024-04-01 20:58:34] INFO root fetch - main [MainThread]: End processing [Werkzeug]: success
+[2024-04-01 20:58:38] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.9.3.tar.gz]
+[2024-04-01 20:58:38] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.9.4.tar.gz]
+[2024-04-01 20:58:38] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2024-04-01 20:58:38] INFO root fetch - main [MainThread]: Store serial: [22573787]
