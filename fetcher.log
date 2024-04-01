@@ -7916,3 +7916,36 @@ EOFError: EOF read where object expected
 [2024-04-01 17:35:12] INFO root fetch - processPackages [metacast]: Remove: archive file [/home/abi/fetcher/tmp/metacast-0.1.5.tar.gz]
 [2024-04-01 17:35:13] INFO root fetch - main [MainThread]: End processing [metacast]: success
 [2024-04-01 17:35:13] INFO root fetch - main [MainThread]: Store serial: [22571314]
+[2024-04-01 17:37:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571314]
+[2024-04-01 17:37:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lunary
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat-cli-anything
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vrconcept-arhdron
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotgm
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mockalot
+[2024-04-01 17:37:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kodey
+[2024-04-01 17:37:21] INFO root fetch - processPackages [aiotgm]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-01 17:37:21] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/cd/24/65abec86a681d67a18d6942d667efa69e7fd15e0e8f9e55a7da2dbe65bea/aiotgm-0.2.9.tar.gz
+[2024-04-01 17:37:21] WARNING root fetch - processPackages [mockalot]: Skipping, unable to determine old version
+[2024-04-01 17:37:21] INFO root fetch - main [MainThread]: End processing [mockalot] error
+[2024-04-01 17:37:21] WARNING root fetch - processPackages [vrconcept-arhdron]: Skipping, unable to determine old version
+[2024-04-01 17:37:21] INFO root fetch - main [MainThread]: End processing [vrconcept-arhdron] error
+[2024-04-01 17:37:21] WARNING root fetch - processPackages [chat-cli-anything]: Skipping, unable to determine old version
+[2024-04-01 17:37:21] INFO root fetch - main [MainThread]: End processing [chat-cli-anything] error
+[2024-04-01 17:37:21] WARNING root fetch - processPackages [kodey]: Skipping, unable to determine old version
+[2024-04-01 17:37:21] INFO root fetch - main [MainThread]: End processing [kodey] error
+[2024-04-01 17:37:22] INFO root fetch - processPackages [lunary]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 17:37:22] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/e5/39/556dac511b496e351023433d86ff9bd72f58680eb404369dfb33e21aa940/aiotgm-0.3.0.tar.gz
+[2024-04-01 17:37:22] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/8b/66/046c48d8cbd2f8690fd6eb22a1ca1d5d05054d98a4e53fa8f76814b8deb3/lunary-0.2.8.tar.gz
+[2024-04-01 17:37:22] INFO root fetch - processPackages [aiotgm]: executing diffoscope
+[2024-04-01 17:37:22] INFO root fetch - processPackages [aiotgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgm-0.2.9.tar.gz tmp/aiotgm-0.3.0.tar.gz --markdown 20240401/a/aiotgm/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 17:37:22] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/87/06/4a73e206303419d7f7d38cd534c9bdca0f7e169007cde0b31e02db630c4b/lunary-0.2.9.tar.gz
+[2024-04-01 17:37:22] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-04-01 17:37:22] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-0.2.8.tar.gz tmp/lunary-0.2.9.tar.gz --markdown 20240401/l/lunary/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 17:37:23] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.2.9.tar.gz]
+[2024-04-01 17:37:23] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.0.tar.gz]
+[2024-04-01 17:37:23] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
+[2024-04-01 17:37:23] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.2.8.tar.gz]
+[2024-04-01 17:37:23] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.2.9.tar.gz]
+[2024-04-01 17:37:23] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-04-01 17:37:23] INFO root fetch - main [MainThread]: Store serial: [22571340]
