@@ -13518,3 +13518,78 @@ EOFError: EOF read where object expected
 [2024-04-01 21:23:19] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b1.tar.gz]
 [2024-04-01 21:23:19] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-01 21:23:19] INFO root fetch - main [MainThread]: Store serial: [22574052]
+[2024-04-01 21:25:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574052]
+[2024-04-01 21:25:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmt
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gronckle
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gammarer.aws-waf-ip-restriction-rule-group
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stelladb
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-waf-geo-restriction-rule-group
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PHX
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eth-abi
+[2024-04-01 21:25:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: direnumerate
+[2024-04-01 21:25:29] INFO root fetch - processPackages [eth-abi]: New version: [5.1.0] Old Version: [5.0.1]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [llmt]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [stelladb]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [gronckle]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [PHX]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-01 21:25:29] INFO root fetch - processPackages [direnumerate]: New version: [3.0rc4] Old Version: [2.3rc2]
+[2024-04-01 21:25:30] INFO root fetch - processPackages [eth-abi]: Downloading https://files.pythonhosted.org/packages/b2/cb/370191e5445b3cbac2e6cb2023aa6ec232bbfa683d80909c884b2b0c2c62/eth_abi-5.0.1.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/08/67/b58978ce9375110f198b7a1a1fada487d7ef005653c0248c62b92e840909/stelladb-0.2.4.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [llmt]: Downloading https://files.pythonhosted.org/packages/49/ed/67647677e15dab9927105e9b9a81c749255b3c1fad52ac165d63989b03ae/llmt-0.0.2.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/fc/ec/e37b8df18b6d290a6ec8e1db58371d7e0f63c83e724ed782f607fea913c6/gammarer.aws-waf-ip-restriction-rule-group-1.3.2.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gronckle]: Downloading https://files.pythonhosted.org/packages/b4/22/c6b14941cd526548b34cd347c6a70a80dd9f1f1e233798324040e89323f9/gronckle-0.0.1.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/7f/54/226f497bebf638a99d13dd4839f01f5550575c1ac1410e158d01a0a6e800/gammarer.aws-waf-geo-restriction-rule-group-1.3.1.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/ad/48/a9b966f484d5fbfbde35e2c15c1211cc18359a09978bfbaafcd30f095d50/PHX-1.8.1.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/1f/4e/d1526857c04a588414fb2166f818b2e94629886cefbbb9a38ff4df660233/direnumerate-2.3rc2.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [eth-abi]: Downloading https://files.pythonhosted.org/packages/91/f7/dc714b95d07ee825f60fc62c26822a5da44b4930d362f8f5ab69eb2d7403/eth_abi-5.1.0.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/5d/39/27804242de6d08df94879dc10b39c0a09c068de70dd482238f76076276d1/stelladb-0.2.5.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [llmt]: Downloading https://files.pythonhosted.org/packages/af/b8/7093496eb8ac126b948b43cb7bf4466c2d34a14f55fde1e6cae195937a3f/llmt-0.0.3.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/6c/1f/0ffb989213a04e0d8429c27b30c17c0411f5154aca4669d4a29502bc574e/gammarer.aws-waf-ip-restriction-rule-group-1.3.3.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: Downloading https://files.pythonhosted.org/packages/87/5b/86644d6a83287e7633b333ad2a4b8616562e209ea212f4eb6b5f8e9c5dc9/gammarer.aws-waf-geo-restriction-rule-group-1.3.2.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gronckle]: Downloading https://files.pythonhosted.org/packages/3f/77/51b54811e68e79e527023e92d34947cc82e984c6d5e601b956a75cbc0008/gronckle-0.0.2.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [stelladb]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [stelladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stelladb-0.2.4.tar.gz tmp/stelladb-0.2.5.tar.gz --markdown 20240401/s/stelladb/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [eth-abi]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [eth-abi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth_abi-5.0.1.tar.gz tmp/eth_abi-5.1.0.tar.gz --markdown 20240401/e/eth-abi/5.0.1-5.1.0/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/a2/6e/9239b66520493b83b2e28b0a4fe7fa3b4aff2a888ab12663cf5942be6a4a/direnumerate-3.0rc4.tar.gz
+[2024-04-01 21:25:30] INFO root fetch - processPackages [llmt]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [llmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmt-0.0.2.tar.gz tmp/llmt-0.0.3.tar.gz --markdown 20240401/l/llmt/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-waf-ip-restriction-rule-group-1.3.2.tar.gz tmp/gammarer.aws-waf-ip-restriction-rule-group-1.3.3.tar.gz --markdown 20240401/g/gammarer.aws-waf-ip-restriction-rule-group/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-waf-geo-restriction-rule-group-1.3.1.tar.gz tmp/gammarer.aws-waf-geo-restriction-rule-group-1.3.2.tar.gz --markdown 20240401/g/gammarer.aws-waf-geo-restriction-rule-group/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gronckle]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [gronckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gronckle-0.0.1.tar.gz tmp/gronckle-0.0.2.tar.gz --markdown 20240401/g/gronckle/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 21:25:30] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-04-01 21:25:30] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-2.3rc2.tar.gz tmp/direnumerate-3.0rc4.tar.gz --markdown 20240401/d/direnumerate/2.3rc2-3.0rc4/diff.md --exclude *.pyd
+[2024-04-01 21:25:31] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.4.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.5.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [stelladb]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [llmt]: Remove: archive file [/home/abi/fetcher/tmp/llmt-0.0.2.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [llmt]: Remove: archive file [/home/abi/fetcher/tmp/llmt-0.0.3.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [llmt]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gronckle]: Remove: archive file [/home/abi/fetcher/tmp/gronckle-0.0.1.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gronckle]: Remove: archive file [/home/abi/fetcher/tmp/gronckle-0.0.2.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [gronckle]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [PHX]: Downloading https://files.pythonhosted.org/packages/d5/cf/427f0ced8ef3cc98e22c877b4eb980575483e2cf3ac2387f5e901120b744/PHX-1.9.0.tar.gz
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-ip-restriction-rule-group-1.3.2.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gammarer.aws-waf-ip-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-ip-restriction-rule-group-1.3.3.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [gammarer.aws-waf-ip-restriction-rule-group]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-geo-restriction-rule-group-1.3.1.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [gammarer.aws-waf-geo-restriction-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-geo-restriction-rule-group-1.3.2.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [gammarer.aws-waf-geo-restriction-rule-group]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-2.3rc2.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc4.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [eth-abi]: Remove: archive file [/home/abi/fetcher/tmp/eth_abi-5.0.1.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - processPackages [eth-abi]: Remove: archive file [/home/abi/fetcher/tmp/eth_abi-5.1.0.tar.gz]
+[2024-04-01 21:25:31] INFO root fetch - main [MainThread]: End processing [eth-abi]: success
+[2024-04-01 21:25:31] INFO root fetch - processPackages [PHX]: executing diffoscope
+[2024-04-01 21:25:31] INFO root fetch - processPackages [PHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PHX-1.8.1.tar.gz tmp/PHX-1.9.0.tar.gz --markdown 20240401/P/PHX/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 21:25:32] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.8.1.tar.gz]
+[2024-04-01 21:25:32] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
+[2024-04-01 21:25:32] INFO root fetch - main [MainThread]: End processing [PHX]: success
+[2024-04-01 21:25:32] INFO root fetch - main [MainThread]: Store serial: [22574076]
