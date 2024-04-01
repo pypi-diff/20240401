@@ -12395,3 +12395,97 @@ EOFError: EOF read where object expected
 [2024-04-01 20:33:47] INFO root fetch - processPackages [omfit-classes]: Remove: archive file [/home/abi/fetcher/tmp/omfit_classes-3.2024.9.2.tar.gz]
 [2024-04-01 20:33:47] INFO root fetch - main [MainThread]: End processing [omfit-classes]: success
 [2024-04-01 20:33:47] INFO root fetch - main [MainThread]: Store serial: [22573516]
+[2024-04-01 20:35:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573516]
+[2024-04-01 20:35:58] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-arq
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfra-nightly
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfra-nightly-gpu
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinjet-common
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-core-dev
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: corvic-engine
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: amsdal
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gwalk
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neon-llm-core
+[2024-04-01 20:35:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composabl-train-dev
+[2024-04-01 20:35:58] INFO root fetch - processPackages [pinjet-common]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [tfra-nightly-gpu]: New version: [0.6.1.dev20240325081401] Old Version: [0.6.1.dev20240324235319]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [neon-llm-core]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [gwalk]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [corvic-engine]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [amsdal]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [python-arq]: New version: [6.0.7] Old Version: [6.0.6]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [tfra-nightly]: New version: [0.6.1.dev20240325081401] Old Version: [0.6.1.dev20240324235319]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/49/dc/7ae71795d18a7730232646527fbf83864bcb74dd048621882813bb8c0205/pinjet-common-0.0.2.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev6] Old Version: [0.8.0.dev1]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [tfra-nightly-gpu]: Downloading https://files.pythonhosted.org/packages/ea/ba/a2907079564a782a2196e49a6c82f765186d2801f7b54931017088db254a/tfra_nightly_gpu-0.6.1.dev20240324235319-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:58] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev6] Old Version: [0.8.0.dev1]
+[2024-04-01 20:35:58] INFO root fetch - processPackages [neon-llm-core]: Downloading https://files.pythonhosted.org/packages/b2/5d/e90d2f35ea51005530703e1c8f9e9cead913d0c635a928f8237f067a1bf1/neon-llm-core-0.1.1a2.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [python-arq]: Downloading https://files.pythonhosted.org/packages/74/73/b5fba0843b234fd57d4a88671c3cb9e98322513496765eeef79e3fcb65df/python_arq-6.0.6.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [gwalk]: Downloading https://files.pythonhosted.org/packages/7d/e8/4f1e0b61b27bbf0b547f38050fad5bf409cb41f974882f1c70b9e6b53d11/gwalk-2.1.2.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/28/81/73d66a8b87408209ecb35a7c2bc6678eed7152cd47281836f38fe9d103aa/corvic_engine-0.1.8.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/df/2c/10768d193fea7c29196486a996e001da8f084ab78505caa413ea6e9601c9/tfra_nightly-0.6.1.dev20240324235319-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:58] WARNING root fetch - processPackages [tfra-nightly-gpu]: Skipping package: exceeds size limit 29695419>=10485760
+[2024-04-01 20:35:58] INFO root fetch - processPackages [tfra-nightly-gpu]: Start processing: composabl-dev
+[2024-04-01 20:35:58] INFO root fetch - main [MainThread]: End processing [tfra-nightly-gpu] error
+[2024-04-01 20:35:58] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/7b/33/5c648d4ad3740b9a62992f8997feb7863944339ca8fa7c694d5e7dd07e8e/amsdal-0.1.6-cp311-cp311-win_amd64.whl
+[2024-04-01 20:35:58] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/ef/78/cd677aa49b2c12ca0707481ea6c9c43726f8b1200d71bd8c9050b378397f/composabl_core_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:58] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21034903>=10485760
+[2024-04-01 20:35:58] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-01 20:35:58] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/e4/9f/514e9ab517aff86fb9a361cbcf8b259a5c36c7476e0268e87e253ece4654/pinjet-common-0.0.3.tar.gz
+[2024-04-01 20:35:58] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/6b/5b/dbce26f389c35912a46f88a52ca59944a91c2f91112556953a279185a6b7/composabl_train_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:59] INFO root fetch - processPackages [neon-llm-core]: Downloading https://files.pythonhosted.org/packages/29/e7/ebbfdde21edfecb4a942eb6ebc56b036e90f7de8004eb443324a5dd037f1/neon-llm-core-0.1.1a3.tar.gz
+[2024-04-01 20:35:59] INFO root fetch - processPackages [gwalk]: Downloading https://files.pythonhosted.org/packages/9b/f0/a2bb2b485ecac6c61d3ee959ae84ea0531d606569e813bd95a1b81f3f53b/gwalk-2.1.3.tar.gz
+[2024-04-01 20:35:59] INFO root fetch - processPackages [pinjet-common]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [pinjet-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjet-common-0.0.2.tar.gz tmp/pinjet-common-0.0.3.tar.gz --markdown 20240401/p/pinjet-common/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 20:35:59] INFO root fetch - processPackages [python-arq]: Downloading https://files.pythonhosted.org/packages/d5/0a/5b84aa41f4378c3ae00ea1cc0795eb62626cf7d790451ef5b1f1f9f74d2c/python_arq-6.0.7.tar.gz
+[2024-04-01 20:35:59] INFO root fetch - processPackages [corvic-engine]: Downloading https://files.pythonhosted.org/packages/09/86/d913022f7e6621ce441c8b834aa1f7c0a01a99f249b2e74671b9da6c2acc/corvic_engine-0.1.9.tar.gz
+[2024-04-01 20:35:59] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev6] Old Version: [0.8.0.dev1]
+[2024-04-01 20:35:59] INFO root fetch - processPackages [corvic-engine]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [corvic-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/corvic_engine-0.1.8.tar.gz tmp/corvic_engine-0.1.9.tar.gz --markdown 20240401/c/corvic-engine/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 20:35:59] INFO root fetch - processPackages [neon-llm-core]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [neon-llm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-llm-core-0.1.1a2.tar.gz tmp/neon-llm-core-0.1.1a3.tar.gz --markdown 20240401/n/neon-llm-core/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2024-04-01 20:35:59] INFO root fetch - processPackages [python-arq]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [python-arq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_arq-6.0.6.tar.gz tmp/python_arq-6.0.7.tar.gz --markdown 20240401/p/python-arq/6.0.6-6.0.7/diff.md --exclude *.pyd
+[2024-04-01 20:35:59] INFO root fetch - processPackages [gwalk]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [gwalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwalk-2.1.2.tar.gz tmp/gwalk-2.1.3.tar.gz --markdown 20240401/g/gwalk/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-01 20:35:59] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/62/7f54b129d4e926bd61b97474a53a029b461691fbc6be5c672ce3dd25a0f1/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:59] INFO root fetch - processPackages [amsdal]: Downloading https://files.pythonhosted.org/packages/1c/60/6735039a57d2f0842f25ba32b5ff83dced72c4bb2c2d5fa8dbb0e22f87c3/amsdal-0.1.7-cp311-cp311-win_amd64.whl
+[2024-04-01 20:35:59] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.2.tar.gz]
+[2024-04-01 20:35:59] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.3.tar.gz]
+[2024-04-01 20:35:59] INFO root fetch - main [MainThread]: End processing [pinjet-common]: success
+[2024-04-01 20:35:59] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:35:59] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/7d/f6/564c3e8cbd507c55ac7ab03cbce90e04b44b1420f2821f3458b806519c15/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-01 20:35:59] INFO root fetch - processPackages [amsdal]: executing diffoscope
+[2024-04-01 20:35:59] INFO root fetch - processPackages [amsdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal-0.1.6-cp311-cp311-win_amd64.whl.zip tmp/amsdal-0.1.7-cp311-cp311-win_amd64.whl.zip --markdown 20240401/a/amsdal/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 20:36:00] INFO root fetch - processPackages [python-arq]: Remove: archive file [/home/abi/fetcher/tmp/python_arq-6.0.6.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - processPackages [python-arq]: Remove: archive file [/home/abi/fetcher/tmp/python_arq-6.0.7.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - main [MainThread]: End processing [python-arq]: success
+[2024-04-01 20:36:00] INFO root fetch - processPackages [neon-llm-core]: Remove: archive file [/home/abi/fetcher/tmp/neon-llm-core-0.1.1a2.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - processPackages [neon-llm-core]: Remove: archive file [/home/abi/fetcher/tmp/neon-llm-core-0.1.1a3.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - main [MainThread]: End processing [neon-llm-core]: success
+[2024-04-01 20:36:00] INFO root fetch - processPackages [gwalk]: Remove: archive file [/home/abi/fetcher/tmp/gwalk-2.1.2.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - processPackages [gwalk]: Remove: archive file [/home/abi/fetcher/tmp/gwalk-2.1.3.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - main [MainThread]: End processing [gwalk]: success
+[2024-04-01 20:36:00] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.8.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - processPackages [corvic-engine]: Remove: archive file [/home/abi/fetcher/tmp/corvic_engine-0.1.9.tar.gz]
+[2024-04-01 20:36:00] INFO root fetch - main [MainThread]: End processing [corvic-engine]: success
+[2024-04-01 20:36:00] INFO root fetch - processPackages [tfra-nightly]: Downloading https://files.pythonhosted.org/packages/bc/57/53e842650c723686865eab2fec4b443514f77776738e100f0f4b63f09f00/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:36:00] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-01 20:36:00] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240401/c/composabl-dev/0.8.0.dev1-0.8.0.dev6/diff.md --exclude *.pyd
+[2024-04-01 20:36:00] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.6-cp311-cp311-win_amd64.whl.zip]
+[2024-04-01 20:36:00] INFO root fetch - processPackages [amsdal]: Remove: archive file [/home/abi/fetcher/tmp/amsdal-0.1.7-cp311-cp311-win_amd64.whl.zip]
+[2024-04-01 20:36:00] INFO root fetch - main [MainThread]: End processing [amsdal]: success
+[2024-04-01 20:36:01] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:36:01] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-01 20:36:01] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-01 20:36:01] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-01 20:36:01] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/c/composabl-train-dev/0.8.0.dev1-0.8.0.dev6/diff.md --exclude *.pyd
+[2024-04-01 20:36:02] INFO root fetch - processPackages [tfra-nightly]: executing diffoscope
+[2024-04-01 20:36:02] INFO root fetch - processPackages [tfra-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfra_nightly-0.6.1.dev20240324235319-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/t/tfra-nightly/0.6.1.dev20240324235319-0.6.1.dev20240325081401/diff.md --exclude *.pyd
+[2024-04-01 20:36:03] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240324235319-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:36:03] INFO root fetch - processPackages [tfra-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfra_nightly-0.6.1.dev20240325081401-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:36:03] INFO root fetch - main [MainThread]: End processing [tfra-nightly]: success
+[2024-04-01 20:37:18] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:37:18] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:37:18] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-01 20:37:18] INFO root fetch - main [MainThread]: Store serial: [22573578]
