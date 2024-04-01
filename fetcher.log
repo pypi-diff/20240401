@@ -4696,3 +4696,33 @@ EOFError: EOF read where object expected
 [2024-04-01 15:41:40] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 15:41:40] INFO root fetch - main [MainThread]: Store serial: [22569760]
+[2024-04-01 15:43:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569760]
+[2024-04-01 15:43:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 15:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client-v2
+[2024-04-01 15:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scalifiai-client
+[2024-04-01 15:43:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytubefix
+[2024-04-01 15:43:49] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:43:49] INFO root fetch - processPackages [pytubefix]: New version: [4.0rc4] Old Version: [4.0rc3]
+[2024-04-01 15:43:49] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:43:49] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-01 15:43:49] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/23/9b/d456914c1611732ff8e1ae0120bf2e9a520b3ce1ef46723ca8f643ba69ca/pytubefix-4.0rc3.tar.gz
+[2024-04-01 15:43:49] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-01 15:43:49] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:43:49] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/25/24/41dd3f4c4364abb4508f6035be7b7b5fe0c0bcb1e6116a2245cb0a64b341/pytubefix-4.0rc4.tar.gz
+[2024-04-01 15:43:49] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:43:49] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:43:50] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-01 15:43:50] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-4.0rc3.tar.gz tmp/pytubefix-4.0rc4.tar.gz --markdown 20240401/p/pytubefix/4.0rc3-4.0rc4/diff.md --exclude *.pyd
+[2024-04-01 15:43:50] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-01 15:43:50] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-01 15:43:50] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240401/s/stigg-api-client-v2/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-01 15:43:50] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:43:50] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:43:50] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:43:50] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc3.tar.gz]
+[2024-04-01 15:43:50] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc4.tar.gz]
+[2024-04-01 15:43:50] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-01 15:43:51] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-01 15:43:51] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-01 15:43:51] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-01 15:43:51] INFO root fetch - main [MainThread]: Store serial: [22569772]
