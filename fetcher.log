@@ -7520,3 +7520,81 @@ EOFError: EOF read where object expected
 [2024-04-01 17:26:24] INFO root fetch - processPackages [earthstat]: Remove: archive file [/home/abi/fetcher/tmp/earthstat-0.8.0.tar.gz]
 [2024-04-01 17:26:24] INFO root fetch - main [MainThread]: End processing [earthstat]: success
 [2024-04-01 17:26:24] INFO root fetch - main [MainThread]: Store serial: [22571156]
+[2024-04-01 17:28:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571156]
+[2024-04-01 17:28:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secure-email-lacsd
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: auto-period-finder
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scalifiai-client
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: large-image
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: girder-large-image
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-large-image-annotation
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cgmetadata
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: large-image-converter
+[2024-04-01 17:28:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: twofa
+[2024-04-01 17:28:33] WARNING root fetch - processPackages [twofa]: Skipping, unable to determine old version
+[2024-04-01 17:28:33] INFO root fetch - main [MainThread]: End processing [twofa] error
+[2024-04-01 17:28:33] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a2] Old Version: [1.2.0a1]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [cgmetadata]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/f8/9c/e6a0ef9f50913c3e708b617777c98f580840c7a42cd0d09b2d6b8433dec2/scalifiai-client-1.2.0a1.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [secure-email-lacsd]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [auto-period-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [cgmetadata]: Downloading https://files.pythonhosted.org/packages/3c/85/c1554e425e00e9a046011ffd417c927d145e3b9701cee1b7b64b346a6dff/cgmetadata-0.1.4.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [secure-email-lacsd]: Downloading https://files.pythonhosted.org/packages/35/a8/51220f44cd1fe89bd967df2dba9bb219629a7e9ad1346cb909eea7348824/secure_email_lacsd-1.0.3.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [auto-period-finder]: Downloading https://files.pythonhosted.org/packages/04/bb/c5327456400af27c38a5147328a219c88529499844b394686d779a7c9157/auto_period_finder-0.0.8.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2024-04-01 17:28:33] INFO root fetch - processPackages [cgmetadata]: Downloading https://files.pythonhosted.org/packages/65/a4/9ef84f8baefecceeb721a5e14cc23602089c99b01b3129a88ab387d7b397/cgmetadata-0.1.5.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/f6/51/124fe563f0d7b2877beab958c8ed6332e7777af184aed6067bcc71193f04/scalifiai-client-1.2.0a2.tar.gz
+[2024-04-01 17:28:33] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [cgmetadata]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [cgmetadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgmetadata-0.1.4.tar.gz tmp/cgmetadata-0.1.5.tar.gz --markdown 20240401/c/cgmetadata/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [auto-period-finder]: Downloading https://files.pythonhosted.org/packages/91/cc/e48ba2d728ee11a14182dced2af87145d2370057415bd0fdadc86e1e85cb/auto_period_finder-0.0.9.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [secure-email-lacsd]: Downloading https://files.pythonhosted.org/packages/b0/49/ff815a690f375f1b48c1b55757ac364d4a1c9ac873fbb46257a99b07324c/secure_email_lacsd-1.0.4.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a1.tar.gz tmp/scalifiai-client-1.2.0a2.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a1-1.2.0a2/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [auto-period-finder]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [auto-period-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_period_finder-0.0.8.tar.gz tmp/auto_period_finder-0.0.9.tar.gz --markdown 20240401/a/auto-period-finder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [secure-email-lacsd]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [secure-email-lacsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secure_email_lacsd-1.0.3.tar.gz tmp/secure_email_lacsd-1.0.4.tar.gz --markdown 20240401/s/secure-email-lacsd/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20240401/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20240401/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20240401/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2024-04-01 17:28:34] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20240401/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2024-04-01 17:28:34] INFO root fetch - processPackages [cgmetadata]: Remove: archive file [/home/abi/fetcher/tmp/cgmetadata-0.1.4.tar.gz]
+[2024-04-01 17:28:34] INFO root fetch - processPackages [cgmetadata]: Remove: archive file [/home/abi/fetcher/tmp/cgmetadata-0.1.5.tar.gz]
+[2024-04-01 17:28:34] INFO root fetch - main [MainThread]: End processing [cgmetadata]: success
+[2024-04-01 17:28:34] INFO root fetch - processPackages [auto-period-finder]: Remove: archive file [/home/abi/fetcher/tmp/auto_period_finder-0.0.8.tar.gz]
+[2024-04-01 17:28:34] INFO root fetch - processPackages [auto-period-finder]: Remove: archive file [/home/abi/fetcher/tmp/auto_period_finder-0.0.9.tar.gz]
+[2024-04-01 17:28:34] INFO root fetch - main [MainThread]: End processing [auto-period-finder]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a1.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a2.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [secure-email-lacsd]: Remove: archive file [/home/abi/fetcher/tmp/secure_email_lacsd-1.0.3.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [secure-email-lacsd]: Remove: archive file [/home/abi/fetcher/tmp/secure_email_lacsd-1.0.4.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [secure-email-lacsd]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2024-04-01 17:28:35] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2024-04-01 17:28:35] INFO root fetch - main [MainThread]: Store serial: [22571181]
