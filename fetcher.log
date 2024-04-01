@@ -743,3 +743,18 @@
 [2024-04-01 12:04:40] INFO root fetch - processPackages [azureml-metrics]: Remove: archive file [/home/abi/fetcher/tmp/azureml_metrics-47.0.0-py3-none-any.whl.zip]
 [2024-04-01 12:04:40] INFO root fetch - main [MainThread]: End processing [azureml-metrics]: success
 [2024-04-01 12:04:40] INFO root fetch - main [MainThread]: Store serial: [22568035]
+[2024-04-01 12:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568035]
+[2024-04-01 12:06:50] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encapsia-cli
+[2024-04-01 12:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpsApi
+[2024-04-01 12:06:50] INFO root fetch - processPackages [encapsia-cli]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-01 12:06:50] WARNING root fetch - processPackages [OpsApi]: Skipping, unable to determine old version
+[2024-04-01 12:06:50] INFO root fetch - main [MainThread]: End processing [OpsApi] error
+[2024-04-01 12:06:50] INFO root fetch - processPackages [encapsia-cli]: Downloading https://files.pythonhosted.org/packages/e4/8a/bd55bf25180cb8c9bd8c106d7e5d65f47d44323554e59c4f41b7c383f421/encapsia_cli-0.5.8.tar.gz
+[2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: Downloading https://files.pythonhosted.org/packages/6a/74/ab1a3d8604d4c7db255e01a55ec5bca3809cbc71798a54880af24dcbf79b/encapsia_cli-0.5.9.tar.gz
+[2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: executing diffoscope
+[2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encapsia_cli-0.5.8.tar.gz tmp/encapsia_cli-0.5.9.tar.gz --markdown 20240401/e/encapsia-cli/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_cli-0.5.8.tar.gz]
+[2024-04-01 12:06:51] INFO root fetch - processPackages [encapsia-cli]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_cli-0.5.9.tar.gz]
+[2024-04-01 12:06:51] INFO root fetch - main [MainThread]: End processing [encapsia-cli]: success
+[2024-04-01 12:06:51] INFO root fetch - main [MainThread]: Store serial: [22568043]
