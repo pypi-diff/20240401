@@ -8933,3 +8933,33 @@ EOFError: EOF read where object expected
 [2024-04-01 18:13:51] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt-ikarus-1.0.1.tar.gz]
 [2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [imt-ikarus]: success
 [2024-04-01 18:13:51] INFO root fetch - main [MainThread]: Store serial: [22571880]
+[2024-04-01 18:15:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571880]
+[2024-04-01 18:16:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 18:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maidr
+[2024-04-01 18:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-braket-schemas
+[2024-04-01 18:16:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: function2widgets
+[2024-04-01 18:16:00] INFO root fetch - processPackages [function2widgets]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-01 18:16:00] INFO root fetch - processPackages [maidr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 18:16:00] INFO root fetch - processPackages [amazon-braket-schemas]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-01 18:16:01] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/6d/a0/ab7f4cc8b67b8929379636a23a731a0fa49ed5a061c423352457507e8509/function2widgets-0.6.1.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/c9/fd/246fed981f078c80529e9f8b671626c47d723a6732afea02cb180a60e28a/amazon-braket-schemas-1.8.0.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [maidr]: Downloading https://files.pythonhosted.org/packages/ca/1e/104dfc5a5e26cf1e797eec35505721efe101f18ff0c5ceae5f316b8f19ba/maidr-0.1.1.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/47/24/fa41832439a7cd72ed184f263f33c789d78dbd340251a722b97bcb2dcbdd/function2widgets-0.6.2.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [maidr]: Downloading https://files.pythonhosted.org/packages/44/f9/f7cded5e0546848208a93608abf9a0ac226faf2923e40c7527d7a275ef39/maidr-0.1.2.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [amazon-braket-schemas]: Downloading https://files.pythonhosted.org/packages/1d/aa/207310180e24b721f4e329a40c3a099844ed68a3706c0b5e6dbf779ef8aa/amazon-braket-schemas-1.9.0.tar.gz
+[2024-04-01 18:16:01] INFO root fetch - processPackages [amazon-braket-schemas]: executing diffoscope
+[2024-04-01 18:16:01] INFO root fetch - processPackages [amazon-braket-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-schemas-1.8.0.tar.gz tmp/amazon-braket-schemas-1.9.0.tar.gz --markdown 20240401/a/amazon-braket-schemas/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 18:16:01] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-01 18:16:01] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.1.tar.gz tmp/function2widgets-0.6.2.tar.gz --markdown 20240401/f/function2widgets/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-01 18:16:01] INFO root fetch - processPackages [maidr]: executing diffoscope
+[2024-04-01 18:16:01] INFO root fetch - processPackages [maidr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maidr-0.1.1.tar.gz tmp/maidr-0.1.2.tar.gz --markdown 20240401/m/maidr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:16:02] INFO root fetch - processPackages [maidr]: Remove: archive file [/home/abi/fetcher/tmp/maidr-0.1.1.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - processPackages [maidr]: Remove: archive file [/home/abi/fetcher/tmp/maidr-0.1.2.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - main [MainThread]: End processing [maidr]: success
+[2024-04-01 18:16:02] INFO root fetch - processPackages [amazon-braket-schemas]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-schemas-1.8.0.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - processPackages [amazon-braket-schemas]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-schemas-1.9.0.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - main [MainThread]: End processing [amazon-braket-schemas]: success
+[2024-04-01 18:16:02] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.1.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.2.tar.gz]
+[2024-04-01 18:16:02] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-01 18:16:02] INFO root fetch - main [MainThread]: Store serial: [22571889]
