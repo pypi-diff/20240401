@@ -6600,3 +6600,87 @@ EOFError: EOF read where object expected
 [2024-04-01 16:50:57] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.9.tar.gz]
 [2024-04-01 16:50:57] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
 [2024-04-01 16:50:57] INFO root fetch - main [MainThread]: Store serial: [22570724]
+[2024-04-01 16:53:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570724]
+[2024-04-01 16:53:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adafruit-circuitpython-ek79686
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robot-rumble-stdlib
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recommender-xblock
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SQLAlchemy-serializer
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastapi-sso
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-pybadger
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dstool
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: private-rpa
+[2024-04-01 16:53:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-swagger-coverage
+[2024-04-01 16:53:06] INFO root fetch - processPackages [test-swagger-coverage]: New version: [2.1.61] Old Version: [2.1.60]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [SQLAlchemy-serializer]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: New version: [4.0.0] Old Version: [3.8.1]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [robot-rumble-stdlib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [fastapi-sso]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [private-rpa]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [recommender-xblock]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [dstool]: New version: [0.1.0] Old Version: [0.0.5]
+[2024-04-01 16:53:06] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/a9/3d/3f066c76030e5fa84793a53a453d3ce1f06c5f9d0967639b824e22773a8d/test_swagger_coverage-2.1.60.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [SQLAlchemy-serializer]: Downloading https://files.pythonhosted.org/packages/7c/11/8d196014628c8b1d5131c8748fa1c5f254b943a809e6ed1c3dc7de7d7a3b/SQLAlchemy-serializer-1.4.7.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: Downloading https://files.pythonhosted.org/packages/38/a5/0a4615b58a697a6933dda8c7a59efd21e0a7514cf0425da20508c6a8d02b/adafruit-circuitpython-pybadger-3.8.1.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: Downloading https://files.pythonhosted.org/packages/e9/69/b4ce2c117d7ae492f531a3b024a727c982fcdb8789eb05aa07a5605c75fa/adafruit-circuitpython-ek79686-1.0.2.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [robot-rumble-stdlib]: Downloading https://files.pythonhosted.org/packages/37/e0/6e1f8c39df7747b91dbeca4eaeb26ec411844714f4b8cfd8b05f4b6fff54/robot-rumble-stdlib-0.1.1.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [recommender-xblock]: Downloading https://files.pythonhosted.org/packages/1f/a7/2d7ac160c5781b53d70583ffd8e3e4222b41d54668412a4598dd7638e93a/recommender-xblock-2.1.1.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [private-rpa]: Downloading https://files.pythonhosted.org/packages/ca/af/a3ed5dfc837080e4d403f16e943dd408d93c3f6e8c3eb179fa89a4ab9101/private_rpa-0.1.1.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [dstool]: Downloading https://files.pythonhosted.org/packages/6a/c6/3d7ee27fa30b95e6635cc306db347c6bafeee911a8d0f7b2f5d6060efa29/dstool-0.0.5.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/60/65/695d97e99fa01f3228803b6a3e4203321a2c8ae5827e004c8a5e291d4f6b/fastapi_sso-0.9.0.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [SQLAlchemy-serializer]: Downloading https://files.pythonhosted.org/packages/c4/a6/fee2efb1a24f3bc451424fd73f5a246672aa709c921d885111251578f4f8/SQLAlchemy-serializer-1.4.8.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/ec/e4/fe4ef415f674a36a24ab0f9b21989c1e70a2cbb1a3c1a9d534ff82b63262/test_swagger_coverage-2.1.61.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [SQLAlchemy-serializer]: executing diffoscope
+[2024-04-01 16:53:06] INFO root fetch - processPackages [SQLAlchemy-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemy-serializer-1.4.7.tar.gz tmp/SQLAlchemy-serializer-1.4.8.tar.gz --markdown 20240401/S/SQLAlchemy-serializer/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: Downloading https://files.pythonhosted.org/packages/ca/12/ce0f779b4ca275f27c65eb0be48977059949a48bc94a133c47f056c942ed/adafruit-circuitpython-ek79686-1.1.0.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [robot-rumble-stdlib]: Downloading https://files.pythonhosted.org/packages/55/f2/6dc761263978e1c4cd69a26e4ca71d4bae086650aee19c407ad1ebddc02c/robot-rumble-stdlib-0.1.2.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [test-swagger-coverage]: executing diffoscope
+[2024-04-01 16:53:06] INFO root fetch - processPackages [test-swagger-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_swagger_coverage-2.1.60.tar.gz tmp/test_swagger_coverage-2.1.61.tar.gz --markdown 20240401/t/test-swagger-coverage/2.1.60-2.1.61/diff.md --exclude *.pyd
+[2024-04-01 16:53:06] INFO root fetch - processPackages [recommender-xblock]: Downloading https://files.pythonhosted.org/packages/2c/64/4ad8c05ce5ba09bfa45d4c994d0dcd18d515b62f92f22bf42a05dd3c6963/recommender-xblock-2.2.0.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [private-rpa]: Downloading https://files.pythonhosted.org/packages/0b/64/a0e2e8144f065f17395cb6dda27ae9b1a11a6ab058101d2f834b3dd9e818/private_rpa-0.1.2.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [fastapi-sso]: Downloading https://files.pythonhosted.org/packages/88/28/756cc1a53391071c9cc6802ed5e9f0ad12aec5c632dfb0fdcbda75fdea19/fastapi_sso-0.9.1.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [dstool]: Downloading https://files.pythonhosted.org/packages/e7/bb/a3f115f7c485a70d674c10105b173e06a88e0f7c8697fcd626d8998ecac2/dstool-0.1.0.tar.gz
+[2024-04-01 16:53:06] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: Downloading https://files.pythonhosted.org/packages/1e/c5/81c4499e712f2ef892d1524eb94a8bc048963d3050a94db0708766274f69/adafruit-circuitpython-pybadger-4.0.0.tar.gz
+[2024-04-01 16:53:07] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-ek79686-1.0.2.tar.gz tmp/adafruit-circuitpython-ek79686-1.1.0.tar.gz --markdown 20240401/a/adafruit-circuitpython-ek79686/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [robot-rumble-stdlib]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [robot-rumble-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robot-rumble-stdlib-0.1.1.tar.gz tmp/robot-rumble-stdlib-0.1.2.tar.gz --markdown 20240401/r/robot-rumble-stdlib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [fastapi-sso]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [fastapi-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sso-0.9.0.tar.gz tmp/fastapi_sso-0.9.1.tar.gz --markdown 20240401/f/fastapi-sso/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [recommender-xblock]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [recommender-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recommender-xblock-2.1.1.tar.gz tmp/recommender-xblock-2.2.0.tar.gz --markdown 20240401/r/recommender-xblock/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-pybadger-3.8.1.tar.gz tmp/adafruit-circuitpython-pybadger-4.0.0.tar.gz --markdown 20240401/a/adafruit-circuitpython-pybadger/3.8.1-4.0.0/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [private-rpa]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [private-rpa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/private_rpa-0.1.1.tar.gz tmp/private_rpa-0.1.2.tar.gz --markdown 20240401/p/private-rpa/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [dstool]: executing diffoscope
+[2024-04-01 16:53:07] INFO root fetch - processPackages [dstool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dstool-0.0.5.tar.gz tmp/dstool-0.1.0.tar.gz --markdown 20240401/d/dstool/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 16:53:07] INFO root fetch - processPackages [SQLAlchemy-serializer]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-serializer-1.4.7.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - processPackages [SQLAlchemy-serializer]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-serializer-1.4.8.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - main [MainThread]: End processing [SQLAlchemy-serializer]: success
+[2024-04-01 16:53:07] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.60.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.61.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - main [MainThread]: End processing [test-swagger-coverage]: success
+[2024-04-01 16:53:07] INFO root fetch - processPackages [private-rpa]: Remove: archive file [/home/abi/fetcher/tmp/private_rpa-0.1.1.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - processPackages [private-rpa]: Remove: archive file [/home/abi/fetcher/tmp/private_rpa-0.1.2.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - main [MainThread]: End processing [private-rpa]: success
+[2024-04-01 16:53:07] INFO root fetch - processPackages [robot-rumble-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/robot-rumble-stdlib-0.1.1.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - processPackages [robot-rumble-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/robot-rumble-stdlib-0.1.2.tar.gz]
+[2024-04-01 16:53:07] INFO root fetch - main [MainThread]: End processing [robot-rumble-stdlib]: success
+[2024-04-01 16:53:08] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-ek79686-1.0.2.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - processPackages [adafruit-circuitpython-ek79686]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-ek79686-1.1.0.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-ek79686]: success
+[2024-04-01 16:53:08] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.9.0.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - processPackages [fastapi-sso]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sso-0.9.1.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [fastapi-sso]: success
+[2024-04-01 16:53:08] INFO root fetch - processPackages [dstool]: Remove: archive file [/home/abi/fetcher/tmp/dstool-0.0.5.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - processPackages [dstool]: Remove: archive file [/home/abi/fetcher/tmp/dstool-0.1.0.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [dstool]: success
+[2024-04-01 16:53:08] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-pybadger-3.8.1.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - processPackages [adafruit-circuitpython-pybadger]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-pybadger-4.0.0.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-pybadger]: success
+[2024-04-01 16:53:08] INFO root fetch - processPackages [recommender-xblock]: Remove: archive file [/home/abi/fetcher/tmp/recommender-xblock-2.1.1.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - processPackages [recommender-xblock]: Remove: archive file [/home/abi/fetcher/tmp/recommender-xblock-2.2.0.tar.gz]
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [recommender-xblock]: success
+[2024-04-01 16:53:08] INFO root fetch - main [MainThread]: Store serial: [22570751]
