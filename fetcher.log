@@ -9011,3 +9011,58 @@ EOFError: EOF read where object expected
 [2024-04-01 18:18:17] INFO root fetch - processPackages [pelc]: Remove: archive file [/home/abi/fetcher/tmp/pelc-0.5.4.2.tar.gz]
 [2024-04-01 18:18:17] INFO root fetch - main [MainThread]: End processing [pelc]: success
 [2024-04-01 18:18:17] INFO root fetch - main [MainThread]: Store serial: [22571904]
+[2024-04-01 18:20:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571904]
+[2024-04-01 18:20:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djdantic
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicutils
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynalock
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: suitcase-mongo
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorkas-core
+[2024-04-01 18:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dorkas-core
+[2024-04-01 18:20:29] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [suitcase-mongo]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dorkas-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dorkas-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dynalock]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dcicutils]: New version: [8.8.1.1b9] Old Version: [8.8.1.1b7]
+[2024-04-01 18:20:29] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/34/ba/883bc9924d4c4823b850e855eb9740be143bcef80c7708bb612e0f72ce30/dorkas_core-0.1.0.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/34/ba/883bc9924d4c4823b850e855eb9740be143bcef80c7708bb612e0f72ce30/dorkas_core-0.1.0.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [suitcase-mongo]: Downloading https://files.pythonhosted.org/packages/bd/ca/05d307ed0fa4a672b5da0483d7580d1430b4e47118ad5d02b59149ea8b85/suitcase-mongo-0.5.0.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dynalock]: Downloading https://files.pythonhosted.org/packages/ee/3d/34be5dd63aacaff949647c93e0233789ae6b7501d4832c0b43bd2c59fbb0/dynalock-0.1.0.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/90/b8/72fb6df705cb1c09869e87c8a2e7800bfb131ec14bd74375afcb9facc0e3/dcicutils-8.8.1.1b7.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2024-04-01 18:20:29] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20240401/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:20:29] INFO root fetch - processPackages [dynalock]: Downloading https://files.pythonhosted.org/packages/a3/67/1658500574f0123904c080a8776429b052a7534be48771cb8f16375fb24c/dynalock-0.2.0.tar.gz
+[2024-04-01 18:20:29] INFO root fetch - processPackages [suitcase-mongo]: Downloading https://files.pythonhosted.org/packages/dc/e8/8ff5283be99068dba96591e167071efee0672e96940d9bc7c5dda5b8519b/suitcase-mongo-0.6.0.tar.gz
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b8/73/51271cee9352a565862ee60d8adeb0aec89e045bcafdb0b76eeb4b4222e2/dcicutils-8.8.1.1b9.tar.gz
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/b1/50/54d44a4599b1d19feb0e36614530497c0f1691c9eadba7f2cb92b5ba4c6e/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/b1/50/54d44a4599b1d19feb0e36614530497c0f1691c9eadba7f2cb92b5ba4c6e/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dynalock]: executing diffoscope
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dynalock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynalock-0.1.0.tar.gz tmp/dynalock-0.2.0.tar.gz --markdown 20240401/d/dynalock/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 18:20:30] INFO root fetch - processPackages [suitcase-mongo]: executing diffoscope
+[2024-04-01 18:20:30] INFO root fetch - processPackages [suitcase-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suitcase-mongo-0.5.0.tar.gz tmp/suitcase-mongo-0.6.0.tar.gz --markdown 20240401/s/suitcase-mongo/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.1.1b7.tar.gz tmp/dcicutils-8.8.1.1b9.tar.gz --markdown 20240401/d/dcicutils/8.8.1.1b7-8.8.1.1b9/diff.md --exclude *.pyd
+[2024-04-01 18:20:30] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2024-04-01 18:20:30] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2024-04-01 18:20:30] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: executing diffoscope
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorkas_core-0.1.0.tar.gz tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240401/d/dorkas-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: executing diffoscope
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorkas_core-0.1.0.tar.gz tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240401/d/dorkas-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.0.tar.gz]
+[2024-04-01 18:20:30] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-04-01 18:20:30] INFO root fetch - main [MainThread]: End processing [dorkas-core]: success
+[2024-04-01 18:20:30] INFO root fetch - processPackages [suitcase-mongo]: Remove: archive file [/home/abi/fetcher/tmp/suitcase-mongo-0.5.0.tar.gz]
+[2024-04-01 18:20:30] INFO root fetch - processPackages [suitcase-mongo]: Remove: archive file [/home/abi/fetcher/tmp/suitcase-mongo-0.6.0.tar.gz]
+[2024-04-01 18:20:30] INFO root fetch - main [MainThread]: End processing [suitcase-mongo]: success
+[2024-04-01 18:20:31] INFO root fetch - processPackages [dynalock]: Remove: archive file [/home/abi/fetcher/tmp/dynalock-0.1.0.tar.gz]
+[2024-04-01 18:20:31] INFO root fetch - processPackages [dynalock]: Remove: archive file [/home/abi/fetcher/tmp/dynalock-0.2.0.tar.gz]
+[2024-04-01 18:20:31] INFO root fetch - main [MainThread]: End processing [dynalock]: success
+[2024-04-01 18:20:31] INFO root fetch - main [MainThread]: End processing [dorkas-core]: success
+[2024-04-01 18:20:31] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b7.tar.gz]
+[2024-04-01 18:20:31] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
+[2024-04-01 18:20:31] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-01 18:20:31] INFO root fetch - main [MainThread]: Store serial: [22571923]
