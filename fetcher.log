@@ -3660,3 +3660,45 @@ EOFError: EOF read where object expected
 [2024-04-01 14:50:32] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 14:50:32] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 14:50:32] INFO root fetch - main [MainThread]: Store serial: [22569271]
+[2024-04-01 14:52:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569271]
+[2024-04-01 14:52:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dassana
+[2024-04-01 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat-exporter
+[2024-04-01 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyecho-cli
+[2024-04-01 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwb4fp
+[2024-04-01 14:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RTSDB
+[2024-04-01 14:52:41] INFO root fetch - processPackages [RTSDB]: New version: [1.3] Old Version: [1.2]
+[2024-04-01 14:52:41] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.7.9] Old Version: [0.5.7.7]
+[2024-04-01 14:52:41] INFO root fetch - processPackages [dassana]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 14:52:41] INFO root fetch - processPackages [chat-exporter]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-04-01 14:52:41] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/f5/92/d1120a7104450060376900ac15dcbfa024518e1fba968832e9384dc2b8df/RTSDB-1.2.tar.gz
+[2024-04-01 14:52:41] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/7c/17/a1551cc76da02fcfc34c1d33824eff5bca46f5357b7fbf089b41274741b2/nwb4fp-0.5.7.7.tar.gz
+[2024-04-01 14:52:41] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/b3/9f/871bf6d0e81f729c205d8bbaa19e543384414bab3d57c4b30a50709a45cd/dassana-0.9.8.tar.gz
+[2024-04-01 14:52:41] WARNING root fetch - processPackages [pyecho-cli]: Skipping, unable to determine old version
+[2024-04-01 14:52:41] INFO root fetch - main [MainThread]: End processing [pyecho-cli] error
+[2024-04-01 14:52:41] INFO root fetch - processPackages [chat-exporter]: Downloading https://files.pythonhosted.org/packages/a1/90/d2ebe959cb99aac179c72318c6f30a3ec9b92f3a48d20aea67e3f46f4bc1/chat_exporter-2.6.1.tar.gz
+[2024-04-01 14:52:41] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/62/b8/d2714814f0bfda2cd6e84f84888347d1bae3bb6f1fe3d6463d6ad6aef060/nwb4fp-0.5.7.9.tar.gz
+[2024-04-01 14:52:41] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-01 14:52:41] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.7.7.tar.gz tmp/nwb4fp-0.5.7.9.tar.gz --markdown 20240401/n/nwb4fp/0.5.7.7-0.5.7.9/diff.md --exclude *.pyd
+[2024-04-01 14:52:41] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/ae/5d/e9a3d3a34f407c395ae43b2447a47c417a05e4bf3e0b4c2dcc3c068be8ad/RTSDB-1.3.tar.gz
+[2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: Downloading https://files.pythonhosted.org/packages/78/93/6be6ad3b074908f2717b9398e6769116fdce0754804a4dcfead0bb7d0bee/chat_exporter-2.7.0.tar.gz
+[2024-04-01 14:52:42] INFO root fetch - processPackages [RTSDB]: executing diffoscope
+[2024-04-01 14:52:42] INFO root fetch - processPackages [RTSDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSDB-1.2.tar.gz tmp/RTSDB-1.3.tar.gz --markdown 20240401/R/RTSDB/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-01 14:52:42] INFO root fetch - processPackages [dassana]: Downloading https://files.pythonhosted.org/packages/46/ff/4e2ce19c6956690d25a5647d71e7e27518e7a65200c0411641e62dbd2c48/dassana-0.9.9.tar.gz
+[2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: executing diffoscope
+[2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_exporter-2.6.1.tar.gz tmp/chat_exporter-2.7.0.tar.gz --markdown 20240401/c/chat-exporter/2.6.1-2.7.0/diff.md --exclude *.pyd
+[2024-04-01 14:52:42] INFO root fetch - processPackages [dassana]: executing diffoscope
+[2024-04-01 14:52:42] INFO root fetch - processPackages [dassana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dassana-0.9.8.tar.gz tmp/dassana-0.9.9.tar.gz --markdown 20240401/d/dassana/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 14:52:42] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.7.7.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.7.9.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-01 14:52:42] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.2.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.3.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - main [MainThread]: End processing [RTSDB]: success
+[2024-04-01 14:52:42] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.8.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - processPackages [dassana]: Remove: archive file [/home/abi/fetcher/tmp/dassana-0.9.9.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - main [MainThread]: End processing [dassana]: success
+[2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/chat_exporter-2.6.1.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/chat_exporter-2.7.0.tar.gz]
+[2024-04-01 14:52:42] INFO root fetch - main [MainThread]: End processing [chat-exporter]: success
+[2024-04-01 14:52:42] INFO root fetch - main [MainThread]: Store serial: [22569285]
