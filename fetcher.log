@@ -1541,3 +1541,42 @@ EOFError: EOF read where object expected
 [2024-04-01 12:47:49] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.5.7.tar.gz]
 [2024-04-01 12:47:49] INFO root fetch - main [MainThread]: End processing [Office365-REST-Python-Client]: success
 [2024-04-01 12:47:49] INFO root fetch - main [MainThread]: Store serial: [22568311]
+[2024-04-01 12:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568311]
+[2024-04-01 12:50:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 12:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasetlib
+[2024-04-01 12:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-builtins
+[2024-04-01 12:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aioice2
+[2024-04-01 12:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: difft
+[2024-04-01 12:50:05] INFO root fetch - processPackages [datasetlib]: New version: [0.2] Old Version: [0.1.7.1]
+[2024-04-01 12:50:05] INFO root fetch - processPackages [difft]: New version: [1.4.3] Old Version: [1.4.1]
+[2024-04-01 12:50:05] INFO root fetch - processPackages [aioice2]: New version: [0.9.0.post1] Old Version: [0.9.0.post0]
+[2024-04-01 12:50:05] INFO root fetch - processPackages [flake8-builtins]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-01 12:50:05] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/c8/a3/0e973693345e5b935f8c79e3c1d53f7fdeb813aa129fca2dfaf3aa914696/datasetlib-0.1.7.1.tar.gz
+[2024-04-01 12:50:05] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/14/7c/3f13a44d4b91ca6ce200fc4b9ea65f2f78191d38535544b1c30d54b9e42e/difft-1.4.1-py3-none-any.whl
+[2024-04-01 12:50:05] INFO root fetch - processPackages [aioice2]: Downloading https://files.pythonhosted.org/packages/e5/60/8ca7a4a09618458ef7c4d08ca4c73a379a01b455f68e520c4bd823981646/aioice2-0.9.0.post0.tar.gz
+[2024-04-01 12:50:05] INFO root fetch - processPackages [flake8-builtins]: Downloading https://files.pythonhosted.org/packages/0c/a7/02aad6d96ba2ead6c20fc0469520000f038ac1219ed911723a2f1882c3a3/flake8_builtins-2.3.0.tar.gz
+[2024-04-01 12:50:05] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/46/20/b9083390ea64c11983f1eda6900af5aad355cac5767d10d7f0e8e9dbbda6/difft-1.4.3-py2-none-any.whl
+[2024-04-01 12:50:05] INFO root fetch - processPackages [difft]: executing diffoscope
+[2024-04-01 12:50:05] INFO root fetch - processPackages [difft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difft-1.4.1-py3-none-any.whl.zip tmp/difft-1.4.3-py2-none-any.whl.zip --markdown 20240401/d/difft/1.4.1-1.4.3/diff.md --exclude *.pyd
+[2024-04-01 12:50:05] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/75/1c/d6291f1f6cbb9c3947982982ae59bf823550d461b3d8edfa54e422a6ef26/datasetlib-0.2.tar.gz
+[2024-04-01 12:50:05] INFO root fetch - processPackages [aioice2]: Downloading https://files.pythonhosted.org/packages/39/fd/c65cc1fb0edfe61feae6474da3d3a4a34f930b005c595089f49a671d720c/aioice2-0.9.0.post1.tar.gz
+[2024-04-01 12:50:06] INFO root fetch - processPackages [datasetlib]: executing diffoscope
+[2024-04-01 12:50:06] INFO root fetch - processPackages [datasetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasetlib-0.1.7.1.tar.gz tmp/datasetlib-0.2.tar.gz --markdown 20240401/d/datasetlib/0.1.7.1-0.2/diff.md --exclude *.pyd
+[2024-04-01 12:50:06] INFO root fetch - processPackages [aioice2]: executing diffoscope
+[2024-04-01 12:50:06] INFO root fetch - processPackages [aioice2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioice2-0.9.0.post0.tar.gz tmp/aioice2-0.9.0.post1.tar.gz --markdown 20240401/a/aioice2/0.9.0.post0-0.9.0.post1/diff.md --exclude *.pyd
+[2024-04-01 12:50:06] INFO root fetch - processPackages [flake8-builtins]: Downloading https://files.pythonhosted.org/packages/d8/67/445b708368a93ac62a91113a5528406d912133f2db51a77f379cb7bb72fe/flake8_builtins-2.4.0.tar.gz
+[2024-04-01 12:50:06] INFO root fetch - processPackages [flake8-builtins]: executing diffoscope
+[2024-04-01 12:50:06] INFO root fetch - processPackages [flake8-builtins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_builtins-2.3.0.tar.gz tmp/flake8_builtins-2.4.0.tar.gz --markdown 20240401/f/flake8-builtins/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2024-04-01 12:50:06] INFO root fetch - processPackages [difft]: Remove: archive file [/home/abi/fetcher/tmp/difft-1.4.1-py3-none-any.whl.zip]
+[2024-04-01 12:50:06] INFO root fetch - processPackages [difft]: Remove: archive file [/home/abi/fetcher/tmp/difft-1.4.3-py2-none-any.whl.zip]
+[2024-04-01 12:50:06] INFO root fetch - main [MainThread]: End processing [difft]: success
+[2024-04-01 12:50:06] INFO root fetch - processPackages [aioice2]: Remove: archive file [/home/abi/fetcher/tmp/aioice2-0.9.0.post0.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - processPackages [aioice2]: Remove: archive file [/home/abi/fetcher/tmp/aioice2-0.9.0.post1.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - main [MainThread]: End processing [aioice2]: success
+[2024-04-01 12:50:06] INFO root fetch - processPackages [flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/flake8_builtins-2.3.0.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - processPackages [flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/flake8_builtins-2.4.0.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - main [MainThread]: End processing [flake8-builtins]: success
+[2024-04-01 12:50:06] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.1.7.1.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.2.tar.gz]
+[2024-04-01 12:50:06] INFO root fetch - main [MainThread]: End processing [datasetlib]: success
+[2024-04-01 12:50:06] INFO root fetch - main [MainThread]: Store serial: [22568322]
