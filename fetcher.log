@@ -18647,3 +18647,33 @@ EOFError: EOF read where object expected
 [2024-04-01 23:37:28] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.9.tar.gz]
 [2024-04-01 23:37:28] INFO root fetch - main [MainThread]: End processing [bioimageio-chatbot]: success
 [2024-04-01 23:37:28] INFO root fetch - main [MainThread]: Store serial: [22576139]
+[2024-04-01 23:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576139]
+[2024-04-01 23:39:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 23:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-vpc
+[2024-04-01 23:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-waf
+[2024-04-01 23:39:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-wav
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/e1/bb/443aa69e996bba0b0b2c092c2f0432d30eb93660e9ab22e6fa18c4e3deba/tencentcloud-sdk-python-wav-3.0.998.tar.gz
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Downloading https://files.pythonhosted.org/packages/d0/3b/76a08aec67ad4cfd4277ff4740d48eaa80f9ef8a883e9a9d6b86b0d9b02e/tencentcloud-sdk-python-waf-3.0.998.tar.gz
+[2024-04-01 23:39:37] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: Downloading https://files.pythonhosted.org/packages/02/b7/1ffed10dc581cf0b3eabd66c9b5e6387999c655c9a7982bf0bf233a9c697/tencentcloud-sdk-python-vpc-3.0.998.tar.gz
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Downloading https://files.pythonhosted.org/packages/67/5c/c7bc89115e9650fa844054ef443a6901cd25f53c6d3f46f51c6b9536ac7a/tencentcloud-sdk-python-wav-3.0.999.tar.gz
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Downloading https://files.pythonhosted.org/packages/fb/1e/cf006807a8493f7297a30162a622f10e97b00b7d15cc3889896f4b3b71bc/tencentcloud-sdk-python-waf-3.0.999.tar.gz
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: executing diffoscope
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-wav/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: executing diffoscope
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-waf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-waf-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-waf/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: Downloading https://files.pythonhosted.org/packages/0b/07/7a0c4a33781ecf842d9fb874d5649ade3fec083b957d96e8d2613c315ca2/tencentcloud-sdk-python-vpc-3.0.999.tar.gz
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.998.tar.gz]
+[2024-04-01 23:39:38] INFO root fetch - processPackages [tencentcloud-sdk-python-wav]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-wav-3.0.999.tar.gz]
+[2024-04-01 23:39:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-wav]: success
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-waf-3.0.998.tar.gz]
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-waf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-waf-3.0.999.tar.gz]
+[2024-04-01 23:39:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-waf]: success
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: executing diffoscope
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vpc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vpc-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-vpc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vpc-3.0.998.tar.gz]
+[2024-04-01 23:39:39] INFO root fetch - processPackages [tencentcloud-sdk-python-vpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vpc-3.0.999.tar.gz]
+[2024-04-01 23:39:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vpc]: success
+[2024-04-01 23:39:39] INFO root fetch - main [MainThread]: Store serial: [22576151]
