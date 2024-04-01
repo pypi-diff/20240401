@@ -4634,3 +4634,65 @@ EOFError: EOF read where object expected
 [2024-04-01 15:39:29] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
 [2024-04-01 15:39:29] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
 [2024-04-01 15:39:29] INFO root fetch - main [MainThread]: Store serial: [22569725]
+[2024-04-01 15:41:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569725]
+[2024-04-01 15:41:38] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinny
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: circt
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-images-creator
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotgm
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalifiai-client
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gluepy
+[2024-04-01 15:41:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2024-04-01 15:41:38] INFO root fetch - processPackages [aiotgm]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 15:41:38] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:41:38] INFO root fetch - processPackages [gluepy]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-01 15:41:38] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 15:41:38] INFO root fetch - processPackages [jinny]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-01 15:41:38] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/a6/fe/df4fe1b18a2ab6737aaf19bddc2f8eaeae5ff2f777d6e8b0783211dfddf1/aiotgm-0.2.7.tar.gz
+[2024-04-01 15:41:38] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:41:38] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/b3/e2/fcaa98a51ebbfb6fb55fc789f31dec80706c354f58b90871053739564703/gluepy-1.0.0.tar.gz
+[2024-04-01 15:41:38] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-01 15:41:39] INFO root fetch - processPackages [jinny]: Downloading https://files.pythonhosted.org/packages/b9/85/81a5bf59367bc73fa89dee5e32a08d0b9b29781a94dea8cf6a6e805e1283/jinny-1.9.3.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [circt]: New version: [1.71.1.dev18] Old Version: [1.71.0]
+[2024-04-01 15:41:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/e2/e2/c74bd2866697a20d74f05a30509e712633bbdbedbc7509774d1e4480576b/aiotgm-0.2.8.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/0c/bc/1a95fe13f6db7b648375d081ca0fff346071d727fe14dd19d505eab3393a/gluepy-1.0.1.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:41:39] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/95/3e/4191b76f7f600194ded00eaf8d478df5c7dec9a3ba442fb82c1f13c36f15/circt-1.71.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 15:41:39] INFO root fetch - processPackages [aiotgm]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [aiotgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgm-0.2.7.tar.gz tmp/aiotgm-0.2.8.tar.gz --markdown 20240401/a/aiotgm/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 15:41:39] INFO root fetch - processPackages [jinny]: Downloading https://files.pythonhosted.org/packages/cc/95/d343591cb878913aebeafdfc666f00705210f096239e3bb25908ddc362b1/jinny-1.9.4.tar.gz
+[2024-04-01 15:41:39] WARNING root fetch - processPackages [circt]: Skipping package: exceeds size limit 18701505>=10485760
+[2024-04-01 15:41:39] INFO root fetch - main [MainThread]: End processing [circt] error
+[2024-04-01 15:41:39] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [gluepy]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [gluepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluepy-1.0.0.tar.gz tmp/gluepy-1.0.1.tar.gz --markdown 20240401/g/gluepy/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 15:41:39] INFO root fetch - processPackages [jinny]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [jinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinny-1.9.3.tar.gz tmp/jinny-1.9.4.tar.gz --markdown 20240401/j/jinny/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2024-04-01 15:41:39] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-01 15:41:39] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240401/s/stigg-api-client/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-01 15:41:39] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 15:41:39] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 15:41:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:41:40] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.0.0.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.0.1.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [gluepy]: success
+[2024-04-01 15:41:40] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.2.7.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.2.8.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
+[2024-04-01 15:41:40] INFO root fetch - processPackages [jinny]: Remove: archive file [/home/abi/fetcher/tmp/jinny-1.9.3.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [jinny]: Remove: archive file [/home/abi/fetcher/tmp/jinny-1.9.4.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [jinny]: success
+[2024-04-01 15:41:40] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-01 15:41:40] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 15:41:40] INFO root fetch - main [MainThread]: Store serial: [22569760]
