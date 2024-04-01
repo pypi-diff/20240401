@@ -6236,3 +6236,27 @@ EOFError: EOF read where object expected
 [2024-04-01 16:33:18] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
 [2024-04-01 16:33:18] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2024-04-01 16:33:18] INFO root fetch - main [MainThread]: Store serial: [22570570]
+[2024-04-01 16:35:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570570]
+[2024-04-01 16:35:27] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 16:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jinny
+[2024-04-01 16:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocat
+[2024-04-01 16:35:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: All-in-one-chay
+[2024-04-01 16:35:27] INFO root fetch - processPackages [jinny]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-04-01 16:35:27] INFO root fetch - processPackages [jinny]: Downloading https://files.pythonhosted.org/packages/b9/85/81a5bf59367bc73fa89dee5e32a08d0b9b29781a94dea8cf6a6e805e1283/jinny-1.9.3.tar.gz
+[2024-04-01 16:35:27] WARNING root fetch - processPackages [rocat]: Skipping, unable to determine old version
+[2024-04-01 16:35:27] INFO root fetch - main [MainThread]: End processing [rocat] error
+[2024-04-01 16:35:27] INFO root fetch - processPackages [All-in-one-chay]: New version: [2.4.5] Old Version: [2.4.4]
+[2024-04-01 16:35:27] INFO root fetch - processPackages [jinny]: Downloading https://files.pythonhosted.org/packages/cc/95/d343591cb878913aebeafdfc666f00705210f096239e3bb25908ddc362b1/jinny-1.9.4.tar.gz
+[2024-04-01 16:35:28] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/83/84/71f486d3358edd9d245668be3d673ff140f27110a8504c6d5baf6cfaabc2/All-in-one-chay-2.4.4.tar.gz
+[2024-04-01 16:35:28] INFO root fetch - processPackages [jinny]: executing diffoscope
+[2024-04-01 16:35:28] INFO root fetch - processPackages [jinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinny-1.9.3.tar.gz tmp/jinny-1.9.4.tar.gz --markdown 20240401/j/jinny/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2024-04-01 16:35:28] INFO root fetch - processPackages [All-in-one-chay]: Downloading https://files.pythonhosted.org/packages/02/01/9b3a0e30763b7e1aa90333befc7ab6d9c0507915fcc764edaf51263d3dfa/All-in-one-chay-2.4.5.tar.gz
+[2024-04-01 16:35:28] INFO root fetch - processPackages [jinny]: Remove: archive file [/home/abi/fetcher/tmp/jinny-1.9.3.tar.gz]
+[2024-04-01 16:35:28] INFO root fetch - processPackages [jinny]: Remove: archive file [/home/abi/fetcher/tmp/jinny-1.9.4.tar.gz]
+[2024-04-01 16:35:28] INFO root fetch - main [MainThread]: End processing [jinny]: success
+[2024-04-01 16:35:29] INFO root fetch - processPackages [All-in-one-chay]: executing diffoscope
+[2024-04-01 16:35:29] INFO root fetch - processPackages [All-in-one-chay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/All-in-one-chay-2.4.4.tar.gz tmp/All-in-one-chay-2.4.5.tar.gz --markdown 20240401/A/All-in-one-chay/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2024-04-01 16:35:30] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/All-in-one-chay-2.4.4.tar.gz]
+[2024-04-01 16:35:30] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/All-in-one-chay-2.4.5.tar.gz]
+[2024-04-01 16:35:30] INFO root fetch - main [MainThread]: End processing [All-in-one-chay]: success
+[2024-04-01 16:35:30] INFO root fetch - main [MainThread]: Store serial: [22570580]
