@@ -6491,3 +6491,47 @@ EOFError: EOF read where object expected
 [2024-04-01 16:44:17] INFO root fetch - processPackages [cassandra-medusa]: Remove: archive file [/home/abi/fetcher/tmp/cassandra-medusa-0.9.1.tar.gz]
 [2024-04-01 16:44:17] INFO root fetch - main [MainThread]: End processing [cassandra-medusa]: success
 [2024-04-01 16:44:17] INFO root fetch - main [MainThread]: Store serial: [22570673]
+[2024-04-01 16:46:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570673]
+[2024-04-01 16:46:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 16:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydwca
+[2024-04-01 16:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fauna
+[2024-04-01 16:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linktools
+[2024-04-01 16:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qbee-gpio
+[2024-04-01 16:46:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-node-binding
+[2024-04-01 16:46:27] INFO root fetch - processPackages [fauna]: New version: [1.2.0b4] Old Version: [1.2.0b3]
+[2024-04-01 16:46:27] INFO root fetch - processPackages [qbee-gpio]: New version: [3.0.0] Old Version: [2.0.1]
+[2024-04-01 16:46:27] INFO root fetch - processPackages [linktools]: New version: [0.8.2rc0] Old Version: [0.8.2]
+[2024-04-01 16:46:27] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.45.0.post1070] Old Version: [2.45.0.post1064]
+[2024-04-01 16:46:27] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/ee/1e/5c46b87ca0b601027c230053bd7521fb9481acf31e7ed18328413cf84cc2/fauna-1.2.0b3-py2.py3-none-any.whl
+[2024-04-01 16:46:27] INFO root fetch - processPackages [pydwca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 16:46:27] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/cf/65/37db47e8e5c3c6b4e0a711aeecb1636b9d151e4dd1169e00dbe3df20bd6b/linktools-0.8.2.tar.gz
+[2024-04-01 16:46:27] INFO root fetch - processPackages [qbee-gpio]: Downloading https://files.pythonhosted.org/packages/c5/0a/e4c2e5c04a9603b044670f190b8eadcd95b59353bfc092a7bc7884d96e08/qbee_gpio-2.0.1.tar.gz
+[2024-04-01 16:46:27] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/4d/ab/4732450b2654fe10a1ef701b9fb082e693348a279ea86b4671e3413722c4/nucliadb_node_binding-2.45.0.post1064.tar.gz
+[2024-04-01 16:46:27] INFO root fetch - processPackages [pydwca]: Downloading https://files.pythonhosted.org/packages/2f/19/8f65faa78b79432abada531517765eb8326f43df0c80405cca219915e2ac/pydwca-0.0.8.tar.gz
+[2024-04-01 16:46:27] WARNING root fetch - processPackages [pydwca]: Skipping package: exceeds size limit 92569705>=10485760
+[2024-04-01 16:46:27] INFO root fetch - main [MainThread]: End processing [pydwca] error
+[2024-04-01 16:46:27] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/09/e7/7149a0e120ad53eb6b204fe979062f82031337c0478fd34ebb661b2a0559/fauna-1.2.0b4-py2.py3-none-any.whl
+[2024-04-01 16:46:28] INFO root fetch - processPackages [qbee-gpio]: Downloading https://files.pythonhosted.org/packages/cf/33/ee37d98979d6397e24272aa524b720fc3cd648cd6f8af40ad30fd01d92ad/qbee_gpio-3.0.0.tar.gz
+[2024-04-01 16:46:28] INFO root fetch - processPackages [linktools]: Downloading https://files.pythonhosted.org/packages/4b/86/71a9b11e914c29bccfd27d4b60e4dfcad7a8e8439e2f4ab51f760f5bfe5e/linktools-0.8.2rc0.tar.gz
+[2024-04-01 16:46:28] INFO root fetch - processPackages [fauna]: executing diffoscope
+[2024-04-01 16:46:28] INFO root fetch - processPackages [fauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fauna-1.2.0b3-py2.py3-none-any.whl.zip tmp/fauna-1.2.0b4-py2.py3-none-any.whl.zip --markdown 20240401/f/fauna/1.2.0b3-1.2.0b4/diff.md --exclude *.pyd
+[2024-04-01 16:46:28] INFO root fetch - processPackages [qbee-gpio]: executing diffoscope
+[2024-04-01 16:46:28] INFO root fetch - processPackages [qbee-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbee_gpio-2.0.1.tar.gz tmp/qbee_gpio-3.0.0.tar.gz --markdown 20240401/q/qbee-gpio/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2024-04-01 16:46:28] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d2/a6/28ef941d4629aba3627b0bba49ee360a6ca611830b67ef6cc1359907abb3/nucliadb_node_binding-2.45.0.post1070-cp39-cp39-macosx_10_7_x86_64.whl
+[2024-04-01 16:46:28] INFO root fetch - processPackages [linktools]: executing diffoscope
+[2024-04-01 16:46:28] INFO root fetch - processPackages [linktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktools-0.8.2.tar.gz tmp/linktools-0.8.2rc0.tar.gz --markdown 20240401/l/linktools/0.8.2-0.8.2rc0/diff.md --exclude *.pyd
+[2024-04-01 16:46:28] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-1.2.0b3-py2.py3-none-any.whl.zip]
+[2024-04-01 16:46:28] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-1.2.0b4-py2.py3-none-any.whl.zip]
+[2024-04-01 16:46:28] INFO root fetch - main [MainThread]: End processing [fauna]: success
+[2024-04-01 16:46:28] INFO root fetch - processPackages [qbee-gpio]: Remove: archive file [/home/abi/fetcher/tmp/qbee_gpio-2.0.1.tar.gz]
+[2024-04-01 16:46:28] INFO root fetch - processPackages [qbee-gpio]: Remove: archive file [/home/abi/fetcher/tmp/qbee_gpio-3.0.0.tar.gz]
+[2024-04-01 16:46:28] INFO root fetch - main [MainThread]: End processing [qbee-gpio]: success
+[2024-04-01 16:46:29] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.2.tar.gz]
+[2024-04-01 16:46:29] INFO root fetch - processPackages [linktools]: Remove: archive file [/home/abi/fetcher/tmp/linktools-0.8.2rc0.tar.gz]
+[2024-04-01 16:46:29] INFO root fetch - main [MainThread]: End processing [linktools]: success
+[2024-04-01 16:46:31] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-01 16:46:31] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.45.0.post1064.tar.gz tmp/nucliadb_node_binding-2.45.0.post1070-cp39-cp39-macosx_10_7_x86_64.whl.zip --markdown 20240401/n/nucliadb-node-binding/2.45.0.post1064-2.45.0.post1070/diff.md --exclude *.pyd
+[2024-04-01 16:46:32] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.45.0.post1064.tar.gz]
+[2024-04-01 16:46:32] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.45.0.post1070-cp39-cp39-macosx_10_7_x86_64.whl.zip]
+[2024-04-01 16:46:32] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-01 16:46:32] INFO root fetch - main [MainThread]: Store serial: [22570696]
