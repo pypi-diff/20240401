@@ -1001,3 +1001,36 @@ EOFError: EOF read where object expected
 [2024-04-01 12:20:10] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.5.3.tar.gz]
 [2024-04-01 12:20:10] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
 [2024-04-01 12:20:10] INFO root fetch - main [MainThread]: Store serial: [22568130]
+[2024-04-01 12:22:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568130]
+[2024-04-01 12:22:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 12:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qibo-client
+[2024-04-01 12:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cihai-cli
+[2024-04-01 12:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flexible-classifier
+[2024-04-01 12:22:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: promuet
+[2024-04-01 12:22:19] WARNING root fetch - processPackages [flexible-classifier]: Skipping, unable to determine old version
+[2024-04-01 12:22:19] INFO root fetch - main [MainThread]: End processing [flexible-classifier] error
+[2024-04-01 12:22:19] INFO root fetch - processPackages [cihai-cli]: New version: [0.9.0a1] Old Version: [0.9.0a0]
+[2024-04-01 12:22:19] INFO root fetch - processPackages [qibo-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 12:22:19] INFO root fetch - processPackages [promuet]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 12:22:19] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/d2/4c/75ccfa9c6b8fb30de3cba09cf54a8c9f6f9f2f38a9cea4b854a81c25cc79/cihai-cli-0.9.0a0.tar.gz
+[2024-04-01 12:22:19] INFO root fetch - processPackages [promuet]: Downloading https://files.pythonhosted.org/packages/c8/11/041053874b72f81d9ec32279f3094bbd70f3d81a08f6e0d84a8dd14e68c0/promuet-0.3.0.tar.gz
+[2024-04-01 12:22:19] INFO root fetch - processPackages [qibo-client]: Downloading https://files.pythonhosted.org/packages/8b/57/9e318c7b4ecf14c30cacc8f6ea903825a3ee10c22e8f3b943016ec148928/qibo_client-0.0.3.tar.gz
+[2024-04-01 12:22:20] INFO root fetch - processPackages [cihai-cli]: Downloading https://files.pythonhosted.org/packages/0b/b5/e89b0b6924ecd0d5a3cb77abed8ec4b18fefbae25d67658b915c13d1bf35/cihai-cli-0.9.0a1.tar.gz
+[2024-04-01 12:22:20] INFO root fetch - processPackages [promuet]: Downloading https://files.pythonhosted.org/packages/1f/54/1e2a436153207bc827d5d8f1ad0abe4229591d22599723609095e06873b0/promuet-0.3.1.tar.gz
+[2024-04-01 12:22:20] INFO root fetch - processPackages [qibo-client]: Downloading https://files.pythonhosted.org/packages/31/ff/6b1c3cfde1b6d7ec50d4c07463128f68b36df2886115436636dc1c52cf43/qibo_client-0.0.4.tar.gz
+[2024-04-01 12:22:20] INFO root fetch - processPackages [cihai-cli]: executing diffoscope
+[2024-04-01 12:22:20] INFO root fetch - processPackages [cihai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-cli-0.9.0a0.tar.gz tmp/cihai-cli-0.9.0a1.tar.gz --markdown 20240401/c/cihai-cli/0.9.0a0-0.9.0a1/diff.md --exclude *.pyd
+[2024-04-01 12:22:20] INFO root fetch - processPackages [promuet]: executing diffoscope
+[2024-04-01 12:22:20] INFO root fetch - processPackages [promuet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promuet-0.3.0.tar.gz tmp/promuet-0.3.1.tar.gz --markdown 20240401/p/promuet/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 12:22:20] INFO root fetch - processPackages [qibo-client]: executing diffoscope
+[2024-04-01 12:22:20] INFO root fetch - processPackages [qibo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qibo_client-0.0.3.tar.gz tmp/qibo_client-0.0.4.tar.gz --markdown 20240401/q/qibo-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 12:22:21] INFO root fetch - processPackages [qibo-client]: Remove: archive file [/home/abi/fetcher/tmp/qibo_client-0.0.3.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - processPackages [qibo-client]: Remove: archive file [/home/abi/fetcher/tmp/qibo_client-0.0.4.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - main [MainThread]: End processing [qibo-client]: success
+[2024-04-01 12:22:21] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a0.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - processPackages [cihai-cli]: Remove: archive file [/home/abi/fetcher/tmp/cihai-cli-0.9.0a1.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - main [MainThread]: End processing [cihai-cli]: success
+[2024-04-01 12:22:21] INFO root fetch - processPackages [promuet]: Remove: archive file [/home/abi/fetcher/tmp/promuet-0.3.0.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - processPackages [promuet]: Remove: archive file [/home/abi/fetcher/tmp/promuet-0.3.1.tar.gz]
+[2024-04-01 12:22:21] INFO root fetch - main [MainThread]: End processing [promuet]: success
+[2024-04-01 12:22:21] INFO root fetch - main [MainThread]: Store serial: [22568146]
