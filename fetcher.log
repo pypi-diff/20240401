@@ -12750,3 +12750,42 @@ EOFError: EOF read where object expected
 [2024-04-01 20:49:00] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.0-py3-none-macosx_11_0_arm64.whl.zip]
 [2024-04-01 20:49:00] INFO root fetch - main [MainThread]: End processing [typos]: success
 [2024-04-01 20:49:00] INFO root fetch - main [MainThread]: Store serial: [22573704]
+[2024-04-01 20:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573704]
+[2024-04-01 20:51:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 20:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: glibs-www
+[2024-04-01 20:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt
+[2024-04-01 20:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Quart
+[2024-04-01 20:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atom-tools
+[2024-04-01 20:51:09] INFO root fetch - processPackages [glibs-www]: New version: [2.0.2] Old Version: [1.0.0]
+[2024-04-01 20:51:09] INFO root fetch - processPackages [Quart]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 20:51:09] INFO root fetch - processPackages [atom-tools]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-04-01 20:51:09] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.5]
+[2024-04-01 20:51:09] INFO root fetch - processPackages [glibs-www]: Downloading https://files.pythonhosted.org/packages/c6/00/98d0f03f7dd46eed55a54a0229eee5668fa6e5b0b55fb1cc78754cfd24e8/glibs-www-1.0.0.tar.gz
+[2024-04-01 20:51:09] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/b6/b5/e9d6459114f4bf7a0be77b2004ac89563cee0b28646043bd451595f3a5aa/dbt-1.0.0.37.5.tar.gz
+[2024-04-01 20:51:09] INFO root fetch - processPackages [atom-tools]: Downloading https://files.pythonhosted.org/packages/6a/5f/9ec928aebf64db32b338a7906365cef479cdd26984440f1583e060997dcb/atom-tools-0.4.5.tar.gz
+[2024-04-01 20:51:09] INFO root fetch - processPackages [Quart]: Downloading https://files.pythonhosted.org/packages/b8/8d/24289d24ad210f036b19e463d75c2243a315db2a489704de44a8609607f9/Quart-0.9.0.tar.gz
+[2024-04-01 20:51:10] INFO root fetch - processPackages [glibs-www]: Downloading https://files.pythonhosted.org/packages/53/77/e2164d5056cbc6ae1887ff6da1d3ef490a0fc94107c00a684824a04295e6/glibs-www-2.0.2.tar.gz
+[2024-04-01 20:51:10] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-04-01 20:51:10] INFO root fetch - processPackages [atom-tools]: Downloading https://files.pythonhosted.org/packages/c7/54/99c2badb43ad5b1a2d68199d27bcb9291ca19d68ffab4df95bcdf279c213/atom-tools-0.5.0.tar.gz
+[2024-04-01 20:51:10] INFO root fetch - processPackages [glibs-www]: executing diffoscope
+[2024-04-01 20:51:10] INFO root fetch - processPackages [glibs-www]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glibs-www-1.0.0.tar.gz tmp/glibs-www-2.0.2.tar.gz --markdown 20240401/g/glibs-www/1.0.0-2.0.2/diff.md --exclude *.pyd
+[2024-04-01 20:51:10] INFO root fetch - processPackages [Quart]: Downloading https://files.pythonhosted.org/packages/4e/ad/f63cc6835e61486ef936f838dc242cfb2c0985884d856a2a37cad93cc4ee/Quart-0.9.1.tar.gz
+[2024-04-01 20:51:10] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-04-01 20:51:10] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.5.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240401/d/dbt/1.0.0.37.5-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-01 20:51:10] INFO root fetch - processPackages [atom-tools]: executing diffoscope
+[2024-04-01 20:51:10] INFO root fetch - processPackages [atom-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atom-tools-0.4.5.tar.gz tmp/atom-tools-0.5.0.tar.gz --markdown 20240401/a/atom-tools/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 20:51:10] INFO root fetch - processPackages [Quart]: executing diffoscope
+[2024-04-01 20:51:10] INFO root fetch - processPackages [Quart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quart-0.9.0.tar.gz tmp/Quart-0.9.1.tar.gz --markdown 20240401/Q/Quart/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 20:51:10] INFO root fetch - processPackages [glibs-www]: Remove: archive file [/home/abi/fetcher/tmp/glibs-www-1.0.0.tar.gz]
+[2024-04-01 20:51:10] INFO root fetch - processPackages [glibs-www]: Remove: archive file [/home/abi/fetcher/tmp/glibs-www-2.0.2.tar.gz]
+[2024-04-01 20:51:10] INFO root fetch - main [MainThread]: End processing [glibs-www]: success
+[2024-04-01 20:51:11] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.5.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-04-01 20:51:11] INFO root fetch - processPackages [atom-tools]: Remove: archive file [/home/abi/fetcher/tmp/atom-tools-0.4.5.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - processPackages [atom-tools]: Remove: archive file [/home/abi/fetcher/tmp/atom-tools-0.5.0.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - main [MainThread]: End processing [atom-tools]: success
+[2024-04-01 20:51:11] INFO root fetch - processPackages [Quart]: Remove: archive file [/home/abi/fetcher/tmp/Quart-0.9.0.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - processPackages [Quart]: Remove: archive file [/home/abi/fetcher/tmp/Quart-0.9.1.tar.gz]
+[2024-04-01 20:51:11] INFO root fetch - main [MainThread]: End processing [Quart]: success
+[2024-04-01 20:51:11] INFO root fetch - main [MainThread]: Store serial: [22573723]
