@@ -465,3 +465,51 @@
 [2024-04-01 11:49:22] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
 [2024-04-01 11:49:22] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
 [2024-04-01 11:49:22] INFO root fetch - main [MainThread]: Store serial: [22567865]
+[2024-04-01 11:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567865]
+[2024-04-01 11:51:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-aer
+[2024-04-01 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: froggius
+[2024-04-01 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vupitap
+[2024-04-01 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gigachain-cli
+[2024-04-01 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybsi-cloud-sdk
+[2024-04-01 11:51:31] INFO root fetch - processPackages [qiskit-aer]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 11:51:31] INFO root fetch - processPackages [froggius]: New version: [0.1.3.post1] Old Version: [0.1.3]
+[2024-04-01 11:51:31] INFO root fetch - processPackages [vupitap]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 11:51:31] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/f2/c9/8432ff9213212a6c01590a4deaed308b2a82fe64faa41bc7210f4370cd24/qiskit-aer-0.9.0.tar.gz
+[2024-04-01 11:51:31] INFO root fetch - processPackages [cybsi-cloud-sdk]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-01 11:51:31] INFO root fetch - processPackages [gigachain-cli]: New version: [0.0.22rc1] Old Version: [0.0.22rc0]
+[2024-04-01 11:51:32] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/df/2b/a34fd2f39f8d3b08da961d81063e0d22875fb89206fd716f4f0e7d32ce8d/froggius-0.1.3.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [vupitap]: Downloading https://files.pythonhosted.org/packages/9f/43/c0caeabf217811bf3dc35c980c3f3d382a33b6dc47c09da49164e62911da/vupitap-0.0.1.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [cybsi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/38/8c/1c3e3718e839de14aa51c13371fd10c0159a3e8249b8904d2ea47c114b69/cybsi_cloud_sdk-1.0.8.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [gigachain-cli]: Downloading https://files.pythonhosted.org/packages/05/1e/ba730bf6fc4d30b935d78910f2c7aab465dc024fc9280687116c2b864c8c/gigachain_cli-0.0.22rc0.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/fa/bf/4ec2efafc57a2c87796a73af5652b6bb522d8d73920ae0f04e8c9cb98477/froggius-0.1.3.post1.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [qiskit-aer]: Downloading https://files.pythonhosted.org/packages/c5/25/bb6a38726d2fe5c5201e452943f793f7461bdb8bb2895c6a3fea177833d8/qiskit-aer-0.9.1.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [cybsi-cloud-sdk]: Downloading https://files.pythonhosted.org/packages/83/d1/12acc64f5c47b5bf3a6994a85cfa7d538fc3df7c8e8542fc466fe07f426b/cybsi_cloud_sdk-1.1.0.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [gigachain-cli]: Downloading https://files.pythonhosted.org/packages/bf/a2/32942edb4101ee4b0b872242037a13d7b88eda1edf48bf4a7d300fb45e32/gigachain_cli-0.0.22rc1.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [vupitap]: Downloading https://files.pythonhosted.org/packages/b9/61/249830113bdb5c2aa13821aa6544ca57ecd4c2590ba67451170f44bb8566/vupitap-0.0.2.tar.gz
+[2024-04-01 11:51:32] INFO root fetch - processPackages [froggius]: executing diffoscope
+[2024-04-01 11:51:32] INFO root fetch - processPackages [froggius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froggius-0.1.3.tar.gz tmp/froggius-0.1.3.post1.tar.gz --markdown 20240401/f/froggius/0.1.3-0.1.3.post1/diff.md --exclude *.pyd
+[2024-04-01 11:51:32] INFO root fetch - processPackages [gigachain-cli]: executing diffoscope
+[2024-04-01 11:51:32] INFO root fetch - processPackages [vupitap]: executing diffoscope
+[2024-04-01 11:51:32] INFO root fetch - processPackages [vupitap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vupitap-0.0.1.tar.gz tmp/vupitap-0.0.2.tar.gz --markdown 20240401/v/vupitap/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 11:51:32] INFO root fetch - processPackages [gigachain-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain_cli-0.0.22rc0.tar.gz tmp/gigachain_cli-0.0.22rc1.tar.gz --markdown 20240401/g/gigachain-cli/0.0.22rc0-0.0.22rc1/diff.md --exclude *.pyd
+[2024-04-01 11:51:32] INFO root fetch - processPackages [cybsi-cloud-sdk]: executing diffoscope
+[2024-04-01 11:51:32] INFO root fetch - processPackages [cybsi-cloud-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybsi_cloud_sdk-1.0.8.tar.gz tmp/cybsi_cloud_sdk-1.1.0.tar.gz --markdown 20240401/c/cybsi-cloud-sdk/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 11:51:32] INFO root fetch - processPackages [qiskit-aer]: executing diffoscope
+[2024-04-01 11:51:32] INFO root fetch - processPackages [qiskit-aer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-aer-0.9.0.tar.gz tmp/qiskit-aer-0.9.1.tar.gz --markdown 20240401/q/qiskit-aer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 11:51:33] INFO root fetch - processPackages [vupitap]: Remove: archive file [/home/abi/fetcher/tmp/vupitap-0.0.1.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - processPackages [vupitap]: Remove: archive file [/home/abi/fetcher/tmp/vupitap-0.0.2.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - main [MainThread]: End processing [vupitap]: success
+[2024-04-01 11:51:33] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.post1.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - main [MainThread]: End processing [froggius]: success
+[2024-04-01 11:51:33] INFO root fetch - processPackages [cybsi-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_cloud_sdk-1.0.8.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - processPackages [cybsi-cloud-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cybsi_cloud_sdk-1.1.0.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - main [MainThread]: End processing [cybsi-cloud-sdk]: success
+[2024-04-01 11:51:33] INFO root fetch - processPackages [gigachain-cli]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_cli-0.0.22rc0.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - processPackages [gigachain-cli]: Remove: archive file [/home/abi/fetcher/tmp/gigachain_cli-0.0.22rc1.tar.gz]
+[2024-04-01 11:51:33] INFO root fetch - main [MainThread]: End processing [gigachain-cli]: success
+[2024-04-01 11:51:34] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.0.tar.gz]
+[2024-04-01 11:51:34] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
+[2024-04-01 11:51:34] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
+[2024-04-01 11:51:34] INFO root fetch - main [MainThread]: Store serial: [22567903]
