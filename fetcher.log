@@ -6443,3 +6443,51 @@ EOFError: EOF read where object expected
 [2024-04-01 16:42:06] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
 [2024-04-01 16:42:06] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
 [2024-04-01 16:42:06] INFO root fetch - main [MainThread]: Store serial: [22570652]
+[2024-04-01 16:44:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570652]
+[2024-04-01 16:44:14] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Xodia24
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-collector
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cassandra-medusa
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Xodia24
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdplus
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zella
+[2024-04-01 16:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb
+[2024-04-01 16:44:15] WARNING root fetch - processPackages [Xodia24]: Skipping, unable to determine old version
+[2024-04-01 16:44:15] INFO root fetch - main [MainThread]: End processing [Xodia24] error
+[2024-04-01 16:44:15] WARNING root fetch - processPackages [Xodia24]: Skipping, unable to determine old version
+[2024-04-01 16:44:15] INFO root fetch - main [MainThread]: End processing [Xodia24] error
+[2024-04-01 16:44:15] WARNING root fetch - processPackages [pdplus]: Skipping, unable to determine old version
+[2024-04-01 16:44:15] INFO root fetch - main [MainThread]: End processing [pdplus] error
+[2024-04-01 16:44:15] INFO root fetch - processPackages [cassandra-medusa]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 16:44:15] INFO root fetch - processPackages [zella]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 16:44:15] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 16:44:15] INFO root fetch - processPackages [openbb]: New version: [4.1.6] Old Version: [4.1.5]
+[2024-04-01 16:44:15] INFO root fetch - processPackages [cassandra-medusa]: Downloading https://files.pythonhosted.org/packages/fb/4b/96ba6d0f396919dfbab68c5c75a6acd3b9395017525d16095c225287224c/cassandra-medusa-0.9.0.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/36/2d/3280b28fc6fdb6dacfeb0c3500173fd7be3cc22e1392cbc2488c8fb96132/telegram_collector-0.0.5.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [zella]: Downloading https://files.pythonhosted.org/packages/af/a9/24a53ed22277b6146186b6eed9890a3203fbb8a8c3fb5455ba819e56c338/zella-0.0.4.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [openbb]: Downloading https://files.pythonhosted.org/packages/08/98/a6e118e1a42dc2693b09eb8fe448daa7f380194167892ca40ded295fa266/openbb-4.1.5.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/a8/3e/daf640cf70746f0803a54917371a6b9d998d24610b46285c5da996e09597/telegram_collector-0.0.6.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [zella]: Downloading https://files.pythonhosted.org/packages/69/d8/95b69231cb821e75d8a6e3d6f35f20cb274d8d857de1769c96b966e36b04/zella-0.0.5.tar.gz
+[2024-04-01 16:44:15] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-01 16:44:15] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.5.tar.gz tmp/telegram_collector-0.0.6.tar.gz --markdown 20240401/t/telegram-collector/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 16:44:15] INFO root fetch - processPackages [zella]: executing diffoscope
+[2024-04-01 16:44:15] INFO root fetch - processPackages [zella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zella-0.0.4.tar.gz tmp/zella-0.0.5.tar.gz --markdown 20240401/z/zella/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 16:44:15] INFO root fetch - processPackages [openbb]: Downloading https://files.pythonhosted.org/packages/86/d7/b95f4fe076a3cf18324fc0163f03135d755548b00ba9482c4c29a9168698/openbb-4.1.6.tar.gz
+[2024-04-01 16:44:16] INFO root fetch - processPackages [openbb]: executing diffoscope
+[2024-04-01 16:44:16] INFO root fetch - processPackages [openbb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb-4.1.5.tar.gz tmp/openbb-4.1.6.tar.gz --markdown 20240401/o/openbb/4.1.5-4.1.6/diff.md --exclude *.pyd
+[2024-04-01 16:44:16] INFO root fetch - processPackages [cassandra-medusa]: Downloading https://files.pythonhosted.org/packages/06/0c/7f334f222fa8bd54646dd6744a28ab33a9dc00af70c8a57eb6092e1d1060/cassandra-medusa-0.9.1.tar.gz
+[2024-04-01 16:44:16] INFO root fetch - processPackages [cassandra-medusa]: executing diffoscope
+[2024-04-01 16:44:16] INFO root fetch - processPackages [cassandra-medusa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassandra-medusa-0.9.0.tar.gz tmp/cassandra-medusa-0.9.1.tar.gz --markdown 20240401/c/cassandra-medusa/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 16:44:16] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.5.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.6.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-01 16:44:16] INFO root fetch - processPackages [zella]: Remove: archive file [/home/abi/fetcher/tmp/zella-0.0.4.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - processPackages [zella]: Remove: archive file [/home/abi/fetcher/tmp/zella-0.0.5.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - main [MainThread]: End processing [zella]: success
+[2024-04-01 16:44:16] INFO root fetch - processPackages [openbb]: Remove: archive file [/home/abi/fetcher/tmp/openbb-4.1.5.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - processPackages [openbb]: Remove: archive file [/home/abi/fetcher/tmp/openbb-4.1.6.tar.gz]
+[2024-04-01 16:44:16] INFO root fetch - main [MainThread]: End processing [openbb]: success
+[2024-04-01 16:44:17] INFO root fetch - processPackages [cassandra-medusa]: Remove: archive file [/home/abi/fetcher/tmp/cassandra-medusa-0.9.0.tar.gz]
+[2024-04-01 16:44:17] INFO root fetch - processPackages [cassandra-medusa]: Remove: archive file [/home/abi/fetcher/tmp/cassandra-medusa-0.9.1.tar.gz]
+[2024-04-01 16:44:17] INFO root fetch - main [MainThread]: End processing [cassandra-medusa]: success
+[2024-04-01 16:44:17] INFO root fetch - main [MainThread]: Store serial: [22570673]
