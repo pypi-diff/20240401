@@ -14422,3 +14422,50 @@ EOFError: EOF read where object expected
 [2024-04-01 22:03:59] ERROR root fetch - processPackages [GenCasting]: Unable to fetch info: No such project/version 'GenCasting' 0.0.1
 [2024-04-01 22:03:59] INFO root fetch - main [MainThread]: End processing [GenCasting] error
 [2024-04-01 22:03:59] INFO root fetch - main [MainThread]: Store serial: [22574420]
+[2024-04-01 22:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574420]
+[2024-04-01 22:06:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalr-ngine
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmif-python
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eseq
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EmailTemplate
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-source-sentry
+[2024-04-01 22:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FastAPI-TemplateWizard
+[2024-04-01 22:06:08] INFO root fetch - processPackages [FastAPI-TemplateWizard]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 22:06:08] WARNING root fetch - processPackages [EmailTemplate]: Skipping, unable to determine old version
+[2024-04-01 22:06:08] INFO root fetch - main [MainThread]: End processing [EmailTemplate] error
+[2024-04-01 22:06:08] INFO root fetch - processPackages [eseq]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 22:06:08] INFO root fetch - processPackages [airbyte-source-sentry]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-01 22:06:08] INFO root fetch - processPackages [mmif-python]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-01 22:06:08] INFO root fetch - processPackages [scalr-ngine]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 22:06:08] INFO root fetch - processPackages [FastAPI-TemplateWizard]: Downloading https://files.pythonhosted.org/packages/a2/d6/db68c9f6db067bffd849c937e5f1f6927b31b0103c8909eee983b5b1467a/FastAPI-TemplateWizard-0.1.0.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [airbyte-source-sentry]: Downloading https://files.pythonhosted.org/packages/75/f5/4e1114e4a778b04a7de864630a55db5b786dbe77fd2083a4d7a675432ef8/airbyte_source_sentry-0.5.0-py3-none-any.whl
+[2024-04-01 22:06:09] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/c3/4d/291757c48fec0aee32e6f01073af65ffd754f3596ef3bc71a87b6fd59b30/mmif-python-1.0.7.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/31/ad/9eb8204b6e208666f29449cb7bee29a096fb2705a54565cfd2f7bc69912b/scalr-ngine-0.8.0.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [eseq]: Downloading https://files.pythonhosted.org/packages/a1/81/736ffff8026a08bf1e24ece75a3bb98767ba7d0f4691265250dfa44b2564/eseq-0.0.3.tar.gz
+[2024-04-01 22:06:09] ERROR root fetch - processPackages [airbyte-source-sentry]: Unable to fetch info: No such project/version 'airbyte-source-sentry' 0.5.1
+[2024-04-01 22:06:09] INFO root fetch - main [MainThread]: End processing [airbyte-source-sentry] error
+[2024-04-01 22:06:09] INFO root fetch - processPackages [FastAPI-TemplateWizard]: Downloading https://files.pythonhosted.org/packages/cb/7d/151af76a41d89ffcdc38e8001bcdcff5608a6c5aecbd1adf8be57aad331a/FastAPI-TemplateWizard-0.1.1.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [mmif-python]: Downloading https://files.pythonhosted.org/packages/df/4d/10a1230fc6aa08b756fe9457b2e9e18fb9dee0c0383247aebd5510dc331c/mmif-python-1.0.8.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [FastAPI-TemplateWizard]: executing diffoscope
+[2024-04-01 22:06:09] INFO root fetch - processPackages [FastAPI-TemplateWizard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastAPI-TemplateWizard-0.1.0.tar.gz tmp/FastAPI-TemplateWizard-0.1.1.tar.gz --markdown 20240401/F/FastAPI-TemplateWizard/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 22:06:09] INFO root fetch - processPackages [scalr-ngine]: Downloading https://files.pythonhosted.org/packages/19/16/65153faadab491b0161079e7d29b0daf9c14ff9d8fb94af9aa3bb8926095/scalr-ngine-0.9.0.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [scalr-ngine]: executing diffoscope
+[2024-04-01 22:06:09] INFO root fetch - processPackages [scalr-ngine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalr-ngine-0.8.0.tar.gz tmp/scalr-ngine-0.9.0.tar.gz --markdown 20240401/s/scalr-ngine/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 22:06:09] INFO root fetch - processPackages [eseq]: Downloading https://files.pythonhosted.org/packages/0b/b7/fbc599e286bd86dc2eb10a662545ad53a999ebc96eca906fd26593b90382/eseq-0.0.4.tar.gz
+[2024-04-01 22:06:09] INFO root fetch - processPackages [mmif-python]: executing diffoscope
+[2024-04-01 22:06:09] INFO root fetch - processPackages [mmif-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmif-python-1.0.7.tar.gz tmp/mmif-python-1.0.8.tar.gz --markdown 20240401/m/mmif-python/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-01 22:06:09] INFO root fetch - processPackages [eseq]: executing diffoscope
+[2024-04-01 22:06:09] INFO root fetch - processPackages [eseq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eseq-0.0.3.tar.gz tmp/eseq-0.0.4.tar.gz --markdown 20240401/e/eseq/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 22:06:10] INFO root fetch - processPackages [FastAPI-TemplateWizard]: Remove: archive file [/home/abi/fetcher/tmp/FastAPI-TemplateWizard-0.1.0.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - processPackages [FastAPI-TemplateWizard]: Remove: archive file [/home/abi/fetcher/tmp/FastAPI-TemplateWizard-0.1.1.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - main [MainThread]: End processing [FastAPI-TemplateWizard]: success
+[2024-04-01 22:06:10] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.7.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - processPackages [mmif-python]: Remove: archive file [/home/abi/fetcher/tmp/mmif-python-1.0.8.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - main [MainThread]: End processing [mmif-python]: success
+[2024-04-01 22:06:10] INFO root fetch - processPackages [scalr-ngine]: Remove: archive file [/home/abi/fetcher/tmp/scalr-ngine-0.8.0.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - processPackages [scalr-ngine]: Remove: archive file [/home/abi/fetcher/tmp/scalr-ngine-0.9.0.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - main [MainThread]: End processing [scalr-ngine]: success
+[2024-04-01 22:06:10] INFO root fetch - processPackages [eseq]: Remove: archive file [/home/abi/fetcher/tmp/eseq-0.0.3.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - processPackages [eseq]: Remove: archive file [/home/abi/fetcher/tmp/eseq-0.0.4.tar.gz]
+[2024-04-01 22:06:10] INFO root fetch - main [MainThread]: End processing [eseq]: success
+[2024-04-01 22:06:10] INFO root fetch - main [MainThread]: Store serial: [22574437]
