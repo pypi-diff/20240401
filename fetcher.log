@@ -14314,3 +14314,83 @@ EOFError: EOF read where object expected
 [2024-04-01 21:57:26] INFO root fetch - processPackages [howso-engine]: Remove: archive file [/home/abi/fetcher/tmp/howso-engine-9.2.0.tar.gz]
 [2024-04-01 21:57:26] INFO root fetch - main [MainThread]: End processing [howso-engine]: success
 [2024-04-01 21:57:26] INFO root fetch - main [MainThread]: Store serial: [22574373]
+[2024-04-01 21:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574373]
+[2024-04-01 21:59:35] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EmailTemplate
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sajjad
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nestpython
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xnLinkFinder
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-criteria
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroconf
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neo-ls-svm
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inkex
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nautobot
+[2024-04-01 21:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: user-context-remote
+[2024-04-01 21:59:35] INFO root fetch - processPackages [nestpython]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-01 21:59:35] INFO root fetch - processPackages [python-criteria]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-01 21:59:35] WARNING root fetch - processPackages [sajjad]: Skipping, unable to determine old version
+[2024-04-01 21:59:35] INFO root fetch - processPackages [sajjad]: Start processing: logger-local
+[2024-04-01 21:59:35] INFO root fetch - main [MainThread]: End processing [sajjad] error
+[2024-04-01 21:59:35] WARNING root fetch - processPackages [EmailTemplate]: Skipping, unable to determine old version
+[2024-04-01 21:59:35] INFO root fetch - main [MainThread]: End processing [EmailTemplate] error
+[2024-04-01 21:59:35] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/87/ec/852f9f1c4d167434c7c9d44f39fb362c271e6869ac411860106ebbc1db7c/python-criteria-0.0.1.tar.gz
+[2024-04-01 21:59:35] WARNING root fetch - processPackages [xnLinkFinder]: Skipping, unable to determine old version
+[2024-04-01 21:59:35] INFO root fetch - main [MainThread]: End processing [xnLinkFinder] error
+[2024-04-01 21:59:35] INFO root fetch - processPackages [inkex]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-01 21:59:35] INFO root fetch - processPackages [user-context-remote]: New version: [0.0.66] Old Version: [0.0.65]
+[2024-04-01 21:59:35] INFO root fetch - processPackages [neo-ls-svm]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-01 21:59:35] INFO root fetch - processPackages [nautobot]: New version: [2.2.0b1] Old Version: [2.2.0]
+[2024-04-01 21:59:35] INFO root fetch - processPackages [logger-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-01 21:59:36] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/53/ee/2edf65f1b574e74c41d05c636879b6af451169941c66904b9467eb75f76e/user-context-remote-0.0.65.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/10/05/acc19b04bbc3fa47b68bd31591fd68cf4bc22a6a1868d95d7b1fe1797717/nestpython-0.3.1.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/b7/e2/77d8afb4b007bff2210041c84c3edc0a9659f61ff279fda4a84907cc0aba/python-criteria-0.1.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [inkex]: Downloading https://files.pythonhosted.org/packages/db/ee/080b9cab844a142aa47394ce87eb380ed130695867b7e947ec9fe932b4ea/inkex-1.3.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [nautobot]: Downloading https://files.pythonhosted.org/packages/14/a9/48ac607f3dd52deeaf01b2410161219374695387cff03ff2ff40c78d474a/nautobot-2.2.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [neo-ls-svm]: Downloading https://files.pythonhosted.org/packages/f4/53/143d54f5c3aeb8f392f6f2c4f586bba29a32e2f08207f1aab690f31171fd/neo_ls_svm-0.2.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/95/83/cbbeaca04ecc0f2c8811769437b1979bde80cd488f848e324e92d8440499/logger-local-0.0.98.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [zeroconf]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-01 21:59:36] WARNING root fetch - processPackages [nautobot]: Skipping package: exceeds size limit 31065611>=10485760
+[2024-04-01 21:59:36] INFO root fetch - main [MainThread]: End processing [nautobot] error
+[2024-04-01 21:59:36] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.0.1.tar.gz tmp/python-criteria-0.1.0.tar.gz --markdown 20240401/p/python-criteria/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [user-context-remote]: Downloading https://files.pythonhosted.org/packages/cd/d7/5cf304b1e2afcd3596e587a8ae6b5257694a7ae884fbfa4d24276a9d7f38/user-context-remote-0.0.66.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/5e/9d/d6e1928ad6a8e536fd302b76eed881a7df4694ba998383622be7f9b23906/nestpython-0.3.2.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [user-context-remote]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [user-context-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/user-context-remote-0.0.65.tar.gz tmp/user-context-remote-0.0.66.tar.gz --markdown 20240401/u/user-context-remote/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [nestpython]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [nestpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestpython-0.3.1.tar.gz tmp/nestpython-0.3.2.tar.gz --markdown 20240401/n/nestpython/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/51/db/f87ee86f977a9713da086e2d5216f7ce235030787b192aef255ba726dd9d/zeroconf-0.98.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [neo-ls-svm]: Downloading https://files.pythonhosted.org/packages/82/fc/4c4b97e7a5a3faec5e321d251b50c62582b07f4d7c1d1bd2d14ee2adc4c1/neo_ls_svm-0.3.0.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [inkex]: Downloading https://files.pythonhosted.org/packages/a3/8e/d806471d3b3bee06f3e1ffb195ffe6c2c1321c20012f311a291f42750ae0/inkex-1.3.1.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/32/72/d6d6521aa3b74d3c30af8cdee32bb3e7a6008c5629d957853e9e7a3c01b4/logger-local-0.0.99.tar.gz
+[2024-04-01 21:59:36] INFO root fetch - processPackages [neo-ls-svm]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [neo-ls-svm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo_ls_svm-0.2.0.tar.gz tmp/neo_ls_svm-0.3.0.tar.gz --markdown 20240401/n/neo-ls-svm/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [inkex]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [inkex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inkex-1.3.0.tar.gz tmp/inkex-1.3.1.tar.gz --markdown 20240401/i/inkex/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2024-04-01 21:59:36] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.98.tar.gz tmp/logger-local-0.0.99.tar.gz --markdown 20240401/l/logger-local/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-01 21:59:36] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.0.1.tar.gz]
+[2024-04-01 21:59:36] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.1.0.tar.gz]
+[2024-04-01 21:59:36] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-01 21:59:36] INFO root fetch - processPackages [zeroconf]: Downloading https://files.pythonhosted.org/packages/aa/96/3c05266623786e9d27370f8a5f32d1a7cc8c6d8297849d9f3934b09b0e02/zeroconf-0.99.0.tar.gz
+[2024-04-01 21:59:37] INFO root fetch - processPackages [zeroconf]: executing diffoscope
+[2024-04-01 21:59:37] INFO root fetch - processPackages [zeroconf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeroconf-0.98.0.tar.gz tmp/zeroconf-0.99.0.tar.gz --markdown 20240401/z/zeroconf/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 21:59:37] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.1.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.2.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [nestpython]: success
+[2024-04-01 21:59:37] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.65.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [user-context-remote]: Remove: archive file [/home/abi/fetcher/tmp/user-context-remote-0.0.66.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [user-context-remote]: success
+[2024-04-01 21:59:37] INFO root fetch - processPackages [neo-ls-svm]: Remove: archive file [/home/abi/fetcher/tmp/neo_ls_svm-0.2.0.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [neo-ls-svm]: Remove: archive file [/home/abi/fetcher/tmp/neo_ls_svm-0.3.0.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [neo-ls-svm]: success
+[2024-04-01 21:59:37] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.98.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.99.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2024-04-01 21:59:37] INFO root fetch - processPackages [inkex]: Remove: archive file [/home/abi/fetcher/tmp/inkex-1.3.0.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [inkex]: Remove: archive file [/home/abi/fetcher/tmp/inkex-1.3.1.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [inkex]: success
+[2024-04-01 21:59:37] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.98.0.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.99.0.tar.gz]
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
+[2024-04-01 21:59:37] INFO root fetch - main [MainThread]: Store serial: [22574408]
