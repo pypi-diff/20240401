@@ -4010,3 +4010,72 @@ EOFError: EOF read where object expected
 [2024-04-01 15:10:14] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.807.tar.gz]
 [2024-04-01 15:10:14] INFO root fetch - main [MainThread]: End processing [autoviz]: success
 [2024-04-01 15:10:14] INFO root fetch - main [MainThread]: Store serial: [22569388]
+[2024-04-01 15:12:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569388]
+[2024-04-01 15:12:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configureout
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optidata-core
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkninja
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gmalglib
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddsketch
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: census-request-api
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyproject-local-kernel
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdm-sbom
+[2024-04-01 15:12:23] WARNING root fetch - processPackages [configureout]: Skipping, unable to determine old version
+[2024-04-01 15:12:23] INFO root fetch - main [MainThread]: End processing [configureout] error
+[2024-04-01 15:12:23] INFO root fetch - processPackages [gmalglib]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 15:12:23] INFO root fetch - processPackages [optidata-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-01 15:12:23] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/e4/5e/42b1284f37f5bef9160173a4cc06de4eaf570de10b8a816fde43eca2bdba/gmalglib-0.1.1.tar.gz
+[2024-04-01 15:12:23] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/c5/4e/635687137fdc095db76c4efe89965e6301c067406c20fb621d086abd19e6/optidata-core-1.8.0.tar.gz
+[2024-04-01 15:12:23] INFO root fetch - processPackages [pyproject-local-kernel]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-01 15:12:23] INFO root fetch - processPackages [ddsketch]: New version: [3.0.1] Old Version: [2.0.4]
+[2024-04-01 15:12:23] INFO root fetch - processPackages [census-request-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 15:12:23] INFO root fetch - processPackages [pdm-sbom]: New version: [0.9.0.post1] Old Version: [0.6.0]
+[2024-04-01 15:12:24] INFO root fetch - processPackages [mkninja]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-01 15:12:24] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/0c/f5/7fba937798364d4ec773353f59e812b916554d6b4fb79dacf2e8bb001ff4/optidata-core-1.9.0.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [ddsketch]: Downloading https://files.pythonhosted.org/packages/c7/18/668af158f4a464f220f93aca4c87d68f1bb2271fb9b0211ac1b500a65af4/ddsketch-2.0.4.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pdm-sbom]: Downloading https://files.pythonhosted.org/packages/f6/c9/a340749c9c3e326aa1c8cf77471dccb882461ec0aff8b8e8dd39d12f0cae/pdm_sbom-0.6.0-py3-none-any.whl
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pyproject-local-kernel]: Downloading https://files.pythonhosted.org/packages/5d/4d/8cda8899058cb7e431519664671fc5e27e7afda7e2c8587fa01da4f39d35/pyproject_local_kernel-0.5.4.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [census-request-api]: Downloading https://files.pythonhosted.org/packages/16/b2/a5162eebc6ccb0495aa3d305e009dd55d02f6dc800d226d6433a9ce36b7f/census_request_api-0.0.1.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/0c/90/598d3a91305df441ca390f7536e7c9a389b8eccf8599064819f280b90027/gmalglib-0.1.2.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [optidata-core]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [optidata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optidata-core-1.8.0.tar.gz tmp/optidata-core-1.9.0.tar.gz --markdown 20240401/o/optidata-core/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [mkninja]: Downloading https://files.pythonhosted.org/packages/54/c6/392054d53bdb21e160ab8450cc1bb04cb009861698bcaebfbd1e26ffe04c/mkninja-0.2.0.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.1.1.tar.gz tmp/gmalglib-0.1.2.tar.gz --markdown 20240401/g/gmalglib/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [ddsketch]: Downloading https://files.pythonhosted.org/packages/b8/c7/25f300ba359c7e723180ce962a30e1f820c3990e3f3e8bbed16ae9387cab/ddsketch-3.0.1.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pyproject-local-kernel]: Downloading https://files.pythonhosted.org/packages/97/a5/418b477e09eec1238b584ac7d67799270ade07e4d29ed86994b23fbc2f8b/pyproject_local_kernel-0.5.5.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [ddsketch]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [ddsketch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddsketch-2.0.4.tar.gz tmp/ddsketch-3.0.1.tar.gz --markdown 20240401/d/ddsketch/2.0.4-3.0.1/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [census-request-api]: Downloading https://files.pythonhosted.org/packages/92/78/9d6ef8b1e4760cf94b8f7c257888463ce7053802eeb16ac3d3ff9c2797b6/census_request_api-0.0.2.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pdm-sbom]: Downloading https://files.pythonhosted.org/packages/02/c9/2ea2698491cc6d59f69892fd4bcc1f72b90b186b8a504b172b0d94ce7b61/pdm-sbom-0.9.0.post1.tar.gz
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pyproject-local-kernel]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pyproject-local-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject_local_kernel-0.5.4.tar.gz tmp/pyproject_local_kernel-0.5.5.tar.gz --markdown 20240401/p/pyproject-local-kernel/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [census-request-api]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [census-request-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/census_request_api-0.0.1.tar.gz tmp/census_request_api-0.0.2.tar.gz --markdown 20240401/c/census-request-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [mkninja]: Downloading https://files.pythonhosted.org/packages/aa/17/3b3bff7b5199e08c15619738ff1098e67c5d051296b40ffe9130b8e2a7c2/mkninja-0.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pdm-sbom]: executing diffoscope
+[2024-04-01 15:12:24] INFO root fetch - processPackages [pdm-sbom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm_sbom-0.6.0-py3-none-any.whl.zip tmp/pdm-sbom-0.9.0.post1.tar.gz --markdown 20240401/p/pdm-sbom/0.6.0-0.9.0.post1/diff.md --exclude *.pyd
+[2024-04-01 15:12:24] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.8.0.tar.gz]
+[2024-04-01 15:12:24] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.9.0.tar.gz]
+[2024-04-01 15:12:24] INFO root fetch - main [MainThread]: End processing [optidata-core]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.1.1.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.1.2.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [census-request-api]: Remove: archive file [/home/abi/fetcher/tmp/census_request_api-0.0.1.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [census-request-api]: Remove: archive file [/home/abi/fetcher/tmp/census_request_api-0.0.2.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [census-request-api]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [ddsketch]: Remove: archive file [/home/abi/fetcher/tmp/ddsketch-2.0.4.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [ddsketch]: Remove: archive file [/home/abi/fetcher/tmp/ddsketch-3.0.1.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [ddsketch]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [pyproject-local-kernel]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_local_kernel-0.5.4.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [pyproject-local-kernel]: Remove: archive file [/home/abi/fetcher/tmp/pyproject_local_kernel-0.5.5.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [pyproject-local-kernel]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [pdm-sbom]: Remove: archive file [/home/abi/fetcher/tmp/pdm_sbom-0.6.0-py3-none-any.whl.zip]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [pdm-sbom]: Remove: archive file [/home/abi/fetcher/tmp/pdm-sbom-0.9.0.post1.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [pdm-sbom]: success
+[2024-04-01 15:12:25] INFO root fetch - processPackages [mkninja]: executing diffoscope
+[2024-04-01 15:12:25] INFO root fetch - processPackages [mkninja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkninja-0.2.0.tar.gz tmp/mkninja-0.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/m/mkninja/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 15:12:25] INFO root fetch - processPackages [mkninja]: Remove: archive file [/home/abi/fetcher/tmp/mkninja-0.2.0.tar.gz]
+[2024-04-01 15:12:25] INFO root fetch - processPackages [mkninja]: Remove: archive file [/home/abi/fetcher/tmp/mkninja-0.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [mkninja]: success
+[2024-04-01 15:12:25] INFO root fetch - main [MainThread]: Store serial: [22569477]
