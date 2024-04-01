@@ -1,4 +1,4 @@
-# Comparing `tmp/conformal_tights-0.2.1.tar.gz` & `tmp/conformal_tights-0.2.2-py3-none-any.whl.zip`
+# Comparing `tmp/conformal_tights-0.2.1.tar.gz` & `tmp/conformal_tights-0.2.2.tar.gz`
 
 ## filetype from file(1)
 

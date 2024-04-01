@@ -2797,3 +2797,56 @@ EOFError: EOF read where object expected
 [2024-04-01 14:01:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-01 14:01:32] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-01 14:01:32] INFO root fetch - main [MainThread]: Store serial: [22568884]
+[2024-04-01 14:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568884]
+[2024-04-01 14:03:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: conformal-tights
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3-gar-client
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: otpcr
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: f3d
+[2024-04-01 14:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: p621
+[2024-04-01 14:03:48] INFO root fetch - processPackages [conformal-tights]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [m3-gar-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/90/e8/5ad544053fa22bb2ebae39fa92b399e8c5cf15afeba514819c6a751a7011/conformal_tights-0.2.1.tar.gz
+[2024-04-01 14:03:48] INFO root fetch - processPackages [p621]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [otpcr]: New version: [4] Old Version: [3]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/11/68/3945930d2f957fd3f5ab0b0e0a50e5a53cb5928e54fedad23ad00065b46b/m3-gar-client-1.1.1.tar.gz
+[2024-04-01 14:03:48] INFO root fetch - processPackages [f3d]: New version: [2.4.0rc1] Old Version: [2.3.1]
+[2024-04-01 14:03:48] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [p621]: Downloading https://files.pythonhosted.org/packages/ac/5d/2165a7594d63fc1823e432d8c36f90f8c8edccfdbc6b7c620a2f721e2d68/p621-0.0.1.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/d6/90/41e68a53b2524beb8baedbb2d0261b01c180bf805ab17b253bfe268b693b/otpcr-3.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/13/dd/baefcac2772b49096b095b5a132b3a3f6aed1c9ba28ea5622d86e7b164a0/conformal_tights-0.2.2-py3-none-any.whl
+[2024-04-01 14:03:49] INFO root fetch - processPackages [f3d]: Downloading https://files.pythonhosted.org/packages/3d/d7/cf271c9cfb338a8e26bea617ef05e3dbcac86eab7b179fc7f32a00e0e4d4/f3d-2.3.1-cp39-cp39-win_amd64.whl
+[2024-04-01 14:03:49] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/a2/46/89c76bf72a7063997bb5cf11fe8be86f5db77179fa8718dad652b91a38d7/m3-gar-client-1.1.2.tar.gz
+[2024-04-01 14:03:49] WARNING root fetch - processPackages [f3d]: Skipping package: exceeds size limit 16649851>=10485760
+[2024-04-01 14:03:49] INFO root fetch - main [MainThread]: End processing [f3d] error
+[2024-04-01 14:03:49] INFO root fetch - processPackages [conformal-tights]: executing diffoscope
+[2024-04-01 14:03:49] INFO root fetch - processPackages [conformal-tights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conformal_tights-0.2.1.tar.gz tmp/conformal_tights-0.2.2.tar.gz --markdown 20240401/c/conformal-tights/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 14:03:49] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-01 14:03:49] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240401/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:03:49] INFO root fetch - processPackages [m3-gar-client]: executing diffoscope
+[2024-04-01 14:03:49] INFO root fetch - processPackages [m3-gar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-client-1.1.1.tar.gz tmp/m3-gar-client-1.1.2.tar.gz --markdown 20240401/m/m3-gar-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 14:03:49] INFO root fetch - processPackages [p621]: Downloading https://files.pythonhosted.org/packages/2b/b1/2de2b6e93c4eef74657c1e0fb3c828ace20b92f1e2264c6b2c0871404b6f/p621-0.1.0.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [otpcr]: Downloading https://files.pythonhosted.org/packages/c9/ca/c334820aa6ff971be5ba7f4311ae8f8756ccd543c3cee00bf556059db26f/otpcr-4.tar.gz
+[2024-04-01 14:03:49] INFO root fetch - processPackages [p621]: executing diffoscope
+[2024-04-01 14:03:49] INFO root fetch - processPackages [p621]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p621-0.0.1.tar.gz tmp/p621-0.1.0.tar.gz --markdown 20240401/p/p621/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 14:03:49] INFO root fetch - processPackages [otpcr]: executing diffoscope
+[2024-04-01 14:03:49] INFO root fetch - processPackages [otpcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpcr-3.tar.gz tmp/otpcr-4.tar.gz --markdown 20240401/o/otpcr/3-4/diff.md --exclude *.pyd
+[2024-04-01 14:03:50] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.1.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.2.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [conformal-tights]: success
+[2024-04-01 14:03:50] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.1.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.2.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
+[2024-04-01 14:03:50] INFO root fetch - processPackages [p621]: Remove: archive file [/home/abi/fetcher/tmp/p621-0.0.1.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - processPackages [p621]: Remove: archive file [/home/abi/fetcher/tmp/p621-0.1.0.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [p621]: success
+[2024-04-01 14:03:50] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-3.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - processPackages [otpcr]: Remove: archive file [/home/abi/fetcher/tmp/otpcr-4.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [otpcr]: success
+[2024-04-01 14:03:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-01 14:03:50] INFO root fetch - main [MainThread]: Store serial: [22568914]
