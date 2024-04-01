@@ -7156,3 +7156,38 @@ EOFError: EOF read where object expected
 [2024-04-01 17:10:48] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.3.tar.gz]
 [2024-04-01 17:10:48] INFO root fetch - main [MainThread]: End processing [twilio]: success
 [2024-04-01 17:10:48] INFO root fetch - main [MainThread]: Store serial: [22570961]
+[2024-04-01 17:12:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570961]
+[2024-04-01 17:12:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 17:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: threadmem
+[2024-04-01 17:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metasdk
+[2024-04-01 17:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hbase-driver
+[2024-04-01 17:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gameInvasion3
+[2024-04-01 17:12:57] INFO root fetch - processPackages [gameInvasion3]: New version: [1.1.20] Old Version: [1.1.19]
+[2024-04-01 17:12:57] INFO root fetch - processPackages [metasdk]: New version: [1.7.7] Old Version: [1.7.6]
+[2024-04-01 17:12:57] INFO root fetch - processPackages [threadmem]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 17:12:57] INFO root fetch - processPackages [hbase-driver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 17:12:57] INFO root fetch - processPackages [gameInvasion3]: Downloading https://files.pythonhosted.org/packages/09/a8/f5eeb9a57316787a0c7ebaa72421465d25bd398433f4576de982c7b90988/gameInvasion3-1.1.19.tar.gz
+[2024-04-01 17:12:57] WARNING root fetch - processPackages [gameInvasion3]: Skipping package: exceeds size limit 15695161>=10485760
+[2024-04-01 17:12:57] INFO root fetch - main [MainThread]: End processing [gameInvasion3] error
+[2024-04-01 17:12:57] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/0a/89/a04745786349e5785fd4373210089ae6a8d5ef8bd404a4015a458f4c5904/metasdk-1.7.6.tar.gz
+[2024-04-01 17:12:57] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/93/f8/550365ee2735387bb5f0cb74aece6328657de2a0d6e492be99db1bf57e2d/threadmem-0.2.7.tar.gz
+[2024-04-01 17:12:57] INFO root fetch - processPackages [hbase-driver]: Downloading https://files.pythonhosted.org/packages/e6/70/ee84455bafdbf3b548fe26406305a6764782394bdda046d1c89fedc17fc3/hbase-driver-0.0.8.tar.gz
+[2024-04-01 17:12:58] INFO root fetch - processPackages [metasdk]: Downloading https://files.pythonhosted.org/packages/90/46/715762acf59bc6ef70bb69addd1245f52786a266097d14f7292251157d93/metasdk-1.7.7.tar.gz
+[2024-04-01 17:12:58] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-01 17:12:58] INFO root fetch - processPackages [hbase-driver]: Downloading https://files.pythonhosted.org/packages/48/d9/b279368054dfc35a6ae0752f027d0ba5c86c95fca18866802b45f932f12c/hbase-driver-0.0.9.tar.gz
+[2024-04-01 17:12:58] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-01 17:12:58] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.7.tar.gz tmp/threadmem-0.2.8.tar.gz --markdown 20240401/t/threadmem/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 17:12:58] INFO root fetch - processPackages [metasdk]: executing diffoscope
+[2024-04-01 17:12:58] INFO root fetch - processPackages [metasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metasdk-1.7.6.tar.gz tmp/metasdk-1.7.7.tar.gz --markdown 20240401/m/metasdk/1.7.6-1.7.7/diff.md --exclude *.pyd
+[2024-04-01 17:12:58] INFO root fetch - processPackages [hbase-driver]: executing diffoscope
+[2024-04-01 17:12:58] INFO root fetch - processPackages [hbase-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hbase-driver-0.0.8.tar.gz tmp/hbase-driver-0.0.9.tar.gz --markdown 20240401/h/hbase-driver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:12:58] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.7.tar.gz]
+[2024-04-01 17:12:58] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-01 17:12:58] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-01 17:12:58] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.6.tar.gz]
+[2024-04-01 17:12:58] INFO root fetch - processPackages [metasdk]: Remove: archive file [/home/abi/fetcher/tmp/metasdk-1.7.7.tar.gz]
+[2024-04-01 17:12:59] INFO root fetch - main [MainThread]: End processing [metasdk]: success
+[2024-04-01 17:12:59] INFO root fetch - processPackages [hbase-driver]: Remove: archive file [/home/abi/fetcher/tmp/hbase-driver-0.0.8.tar.gz]
+[2024-04-01 17:12:59] INFO root fetch - processPackages [hbase-driver]: Remove: archive file [/home/abi/fetcher/tmp/hbase-driver-0.0.9.tar.gz]
+[2024-04-01 17:12:59] INFO root fetch - main [MainThread]: End processing [hbase-driver]: success
+[2024-04-01 17:12:59] INFO root fetch - main [MainThread]: Store serial: [22570974]
