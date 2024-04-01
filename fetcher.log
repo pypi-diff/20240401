@@ -1657,3 +1657,24 @@ EOFError: EOF read where object expected
 [2024-04-01 12:59:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
 [2024-04-01 12:59:04] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
 [2024-04-01 12:59:04] INFO root fetch - main [MainThread]: Store serial: [22568348]
+[2024-04-01 13:01:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568348]
+[2024-04-01 13:01:19] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 13:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cryptoowl
+[2024-04-01 13:01:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binary-refinery
+[2024-04-01 13:01:19] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 13:01:20] INFO root fetch - processPackages [binary-refinery]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-01 13:01:20] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-01 13:01:20] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/78/e7/f24f5f15d7ebee0b386c6c723bfad23fe1c68536032f72a004c714a54ccf/binary-refinery-0.6.8.tar.gz
+[2024-04-01 13:01:20] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-01 13:01:20] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-01 13:01:20] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240401/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:01:20] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/00/6d/f287f684167e762f94c880a85639f229f8be47af59175e8062209b17059e/binary-refinery-0.6.9.tar.gz
+[2024-04-01 13:01:20] INFO root fetch - processPackages [binary-refinery]: executing diffoscope
+[2024-04-01 13:01:20] INFO root fetch - processPackages [binary-refinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-refinery-0.6.8.tar.gz tmp/binary-refinery-0.6.9.tar.gz --markdown 20240401/b/binary-refinery/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-01 13:01:21] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-01 13:01:21] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-01 13:01:21] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-01 13:01:22] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.8.tar.gz]
+[2024-04-01 13:01:22] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.9.tar.gz]
+[2024-04-01 13:01:22] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
+[2024-04-01 13:01:22] INFO root fetch - main [MainThread]: Store serial: [22568352]
