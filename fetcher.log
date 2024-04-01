@@ -1349,3 +1349,117 @@ EOFError: EOF read where object expected
 [2024-04-01 12:40:50] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.5.2.tar.gz]
 [2024-04-01 12:40:50] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-01 12:40:50] INFO root fetch - main [MainThread]: Store serial: [22568241]
+[2024-04-01 12:43:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568241]
+[2024-04-01 12:43:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gsheet-pandas
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymemgpt-nightly
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: apsisnet
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vysion
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: skypilot-nightly
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openrgb-python
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pmpt
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: atomicshop
+[2024-04-01 12:43:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulumi-confluentcloud
+[2024-04-01 12:43:06] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [gsheet-pandas]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 12:43:06] WARNING root fetch - processPackages [apsisnet]: Skipping, unable to determine old version
+[2024-04-01 12:43:06] INFO root fetch - processPackages [apsisnet]: Start processing: fastapix-py
+[2024-04-01 12:43:06] INFO root fetch - main [MainThread]: End processing [apsisnet] error
+[2024-04-01 12:43:06] INFO root fetch - processPackages [vysion]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pmpt]: New version: [1.0.1.post8487904168] Old Version: [1.0.1.8507087668]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [openrgb-python]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240401] Old Version: [1.0.0.dev20240331]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.7.dev20240401103911] Old Version: [0.3.7.dev20240331103908]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [fastapix-py]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-01 12:43:06] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/ed/22/ad1ff28aca332b1b19d5cbdf4c70c3b19d7d8f35a7fff718b24bc3ff72c1/gsheet_pandas-0.2.5-py3-none-any.whl
+[2024-04-01 12:43:06] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e1/92/386499f6834be47cb6b70edefdde506b903fb557ff8010e167b98390760a/skypilot-nightly-1.0.0.dev20240331.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/5e/71/2e8f9c2cfd7ef015f4e6996bc4bb740a2737d77bd2be12e25c4307217861/vysion-1.0.8.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/da/2e/96e9e227e15ec74d5255bc29065493050f9c52dc7137825392ca678fa9e7/pmpt-1.0.1.8507087668.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [openrgb-python]: Downloading https://files.pythonhosted.org/packages/55/bb/b5828ec4670dda81af21e0ea955a67a2e7cc4e1735d7ca9901569404a225/openrgb-python-0.2.9.tar.gz
+[2024-04-01 12:43:06] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 12:43:06] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/7c/96/ddf2259e2bda166ce7710bf9d183dc8c2cade3f3f90c91f37e35bd0a7dec/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/f3/28/df3feb70429c7f3ce0a6656528790518d6e0534c3695f42ce0b50c29056c/fastapix_py-0.7.4-py3-none-any.whl
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [gsheet-pandas]: Downloading https://files.pythonhosted.org/packages/59/64/bf831c24092ca91869aa186c6c388bf968aef9276b95d01ae5852562f4a3/gsheet_pandas-0.2.6-py3-none-any.whl
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240401/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/40/63/06b4c60a76805fe140c6323466a7b9278e9de21a91eac1c4851450f2076d/vysion-1.0.9.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/7b/6d/fb99ef4119f2c434f6ae75f56da77e119554c3b7d30e6a9bb10c93b35ac5/pmpt-1.0.1.post8487904168-py3-none-any.whl
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240401/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/b6/45/c5d4be0551ce95c34ab5973e7f95846dfd87455569dbf8ea4a95e55ba752/skypilot-nightly-1.0.0.dev20240401.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [openrgb-python]: Downloading https://files.pythonhosted.org/packages/9c/9f/85ff8856ed98390fbe9bd09e33e1b5aec6bdea18c88abbbd0cc6d45eb027/openrgb-python-0.3.0.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [gsheet-pandas]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [gsheet-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsheet_pandas-0.2.5-py3-none-any.whl.zip tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip --markdown 20240401/g/gsheet-pandas/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a1/10fb2d17460c5061b1e043cb60e53253ae1fbef3f6e41b9c7c22799405ab/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pmpt]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pmpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmpt-1.0.1.8507087668.tar.gz tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip --markdown 20240401/p/pmpt/1.0.1.8507087668-1.0.1.post8487904168/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [vysion]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [vysion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysion-1.0.8.tar.gz tmp/vysion-1.0.9.tar.gz --markdown 20240401/v/vysion/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/c0/bc/c81f3bb590a5f1a0feab4ad57bfc26d97f47d312899a89152aa2ba1cc252/fastapix_py-0.7.5-py3-none-any.whl
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz tmp/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz --markdown 20240401/p/pymemgpt-nightly/0.3.7.dev20240331103908-0.3.7.dev20240401103911/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [openrgb-python]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [openrgb-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openrgb-python-0.2.9.tar.gz tmp/openrgb-python-0.3.0.tar.gz --markdown 20240401/o/openrgb-python/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240331.tar.gz tmp/skypilot-nightly-1.0.0.dev20240401.tar.gz --markdown 20240401/s/skypilot-nightly/1.0.0.dev20240331-1.0.0.dev20240401/diff.md --exclude *.pyd
+[2024-04-01 12:43:07] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-04-01 12:43:07] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.7.4-py3-none-any.whl.zip tmp/fastapix_py-0.7.5-py3-none-any.whl.zip --markdown 20240401/f/fastapix-py/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-01 12:43:08] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.5-py3-none-any.whl.zip]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [gsheet-pandas]: Remove: archive file [/home/abi/fetcher/tmp/gsheet_pandas-0.2.6-py3-none-any.whl.zip]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [gsheet-pandas]: Start processing: ngwidgets
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [gsheet-pandas]: success
+[2024-04-01 12:43:08] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.8.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.1.8507087668.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.9.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pmpt]: Start processing: nspd-parsels
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [pmpt]: success
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [vysion]: success
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-01 12:43:08] INFO root fetch - processPackages [ngwidgets]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [openrgb-python]: Remove: archive file [/home/abi/fetcher/tmp/openrgb-python-0.2.9.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [openrgb-python]: Remove: archive file [/home/abi/fetcher/tmp/openrgb-python-0.3.0.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [openrgb-python]: success
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-01 12:43:08] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-01 12:43:08] INFO root fetch - processPackages [nspd-parsels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 12:43:08] INFO root fetch - processPackages [ngwidgets]: Downloading https://files.pythonhosted.org/packages/d4/8e/94e7397b14a8ad5fc338567a59ed49f096249bd0e6d08a4ac6abd0c3248d/ngwidgets-0.9.2.tar.gz
+[2024-04-01 12:43:08] INFO root fetch - processPackages [nspd-parsels]: Downloading https://files.pythonhosted.org/packages/7c/70/e8695d2bf7572e2e28526d3811a43c9d81f0b5d9e025f50e5bee78f8abb2/nspd_parsels-0.1.8-py3-none-any.whl
+[2024-04-01 12:43:09] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.4-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.5-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-04-01 12:43:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 12:43:09] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz]
+[2024-04-01 12:43:09] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz]
+[2024-04-01 12:43:09] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-01 12:43:09] INFO root fetch - processPackages [nspd-parsels]: Downloading https://files.pythonhosted.org/packages/9d/16/a86ac44ed6f120e1a5abf0b147043b4b581cfcda1c704e7fbf7a2649ea30/nspd_parsels-0.1.9-py3-none-any.whl
+[2024-04-01 12:43:09] INFO root fetch - processPackages [ngwidgets]: Downloading https://files.pythonhosted.org/packages/db/fc/674f6bff16f6a097e3312918a926834d31ed5b326def4eabd8f561705e3d/ngwidgets-0.9.3.tar.gz
+[2024-04-01 12:43:09] INFO root fetch - processPackages [nspd-parsels]: executing diffoscope
+[2024-04-01 12:43:09] INFO root fetch - processPackages [nspd-parsels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nspd_parsels-0.1.8-py3-none-any.whl.zip tmp/nspd_parsels-0.1.9-py3-none-any.whl.zip --markdown 20240401/n/nspd-parsels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 12:43:09] INFO root fetch - processPackages [ngwidgets]: executing diffoscope
+[2024-04-01 12:43:09] INFO root fetch - processPackages [ngwidgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngwidgets-0.9.2.tar.gz tmp/ngwidgets-0.9.3.tar.gz --markdown 20240401/n/ngwidgets/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-01 12:43:09] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240331.tar.gz]
+[2024-04-01 12:43:09] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240401.tar.gz]
+[2024-04-01 12:43:09] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-01 12:43:09] INFO root fetch - processPackages [nspd-parsels]: Remove: archive file [/home/abi/fetcher/tmp/nspd_parsels-0.1.8-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - processPackages [nspd-parsels]: Remove: archive file [/home/abi/fetcher/tmp/nspd_parsels-0.1.9-py3-none-any.whl.zip]
+[2024-04-01 12:43:09] INFO root fetch - main [MainThread]: End processing [nspd-parsels]: success
+[2024-04-01 12:43:10] INFO root fetch - processPackages [ngwidgets]: Remove: archive file [/home/abi/fetcher/tmp/ngwidgets-0.9.2.tar.gz]
+[2024-04-01 12:43:10] INFO root fetch - processPackages [ngwidgets]: Remove: archive file [/home/abi/fetcher/tmp/ngwidgets-0.9.3.tar.gz]
+[2024-04-01 12:43:10] INFO root fetch - main [MainThread]: End processing [ngwidgets]: success
+[2024-04-01 12:43:10] INFO root fetch - main [MainThread]: Store serial: [22568287]
