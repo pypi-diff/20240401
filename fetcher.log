@@ -11196,3 +11196,58 @@ EOFError: EOF read where object expected
 [2024-04-01 19:46:28] INFO root fetch - processPackages [torchtrail]: Remove: archive file [/home/abi/fetcher/tmp/torchtrail-0.0.8.tar.gz]
 [2024-04-01 19:46:28] INFO root fetch - main [MainThread]: End processing [torchtrail]: success
 [2024-04-01 19:46:28] INFO root fetch - main [MainThread]: Store serial: [22572913]
+[2024-04-01 19:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572913]
+[2024-04-01 19:48:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MobileInventoryCLI
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Dosepy
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Dosepy
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataforseo-client
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySimpleGUI
+[2024-04-01 19:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ultralytics
+[2024-04-01 19:48:37] INFO root fetch - processPackages [ultralytics]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [PySimpleGUI]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [dataforseo-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 19:48:37] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2c/9f/b8fbc96b626cd7fa56aa383ed824b5475ef86c22efaa5bc701992f8a5b12/ultralytics-8.1.8.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [PySimpleGUI]: Downloading https://files.pythonhosted.org/packages/b7/de/5fa39a83231f4efd469875d50ebea9a0c1c802d70c35b625f5e079c9940d/PySimpleGUI-5.0.2.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/85/2f/b42adcac867f96540791a05725982c7070017c807a57d10cf92f7cd2e65d/Dosepy-0.5.1.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/97/6d/cb3a33ce269af6998a61ba23c88decda5205505e15cecb29bb5b98436f44/MobileInventoryCLI-0.3.8.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/85/2f/b42adcac867f96540791a05725982c7070017c807a57d10cf92f7cd2e65d/Dosepy-0.5.1.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/d2/68/84689fba81cb3c59fee0e9b14ee4e226f70268905547fed46e29a9c67acd/dataforseo-client-1.0.8.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/2d/4c/67ad1f5d65d9107b77d4539025c4272216a2b5d7943b4b9be753dd16c298/Dosepy-0.6.0.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a6/7e/66b1c182c54bc7c43f3e9bb944200df121f54528d4de80456635c332375c/MobileInventoryCLI-0.3.9.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/2d/4c/67ad1f5d65d9107b77d4539025c4272216a2b5d7943b4b9be753dd16c298/Dosepy-0.6.0.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [PySimpleGUI]: Downloading https://files.pythonhosted.org/packages/03/d0/d8c6c2e2320e7c9b666f6f8cbe2eb1c225ec499b055d45cd3d4991add012/PySimpleGUI-5.0.3.tar.gz
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: executing diffoscope
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dosepy-0.5.1.tar.gz tmp/Dosepy-0.6.0.tar.gz --markdown 20240401/D/Dosepy/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: executing diffoscope
+[2024-04-01 19:48:37] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 19:48:37] INFO root fetch - processPackages [Dosepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dosepy-0.5.1.tar.gz tmp/Dosepy-0.6.0.tar.gz --markdown 20240401/D/Dosepy/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-01 19:48:37] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.3.8.tar.gz tmp/MobileInventoryCLI-0.3.9.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 19:48:37] INFO root fetch - processPackages [dataforseo-client]: Downloading https://files.pythonhosted.org/packages/8d/04/47b191652bf6e54ee50a87ce1cdfc88a53f79dafe06782858d8b4d892246/dataforseo-client-1.0.9.tar.gz
+[2024-04-01 19:48:38] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-01 19:48:38] INFO root fetch - processPackages [PySimpleGUI]: executing diffoscope
+[2024-04-01 19:48:38] INFO root fetch - processPackages [PySimpleGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySimpleGUI-5.0.2.tar.gz tmp/PySimpleGUI-5.0.3.tar.gz --markdown 20240401/P/PySimpleGUI/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2024-04-01 19:48:38] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-01 19:48:38] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.8.tar.gz tmp/ultralytics-8.1.9.tar.gz --markdown 20240401/u/ultralytics/8.1.8-8.1.9/diff.md --exclude *.pyd
+[2024-04-01 19:48:38] INFO root fetch - processPackages [dataforseo-client]: executing diffoscope
+[2024-04-01 19:48:38] INFO root fetch - processPackages [dataforseo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataforseo-client-1.0.8.tar.gz tmp/dataforseo-client-1.0.9.tar.gz --markdown 20240401/d/dataforseo-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 19:48:38] INFO root fetch - processPackages [Dosepy]: Remove: archive file [/home/abi/fetcher/tmp/Dosepy-0.5.1.tar.gz]
+[2024-04-01 19:48:38] INFO root fetch - processPackages [Dosepy]: Remove: archive file [/home/abi/fetcher/tmp/Dosepy-0.6.0.tar.gz]
+[2024-04-01 19:48:38] INFO root fetch - main [MainThread]: End processing [Dosepy]: success
+[2024-04-01 19:48:38] INFO root fetch - main [MainThread]: End processing [Dosepy]: success
+[2024-04-01 19:48:38] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.3.8.tar.gz]
+[2024-04-01 19:48:38] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.3.9.tar.gz]
+[2024-04-01 19:48:38] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 19:48:39] INFO root fetch - processPackages [PySimpleGUI]: Remove: archive file [/home/abi/fetcher/tmp/PySimpleGUI-5.0.2.tar.gz]
+[2024-04-01 19:48:39] INFO root fetch - processPackages [PySimpleGUI]: Remove: archive file [/home/abi/fetcher/tmp/PySimpleGUI-5.0.3.tar.gz]
+[2024-04-01 19:48:39] INFO root fetch - main [MainThread]: End processing [PySimpleGUI]: success
+[2024-04-01 19:48:39] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.8.tar.gz]
+[2024-04-01 19:48:39] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-01 19:48:39] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-01 19:49:04] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.8.tar.gz]
+[2024-04-01 19:49:04] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
+[2024-04-01 19:49:04] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
+[2024-04-01 19:49:04] INFO root fetch - main [MainThread]: Store serial: [22572930]
