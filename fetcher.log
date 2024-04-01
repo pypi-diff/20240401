@@ -15290,3 +15290,288 @@ EOFError: EOF read where object expected
 [2024-04-01 22:25:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
 [2024-04-01 22:25:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
 [2024-04-01 22:25:56] INFO root fetch - main [MainThread]: Store serial: [22574747]
+[2024-04-01 22:28:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574747]
+[2024-04-01 22:28:06] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-autojoin
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-dicom-viewer
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: girder-download-statistics
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-google-analytics
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-bmvpc
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-gravatar
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: girder-hashsum-download
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-bpaas
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: girder-homepage
+[2024-04-01 22:28:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-bri
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-dicom-viewer]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-autojoin]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-google-analytics]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-homepage]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-hashsum-download]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-download-statistics]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:06] INFO root fetch - processPackages [girder-gravatar]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-google-analytics]: Downloading https://files.pythonhosted.org/packages/1d/09/e8d80deacd2e9c1150db8d9117964633a3bb89bc364cf971c16feef3dbdf/girder-google-analytics-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-dicom-viewer]: Downloading https://files.pythonhosted.org/packages/9d/df/1feec9c85e3b2e0a95d432ff272c2f1400f9271e229e333839691ef3f089/girder-dicom-viewer-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-autojoin]: Downloading https://files.pythonhosted.org/packages/6d/a0/b66b282d84ae88d68c7b31051ee7ef2b529d11d2f18ab9863216f7aeb780/girder-autojoin-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-homepage]: Downloading https://files.pythonhosted.org/packages/ec/6c/5d3e7970faca56cd3944003b7af0b55d28e6cd18bb18a8ad799b28e64026/girder-homepage-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-hashsum-download]: Downloading https://files.pythonhosted.org/packages/80/49/5208fe5173a69f06b6d1cfb24a0438b08551b8491b8f0c40f1f86f7afb84/girder-hashsum-download-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-download-statistics]: Downloading https://files.pythonhosted.org/packages/cc/f7/aa9b2e5501bdb8bc589e0f93e4c154032746f23fa62c3c8d035c2c283d4d/girder-download-statistics-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-gravatar]: Downloading https://files.pythonhosted.org/packages/80/ab/f3af1263d34fe567b73446cdfd99e22c7952415107792abb3f295cfc2094/girder-gravatar-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ba/08/5288d1f005c662185b74a01d4fa40c2b5da397a8627e4470151f0516f0d3/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/16/43/a6059ca02b533147e88c95803d08eaf023629ff25d9d025b7a976bd5ffea/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-homepage]: Downloading https://files.pythonhosted.org/packages/64/e4/91f14bfc3f913bdcc3e0eccede42d602a2f3b34c41155ddff634f45f2586/girder-homepage-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-autojoin]: Downloading https://files.pythonhosted.org/packages/0d/c2/5576dfa8755c593dc2ae4043da20e1b6d0dc34c543f02a7793ada17afbb9/girder-autojoin-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-dicom-viewer]: Downloading https://files.pythonhosted.org/packages/c3/2d/f8db5aad7325ed50a8472b163b3a380cde2b52bb16638e32467c018f1b1a/girder-dicom-viewer-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-google-analytics]: Downloading https://files.pythonhosted.org/packages/4c/6a/ddb5f4c732d4ead666c5a7f7386d476fa1391d4bf3f412857885afeed3c9/girder-google-analytics-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-hashsum-download]: Downloading https://files.pythonhosted.org/packages/17/37/98c1a70fd7b7dcfe651b9bb01419873cf4db8808248a1303da7084654264/girder-hashsum-download-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-gravatar]: Downloading https://files.pythonhosted.org/packages/8f/2f/6a3857e4a0b8bcaae841db306e37beae8b02cf2901dfccb778e443acedee/girder-gravatar-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-download-statistics]: Downloading https://files.pythonhosted.org/packages/18/07/81a330112582af083e772e0a950b4cd644df624f5541d1b5f86998779ea0/girder-download-statistics-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: Downloading https://files.pythonhosted.org/packages/41/ba/b9349bf0b646b51578d313402d05d8e4aafeec312d3e1f05aa39196d30eb/tencentcloud-sdk-python-bri-3.0.998.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-homepage]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-homepage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-homepage-3.2.3.dev5.tar.gz tmp/girder-homepage-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-homepage/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-autojoin]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-autojoin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-autojoin-3.2.3.dev5.tar.gz tmp/girder-autojoin-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-autojoin/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-hashsum-download]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-hashsum-download]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-hashsum-download-3.2.3.dev5.tar.gz tmp/girder-hashsum-download-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-hashsum-download/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-dicom-viewer]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-dicom-viewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-dicom-viewer-3.2.3.dev5.tar.gz tmp/girder-dicom-viewer-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-dicom-viewer/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-google-analytics]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-gravatar]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-google-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-google-analytics-3.2.3.dev5.tar.gz tmp/girder-google-analytics-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-google-analytics/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-gravatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-gravatar-3.2.3.dev5.tar.gz tmp/girder-gravatar-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-gravatar/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-download-statistics]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [girder-download-statistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-download-statistics-3.2.3.dev5.tar.gz tmp/girder-download-statistics-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-download-statistics/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Downloading https://files.pythonhosted.org/packages/ce/d8/cb2c79582a88e780fe8493cf8e6fd85dacc5448246de28fad7bb5a78df16/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Downloading https://files.pythonhosted.org/packages/85/ae/2990efac19f637cb27cdf5c21b2e1900c00bae800b413e03ac7129a7a112/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: executing diffoscope
+[2024-04-01 22:28:07] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bpaas/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: Downloading https://files.pythonhosted.org/packages/fc/b9/81c4c8ecf2a1cf3fbe443eccf168053c0ec6be713aaa1f7035a1ed2de301/tencentcloud-sdk-python-bri-3.0.999.tar.gz
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: executing diffoscope
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bmvpc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: executing diffoscope
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bri-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bri-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bri/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-gravatar]: Remove: archive file [/home/abi/fetcher/tmp/girder-gravatar-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-gravatar]: Remove: archive file [/home/abi/fetcher/tmp/girder-gravatar-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-gravatar]: Start processing: mbari-pbp
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-gravatar]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [mbari-pbp]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-autojoin]: Remove: archive file [/home/abi/fetcher/tmp/girder-autojoin-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-autojoin]: Remove: archive file [/home/abi/fetcher/tmp/girder-autojoin-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-autojoin]: Start processing: girder-item-licenses
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-autojoin]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-homepage]: Remove: archive file [/home/abi/fetcher/tmp/girder-homepage-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-homepage]: Remove: archive file [/home/abi/fetcher/tmp/girder-homepage-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-homepage]: Start processing: girder-jobs
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-homepage]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-item-licenses]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-jobs]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/cf/29/ff20d8314376f876aa3a6579740fad1181c084a7d4b03a4ac89e27e35ba7/mbari_pbp-0.3.0b8.tar.gz
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-dicom-viewer]: Remove: archive file [/home/abi/fetcher/tmp/girder-dicom-viewer-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-dicom-viewer]: Remove: archive file [/home/abi/fetcher/tmp/girder-dicom-viewer-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-dicom-viewer]: Start processing: tencentcloud-sdk-python-bsca
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-dicom-viewer]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-download-statistics]: Remove: archive file [/home/abi/fetcher/tmp/girder-download-statistics-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-download-statistics]: Remove: archive file [/home/abi/fetcher/tmp/girder-download-statistics-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-download-statistics]: Start processing: girder-ldap
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-download-statistics]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-hashsum-download]: Remove: archive file [/home/abi/fetcher/tmp/girder-hashsum-download-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-hashsum-download]: Remove: archive file [/home/abi/fetcher/tmp/girder-hashsum-download-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-hashsum-download]: Start processing: girder-oauth
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-hashsum-download]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-item-licenses]: Downloading https://files.pythonhosted.org/packages/46/3d/f08d6dd6e34462cf8025c395e887c5597da01f4739a51e333c677b17757f/girder-item-licenses-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-google-analytics]: Remove: archive file [/home/abi/fetcher/tmp/girder-google-analytics-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-google-analytics]: Remove: archive file [/home/abi/fetcher/tmp/girder-google-analytics-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-google-analytics]: Start processing: girder-readme
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [girder-google-analytics]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-jobs]: Downloading https://files.pythonhosted.org/packages/8d/92/6df7daa27656ff427d047cedd9fc8f0445c2d7f9f638de568cfbcbce095c/girder-jobs-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.998.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bpaas-3.0.999.tar.gz]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bpaas]: Start processing: girder-sentry
+[2024-04-01 22:28:08] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bpaas]: success
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-ldap]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-oauth]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-readme]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:28:08] INFO root fetch - processPackages [girder-sentry]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/b4/9a/e36916a9b680f4d1b9465eadb829fcabefd7cc5f6ec46ae5d8c328600254/mbari_pbp-0.3.0b9.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.998.tar.gz]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmvpc-3.0.999.tar.gz]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bmvpc]: Start processing: accmt
+[2024-04-01 22:28:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmvpc]: success
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/a1/e3/0d9b06d667dd5eadb5e5498b42d550c36cf47328fd510e9dc4bebe9af9de/girder-oauth-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/e3/09/af4c16f635c26de4a75ea2e085b63d7066af3418db484ad3a056e28fdb4f/girder-readme-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bri-3.0.998.tar.gz]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bri-3.0.999.tar.gz]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bri]: Start processing: girder-terms
+[2024-04-01 22:28:09] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bri]: success
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-ldap]: Downloading https://files.pythonhosted.org/packages/a9/95/2198b85c7ff3a11f6a9b7a5fb4e39b7fb71f636d9c8d3af83746c3f9ee94/girder-ldap-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/fe/27/1f59718bacbd1e4569b335657473fe40123e059e4e50d0584058defce89e/girder-sentry-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-item-licenses]: Downloading https://files.pythonhosted.org/packages/42/0f/50389212b2385835391a7ecb7bc0ef799dddb1ebf5948044fdcb11f6e54d/girder-item-licenses-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-jobs]: Downloading https://files.pythonhosted.org/packages/60/95/37b3d763ca2edcec653c3df3acda480e2ef0ee55cada73654922fe5268ba/girder-jobs-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/69/4e/d0a3879609e7a4d9d3890b22f5d0f5585b619a03e7add31851d306705ffe/tencentcloud-sdk-python-bsca-3.0.998.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-terms]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [accmt]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 22:28:09] INFO root fetch - processPackages [mbari-pbp]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [mbari-pbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbari_pbp-0.3.0b8.tar.gz tmp/mbari_pbp-0.3.0b9.tar.gz --markdown 20240401/m/mbari-pbp/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-item-licenses]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-item-licenses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-item-licenses-3.2.3.dev5.tar.gz tmp/girder-item-licenses-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-item-licenses/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/5b/bd/33389cbe3f758373ca0171919a7a70545ca382e2d0a8941886d3e815325f/girder-terms-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-jobs]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-jobs-3.2.3.dev5.tar.gz tmp/girder-jobs-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-jobs/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/98/4a/8397d9e258efe1e778175311030708857af30e6a5ce579f9178d1ba618e3/girder-oauth-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/f1/c9/a3d5bebf78d852d680a2e9ad7f006ac7b8d41a2949475dbaeb78d3b077f1/girder-readme-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-ldap]: Downloading https://files.pythonhosted.org/packages/0a/1e/cc79d0acec862fa77acfc30ac6acca8327974043497c6604cf6f5edd63a5/girder-ldap-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/25/bc/fdc6ea8041206b55fe77a5ed07f380e0f3aafe320d2a050133931783b8d8/girder-sentry-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/a3/a4/40e8ea4863c4ea8a4976c73fbcd89b788e2d7cd7ce249c91ee0f722a2753/accmt-0.0.6.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-oauth]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-oauth-3.2.3.dev5.tar.gz tmp/girder-oauth-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-oauth/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-readme]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-readme-3.2.3.dev5.tar.gz tmp/girder-readme-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-readme/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-ldap]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-ldap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-ldap-3.2.3.dev5.tar.gz tmp/girder-ldap-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-ldap/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-sentry]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-sentry-3.2.3.dev5.tar.gz tmp/girder-sentry-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-sentry/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/3d/0a/aab9ec6e89f6c7bb6f29b4920f11b298c950d9a1d10863660d496f884225/girder-terms-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Downloading https://files.pythonhosted.org/packages/35/c9/69d7f04299fc69976200c975a91bcf8c06a0d9f6d08c90e00d579ff64287/tencentcloud-sdk-python-bsca-3.0.999.tar.gz
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-terms]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [girder-terms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-terms-3.2.3.dev5.tar.gz tmp/girder-terms-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-terms/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: executing diffoscope
+[2024-04-01 22:28:09] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bsca/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:28:09] INFO root fetch - processPackages [accmt]: Downloading https://files.pythonhosted.org/packages/10/ae/39d8cf18e5d7a2a3214ffa9b056defe8ce482ead51025919d3db1a677ee4/accmt-0.0.7.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [accmt]: executing diffoscope
+[2024-04-01 22:28:10] INFO root fetch - processPackages [accmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accmt-0.0.6.tar.gz tmp/accmt-0.0.7.tar.gz --markdown 20240401/a/accmt/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 22:28:10] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b8.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b9.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [mbari-pbp]: Start processing: girder-thumbnails
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [mbari-pbp]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-thumbnails]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-jobs]: Remove: archive file [/home/abi/fetcher/tmp/girder-jobs-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-jobs]: Remove: archive file [/home/abi/fetcher/tmp/girder-jobs-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-jobs]: Start processing: girder-user-quota
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-jobs]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-user-quota]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/79/5d/2361f8c2b1103bc464a33d33e57e9a0b06af38cdd167ceab41bfd97460e7/girder-thumbnails-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-item-licenses]: Remove: archive file [/home/abi/fetcher/tmp/girder-item-licenses-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-item-licenses]: Remove: archive file [/home/abi/fetcher/tmp/girder-item-licenses-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-item-licenses]: Start processing: girder-virtual-folders
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-item-licenses]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-oauth]: Start processing: pytest-girder
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-oauth]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/09/16/4e3b07b3debfa1f4326c0f672a0466b13017bae296e71036845ea489478b/girder-user-quota-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-virtual-folders]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-readme]: Start processing: girder-client
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-readme]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [pytest-girder]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-ldap]: Remove: archive file [/home/abi/fetcher/tmp/girder-ldap-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-ldap]: Remove: archive file [/home/abi/fetcher/tmp/girder-ldap-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-sentry]: Start processing: crm1
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-sentry]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-ldap]: Start processing: dcicutils
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-ldap]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-client]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/46/92/ebe52626933343d93db653d989f9e9e0a5d205733a5adf8b07d2bf2fa2b6/girder-virtual-folders-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/e6/16/7116c97d79d43a1344f13e0f045548b84dfc42231ca640be5e33a954b62f/girder-thumbnails-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [crm1]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [dcicutils]: New version: [8.8.1.1b9] Old Version: [8.8.1.1b7]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/55/79/e83e84232939e7e331ac7a86d6e479f2c170933327c1000f96d61f2972a4/pytest-girder-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.998.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bsca-3.0.999.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [tencentcloud-sdk-python-bsca]: Start processing: justai
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bsca]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-terms]: Start processing: armasec
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [girder-terms]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/9f/50/dbb27d4e42390f11e295a23bd65334542efa84aa41e022ed20bfbeb376b3/girder-client-3.2.3.dev5.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [justai]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/5d/11/61920810b8648fc07e496f621a37a290fe46e6fbbb78623a05a7c748795b/girder-user-quota-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/6c/c6/ac3d68b1a5af4f39ae2ad74d02956ac276d9ec4fd90fc5ca47c6846c1121/crm1-0.0.3.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/90/b8/72fb6df705cb1c09869e87c8a2e7800bfb131ec14bd74375afcb9facc0e3/dcicutils-8.8.1.1b7.tar.gz
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-thumbnails]: executing diffoscope
+[2024-04-01 22:28:10] INFO root fetch - processPackages [girder-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-thumbnails-3.2.3.dev5.tar.gz tmp/girder-thumbnails-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-thumbnails/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:10] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.6.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [accmt]: Remove: archive file [/home/abi/fetcher/tmp/accmt-0.0.7.tar.gz]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [accmt]: Start processing: cpop
+[2024-04-01 22:28:10] INFO root fetch - main [MainThread]: End processing [accmt]: success
+[2024-04-01 22:28:10] INFO root fetch - processPackages [armasec]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-01 22:28:10] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/27/46/bc0ae611c296212e19c3ed9ad6004409e83e979755a1c82acb02f0155f83/justai-3.2.3.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/5a/4b/3baaa839f702a8db5a4f8665cfec84d16bd6ea11d8fb744a5c35de8f7177/girder-virtual-folders-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-user-quota]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-user-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-user-quota-3.2.3.dev5.tar.gz tmp/girder-user-quota-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-user-quota/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/ac/b9/d2ff2b9a9e8bd5ae79ef906d828f9812c83989b4221d4f706f2ec21c43ab/pytest-girder-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/ce/65/b4c4d8ccbf986773b775d9b89cffee1657ba23c14285ac06da2d8db3b1c0/girder-client-3.2.3.dev7.tar.gz
+[2024-04-01 22:28:11] WARNING root fetch - processPackages [cpop]: Skipping, unable to determine old version
+[2024-04-01 22:28:11] INFO root fetch - processPackages [cpop]: Start processing: roombapy
+[2024-04-01 22:28:11] INFO root fetch - main [MainThread]: End processing [cpop] error
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-virtual-folders]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-virtual-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-virtual-folders-3.2.3.dev5.tar.gz tmp/girder-virtual-folders-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-virtual-folders/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/92/df/85c66a478c51d94e08f5ade35e2334e25f10db3d17a769e893a5d141beb5/crm1-0.0.4.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b8/73/51271cee9352a565862ee60d8adeb0aec89e045bcafdb0b76eeb4b4222e2/dcicutils-8.8.1.1b9.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [armasec]: Downloading https://files.pythonhosted.org/packages/7c/53/835f5d357864da6b78634e759eea5bcf517bfaa0a9369ecfba9e5d75378b/armasec-1.3.0.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [pytest-girder]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [pytest-girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-girder-3.2.3.dev5.tar.gz tmp/pytest-girder-3.2.3.dev7.tar.gz --markdown 20240401/p/pytest-girder/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-client]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-client-3.2.3.dev5.tar.gz tmp/girder-client-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-client/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/84/03/0632c2bb353704d1921018a2ccfcdda57614c86bfdb17cc21ce4428dcffb/justai-3.2.4.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [roombapy]: New version: [1.8.1] Old Version: [1.8.0]
+[2024-04-01 22:28:11] INFO root fetch - processPackages [crm1]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [crm1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crm1-0.0.3.tar.gz tmp/crm1-0.0.4.tar.gz --markdown 20240401/c/crm1/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.1.1b7.tar.gz tmp/dcicutils-8.8.1.1b9.tar.gz --markdown 20240401/d/dcicutils/8.8.1.1b7-8.8.1.1b9/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.3.tar.gz tmp/justai-3.2.4.tar.gz --markdown 20240401/j/justai/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2024-04-01 22:28:11] INFO root fetch - processPackages [roombapy]: Downloading https://files.pythonhosted.org/packages/65/c0/8605d30e795a24c0e5e08b9e8ed0655d95db38002a4aaf8b85f85c5b69e6/roombapy-1.8.0.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [armasec]: Downloading https://files.pythonhosted.org/packages/1f/48/18b9ef80983d6923e1cb2dc110b476374104a0f2ffc9a066492d60f05758/armasec-1.4.0.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder-thumbnails-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder-thumbnails-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-thumbnails]: Start processing: tencentcloud-sdk-python-cam
+[2024-04-01 22:28:11] INFO root fetch - main [MainThread]: End processing [girder-thumbnails]: success
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder-user-quota-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:11] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder-user-quota-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:11] INFO root fetch - main [MainThread]: End processing [girder-user-quota]: success
+[2024-04-01 22:28:11] INFO root fetch - processPackages [roombapy]: Downloading https://files.pythonhosted.org/packages/20/bf/08873726de21a79b4e27963d1a189ed5c87eb9a0e27562434b421f2a76c3/roombapy-1.8.1.tar.gz
+[2024-04-01 22:28:11] INFO root fetch - processPackages [armasec]: executing diffoscope
+[2024-04-01 22:28:11] INFO root fetch - processPackages [armasec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armasec-1.3.0.tar.gz tmp/armasec-1.4.0.tar.gz --markdown 20240401/a/armasec/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 22:28:12] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [pytest-girder]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder-virtual-folders-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder-virtual-folders-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [girder-virtual-folders]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [roombapy]: executing diffoscope
+[2024-04-01 22:28:12] INFO root fetch - processPackages [roombapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roombapy-1.8.0.tar.gz tmp/roombapy-1.8.1.tar.gz --markdown 20240401/r/roombapy/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2024-04-01 22:28:12] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.3.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.4.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [crm1]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.2.3.dev5.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.2.3.dev7.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [girder-client]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.3.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.4.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b7.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [armasec]: Remove: archive file [/home/abi/fetcher/tmp/armasec-1.3.0.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [armasec]: Remove: archive file [/home/abi/fetcher/tmp/armasec-1.4.0.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [armasec]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [roombapy]: Remove: archive file [/home/abi/fetcher/tmp/roombapy-1.8.0.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - processPackages [roombapy]: Remove: archive file [/home/abi/fetcher/tmp/roombapy-1.8.1.tar.gz]
+[2024-04-01 22:28:12] INFO root fetch - main [MainThread]: End processing [roombapy]: success
+[2024-04-01 22:28:12] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/dc/04/9bad55be1475c34688a89d6805905ad3e6b133db0124cd15e4bc4e710aaa/tencentcloud-sdk-python-cam-3.0.998.tar.gz
+[2024-04-01 22:28:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Downloading https://files.pythonhosted.org/packages/4e/6f/33a1b2a6f858c70fcac237f86a2734efcec706266cdf4f0a2ac456f7bca0/tencentcloud-sdk-python-cam-3.0.999.tar.gz
+[2024-04-01 22:28:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: executing diffoscope
+[2024-04-01 22:28:13] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-cam/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:28:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.998.tar.gz]
+[2024-04-01 22:28:14] INFO root fetch - processPackages [tencentcloud-sdk-python-cam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cam-3.0.999.tar.gz]
+[2024-04-01 22:28:14] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cam]: success
+[2024-04-01 22:28:14] INFO root fetch - main [MainThread]: Store serial: [22574825]
