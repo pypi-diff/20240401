@@ -11571,3 +11571,87 @@ EOFError: EOF read where object expected
 [2024-04-01 20:00:23] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
 [2024-04-01 20:00:23] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
 [2024-04-01 20:00:23] INFO root fetch - main [MainThread]: Store serial: [22573141]
+[2024-04-01 20:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573141]
+[2024-04-01 20:02:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arq
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drf-spectacular
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xia-module
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbiatoolkit
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: besapi
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multilevelformatter
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EduWorld
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xia-framework
+[2024-04-01 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MacroQueue
+[2024-04-01 20:02:33] INFO root fetch - processPackages [multilevelformatter]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [MacroQueue]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [EduWorld]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [besapi]: New version: [3.2.4] Old Version: [3.2.2]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [xia-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [xia-module]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [arq]: New version: [0.9] Old Version: [0.8.1]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [drf-spectacular]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [nbiatoolkit]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-04-01 20:02:33] INFO root fetch - processPackages [multilevelformatter]: Downloading https://files.pythonhosted.org/packages/23/f7/40ba2d0357d19952ea2fb7dba0b0ce01f5520315062cd1ecad424145da24/multilevelformatter-0.3.5.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/47/70/561f5cb8ee7691f89758df30556ebfdf5119ca9a3b78810589e140edbbac/MacroQueue-0.2.0.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [besapi]: Downloading https://files.pythonhosted.org/packages/c6/e8/21e772c1b8d4832f7935555f442e115e30b52a4c4f92a2d6003589af0816/besapi-3.2.2.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/d2/e9/9059daaf908df88545defa11e93fe59095bf5bd8c7d6ee1636b1de378fff/eduworld-0.0.8.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/4d/ec/8ba56b22e3b523e06aaac69046406b53a851ada9fdfb0c21920204e3ccee/xia-framework-0.0.8.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-module]: Downloading https://files.pythonhosted.org/packages/55/8c/b5f4d9073926cf6d461ebe83b5a802ed97126d43bfbbca28029b97104fa5/xia-module-0.0.8.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [arq]: Downloading https://files.pythonhosted.org/packages/2a/45/44e8060c48d27fb2c06b99854e607af15a68501b4a86301e0af45fa6eb96/arq-0.8.1.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [drf-spectacular]: Downloading https://files.pythonhosted.org/packages/c4/b9/e5b00bb7fdccaaa03ac1014e3be806c724c1278f53b8b7cb151690f4f5ce/drf-spectacular-0.9.8.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [nbiatoolkit]: Downloading https://files.pythonhosted.org/packages/fd/2e/07516e993d41e8a0a05d6ad9e7565150aabe09478f5cf7885b4206f5c008/nbiatoolkit-1.0.1.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [multilevelformatter]: Downloading https://files.pythonhosted.org/packages/37/9c/84e2561da3b0a67a94b26815a84976650b3350ca360238f46440d86e1f82/multilevelformatter-0.4.0.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/cd/ad/5d9dcd6558665c4d07701bb9e1c30762e9fb53f3c14635353af23c10f825/eduworld-0.0.9.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [besapi]: Downloading https://files.pythonhosted.org/packages/0e/3a/dd68cce8a66d39acb56bc215705f14c4b9d792ca57e97242dc75850f8c0a/besapi-3.2.4.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/d9/14/c57a417f0d348dc3b54b601bf553a49bf3cc3faed6673935b24eb20574b6/MacroQueue-0.2.1.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [multilevelformatter]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [multilevelformatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multilevelformatter-0.3.5.tar.gz tmp/multilevelformatter-0.4.0.tar.gz --markdown 20240401/m/multilevelformatter/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [EduWorld]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [EduWorld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eduworld-0.0.8.tar.gz tmp/eduworld-0.0.9.tar.gz --markdown 20240401/E/EduWorld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [besapi]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [besapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besapi-3.2.2.tar.gz tmp/besapi-3.2.4.tar.gz --markdown 20240401/b/besapi/3.2.2-3.2.4/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [MacroQueue]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [MacroQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacroQueue-0.2.0.tar.gz tmp/MacroQueue-0.2.1.tar.gz --markdown 20240401/M/MacroQueue/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-module]: Downloading https://files.pythonhosted.org/packages/62/2e/9848dd19a26406a4e1509ed0dbde4c7c9f4fdd697d2f2a66097c57597ee5/xia-module-0.0.9.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [arq]: Downloading https://files.pythonhosted.org/packages/96/1c/a58be13a52dc34408ef5f7d2e6571679da964d5a7fe27e276fe1866d4c07/arq-0.9.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [nbiatoolkit]: Downloading https://files.pythonhosted.org/packages/a1/6c/b96376c056f684cf50a4930ed7a5a947c6a262e817b8199943db63690f63/nbiatoolkit-1.2.0.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/1a/aa/c1278b76a785a1c89cde0fa37b425dbc14d128e5a6542af6978710d87150/xia-framework-0.0.9.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [drf-spectacular]: Downloading https://files.pythonhosted.org/packages/30/f9/de6a1b2304c6f30cc04bb7b1b8cb3fcee4269c3e7c7d94ddebb56e301305/drf-spectacular-0.9.9.tar.gz
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-module]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-module-0.0.8.tar.gz tmp/xia-module-0.0.9.tar.gz --markdown 20240401/x/xia-module/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [arq]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [arq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arq-0.8.1.tar.gz tmp/arq-0.9.tar.gz --markdown 20240401/a/arq/0.8.1-0.9/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [nbiatoolkit]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [nbiatoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbiatoolkit-1.0.1.tar.gz tmp/nbiatoolkit-1.2.0.tar.gz --markdown 20240401/n/nbiatoolkit/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-framework]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [xia-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-framework-0.0.8.tar.gz tmp/xia-framework-0.0.9.tar.gz --markdown 20240401/x/xia-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:02:34] INFO root fetch - processPackages [drf-spectacular]: executing diffoscope
+[2024-04-01 20:02:34] INFO root fetch - processPackages [drf-spectacular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-spectacular-0.9.8.tar.gz tmp/drf-spectacular-0.9.9.tar.gz --markdown 20240401/d/drf-spectacular/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 20:02:35] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.8.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.9.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [EduWorld]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [multilevelformatter]: Remove: archive file [/home/abi/fetcher/tmp/multilevelformatter-0.3.5.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [multilevelformatter]: Remove: archive file [/home/abi/fetcher/tmp/multilevelformatter-0.4.0.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [multilevelformatter]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.0.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.1.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [MacroQueue]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [besapi]: Remove: archive file [/home/abi/fetcher/tmp/besapi-3.2.2.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [besapi]: Remove: archive file [/home/abi/fetcher/tmp/besapi-3.2.4.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [besapi]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [nbiatoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nbiatoolkit-1.0.1.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [nbiatoolkit]: Remove: archive file [/home/abi/fetcher/tmp/nbiatoolkit-1.2.0.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [nbiatoolkit]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [arq]: Remove: archive file [/home/abi/fetcher/tmp/arq-0.8.1.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [arq]: Remove: archive file [/home/abi/fetcher/tmp/arq-0.9.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [arq]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.8.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.9.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [xia-framework]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [xia-module]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-0.0.8.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [xia-module]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-0.0.9.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [xia-module]: success
+[2024-04-01 20:02:35] INFO root fetch - processPackages [drf-spectacular]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-0.9.8.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - processPackages [drf-spectacular]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-0.9.9.tar.gz]
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [drf-spectacular]: success
+[2024-04-01 20:02:35] INFO root fetch - main [MainThread]: Store serial: [22573168]
