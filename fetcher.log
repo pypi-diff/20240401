@@ -12212,3 +12212,45 @@ EOFError: EOF read where object expected
 [2024-04-01 20:27:12] INFO root fetch - processPackages [odoo14-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_loan-14.0.1.1.5.dev2-py3-none-any.whl.zip]
 [2024-04-01 20:27:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-loan]: success
 [2024-04-01 20:27:12] INFO root fetch - main [MainThread]: Store serial: [22573405]
+[2024-04-01 20:29:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573405]
+[2024-04-01 20:29:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 20:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neops_graphql
+[2024-04-01 20:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: approck-sqlalchemy-query-builder
+[2024-04-01 20:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MobileInventoryCLI
+[2024-04-01 20:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepllm
+[2024-04-01 20:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jamba
+[2024-04-01 20:29:21] WARNING root fetch - processPackages [jamba]: Skipping, unable to determine old version
+[2024-04-01 20:29:21] INFO root fetch - main [MainThread]: End processing [jamba] error
+[2024-04-01 20:29:21] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-04-01 20:29:21] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a6/7e/66b1c182c54bc7c43f3e9bb944200df121f54528d4de80456635c332375c/MobileInventoryCLI-0.3.9.tar.gz
+[2024-04-01 20:29:21] INFO root fetch - processPackages [neops_graphql]: New version: [1.7.9.dev0] Old Version: [1.7.9]
+[2024-04-01 20:29:21] INFO root fetch - processPackages [deepllm]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-01 20:29:21] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: New version: [1.0.0] Old Version: [0.1.4]
+[2024-04-01 20:29:21] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/cb/02/447cd326cf89313ccf9b5fdb5f8c1a7de711285a733af184684d5955838b/neops_graphql-1.7.9.tar.gz
+[2024-04-01 20:29:21] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: Downloading https://files.pythonhosted.org/packages/d8/67/bb1129cf805bc2c5b42a14171be6ffda6dd66d5c07639eedc45b0263420b/approck_sqlalchemy_query_builder-0.1.4.tar.gz
+[2024-04-01 20:29:21] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/0c/e8/5b18e1417ac550b8215a887ec3121510f6b32c178812f20688522fbf4875/deepllm-1.4.0.tar.gz
+[2024-04-01 20:29:21] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/17/b5/32e3ac966ede8aee3da3bf810c4bd238e2a8b291bf22e1f1bd8a5659905c/MobileInventoryCLI-0.4.0.tar.gz
+[2024-04-01 20:29:21] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 20:29:21] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.3.9.tar.gz tmp/MobileInventoryCLI-0.4.0.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2024-04-01 20:29:22] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: Downloading https://files.pythonhosted.org/packages/ac/65/1d178e14d08705ae6f805caf68ec43b521979268e75cfa973962bc2d9d7f/approck_sqlalchemy_query_builder-1.0.0.tar.gz
+[2024-04-01 20:29:22] INFO root fetch - processPackages [neops_graphql]: Downloading https://files.pythonhosted.org/packages/af/bb/12dc3178217c8598b90f4966bc859ba3c2203ebaa82c64dc9368286bc48b/neops_graphql-1.7.9.dev0.tar.gz
+[2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: Downloading https://files.pythonhosted.org/packages/d7/d5/aebce99da630801f4d69de6297af34fbd5360bbc75e7f0fc40354045b08d/deepllm-1.4.1.tar.gz
+[2024-04-01 20:29:22] INFO root fetch - processPackages [neops_graphql]: executing diffoscope
+[2024-04-01 20:29:22] INFO root fetch - processPackages [neops_graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neops_graphql-1.7.9.tar.gz tmp/neops_graphql-1.7.9.dev0.tar.gz --markdown 20240401/n/neops_graphql/1.7.9-1.7.9.dev0/diff.md --exclude *.pyd
+[2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: executing diffoscope
+[2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepllm-1.4.0.tar.gz tmp/deepllm-1.4.1.tar.gz --markdown 20240401/d/deepllm/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-01 20:29:22] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: executing diffoscope
+[2024-04-01 20:29:22] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_sqlalchemy_query_builder-0.1.4.tar.gz tmp/approck_sqlalchemy_query_builder-1.0.0.tar.gz --markdown 20240401/a/approck-sqlalchemy-query-builder/0.1.4-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 20:29:22] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.3.9.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.0.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 20:29:22] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: Remove: archive file [/home/abi/fetcher/tmp/approck_sqlalchemy_query_builder-0.1.4.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - processPackages [approck-sqlalchemy-query-builder]: Remove: archive file [/home/abi/fetcher/tmp/approck_sqlalchemy_query_builder-1.0.0.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - main [MainThread]: End processing [approck-sqlalchemy-query-builder]: success
+[2024-04-01 20:29:22] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - processPackages [neops_graphql]: Remove: archive file [/home/abi/fetcher/tmp/neops_graphql-1.7.9.dev0.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - main [MainThread]: End processing [neops_graphql]: success
+[2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.0.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.1.tar.gz]
+[2024-04-01 20:29:22] INFO root fetch - main [MainThread]: End processing [deepllm]: success
+[2024-04-01 20:29:22] INFO root fetch - main [MainThread]: Store serial: [22573422]
