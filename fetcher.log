@@ -15800,3 +15800,56 @@ EOFError: EOF read where object expected
 [2024-04-01 22:32:38] INFO root fetch - processPackages [tencentcloud-sdk-python-cfw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cfw-3.0.999.tar.gz]
 [2024-04-01 22:32:38] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cfw]: success
 [2024-04-01 22:32:38] INFO root fetch - main [MainThread]: Store serial: [22574900]
+[2024-04-01 22:34:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574900]
+[2024-04-01 22:34:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-chdfs
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-ciam
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-cii
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sajjad
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shipyard-sftp
+[2024-04-01 22:34:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pooltool-billiards
+[2024-04-01 22:34:47] INFO root fetch - processPackages [sajjad]: New version: [1.3] Old Version: [1.2]
+[2024-04-01 22:34:47] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/bb/fd/f100de233f9cbe6e46b05f0103261d8e7291af09948c3ff1b6046cd2929a/sajjad-1.2.tar.gz
+[2024-04-01 22:34:47] INFO root fetch - processPackages [pooltool-billiards]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 22:34:47] INFO root fetch - processPackages [shipyard-sftp]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2024-04-01 22:34:47] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:34:47] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:34:47] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:34:48] INFO root fetch - processPackages [pooltool-billiards]: Downloading https://files.pythonhosted.org/packages/7f/39/be8659707c799b5d9402c2fccdc910e97c9fc6db2e84a0e786161385fce0/pooltool-billiards-0.3.0.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [shipyard-sftp]: Downloading https://files.pythonhosted.org/packages/d9/46/f8119e0fdff2a366425a05ae1c3253dc44e3960da7fe85676e84c027a962/shipyard_sftp-0.2.0a8.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Downloading https://files.pythonhosted.org/packages/d1/07/6748af88c654b69096ba7ab4952453ae0d6ec09f2ab66c0501a914fcaa8d/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Downloading https://files.pythonhosted.org/packages/08/12/e4df914d494b24a08c2ea4c4b6204866b55bf856df0e0ede8aeb2a248cf7/tencentcloud-sdk-python-ciam-3.0.998.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Downloading https://files.pythonhosted.org/packages/9f/e9/8f18173d3fe9fedc047536d54298ebd39ce19ce387986e61cccf771433b8/tencentcloud-sdk-python-cii-3.0.998.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/1b/99/60b12eb5b98b5a2d585389cea60a93c56522ad39fc051c3c7d56b91bf229/sajjad-1.3.tar.gz
+[2024-04-01 22:34:48] WARNING root fetch - processPackages [pooltool-billiards]: Skipping package: exceeds size limit 29449582>=10485760
+[2024-04-01 22:34:48] INFO root fetch - main [MainThread]: End processing [pooltool-billiards] error
+[2024-04-01 22:34:48] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-01 22:34:48] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.2.tar.gz tmp/sajjad-1.3.tar.gz --markdown 20240401/s/sajjad/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-01 22:34:48] INFO root fetch - processPackages [shipyard-sftp]: Downloading https://files.pythonhosted.org/packages/73/a2/f613f864ec70a9e95ab2d0968cba07109be434054679984695e376fc4dfe/shipyard_sftp-0.2.0a9.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [shipyard-sftp]: executing diffoscope
+[2024-04-01 22:34:48] INFO root fetch - processPackages [shipyard-sftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_sftp-0.2.0a8.tar.gz tmp/shipyard_sftp-0.2.0a9.tar.gz --markdown 20240401/s/shipyard-sftp/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Downloading https://files.pythonhosted.org/packages/3f/6c/3873d72fc806ca26ab291ccce876249a9cf04096ab3736b116c6089ef2e6/tencentcloud-sdk-python-cii-3.0.999.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Downloading https://files.pythonhosted.org/packages/a4/36/c10d395f446cfff3ffdfd3b9928617d5beaa249e6ea6bf322ee9d4f99c74/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Downloading https://files.pythonhosted.org/packages/86/c7/ec9a15e4ae608074c8e932942919a4a002d9688ddcd3a5755a6eef78bebe/tencentcloud-sdk-python-ciam-3.0.999.tar.gz
+[2024-04-01 22:34:48] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.2.tar.gz]
+[2024-04-01 22:34:48] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.3.tar.gz]
+[2024-04-01 22:34:48] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: executing diffoscope
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ciam-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ciam-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-ciam/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: executing diffoscope
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-cii-3.0.998.tar.gz tmp/tencentcloud-sdk-python-cii-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-cii/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: executing diffoscope
+[2024-04-01 22:34:48] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz tmp/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-chdfs/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:34:49] INFO root fetch - processPackages [shipyard-sftp]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_sftp-0.2.0a8.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - processPackages [shipyard-sftp]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_sftp-0.2.0a9.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - main [MainThread]: End processing [shipyard-sftp]: success
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ciam-3.0.998.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-ciam]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ciam-3.0.999.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ciam]: success
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-chdfs-3.0.998.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-chdfs]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-chdfs-3.0.999.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-chdfs]: success
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cii-3.0.998.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - processPackages [tencentcloud-sdk-python-cii]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-cii-3.0.999.tar.gz]
+[2024-04-01 22:34:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-cii]: success
+[2024-04-01 22:34:49] INFO root fetch - main [MainThread]: Store serial: [22574919]
