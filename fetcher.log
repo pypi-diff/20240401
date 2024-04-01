@@ -19146,3 +19146,49 @@ EOFError: EOF read where object expected
 [2024-04-01 23:55:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev7.tar.gz]
 [2024-04-01 23:55:27] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-01 23:55:27] INFO root fetch - main [MainThread]: Store serial: [22576321]
+[2024-04-01 23:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576321]
+[2024-04-01 23:57:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 23:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vision-agent
+[2024-04-01 23:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ollama-downloads
+[2024-04-01 23:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-04-01 23:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2024-04-01 23:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto
+[2024-04-01 23:57:37] INFO root fetch - processPackages [vision-agent]: New version: [0.0.42] Old Version: [0.0.41]
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:57:37] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev8] Old Version: [5.0.5.dev7]
+[2024-04-01 23:57:37] INFO root fetch - processPackages [ollama-downloads]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 23:57:37] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0b/71/fcef86edc74ca24ecc606f6aa8d5333b92e059aa01ccd82c67849da0c8c2/vision_agent-0.0.41.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/7a/09/4e57eea8e569ce3265b6a047f42796e7c5b4de72890d5843640d02a1bcb4/moto-5.0.5.dev7.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/9f/2a/f770cb8f17b5cbd9f9fb7c86bef8eff6857e3e17430d6c1f5f4c247b5375/vision_agent-0.0.42.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [ollama-downloads]: Downloading https://files.pythonhosted.org/packages/82/ec/638a2ce9be21c6806f9eaf1c93b4aa04ef7f92d869e298fcba70fcf91326/ollama_downloads-0.1.0.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-01 23:57:37] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.0.41.tar.gz tmp/vision_agent-0.0.42.tar.gz --markdown 20240401/v/vision-agent/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:57:37] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:57:37] INFO root fetch - processPackages [ollama-downloads]: Downloading https://files.pythonhosted.org/packages/84/f5/11201ad5559d5049efdf0398fe16af6d947e2bf2949defb2ce308f86f559/ollama_downloads-0.1.1.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-01 23:57:37] INFO root fetch - processPackages [ollama-downloads]: executing diffoscope
+[2024-04-01 23:57:37] INFO root fetch - processPackages [ollama-downloads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ollama_downloads-0.1.0.tar.gz tmp/ollama_downloads-0.1.1.tar.gz --markdown 20240401/o/ollama-downloads/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 23:57:38] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-01 23:57:38] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev7.tar.gz tmp/moto-5.0.5.dev8.tar.gz --markdown 20240401/m/moto/5.0.5.dev7-5.0.5.dev8/diff.md --exclude *.pyd
+[2024-04-01 23:57:38] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.41.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.42.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-01 23:57:38] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-01 23:57:38] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-01 23:57:38] INFO root fetch - processPackages [ollama-downloads]: Remove: archive file [/home/abi/fetcher/tmp/ollama_downloads-0.1.0.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - processPackages [ollama-downloads]: Remove: archive file [/home/abi/fetcher/tmp/ollama_downloads-0.1.1.tar.gz]
+[2024-04-01 23:57:38] INFO root fetch - main [MainThread]: End processing [ollama-downloads]: success
+[2024-04-01 23:57:49] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev7.tar.gz]
+[2024-04-01 23:57:49] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-01 23:57:49] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-01 23:57:49] INFO root fetch - main [MainThread]: Store serial: [22576336]
