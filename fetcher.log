@@ -13134,3 +13134,51 @@ EOFError: EOF read where object expected
 [2024-04-01 21:07:32] INFO root fetch - processPackages [honeybee-ph]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-ph-1.9.1.tar.gz]
 [2024-04-01 21:07:32] INFO root fetch - main [MainThread]: End processing [honeybee-ph]: success
 [2024-04-01 21:07:32] INFO root fetch - main [MainThread]: Store serial: [22573865]
+[2024-04-01 21:09:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573865]
+[2024-04-01 21:09:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 21:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-hardware-test-report
+[2024-04-01 21:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex
+[2024-04-01 21:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuldc
+[2024-04-01 21:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-04-01 21:09:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-comment-template
+[2024-04-01 21:09:42] INFO root fetch - processPackages [reflex]: New version: [0.4.6a2] Old Version: [0.4.6a1]
+[2024-04-01 21:09:42] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-01 21:09:42] INFO root fetch - processPackages [nuldc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 21:09:42] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.6]
+[2024-04-01 21:09:42] INFO root fetch - processPackages [pytest-hardware-test-report]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-01 21:09:42] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/5a/ab/0e4df7cef7ff216ebf7cde34c85951358f9b159c42cf243bb6baf127911d/reflex-0.4.6a1.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/5a/ff/15803fdb234e9c138024a823acdfa442ddfe42796d9d6ceef388b483750d/MobileInventoryCLI-0.4.2.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [nuldc]: Downloading https://files.pythonhosted.org/packages/e2/6c/ec9d57b1c4927d1ef56647f6ef19eb396e9faf47eee07950ec72aabb965f/nuldc-0.9.0.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [pytest-hardware-test-report]: Downloading https://files.pythonhosted.org/packages/c6/69/3ded77a871e6b7699c42b2201a200a92dde0384056d125d3a9832061fbe1/pytest_hardware_test_report-0.2.0.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/65/40/74c8d730bfb21523bfedddd0f46e3987e173c5dbcac74c682a693bb4b775/odoo_addon_purchase_comment_template-15.0.1.0.0.6-py3-none-any.whl
+[2024-04-01 21:09:42] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/9a/30/dc546e1a8f5535c5e63b7963041d58ae7d703722b5abd869783eb52268f4/reflex-0.4.6a2.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/c0/d7/34dbfcc935d587327c1f45e5285f646ea5fd576c72f5d3eaddb55c8b90f0/MobileInventoryCLI-0.4.3.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-04-01 21:09:42] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.6a1.tar.gz tmp/reflex-0.4.6a2.tar.gz --markdown 20240401/r/reflex/0.4.6a1-0.4.6a2/diff.md --exclude *.pyd
+[2024-04-01 21:09:42] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 21:09:42] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.2.tar.gz tmp/MobileInventoryCLI-0.4.3.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-01 21:09:42] INFO root fetch - processPackages [nuldc]: Downloading https://files.pythonhosted.org/packages/38/41/f0a35de8d827c5d40081a9157a7c924c80966f20f0e35e4342a72e37a83c/nuldc-0.9.1.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [pytest-hardware-test-report]: Downloading https://files.pythonhosted.org/packages/ba/bf/3a8f4f7e7b8eb064e37fee3cf95f83de55a7b3335c6bbf47729073c0a1ec/pytest_hardware_test_report-0.2.1.tar.gz
+[2024-04-01 21:09:42] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Downloading https://files.pythonhosted.org/packages/37/b5/c356d0fa249a4dfbcc215328cdc97f03d6eb3df81fa9013b7da9582af722/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-01 21:09:42] INFO root fetch - processPackages [pytest-hardware-test-report]: executing diffoscope
+[2024-04-01 21:09:42] INFO root fetch - processPackages [pytest-hardware-test-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_hardware_test_report-0.2.0.tar.gz tmp/pytest_hardware_test_report-0.2.1.tar.gz --markdown 20240401/p/pytest-hardware-test-report/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 21:09:43] INFO root fetch - processPackages [nuldc]: executing diffoscope
+[2024-04-01 21:09:43] INFO root fetch - processPackages [nuldc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuldc-0.9.0.tar.gz tmp/nuldc-0.9.1.tar.gz --markdown 20240401/n/nuldc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 21:09:43] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: executing diffoscope
+[2024-04-01 21:09:43] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240401/o/odoo-addon-purchase-comment-template/15.0.1.0.0.6-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-01 21:09:43] INFO root fetch - processPackages [pytest-hardware-test-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hardware_test_report-0.2.0.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - processPackages [pytest-hardware-test-report]: Remove: archive file [/home/abi/fetcher/tmp/pytest_hardware_test_report-0.2.1.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - main [MainThread]: End processing [pytest-hardware-test-report]: success
+[2024-04-01 21:09:43] INFO root fetch - processPackages [nuldc]: Remove: archive file [/home/abi/fetcher/tmp/nuldc-0.9.0.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - processPackages [nuldc]: Remove: archive file [/home/abi/fetcher/tmp/nuldc-0.9.1.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - main [MainThread]: End processing [nuldc]: success
+[2024-04-01 21:09:43] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-15.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-01 21:09:43] INFO root fetch - processPackages [odoo-addon-purchase-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_comment_template-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-01 21:09:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-comment-template]: success
+[2024-04-01 21:09:43] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.2.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.3.tar.gz]
+[2024-04-01 21:09:43] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 21:09:44] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a1.tar.gz]
+[2024-04-01 21:09:44] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a2.tar.gz]
+[2024-04-01 21:09:44] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-04-01 21:09:44] INFO root fetch - main [MainThread]: Store serial: [22573880]
