@@ -16486,3 +16486,101 @@ EOFError: EOF read where object expected
 [2024-04-01 22:51:49] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.62.tar.gz]
 [2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-04-01 22:51:49] INFO root fetch - main [MainThread]: Store serial: [22575346]
+[2024-04-01 22:53:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575346]
+[2024-04-01 22:53:58] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-drm
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: beep-utils
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-ds
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-dsgc
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchling-api-client
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bamboo_stash
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: StonerPlots
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-dtf
+[2024-04-01 22:53:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-dts
+[2024-04-01 22:53:59] WARNING root fetch - processPackages [beep-utils]: Skipping, unable to determine old version
+[2024-04-01 22:53:59] INFO root fetch - processPackages [beep-utils]: Start processing: cartesify-backend
+[2024-04-01 22:53:59] INFO root fetch - main [MainThread]: End processing [beep-utils] error
+[2024-04-01 22:53:59] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev5] Old Version: [5.0.5.dev4]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [StonerPlots]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-01 22:53:59] WARNING root fetch - processPackages [bamboo_stash]: Skipping, unable to determine old version
+[2024-04-01 22:53:59] INFO root fetch - processPackages [bamboo_stash]: Start processing: tencentcloud-sdk-python-eb
+[2024-04-01 22:53:59] INFO root fetch - main [MainThread]: End processing [bamboo_stash] error
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Downloading https://files.pythonhosted.org/packages/96/66/bc5045a40ffc3a10b91e786eaa7e179259f016c09c57bf3ecdab4adc8470/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Downloading https://files.pythonhosted.org/packages/9f/1f/dc2bf0022737868f77480ee972a0e6bc49c48a9754da59121c0e75b5d676/tencentcloud-sdk-python-drm-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [StonerPlots]: Downloading https://files.pythonhosted.org/packages/a0/b7/61c53e349cea3bb2986cc991b574ee17188e5769396e9616170e02f4b579/StonerPlots-1.3.0.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/9e/5b/a38013c7c66b839b2c5463a6e52fd1b5a051c0e267182bb5dd04c7961454/moto-5.0.5.dev5.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Downloading https://files.pythonhosted.org/packages/bd/53/751df27729979c3f7afbeb82ef5527b49eabfe5eaa437b5cb01b6d21fc62/tencentcloud-sdk-python-dtf-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:53:59] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Downloading https://files.pythonhosted.org/packages/4a/1a/5dd907dee74e20bf39d5db280e103168c55c947cf813d600daae1bc108c1/tencentcloud-sdk-python-dts-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Downloading https://files.pythonhosted.org/packages/d5/7b/e1c5912e257601b45179d07960d71d4f3f012fb5985ea587f5f6b59b4cf0/tencentcloud-sdk-python-ds-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-01 22:53:59] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240401/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Downloading https://files.pythonhosted.org/packages/7b/36/33e7d5c491826ccbbed42ef51bd72e7d5bfa8246bf47c78ef18541939a40/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: Downloading https://files.pythonhosted.org/packages/3d/25/b49940441a6fa6c51d60af57b9e20771642a83c3b7f7f21eb58b4f5adf40/tencentcloud-sdk-python-eb-3.0.998.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Downloading https://files.pythonhosted.org/packages/94/e3/d2be169f0030f47e065c061e98142fe559270e2f01674c69028e157c8d30/tencentcloud-sdk-python-drm-3.0.999.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-01 22:53:59] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev4.tar.gz tmp/moto-5.0.5.dev5.tar.gz --markdown 20240401/m/moto/5.0.5.dev4-5.0.5.dev5/diff.md --exclude *.pyd
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Downloading https://files.pythonhosted.org/packages/bc/e5/7d258615513da1febfbe7125f1af94ffc876684b6c5aa2992e5a483d5608/tencentcloud-sdk-python-dts-3.0.999.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Downloading https://files.pythonhosted.org/packages/fa/ce/02ddf349bb494924db9421f5baa48b685a3c104a7f2b87367cd4504686f2/tencentcloud-sdk-python-dtf-3.0.999.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Downloading https://files.pythonhosted.org/packages/c9/d3/b481377063f6403fd6affbd0e6053483de117ae598805d34d141a4edde26/tencentcloud-sdk-python-ds-3.0.999.tar.gz
+[2024-04-01 22:53:59] INFO root fetch - processPackages [StonerPlots]: Downloading https://files.pythonhosted.org/packages/27/35/02f32ee2fe5a5ecf276d84b6c66f9d7a992e502fdbf9ba5ff31d539f81c8/StonerPlots-1.3.1.tar.gz
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-dsgc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-drm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-drm-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-drm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ds-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ds-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-ds/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dts-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-dts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dtf-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dtf-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-dtf/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: Downloading https://files.pythonhosted.org/packages/2f/4a/6faaff5d658fa41f684105feb829ddc3a43da49032972a2d3aff52aa7266/tencentcloud-sdk-python-eb-3.0.999.tar.gz
+[2024-04-01 22:54:00] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-01 22:54:00] INFO root fetch - processPackages [StonerPlots]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [StonerPlots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/StonerPlots-1.3.0.tar.gz tmp/StonerPlots-1.3.1.tar.gz --markdown 20240401/S/StonerPlots/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: executing diffoscope
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-eb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-eb-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-eb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:54:00] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-drm-3.0.998.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-drm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-drm-3.0.999.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-drm]: success
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dsgc-3.0.998.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - processPackages [tencentcloud-sdk-python-dsgc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dsgc-3.0.999.tar.gz]
+[2024-04-01 22:54:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dsgc]: success
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dts-3.0.998.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-dts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dts-3.0.999.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dts]: success
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dtf-3.0.998.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-dtf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dtf-3.0.999.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ds-3.0.998.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-ds]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ds-3.0.999.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dtf]: success
+[2024-04-01 22:54:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ds]: success
+[2024-04-01 22:54:01] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2024-04-01 22:54:01] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20240401/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-eb-3.0.998.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [tencentcloud-sdk-python-eb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-eb-3.0.999.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-eb]: success
+[2024-04-01 22:54:01] INFO root fetch - processPackages [StonerPlots]: Remove: archive file [/home/abi/fetcher/tmp/StonerPlots-1.3.0.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - processPackages [StonerPlots]: Remove: archive file [/home/abi/fetcher/tmp/StonerPlots-1.3.1.tar.gz]
+[2024-04-01 22:54:01] INFO root fetch - main [MainThread]: End processing [StonerPlots]: success
+[2024-04-01 22:54:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev4.tar.gz]
+[2024-04-01 22:54:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev5.tar.gz]
+[2024-04-01 22:54:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-01 22:54:19] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2024-04-01 22:54:19] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2024-04-01 22:54:19] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2024-04-01 22:54:19] INFO root fetch - main [MainThread]: Store serial: [22575380]
