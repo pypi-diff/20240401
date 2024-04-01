@@ -1789,3 +1789,41 @@ EOFError: EOF read where object expected
 [2024-04-01 13:08:17] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
 [2024-04-01 13:08:17] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2024-04-01 13:08:17] INFO root fetch - main [MainThread]: Store serial: [22568412]
+[2024-04-01 13:10:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568412]
+[2024-04-01 13:10:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 13:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydivkit
+[2024-04-01 13:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-cpp
+[2024-04-01 13:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tracking-lib
+[2024-04-01 13:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testingcgsdk
+[2024-04-01 13:10:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phone-email-auth
+[2024-04-01 13:10:32] INFO root fetch - processPackages [pydivkit]: New version: [29.9.0] Old Version: [29.8.0]
+[2024-04-01 13:10:32] INFO root fetch - processPackages [tracking-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 13:10:32] WARNING root fetch - processPackages [phone-email-auth]: Skipping, unable to determine old version
+[2024-04-01 13:10:32] INFO root fetch - main [MainThread]: End processing [phone-email-auth] error
+[2024-04-01 13:10:32] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 13:10:32] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 13:10:32] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/42/a1/6e9c9bf0381cdd05c889c253313b5dae76afc9a776d674ae61e59eec076a/pydivkit-29.8.0.tar.gz
+[2024-04-01 13:10:32] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/91/95/1ef5ec083eb678959925543aaa2e9b75712a055100310a31b08e36bbad46/tracking_lib-0.1.8.tar.gz
+[2024-04-01 13:10:32] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/cd/06/1846a7ab46e9381f6f4cb9f9d2028a08e3b4bd01de38953377f5d0dbed41/bigdl_core_cpp-2.5.0b20240331-py3-none-win_amd64.whl
+[2024-04-01 13:10:32] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/0c/b5/865083af8818ac4168d9e614990a4e5826987c0dab838f9ed719a8f77709/testingcgsdk-0.0.1-py3-none-any.whl
+[2024-04-01 13:10:32] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 34831673>=10485760
+[2024-04-01 13:10:32] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-01 13:10:32] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/1b/7a/9c4e0edc6db13ee3fd77db5706495c7674bd1205f4dee8dca9c86cd6fce6/testingcgsdk-0.0.2-py3-none-any.whl
+[2024-04-01 13:10:33] INFO root fetch - processPackages [pydivkit]: Downloading https://files.pythonhosted.org/packages/c4/cc/fa1edd25ae1d1b30a98ee6486f6794e38f7fe120e457a60d491fc8848148/pydivkit-29.9.0.tar.gz
+[2024-04-01 13:10:33] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-01 13:10:33] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.1-py3-none-any.whl.zip tmp/testingcgsdk-0.0.2-py3-none-any.whl.zip --markdown 20240401/t/testingcgsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 13:10:33] INFO root fetch - processPackages [pydivkit]: executing diffoscope
+[2024-04-01 13:10:33] INFO root fetch - processPackages [pydivkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydivkit-29.8.0.tar.gz tmp/pydivkit-29.9.0.tar.gz --markdown 20240401/p/pydivkit/29.8.0-29.9.0/diff.md --exclude *.pyd
+[2024-04-01 13:10:33] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.1-py3-none-any.whl.zip]
+[2024-04-01 13:10:33] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.2-py3-none-any.whl.zip]
+[2024-04-01 13:10:33] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-01 13:10:33] INFO root fetch - processPackages [tracking-lib]: Downloading https://files.pythonhosted.org/packages/5b/10/d49a9313bd82173c43c2ff349da8b1726dd89eb90c4fe9aee184c56ef64c/tracking_lib-0.1.9.tar.gz
+[2024-04-01 13:10:33] INFO root fetch - processPackages [tracking-lib]: executing diffoscope
+[2024-04-01 13:10:33] INFO root fetch - processPackages [tracking-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tracking_lib-0.1.8.tar.gz tmp/tracking_lib-0.1.9.tar.gz --markdown 20240401/t/tracking-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 13:10:33] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.8.0.tar.gz]
+[2024-04-01 13:10:33] INFO root fetch - processPackages [pydivkit]: Remove: archive file [/home/abi/fetcher/tmp/pydivkit-29.9.0.tar.gz]
+[2024-04-01 13:10:33] INFO root fetch - main [MainThread]: End processing [pydivkit]: success
+[2024-04-01 13:10:34] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.8.tar.gz]
+[2024-04-01 13:10:34] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
+[2024-04-01 13:10:34] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
+[2024-04-01 13:10:34] INFO root fetch - main [MainThread]: Store serial: [22568432]
