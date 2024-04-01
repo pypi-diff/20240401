@@ -9156,3 +9156,71 @@ EOFError: EOF read where object expected
 [2024-04-01 18:22:43] INFO root fetch - processPackages [dash-query-builder]: Remove: archive file [/home/abi/fetcher/tmp/dash_query_builder-0.5.0.tar.gz]
 [2024-04-01 18:22:43] INFO root fetch - main [MainThread]: End processing [dash-query-builder]: success
 [2024-04-01 18:22:43] INFO root fetch - main [MainThread]: Store serial: [22571954]
+[2024-04-01 18:24:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571954]
+[2024-04-01 18:24:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-lambda-bundler
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicsnovault
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumiverse-cpln
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorkas-core
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorkas
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: suggestions-matrecord
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: html-text-color
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nodetool
+[2024-04-01 18:24:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: melobot
+[2024-04-01 18:24:52] INFO root fetch - processPackages [aws-lambda-bundler]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-01 18:24:52] WARNING root fetch - processPackages [dorkas]: Skipping, unable to determine old version
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dorkas-core]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 18:24:52] INFO root fetch - main [MainThread]: End processing [dorkas] error
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dcicsnovault]: New version: [9.9.9.0b0] Old Version: [9.1.1]
+[2024-04-01 18:24:52] INFO root fetch - processPackages [nodetool]: New version: [0.1.15] Old Version: [0.1.14]
+[2024-04-01 18:24:52] INFO root fetch - processPackages [html-text-color]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 18:24:52] INFO root fetch - processPackages [pulumiverse-cpln]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:24:52] WARNING root fetch - processPackages [suggestions-matrecord]: Skipping, unable to determine old version
+[2024-04-01 18:24:52] INFO root fetch - main [MainThread]: End processing [suggestions-matrecord] error
+[2024-04-01 18:24:52] INFO root fetch - processPackages [melobot]: New version: [2.5.9] Old Version: [2.5.8]
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/34/ba/883bc9924d4c4823b850e855eb9740be143bcef80c7708bb612e0f72ce30/dorkas_core-0.1.0.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [aws-lambda-bundler]: Downloading https://files.pythonhosted.org/packages/46/52/d0c1f5c4939aab16f33d591e3940dd4de7f449baa1c7125cc1bae955f93e/aws_lambda_bundler-0.4.1.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/d9/56/60bf7990e8d3aa29414af29d0d3ac120091b7e42b64e880cc77388d6e641/dcicsnovault-9.1.1.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/1b/fb/9af76754a5f5181f7b978484c9a0f433b0c9489c89d3f2c2d6709f5ca52d/pulumiverse_cpln-0.0.8.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [nodetool]: Downloading https://files.pythonhosted.org/packages/6e/8a/b95fa5f9c9d2fbef26055786c119a15e1b6682d31180bcfd612783daeb0a/nodetool-0.1.14.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [html-text-color]: Downloading https://files.pythonhosted.org/packages/0f/40/24648c8b5b7a37d62d0eae074d47b928f5b70e0859a8fadbcababcf6918c/html_text_color-0.0.6.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [aws-lambda-bundler]: Downloading https://files.pythonhosted.org/packages/1f/9e/26006b39c9b95298440bef4cc71c71ac4c3c33fa1a8a00cfecb3af74a6e8/aws_lambda_bundler-0.4.2.tar.gz
+[2024-04-01 18:24:52] WARNING root fetch - processPackages [nodetool]: Skipping package: exceeds size limit 10783095>=10485760
+[2024-04-01 18:24:52] INFO root fetch - main [MainThread]: End processing [nodetool] error
+[2024-04-01 18:24:52] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/a4/ee/0c1e25409a8ac4858b0ee1e4e3d5aebb24f9fd10b32b890fd5705a7f9ee2/melobot-2.5.8.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/5b/69/2d661efc29e872887f547a770c16dcae8bd7f059e2d578d1a0eb526564f9/dcicsnovault-9.9.9.0b0.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/b1/50/54d44a4599b1d19feb0e36614530497c0f1691c9eadba7f2cb92b5ba4c6e/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-01 18:24:52] INFO root fetch - processPackages [aws-lambda-bundler]: executing diffoscope
+[2024-04-01 18:24:52] INFO root fetch - processPackages [aws-lambda-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_bundler-0.4.1.tar.gz tmp/aws_lambda_bundler-0.4.2.tar.gz --markdown 20240401/a/aws-lambda-bundler/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dorkas-core]: executing diffoscope
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dorkas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorkas_core-0.1.0.tar.gz tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip --markdown 20240401/d/dorkas-core/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2024-04-01 18:24:52] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-9.1.1.tar.gz tmp/dcicsnovault-9.9.9.0b0.tar.gz --markdown 20240401/d/dcicsnovault/9.1.1-9.9.9.0b0/diff.md --exclude *.pyd
+[2024-04-01 18:24:52] INFO root fetch - processPackages [pulumiverse-cpln]: Downloading https://files.pythonhosted.org/packages/f1/53/f6afe62a96b0c8443f26009ee143128ed7bc0941b2b1a92c7debc39cb2b3/pulumiverse_cpln-0.0.9.tar.gz
+[2024-04-01 18:24:52] INFO root fetch - processPackages [html-text-color]: Downloading https://files.pythonhosted.org/packages/ef/2a/9b87b38b20843464d4d93198569dfabe998f655230c5b2dc5b4bdb9e009c/html_text_color-0.0.7.tar.gz
+[2024-04-01 18:24:53] INFO root fetch - processPackages [pulumiverse-cpln]: executing diffoscope
+[2024-04-01 18:24:53] INFO root fetch - processPackages [pulumiverse-cpln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumiverse_cpln-0.0.8.tar.gz tmp/pulumiverse_cpln-0.0.9.tar.gz --markdown 20240401/p/pulumiverse-cpln/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:24:53] INFO root fetch - processPackages [html-text-color]: executing diffoscope
+[2024-04-01 18:24:53] INFO root fetch - processPackages [html-text-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_text_color-0.0.6.tar.gz tmp/html_text_color-0.0.7.tar.gz --markdown 20240401/h/html-text-color/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 18:24:53] INFO root fetch - processPackages [melobot]: Downloading https://files.pythonhosted.org/packages/7a/22/a5b2baa3b113da213865a10258449637123d7e6b0667e58e193f56193a04/melobot-2.5.9.tar.gz
+[2024-04-01 18:24:53] INFO root fetch - processPackages [aws-lambda-bundler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_bundler-0.4.1.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - processPackages [aws-lambda-bundler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_bundler-0.4.2.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - main [MainThread]: End processing [aws-lambda-bundler]: success
+[2024-04-01 18:24:53] INFO root fetch - processPackages [melobot]: executing diffoscope
+[2024-04-01 18:24:53] INFO root fetch - processPackages [melobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melobot-2.5.8.tar.gz tmp/melobot-2.5.9.tar.gz --markdown 20240401/m/melobot/2.5.8-2.5.9/diff.md --exclude *.pyd
+[2024-04-01 18:24:53] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.0.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-04-01 18:24:53] INFO root fetch - main [MainThread]: End processing [dorkas-core]: success
+[2024-04-01 18:24:53] INFO root fetch - processPackages [html-text-color]: Remove: archive file [/home/abi/fetcher/tmp/html_text_color-0.0.6.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - processPackages [html-text-color]: Remove: archive file [/home/abi/fetcher/tmp/html_text_color-0.0.7.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - main [MainThread]: End processing [html-text-color]: success
+[2024-04-01 18:24:53] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.8.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - processPackages [pulumiverse-cpln]: Remove: archive file [/home/abi/fetcher/tmp/pulumiverse_cpln-0.0.9.tar.gz]
+[2024-04-01 18:24:53] INFO root fetch - main [MainThread]: End processing [pulumiverse-cpln]: success
+[2024-04-01 18:24:54] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.1.1.tar.gz]
+[2024-04-01 18:24:54] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
+[2024-04-01 18:24:54] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2024-04-01 18:24:54] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.8.tar.gz]
+[2024-04-01 18:24:54] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.9.tar.gz]
+[2024-04-01 18:24:54] INFO root fetch - main [MainThread]: End processing [melobot]: success
+[2024-04-01 18:24:54] INFO root fetch - main [MainThread]: Store serial: [22571982]
