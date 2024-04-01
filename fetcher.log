@@ -531,3 +531,33 @@
 [2024-04-01 11:53:45] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
 [2024-04-01 11:53:45] INFO root fetch - main [MainThread]: End processing [longport]: success
 [2024-04-01 11:53:45] INFO root fetch - main [MainThread]: Store serial: [22567954]
+[2024-04-01 11:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567954]
+[2024-04-01 11:55:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 11:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-riskplus
+[2024-04-01 11:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-01 11:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scalifiai-client
+[2024-04-01 11:55:54] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 11:55:54] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:55:54] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 11:55:54] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2024-04-01 11:55:54] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:55:54] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2024-04-01 11:55:54] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:55:54] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 11:55:54] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:55:54] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:55:54] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 11:55:54] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 11:55:54] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2024-04-01 11:55:55] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:55:55] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:55:55] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:55:56] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 11:55:56] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 11:55:56] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 11:55:56] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2024-04-01 11:55:56] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20240401/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2024-04-01 11:55:57] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.3.tar.gz]
+[2024-04-01 11:55:57] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
+[2024-04-01 11:55:57] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2024-04-01 11:55:57] INFO root fetch - main [MainThread]: Store serial: [22567962]
