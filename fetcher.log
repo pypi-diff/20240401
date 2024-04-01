@@ -2157,3 +2157,51 @@ EOFError: EOF read where object expected
 [2024-04-01 13:28:56] INFO root fetch - processPackages [airportsdata]: Remove: archive file [/home/abi/fetcher/tmp/airportsdata-20240401.tar.gz]
 [2024-04-01 13:28:56] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
 [2024-04-01 13:28:56] INFO root fetch - main [MainThread]: Store serial: [22568648]
+[2024-04-01 13:31:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568648]
+[2024-04-01 13:31:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bota
+[2024-04-01 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testingcgsdk
+[2024-04-01 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: siman
+[2024-04-01 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: second-test
+[2024-04-01 13:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atomicshop
+[2024-04-01 13:31:23] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 13:31:23] INFO root fetch - processPackages [second-test]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 13:31:23] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-01 13:31:23] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:31:23] INFO root fetch - processPackages [siman]: New version: [1.7.0] Old Version: [1.6.9]
+[2024-04-01 13:31:23] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/0c/b5/865083af8818ac4168d9e614990a4e5826987c0dab838f9ed719a8f77709/testingcgsdk-0.0.1-py3-none-any.whl
+[2024-04-01 13:31:23] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-01 13:31:23] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:31:23] INFO root fetch - processPackages [second-test]: Downloading https://files.pythonhosted.org/packages/13/d8/527bcad7a369be888fe37a38b1c107672d2620a5467c6af3d6a3de977df3/second_test-0.1.0.tar.gz
+[2024-04-01 13:31:23] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/26/6b/30476f5291d4473bcab6fb51bb97665f9bd6548b50a544d71687ce59e3ae/siman-1.6.9.tar.gz
+[2024-04-01 13:31:23] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/1b/7a/9c4e0edc6db13ee3fd77db5706495c7674bd1205f4dee8dca9c86cd6fce6/testingcgsdk-0.0.2-py3-none-any.whl
+[2024-04-01 13:31:23] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-01 13:31:23] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:31:23] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-01 13:31:23] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.1-py3-none-any.whl.zip tmp/testingcgsdk-0.0.2-py3-none-any.whl.zip --markdown 20240401/t/testingcgsdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 13:31:23] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-01 13:31:23] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240401/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:31:23] INFO root fetch - processPackages [second-test]: Downloading https://files.pythonhosted.org/packages/1e/fc/eccf729f7c3fb9013250cfb8449e0dbac8d465a12f78ffb37c8ef09dd632/second_test-0.1.1.tar.gz
+[2024-04-01 13:31:23] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:31:23] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:31:24] INFO root fetch - processPackages [second-test]: executing diffoscope
+[2024-04-01 13:31:24] INFO root fetch - processPackages [second-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/second_test-0.1.0.tar.gz tmp/second_test-0.1.1.tar.gz --markdown 20240401/s/second-test/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 13:31:24] INFO root fetch - processPackages [siman]: Downloading https://files.pythonhosted.org/packages/81/0e/c2caaecfd58b22db767ec9b8c078c3f4d15e47917cf85a155fc965f4b504/siman-1.7.0.tar.gz
+[2024-04-01 13:31:24] INFO root fetch - processPackages [siman]: executing diffoscope
+[2024-04-01 13:31:24] INFO root fetch - processPackages [siman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siman-1.6.9.tar.gz tmp/siman-1.7.0.tar.gz --markdown 20240401/s/siman/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2024-04-01 13:31:24] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.1-py3-none-any.whl.zip]
+[2024-04-01 13:31:24] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.2-py3-none-any.whl.zip]
+[2024-04-01 13:31:24] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-01 13:31:24] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-01 13:31:24] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-01 13:31:24] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-01 13:31:24] INFO root fetch - processPackages [second-test]: Remove: archive file [/home/abi/fetcher/tmp/second_test-0.1.0.tar.gz]
+[2024-04-01 13:31:24] INFO root fetch - processPackages [second-test]: Remove: archive file [/home/abi/fetcher/tmp/second_test-0.1.1.tar.gz]
+[2024-04-01 13:31:24] INFO root fetch - main [MainThread]: End processing [second-test]: success
+[2024-04-01 13:31:25] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.6.9.tar.gz]
+[2024-04-01 13:31:25] INFO root fetch - processPackages [siman]: Remove: archive file [/home/abi/fetcher/tmp/siman-1.7.0.tar.gz]
+[2024-04-01 13:31:25] INFO root fetch - main [MainThread]: End processing [siman]: success
+[2024-04-01 13:31:25] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:31:25] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:31:25] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:31:25] INFO root fetch - main [MainThread]: Store serial: [22568669]
