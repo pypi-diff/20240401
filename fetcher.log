@@ -7382,3 +7382,33 @@ EOFError: EOF read where object expected
 [2024-04-01 17:19:49] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-httpserver-4.5.7.tar.gz]
 [2024-04-01 17:19:49] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
 [2024-04-01 17:19:49] INFO root fetch - main [MainThread]: Store serial: [22571065]
+[2024-04-01 17:21:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571065]
+[2024-04-01 17:21:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cyipopt
+[2024-04-01 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: milvus-model
+[2024-04-01 17:21:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clearml
+[2024-04-01 17:21:59] INFO root fetch - processPackages [cyipopt]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-01 17:21:59] INFO root fetch - processPackages [milvus-model]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-01 17:21:59] INFO root fetch - processPackages [clearml]: New version: [1.9.3] Old Version: [1.9.2rc2]
+[2024-04-01 17:21:59] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/7e/29/095ec92c0b253f5d8ad2c5fc3a6c437c0cdabc67716b99ae81f0d773ae77/clearml-1.9.2rc2-py2.py3-none-any.whl
+[2024-04-01 17:21:59] INFO root fetch - processPackages [cyipopt]: Downloading https://files.pythonhosted.org/packages/76/96/7dee67e78493e901e4b3f36cba98ffeb7e2b18cd7811437d9432931afc3c/cyipopt-1.3.0.tar.gz
+[2024-04-01 17:21:59] INFO root fetch - processPackages [milvus-model]: Downloading https://files.pythonhosted.org/packages/1c/a2/262bbb43bfa9a688db6a5031138982af48ee470af2c226f7e9cf7e2f8f96/milvus-model-0.1.0.tar.gz
+[2024-04-01 17:22:00] INFO root fetch - processPackages [milvus-model]: Downloading https://files.pythonhosted.org/packages/1a/de/3bc97267b25d9b59045a1c629804f9247205be734be236b370694e06b70a/milvus-model-0.2.0.tar.gz
+[2024-04-01 17:22:00] INFO root fetch - processPackages [cyipopt]: Downloading https://files.pythonhosted.org/packages/7d/7a/c04089a34f87fbb67e63f4b9d0c2840e3962eb2a337c681b1774c341ed98/cyipopt-1.4.0.tar.gz
+[2024-04-01 17:22:00] INFO root fetch - processPackages [milvus-model]: executing diffoscope
+[2024-04-01 17:22:00] INFO root fetch - processPackages [milvus-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milvus-model-0.1.0.tar.gz tmp/milvus-model-0.2.0.tar.gz --markdown 20240401/m/milvus-model/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 17:22:00] INFO root fetch - processPackages [cyipopt]: executing diffoscope
+[2024-04-01 17:22:00] INFO root fetch - processPackages [cyipopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyipopt-1.3.0.tar.gz tmp/cyipopt-1.4.0.tar.gz --markdown 20240401/c/cyipopt/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 17:22:00] INFO root fetch - processPackages [clearml]: Downloading https://files.pythonhosted.org/packages/ce/e8/0c335873c6ef72310890be41a2b4b804f0390e3b0c1a507bcbc4300d4229/clearml-1.9.3-py2.py3-none-any.whl
+[2024-04-01 17:22:00] INFO root fetch - processPackages [clearml]: executing diffoscope
+[2024-04-01 17:22:00] INFO root fetch - processPackages [clearml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip tmp/clearml-1.9.3-py2.py3-none-any.whl.zip --markdown 20240401/c/clearml/1.9.2rc2-1.9.3/diff.md --exclude *.pyd
+[2024-04-01 17:22:00] INFO root fetch - processPackages [milvus-model]: Remove: archive file [/home/abi/fetcher/tmp/milvus-model-0.1.0.tar.gz]
+[2024-04-01 17:22:00] INFO root fetch - processPackages [milvus-model]: Remove: archive file [/home/abi/fetcher/tmp/milvus-model-0.2.0.tar.gz]
+[2024-04-01 17:22:00] INFO root fetch - main [MainThread]: End processing [milvus-model]: success
+[2024-04-01 17:22:00] INFO root fetch - processPackages [cyipopt]: Remove: archive file [/home/abi/fetcher/tmp/cyipopt-1.3.0.tar.gz]
+[2024-04-01 17:22:00] INFO root fetch - processPackages [cyipopt]: Remove: archive file [/home/abi/fetcher/tmp/cyipopt-1.4.0.tar.gz]
+[2024-04-01 17:22:00] INFO root fetch - main [MainThread]: End processing [cyipopt]: success
+[2024-04-01 17:22:02] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.2rc2-py2.py3-none-any.whl.zip]
+[2024-04-01 17:22:02] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
+[2024-04-01 17:22:02] INFO root fetch - main [MainThread]: End processing [clearml]: success
+[2024-04-01 17:22:02] INFO root fetch - main [MainThread]: Store serial: [22571108]
