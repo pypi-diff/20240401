@@ -14394,3 +14394,24 @@ EOFError: EOF read where object expected
 [2024-04-01 21:59:37] INFO root fetch - processPackages [zeroconf]: Remove: archive file [/home/abi/fetcher/tmp/zeroconf-0.99.0.tar.gz]
 [2024-04-01 21:59:37] INFO root fetch - main [MainThread]: End processing [zeroconf]: success
 [2024-04-01 21:59:37] INFO root fetch - main [MainThread]: Store serial: [22574408]
+[2024-04-01 22:01:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574408]
+[2024-04-01 22:01:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 22:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: teams-ai
+[2024-04-01 22:01:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: habapp-rules
+[2024-04-01 22:01:48] INFO root fetch - processPackages [habapp-rules]: New version: [5.6.0] Old Version: [5.5.1]
+[2024-04-01 22:01:48] INFO root fetch - processPackages [teams-ai]: New version: [1.0.1] Old Version: [1.0.0rc3]
+[2024-04-01 22:01:48] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/8d/ac/b0755c4be708606fc72e6c9fe30fc8b5207695b2b4e1722dacd1b9c9f261/habapp_rules-5.5.1.tar.gz
+[2024-04-01 22:01:48] INFO root fetch - processPackages [teams-ai]: Downloading https://files.pythonhosted.org/packages/80/05/79d817a8a01c31e2a7d1e1296d0557eaab2c8156ec0068709f480949a3d1/teams_ai-1.0.0rc3.tar.gz
+[2024-04-01 22:01:48] INFO root fetch - processPackages [habapp-rules]: Downloading https://files.pythonhosted.org/packages/5d/ae/d7ed3ed9326e1d6041ab98d261ff8cf7e2ddcc022ae2013eaddc48719612/habapp_rules-5.6.0.tar.gz
+[2024-04-01 22:01:49] INFO root fetch - processPackages [habapp-rules]: executing diffoscope
+[2024-04-01 22:01:49] INFO root fetch - processPackages [habapp-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/habapp_rules-5.5.1.tar.gz tmp/habapp_rules-5.6.0.tar.gz --markdown 20240401/h/habapp-rules/5.5.1-5.6.0/diff.md --exclude *.pyd
+[2024-04-01 22:01:49] INFO root fetch - processPackages [habapp-rules]: Remove: archive file [/home/abi/fetcher/tmp/habapp_rules-5.5.1.tar.gz]
+[2024-04-01 22:01:49] INFO root fetch - processPackages [habapp-rules]: Remove: archive file [/home/abi/fetcher/tmp/habapp_rules-5.6.0.tar.gz]
+[2024-04-01 22:01:49] INFO root fetch - main [MainThread]: End processing [habapp-rules]: success
+[2024-04-01 22:01:49] INFO root fetch - processPackages [teams-ai]: Downloading https://files.pythonhosted.org/packages/f8/09/6cd150b43789390d5e07344a5cb10baf7dd58741ca3de410681e21892c11/teams_ai-1.0.1.tar.gz
+[2024-04-01 22:01:49] INFO root fetch - processPackages [teams-ai]: executing diffoscope
+[2024-04-01 22:01:49] INFO root fetch - processPackages [teams-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teams_ai-1.0.0rc3.tar.gz tmp/teams_ai-1.0.1.tar.gz --markdown 20240401/t/teams-ai/1.0.0rc3-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 22:01:50] INFO root fetch - processPackages [teams-ai]: Remove: archive file [/home/abi/fetcher/tmp/teams_ai-1.0.0rc3.tar.gz]
+[2024-04-01 22:01:50] INFO root fetch - processPackages [teams-ai]: Remove: archive file [/home/abi/fetcher/tmp/teams_ai-1.0.1.tar.gz]
+[2024-04-01 22:01:50] INFO root fetch - main [MainThread]: End processing [teams-ai]: success
+[2024-04-01 22:01:50] INFO root fetch - main [MainThread]: Store serial: [22574417]
