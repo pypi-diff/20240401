@@ -3262,3 +3262,24 @@ EOFError: EOF read where object expected
 [2024-04-01 14:26:21] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240401.tar.gz]
 [2024-04-01 14:26:21] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
 [2024-04-01 14:26:21] INFO root fetch - main [MainThread]: Store serial: [22569145]
+[2024-04-01 14:28:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569145]
+[2024-04-01 14:28:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 14:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: textual
+[2024-04-01 14:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocat
+[2024-04-01 14:28:29] INFO root fetch - processPackages [rocat]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 14:28:29] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/6b/26/c9d383f792e934b38a40ddde3f3e96f0015c447daa10244f2e05c6bb4f9a/rocat-0.1.5.tar.gz
+[2024-04-01 14:28:29] INFO root fetch - processPackages [textual]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 14:28:30] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/5d/a2/f202de686d4d5697b5d9af269da5acb8a55cdc833cb1d0cbdd30301cddaa/rocat-0.1.6.tar.gz
+[2024-04-01 14:28:30] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/17/d2/002affba91d339187f5699c26fecc3fa3bf966f17c5d08bb696c724b63ee/textual-0.9.0.tar.gz
+[2024-04-01 14:28:30] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-01 14:28:30] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.5.tar.gz tmp/rocat-0.1.6.tar.gz --markdown 20240401/r/rocat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 14:28:30] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.5.tar.gz]
+[2024-04-01 14:28:30] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.6.tar.gz]
+[2024-04-01 14:28:30] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-01 14:28:30] INFO root fetch - processPackages [textual]: Downloading https://files.pythonhosted.org/packages/0e/7d/2155bf024c3bdf1dc6365e109a16bab46098e032e62666565176ebc9f84a/textual-0.9.1.tar.gz
+[2024-04-01 14:28:31] INFO root fetch - processPackages [textual]: executing diffoscope
+[2024-04-01 14:28:31] INFO root fetch - processPackages [textual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textual-0.9.0.tar.gz tmp/textual-0.9.1.tar.gz --markdown 20240401/t/textual/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 14:28:32] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.0.tar.gz]
+[2024-04-01 14:28:32] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
+[2024-04-01 14:28:32] INFO root fetch - main [MainThread]: End processing [textual]: success
+[2024-04-01 14:28:32] INFO root fetch - main [MainThread]: Store serial: [22569151]
