@@ -3004,3 +3004,15 @@ EOFError: EOF read where object expected
 [2024-04-01 14:10:47] INFO root fetch - processPackages [autovenv]: Remove: archive file [/home/abi/fetcher/tmp/autovenv-0.3.1671337561.tar.gz]
 [2024-04-01 14:10:47] INFO root fetch - main [MainThread]: End processing [autovenv]: success
 [2024-04-01 14:10:47] INFO root fetch - main [MainThread]: Store serial: [22568977]
+[2024-04-01 14:12:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568977]
+[2024-04-01 14:12:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 14:12:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s
+[2024-04-01 14:12:57] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-01 14:12:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-01 14:12:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-01 14:12:58] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-01 14:12:58] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240401/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-01 14:12:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-01 14:12:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-01 14:12:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-01 14:12:59] INFO root fetch - main [MainThread]: Store serial: [22568981]
