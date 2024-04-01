@@ -12615,3 +12615,42 @@ EOFError: EOF read where object expected
 [2024-04-01 20:42:18] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b9.tar.gz]
 [2024-04-01 20:42:18] INFO root fetch - main [MainThread]: End processing [mbari-pbp]: success
 [2024-04-01 20:42:18] INFO root fetch - main [MainThread]: Store serial: [22573641]
+[2024-04-01 20:44:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573641]
+[2024-04-01 20:44:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 20:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cleosim
+[2024-04-01 20:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leetpy
+[2024-04-01 20:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3gpp
+[2024-04-01 20:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Energy4TreeClassification
+[2024-04-01 20:44:27] INFO root fetch - processPackages [leetpy]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-01 20:44:27] INFO root fetch - processPackages [py3gpp]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-01 20:44:27] INFO root fetch - processPackages [cleosim]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 20:44:27] INFO root fetch - processPackages [Energy4TreeClassification]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 20:44:27] INFO root fetch - processPackages [py3gpp]: Downloading https://files.pythonhosted.org/packages/6c/4f/6f7c58c44bc747a581c50d352f1c2553ed06a1badb02ef14826e117d2c40/py3gpp-0.4.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [leetpy]: Downloading https://files.pythonhosted.org/packages/d4/6d/369e50d8239f166a31dce9446a6125f273333b31bcb8cb01e7f731ac73be/leetpy-0.2.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [cleosim]: Downloading https://files.pythonhosted.org/packages/c7/41/150dca79438cb7375ca42d76f1ea6224876f39bad929f89c8027885015ce/cleosim-0.8.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [Energy4TreeClassification]: Downloading https://files.pythonhosted.org/packages/ea/fb/6c6fd382daea8bdc3752e73b31f4e58663aab6a5c08d16d1f3bbd75fbd2e/Energy4treeClassification-0.1.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [leetpy]: Downloading https://files.pythonhosted.org/packages/ce/ed/61119299fbfb7d3057ecd9fcddf0b83088d8c334173593da00b5d3006df6/leetpy-0.2.1.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [cleosim]: Downloading https://files.pythonhosted.org/packages/35/72/d1681e3b6ec2ee0347eb538a3f4ac50d915580c89a2e1790bad47cf5863d/cleosim-0.9.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [py3gpp]: Downloading https://files.pythonhosted.org/packages/f6/2c/21828fed8473a8caea160b532e43553f208f86394664cbede685f18f86fb/py3gpp-0.5.0.tar.gz
+[2024-04-01 20:44:27] INFO root fetch - processPackages [Energy4TreeClassification]: Downloading https://files.pythonhosted.org/packages/8e/69/803f6969ed05fb3b3cf97570ffeabdd78b8b654fe73024c2a0d671589a85/Energy4TreeClassification-0.1.1-py3-none-any.whl
+[2024-04-01 20:44:27] INFO root fetch - processPackages [leetpy]: executing diffoscope
+[2024-04-01 20:44:27] INFO root fetch - processPackages [leetpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leetpy-0.2.0.tar.gz tmp/leetpy-0.2.1.tar.gz --markdown 20240401/l/leetpy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 20:44:27] INFO root fetch - processPackages [cleosim]: executing diffoscope
+[2024-04-01 20:44:27] INFO root fetch - processPackages [cleosim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleosim-0.8.0.tar.gz tmp/cleosim-0.9.0.tar.gz --markdown 20240401/c/cleosim/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:44:27] INFO root fetch - processPackages [py3gpp]: executing diffoscope
+[2024-04-01 20:44:27] INFO root fetch - processPackages [py3gpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3gpp-0.4.0.tar.gz tmp/py3gpp-0.5.0.tar.gz --markdown 20240401/p/py3gpp/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 20:44:28] INFO root fetch - processPackages [Energy4TreeClassification]: executing diffoscope
+[2024-04-01 20:44:28] INFO root fetch - processPackages [Energy4TreeClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Energy4treeClassification-0.1.0.tar.gz tmp/Energy4TreeClassification-0.1.1-py3-none-any.whl.zip --markdown 20240401/E/Energy4TreeClassification/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 20:44:28] INFO root fetch - processPackages [leetpy]: Remove: archive file [/home/abi/fetcher/tmp/leetpy-0.2.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - processPackages [leetpy]: Remove: archive file [/home/abi/fetcher/tmp/leetpy-0.2.1.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - main [MainThread]: End processing [leetpy]: success
+[2024-04-01 20:44:28] INFO root fetch - processPackages [Energy4TreeClassification]: Remove: archive file [/home/abi/fetcher/tmp/Energy4treeClassification-0.1.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - processPackages [Energy4TreeClassification]: Remove: archive file [/home/abi/fetcher/tmp/Energy4TreeClassification-0.1.1-py3-none-any.whl.zip]
+[2024-04-01 20:44:28] INFO root fetch - main [MainThread]: End processing [Energy4TreeClassification]: success
+[2024-04-01 20:44:28] INFO root fetch - processPackages [cleosim]: Remove: archive file [/home/abi/fetcher/tmp/cleosim-0.8.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - processPackages [cleosim]: Remove: archive file [/home/abi/fetcher/tmp/cleosim-0.9.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - main [MainThread]: End processing [cleosim]: success
+[2024-04-01 20:44:28] INFO root fetch - processPackages [py3gpp]: Remove: archive file [/home/abi/fetcher/tmp/py3gpp-0.4.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - processPackages [py3gpp]: Remove: archive file [/home/abi/fetcher/tmp/py3gpp-0.5.0.tar.gz]
+[2024-04-01 20:44:28] INFO root fetch - main [MainThread]: End processing [py3gpp]: success
+[2024-04-01 20:44:28] INFO root fetch - main [MainThread]: Store serial: [22573652]
