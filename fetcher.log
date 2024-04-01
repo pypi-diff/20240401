@@ -9224,3 +9224,74 @@ EOFError: EOF read where object expected
 [2024-04-01 18:24:54] INFO root fetch - processPackages [melobot]: Remove: archive file [/home/abi/fetcher/tmp/melobot-2.5.9.tar.gz]
 [2024-04-01 18:24:54] INFO root fetch - main [MainThread]: End processing [melobot]: success
 [2024-04-01 18:24:54] INFO root fetch - main [MainThread]: Store serial: [22571982]
+[2024-04-01 18:26:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571982]
+[2024-04-01 18:27:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truefoundry
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbapp
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-django-azure
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcfinancial
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dcicsnovault
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Simba-UW-tf-dev
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: better-bing-image-downloader
+[2024-04-01 18:27:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dynalock
+[2024-04-01 18:27:04] INFO root fetch - processPackages [pulumi-django-azure]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [dynalock]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [dcicsnovault]: New version: [9.9.9.0b0] Old Version: [9.1.1]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/c8/2d/5a199e5ea523566ac590f3b08cfe06fd88e1b64e04495fa03726377e08a7/pulumi-django-azure-1.0.6.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.89.1] Old Version: [1.88.9]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [better-bing-image-downloader]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [sbapp]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [truefoundry]: New version: [0.1.0] Old Version: [0.0.1.dev0]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [qcfinancial]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-01 18:27:04] INFO root fetch - processPackages [dynalock]: Downloading https://files.pythonhosted.org/packages/ee/3d/34be5dd63aacaff949647c93e0233789ae6b7501d4832c0b43bd2c59fbb0/dynalock-0.1.0.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/d9/56/60bf7990e8d3aa29414af29d0d3ac120091b7e42b64e880cc77388d6e641/dcicsnovault-9.1.1.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [qcfinancial]: Downloading https://files.pythonhosted.org/packages/21/66/e95627db731645d3924ff80dce9c7ac2c5c3530d25971669dea033f2448f/qcfinancial-0.8.0-cp39-cp39-macosx_14_0_arm64.whl
+[2024-04-01 18:27:04] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/b6/7c/7ee0e7c1eb9897d8816444944cdfc5606991aad5c49c95afaabc70b6ebf9/truefoundry-0.0.1.dev0.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [better-bing-image-downloader]: Downloading https://files.pythonhosted.org/packages/78/62/17dcfdcb2e8d9905a57e92676af7e1e03d416485346b1c003c255722b5a1/better_bing_image_downloader-1.1.0.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/56/00/ac8366cd77cdcff212fd605bc95d816a98a0c22b7710657c72f4532d87b9/Simba-UW-tf-dev-1.88.9.tar.gz
+[2024-04-01 18:27:04] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/7b/b6/eba327a28bfc4dfb9a10fa8f6686aafd5c16b44f6ec48d950e820e284131/pulumi-django-azure-1.0.7.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [sbapp]: Downloading https://files.pythonhosted.org/packages/03/60/f295219d02d29e0764a10bb255655ceac2f8b265ce62f7c25b8dc1fd49fe/sbapp-0.8.2.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dynalock]: Downloading https://files.pythonhosted.org/packages/a3/67/1658500574f0123904c080a8776429b052a7534be48771cb8f16375fb24c/dynalock-0.2.0.tar.gz
+[2024-04-01 18:27:05] WARNING root fetch - processPackages [sbapp]: Skipping package: exceeds size limit 34740352>=10485760
+[2024-04-01 18:27:05] INFO root fetch - main [MainThread]: End processing [sbapp] error
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/5b/69/2d661efc29e872887f547a770c16dcae8bd7f059e2d578d1a0eb526564f9/dcicsnovault-9.9.9.0b0.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [pulumi-django-azure]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [pulumi-django-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-django-azure-1.0.6.tar.gz tmp/pulumi-django-azure-1.0.7.tar.gz --markdown 20240401/p/pulumi-django-azure/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dynalock]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dynalock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynalock-0.1.0.tar.gz tmp/dynalock-0.2.0.tar.gz --markdown 20240401/d/dynalock/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [qcfinancial]: Downloading https://files.pythonhosted.org/packages/90/9d/f1639f914c253491a0b72dd0eb197aa535c9c3dcb8c5e4bf2ac1a5a44a60/qcfinancial-0.8.1-cp39-cp39-macosx_14_0_arm64.whl
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-9.1.1.tar.gz tmp/dcicsnovault-9.9.9.0b0.tar.gz --markdown 20240401/d/dcicsnovault/9.1.1-9.9.9.0b0/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [truefoundry]: Downloading https://files.pythonhosted.org/packages/48/e7/1d86cfa6d82a3478a113aac3007c53934b1633dd58b6d94c166382807c6c/truefoundry-0.1.0.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [better-bing-image-downloader]: Downloading https://files.pythonhosted.org/packages/70/c6/6826e735b5d42918ac8c2fadb07067f9f0ea44216056f6b0b6842ca30e8b/better_bing_image_downloader-1.1.1.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [truefoundry]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [truefoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truefoundry-0.0.1.dev0.tar.gz tmp/truefoundry-0.1.0.tar.gz --markdown 20240401/t/truefoundry/0.0.1.dev0-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [better-bing-image-downloader]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [better-bing-image-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_bing_image_downloader-1.1.0.tar.gz tmp/better_bing_image_downloader-1.1.1.tar.gz --markdown 20240401/b/better-bing-image-downloader/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [qcfinancial]: executing diffoscope
+[2024-04-01 18:27:05] INFO root fetch - processPackages [qcfinancial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcfinancial-0.8.0-cp39-cp39-macosx_14_0_arm64.whl.zip tmp/qcfinancial-0.8.1-cp39-cp39-macosx_14_0_arm64.whl.zip --markdown 20240401/q/qcfinancial/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-01 18:27:05] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/aa/c1/3790c0f3f0e8d9d1023f828bcbf38dc9927a2a7fc7be08f447381fe69e74/Simba-UW-tf-dev-1.89.1.tar.gz
+[2024-04-01 18:27:05] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.6.tar.gz]
+[2024-04-01 18:27:05] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.7.tar.gz]
+[2024-04-01 18:27:05] INFO root fetch - main [MainThread]: End processing [pulumi-django-azure]: success
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dynalock]: Remove: archive file [/home/abi/fetcher/tmp/dynalock-0.1.0.tar.gz]
+[2024-04-01 18:27:05] INFO root fetch - processPackages [dynalock]: Remove: archive file [/home/abi/fetcher/tmp/dynalock-0.2.0.tar.gz]
+[2024-04-01 18:27:05] INFO root fetch - main [MainThread]: End processing [dynalock]: success
+[2024-04-01 18:27:06] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-01 18:27:06] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.88.9.tar.gz tmp/Simba-UW-tf-dev-1.89.1.tar.gz --markdown 20240401/S/Simba-UW-tf-dev/1.88.9-1.89.1/diff.md --exclude *.pyd
+[2024-04-01 18:27:06] INFO root fetch - processPackages [better-bing-image-downloader]: Remove: archive file [/home/abi/fetcher/tmp/better_bing_image_downloader-1.1.0.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - processPackages [better-bing-image-downloader]: Remove: archive file [/home/abi/fetcher/tmp/better_bing_image_downloader-1.1.1.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - main [MainThread]: End processing [better-bing-image-downloader]: success
+[2024-04-01 18:27:06] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.0.1.dev0.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - processPackages [truefoundry]: Remove: archive file [/home/abi/fetcher/tmp/truefoundry-0.1.0.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - main [MainThread]: End processing [truefoundry]: success
+[2024-04-01 18:27:06] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.1.1.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
+[2024-04-01 18:27:06] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2024-04-01 18:27:07] INFO root fetch - processPackages [qcfinancial]: Remove: archive file [/home/abi/fetcher/tmp/qcfinancial-0.8.0-cp39-cp39-macosx_14_0_arm64.whl.zip]
+[2024-04-01 18:27:07] INFO root fetch - processPackages [qcfinancial]: Remove: archive file [/home/abi/fetcher/tmp/qcfinancial-0.8.1-cp39-cp39-macosx_14_0_arm64.whl.zip]
+[2024-04-01 18:27:07] INFO root fetch - main [MainThread]: End processing [qcfinancial]: success
+[2024-04-01 18:27:09] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.88.9.tar.gz]
+[2024-04-01 18:27:09] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.1.tar.gz]
+[2024-04-01 18:27:09] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-01 18:27:09] INFO root fetch - main [MainThread]: Store serial: [22572010]
