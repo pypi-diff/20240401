@@ -18788,3 +18788,54 @@ EOFError: EOF read where object expected
 [2024-04-01 23:41:52] INFO root fetch - processPackages [ubo-app]: Remove: archive file [/home/abi/fetcher/tmp/ubo_app-0.9.9.tar.gz]
 [2024-04-01 23:41:52] INFO root fetch - main [MainThread]: End processing [ubo-app]: success
 [2024-04-01 23:41:52] INFO root fetch - main [MainThread]: Store serial: [22576188]
+[2024-04-01 23:43:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576188]
+[2024-04-01 23:44:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: talklib
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cycls
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsclassification
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bits-github
+[2024-04-01 23:44:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: commit-tracker
+[2024-04-01 23:44:02] INFO root fetch - processPackages [bits-github]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-01 23:44:02] INFO root fetch - processPackages [commit-tracker]: New version: [2.4] Old Version: [2.3]
+[2024-04-01 23:44:02] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/38/d5/8909d994109663b6184e128134a8ee7cea215342a83a13a629ee7b10d8bf/bits_github-1.4.0.tar.gz
+[2024-04-01 23:44:02] WARNING root fetch - processPackages [deadline]: Skipping, unable to determine old version
+[2024-04-01 23:44:02] INFO root fetch - processPackages [talklib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 23:44:02] INFO root fetch - main [MainThread]: End processing [deadline] error
+[2024-04-01 23:44:02] INFO root fetch - processPackages [tsclassification]: New version: [1.1.1] Old Version: [1.0.1]
+[2024-04-01 23:44:02] INFO root fetch - processPackages [cycls]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2024-04-01 23:44:03] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/25/26/803e57e0c551bbc53f5c6df4f04701b65545a2aced199b229566b95578ab/commit-tracker-2.3.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [tsclassification]: Downloading https://files.pythonhosted.org/packages/1f/e0/3618cd589e3d4198c5567b26a85c4cf46e3132516a0a9e4a75e78411e8ad/tsclassification-1.0.1.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [talklib]: Downloading https://files.pythonhosted.org/packages/b2/71/ed58eb4b3966419f4ec7aff47d90cb1f93bf0135762a83072b0cdca0074a/talklib-1.0.8.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/28/19/a832a6fe4733f96b4bd79e1ec1dd4f697832852010430ab98e2a758a6e36/cycls-0.0.1.2.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/37/c3/b1a98859024932b2d09795aca856da00a743954ee6cb6f69623e154b222c/bits_github-1.4.1.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/55/19/3a0bc702e94c71db4ecfb61bbcaf52a2a635193643194be913a73baae416/commit-tracker-2.4.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [bits-github]: executing diffoscope
+[2024-04-01 23:44:03] INFO root fetch - processPackages [bits-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bits_github-1.4.0.tar.gz tmp/bits_github-1.4.1.tar.gz --markdown 20240401/b/bits-github/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-01 23:44:03] INFO root fetch - processPackages [commit-tracker]: executing diffoscope
+[2024-04-01 23:44:03] INFO root fetch - processPackages [commit-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commit-tracker-2.3.tar.gz tmp/commit-tracker-2.4.tar.gz --markdown 20240401/c/commit-tracker/2.3-2.4/diff.md --exclude *.pyd
+[2024-04-01 23:44:03] INFO root fetch - processPackages [tsclassification]: Downloading https://files.pythonhosted.org/packages/ce/a7/1f95676f61fcdbd919cb3d97904312a90c43b9d06d34ed868b8db43c14a5/tsclassification-1.1.1.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [cycls]: Downloading https://files.pythonhosted.org/packages/38/8a/eb1036740267e0355303a547b65f25ed85bedcbe1f5890e94d2e60e34785/cycls-0.0.1.3.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [tsclassification]: executing diffoscope
+[2024-04-01 23:44:03] INFO root fetch - processPackages [tsclassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsclassification-1.0.1.tar.gz tmp/tsclassification-1.1.1.tar.gz --markdown 20240401/t/tsclassification/1.0.1-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 23:44:03] INFO root fetch - processPackages [talklib]: Downloading https://files.pythonhosted.org/packages/54/24/6d01c59abf154035086fc77160449ad6961d993da4650fb6b64190faebe7/talklib-1.0.9.tar.gz
+[2024-04-01 23:44:03] INFO root fetch - processPackages [cycls]: executing diffoscope
+[2024-04-01 23:44:03] INFO root fetch - processPackages [cycls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cycls-0.0.1.2.tar.gz tmp/cycls-0.0.1.3.tar.gz --markdown 20240401/c/cycls/0.0.1.2-0.0.1.3/diff.md --exclude *.pyd
+[2024-04-01 23:44:03] INFO root fetch - processPackages [talklib]: executing diffoscope
+[2024-04-01 23:44:03] INFO root fetch - processPackages [talklib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talklib-1.0.8.tar.gz tmp/talklib-1.0.9.tar.gz --markdown 20240401/t/talklib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 23:44:04] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.3.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.4.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [commit-tracker]: success
+[2024-04-01 23:44:04] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits_github-1.4.0.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits_github-1.4.1.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [bits-github]: success
+[2024-04-01 23:44:04] INFO root fetch - processPackages [tsclassification]: Remove: archive file [/home/abi/fetcher/tmp/tsclassification-1.0.1.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - processPackages [tsclassification]: Remove: archive file [/home/abi/fetcher/tmp/tsclassification-1.1.1.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [tsclassification]: success
+[2024-04-01 23:44:04] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.1.2.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - processPackages [cycls]: Remove: archive file [/home/abi/fetcher/tmp/cycls-0.0.1.3.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [cycls]: success
+[2024-04-01 23:44:04] INFO root fetch - processPackages [talklib]: Remove: archive file [/home/abi/fetcher/tmp/talklib-1.0.8.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - processPackages [talklib]: Remove: archive file [/home/abi/fetcher/tmp/talklib-1.0.9.tar.gz]
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [talklib]: success
+[2024-04-01 23:44:04] INFO root fetch - main [MainThread]: Store serial: [22576204]
