@@ -10940,3 +10940,24 @@ EOFError: EOF read where object expected
 [2024-04-01 19:33:04] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.5.2.tar.gz]
 [2024-04-01 19:33:04] INFO root fetch - main [MainThread]: End processing [sageworks]: success
 [2024-04-01 19:33:04] INFO root fetch - main [MainThread]: Store serial: [22572799]
+[2024-04-01 19:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572799]
+[2024-04-01 19:35:15] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 19:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gawseed-tcorex
+[2024-04-01 19:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: answerrocket-client
+[2024-04-01 19:35:15] INFO root fetch - processPackages [gawseed-tcorex]: New version: [1.1.1] Old Version: [1.1]
+[2024-04-01 19:35:15] INFO root fetch - processPackages [answerrocket-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 19:35:15] INFO root fetch - processPackages [gawseed-tcorex]: Downloading https://files.pythonhosted.org/packages/e3/86/e452309dd11cc964c713a917c423cddddf9ea33741c434d0fd0a692a7954/gawseed-tcorex-1.1.tar.gz
+[2024-04-01 19:35:15] INFO root fetch - processPackages [answerrocket-client]: Downloading https://files.pythonhosted.org/packages/66/42/aa7451d275bf70566ffa96ac152ff61c2f271a8ffe6ed45dc259738222d6/answerrocket-client-0.1.8.tar.gz
+[2024-04-01 19:35:15] INFO root fetch - processPackages [gawseed-tcorex]: Downloading https://files.pythonhosted.org/packages/d5/56/d5eb603632b7d9fec90355dd65aec6bf40d60cf24594a3ed463967ff1053/gawseed_tcorex-1.1.1.tar.gz
+[2024-04-01 19:35:15] INFO root fetch - processPackages [answerrocket-client]: Downloading https://files.pythonhosted.org/packages/d1/58/51357f224f132781a01be69b0fa87c6009936e22ff0d559a7c8dc7d4182f/answerrocket-client-0.1.9.tar.gz
+[2024-04-01 19:35:15] INFO root fetch - processPackages [gawseed-tcorex]: executing diffoscope
+[2024-04-01 19:35:15] INFO root fetch - processPackages [gawseed-tcorex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gawseed-tcorex-1.1.tar.gz tmp/gawseed_tcorex-1.1.1.tar.gz --markdown 20240401/g/gawseed-tcorex/1.1-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 19:35:16] INFO root fetch - processPackages [answerrocket-client]: executing diffoscope
+[2024-04-01 19:35:16] INFO root fetch - processPackages [answerrocket-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/answerrocket-client-0.1.8.tar.gz tmp/answerrocket-client-0.1.9.tar.gz --markdown 20240401/a/answerrocket-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 19:35:16] INFO root fetch - processPackages [gawseed-tcorex]: Remove: archive file [/home/abi/fetcher/tmp/gawseed-tcorex-1.1.tar.gz]
+[2024-04-01 19:35:16] INFO root fetch - processPackages [gawseed-tcorex]: Remove: archive file [/home/abi/fetcher/tmp/gawseed_tcorex-1.1.1.tar.gz]
+[2024-04-01 19:35:16] INFO root fetch - main [MainThread]: End processing [gawseed-tcorex]: success
+[2024-04-01 19:35:17] INFO root fetch - processPackages [answerrocket-client]: Remove: archive file [/home/abi/fetcher/tmp/answerrocket-client-0.1.8.tar.gz]
+[2024-04-01 19:35:17] INFO root fetch - processPackages [answerrocket-client]: Remove: archive file [/home/abi/fetcher/tmp/answerrocket-client-0.1.9.tar.gz]
+[2024-04-01 19:35:17] INFO root fetch - main [MainThread]: End processing [answerrocket-client]: success
+[2024-04-01 19:35:17] INFO root fetch - main [MainThread]: Store serial: [22572807]
