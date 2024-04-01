@@ -18090,3 +18090,105 @@ EOFError: EOF read where object expected
 [2024-04-01 23:24:12] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev6.tar.gz]
 [2024-04-01 23:24:12] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-01 23:24:12] INFO root fetch - main [MainThread]: Store serial: [22575928]
+[2024-04-01 23:26:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575928]
+[2024-04-01 23:26:21] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlimputer
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-tcex
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tchd
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tci
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tcm
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-return-youtube-dislike
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vanna
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-tcr
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: create-mountaineer-app
+[2024-04-01 23:26:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aioetherscan
+[2024-04-01 23:26:21] INFO root fetch - processPackages [mlimputer]: New version: [1.0.6] Old Version: [1.0.56]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [create-mountaineer-app]: New version: [0.3.2.dev1] Old Version: [0.3.1]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [python-return-youtube-dislike]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [aioetherscan]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [vanna]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/5d/cd/66e0da66342bc6a4b71268a619e1c23bee4fc3ef2d16b0ecfea7a65f8494/mlimputer-1.0.56-py3-none-any.whl
+[2024-04-01 23:26:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:21] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:22] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/7d/13/ece03c8cb7805e79176d34329ae1896157c58b4513931b1f1a5a318643a2/create_mountaineer_app-0.3.1.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/f2/8e/844b6f3b2b67f543b044bd16e15cb1b39134dc439d880c2cfefa246ad834/vanna-0.3.1.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [python-return-youtube-dislike]: Downloading https://files.pythonhosted.org/packages/04/9b/dbc9402442bc388a23b1638ecff9a933804db89b6554a5af22823a9f5c2b/python-return-youtube-dislike-1.1.4.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [aioetherscan]: Downloading https://files.pythonhosted.org/packages/8f/68/d52501c7861a5550dff9bbc893d3b4d7ebc9bbe67d6ba857928ba00a9647/aioetherscan-0.8.8.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/27/a7/c326c453e0c7d0a625b76b160e70327916f52648d1e12ddf5362a05fc032/tencentcloud-sdk-python-tcex-3.0.998.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/e7/dd/470496a8bc3644c6dc51ea7ae9f5294a97e04aa55d7cb6c13f9cdfbae504/tencentcloud-sdk-python-tchd-3.0.998.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/8d/52/70391cc4668deedb94c0918102bc5cc1a65097ea2f9a483069541c2924de/tencentcloud-sdk-python-tcm-3.0.998.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/88/13/447244fea2ac59fb002143ab7a6872a40fe023ef19c53b914c1007d5f801/tencentcloud-sdk-python-tci-3.0.998.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Downloading https://files.pythonhosted.org/packages/e6/26/d34766cbd533ba32a2d9b29dfd6036bc3b803c5b0d16a979dae3d5829194/tencentcloud-sdk-python-tcr-3.0.998.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [mlimputer]: Downloading https://files.pythonhosted.org/packages/20/f7/cf3cf2391a2d3f55d31a62dbb9c876ad0a9e05c5cc57f8426ab7b071aade/mlimputer-1.0.6-py3-none-any.whl
+[2024-04-01 23:26:22] INFO root fetch - processPackages [mlimputer]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [mlimputer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlimputer-1.0.56-py3-none-any.whl.zip tmp/mlimputer-1.0.6-py3-none-any.whl.zip --markdown 20240401/m/mlimputer/1.0.56-1.0.6/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [create-mountaineer-app]: Downloading https://files.pythonhosted.org/packages/be/40/88385a60339ec279e870858158d89281e6b81f1c29de81393e293902d497/create_mountaineer_app-0.3.2.dev1.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [vanna]: Downloading https://files.pythonhosted.org/packages/98/93/a9ad4c7aaf3205f824b31a1b704dff19ea768720439488e9aa6f8ef0eb00/vanna-0.3.2.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [python-return-youtube-dislike]: Downloading https://files.pythonhosted.org/packages/e3/70/a04e03354c3ddf558f9f1a7456c29ded0d89d04982ff347bfa5e326256a3/python-return-youtube-dislike-1.1.5.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [aioetherscan]: Downloading https://files.pythonhosted.org/packages/e7/48/c58e05f6aa67749d86b6aa87b436841ff45729fc5a707c64314e8b43bcd3/aioetherscan-0.8.9.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Downloading https://files.pythonhosted.org/packages/ff/0d/a4657aff6a79429f541d57dd11f9f8250141378d3343253bf2a9e2191f28/tencentcloud-sdk-python-tchd-3.0.999.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Downloading https://files.pythonhosted.org/packages/06/f0/bef7ea7199fb40b71edbd9e4bc7e430fba283576e0933a65bd66d32faa68/tencentcloud-sdk-python-tcex-3.0.999.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [create-mountaineer-app]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [create-mountaineer-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/create_mountaineer_app-0.3.1.tar.gz tmp/create_mountaineer_app-0.3.2.dev1.tar.gz --markdown 20240401/c/create-mountaineer-app/0.3.1-0.3.2.dev1/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Downloading https://files.pythonhosted.org/packages/5f/e1/bab98f22337a6e71c07f6c1fc578c7161f0c0497a7a6080530c6a07063d1/tencentcloud-sdk-python-tci-3.0.999.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [vanna]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [vanna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vanna-0.3.1.tar.gz tmp/vanna-0.3.2.tar.gz --markdown 20240401/v/vanna/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Downloading https://files.pythonhosted.org/packages/63/de/358bc0bd0248fb895e339e5e7171c59ae26b981250c8a83895d3223b87bf/tencentcloud-sdk-python-tcr-3.0.999.tar.gz
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tchd/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tcex/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [python-return-youtube-dislike]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [python-return-youtube-dislike]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-return-youtube-dislike-1.1.4.tar.gz tmp/python-return-youtube-dislike-1.1.5.tar.gz --markdown 20240401/p/python-return-youtube-dislike/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-01 23:26:22] INFO root fetch - processPackages [aioetherscan]: executing diffoscope
+[2024-04-01 23:26:22] INFO root fetch - processPackages [aioetherscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioetherscan-0.8.8.tar.gz tmp/aioetherscan-0.8.9.tar.gz --markdown 20240401/a/aioetherscan/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-01 23:26:23] INFO root fetch - processPackages [mlimputer]: Remove: archive file [/home/abi/fetcher/tmp/mlimputer-1.0.56-py3-none-any.whl.zip]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [mlimputer]: Remove: archive file [/home/abi/fetcher/tmp/mlimputer-1.0.6-py3-none-any.whl.zip]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [mlimputer]: Start processing: tencentcloud-sdk-python-tcss
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [mlimputer]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Downloading https://files.pythonhosted.org/packages/05/c7/192fe849c684ed9a0a19adca60e74f8f2b34294b51741cc8d69d1066d686/tencentcloud-sdk-python-tcm-3.0.999.tar.gz
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: executing diffoscope
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcr-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcr-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tcr/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: executing diffoscope
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tcm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: executing diffoscope
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tci/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:23] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.3.1.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [create-mountaineer-app]: Remove: archive file [/home/abi/fetcher/tmp/create_mountaineer_app-0.3.2.dev1.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [create-mountaineer-app]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/4d/a3/6182b96f50dff842ec614b7b7057a2bb2f2fec574dcc9e8fc524a5719894/tencentcloud-sdk-python-tcss-3.0.998.tar.gz
+[2024-04-01 23:26:23] INFO root fetch - processPackages [python-return-youtube-dislike]: Remove: archive file [/home/abi/fetcher/tmp/python-return-youtube-dislike-1.1.4.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [python-return-youtube-dislike]: Remove: archive file [/home/abi/fetcher/tmp/python-return-youtube-dislike-1.1.5.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [python-return-youtube-dislike]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.998.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tchd]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tchd-3.0.999.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tchd]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [aioetherscan]: Remove: archive file [/home/abi/fetcher/tmp/aioetherscan-0.8.8.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [aioetherscan]: Remove: archive file [/home/abi/fetcher/tmp/aioetherscan-0.8.9.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [aioetherscan]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.998.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcex]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcex-3.0.999.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcex]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.3.1.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [vanna]: Remove: archive file [/home/abi/fetcher/tmp/vanna-0.3.2.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [vanna]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Downloading https://files.pythonhosted.org/packages/60/ec/d37b2deb37f58692022118f9652da4944dbaecedfb22d312ca480517c2e9/tencentcloud-sdk-python-tcss-3.0.999.tar.gz
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcr-3.0.998.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcr]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcr-3.0.999.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcr]: success
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.998.tar.gz]
+[2024-04-01 23:26:23] INFO root fetch - processPackages [tencentcloud-sdk-python-tcm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcm-3.0.999.tar.gz]
+[2024-04-01 23:26:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcm]: success
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.998.tar.gz]
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tci]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tci-3.0.999.tar.gz]
+[2024-04-01 23:26:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tci]: success
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: executing diffoscope
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tcss/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.998.tar.gz]
+[2024-04-01 23:26:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tcss]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tcss-3.0.999.tar.gz]
+[2024-04-01 23:26:24] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tcss]: success
+[2024-04-01 23:26:24] INFO root fetch - main [MainThread]: Store serial: [22575964]
