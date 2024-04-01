@@ -13452,3 +13452,69 @@ EOFError: EOF read where object expected
 [2024-04-01 21:20:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-01 21:20:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-01 21:20:55] INFO root fetch - main [MainThread]: Store serial: [22574021]
+[2024-04-01 21:23:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574021]
+[2024-04-01 21:23:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-api
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jf-ingest
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-sheets-sdk
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bioomics
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-rag-bot
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gammarer.aws-waf-ip-rate-limit-rule-group
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finance-mauritius
+[2024-04-01 21:23:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cff2toml
+[2024-04-01 21:23:06] WARNING root fetch - processPackages [cff2toml]: Skipping, unable to determine old version
+[2024-04-01 21:23:06] INFO root fetch - main [MainThread]: End processing [cff2toml] error
+[2024-04-01 21:23:06] INFO root fetch - processPackages [bioomics]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-01 21:23:06] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.0b1] Old Version: [2024.4.0b0]
+[2024-04-01 21:23:06] WARNING root fetch - processPackages [shipyard-api]: Skipping, unable to determine old version
+[2024-04-01 21:23:06] INFO root fetch - main [MainThread]: End processing [shipyard-api] error
+[2024-04-01 21:23:06] WARNING root fetch - processPackages [google-sheets-sdk]: Skipping, unable to determine old version
+[2024-04-01 21:23:06] INFO root fetch - main [MainThread]: End processing [google-sheets-sdk] error
+[2024-04-01 21:23:06] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/f1/0d/1390746e73b015c2dd5bd06c1c7cb4fbef10a2fbe3543ce286db32910da1/bioomics-0.1.7.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [jf-ingest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 21:23:06] INFO root fetch - processPackages [aws-rag-bot]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 21:23:06] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-01 21:23:06] INFO root fetch - processPackages [finance-mauritius]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 21:23:06] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/f6/91/4f915f94cc334ea3b6ef410812a07f68b5062ff1f7e6ce6e8bce2f697523/homeassistant_stubs-2024.4.0b0.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [jf-ingest]: Downloading https://files.pythonhosted.org/packages/ab/69/cdacc4d37658c3a874a18a4271b009abfd71573c47463e7ec97bb55d627a/jf-ingest-0.0.8.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/d0/69/1fb807ab0556c3290d7e4559989eae122f02d55012c500b024683c793888/bioomics-0.1.9.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: Downloading https://files.pythonhosted.org/packages/59/a9/9b51b94f2c2ae8ccb1824c510156e229861dbe4ef1060f652d984d722447/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.2.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [aws-rag-bot]: Downloading https://files.pythonhosted.org/packages/35/7d/a5919224fdea3e531438f68adcdb3a467af972e8d135e40b7e5f74ac2c20/aws_rag_bot-0.1.8.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [finance-mauritius]: Downloading https://files.pythonhosted.org/packages/4b/3b/843a48a72b20e91d1adce11c94dc882d29e71f3022beafb346bc81301cce/finance_mauritius-0.1.0.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [bioomics]: executing diffoscope
+[2024-04-01 21:23:06] INFO root fetch - processPackages [bioomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioomics-0.1.7.tar.gz tmp/bioomics-0.1.9.tar.gz --markdown 20240401/b/bioomics/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:23:06] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c5/32/be5be01c3b86806529d86a3838479e7365ff4ab55a2ed31ede7747b0d194/homeassistant_stubs-2024.4.0b1.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: Downloading https://files.pythonhosted.org/packages/7d/ef/d15a5e28fb61208dbd5eaa368d2cc327a3a881b0735344be3c801f960200/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.3.tar.gz
+[2024-04-01 21:23:06] INFO root fetch - processPackages [finance-mauritius]: Downloading https://files.pythonhosted.org/packages/f2/6b/f056b427f8915c04e7f1ccfe0b398271891f3c32e6716e3bccde13da3c48/finance_mauritius-0.1.1.tar.gz
+[2024-04-01 21:23:07] INFO root fetch - processPackages [aws-rag-bot]: Downloading https://files.pythonhosted.org/packages/e2/6d/311e8898aa50bafe977b15e86d431e81e9bf318646a03034c7a79c474986/aws_rag_bot-0.1.9.tar.gz
+[2024-04-01 21:23:07] INFO root fetch - processPackages [jf-ingest]: Downloading https://files.pythonhosted.org/packages/56/ad/eef9cdd010a54f9b398ad1967a06a7e480aa5f7faafef61a3a1bea2f40fe/jf-ingest-0.0.9.tar.gz
+[2024-04-01 21:23:07] INFO root fetch - processPackages [aws-rag-bot]: executing diffoscope
+[2024-04-01 21:23:07] INFO root fetch - processPackages [aws-rag-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_rag_bot-0.1.8.tar.gz tmp/aws_rag_bot-0.1.9.tar.gz --markdown 20240401/a/aws-rag-bot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:23:07] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-01 21:23:07] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.0b0.tar.gz tmp/homeassistant_stubs-2024.4.0b1.tar.gz --markdown 20240401/h/homeassistant-stubs/2024.4.0b0-2024.4.0b1/diff.md --exclude *.pyd
+[2024-04-01 21:23:07] INFO root fetch - processPackages [jf-ingest]: executing diffoscope
+[2024-04-01 21:23:07] INFO root fetch - processPackages [jf-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jf-ingest-0.0.8.tar.gz tmp/jf-ingest-0.0.9.tar.gz --markdown 20240401/j/jf-ingest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 21:23:07] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: executing diffoscope
+[2024-04-01 21:23:07] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.2.tar.gz tmp/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.3.tar.gz --markdown 20240401/g/gammarer.aws-waf-ip-rate-limit-rule-group/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-01 21:23:07] INFO root fetch - processPackages [finance-mauritius]: executing diffoscope
+[2024-04-01 21:23:07] INFO root fetch - processPackages [finance-mauritius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance_mauritius-0.1.0.tar.gz tmp/finance_mauritius-0.1.1.tar.gz --markdown 20240401/f/finance-mauritius/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 21:23:07] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.7.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.9.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - main [MainThread]: End processing [bioomics]: success
+[2024-04-01 21:23:07] INFO root fetch - processPackages [aws-rag-bot]: Remove: archive file [/home/abi/fetcher/tmp/aws_rag_bot-0.1.8.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - processPackages [aws-rag-bot]: Remove: archive file [/home/abi/fetcher/tmp/aws_rag_bot-0.1.9.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - main [MainThread]: End processing [aws-rag-bot]: success
+[2024-04-01 21:23:07] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.2.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - processPackages [gammarer.aws-waf-ip-rate-limit-rule-group]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-waf-ip-rate-limit-rule-group-1.2.3.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - main [MainThread]: End processing [gammarer.aws-waf-ip-rate-limit-rule-group]: success
+[2024-04-01 21:23:07] INFO root fetch - processPackages [finance-mauritius]: Remove: archive file [/home/abi/fetcher/tmp/finance_mauritius-0.1.0.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - processPackages [finance-mauritius]: Remove: archive file [/home/abi/fetcher/tmp/finance_mauritius-0.1.1.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - main [MainThread]: End processing [finance-mauritius]: success
+[2024-04-01 21:23:07] INFO root fetch - processPackages [jf-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jf-ingest-0.0.8.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - processPackages [jf-ingest]: Remove: archive file [/home/abi/fetcher/tmp/jf-ingest-0.0.9.tar.gz]
+[2024-04-01 21:23:07] INFO root fetch - main [MainThread]: End processing [jf-ingest]: success
+[2024-04-01 21:23:19] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b0.tar.gz]
+[2024-04-01 21:23:19] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b1.tar.gz]
+[2024-04-01 21:23:19] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-01 21:23:19] INFO root fetch - main [MainThread]: Store serial: [22574052]
