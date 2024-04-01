@@ -3098,3 +3098,45 @@ EOFError: EOF read where object expected
 [2024-04-01 14:17:22] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-1.7.0.tar.gz]
 [2024-04-01 14:17:22] INFO root fetch - main [MainThread]: End processing [ml-pipeline-engine]: success
 [2024-04-01 14:17:22] INFO root fetch - main [MainThread]: Store serial: [22569017]
+[2024-04-01 14:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569017]
+[2024-04-01 14:19:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-horizontal-plot
+[2024-04-01 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-04-01 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocat
+[2024-04-01 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: retry-reloaded
+[2024-04-01 14:19:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reach_commons
+[2024-04-01 14:19:30] INFO root fetch - processPackages [pytubefix]: New version: [4.0rc1] Old Version: [3.1rc1]
+[2024-04-01 14:19:30] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/1a/e6/9d84723fddaa9fa65867f220ee9c619d7c22ff7834af65a57215ffab5730/pytubefix-3.1rc1.tar.gz
+[2024-04-01 14:19:30] INFO root fetch - processPackages [rocat]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 14:19:30] WARNING root fetch - processPackages [retry-reloaded]: Skipping, unable to determine old version
+[2024-04-01 14:19:30] INFO root fetch - main [MainThread]: End processing [retry-reloaded] error
+[2024-04-01 14:19:30] INFO root fetch - processPackages [custom-horizontal-plot]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 14:19:30] INFO root fetch - processPackages [reach_commons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 14:19:30] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/6b/26/c9d383f792e934b38a40ddde3f3e96f0015c447daa10244f2e05c6bb4f9a/rocat-0.1.5.tar.gz
+[2024-04-01 14:19:30] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/ea/db/9249660edaf9c61fd6021200ae87c78a833e7b6baa5669e5da375827bd2c/custom-horizontal-plot-0.0.4.tar.gz
+[2024-04-01 14:19:30] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/f9/cf/c92313eb279ffcae98ebd8257f6091497d3209e68ec03b2a4675b9e00bf2/pytubefix-4.0rc1.tar.gz
+[2024-04-01 14:19:30] INFO root fetch - processPackages [reach_commons]: Downloading https://files.pythonhosted.org/packages/fc/ea/15a3e4a7372ff2a246ef699f0c4811b207053d9cff5f447d5e7ccb555b6b/reach_commons-0.9.8.tar.gz
+[2024-04-01 14:19:31] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-01 14:19:31] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-3.1rc1.tar.gz tmp/pytubefix-4.0rc1.tar.gz --markdown 20240401/p/pytubefix/3.1rc1-4.0rc1/diff.md --exclude *.pyd
+[2024-04-01 14:19:31] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/5d/a2/f202de686d4d5697b5d9af269da5acb8a55cdc833cb1d0cbdd30301cddaa/rocat-0.1.6.tar.gz
+[2024-04-01 14:19:31] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/66/d5/5ebedab48118d4a83f2cf00e1b3e1e38db1c65af034eab8e1c8e8943f29f/custom-horizontal-plot-0.0.5.tar.gz
+[2024-04-01 14:19:31] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-01 14:19:31] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.5.tar.gz tmp/rocat-0.1.6.tar.gz --markdown 20240401/r/rocat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 14:19:31] INFO root fetch - processPackages [reach_commons]: Downloading https://files.pythonhosted.org/packages/34/22/42e41dd27d78d03534a3724f64e9db37108179bc622cb0bd649c23e3bfad/reach_commons-0.9.9.tar.gz
+[2024-04-01 14:19:31] INFO root fetch - processPackages [custom-horizontal-plot]: executing diffoscope
+[2024-04-01 14:19:31] INFO root fetch - processPackages [custom-horizontal-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-horizontal-plot-0.0.4.tar.gz tmp/custom-horizontal-plot-0.0.5.tar.gz --markdown 20240401/c/custom-horizontal-plot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 14:19:31] INFO root fetch - processPackages [reach_commons]: executing diffoscope
+[2024-04-01 14:19:31] INFO root fetch - processPackages [reach_commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reach_commons-0.9.8.tar.gz tmp/reach_commons-0.9.9.tar.gz --markdown 20240401/r/reach_commons/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 14:19:31] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.5.tar.gz]
+[2024-04-01 14:19:31] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.6.tar.gz]
+[2024-04-01 14:19:31] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-01 14:19:31] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-3.1rc1.tar.gz]
+[2024-04-01 14:19:31] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc1.tar.gz]
+[2024-04-01 14:19:31] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-01 14:19:32] INFO root fetch - processPackages [reach_commons]: Remove: archive file [/home/abi/fetcher/tmp/reach_commons-0.9.8.tar.gz]
+[2024-04-01 14:19:32] INFO root fetch - processPackages [reach_commons]: Remove: archive file [/home/abi/fetcher/tmp/reach_commons-0.9.9.tar.gz]
+[2024-04-01 14:19:32] INFO root fetch - main [MainThread]: End processing [reach_commons]: success
+[2024-04-01 14:19:47] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.4.tar.gz]
+[2024-04-01 14:19:47] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.5.tar.gz]
+[2024-04-01 14:19:47] INFO root fetch - main [MainThread]: End processing [custom-horizontal-plot]: success
+[2024-04-01 14:19:47] INFO root fetch - main [MainThread]: Store serial: [22569091]
