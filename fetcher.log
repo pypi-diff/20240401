@@ -791,3 +791,42 @@
 [2024-04-01 12:11:15] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
 [2024-04-01 12:11:15] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
 [2024-04-01 12:11:15] INFO root fetch - main [MainThread]: Store serial: [22568054]
+[2024-04-01 12:13:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568054]
+[2024-04-01 12:13:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sae-vis
+[2024-04-01 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomic-bomb-engine
+[2024-04-01 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-spotinst
+[2024-04-01 12:13:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infini
+[2024-04-01 12:13:24] INFO root fetch - processPackages [infini]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-01 12:13:24] INFO root fetch - processPackages [sae-vis]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-01 12:13:24] INFO root fetch - processPackages [infini]: Downloading https://files.pythonhosted.org/packages/aa/db/82c22667169825249d9148161d962fbbc939a14dfba7939386a9da25e1b0/infini-2.1.8.tar.gz
+[2024-04-01 12:13:24] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-01 12:13:24] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 12:13:24] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/16/01/7dcea5fedd4b59fd82374ddefdc5737e15a282bd47d6cedd4c7dc14ed0d7/sae-vis-0.2.4.tar.gz
+[2024-04-01 12:13:24] INFO root fetch - processPackages [infini]: Downloading https://files.pythonhosted.org/packages/d2/76/e95fe5034f0a5b9bb9e892c70c09ff9509c87b644d01423fc00f07eed1fa/infini-2.1.9.tar.gz
+[2024-04-01 12:13:24] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-01 12:13:24] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-01 12:13:24] INFO root fetch - processPackages [infini]: executing diffoscope
+[2024-04-01 12:13:24] INFO root fetch - processPackages [infini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infini-2.1.8.tar.gz tmp/infini-2.1.9.tar.gz --markdown 20240401/i/infini/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-01 12:13:24] INFO root fetch - processPackages [sae-vis]: Downloading https://files.pythonhosted.org/packages/a8/e2/41a1fe9b53adce1f2b891e3245a4aa73ef17844859509e6c95c18121d7d3/sae-vis-0.2.5.tar.gz
+[2024-04-01 12:13:25] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-01 12:13:25] INFO root fetch - processPackages [sae-vis]: executing diffoscope
+[2024-04-01 12:13:25] INFO root fetch - processPackages [sae-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sae-vis-0.2.4.tar.gz tmp/sae-vis-0.2.5.tar.gz --markdown 20240401/s/sae-vis/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-01 12:13:25] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-01 12:13:25] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240401/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-01 12:13:25] INFO root fetch - processPackages [infini]: Remove: archive file [/home/abi/fetcher/tmp/infini-2.1.8.tar.gz]
+[2024-04-01 12:13:25] INFO root fetch - processPackages [infini]: Remove: archive file [/home/abi/fetcher/tmp/infini-2.1.9.tar.gz]
+[2024-04-01 12:13:25] INFO root fetch - main [MainThread]: End processing [infini]: success
+[2024-04-01 12:13:25] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-01 12:13:25] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.4.tar.gz]
+[2024-04-01 12:13:25] INFO root fetch - processPackages [sae-vis]: Remove: archive file [/home/abi/fetcher/tmp/sae-vis-0.2.5.tar.gz]
+[2024-04-01 12:13:25] INFO root fetch - main [MainThread]: End processing [sae-vis]: success
+[2024-04-01 12:13:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-01 12:13:26] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-01 12:13:26] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-01 12:13:26] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-01 12:13:26] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240401/a/atomic-bomb-engine/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 12:13:26] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-01 12:13:26] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-01 12:13:26] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-01 12:13:26] INFO root fetch - main [MainThread]: Store serial: [22568069]
