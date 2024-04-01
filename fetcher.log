@@ -3466,3 +3466,33 @@ EOFError: EOF read where object expected
 [2024-04-01 14:39:35] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.2.tar.gz]
 [2024-04-01 14:39:35] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
 [2024-04-01 14:39:35] INFO root fetch - main [MainThread]: Store serial: [22569213]
+[2024-04-01 14:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569213]
+[2024-04-01 14:41:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cjunct
+[2024-04-01 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-01 14:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-llm
+[2024-04-01 14:41:44] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 14:41:44] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 14:41:44] INFO root fetch - processPackages [cjunct]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-01 14:41:44] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 14:41:44] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/ba/2d/1fbeb6b57f84804928d4f0ad817a6547c7e853bde40ad277043f6ac1483c/cjunct-1.5.0.tar.gz
+[2024-04-01 14:41:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/b2/a3/d8348d731ec1cf6d25247a754451df91e46ff7c3112f9770da7cb7d5cc37/bigdl_llm-2.5.0b20240331-py3-none-win_amd64.whl
+[2024-04-01 14:41:45] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 14:41:45] INFO root fetch - processPackages [cjunct]: Downloading https://files.pythonhosted.org/packages/45/2b/17b4f182d1a7cea16d65b22c3cdeb14e27c1820423fc6b69b7abb36e6cb8/cjunct-1.6.0.tar.gz
+[2024-04-01 14:41:45] INFO root fetch - processPackages [cjunct]: executing diffoscope
+[2024-04-01 14:41:45] INFO root fetch - processPackages [cjunct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cjunct-1.5.0.tar.gz tmp/cjunct-1.6.0.tar.gz --markdown 20240401/c/cjunct/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-01 14:41:45] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 14:41:45] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 14:41:45] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/2f/70/0d8281b7249abf42ebd1515a4246c5b6aa1dc77a5362ef8f0212973f3907/bigdl_llm-2.5.0b20240401-py3-none-win_amd64.whl
+[2024-04-01 14:41:46] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-1.5.0.tar.gz]
+[2024-04-01 14:41:46] INFO root fetch - processPackages [cjunct]: Remove: archive file [/home/abi/fetcher/tmp/cjunct-1.6.0.tar.gz]
+[2024-04-01 14:41:46] INFO root fetch - main [MainThread]: End processing [cjunct]: success
+[2024-04-01 14:41:46] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-04-01 14:41:46] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240331-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240401-py3-none-win_amd64.whl.zip --markdown 20240401/b/bigdl-llm/2.5.0b20240331-2.5.0b20240401/diff.md --exclude *.pyd
+[2024-04-01 14:41:46] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 14:41:46] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 14:41:46] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 14:41:47] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240331-py3-none-win_amd64.whl.zip]
+[2024-04-01 14:41:47] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240401-py3-none-win_amd64.whl.zip]
+[2024-04-01 14:41:47] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-04-01 14:41:47] INFO root fetch - main [MainThread]: Store serial: [22569220]
