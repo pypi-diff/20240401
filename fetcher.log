@@ -6975,3 +6975,33 @@ EOFError: EOF read where object expected
 [2024-04-01 16:59:49] INFO root fetch - processPackages [adelie]: Remove: archive file [/home/abi/fetcher/tmp/adelie-1.1.25.tar.gz]
 [2024-04-01 16:59:49] INFO root fetch - main [MainThread]: End processing [adelie]: success
 [2024-04-01 16:59:49] INFO root fetch - main [MainThread]: Store serial: [22570862]
+[2024-04-01 17:01:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570862]
+[2024-04-01 17:01:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 17:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qodex-cameras
+[2024-04-01 17:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chat-exporter
+[2024-04-01 17:01:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-cognito-auth
+[2024-04-01 17:01:58] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-01 17:01:58] INFO root fetch - processPackages [chat-exporter]: New version: [2.7.0] Old Version: [2.6.1]
+[2024-04-01 17:01:58] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/82/bb/4a2fc5355712c27de96b0f37140906aad1d93b0f11070bd251b2fd6e468c/qodex_cameras-2.1.4-py3-none-any.whl
+[2024-04-01 17:01:58] INFO root fetch - processPackages [chat-exporter]: Downloading https://files.pythonhosted.org/packages/a1/90/d2ebe959cb99aac179c72318c6f30a3ec9b92f3a48d20aea67e3f46f4bc1/chat_exporter-2.6.1.tar.gz
+[2024-04-01 17:01:58] INFO root fetch - processPackages [dash-cognito-auth]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 17:01:58] INFO root fetch - processPackages [chat-exporter]: Downloading https://files.pythonhosted.org/packages/78/93/6be6ad3b074908f2717b9398e6769116fdce0754804a4dcfead0bb7d0bee/chat_exporter-2.7.0.tar.gz
+[2024-04-01 17:01:58] INFO root fetch - processPackages [dash-cognito-auth]: Downloading https://files.pythonhosted.org/packages/94/43/8fd90570e9637871d50d5e1625fe4841cec147c01fb657cdeb6370d41a39/dash-cognito-auth-0.0.2.tar.gz
+[2024-04-01 17:01:59] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/4c/f2/68e57682d03240c7e4b7c5c1e81c82efc87622eb9bef7e93b15bf921e520/qodex_cameras-2.1.5-py3-none-any.whl
+[2024-04-01 17:01:59] INFO root fetch - processPackages [chat-exporter]: executing diffoscope
+[2024-04-01 17:01:59] INFO root fetch - processPackages [chat-exporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat_exporter-2.6.1.tar.gz tmp/chat_exporter-2.7.0.tar.gz --markdown 20240401/c/chat-exporter/2.6.1-2.7.0/diff.md --exclude *.pyd
+[2024-04-01 17:01:59] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 17:01:59] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.4-py3-none-any.whl.zip tmp/qodex_cameras-2.1.5-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: Downloading https://files.pythonhosted.org/packages/ac/4d/b98f3a69c5d65a0f7c1841bd4c7a47c8aa3fffe4861afcefc8313ab173a6/dash-cognito-auth-0.0.3.tar.gz
+[2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: executing diffoscope
+[2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-cognito-auth-0.0.2.tar.gz tmp/dash-cognito-auth-0.0.3.tar.gz --markdown 20240401/d/dash-cognito-auth/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 17:01:59] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.4-py3-none-any.whl.zip]
+[2024-04-01 17:01:59] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.5-py3-none-any.whl.zip]
+[2024-04-01 17:01:59] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 17:01:59] INFO root fetch - processPackages [chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/chat_exporter-2.6.1.tar.gz]
+[2024-04-01 17:01:59] INFO root fetch - processPackages [chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/chat_exporter-2.7.0.tar.gz]
+[2024-04-01 17:01:59] INFO root fetch - main [MainThread]: End processing [chat-exporter]: success
+[2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: Remove: archive file [/home/abi/fetcher/tmp/dash-cognito-auth-0.0.2.tar.gz]
+[2024-04-01 17:01:59] INFO root fetch - processPackages [dash-cognito-auth]: Remove: archive file [/home/abi/fetcher/tmp/dash-cognito-auth-0.0.3.tar.gz]
+[2024-04-01 17:01:59] INFO root fetch - main [MainThread]: End processing [dash-cognito-auth]: success
+[2024-04-01 17:01:59] INFO root fetch - main [MainThread]: Store serial: [22570882]
