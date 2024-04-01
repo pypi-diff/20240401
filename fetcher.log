@@ -1463,3 +1463,60 @@ EOFError: EOF read where object expected
 [2024-04-01 12:43:10] INFO root fetch - processPackages [ngwidgets]: Remove: archive file [/home/abi/fetcher/tmp/ngwidgets-0.9.3.tar.gz]
 [2024-04-01 12:43:10] INFO root fetch - main [MainThread]: End processing [ngwidgets]: success
 [2024-04-01 12:43:10] INFO root fetch - main [MainThread]: Store serial: [22568287]
+[2024-04-01 12:45:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568287]
+[2024-04-01 12:45:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasetlib
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dukes
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-criteria
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: velbus-aio
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yayawallet-python-sdk
+[2024-04-01 12:45:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: newscleaner
+[2024-04-01 12:45:26] INFO root fetch - processPackages [datasetlib]: New version: [0.2] Old Version: [0.1.7.1]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [yayawallet-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [python-criteria]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [velbus-aio]: New version: [2024.4.0] Old Version: [2023.5.0]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [dukes]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [newscleaner]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 12:45:26] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/c8/a3/0e973693345e5b935f8c79e3c1d53f7fdeb813aa129fca2dfaf3aa914696/datasetlib-0.1.7.1.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [yayawallet-python-sdk]: Downloading https://files.pythonhosted.org/packages/6e/f2/492010135eba233fc672a647840fad48c44f90ebe80a0254d3e49344a377/yayawallet-python-sdk-0.1.8.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [dukes]: Downloading https://files.pythonhosted.org/packages/50/9a/3a4bb98f3cd1447bfd590bfe1fdd23997cc8e1dac6d66d6add479f8d215f/dukes-1.2.1.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/87/ec/852f9f1c4d167434c7c9d44f39fb362c271e6869ac411860106ebbc1db7c/python-criteria-0.0.1.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [velbus-aio]: Downloading https://files.pythonhosted.org/packages/23/33/275450626331048a6a24ad6ffd5f05d83202dc85ee0c10955cf91251dae9/velbus-aio-2023.5.0.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/c8/0e/983fee359c807d3778fa006f0340b5a109dbd0a1120cc44d09b8099e1a5d/newscleaner-0.1.5.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [yayawallet-python-sdk]: Downloading https://files.pythonhosted.org/packages/54/df/40e6b73274202cdd4aa4487014cdc36808705fcd3242947f32e2cac6f064/yayawallet-python-sdk-0.1.9.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [python-criteria]: Downloading https://files.pythonhosted.org/packages/b7/e2/77d8afb4b007bff2210041c84c3edc0a9659f61ff279fda4a84907cc0aba/python-criteria-0.1.0.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [newscleaner]: Downloading https://files.pythonhosted.org/packages/64/54/c4ca48a9f08095fe01b2881fedf94d564bdc2bb79004e8169220c84dd4ee/newscleaner-0.1.6.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [yayawallet-python-sdk]: executing diffoscope
+[2024-04-01 12:45:26] INFO root fetch - processPackages [yayawallet-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yayawallet-python-sdk-0.1.8.tar.gz tmp/yayawallet-python-sdk-0.1.9.tar.gz --markdown 20240401/y/yayawallet-python-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 12:45:26] INFO root fetch - processPackages [python-criteria]: executing diffoscope
+[2024-04-01 12:45:26] INFO root fetch - processPackages [python-criteria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-criteria-0.0.1.tar.gz tmp/python-criteria-0.1.0.tar.gz --markdown 20240401/p/python-criteria/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 12:45:26] INFO root fetch - processPackages [dukes]: Downloading https://files.pythonhosted.org/packages/c3/99/12be8e1306df9e06db35ebc008e28e3762eaa3a2ea82353635e6f62003c2/dukes-1.2.2.tar.gz
+[2024-04-01 12:45:26] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/75/1c/d6291f1f6cbb9c3947982982ae59bf823550d461b3d8edfa54e422a6ef26/datasetlib-0.2.tar.gz
+[2024-04-01 12:45:27] INFO root fetch - processPackages [velbus-aio]: Downloading https://files.pythonhosted.org/packages/1a/e6/b036135d4407723bf2c0e3da86ccd95acbdf82e18a8496e9660c6eac7af4/velbus-aio-2024.4.0.tar.gz
+[2024-04-01 12:45:27] INFO root fetch - processPackages [newscleaner]: executing diffoscope
+[2024-04-01 12:45:27] INFO root fetch - processPackages [newscleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newscleaner-0.1.5.tar.gz tmp/newscleaner-0.1.6.tar.gz --markdown 20240401/n/newscleaner/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 12:45:27] INFO root fetch - processPackages [datasetlib]: executing diffoscope
+[2024-04-01 12:45:27] INFO root fetch - processPackages [datasetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasetlib-0.1.7.1.tar.gz tmp/datasetlib-0.2.tar.gz --markdown 20240401/d/datasetlib/0.1.7.1-0.2/diff.md --exclude *.pyd
+[2024-04-01 12:45:27] INFO root fetch - processPackages [dukes]: executing diffoscope
+[2024-04-01 12:45:27] INFO root fetch - processPackages [dukes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukes-1.2.1.tar.gz tmp/dukes-1.2.2.tar.gz --markdown 20240401/d/dukes/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-01 12:45:27] INFO root fetch - processPackages [velbus-aio]: executing diffoscope
+[2024-04-01 12:45:27] INFO root fetch - processPackages [velbus-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velbus-aio-2023.5.0.tar.gz tmp/velbus-aio-2024.4.0.tar.gz --markdown 20240401/v/velbus-aio/2023.5.0-2024.4.0/diff.md --exclude *.pyd
+[2024-04-01 12:45:27] INFO root fetch - processPackages [yayawallet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yayawallet-python-sdk-0.1.8.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - processPackages [yayawallet-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/yayawallet-python-sdk-0.1.9.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - main [MainThread]: End processing [yayawallet-python-sdk]: success
+[2024-04-01 12:45:27] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.0.1.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - processPackages [python-criteria]: Remove: archive file [/home/abi/fetcher/tmp/python-criteria-0.1.0.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - main [MainThread]: End processing [python-criteria]: success
+[2024-04-01 12:45:27] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.1.5.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - processPackages [newscleaner]: Remove: archive file [/home/abi/fetcher/tmp/newscleaner-0.1.6.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - main [MainThread]: End processing [newscleaner]: success
+[2024-04-01 12:45:27] INFO root fetch - processPackages [dukes]: Remove: archive file [/home/abi/fetcher/tmp/dukes-1.2.1.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - processPackages [dukes]: Remove: archive file [/home/abi/fetcher/tmp/dukes-1.2.2.tar.gz]
+[2024-04-01 12:45:27] INFO root fetch - main [MainThread]: End processing [dukes]: success
+[2024-04-01 12:45:28] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.1.7.1.tar.gz]
+[2024-04-01 12:45:28] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.2.tar.gz]
+[2024-04-01 12:45:28] INFO root fetch - main [MainThread]: End processing [datasetlib]: success
+[2024-04-01 12:45:28] INFO root fetch - processPackages [velbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/velbus-aio-2023.5.0.tar.gz]
+[2024-04-01 12:45:28] INFO root fetch - processPackages [velbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/velbus-aio-2024.4.0.tar.gz]
+[2024-04-01 12:45:28] INFO root fetch - main [MainThread]: End processing [velbus-aio]: success
+[2024-04-01 12:45:28] INFO root fetch - main [MainThread]: Store serial: [22568304]
