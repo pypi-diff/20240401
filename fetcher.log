@@ -12332,3 +12332,66 @@ EOFError: EOF read where object expected
 [2024-04-01 20:31:34] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.9.0.tar.gz]
 [2024-04-01 20:31:34] INFO root fetch - main [MainThread]: End processing [bytewax]: success
 [2024-04-01 20:31:34] INFO root fetch - main [MainThread]: Store serial: [22573476]
+[2024-04-01 20:33:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573476]
+[2024-04-01 20:33:43] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omfit-classes
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: barkshark-sql
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: configureout
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meshtastic2hass
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darkgraylib
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: threadmem
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: provisioner-examples-plugin
+[2024-04-01 20:33:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: makdo
+[2024-04-01 20:33:43] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 20:33:43] INFO root fetch - processPackages [makdo]: New version: [7.0] Old Version: [6.0]
+[2024-04-01 20:33:43] INFO root fetch - processPackages [meshtastic2hass]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-01 20:33:43] INFO root fetch - processPackages [configureout]: New version: [1.2] Old Version: [1.1]
+[2024-04-01 20:33:44] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [omfit-classes]: New version: [3.2024.9.2] Old Version: [3.2024.13.2]
+[2024-04-01 20:33:44] WARNING root fetch - processPackages [barkshark-sql]: Skipping, unable to determine old version
+[2024-04-01 20:33:44] WARNING root fetch - processPackages [provisioner-examples-plugin]: Skipping, unable to determine old version
+[2024-04-01 20:33:44] INFO root fetch - main [MainThread]: End processing [barkshark-sql] error
+[2024-04-01 20:33:44] INFO root fetch - main [MainThread]: End processing [provisioner-examples-plugin] error
+[2024-04-01 20:33:44] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/06/a4/10cfade05f74c322ae937796f5ff6db2f5456e29670d47be96d5e2f03860/meshtastic2hass-1.0.5.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/19/c2/382daff14aad1d9841b0f33255ad4655f25a43a8fb1e5decf3ae2e76745b/makdo-6.0-py3-none-any.whl
+[2024-04-01 20:33:44] INFO root fetch - processPackages [darkgraylib]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-01 20:33:44] INFO root fetch - processPackages [configureout]: Downloading https://files.pythonhosted.org/packages/c0/56/01988afb3da1670816a32bdf16aa1dedfbce226a042af8d6c65f6a6fe05b/configureout-1.1.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [omfit-classes]: Downloading https://files.pythonhosted.org/packages/f2/31/b0f1a6667d0c66035c65b715735b98b0dee7f81a5a1f6220ae5c5ccc439d/omfit_classes-3.2024.13.2.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [darkgraylib]: Downloading https://files.pythonhosted.org/packages/0d/14/3441f6aeae10caefedce6bbfb74f6ec99100dfa5322e8134b111cc9157f1/darkgraylib-1.1.1.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/94/9b/5cf40794f8d67804d86086f236c8f7f3cc5ac22069bf3cdd97c819a9d84e/makdo-7.0.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/7e/f3/dad38ea2ceb5ea87c82cf293c0f04d4664da610d44bc6e78df0d604773be/meshtastic2hass-1.0.6.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [configureout]: Downloading https://files.pythonhosted.org/packages/47/ac/20768d5ea2611ff862d3f4a252f919dfee1d33dbf15db2ddeb5e3dceab91/configureout-1.2.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-01 20:33:44] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240401/t/threadmem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 20:33:44] INFO root fetch - processPackages [makdo]: executing diffoscope
+[2024-04-01 20:33:44] INFO root fetch - processPackages [makdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makdo-6.0-py3-none-any.whl.zip tmp/makdo-7.0.tar.gz --markdown 20240401/m/makdo/6.0-7.0/diff.md --exclude *.pyd
+[2024-04-01 20:33:44] INFO root fetch - processPackages [meshtastic2hass]: executing diffoscope
+[2024-04-01 20:33:44] INFO root fetch - processPackages [meshtastic2hass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic2hass-1.0.5.tar.gz tmp/meshtastic2hass-1.0.6.tar.gz --markdown 20240401/m/meshtastic2hass/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-01 20:33:44] INFO root fetch - processPackages [configureout]: executing diffoscope
+[2024-04-01 20:33:44] INFO root fetch - processPackages [configureout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configureout-1.1.tar.gz tmp/configureout-1.2.tar.gz --markdown 20240401/c/configureout/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-01 20:33:44] INFO root fetch - processPackages [darkgraylib]: Downloading https://files.pythonhosted.org/packages/78/a8/9be8653ef02f671d81ba423efe295401898a9f66e1565fd29a6310554a13/darkgraylib-1.2.0.tar.gz
+[2024-04-01 20:33:44] INFO root fetch - processPackages [darkgraylib]: executing diffoscope
+[2024-04-01 20:33:44] INFO root fetch - processPackages [darkgraylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/darkgraylib-1.1.1.tar.gz tmp/darkgraylib-1.2.0.tar.gz --markdown 20240401/d/darkgraylib/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 20:33:45] INFO root fetch - processPackages [omfit-classes]: Downloading https://files.pythonhosted.org/packages/05/a1/563898f98a1b3430e4c932eb8add4db82fb6414646151249543a7d600771/omfit_classes-3.2024.9.2.tar.gz
+[2024-04-01 20:33:45] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-6.0-py3-none-any.whl.zip]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.0.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-01 20:33:45] INFO root fetch - main [MainThread]: End processing [makdo]: success
+[2024-04-01 20:33:45] INFO root fetch - processPackages [configureout]: Remove: archive file [/home/abi/fetcher/tmp/configureout-1.1.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [configureout]: Remove: archive file [/home/abi/fetcher/tmp/configureout-1.2.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - main [MainThread]: End processing [configureout]: success
+[2024-04-01 20:33:45] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.5.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.6.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - main [MainThread]: End processing [meshtastic2hass]: success
+[2024-04-01 20:33:45] INFO root fetch - processPackages [darkgraylib]: Remove: archive file [/home/abi/fetcher/tmp/darkgraylib-1.1.1.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - processPackages [darkgraylib]: Remove: archive file [/home/abi/fetcher/tmp/darkgraylib-1.2.0.tar.gz]
+[2024-04-01 20:33:45] INFO root fetch - main [MainThread]: End processing [darkgraylib]: success
+[2024-04-01 20:33:45] INFO root fetch - processPackages [omfit-classes]: executing diffoscope
+[2024-04-01 20:33:45] INFO root fetch - processPackages [omfit-classes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omfit_classes-3.2024.13.2.tar.gz tmp/omfit_classes-3.2024.9.2.tar.gz --markdown 20240401/o/omfit-classes/3.2024.13.2-3.2024.9.2/diff.md --exclude *.pyd
+[2024-04-01 20:33:47] INFO root fetch - processPackages [omfit-classes]: Remove: archive file [/home/abi/fetcher/tmp/omfit_classes-3.2024.13.2.tar.gz]
+[2024-04-01 20:33:47] INFO root fetch - processPackages [omfit-classes]: Remove: archive file [/home/abi/fetcher/tmp/omfit_classes-3.2024.9.2.tar.gz]
+[2024-04-01 20:33:47] INFO root fetch - main [MainThread]: End processing [omfit-classes]: success
+[2024-04-01 20:33:47] INFO root fetch - main [MainThread]: Store serial: [22573516]
