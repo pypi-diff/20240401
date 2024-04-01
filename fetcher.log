@@ -2577,3 +2577,97 @@ EOFError: EOF read where object expected
 [2024-04-01 13:51:35] INFO root fetch - processPackages [par-run]: Remove: archive file [/home/abi/fetcher/tmp/par_run-0.1.4.tar.gz]
 [2024-04-01 13:51:35] INFO root fetch - main [MainThread]: End processing [par-run]: success
 [2024-04-01 13:51:35] INFO root fetch - main [MainThread]: Store serial: [22568801]
+[2024-04-01 13:53:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568801]
+[2024-04-01 13:54:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docspotter
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyes-playwright
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: superstream-py
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eyes-images
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eyes-common
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: core-universal
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testcontainers
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eyes-selenium
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: eyes-robotframework
+[2024-04-01 13:54:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gmalglib
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-images]: New version: [5.23.7] Old Version: [5.23.5]
+[2024-04-01 13:54:01] WARNING root fetch - processPackages [docspotter]: Skipping, unable to determine old version
+[2024-04-01 13:54:01] INFO root fetch - processPackages [docspotter]: Start processing: pydrink
+[2024-04-01 13:54:01] INFO root fetch - main [MainThread]: End processing [docspotter] error
+[2024-04-01 13:54:01] WARNING root fetch - processPackages [superstream-py]: Skipping, unable to determine old version
+[2024-04-01 13:54:01] INFO root fetch - processPackages [superstream-py]: Start processing: sklearn-viz
+[2024-04-01 13:54:01] INFO root fetch - main [MainThread]: End processing [superstream-py] error
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-playwright]: New version: [5.25.4] Old Version: [5.25.2]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [testcontainers]: New version: [4.3.0] Old Version: [4.2.0rc2]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [gmalglib]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-robotframework]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-common]: New version: [5.27.4] Old Version: [5.27.2]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [core-universal]: New version: [4.9.1] Old Version: [4.8.0]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-selenium]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/e8/68/e244ffa3d7c76edba827a7059da20cd2672d5064bc7d869523bdf3992f17/eyes_images-5.23.5-py2.py3-none-any.whl
+[2024-04-01 13:54:01] WARNING root fetch - processPackages [pydrink]: Skipping, unable to determine old version
+[2024-04-01 13:54:01] INFO root fetch - processPackages [pydrink]: Start processing: bigdl-core-xe-21
+[2024-04-01 13:54:01] INFO root fetch - main [MainThread]: End processing [pydrink] error
+[2024-04-01 13:54:01] INFO root fetch - processPackages [sklearn-viz]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-01 13:54:01] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/eb/e3/d2273b7aa1ca011553c61a0dc6327cee3c2ef6bd2f5e4237ae7a46ad1295/testcontainers-4.2.0rc2.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/ef/de/dfc465cf8e290f17ff1b73d6d59cc214c462ae7fc0aa1c662795d9b6d738/eyes_playwright-5.25.2-py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/8f/07/16bad5d6312d4ecba4288a79afb17dc3e13da50304c95beff7cdf51b2371/eyes_robotframework-5.8.1-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/a6/d2/18f88b5e05b4e0cab5e58cfa6ff7644a7af1fd966fb77692feacec337948/eyes_common-5.27.2-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/ce/26/457d40e82171dcfe45eda1b142a903be4aeb73e0295cf4cfb05aa6987ce4/eyes_selenium-5.8.0.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [core-universal]: Downloading https://files.pythonhosted.org/packages/fd/df/0e5a8fb3dd2af98a55fa812ffe5542bbd496482fbd0daa338870f4f7e4af/core_universal-4.8.0-py2.py3-none-win_amd64.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/e6/e4/270737d80e5131a040d6fbcc083f66a627b01a4beb47358bdb55e49cac1b/gmalglib-0.1.0.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/b2/20/9a913070b29cf2e6bd9d751bf209dcd22367d6aa4da80aeaf322e3a2d941/sklearn_viz-0.2.0.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-images]: Downloading https://files.pythonhosted.org/packages/91/e8/fc1ab1621d8e7d9e8343e8c45845b80ac370bbe4897f81a4f1ac890c1d1c/eyes_images-5.23.7-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/3c/09/9b6c04b40cbd2c393ca394fac19a011a53495fb37ec297b7697bc5b29594/bigdl_core_xe_21-2.5.0b20240331-cp39-cp39-win_amd64.whl
+[2024-04-01 13:54:02] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25606412>=10485760
+[2024-04-01 13:54:02] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-playwright]: Downloading https://files.pythonhosted.org/packages/e2/e2/d34f5f350fcd3a1c957cf2bc423056f86a7b8341e77d69a9de1894dba02f/eyes_playwright-5.25.4-py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/cc/dc/e5e9738563e837899850035a8a177f9763116b17500d129ff2038f6f028a/testcontainers-4.3.0.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-robotframework]: Downloading https://files.pythonhosted.org/packages/40/cd/befa1ed0e10992e7957c319d39d71b391cde687201b8f906018b7f1e3c20/eyes_robotframework-5.9.0-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-images]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-images]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_images-5.23.5-py2.py3-none-any.whl.zip tmp/eyes_images-5.23.7-py2.py3-none-any.whl.zip --markdown 20240401/e/eyes-images/5.23.5-5.23.7/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-common]: Downloading https://files.pythonhosted.org/packages/87/a8/f322269e6744d840d0c4f6c275ba78609d3826fc00f3c9918d19a1cb1162/eyes_common-5.27.4-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-selenium]: Downloading https://files.pythonhosted.org/packages/94/46/bdd8b2f661c4edefb5da178809217d15b736cfd984b3eca1afe213575308/eyes_selenium-5.9.0-py2.py3-none-any.whl
+[2024-04-01 13:54:02] INFO root fetch - processPackages [gmalglib]: Downloading https://files.pythonhosted.org/packages/e4/5e/42b1284f37f5bef9160173a4cc06de4eaf570de10b8a816fde43eca2bdba/gmalglib-0.1.1.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [sklearn-viz]: Downloading https://files.pythonhosted.org/packages/e9/bf/73481b1f87591889194885d4eb395bfadfc665fef09c6288ad2ffd3f6583/sklearn_viz-0.3.0.tar.gz
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-playwright]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_playwright-5.25.2-py3-none-any.whl.zip tmp/eyes_playwright-5.25.4-py3-none-any.whl.zip --markdown 20240401/e/eyes-playwright/5.25.2-5.25.4/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [testcontainers]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-4.2.0rc2.tar.gz tmp/testcontainers-4.3.0.tar.gz --markdown 20240401/t/testcontainers/4.2.0rc2-4.3.0/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-robotframework]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip --markdown 20240401/e/eyes-robotframework/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-common]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_common-5.27.2-py2.py3-none-any.whl.zip tmp/eyes_common-5.27.4-py2.py3-none-any.whl.zip --markdown 20240401/e/eyes-common/5.27.2-5.27.4/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [gmalglib]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [gmalglib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmalglib-0.1.0.tar.gz tmp/gmalglib-0.1.1.tar.gz --markdown 20240401/g/gmalglib/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-selenium]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [eyes-selenium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eyes_selenium-5.8.0.tar.gz tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip --markdown 20240401/e/eyes-selenium/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-01 13:54:02] INFO root fetch - processPackages [sklearn-viz]: executing diffoscope
+[2024-04-01 13:54:02] INFO root fetch - processPackages [sklearn-viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_viz-0.2.0.tar.gz tmp/sklearn_viz-0.3.0.tar.gz --markdown 20240401/s/sklearn-viz/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 13:54:03] WARNING root fetch - processPackages [core-universal]: Skipping package: exceeds size limit 37650350>=10485760
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [core-universal] error
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.5-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-images]: Remove: archive file [/home/abi/fetcher/tmp/eyes_images-5.23.7-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-images]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.2-py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-playwright]: Remove: archive file [/home/abi/fetcher/tmp/eyes_playwright-5.25.4-py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-playwright]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.8.1-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/eyes_robotframework-5.9.0-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-robotframework]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.2.0.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [sklearn-viz]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_viz-0.3.0.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [sklearn-viz]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.1.0.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [gmalglib]: Remove: archive file [/home/abi/fetcher/tmp/gmalglib-0.1.1.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [gmalglib]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.8.0.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-selenium]: Remove: archive file [/home/abi/fetcher/tmp/eyes_selenium-5.9.0-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-selenium]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.2.0rc2.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.0.tar.gz]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [testcontainers]: success
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.2-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.4-py2.py3-none-any.whl.zip]
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-common]: success
+[2024-04-01 13:54:03] INFO root fetch - main [MainThread]: Store serial: [22568842]
