@@ -621,3 +621,15 @@
 [2024-04-01 12:00:18] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.tar.gz]
 [2024-04-01 12:00:18] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
 [2024-04-01 12:00:18] INFO root fetch - main [MainThread]: Store serial: [22567977]
+[2024-04-01 12:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567977]
+[2024-04-01 12:02:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 12:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oceanai
+[2024-04-01 12:02:26] INFO root fetch - processPackages [oceanai]: New version: [1.0.0a5] Old Version: [1.0.0a23]
+[2024-04-01 12:02:27] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/44/99/d5e627a30466ad4a41e8ee72eeed6787530d8a6e7b77205d58bb46e8c5a7/oceanai-1.0.0a23.tar.gz
+[2024-04-01 12:02:27] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/e2/2e/50ce0fa8c36664521d86bdf73f078d5b29e258c450bbbe4eb3eebccfc9e2/oceanai-1.0.0a5.tar.gz
+[2024-04-01 12:02:27] INFO root fetch - processPackages [oceanai]: executing diffoscope
+[2024-04-01 12:02:27] INFO root fetch - processPackages [oceanai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanai-1.0.0a23.tar.gz tmp/oceanai-1.0.0a5.tar.gz --markdown 20240401/o/oceanai/1.0.0a23-1.0.0a5/diff.md --exclude *.pyd
+[2024-04-01 12:02:28] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a23.tar.gz]
+[2024-04-01 12:02:28] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a5.tar.gz]
+[2024-04-01 12:02:28] INFO root fetch - main [MainThread]: End processing [oceanai]: success
+[2024-04-01 12:02:28] INFO root fetch - main [MainThread]: Store serial: [22567994]
