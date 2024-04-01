@@ -19192,3 +19192,64 @@ EOFError: EOF read where object expected
 [2024-04-01 23:57:49] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
 [2024-04-01 23:57:49] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-01 23:57:49] INFO root fetch - main [MainThread]: Store serial: [22576336]
+[2024-04-01 23:59:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576336]
+[2024-04-01 23:59:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-logging-config
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: c2cciutils
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CustomChat
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lg-payroll-api
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: heart-library
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2024-04-01 23:59:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: betterspread
+[2024-04-01 23:59:58] INFO root fetch - processPackages [lg-payroll-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 23:59:58] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:59:58] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:59:58] WARNING root fetch - processPackages [dragonfly-logging-config]: Skipping, unable to determine old version
+[2024-04-01 23:59:58] INFO root fetch - main [MainThread]: End processing [dragonfly-logging-config] error
+[2024-04-01 23:59:58] INFO root fetch - processPackages [CustomChat]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-01 23:59:58] INFO root fetch - processPackages [betterspread]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-01 23:59:58] WARNING root fetch - processPackages [heart-library]: Skipping, unable to determine old version
+[2024-04-01 23:59:58] INFO root fetch - main [MainThread]: End processing [heart-library] error
+[2024-04-01 23:59:58] INFO root fetch - processPackages [lg-payroll-api]: Downloading https://files.pythonhosted.org/packages/89/a9/68f4670579029e8717d6209e60eb4421e8ba7626e0fa05ff5231195698b7/lg_payroll_api-0.1.3.tar.gz
+[2024-04-01 23:59:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:59:58] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:59:58] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-01 23:59:58] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/31/17/d6559c85ff8af67713cd7a04918da1a6afe926e353997ef84d4d58b1e10f/CustomChat-1.0.3.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [lg-payroll-api]: Downloading https://files.pythonhosted.org/packages/67/77/d511e2987ddb589be208cf38c6d94f7c8de1792032a33e1fe436f2a3dc96/lg_payroll_api-0.1.4.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/b6/3e/4020ff4aa2f5c7bd40e1279878e13e87edd110af3f9bc35eea4cecb6661a/betterspread-0.1.9.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [lg-payroll-api]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [lg-payroll-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lg_payroll_api-0.1.3.tar.gz tmp/lg_payroll_api-0.1.4.tar.gz --markdown 20240401/l/lg-payroll-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/6b/51/71daa02c650072d68de8e2ec7c3b776acc8fca864ccf8eed83882ad0a53c/CustomChat-1.0.4.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [CustomChat]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [CustomChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomChat-1.0.3.tar.gz tmp/CustomChat-1.0.4.tar.gz --markdown 20240401/C/CustomChat/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/1a/76/6348844b756d95cc09c1ccbb2747ecdb22d85d70f25b44fcc49d2b325f80/betterspread-0.2.0.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-01 23:59:59] INFO root fetch - processPackages [betterspread]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [betterspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterspread-0.1.9.tar.gz tmp/betterspread-0.2.0.tar.gz --markdown 20240401/b/betterspread/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-01 23:59:59] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240401/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 23:59:59] INFO root fetch - processPackages [lg-payroll-api]: Remove: archive file [/home/abi/fetcher/tmp/lg_payroll_api-0.1.3.tar.gz]
+[2024-04-01 23:59:59] INFO root fetch - processPackages [lg-payroll-api]: Remove: archive file [/home/abi/fetcher/tmp/lg_payroll_api-0.1.4.tar.gz]
+[2024-04-01 23:59:59] INFO root fetch - main [MainThread]: End processing [lg-payroll-api]: success
+[2024-04-02 00:00:00] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.3.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.4.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: End processing [CustomChat]: success
+[2024-04-02 00:00:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:00:00] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.1.9.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.2.0.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: End processing [betterspread]: success
+[2024-04-02 00:00:00] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 00:00:00] INFO root fetch - main [MainThread]: Store serial: [22576363]
