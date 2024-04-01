@@ -11139,3 +11139,60 @@ EOFError: EOF read where object expected
 [2024-04-01 19:44:17] INFO root fetch - processPackages [onekit]: Remove: archive file [/home/abi/fetcher/tmp/onekit-1.0.0.tar.gz]
 [2024-04-01 19:44:17] INFO root fetch - main [MainThread]: End processing [onekit]: success
 [2024-04-01 19:44:17] INFO root fetch - main [MainThread]: Store serial: [22572896]
+[2024-04-01 19:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572896]
+[2024-04-01 19:46:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchtrail
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: telegram-bot-reporter
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-watcher
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfn-policy-validator
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d-fake-seeder
+[2024-04-01 19:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: authwa
+[2024-04-01 19:46:26] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [pytest-watcher]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [torchtrail]: New version: [0.0.8] Old Version: [0.0.18]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [authwa]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [telegram-bot-reporter]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [cfn-policy-validator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 19:46:26] INFO root fetch - processPackages [torchtrail]: Downloading https://files.pythonhosted.org/packages/b6/37/31b0cc451b868e2676b7762abe2938df023ab9735c9136c5b7ccb7b6816e/torchtrail-0.0.18.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/21/e4/564cb2116f0e0715314f1a7353c4aec0fabad007d780f3da67a411e163d0/pytest_watcher-0.4.1.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [cfn-policy-validator]: Downloading https://files.pythonhosted.org/packages/cf/20/3abf3e68e5d610bc21fce7704d1e286f97fa17d53c0756820e269b3310ab/cfn-policy-validator-0.0.8.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/85/5d/649269386941f57d48c55ad4bf6916fa6640a349baa4af7136bd9d683ea3/telegram_bot_reporter-0.1.6.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 19:46:26] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/ef/3f/942a69666f63b9bf850889b7918f5f6711b2c1e109b7a94c44acf9f87f34/authwa-0.3.8.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [pytest-watcher]: Downloading https://files.pythonhosted.org/packages/17/10/d15189f88f3561b6eaede676a41fa685d9e62dad770e077929f07d6ab038/pytest_watcher-0.4.2.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [cfn-policy-validator]: Downloading https://files.pythonhosted.org/packages/15/c6/133b321c4dd305ae3f336059b8db3592a30ab6b2a278ce3e4f8b3f162370/cfn-policy-validator-0.0.9.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [telegram-bot-reporter]: Downloading https://files.pythonhosted.org/packages/a1/93/56f252eebc86cb58db30e8dc2ac8793abaefb6fe6d9bc76fef75b1afb790/telegram_bot_reporter-0.1.7.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [pytest-watcher]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [pytest-watcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_watcher-0.4.1.tar.gz tmp/pytest_watcher-0.4.2.tar.gz --markdown 20240401/p/pytest-watcher/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [authwa]: Downloading https://files.pythonhosted.org/packages/eb/8e/24ba062d1d809b08a8907c7b16cb3bb2a774774312578dfffcf7102874cc/authwa-0.3.9.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [cfn-policy-validator]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [cfn-policy-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfn-policy-validator-0.0.8.tar.gz tmp/cfn-policy-validator-0.0.9.tar.gz --markdown 20240401/c/cfn-policy-validator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [telegram-bot-reporter]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [telegram-bot-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_bot_reporter-0.1.6.tar.gz tmp/telegram_bot_reporter-0.1.7.tar.gz --markdown 20240401/t/telegram-bot-reporter/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [authwa]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [authwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authwa-0.3.8.tar.gz tmp/authwa-0.3.9.tar.gz --markdown 20240401/a/authwa/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [torchtrail]: Downloading https://files.pythonhosted.org/packages/c3/8a/a063316f9d5523643a2da14133f663b4f481b45c695c96c85927d833f44e/torchtrail-0.0.8.tar.gz
+[2024-04-01 19:46:27] INFO root fetch - processPackages [torchtrail]: executing diffoscope
+[2024-04-01 19:46:27] INFO root fetch - processPackages [torchtrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtrail-0.0.18.tar.gz tmp/torchtrail-0.0.8.tar.gz --markdown 20240401/t/torchtrail/0.0.18-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 19:46:27] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 19:46:27] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.4.1.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - processPackages [pytest-watcher]: Remove: archive file [/home/abi/fetcher/tmp/pytest_watcher-0.4.2.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - main [MainThread]: End processing [pytest-watcher]: success
+[2024-04-01 19:46:27] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.8.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - processPackages [authwa]: Remove: archive file [/home/abi/fetcher/tmp/authwa-0.3.9.tar.gz]
+[2024-04-01 19:46:27] INFO root fetch - main [MainThread]: End processing [authwa]: success
+[2024-04-01 19:46:28] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.6.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - processPackages [telegram-bot-reporter]: Remove: archive file [/home/abi/fetcher/tmp/telegram_bot_reporter-0.1.7.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - main [MainThread]: End processing [telegram-bot-reporter]: success
+[2024-04-01 19:46:28] INFO root fetch - processPackages [cfn-policy-validator]: Remove: archive file [/home/abi/fetcher/tmp/cfn-policy-validator-0.0.8.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - processPackages [cfn-policy-validator]: Remove: archive file [/home/abi/fetcher/tmp/cfn-policy-validator-0.0.9.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - main [MainThread]: End processing [cfn-policy-validator]: success
+[2024-04-01 19:46:28] INFO root fetch - processPackages [torchtrail]: Remove: archive file [/home/abi/fetcher/tmp/torchtrail-0.0.18.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - processPackages [torchtrail]: Remove: archive file [/home/abi/fetcher/tmp/torchtrail-0.0.8.tar.gz]
+[2024-04-01 19:46:28] INFO root fetch - main [MainThread]: End processing [torchtrail]: success
+[2024-04-01 19:46:28] INFO root fetch - main [MainThread]: Store serial: [22572913]
