@@ -18890,3 +18890,51 @@ EOFError: EOF read where object expected
 [2024-04-01 23:46:15] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.6.3.tar.gz]
 [2024-04-01 23:46:15] INFO root fetch - main [MainThread]: End processing [jaeger]: success
 [2024-04-01 23:46:15] INFO root fetch - main [MainThread]: Store serial: [22576219]
+[2024-04-01 23:48:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576219]
+[2024-04-01 23:48:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mama
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typos
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-skill-date-time
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitmat-tl
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ocsf-validator
+[2024-04-01 23:48:24] INFO root fetch - processPackages [bitmat-tl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 23:48:24] INFO root fetch - processPackages [mama]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 23:48:24] INFO root fetch - processPackages [neon-skill-date-time]: New version: [1.0.1a7] Old Version: [1.0.1a6]
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ocsf-validator]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-04-01 23:48:24] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/0e/33/258e7d7a5b840228bdaf6b4515ac92ef84eed357e480244485a4fcfcf89e/mama-0.9.0.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [typos]: New version: [1.20.1] Old Version: [1.20.0]
+[2024-04-01 23:48:24] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/87/6a/feecc7946b1eb7930a9c85a581e062f85978799487de1e6e6ae8979149dc/bitmat-tl-0.1.5.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/aa/c7/6acc8557969cbd5cb22062ed43dede5991fc99adc2102a8c8687ea69cde5/neon-skill-date_time-1.0.1a6.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ocsf-validator]: Downloading https://files.pythonhosted.org/packages/8a/a8/902127d0846887230e49df416326bda077fe31ea74bccd70a25cdc5e3bb0/ocsf_validator-0.1.5.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/4c/ad/6905f61e963d61d77864690fb9ac1f79215928fac4182edb290ffa4ffabd/typos-1.20.0.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/29/cc/802ebdeda23150dbbec2c2223324b5323faf2aa65f93388c640981877d51/mama-0.9.1-py3-none-any.whl
+[2024-04-01 23:48:24] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/a8/61/9e61d57c17203c9b583ccca5d29b6c3dc7e342638af3ae8ebf48042df5bb/bitmat-tl-0.1.6.tar.gz
+[2024-04-01 23:48:24] INFO root fetch - processPackages [mama]: executing diffoscope
+[2024-04-01 23:48:24] INFO root fetch - processPackages [mama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mama-0.9.0.tar.gz tmp/mama-0.9.1-py3-none-any.whl.zip --markdown 20240401/m/mama/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 23:48:24] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-01 23:48:24] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.1.5.tar.gz tmp/bitmat-tl-0.1.6.tar.gz --markdown 20240401/b/bitmat-tl/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 23:48:24] INFO root fetch - processPackages [ocsf-validator]: Downloading https://files.pythonhosted.org/packages/aa/06/be5a69407a5774b290d7296b6372cb29e2eec2a5f22c4a08520ad4196d96/ocsf_validator-0.1.7.tar.gz
+[2024-04-01 23:48:25] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/00/03/1c039458c41cfef84a5d434f9211b54d6dd90c091ed8e7bb0bfe031332dc/neon-skill-date_time-1.0.1a7.tar.gz
+[2024-04-01 23:48:25] INFO root fetch - processPackages [ocsf-validator]: executing diffoscope
+[2024-04-01 23:48:25] INFO root fetch - processPackages [ocsf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocsf_validator-0.1.5.tar.gz tmp/ocsf_validator-0.1.7.tar.gz --markdown 20240401/o/ocsf-validator/0.1.5-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 23:48:25] INFO root fetch - processPackages [typos]: Downloading https://files.pythonhosted.org/packages/2b/45/553f88f79e018fcd2a33a766fa87a189946a980c0966e76f5644b6f339c1/typos-1.20.1.tar.gz
+[2024-04-01 23:48:25] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2024-04-01 23:48:25] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-date_time-1.0.1a6.tar.gz tmp/neon-skill-date_time-1.0.1a7.tar.gz --markdown 20240401/n/neon-skill-date-time/1.0.1a6-1.0.1a7/diff.md --exclude *.pyd
+[2024-04-01 23:48:25] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.0.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.1-py3-none-any.whl.zip]
+[2024-04-01 23:48:25] INFO root fetch - main [MainThread]: End processing [mama]: success
+[2024-04-01 23:48:25] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.5.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.6.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-01 23:48:25] INFO root fetch - processPackages [typos]: executing diffoscope
+[2024-04-01 23:48:25] INFO root fetch - processPackages [typos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typos-1.20.0.tar.gz tmp/typos-1.20.1.tar.gz --markdown 20240401/t/typos/1.20.0-1.20.1/diff.md --exclude *.pyd
+[2024-04-01 23:48:25] INFO root fetch - processPackages [ocsf-validator]: Remove: archive file [/home/abi/fetcher/tmp/ocsf_validator-0.1.5.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - processPackages [ocsf-validator]: Remove: archive file [/home/abi/fetcher/tmp/ocsf_validator-0.1.7.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - main [MainThread]: End processing [ocsf-validator]: success
+[2024-04-01 23:48:25] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-1.0.1a6.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-1.0.1a7.tar.gz]
+[2024-04-01 23:48:25] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2024-04-01 23:48:29] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.0.tar.gz]
+[2024-04-01 23:48:29] INFO root fetch - processPackages [typos]: Remove: archive file [/home/abi/fetcher/tmp/typos-1.20.1.tar.gz]
+[2024-04-01 23:48:29] INFO root fetch - main [MainThread]: End processing [typos]: success
+[2024-04-01 23:48:29] INFO root fetch - main [MainThread]: Store serial: [22576242]
