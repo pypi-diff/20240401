@@ -10061,3 +10061,44 @@ EOFError: EOF read where object expected
 [2024-04-01 18:52:24] INFO root fetch - processPackages [nnsight]: Remove: archive file [/home/abi/fetcher/tmp/nnsight-0.2.9.tar.gz]
 [2024-04-01 18:52:24] INFO root fetch - main [MainThread]: End processing [nnsight]: success
 [2024-04-01 18:52:24] INFO root fetch - main [MainThread]: Store serial: [22572384]
+[2024-04-01 18:54:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572384]
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: efficientvit-gml
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awesom-sitemap-parser
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: super-gradients
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amsdal_models
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ft2bt
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: welcome-to-pd
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ooo-dev-tools
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Jinja2-Haml
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [ft2bt]: Skipping, unable to determine old version
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [ft2bt] error
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [efficientvit-gml]: Skipping, unable to determine old version
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [efficientvit-gml] error
+[2024-04-01 18:54:34] INFO root fetch - processPackages [super-gradients]: New version: [3.7.0] Old Version: [3.6.1]
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [welcome-to-pd]: Skipping, unable to determine old version
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [welcome-to-pd] error
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [Jinja2-Haml]: Skipping, unable to determine old version
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [Jinja2-Haml] error
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [awesom-sitemap-parser]: Skipping, unable to determine old version
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [awesom-sitemap-parser] error
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ooo-dev-tools]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-01 18:54:34] INFO root fetch - processPackages [amsdal_models]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 18:54:34] INFO root fetch - processPackages [super-gradients]: Downloading https://files.pythonhosted.org/packages/18/95/2f376f0d565d6943e64b91dadd481b6b1e6df8fa930612da7a7dc1b52b8b/super_gradients-3.6.1-py3-none-any.whl
+[2024-04-01 18:54:34] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/41/44/3184c5212ea19d64e5dcf92dc1f7e0c08bda64a5787bdf62a49038d1b40a/ooo_dev_tools-0.9.7.tar.gz
+[2024-04-01 18:54:34] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/de/66/30a8005f2e3191b58e25c647559bb0e5aa0c9535a386a49a4b79296b7741/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl
+[2024-04-01 18:54:34] WARNING root fetch - processPackages [super-gradients]: Skipping package: exceeds size limit 12097419>=10485760
+[2024-04-01 18:54:34] INFO root fetch - main [MainThread]: End processing [super-gradients] error
+[2024-04-01 18:54:35] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/ef/8e/a9dcb801fee30653341182fe6aefad379501f216bf6308d42d340651e57d/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl
+[2024-04-01 18:54:35] INFO root fetch - processPackages [ooo-dev-tools]: Downloading https://files.pythonhosted.org/packages/20/e8/b38a2ad24f414b81985e10c35e1192cb22350ca6b0dc68f0104509e3c0bf/ooo_dev_tools-0.9.8.tar.gz
+[2024-04-01 18:54:35] INFO root fetch - processPackages [amsdal_models]: executing diffoscope
+[2024-04-01 18:54:35] INFO root fetch - processPackages [amsdal_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl.zip tmp/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl.zip --markdown 20240401/a/amsdal_models/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 18:54:36] INFO root fetch - processPackages [ooo-dev-tools]: executing diffoscope
+[2024-04-01 18:54:36] INFO root fetch - processPackages [ooo-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ooo_dev_tools-0.9.7.tar.gz tmp/ooo_dev_tools-0.9.8.tar.gz --markdown 20240401/o/ooo-dev-tools/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-01 18:54:36] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl.zip]
+[2024-04-01 18:54:36] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl.zip]
+[2024-04-01 18:54:36] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
+[2024-04-01 18:54:38] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.7.tar.gz]
+[2024-04-01 18:54:38] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
+[2024-04-01 18:54:38] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
+[2024-04-01 18:54:38] INFO root fetch - main [MainThread]: Store serial: [22572420]
