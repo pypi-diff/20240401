@@ -1857,3 +1857,50 @@ EOFError: EOF read where object expected
 [2024-04-01 13:15:09] WARNING root fetch - processPackages [quickfin]: Skipping, unable to determine old version
 [2024-04-01 13:15:09] INFO root fetch - main [MainThread]: End processing [quickfin] error
 [2024-04-01 13:15:09] INFO root fetch - main [MainThread]: Store serial: [22568456]
+[2024-04-01 13:17:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568456]
+[2024-04-01 13:17:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phone-email-auth
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-grpc-read-db
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lalsuite
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wasabi-geom
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tutor-contrib-aspects
+[2024-04-01 13:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-web-notify
+[2024-04-01 13:17:25] WARNING root fetch - processPackages [phone-email-auth]: Skipping, unable to determine old version
+[2024-04-01 13:17:25] INFO root fetch - main [MainThread]: End processing [phone-email-auth] error
+[2024-04-01 13:17:26] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8507367004]
+[2024-04-01 13:17:26] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.1]
+[2024-04-01 13:17:26] INFO root fetch - processPackages [tutor-contrib-aspects]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 13:17:26] INFO root fetch - processPackages [wasabi-geom]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-01 13:17:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/a6/16/696b65f5ba9f64ba69b70d05caae30f1934c1e158b43a7dae8c4e3f4ea3b/th2_grpc_read_db-0.0.8.dev8507367004.tar.gz
+[2024-04-01 13:17:26] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9a/3d/d442520364267c43ded169b0ff26fe9c9193ecc14f617173ccdc52ccd94c/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl
+[2024-04-01 13:17:26] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/44/9b/42f75a2dd2aabf57992d9fdf7df713430e2195b4081316228b1010f3585f/tutor-contrib-aspects-0.9.0.tar.gz
+[2024-04-01 13:17:26] INFO root fetch - processPackages [wasabi-geom]: Downloading https://files.pythonhosted.org/packages/bd/ff/a328336f5f98cfd522db8294f65b9f7f050d9a2f82b792666da06479e0dd/wasabi-geom-2.1.1.tar.gz
+[2024-04-01 13:17:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-01 13:17:26] INFO root fetch - processPackages [tutor-contrib-aspects]: Downloading https://files.pythonhosted.org/packages/0d/7c/76d53426d6c4ad60ca2c7ed1be61f8ebb0096695b99381ebc54530dc03a7/tutor-contrib-aspects-0.9.1.tar.gz
+[2024-04-01 13:17:26] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-01 13:17:26] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8507367004.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240401/t/th2-grpc-read-db/0.0.8.dev8507367004-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-01 13:17:26] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9d/30/57c1f456f8eaf5a4f0fce9bff84cec48e1f6867d18a316d8297bccd7394c/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl
+[2024-04-01 13:17:26] INFO root fetch - processPackages [tutor-contrib-aspects]: executing diffoscope
+[2024-04-01 13:17:26] INFO root fetch - processPackages [tutor-contrib-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tutor-contrib-aspects-0.9.0.tar.gz tmp/tutor-contrib-aspects-0.9.1.tar.gz --markdown 20240401/t/tutor-contrib-aspects/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 13:17:26] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2024-04-01 13:17:26] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240401/o/odoo-addon-web-notify/16.0.1.0.1-16.0.2.0.0/diff.md --exclude *.pyd
+[2024-04-01 13:17:26] INFO root fetch - processPackages [wasabi-geom]: Downloading https://files.pythonhosted.org/packages/b2/b1/2f4d890e40a3043722efac485b20046e98af8d85072b78dd98b344031877/wasabi_geom-2.2.0-cp36-cp36m-macosx_10_9_x86_64.whl
+[2024-04-01 13:17:27] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-01 13:17:27] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8507367004.tar.gz]
+[2024-04-01 13:17:27] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-01 13:17:27] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-01 13:17:27] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 13:17:27] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.9.0.tar.gz]
+[2024-04-01 13:17:27] INFO root fetch - processPackages [tutor-contrib-aspects]: Remove: archive file [/home/abi/fetcher/tmp/tutor-contrib-aspects-0.9.1.tar.gz]
+[2024-04-01 13:17:27] INFO root fetch - main [MainThread]: End processing [tutor-contrib-aspects]: success
+[2024-04-01 13:17:27] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-01 13:17:27] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-01 13:17:27] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-01 13:17:27] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-01 13:17:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2024-04-01 13:17:27] INFO root fetch - processPackages [wasabi-geom]: executing diffoscope
+[2024-04-01 13:17:27] INFO root fetch - processPackages [wasabi-geom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wasabi-geom-2.1.1.tar.gz tmp/wasabi_geom-2.2.0-cp36-cp36m-macosx_10_9_x86_64.whl.zip --markdown 20240401/w/wasabi-geom/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2024-04-01 13:17:28] INFO root fetch - processPackages [wasabi-geom]: Remove: archive file [/home/abi/fetcher/tmp/wasabi-geom-2.1.1.tar.gz]
+[2024-04-01 13:17:28] INFO root fetch - processPackages [wasabi-geom]: Remove: archive file [/home/abi/fetcher/tmp/wasabi_geom-2.2.0-cp36-cp36m-macosx_10_9_x86_64.whl.zip]
+[2024-04-01 13:17:28] INFO root fetch - main [MainThread]: End processing [wasabi-geom]: success
+[2024-04-01 13:17:28] INFO root fetch - main [MainThread]: Store serial: [22568504]
