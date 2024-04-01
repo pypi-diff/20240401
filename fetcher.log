@@ -5958,3 +5958,36 @@ EOFError: EOF read where object expected
 [2024-04-01 16:22:20] INFO root fetch - processPackages [openbb-charting]: Remove: archive file [/home/abi/fetcher/tmp/openbb_charting-2.0.2.tar.gz]
 [2024-04-01 16:22:20] INFO root fetch - main [MainThread]: End processing [openbb-charting]: success
 [2024-04-01 16:22:20] INFO root fetch - main [MainThread]: Store serial: [22570429]
+[2024-04-01 16:24:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570429]
+[2024-04-01 16:24:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagster-ext
+[2024-04-01 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: godspeed-api
+[2024-04-01 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FacetClumps
+[2024-04-01 16:24:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: latynkatar
+[2024-04-01 16:24:29] INFO root fetch - processPackages [FacetClumps]: New version: [0.0.6] Old Version: [0.0.4]
+[2024-04-01 16:24:29] WARNING root fetch - processPackages [godspeed-api]: Skipping, unable to determine old version
+[2024-04-01 16:24:29] INFO root fetch - main [MainThread]: End processing [godspeed-api] error
+[2024-04-01 16:24:29] INFO root fetch - processPackages [latynkatar]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-01 16:24:29] INFO root fetch - processPackages [dagster-ext]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 16:24:30] INFO root fetch - processPackages [dagster-ext]: Downloading https://files.pythonhosted.org/packages/99/53/4a5ecec39ed98cb2be741d7fb491d8a4dcb2832ef9ea955599a7fed35d61/dagster_ext-0.1.0.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [FacetClumps]: Downloading https://files.pythonhosted.org/packages/62/44/0429870f5d26b676c2f9d7de8db6b0a8f781d0f5487c0b1263f5e90662fd/FacetClumps-0.0.4.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [latynkatar]: Downloading https://files.pythonhosted.org/packages/38/be/c384dcb891b0258f268d78d0ab5fd3082ef1dc9d28188a4d1e5e63078f11/latynkatar-1.1.2.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [FacetClumps]: Downloading https://files.pythonhosted.org/packages/94/6f/649d45ce283c23ee051020a9e7cfc2850b4757f78199684dc542bd833772/FacetClumps-0.0.6.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [latynkatar]: Downloading https://files.pythonhosted.org/packages/0b/df/0028fc9f038dd29ecaff5cc00cb7c0c95758f3aad121461389b961ac17b7/latynkatar-1.1.3.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [dagster-ext]: Downloading https://files.pythonhosted.org/packages/c7/89/c0f60fa809c7e1462126efcae7dc6d5baf8ef05cdd4837029688fa8d2863/dagster_ext-0.1.1.tar.gz
+[2024-04-01 16:24:30] INFO root fetch - processPackages [dagster-ext]: executing diffoscope
+[2024-04-01 16:24:30] INFO root fetch - processPackages [dagster-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagster_ext-0.1.0.tar.gz tmp/dagster_ext-0.1.1.tar.gz --markdown 20240401/d/dagster-ext/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 16:24:30] INFO root fetch - processPackages [FacetClumps]: executing diffoscope
+[2024-04-01 16:24:30] INFO root fetch - processPackages [FacetClumps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FacetClumps-0.0.4.tar.gz tmp/FacetClumps-0.0.6.tar.gz --markdown 20240401/F/FacetClumps/0.0.4-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 16:24:30] INFO root fetch - processPackages [latynkatar]: executing diffoscope
+[2024-04-01 16:24:30] INFO root fetch - processPackages [latynkatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latynkatar-1.1.2.tar.gz tmp/latynkatar-1.1.3.tar.gz --markdown 20240401/l/latynkatar/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-01 16:24:31] INFO root fetch - processPackages [dagster-ext]: Remove: archive file [/home/abi/fetcher/tmp/dagster_ext-0.1.0.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - processPackages [dagster-ext]: Remove: archive file [/home/abi/fetcher/tmp/dagster_ext-0.1.1.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - main [MainThread]: End processing [dagster-ext]: success
+[2024-04-01 16:24:31] INFO root fetch - processPackages [FacetClumps]: Remove: archive file [/home/abi/fetcher/tmp/FacetClumps-0.0.4.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - processPackages [FacetClumps]: Remove: archive file [/home/abi/fetcher/tmp/FacetClumps-0.0.6.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - main [MainThread]: End processing [FacetClumps]: success
+[2024-04-01 16:24:31] INFO root fetch - processPackages [latynkatar]: Remove: archive file [/home/abi/fetcher/tmp/latynkatar-1.1.2.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - processPackages [latynkatar]: Remove: archive file [/home/abi/fetcher/tmp/latynkatar-1.1.3.tar.gz]
+[2024-04-01 16:24:31] INFO root fetch - main [MainThread]: End processing [latynkatar]: success
+[2024-04-01 16:24:31] INFO root fetch - main [MainThread]: Store serial: [22570459]
