@@ -11076,3 +11076,36 @@ EOFError: EOF read where object expected
 [2024-04-01 19:39:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-04-01 19:39:55] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-04-01 19:39:55] INFO root fetch - main [MainThread]: Store serial: [22572874]
+[2024-04-01 19:41:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572874]
+[2024-04-01 19:42:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 19:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vasprocar
+[2024-04-01 19:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nmigate
+[2024-04-01 19:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jupyturtle
+[2024-04-01 19:42:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crewai
+[2024-04-01 19:42:05] WARNING root fetch - processPackages [vasprocar]: Skipping, unable to determine old version
+[2024-04-01 19:42:05] INFO root fetch - main [MainThread]: End processing [vasprocar] error
+[2024-04-01 19:42:05] INFO root fetch - processPackages [nmigate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 19:42:05] INFO root fetch - processPackages [crewai]: New version: [0.5.5] Old Version: [0.5.3]
+[2024-04-01 19:42:05] INFO root fetch - processPackages [jupyturtle]: New version: [2024.4.1] Old Version: [2024.3.30]
+[2024-04-01 19:42:05] INFO root fetch - processPackages [jupyturtle]: Downloading https://files.pythonhosted.org/packages/19/fe/a2f7d6a0938aa1693b7649ce002a5f931b8ba2418c67de3a339157885ead/jupyturtle-2024.3.30.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [nmigate]: Downloading https://files.pythonhosted.org/packages/bd/80/df4b71ed0718e466a3192346915b8d8a1804dc4d59c6f6dd1d317dc4f368/nmigate-0.0.8.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/e9/e3/15cbe7ed14b2b805613edd70fe8d16de0f00ad49e45f0496db0d34c3274c/crewai-0.5.3.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [nmigate]: Downloading https://files.pythonhosted.org/packages/d3/24/031415e4477de1002618e9711d868589ee94e24fcaf7376aa23f337aa68f/nmigate-0.0.9.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [jupyturtle]: Downloading https://files.pythonhosted.org/packages/db/b9/ff1bd96dca39d917e6d52a7afc922e4453a2bc0ec6d681e348448f4d9e2a/jupyturtle-2024.4.1.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [crewai]: Downloading https://files.pythonhosted.org/packages/4e/2d/131d296cf0495637bfea59b11af0767de8fa11466880e3d702ab43a360d0/crewai-0.5.5.tar.gz
+[2024-04-01 19:42:05] INFO root fetch - processPackages [nmigate]: executing diffoscope
+[2024-04-01 19:42:05] INFO root fetch - processPackages [nmigate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmigate-0.0.8.tar.gz tmp/nmigate-0.0.9.tar.gz --markdown 20240401/n/nmigate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 19:42:05] INFO root fetch - processPackages [jupyturtle]: executing diffoscope
+[2024-04-01 19:42:05] INFO root fetch - processPackages [jupyturtle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyturtle-2024.3.30.tar.gz tmp/jupyturtle-2024.4.1.tar.gz --markdown 20240401/j/jupyturtle/2024.3.30-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 19:42:05] INFO root fetch - processPackages [crewai]: executing diffoscope
+[2024-04-01 19:42:05] INFO root fetch - processPackages [crewai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crewai-0.5.3.tar.gz tmp/crewai-0.5.5.tar.gz --markdown 20240401/c/crewai/0.5.3-0.5.5/diff.md --exclude *.pyd
+[2024-04-01 19:42:06] INFO root fetch - processPackages [nmigate]: Remove: archive file [/home/abi/fetcher/tmp/nmigate-0.0.8.tar.gz]
+[2024-04-01 19:42:06] INFO root fetch - processPackages [nmigate]: Remove: archive file [/home/abi/fetcher/tmp/nmigate-0.0.9.tar.gz]
+[2024-04-01 19:42:06] INFO root fetch - main [MainThread]: End processing [nmigate]: success
+[2024-04-01 19:42:06] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.3.tar.gz]
+[2024-04-01 19:42:06] INFO root fetch - processPackages [crewai]: Remove: archive file [/home/abi/fetcher/tmp/crewai-0.5.5.tar.gz]
+[2024-04-01 19:42:06] INFO root fetch - main [MainThread]: End processing [crewai]: success
+[2024-04-01 19:42:07] INFO root fetch - processPackages [jupyturtle]: Remove: archive file [/home/abi/fetcher/tmp/jupyturtle-2024.3.30.tar.gz]
+[2024-04-01 19:42:07] INFO root fetch - processPackages [jupyturtle]: Remove: archive file [/home/abi/fetcher/tmp/jupyturtle-2024.4.1.tar.gz]
+[2024-04-01 19:42:07] INFO root fetch - main [MainThread]: End processing [jupyturtle]: success
+[2024-04-01 19:42:07] INFO root fetch - main [MainThread]: Store serial: [22572889]
