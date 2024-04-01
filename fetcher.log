@@ -6684,3 +6684,96 @@ EOFError: EOF read where object expected
 [2024-04-01 16:53:08] INFO root fetch - processPackages [recommender-xblock]: Remove: archive file [/home/abi/fetcher/tmp/recommender-xblock-2.2.0.tar.gz]
 [2024-04-01 16:53:08] INFO root fetch - main [MainThread]: End processing [recommender-xblock]: success
 [2024-04-01 16:53:08] INFO root fetch - main [MainThread]: Store serial: [22570751]
+[2024-04-01 16:55:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570751]
+[2024-04-01 16:55:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-swagger-coverage
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-tca8418
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: text-to-number
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: parea-ai
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edx-submissions
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: instructor
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IServAPI
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-magtag
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ReferenceDataAccess
+[2024-04-01 16:55:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: MinecraftMotionTools
+[2024-04-01 16:55:17] INFO root fetch - processPackages [instructor]: New version: [1.0.0] Old Version: [0.6.8]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [test-swagger-coverage]: New version: [2.1.62] Old Version: [2.1.61]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [text-to-number]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [parea-ai]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/ec/e4/fe4ef415f674a36a24ab0f9b21989c1e70a2cbb1a3c1a9d534ff82b63262/test_swagger_coverage-2.1.61.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [IServAPI]: New version: [1.0.1] Old Version: [0.2.1]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [edx-submissions]: New version: [3.7.0] Old Version: [3.6.0]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [ReferenceDataAccess]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [MinecraftMotionTools]: New version: [1.7.6] Old Version: [1.7.5]
+[2024-04-01 16:55:17] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/7e/4a/47689631a133a0f7d3f1373a11f55b34a226e22c9530a961683d32250c19/instructor-0.6.8.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [text-to-number]: Downloading https://files.pythonhosted.org/packages/61/07/a7eb84862aaaf940780c6104a80890a838bff3b0c42d48ae3b5bfddd84eb/text_to_number-0.1.1.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/cd/80/fcef2226405a0fb8e3a9a7fbda2b47a712f63d9294eac7e3fc336bbf5b0f/parea_ai-0.2.98.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: Downloading https://files.pythonhosted.org/packages/fc/37/b256c7513db66e9a2bbb1ed25a7e428ebe7b748928221c6cff480db9eff9/adafruit-circuitpython-tca8418-1.0.8.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [edx-submissions]: Downloading https://files.pythonhosted.org/packages/7e/35/0339cf7b1980142d79e79921f5f97430e43a0cdaa361708a7d72c1ebd405/edx-submissions-3.6.0.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Downloading https://files.pythonhosted.org/packages/ca/9d/235b2a13b9211fb55e333b44ff0e988dcf2eda9b3100c12fd40510ca325b/adafruit-circuitpython-magtag-2.2.8.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [IServAPI]: Downloading https://files.pythonhosted.org/packages/41/52/47bcbb7c2a059766c4cd397430204e74f07a2863b1ce18997b81b9e1092e/IServAPI-0.2.1.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [ReferenceDataAccess]: Downloading https://files.pythonhosted.org/packages/ad/e3/00587e0c9ef73911246df2bbb7b12489d0bb2f4cf06795d0f33bb408a134/ReferenceDataAccess-0.1.0.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/c9/21/e0e5c3f102aa98fb325b8bc9dd9a33c7301046a6dfa2f8b43771e7ff2eb6/MinecraftMotionTools-1.7.5.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/9b/38/02bf7124bd49c0d62210c09da9fa902bf139cebdbd8d310a5a58c225e8cc/test_swagger_coverage-2.1.62.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [instructor]: Downloading https://files.pythonhosted.org/packages/5a/a4/c3bca2836b1423547900ebfeb25b2540f1aeebdf4aab98d0bfd022b4e932/instructor-1.0.0.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [text-to-number]: Downloading https://files.pythonhosted.org/packages/14/95/ecb248df058b1a66ca3b1e9604189a3f61b46ce7d20ab211c77bbe6b6bbc/text_to_number-0.1.2.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [test-swagger-coverage]: executing diffoscope
+[2024-04-01 16:55:17] INFO root fetch - processPackages [test-swagger-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_swagger_coverage-2.1.61.tar.gz tmp/test_swagger_coverage-2.1.62.tar.gz --markdown 20240401/t/test-swagger-coverage/2.1.61-2.1.62/diff.md --exclude *.pyd
+[2024-04-01 16:55:17] INFO root fetch - processPackages [instructor]: executing diffoscope
+[2024-04-01 16:55:17] INFO root fetch - processPackages [instructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instructor-0.6.8.tar.gz tmp/instructor-1.0.0.tar.gz --markdown 20240401/i/instructor/0.6.8-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 16:55:17] INFO root fetch - processPackages [edx-submissions]: Downloading https://files.pythonhosted.org/packages/9f/b4/03732ce0eb91040f4213ebc052b05f7c0da015f3e359a0f4dd52bfb58d08/edx-submissions-3.7.0.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [IServAPI]: Downloading https://files.pythonhosted.org/packages/e9/4e/c15d4a5a14dcddb7530d89aa4e167180f564f9057a1ad17e2ef3c18c3b80/IServAPI-1.0.1.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [ReferenceDataAccess]: Downloading https://files.pythonhosted.org/packages/b5/41/36ced597247f57b7a93104bfa39fa80d16b283d49bb4ea22d98f726ea91e/ReferenceDataAccess-0.1.1.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [text-to-number]: executing diffoscope
+[2024-04-01 16:55:17] INFO root fetch - processPackages [text-to-number]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_to_number-0.1.1.tar.gz tmp/text_to_number-0.1.2.tar.gz --markdown 20240401/t/text-to-number/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: Downloading https://files.pythonhosted.org/packages/b3/bb/26ba9d5e19cab592492defa46f9fa8a65cfa466434338bfeb32771aef37d/adafruit-circuitpython-tca8418-1.0.9.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [MinecraftMotionTools]: Downloading https://files.pythonhosted.org/packages/a4/9e/f43ea272943c21eef7ed1c3b9b3a30ce1f6963c27c3ba5b75ce65c801575/MinecraftMotionTools-1.7.6.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [parea-ai]: Downloading https://files.pythonhosted.org/packages/9d/1c/c389e28a1a12c54ff1c8111a2f00058e77ba07333943eb06d3592659a691/parea_ai-0.2.99.tar.gz
+[2024-04-01 16:55:17] INFO root fetch - processPackages [IServAPI]: executing diffoscope
+[2024-04-01 16:55:17] INFO root fetch - processPackages [IServAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IServAPI-0.2.1.tar.gz tmp/IServAPI-1.0.1.tar.gz --markdown 20240401/I/IServAPI/0.2.1-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 16:55:17] INFO root fetch - processPackages [edx-submissions]: executing diffoscope
+[2024-04-01 16:55:17] INFO root fetch - processPackages [edx-submissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-submissions-3.6.0.tar.gz tmp/edx-submissions-3.7.0.tar.gz --markdown 20240401/e/edx-submissions/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2024-04-01 16:55:17] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Downloading https://files.pythonhosted.org/packages/de/ee/63b70f5d3b75537a3b2a970fb6a8c875210e1a5fea11085b850f6d6d5f41/adafruit-circuitpython-magtag-2.2.9.tar.gz
+[2024-04-01 16:55:18] INFO root fetch - processPackages [ReferenceDataAccess]: executing diffoscope
+[2024-04-01 16:55:18] INFO root fetch - processPackages [ReferenceDataAccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReferenceDataAccess-0.1.0.tar.gz tmp/ReferenceDataAccess-0.1.1.tar.gz --markdown 20240401/R/ReferenceDataAccess/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 16:55:18] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: executing diffoscope
+[2024-04-01 16:55:18] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-tca8418-1.0.8.tar.gz tmp/adafruit-circuitpython-tca8418-1.0.9.tar.gz --markdown 20240401/a/adafruit-circuitpython-tca8418/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 16:55:18] INFO root fetch - processPackages [MinecraftMotionTools]: executing diffoscope
+[2024-04-01 16:55:18] INFO root fetch - processPackages [MinecraftMotionTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinecraftMotionTools-1.7.5.tar.gz tmp/MinecraftMotionTools-1.7.6.tar.gz --markdown 20240401/M/MinecraftMotionTools/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2024-04-01 16:55:18] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: executing diffoscope
+[2024-04-01 16:55:18] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-magtag-2.2.8.tar.gz tmp/adafruit-circuitpython-magtag-2.2.9.tar.gz --markdown 20240401/a/adafruit-circuitpython-magtag/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-01 16:55:18] INFO root fetch - processPackages [parea-ai]: executing diffoscope
+[2024-04-01 16:55:18] INFO root fetch - processPackages [parea-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parea_ai-0.2.98.tar.gz tmp/parea_ai-0.2.99.tar.gz --markdown 20240401/p/parea-ai/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-01 16:55:18] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-0.6.8.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - processPackages [instructor]: Remove: archive file [/home/abi/fetcher/tmp/instructor-1.0.0.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - main [MainThread]: End processing [instructor]: success
+[2024-04-01 16:55:18] INFO root fetch - processPackages [text-to-number]: Remove: archive file [/home/abi/fetcher/tmp/text_to_number-0.1.1.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - processPackages [text-to-number]: Remove: archive file [/home/abi/fetcher/tmp/text_to_number-0.1.2.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - main [MainThread]: End processing [text-to-number]: success
+[2024-04-01 16:55:18] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.61.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.62.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - main [MainThread]: End processing [test-swagger-coverage]: success
+[2024-04-01 16:55:18] INFO root fetch - processPackages [IServAPI]: Remove: archive file [/home/abi/fetcher/tmp/IServAPI-0.2.1.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - processPackages [IServAPI]: Remove: archive file [/home/abi/fetcher/tmp/IServAPI-1.0.1.tar.gz]
+[2024-04-01 16:55:18] INFO root fetch - main [MainThread]: End processing [IServAPI]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-tca8418-1.0.8.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [adafruit-circuitpython-tca8418]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-tca8418-1.0.9.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-tca8418]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [edx-submissions]: Remove: archive file [/home/abi/fetcher/tmp/edx-submissions-3.6.0.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [edx-submissions]: Remove: archive file [/home/abi/fetcher/tmp/edx-submissions-3.7.0.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [edx-submissions]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-magtag-2.2.8.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [adafruit-circuitpython-magtag]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-magtag-2.2.9.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-magtag]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [ReferenceDataAccess]: Remove: archive file [/home/abi/fetcher/tmp/ReferenceDataAccess-0.1.0.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [ReferenceDataAccess]: Remove: archive file [/home/abi/fetcher/tmp/ReferenceDataAccess-0.1.1.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [ReferenceDataAccess]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.7.5.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [MinecraftMotionTools]: Remove: archive file [/home/abi/fetcher/tmp/MinecraftMotionTools-1.7.6.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [MinecraftMotionTools]: success
+[2024-04-01 16:55:19] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.98.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
+[2024-04-01 16:55:19] INFO root fetch - main [MainThread]: Store serial: [22570789]
