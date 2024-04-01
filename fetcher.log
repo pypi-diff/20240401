@@ -4109,3 +4109,53 @@ EOFError: EOF read where object expected
 [2024-04-01 15:14:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2024-04-01 15:14:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
 [2024-04-01 15:14:37] INFO root fetch - main [MainThread]: Store serial: [22569528]
+[2024-04-01 15:16:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569528]
+[2024-04-01 15:16:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sbcli-mig
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ookcatalog
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lineup-lang
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sony-custom-layers-dev
+[2024-04-01 15:16:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eindex-callum
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 15:16:47] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:16:47] WARNING root fetch - processPackages [eindex-callum]: Skipping, unable to determine old version
+[2024-04-01 15:16:47] INFO root fetch - main [MainThread]: End processing [eindex-callum] error
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-01 15:16:47] WARNING root fetch - processPackages [lineup-lang]: Skipping, unable to determine old version
+[2024-04-01 15:16:47] INFO root fetch - main [MainThread]: End processing [lineup-lang] error
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sony-custom-layers-dev]: New version: [0.2.0.dev3] Old Version: [0.2.0.dev2]
+[2024-04-01 15:16:47] INFO root fetch - processPackages [ookcatalog]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-01 15:16:47] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 15:16:47] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/f9/7c/6276a4839179f2856e7008345d0cfa20b6e4e5ae11ce7fa3d6f67d9ec762/sony_custom_layers_dev-0.2.0.dev2-py3-none-any.whl
+[2024-04-01 15:16:47] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/a7/ac/abd30866a35d420d00b9c81c937d34df516516aab92f66a90635d114e870/bigdl_core_xe_esimd-2.5.0b20240331-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-01 15:16:47] INFO root fetch - processPackages [ookcatalog]: Downloading https://files.pythonhosted.org/packages/3a/72/fdafb747ad0fe72814fcf2fc156f4438e2d40eb458d6b987b24382357b86/ookcatalog-0.1.1.tar.gz
+[2024-04-01 15:16:47] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-01 15:16:47] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865774>=10485760
+[2024-04-01 15:16:47] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-01 15:16:47] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:16:47] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240401/s/sbcli-mig/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:16:47] INFO root fetch - processPackages [ookcatalog]: Downloading https://files.pythonhosted.org/packages/d8/b1/c40297843a102083bd0aee4784180d1ae1d1a012d35a9f6a4a7d54347a16/ookcatalog-0.2.0.tar.gz
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sony-custom-layers-dev]: Downloading https://files.pythonhosted.org/packages/c7/1d/36727b8eff8d3fcc507b02f178b72db7236f2734f3e847d5c37030a0bbdc/sony_custom_layers_dev-0.2.0.dev3-py3-none-any.whl
+[2024-04-01 15:16:47] INFO root fetch - processPackages [ookcatalog]: executing diffoscope
+[2024-04-01 15:16:47] INFO root fetch - processPackages [ookcatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ookcatalog-0.1.1.tar.gz tmp/ookcatalog-0.2.0.tar.gz --markdown 20240401/o/ookcatalog/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sony-custom-layers-dev]: executing diffoscope
+[2024-04-01 15:16:47] INFO root fetch - processPackages [sony-custom-layers-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sony_custom_layers_dev-0.2.0.dev2-py3-none-any.whl.zip tmp/sony_custom_layers_dev-0.2.0.dev3-py3-none-any.whl.zip --markdown 20240401/s/sony-custom-layers-dev/0.2.0.dev2-0.2.0.dev3/diff.md --exclude *.pyd
+[2024-04-01 15:16:48] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:16:48] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:16:48] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:16:48] INFO root fetch - processPackages [ookcatalog]: Remove: archive file [/home/abi/fetcher/tmp/ookcatalog-0.1.1.tar.gz]
+[2024-04-01 15:16:48] INFO root fetch - processPackages [ookcatalog]: Remove: archive file [/home/abi/fetcher/tmp/ookcatalog-0.2.0.tar.gz]
+[2024-04-01 15:16:48] INFO root fetch - main [MainThread]: End processing [ookcatalog]: success
+[2024-04-01 15:16:48] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev2-py3-none-any.whl.zip]
+[2024-04-01 15:16:48] INFO root fetch - processPackages [sony-custom-layers-dev]: Remove: archive file [/home/abi/fetcher/tmp/sony_custom_layers_dev-0.2.0.dev3-py3-none-any.whl.zip]
+[2024-04-01 15:16:48] INFO root fetch - main [MainThread]: End processing [sony-custom-layers-dev]: success
+[2024-04-01 15:16:48] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-01 15:16:48] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-01 15:16:48] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-01 15:16:48] INFO root fetch - main [MainThread]: Store serial: [22569550]
