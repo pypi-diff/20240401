@@ -11490,3 +11490,84 @@ EOFError: EOF read where object expected
 [2024-04-01 19:57:55] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-04-01 19:57:55] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-04-01 19:57:55] INFO root fetch - main [MainThread]: Store serial: [22573096]
+[2024-04-01 19:59:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573096]
+[2024-04-01 20:00:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polars
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polars-lts-cpu
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: polars-u64-idx
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crm1
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efficientvit-gml
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: histomicsui
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scorecard-ai
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: h5analysis
+[2024-04-01 20:00:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GP8XXX-IIC
+[2024-04-01 20:00:04] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [efficientvit-gml]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [histomicsui]: New version: [1.5.1.dev8] Old Version: [1.5.1.dev6]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-01 20:00:04] WARNING root fetch - processPackages [crm1]: Skipping, unable to determine old version
+[2024-04-01 20:00:04] INFO root fetch - main [MainThread]: End processing [crm1] error
+[2024-04-01 20:00:04] INFO root fetch - processPackages [scorecard-ai]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-01 20:00:04] WARNING root fetch - processPackages [GP8XXX-IIC]: Skipping, unable to determine old version
+[2024-04-01 20:00:04] INFO root fetch - main [MainThread]: End processing [GP8XXX-IIC] error
+[2024-04-01 20:00:04] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/f6/3d/a68937d1b7b7aea85a75f4eb5b7c7c947396cf00dc57da75500dab1f720e/efficientvit_gml-0.1.5-py3-none-any.whl
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars-lts-cpu]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars-u64-idx]: New version: [0.20.9] Old Version: [0.20.8]
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/22/c0/7c8fcfe8d4d7376848e02a8a3975268cbd0ec0f863fbf3338068ff73c90f/polars_lts_cpu-0.20.8.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/ff/0a/96da93f64f0e7861ce37188c72fc1803d5afcf4f5ec3d80d34b05970299d/scorecard_ai-0.1.8.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/2b/fb/2aa35cf7e64943cb4db2b0c6800b2190f03b8d885b698e509b770b4cbe05/histomicsui-1.5.1.dev6.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/5c/9e/da38f2488beaaddc2cb54403b8c016e3e1ba7a4c8fc870e9010ec1197aef/polars_u64_idx-0.20.8.tar.gz
+[2024-04-01 20:00:04] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/f8/22/7d7660c1d248ec258e1531537f50502ba3fb29996a3e3f7b496aa66e5fdf/efficientvit_gml-0.1.6-py3-none-any.whl
+[2024-04-01 20:00:04] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-01 20:00:04] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240401/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 20:00:04] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2024-04-01 20:00:05] INFO root fetch - processPackages [efficientvit-gml]: executing diffoscope
+[2024-04-01 20:00:05] INFO root fetch - processPackages [efficientvit-gml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficientvit_gml-0.1.5-py3-none-any.whl.zip tmp/efficientvit_gml-0.1.6-py3-none-any.whl.zip --markdown 20240401/e/efficientvit-gml/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 20:00:05] INFO root fetch - processPackages [scorecard-ai]: Downloading https://files.pythonhosted.org/packages/63/8d/1a774dde92a2f86cb45cd76d161736623acbcb249dfe35c3fecbff85eb84/scorecard_ai-0.2.0.tar.gz
+[2024-04-01 20:00:05] INFO root fetch - processPackages [histomicsui]: Downloading https://files.pythonhosted.org/packages/8f/86/131dbde9c81c529f48c84bf3e6eca755eb157d661c4e01be5627aa84d3c7/histomicsui-1.5.1.dev8.tar.gz
+[2024-04-01 20:00:05] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-01 20:00:05] INFO root fetch - processPackages [polars]: executing diffoscope
+[2024-04-01 20:00:05] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20240401/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 20:00:05] INFO root fetch - processPackages [scorecard-ai]: executing diffoscope
+[2024-04-01 20:00:05] INFO root fetch - processPackages [scorecard-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scorecard_ai-0.1.8.tar.gz tmp/scorecard_ai-0.2.0.tar.gz --markdown 20240401/s/scorecard-ai/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 20:00:05] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-01 20:00:05] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240401/h/h5analysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:00:05] INFO root fetch - processPackages [histomicsui]: executing diffoscope
+[2024-04-01 20:00:05] INFO root fetch - processPackages [histomicsui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/histomicsui-1.5.1.dev6.tar.gz tmp/histomicsui-1.5.1.dev8.tar.gz --markdown 20240401/h/histomicsui/1.5.1.dev6-1.5.1.dev8/diff.md --exclude *.pyd
+[2024-04-01 20:00:05] INFO root fetch - processPackages [polars-lts-cpu]: Downloading https://files.pythonhosted.org/packages/33/5e/df508475e1d147ef4c8bc6849d8274906574714b6f551b1e6674c7b94c3a/polars_lts_cpu-0.20.9.tar.gz
+[2024-04-01 20:00:05] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit_gml-0.1.5-py3-none-any.whl.zip]
+[2024-04-01 20:00:05] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit_gml-0.1.6-py3-none-any.whl.zip]
+[2024-04-01 20:00:05] INFO root fetch - main [MainThread]: End processing [efficientvit-gml]: success
+[2024-04-01 20:00:06] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-0.1.8.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - processPackages [scorecard-ai]: Remove: archive file [/home/abi/fetcher/tmp/scorecard_ai-0.2.0.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - main [MainThread]: End processing [scorecard-ai]: success
+[2024-04-01 20:00:06] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-01 20:00:06] INFO root fetch - processPackages [polars-lts-cpu]: executing diffoscope
+[2024-04-01 20:00:06] INFO root fetch - processPackages [polars-lts-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_lts_cpu-0.20.8.tar.gz tmp/polars_lts_cpu-0.20.9.tar.gz --markdown 20240401/p/polars-lts-cpu/0.20.8-0.20.9/diff.md --exclude *.pyd
+[2024-04-01 20:00:06] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.5.1.dev6.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - processPackages [histomicsui]: Remove: archive file [/home/abi/fetcher/tmp/histomicsui-1.5.1.dev8.tar.gz]
+[2024-04-01 20:00:06] INFO root fetch - main [MainThread]: End processing [histomicsui]: success
+[2024-04-01 20:00:07] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-01 20:00:07] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-01 20:00:07] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-01 20:00:07] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2024-04-01 20:00:07] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2024-04-01 20:00:07] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2024-04-01 20:00:09] INFO root fetch - processPackages [polars-u64-idx]: Downloading https://files.pythonhosted.org/packages/bf/d5/35ea31387b107a09be335c63708294033b3cc0d21fa1fe68eae967ae3855/polars_u64_idx-0.20.9.tar.gz
+[2024-04-01 20:00:10] INFO root fetch - processPackages [polars-u64-idx]: executing diffoscope
+[2024-04-01 20:00:10] INFO root fetch - processPackages [polars-u64-idx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_u64_idx-0.20.8.tar.gz tmp/polars_u64_idx-0.20.9.tar.gz --markdown 20240401/p/polars-u64-idx/0.20.8-0.20.9/diff.md --exclude *.pyd
+[2024-04-01 20:00:19] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.8.tar.gz]
+[2024-04-01 20:00:19] INFO root fetch - processPackages [polars-lts-cpu]: Remove: archive file [/home/abi/fetcher/tmp/polars_lts_cpu-0.20.9.tar.gz]
+[2024-04-01 20:00:19] INFO root fetch - main [MainThread]: End processing [polars-lts-cpu]: success
+[2024-04-01 20:00:23] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.8.tar.gz]
+[2024-04-01 20:00:23] INFO root fetch - processPackages [polars-u64-idx]: Remove: archive file [/home/abi/fetcher/tmp/polars_u64_idx-0.20.9.tar.gz]
+[2024-04-01 20:00:23] INFO root fetch - main [MainThread]: End processing [polars-u64-idx]: success
+[2024-04-01 20:00:23] INFO root fetch - main [MainThread]: Store serial: [22573141]
