@@ -1067,3 +1067,15 @@ EOFError: EOF read where object expected
 [2024-04-01 12:24:32] INFO root fetch - processPackages [scipion-em-flexutils]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-flexutils-3.1.6.tar.gz]
 [2024-04-01 12:24:32] INFO root fetch - main [MainThread]: End processing [scipion-em-flexutils]: success
 [2024-04-01 12:24:32] INFO root fetch - main [MainThread]: Store serial: [22568158]
+[2024-04-01 12:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568158]
+[2024-04-01 12:26:41] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 12:26:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boxset
+[2024-04-01 12:26:41] INFO root fetch - processPackages [boxset]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-01 12:26:41] INFO root fetch - processPackages [boxset]: Downloading https://files.pythonhosted.org/packages/0a/25/6f814b2d64f8c537f46b1bc7df99a5485b2eb9a01e92833c6508216496ec/boxset-0.1.0-py3-none-any.whl
+[2024-04-01 12:26:42] INFO root fetch - processPackages [boxset]: Downloading https://files.pythonhosted.org/packages/3f/7c/a8341dbdc234f87fa1d2f2045deb5fe890f6588271dc60e43d3ac349e46d/boxset-0.2.0-py3-none-any.whl
+[2024-04-01 12:26:42] INFO root fetch - processPackages [boxset]: executing diffoscope
+[2024-04-01 12:26:42] INFO root fetch - processPackages [boxset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxset-0.1.0-py3-none-any.whl.zip tmp/boxset-0.2.0-py3-none-any.whl.zip --markdown 20240401/b/boxset/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 12:26:42] INFO root fetch - processPackages [boxset]: Remove: archive file [/home/abi/fetcher/tmp/boxset-0.1.0-py3-none-any.whl.zip]
+[2024-04-01 12:26:42] INFO root fetch - processPackages [boxset]: Remove: archive file [/home/abi/fetcher/tmp/boxset-0.2.0-py3-none-any.whl.zip]
+[2024-04-01 12:26:42] INFO root fetch - main [MainThread]: End processing [boxset]: success
+[2024-04-01 12:26:42] INFO root fetch - main [MainThread]: Store serial: [22568161]
