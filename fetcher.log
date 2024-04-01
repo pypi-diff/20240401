@@ -8066,3 +8066,70 @@ EOFError: EOF read where object expected
 [2024-04-01 17:42:23] INFO root fetch - processPackages [array-record]: Remove: archive file [/home/abi/fetcher/tmp/array_record-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-01 17:42:23] INFO root fetch - main [MainThread]: End processing [array-record]: success
 [2024-04-01 17:42:23] INFO root fetch - main [MainThread]: Store serial: [22571392]
+[2024-04-01 17:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571392]
+[2024-04-01 17:44:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-payment-order
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creyPY
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scalifiai-client
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: local_tuya
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenconfig
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-04-01 17:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scalifiai-client
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a5] Old Version: [1.2.0a4]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a5] Old Version: [1.2.0a4]
+[2024-04-01 17:44:39] WARNING root fetch - processPackages [creyPY]: Skipping, unable to determine old version
+[2024-04-01 17:44:39] INFO root fetch - main [MainThread]: End processing [creyPY] error
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: New version: [14.0.1.4.0] Old Version: [14.0.1.3.0]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [local_tuya]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [zenconfig]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/b6/12/8783b2db2a4d01c662151d982e800c8ba943282b8b9e89b96685de699084/scalifiai-client-1.2.0a4.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/b6/12/8783b2db2a4d01c662151d982e800c8ba943282b8b9e89b96685de699084/scalifiai-client-1.2.0a4.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 17:44:39] INFO root fetch - processPackages [local_tuya]: Downloading https://files.pythonhosted.org/packages/9f/ae/e0eae0cb0f56cf93229e16a8d2361fd91553799d62bc4b19033add93d5af/local_tuya-2.2.0.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: Downloading https://files.pythonhosted.org/packages/d6/1d/b0120fed055ff3bf3e2f8ecfdc49c346906269e6f9384e52d68263560e26/odoo14_addon_ssi_payment_order-14.0.1.3.0-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [zenconfig]: Downloading https://files.pythonhosted.org/packages/61/c1/68efac466c0e2ae647bce52ace66618cd8bdc0b3edd2245b4e4505c9d0ef/zenconfig-2.1.0.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/83/cd/1aedc1d67f06cdc77c288c04ff781a877853376b67db46cc1cf1a4dbd73c/scalifiai-client-1.2.0a5.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/83/cd/1aedc1d67f06cdc77c288c04ff781a877853376b67db46cc1cf1a4dbd73c/scalifiai-client-1.2.0a5.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [local_tuya]: Downloading https://files.pythonhosted.org/packages/c3/3f/15ac694d5f8fb4a458245fd727857468cb91bdc577dba844e4a170cd4a97/local_tuya-2.2.1.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a4.tar.gz tmp/scalifiai-client-1.2.0a5.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a4-1.2.0a5/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a4.tar.gz tmp/scalifiai-client-1.2.0a5.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a4-1.2.0a5/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [zenconfig]: Downloading https://files.pythonhosted.org/packages/38/b2/636fff4cd3a3c7417cbc2a8030e18c577b0741210a09f4c3c9cc4039c989/zenconfig-2.1.1.tar.gz
+[2024-04-01 17:44:39] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: Downloading https://files.pythonhosted.org/packages/4f/fc/b06b25e5c90500f4a20c900f963d06da7e3da6dfe8143829d572e15e5064/odoo14_addon_ssi_payment_order-14.0.1.4.0-py3-none-any.whl
+[2024-04-01 17:44:39] INFO root fetch - processPackages [local_tuya]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [local_tuya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/local_tuya-2.2.0.tar.gz tmp/local_tuya-2.2.1.tar.gz --markdown 20240401/l/local_tuya/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [zenconfig]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [zenconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenconfig-2.1.0.tar.gz tmp/zenconfig-2.1.1.tar.gz --markdown 20240401/z/zenconfig/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-01 17:44:39] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: executing diffoscope
+[2024-04-01 17:44:39] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_payment_order-14.0.1.3.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_payment_order-14.0.1.4.0-py3-none-any.whl.zip --markdown 20240401/o/odoo14-addon-ssi-payment-order/14.0.1.3.0-14.0.1.4.0/diff.md --exclude *.pyd
+[2024-04-01 17:44:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a4.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a5.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:44:40] INFO root fetch - processPackages [local_tuya]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya-2.2.0.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - processPackages [local_tuya]: Remove: archive file [/home/abi/fetcher/tmp/local_tuya-2.2.1.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [local_tuya]: success
+[2024-04-01 17:44:40] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_payment_order-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-04-01 17:44:40] INFO root fetch - processPackages [odoo14-addon-ssi-payment-order]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_payment_order-14.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-payment-order]: success
+[2024-04-01 17:44:40] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 17:44:40] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-01 17:44:40] INFO root fetch - processPackages [zenconfig]: Remove: archive file [/home/abi/fetcher/tmp/zenconfig-2.1.0.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - processPackages [zenconfig]: Remove: archive file [/home/abi/fetcher/tmp/zenconfig-2.1.1.tar.gz]
+[2024-04-01 17:44:40] INFO root fetch - main [MainThread]: End processing [zenconfig]: success
+[2024-04-01 17:44:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 17:44:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 17:44:41] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-01 17:44:41] INFO root fetch - main [MainThread]: Store serial: [22571413]
