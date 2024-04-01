@@ -6535,3 +6535,29 @@ EOFError: EOF read where object expected
 [2024-04-01 16:46:32] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.45.0.post1070-cp39-cp39-macosx_10_7_x86_64.whl.zip]
 [2024-04-01 16:46:32] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
 [2024-04-01 16:46:32] INFO root fetch - main [MainThread]: Store serial: [22570696]
+[2024-04-01 16:48:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570696]
+[2024-04-01 16:48:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 16:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edx-auth-backends
+[2024-04-01 16:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gameInvasion3
+[2024-04-01 16:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-stripe
+[2024-04-01 16:48:41] INFO root fetch - processPackages [gameInvasion3]: New version: [1.1.19] Old Version: [1.1.18]
+[2024-04-01 16:48:41] INFO root fetch - processPackages [gameInvasion3]: Downloading https://files.pythonhosted.org/packages/af/a9/7f4bec856dc6ccb49b2650157bfea438647a701b9735b2206f8765f54bd6/gameInvasion3-1.1.18.tar.gz
+[2024-04-01 16:48:41] INFO root fetch - processPackages [edx-auth-backends]: New version: [4.3.0] Old Version: [4.2.0]
+[2024-04-01 16:48:41] INFO root fetch - processPackages [pulumi-stripe]: New version: [0.0.8] Old Version: [0.0.23]
+[2024-04-01 16:48:41] WARNING root fetch - processPackages [gameInvasion3]: Skipping package: exceeds size limit 15695158>=10485760
+[2024-04-01 16:48:41] INFO root fetch - main [MainThread]: End processing [gameInvasion3] error
+[2024-04-01 16:48:41] INFO root fetch - processPackages [edx-auth-backends]: Downloading https://files.pythonhosted.org/packages/bc/da/b3113664a8d2d5f3a58b191d432006d3600b60156f163b886361b1c99505/edx-auth-backends-4.2.0.tar.gz
+[2024-04-01 16:48:41] INFO root fetch - processPackages [pulumi-stripe]: Downloading https://files.pythonhosted.org/packages/c0/be/7efac3ef0a65ddd38cab81f9b72aa3296f5277c9205804a3d1e426479a65/pulumi_stripe-0.0.23.tar.gz
+[2024-04-01 16:48:42] INFO root fetch - processPackages [edx-auth-backends]: Downloading https://files.pythonhosted.org/packages/48/63/72528a78894cd3d1dc171bb03a86272b907df8933e7f105319945f3545f5/edx-auth-backends-4.3.0.tar.gz
+[2024-04-01 16:48:42] INFO root fetch - processPackages [edx-auth-backends]: executing diffoscope
+[2024-04-01 16:48:42] INFO root fetch - processPackages [edx-auth-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-auth-backends-4.2.0.tar.gz tmp/edx-auth-backends-4.3.0.tar.gz --markdown 20240401/e/edx-auth-backends/4.2.0-4.3.0/diff.md --exclude *.pyd
+[2024-04-01 16:48:42] INFO root fetch - processPackages [edx-auth-backends]: Remove: archive file [/home/abi/fetcher/tmp/edx-auth-backends-4.2.0.tar.gz]
+[2024-04-01 16:48:42] INFO root fetch - processPackages [edx-auth-backends]: Remove: archive file [/home/abi/fetcher/tmp/edx-auth-backends-4.3.0.tar.gz]
+[2024-04-01 16:48:42] INFO root fetch - main [MainThread]: End processing [edx-auth-backends]: success
+[2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: Downloading https://files.pythonhosted.org/packages/74/1f/0ace10b79511942d1ef1b5802e649ecda81d9c0cf00f539eb309c9a9a44d/pulumi_stripe-0.0.8.tar.gz
+[2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: executing diffoscope
+[2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_stripe-0.0.23.tar.gz tmp/pulumi_stripe-0.0.8.tar.gz --markdown 20240401/p/pulumi-stripe/0.0.23-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_stripe-0.0.23.tar.gz]
+[2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_stripe-0.0.8.tar.gz]
+[2024-04-01 16:48:45] INFO root fetch - main [MainThread]: End processing [pulumi-stripe]: success
+[2024-04-01 16:48:45] INFO root fetch - main [MainThread]: Store serial: [22570712]
