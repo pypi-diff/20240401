@@ -14029,3 +14029,24 @@ EOFError: EOF read where object expected
 [2024-04-01 21:48:34] INFO root fetch - processPackages [hyperdiv]: Remove: archive file [/home/abi/fetcher/tmp/hyperdiv-0.1.6.tar.gz]
 [2024-04-01 21:48:34] INFO root fetch - main [MainThread]: End processing [hyperdiv]: success
 [2024-04-01 21:48:34] INFO root fetch - main [MainThread]: Store serial: [22574273]
+[2024-04-01 21:50:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574273]
+[2024-04-01 21:50:43] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 21:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: retrack
+[2024-04-01 21:50:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yfinance-cache
+[2024-04-01 21:50:44] INFO root fetch - processPackages [retrack]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-04-01 21:50:44] INFO root fetch - processPackages [yfinance-cache]: New version: [0.6.0rc1] Old Version: [0.5.4]
+[2024-04-01 21:50:44] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/1b/c6/849ca1efd8e70478fe83c8ee5c9943ca9ef71c0484b6582d4f244ac2bcc3/retrack-2.3.2.tar.gz
+[2024-04-01 21:50:44] INFO root fetch - processPackages [yfinance-cache]: Downloading https://files.pythonhosted.org/packages/64/a4/ed9eb99f6ef7133c4b65311fe363c029b3b1d5995a36dc9a416da45a4b9f/yfinance-cache-0.5.4.tar.gz
+[2024-04-01 21:50:44] INFO root fetch - processPackages [yfinance-cache]: Downloading https://files.pythonhosted.org/packages/6c/7b/48b26e97f79d345b21b5f2750de84cea6a2e6ead44455c434b00208c369a/yfinance-cache-0.6.0rc1.tar.gz
+[2024-04-01 21:50:44] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/5b/ef/dd484d1b328aa09a5d4686dc782df829137e93ee5d5af4c6a91769a9e089/retrack-2.4.0.tar.gz
+[2024-04-01 21:50:44] INFO root fetch - processPackages [yfinance-cache]: executing diffoscope
+[2024-04-01 21:50:44] INFO root fetch - processPackages [yfinance-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfinance-cache-0.5.4.tar.gz tmp/yfinance-cache-0.6.0rc1.tar.gz --markdown 20240401/y/yfinance-cache/0.5.4-0.6.0rc1/diff.md --exclude *.pyd
+[2024-04-01 21:50:44] INFO root fetch - processPackages [retrack]: executing diffoscope
+[2024-04-01 21:50:44] INFO root fetch - processPackages [retrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrack-2.3.2.tar.gz tmp/retrack-2.4.0.tar.gz --markdown 20240401/r/retrack/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2024-04-01 21:50:45] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-2.3.2.tar.gz]
+[2024-04-01 21:50:45] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-2.4.0.tar.gz]
+[2024-04-01 21:50:45] INFO root fetch - main [MainThread]: End processing [retrack]: success
+[2024-04-01 21:50:45] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.5.4.tar.gz]
+[2024-04-01 21:50:45] INFO root fetch - processPackages [yfinance-cache]: Remove: archive file [/home/abi/fetcher/tmp/yfinance-cache-0.6.0rc1.tar.gz]
+[2024-04-01 21:50:45] INFO root fetch - main [MainThread]: End processing [yfinance-cache]: success
+[2024-04-01 21:50:45] INFO root fetch - main [MainThread]: Store serial: [22574279]
