@@ -3211,3 +3211,54 @@ EOFError: EOF read where object expected
 [2024-04-01 14:24:09] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-2.1.0.tar.gz]
 [2024-04-01 14:24:09] INFO root fetch - main [MainThread]: End processing [arion-library]: success
 [2024-04-01 14:24:09] INFO root fetch - main [MainThread]: Store serial: [22569126]
+[2024-04-01 14:26:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569126]
+[2024-04-01 14:26:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytorch-ignite
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tj-text
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytubefix
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onysys-opensearch
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optidata-core
+[2024-04-01 14:26:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torrentp
+[2024-04-01 14:26:19] INFO root fetch - processPackages [pytubefix]: New version: [4.0rc2] Old Version: [4.0rc1]
+[2024-04-01 14:26:19] INFO root fetch - processPackages [torrentp]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-01 14:26:19] WARNING root fetch - processPackages [onysys-opensearch]: Skipping, unable to determine old version
+[2024-04-01 14:26:19] INFO root fetch - main [MainThread]: End processing [onysys-opensearch] error
+[2024-04-01 14:26:19] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/f9/cf/c92313eb279ffcae98ebd8257f6091497d3209e68ec03b2a4675b9e00bf2/pytubefix-4.0rc1.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [optidata-core]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-01 14:26:19] INFO root fetch - processPackages [torrentp]: Downloading https://files.pythonhosted.org/packages/de/b1/9c4bc0e2211d0139e9b3b5eb9723415525a1ab472b34300dfd06a4236589/torrentp-0.1.7.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [tj-text]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-01 14:26:19] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240401] Old Version: [0.5.0.post2]
+[2024-04-01 14:26:19] INFO root fetch - processPackages [tj-text]: Downloading https://files.pythonhosted.org/packages/4b/51/fe44ecd7170d92655d5a87720d80a8fb7f6386ee565f5bac36aeace04dc1/tj_text-0.8.0.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/41/81/e5a739ba100ec81e8d9cb0e4f4bfaeb017009dda6c1b4074717855a62f91/pytorch-ignite-0.5.0.post2.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/c5/4e/635687137fdc095db76c4efe89965e6301c067406c20fb621d086abd19e6/optidata-core-1.8.0.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [torrentp]: Downloading https://files.pythonhosted.org/packages/b5/7d/df36630503ec593df98eb21324a694939d4c1d6e65812c81c9e3594f975f/torrentp-0.1.9.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/58/6a/7abe975782d31e3e634b1bee7ac45c92e53c64e923f56f4349e43c964285/pytubefix-4.0rc2.tar.gz
+[2024-04-01 14:26:19] INFO root fetch - processPackages [torrentp]: executing diffoscope
+[2024-04-01 14:26:19] INFO root fetch - processPackages [torrentp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrentp-0.1.7.tar.gz tmp/torrentp-0.1.9.tar.gz --markdown 20240401/t/torrentp/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-4.0rc1.tar.gz tmp/pytubefix-4.0rc2.tar.gz --markdown 20240401/p/pytubefix/4.0rc1-4.0rc2/diff.md --exclude *.pyd
+[2024-04-01 14:26:20] INFO root fetch - processPackages [optidata-core]: Downloading https://files.pythonhosted.org/packages/0c/f5/7fba937798364d4ec773353f59e812b916554d6b4fb79dacf2e8bb001ff4/optidata-core-1.9.0.tar.gz
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/b5/33/11cefc20e6cd0f01682a52da6cd04615b288d1ef0b46afe232070e60d850/pytorch-ignite-0.6.0.dev20240401.tar.gz
+[2024-04-01 14:26:20] INFO root fetch - processPackages [tj-text]: Downloading https://files.pythonhosted.org/packages/f5/61/56e997dc4ecfa016bbc578dcab6adac888862a5cfad084dacae2a68b5567/tj_text-0.8.1.tar.gz
+[2024-04-01 14:26:20] INFO root fetch - processPackages [optidata-core]: executing diffoscope
+[2024-04-01 14:26:20] INFO root fetch - processPackages [optidata-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optidata-core-1.8.0.tar.gz tmp/optidata-core-1.9.0.tar.gz --markdown 20240401/o/optidata-core/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 14:26:20] INFO root fetch - processPackages [tj-text]: executing diffoscope
+[2024-04-01 14:26:20] INFO root fetch - processPackages [tj-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tj_text-0.8.0.tar.gz tmp/tj_text-0.8.1.tar.gz --markdown 20240401/t/tj-text/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.5.0.post2.tar.gz tmp/pytorch-ignite-0.6.0.dev20240401.tar.gz --markdown 20240401/p/pytorch-ignite/0.5.0.post2-0.6.0.dev20240401/diff.md --exclude *.pyd
+[2024-04-01 14:26:20] INFO root fetch - processPackages [torrentp]: Remove: archive file [/home/abi/fetcher/tmp/torrentp-0.1.7.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - processPackages [torrentp]: Remove: archive file [/home/abi/fetcher/tmp/torrentp-0.1.9.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - main [MainThread]: End processing [torrentp]: success
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc1.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc2.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-01 14:26:20] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.8.0.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - processPackages [optidata-core]: Remove: archive file [/home/abi/fetcher/tmp/optidata-core-1.9.0.tar.gz]
+[2024-04-01 14:26:20] INFO root fetch - main [MainThread]: End processing [optidata-core]: success
+[2024-04-01 14:26:21] INFO root fetch - processPackages [tj-text]: Remove: archive file [/home/abi/fetcher/tmp/tj_text-0.8.0.tar.gz]
+[2024-04-01 14:26:21] INFO root fetch - processPackages [tj-text]: Remove: archive file [/home/abi/fetcher/tmp/tj_text-0.8.1.tar.gz]
+[2024-04-01 14:26:21] INFO root fetch - main [MainThread]: End processing [tj-text]: success
+[2024-04-01 14:26:21] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.5.0.post2.tar.gz]
+[2024-04-01 14:26:21] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240401.tar.gz]
+[2024-04-01 14:26:21] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-01 14:26:21] INFO root fetch - main [MainThread]: Store serial: [22569145]
