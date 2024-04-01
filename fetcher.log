@@ -10456,3 +10456,157 @@ EOFError: EOF read where object expected
 [2024-04-01 19:15:19] ERROR root fetch - processPackages [pycarlo]: Timeout during execution of pkgdiff
 [2024-04-01 19:15:19] INFO root fetch - main [MainThread]: End processing [pycarlo] error
 [2024-04-01 19:15:19] INFO root fetch - main [MainThread]: Store serial: [22572582]
+[2024-04-01 19:17:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572582]
+[2024-04-01 19:17:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cwsgiutils
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-ccc20200701-py2
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: grain-nightly
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoutbook_parser
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-dds20151201-py2
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoutbook_parser
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-plugin-dns
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-dds20151201
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: video-upscaler
+[2024-04-01 19:17:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2024-04-01 19:17:29] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [scoutbook_parser]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-01 19:17:29] WARNING root fetch - processPackages [video-upscaler]: Skipping, unable to determine old version
+[2024-04-01 19:17:29] INFO root fetch - processPackages [video-upscaler]: Start processing: c2cwsgiutils
+[2024-04-01 19:17:29] INFO root fetch - main [MainThread]: End processing [video-upscaler] error
+[2024-04-01 19:17:29] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: New version: [4.4.0] Old Version: [4.3.1]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [grain-nightly]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [alibabacloud-dds20151201]: New version: [6.4.0] Old Version: [6.3.1]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.22.8] Old Version: [0.22.6]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-01 19:17:29] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:17:29] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/32/9e/f7397fa23ac4bd4364e0a9b1e7bcfda75ae194f0a10ac0c513549636e309/alibabacloud_dds20151201_py2-4.3.1.tar.gz
+[2024-04-01 19:17:29] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-04-01 19:17:29] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/cb/af/8cefee227997b6e3fe30da0ae2c31049cc60b92d76e910b4beca5fc29702/scoutbook_parser-0.9.0.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/ae/d9/e71db3effa7bac114a35c196799556270ebfea27564f2bbee02492eaf030/netbox_plugin_dns-0.22.6.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [grain-nightly]: Downloading https://files.pythonhosted.org/packages/c9/f9/ab9dfb257e1eba8b6d03508a4d947cd0749f161198c0ff9d8d57eb55a83c/grain_nightly-0.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/c1/d6/3e0e0be36b25ed5c201357338b83145969796364de6049f39a96a1b25688/alibabacloud_ccc20200701_py2-2.4.0.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/75/7b/79123394a25117399469ca3d225f19c7334fe0ff229f89d82cfeea558108/alibabacloud_dds20151201-6.3.1.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Downloading https://files.pythonhosted.org/packages/7a/2e/1d203e8041e386cb89e54994f6155496cf1fa622a6214abd363d40f9c245/alibabacloud_dds20151201_py2-4.4.0.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: Downloading https://files.pythonhosted.org/packages/a8/b3/755d2ce577e69aa85bd7c4589be4f7a8f4e54f64a3f1c5e0dd3aef5db4d8/scoutbook_parser-0.9.1.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Downloading https://files.pythonhosted.org/packages/4a/0d/8aa773cb797a5dc5ffbfac2c1f1d706ff5da84782e2e0766baaa310d2f80/alibabacloud_ccc20200701_py2-2.4.1.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/b4/40/ceb174ab521c6234250e27ceb4444a9fa9371ccb9376e49aac665e20de85/netbox_plugin_dns-0.22.8.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201]: Downloading https://files.pythonhosted.org/packages/50/c5/4f2580c6380b10729142e8b9e5291e7db96d9dc317f03d53df4aac5c4909/alibabacloud_dds20151201-6.4.0.tar.gz
+[2024-04-01 19:17:30] INFO root fetch - processPackages [grain-nightly]: Downloading https://files.pythonhosted.org/packages/f5/66/d2405d7f1b4822e42751e15e5922666ddb1964d2d54b2c882ba8979e3fb5/grain_nightly-0.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201_py2-4.3.1.tar.gz tmp/alibabacloud_dds20151201_py2-4.4.0.tar.gz --markdown 20240401/a/alibabacloud-dds20151201-py2/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240401/s/scoutbook_parser/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.22.6.tar.gz tmp/netbox_plugin_dns-0.22.8.tar.gz --markdown 20240401/n/netbox-plugin-dns/0.22.6-0.22.8/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz --markdown 20240401/a/alibabacloud-ccc20200701-py2/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [alibabacloud-dds20151201]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dds20151201-6.3.1.tar.gz tmp/alibabacloud_dds20151201-6.4.0.tar.gz --markdown 20240401/a/alibabacloud-dds20151201/6.3.1-6.4.0/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [scoutbook_parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoutbook_parser-0.9.0.tar.gz tmp/scoutbook_parser-0.9.1.tar.gz --markdown 20240401/s/scoutbook_parser/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 19:17:30] INFO root fetch - processPackages [grain-nightly]: executing diffoscope
+[2024-04-01 19:17:30] INFO root fetch - processPackages [grain-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grain_nightly-0.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/grain_nightly-0.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/g/grain-nightly/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: alibabacloud-ccc20200701
+[2024-04-01 19:17:31] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: spanishconjugator
+[2024-04-01 19:17:31] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-01 19:17:31] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.0.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [scoutbook_parser]: Remove: archive file [/home/abi/fetcher/tmp/scoutbook_parser-0.9.1.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [scoutbook_parser]: Start processing: c2cwsgiutils
+[2024-04-01 19:17:31] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-04-01 19:17:31] INFO root fetch - processPackages [alibabacloud-ccc20200701]: New version: [2.7.0] Old Version: [2.4.1]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [scoutbook_parser]: Start processing: DEHB
+[2024-04-01 19:17:31] INFO root fetch - main [MainThread]: End processing [scoutbook_parser]: success
+[2024-04-01 19:17:31] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-01 19:17:31] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/74/f3/4a27ffb49ff6106c1e90417aba0122ab5b2e7cbd09d5792aad2455cda0db/alibabacloud_ccc20200701-2.4.1.tar.gz
+[2024-04-01 19:17:31] INFO root fetch - processPackages [DEHB]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.22.6.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.22.8.tar.gz]
+[2024-04-01 19:17:31] INFO root fetch - processPackages [netbox-plugin-dns]: Start processing: c2cwsgiutils
+[2024-04-01 19:17:31] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [grain-nightly]: Remove: archive file [/home/abi/fetcher/tmp/grain_nightly-0.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [grain-nightly]: Remove: archive file [/home/abi/fetcher/tmp/grain_nightly-0.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [grain-nightly]: Start processing: flake8-pytest-style
+[2024-04-01 19:17:32] INFO root fetch - main [MainThread]: End processing [grain-nightly]: success
+[2024-04-01 19:17:32] INFO root fetch - processPackages [DEHB]: Downloading https://files.pythonhosted.org/packages/d1/00/244993091feebfc594ed41d79dca1bf9d9398913a45cef8d2271d29d4b48/DEHB-0.1.0.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [flake8-pytest-style]: New version: [2.0.0] Old Version: [1.7.2]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Downloading https://files.pythonhosted.org/packages/d0/25/a7584571fb4acbdaac5a90572964a34eb31d1acc949e36c93c2bcc253d3c/alibabacloud_ccc20200701-2.7.0.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-4.3.1.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201_py2-4.4.0.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-dds20151201-py2]: Start processing: cellxgene-schema
+[2024-04-01 19:17:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201-py2]: success
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701]: executing diffoscope
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ccc20200701-2.4.1.tar.gz tmp/alibabacloud_ccc20200701-2.7.0.tar.gz --markdown 20240401/a/alibabacloud-ccc20200701/2.4.1-2.7.0/diff.md --exclude *.pyd
+[2024-04-01 19:17:32] INFO root fetch - processPackages [flake8-pytest-style]: Downloading https://files.pythonhosted.org/packages/c0/6b/12c40bbb136b0423485f5b4ac5939fb984ddbe85f38e6ed484472a89692d/flake8_pytest_style-1.7.2.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [DEHB]: Downloading https://files.pythonhosted.org/packages/87/cf/59b2f9262a42e9a8fcea7643718f0350c743524bf63c98ab2ff99ae36bfb/DEHB-0.1.1.tar.gz
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:17:32] INFO root fetch - processPackages [cellxgene-schema]: New version: [5.0.2rc0] Old Version: [5.0.1]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [DEHB]: executing diffoscope
+[2024-04-01 19:17:32] INFO root fetch - processPackages [DEHB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEHB-0.1.0.tar.gz tmp/DEHB-0.1.1.tar.gz --markdown 20240401/D/DEHB/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701_py2-2.4.0.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701_py2-2.4.1.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-ccc20200701-py2]: Start processing: c2cwsgiutils
+[2024-04-01 19:17:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701-py2]: success
+[2024-04-01 19:17:32] INFO root fetch - processPackages [cellxgene-schema]: Downloading https://files.pythonhosted.org/packages/47/f4/412e2930affc4c8d5fbc9427b4b4fef9cd9e091964b01ddbefc6bb962301/cellxgene-schema-5.0.1.tar.gz
+[2024-04-01 19:17:32] WARNING root fetch - processPackages [cellxgene-schema]: Skipping package: exceeds size limit 14469079>=10485760
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-6.3.1.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 19:17:32] INFO root fetch - main [MainThread]: End processing [cellxgene-schema] error
+[2024-04-01 19:17:32] INFO root fetch - processPackages [alibabacloud-dds20151201]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dds20151201-6.4.0.tar.gz]
+[2024-04-01 19:17:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-dds20151201]: success
+[2024-04-01 19:17:32] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 19:17:33] INFO root fetch - processPackages [flake8-pytest-style]: Downloading https://files.pythonhosted.org/packages/51/31/5bb7e30878e8a1783930681767cae29a2304d9006548ab4ad905c121ff88/flake8_pytest_style-2.0.0.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-01 19:17:33] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-01 19:17:33] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-01 19:17:33] INFO root fetch - processPackages [flake8-pytest-style]: executing diffoscope
+[2024-04-01 19:17:33] INFO root fetch - processPackages [flake8-pytest-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_pytest_style-1.7.2.tar.gz tmp/flake8_pytest_style-2.0.0.tar.gz --markdown 20240401/f/flake8-pytest-style/1.7.2-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 19:17:33] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-01 19:17:33] INFO root fetch - processPackages [DEHB]: Remove: archive file [/home/abi/fetcher/tmp/DEHB-0.1.0.tar.gz]
+[2024-04-01 19:17:33] INFO root fetch - processPackages [DEHB]: Remove: archive file [/home/abi/fetcher/tmp/DEHB-0.1.1.tar.gz]
+[2024-04-01 19:17:33] INFO root fetch - main [MainThread]: End processing [DEHB]: success
+[2024-04-01 19:17:33] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:17:33] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 19:17:33] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 19:17:33] ERROR root fetch - processPackages [c2cwsgiutils]: Diffoscope failed: time="2024-04-01T19:17:33+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/c2cwsgiutils-6.1.0.dev97.tar.gz: No such file or directory
+
+[2024-04-01 19:17:33] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils] error
+[2024-04-01 19:17:34] INFO root fetch - processPackages [flake8-pytest-style]: Remove: archive file [/home/abi/fetcher/tmp/flake8_pytest_style-1.7.2.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - processPackages [flake8-pytest-style]: Remove: archive file [/home/abi/fetcher/tmp/flake8_pytest_style-2.0.0.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - main [MainThread]: End processing [flake8-pytest-style]: success
+[2024-04-01 19:17:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 19:17:34] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 19:17:34] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.4.1.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - processPackages [alibabacloud-ccc20200701]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ccc20200701-2.7.0.tar.gz]
+[2024-04-01 19:17:34] INFO root fetch - main [MainThread]: End processing [alibabacloud-ccc20200701]: success
+[2024-04-01 19:17:34] INFO root fetch - main [MainThread]: Store serial: [22572647]
