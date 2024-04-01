@@ -15,3 +15,45 @@
 [2024-04-01 11:25:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
 [2024-04-01 11:25:52] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
 [2024-04-01 11:25:52] INFO root fetch - main [MainThread]: Store serial: [22567647]
+[2024-04-01 11:26:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567647]
+[2024-04-01 11:26:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 11:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxframe
+[2024-04-01 11:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xingchen
+[2024-04-01 11:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sortinghat-openinfra
+[2024-04-01 11:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalifiai-client
+[2024-04-01 11:26:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ExcellAint
+[2024-04-01 11:26:24] WARNING root fetch - processPackages [ExcellAint]: Skipping, unable to determine old version
+[2024-04-01 11:26:24] INFO root fetch - main [MainThread]: End processing [ExcellAint] error
+[2024-04-01 11:26:24] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:26:24] INFO root fetch - processPackages [sortinghat-openinfra]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 11:26:24] INFO root fetch - processPackages [maxframe]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2024-04-01 11:26:24] INFO root fetch - processPackages [xingchen]: New version: [1.1.1.1] Old Version: [1.1.0]
+[2024-04-01 11:26:24] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [maxframe]: Downloading https://files.pythonhosted.org/packages/04/ea/86b9c04657ebe649dfac8d7580145970fbbcd7488deef8d80695d7f45eb6/maxframe-0.1.0b2.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/8a/6c/1c1e61c8d119ea0ebf70c6a41a0cd656d47d222d53e28cf7e6e99cedfdac/sortinghat_openinfra-0.1.8.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [xingchen]: Downloading https://files.pythonhosted.org/packages/dd/e8/4a96b27067e2a29384f136330cffa87765ce3d8dfada51150e4b0d77f748/xingchen-1.1.0.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [sortinghat-openinfra]: Downloading https://files.pythonhosted.org/packages/0c/84/0bc45c2dd1863f0663b11b86dfc7c4d64f071301cfd272bce23f9140d02e/sortinghat_openinfra-0.1.9.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [maxframe]: Downloading https://files.pythonhosted.org/packages/b2/f0/6ed21c44fcdb1bee431cc2d0d367ee58c19a8ee502ba28522d2b74f28566/maxframe-0.1.0b3.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [xingchen]: Downloading https://files.pythonhosted.org/packages/ed/af/10e2858e484510a32d9a61e9faf837f73c90ad44bc0cb289674420e1b85c/xingchen-1.1.1.1.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:26:24] INFO root fetch - processPackages [sortinghat-openinfra]: executing diffoscope
+[2024-04-01 11:26:24] INFO root fetch - processPackages [sortinghat-openinfra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sortinghat_openinfra-0.1.8.tar.gz tmp/sortinghat_openinfra-0.1.9.tar.gz --markdown 20240401/s/sortinghat-openinfra/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 11:26:24] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:26:24] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:26:24] INFO root fetch - processPackages [xingchen]: executing diffoscope
+[2024-04-01 11:26:24] INFO root fetch - processPackages [xingchen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xingchen-1.1.0.tar.gz tmp/xingchen-1.1.1.1.tar.gz --markdown 20240401/x/xingchen/1.1.0-1.1.1.1/diff.md --exclude *.pyd
+[2024-04-01 11:26:24] INFO root fetch - processPackages [maxframe]: executing diffoscope
+[2024-04-01 11:26:24] INFO root fetch - processPackages [maxframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxframe-0.1.0b2.tar.gz tmp/maxframe-0.1.0b3.tar.gz --markdown 20240401/m/maxframe/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2024-04-01 11:26:25] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.8.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - processPackages [sortinghat-openinfra]: Remove: archive file [/home/abi/fetcher/tmp/sortinghat_openinfra-0.1.9.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - main [MainThread]: End processing [sortinghat-openinfra]: success
+[2024-04-01 11:26:25] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:26:25] INFO root fetch - processPackages [xingchen]: Remove: archive file [/home/abi/fetcher/tmp/xingchen-1.1.0.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - processPackages [xingchen]: Remove: archive file [/home/abi/fetcher/tmp/xingchen-1.1.1.1.tar.gz]
+[2024-04-01 11:26:25] INFO root fetch - main [MainThread]: End processing [xingchen]: success
+[2024-04-01 11:26:27] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b2.tar.gz]
+[2024-04-01 11:26:27] INFO root fetch - processPackages [maxframe]: Remove: archive file [/home/abi/fetcher/tmp/maxframe-0.1.0b3.tar.gz]
+[2024-04-01 11:26:27] INFO root fetch - main [MainThread]: End processing [maxframe]: success
+[2024-04-01 11:26:27] INFO root fetch - main [MainThread]: Store serial: [22567675]
