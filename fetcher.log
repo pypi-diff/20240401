@@ -7076,3 +7076,38 @@ EOFError: EOF read where object expected
 [2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: Remove: archive file [/home/abi/fetcher/tmp/timeoutcall-1.0rc2.tar.gz]
 [2024-04-01 17:06:20] INFO root fetch - main [MainThread]: End processing [timeoutcall]: success
 [2024-04-01 17:06:20] INFO root fetch - main [MainThread]: Store serial: [22570911]
+[2024-04-01 17:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570911]
+[2024-04-01 17:08:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2024-04-01 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libdeeplake
+[2024-04-01 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: linode-api4
+[2024-04-01 17:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: teedoc-plugin-theme-default
+[2024-04-01 17:08:29] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-01 17:08:29] INFO root fetch - processPackages [linode-api4]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-01 17:08:29] INFO root fetch - processPackages [teedoc-plugin-theme-default]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-01 17:08:29] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-04-01 17:08:29] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/72/1b/98a4f343688cf918ba1e3f51f408a91cff754434b6e95d4e8090657449a3/libdeeplake-0.0.98-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-01 17:08:29] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 16175016>=10485760
+[2024-04-01 17:08:29] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2024-04-01 17:08:29] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/10/bf/71e59df88c74ba918e11f12fed1347e4fe4d6b2aa8d427a090dfe6864b69/linode_api4-5.8.0.tar.gz
+[2024-04-01 17:08:29] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-04-01 17:08:29] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Downloading https://files.pythonhosted.org/packages/c1/a5/45bf9d997ee84e2b6a038bd7f618cf34628621672ff90df9fbe9c231be0e/teedoc-plugin-theme-default-1.9.5.tar.gz
+[2024-04-01 17:08:30] INFO root fetch - processPackages [linode-api4]: Downloading https://files.pythonhosted.org/packages/36/87/acda81bb9ac91e8dde829e7e8ffcadb7b4157b8a4bf8c1179769ad6c5586/linode_api4-5.9.0.tar.gz
+[2024-04-01 17:08:30] INFO root fetch - processPackages [linode-api4]: executing diffoscope
+[2024-04-01 17:08:30] INFO root fetch - processPackages [linode-api4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linode_api4-5.8.0.tar.gz tmp/linode_api4-5.9.0.tar.gz --markdown 20240401/l/linode-api4/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-01 17:08:30] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Downloading https://files.pythonhosted.org/packages/cc/fe/a7066c412ed6f734df9b58c4e9f011051b3447b6b47c3fd24d2fe917b33b/teedoc-plugin-theme-default-1.9.6.tar.gz
+[2024-04-01 17:08:30] INFO root fetch - processPackages [teedoc-plugin-theme-default]: executing diffoscope
+[2024-04-01 17:08:30] INFO root fetch - processPackages [teedoc-plugin-theme-default]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teedoc-plugin-theme-default-1.9.5.tar.gz tmp/teedoc-plugin-theme-default-1.9.6.tar.gz --markdown 20240401/t/teedoc-plugin-theme-default/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2024-04-01 17:08:31] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-04-01 17:08:31] INFO root fetch - processPackages [linode-api4]: Remove: archive file [/home/abi/fetcher/tmp/linode_api4-5.8.0.tar.gz]
+[2024-04-01 17:08:31] INFO root fetch - processPackages [linode-api4]: Remove: archive file [/home/abi/fetcher/tmp/linode_api4-5.9.0.tar.gz]
+[2024-04-01 17:08:31] INFO root fetch - main [MainThread]: End processing [linode-api4]: success
+[2024-04-01 17:08:31] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-plugin-theme-default-1.9.5.tar.gz]
+[2024-04-01 17:08:31] INFO root fetch - processPackages [teedoc-plugin-theme-default]: Remove: archive file [/home/abi/fetcher/tmp/teedoc-plugin-theme-default-1.9.6.tar.gz]
+[2024-04-01 17:08:31] INFO root fetch - main [MainThread]: End processing [teedoc-plugin-theme-default]: success
+[2024-04-01 17:08:32] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-04-01 17:08:32] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240401/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2024-04-01 17:08:34] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-04-01 17:08:34] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-04-01 17:08:34] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-04-01 17:08:34] INFO root fetch - main [MainThread]: Store serial: [22570939]
