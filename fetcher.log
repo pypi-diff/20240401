@@ -770,3 +770,24 @@
 [2024-04-01 12:09:04] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040109.tar.gz]
 [2024-04-01 12:09:04] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-01 12:09:04] INFO root fetch - main [MainThread]: Store serial: [22568048]
+[2024-04-01 12:11:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568048]
+[2024-04-01 12:11:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 12:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infini
+[2024-04-01 12:11:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RL-OM
+[2024-04-01 12:11:13] INFO root fetch - processPackages [infini]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-01 12:11:13] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 12:11:13] INFO root fetch - processPackages [infini]: Downloading https://files.pythonhosted.org/packages/aa/db/82c22667169825249d9148161d962fbbc939a14dfba7939386a9da25e1b0/infini-2.1.8.tar.gz
+[2024-04-01 12:11:13] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/1e/54/9cc91bfce7346d0d230d3f480b202b5adb3a82c9b7707d5d385ac3a77f3d/RL_OM-0.7.8.tar.gz
+[2024-04-01 12:11:14] INFO root fetch - processPackages [infini]: Downloading https://files.pythonhosted.org/packages/d2/76/e95fe5034f0a5b9bb9e892c70c09ff9509c87b644d01423fc00f07eed1fa/infini-2.1.9.tar.gz
+[2024-04-01 12:11:14] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-01 12:11:14] INFO root fetch - processPackages [infini]: executing diffoscope
+[2024-04-01 12:11:14] INFO root fetch - processPackages [infini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infini-2.1.8.tar.gz tmp/infini-2.1.9.tar.gz --markdown 20240401/i/infini/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-01 12:11:14] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-01 12:11:14] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.8.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240401/R/RL-OM/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 12:11:14] INFO root fetch - processPackages [infini]: Remove: archive file [/home/abi/fetcher/tmp/infini-2.1.8.tar.gz]
+[2024-04-01 12:11:14] INFO root fetch - processPackages [infini]: Remove: archive file [/home/abi/fetcher/tmp/infini-2.1.9.tar.gz]
+[2024-04-01 12:11:14] INFO root fetch - main [MainThread]: End processing [infini]: success
+[2024-04-01 12:11:15] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.8.tar.gz]
+[2024-04-01 12:11:15] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-01 12:11:15] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-01 12:11:15] INFO root fetch - main [MainThread]: Store serial: [22568054]
