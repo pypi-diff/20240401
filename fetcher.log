@@ -8772,3 +8772,87 @@ EOFError: EOF read where object expected
 [2024-04-01 18:09:27] INFO root fetch - processPackages [pjrmi]: Remove: archive file [/home/abi/fetcher/tmp/pjrmi-1.13.8.tar.gz]
 [2024-04-01 18:09:27] INFO root fetch - main [MainThread]: End processing [pjrmi]: success
 [2024-04-01 18:09:27] INFO root fetch - main [MainThread]: Store serial: [22571765]
+[2024-04-01 18:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571765]
+[2024-04-01 18:11:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metan-core
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: EasyOutput
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chat-cli-anything
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalifiai-client
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botnikkk
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py3d
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chat-cli-anything
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azureml-rag
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: creyPY
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ml-dtypes
+[2024-04-01 18:11:37] INFO root fetch - processPackages [botnikkk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 18:11:37] WARNING root fetch - processPackages [chat-cli-anything]: Skipping, unable to determine old version
+[2024-04-01 18:11:37] INFO root fetch - processPackages [chat-cli-anything]: Start processing: han2kip
+[2024-04-01 18:11:37] INFO root fetch - main [MainThread]: End processing [chat-cli-anything] error
+[2024-04-01 18:11:37] WARNING root fetch - processPackages [chat-cli-anything]: Skipping, unable to determine old version
+[2024-04-01 18:11:37] INFO root fetch - main [MainThread]: End processing [chat-cli-anything] error
+[2024-04-01 18:11:37] INFO root fetch - processPackages [creyPY]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a9] Old Version: [1.2.0a8]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ml-dtypes]: New version: [0.4.0b1] Old Version: [0.3.2]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [EasyOutput]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 18:11:37] WARNING root fetch - processPackages [metan-core]: Skipping, unable to determine old version
+[2024-04-01 18:11:37] INFO root fetch - main [MainThread]: End processing [metan-core] error
+[2024-04-01 18:11:37] INFO root fetch - processPackages [azureml-rag]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [py3d]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/c8/ed/5f49eaf21663f0a71ee15502f61f0815716c15789baaa10c1bacbcef8a99/botnikkk-0.0.4.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/bd/c4/3ab80f33621a6110e942d2cb9066ecd47cbe5e28317a211b51c03edd9623/scalifiai-client-1.2.0a8.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [han2kip]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 18:11:37] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/5f/47/92a947e9926606a73c0a71df53d180afc23eb575cde44ad02c104b0671e3/creyPY-0.0.4.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [ml-dtypes]: Downloading https://files.pythonhosted.org/packages/39/7d/8d85fcba868758b3a546e6914e727abd8f29ea6918079f816975c9eecd63/ml_dtypes-0.3.2.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/83/0d/83c6ecc3e6f923ceb87c8b8280dc054b4b42ae45a08ae481d962f5f7e9d9/EasyOutput-0.0.4.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/cd/6b/d377d688c115fe0dca01efbe91a0e27be6b61358d1240f8ffd8e690e2d90/azureml_rag-0.2.8-py3-none-any.whl
+[2024-04-01 18:11:37] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/ed/a9/a05c44c1c9aa694e130c9d19cdc9859cfe777d1cd54002e7af34b37a840d/py3d-0.1.8.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/c2/04/fe9dfbc3154b852a11f1f1111aa65fae52881e6ae7569356d17ed6713be8/botnikkk-0.0.5.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/7c/37/9e9674cd4625c579c570557501070251fa7107e9b6fffb81f4c28d0b532e/han2kip-0.1.0.tar.gz
+[2024-04-01 18:11:37] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/91/15/c69b6d58a40e4fa97716389e7d9d388c72526a3784cdcab3592ab434de0a/scalifiai-client-1.2.0a9.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/e5/5c/ce3e23aebf30554baacdd8ef80ad62716a5fa7ce5683977d47ee4f95accc/creyPY-0.0.5.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [botnikkk]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [botnikkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botnikkk-0.0.4.tar.gz tmp/botnikkk-0.0.5.tar.gz --markdown 20240401/b/botnikkk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a8.tar.gz tmp/scalifiai-client-1.2.0a9.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a8-1.2.0a9/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.4.tar.gz tmp/creyPY-0.0.5.tar.gz --markdown 20240401/c/creyPY/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/e0/56/7020b4f623064c3c43a26a3c19d664629f6127194418fd510c01a27f86f5/EasyOutput-0.0.5.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [ml-dtypes]: Downloading https://files.pythonhosted.org/packages/be/32/fe988b206479617900212ee87895104bddc1e4d30d51d75db20b6c9b0a0b/ml_dtypes-0.4.0b1.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [EasyOutput]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [EasyOutput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyOutput-0.0.4.tar.gz tmp/EasyOutput-0.0.5.tar.gz --markdown 20240401/E/EasyOutput/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/6f/e8/f37aed7244bfb8dde96399a57b78193b3257dc10559f13dfea723db768d4/py3d-0.1.9.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/54/0d/a708d3da60f17575e32c269cbcdc83aa8f25a534167d99767054f466259b/han2kip-0.1.1.tar.gz
+[2024-04-01 18:11:38] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.1.8.tar.gz tmp/py3d-0.1.9.tar.gz --markdown 20240401/p/py3d/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [ml-dtypes]: executing diffoscope
+[2024-04-01 18:11:38] INFO root fetch - processPackages [ml-dtypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_dtypes-0.3.2.tar.gz tmp/ml_dtypes-0.4.0b1.tar.gz --markdown 20240401/m/ml-dtypes/0.3.2-0.4.0b1/diff.md --exclude *.pyd
+[2024-04-01 18:11:38] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.4.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.5.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - main [MainThread]: End processing [botnikkk]: success
+[2024-04-01 18:11:38] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a8.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a9.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 18:11:38] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.4.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.5.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 18:11:38] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/EasyOutput-0.0.4.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/EasyOutput-0.0.5.tar.gz]
+[2024-04-01 18:11:38] INFO root fetch - main [MainThread]: End processing [EasyOutput]: success
+[2024-04-01 18:11:39] INFO root fetch - processPackages [han2kip]: executing diffoscope
+[2024-04-01 18:11:39] INFO root fetch - processPackages [han2kip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/han2kip-0.1.0.tar.gz tmp/han2kip-0.1.1.tar.gz --markdown 20240401/h/han2kip/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:11:39] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.8.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - processPackages [py3d]: Remove: archive file [/home/abi/fetcher/tmp/py3d-0.1.9.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2024-04-01 18:11:39] INFO root fetch - processPackages [azureml-rag]: Downloading https://files.pythonhosted.org/packages/f3/84/b836de2d4c9aec3f94fbe80a1cf0f12b9999277127ca6b03bf9333080769/azureml_rag-0.2.9-py3-none-any.whl
+[2024-04-01 18:11:39] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.1.0.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.1.1.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - main [MainThread]: End processing [han2kip]: success
+[2024-04-01 18:11:39] INFO root fetch - processPackages [azureml-rag]: executing diffoscope
+[2024-04-01 18:11:39] INFO root fetch - processPackages [azureml-rag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml_rag-0.2.8-py3-none-any.whl.zip tmp/azureml_rag-0.2.9-py3-none-any.whl.zip --markdown 20240401/a/azureml-rag/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 18:11:39] INFO root fetch - processPackages [ml-dtypes]: Remove: archive file [/home/abi/fetcher/tmp/ml_dtypes-0.3.2.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - processPackages [ml-dtypes]: Remove: archive file [/home/abi/fetcher/tmp/ml_dtypes-0.4.0b1.tar.gz]
+[2024-04-01 18:11:39] INFO root fetch - main [MainThread]: End processing [ml-dtypes]: success
+[2024-04-01 18:11:40] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.8-py3-none-any.whl.zip]
+[2024-04-01 18:11:40] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
+[2024-04-01 18:11:40] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
+[2024-04-01 18:11:40] INFO root fetch - main [MainThread]: Store serial: [22571839]
