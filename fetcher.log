@@ -80,3 +80,54 @@
 [2024-04-01 11:29:08] INFO root fetch - processPackages [sierra-research]: Remove: archive file [/home/abi/fetcher/tmp/sierra-research-1.3.6.tar.gz]
 [2024-04-01 11:29:08] INFO root fetch - main [MainThread]: End processing [sierra-research]: success
 [2024-04-01 11:29:08] INFO root fetch - main [MainThread]: Store serial: [22567686]
+[2024-04-01 11:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567686]
+[2024-04-01 11:31:18] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigachain
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: froggius
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SightTraining
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d-fake-seeder
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bap-elk-backends
+[2024-04-01 11:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: excellaint
+[2024-04-01 11:31:18] WARNING root fetch - processPackages [excellaint]: Skipping, unable to determine old version
+[2024-04-01 11:31:18] INFO root fetch - main [MainThread]: End processing [excellaint] error
+[2024-04-01 11:31:18] INFO root fetch - processPackages [SightTraining]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-01 11:31:18] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 11:31:18] INFO root fetch - processPackages [bap-elk-backends]: New version: [0.5.1rc1] Old Version: [0.5.1]
+[2024-04-01 11:31:18] INFO root fetch - processPackages [froggius]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 11:31:18] INFO root fetch - processPackages [gigachain]: New version: [0.1.9] Old Version: [0.1.7.1]
+[2024-04-01 11:31:19] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/06/79/63a84f3eeef712a7d3d92ab9a8fd454282ac0713f873545542b97e3ba099/SightTraining-0.1.11.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/76/b4/4cfc2f95d60b112702b11c728ab4d9be9420757424f8516dab265129af2d/bap_elk_backends-0.5.1.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/df/2b/a34fd2f39f8d3b08da961d81063e0d22875fb89206fd716f4f0e7d32ce8d/froggius-0.1.3.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/bf/f0/1f167bb69817a942f3e9cb8282633c4f9a07090ac14ed8ddc8210d447681/gigachain-0.1.7.1.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/d5/17/4e3b6cd33ee8fba6a12fa64335f0462df938e5b80f1e645bc3177088b1e6/SightTraining-0.1.12.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/26/23/310e31157e38e5c0bbce740c34f12f08d57a85e9a7d05dd415e35d449d77/froggius-0.1.4.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [gigachain]: Downloading https://files.pythonhosted.org/packages/7c/cc/a8043330cdeaf99283d32ae65f5a3122d966c1c6b075793eb4ded7a621f6/gigachain-0.1.9.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [bap-elk-backends]: Downloading https://files.pythonhosted.org/packages/41/c2/50923a25ca54251fff03c810fab92d5f5d07a30961382cd9739ff8cb349f/bap_elk_backends-0.5.1rc1.tar.gz
+[2024-04-01 11:31:19] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-01 11:31:19] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.11.tar.gz tmp/SightTraining-0.1.12.tar.gz --markdown 20240401/S/SightTraining/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2024-04-01 11:31:19] INFO root fetch - processPackages [froggius]: executing diffoscope
+[2024-04-01 11:31:19] INFO root fetch - processPackages [froggius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froggius-0.1.3.tar.gz tmp/froggius-0.1.4.tar.gz --markdown 20240401/f/froggius/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 11:31:19] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 11:31:19] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 11:31:19] INFO root fetch - processPackages [gigachain]: executing diffoscope
+[2024-04-01 11:31:19] INFO root fetch - processPackages [gigachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachain-0.1.7.1.tar.gz tmp/gigachain-0.1.9.tar.gz --markdown 20240401/g/gigachain/0.1.7.1-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 11:31:19] INFO root fetch - processPackages [bap-elk-backends]: executing diffoscope
+[2024-04-01 11:31:19] INFO root fetch - processPackages [bap-elk-backends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bap_elk_backends-0.5.1.tar.gz tmp/bap_elk_backends-0.5.1rc1.tar.gz --markdown 20240401/b/bap-elk-backends/0.5.1-0.5.1rc1/diff.md --exclude *.pyd
+[2024-04-01 11:31:20] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.4.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - main [MainThread]: End processing [froggius]: success
+[2024-04-01 11:31:20] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.11.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.12.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-01 11:31:20] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 11:31:20] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.1.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - processPackages [bap-elk-backends]: Remove: archive file [/home/abi/fetcher/tmp/bap_elk_backends-0.5.1rc1.tar.gz]
+[2024-04-01 11:31:20] INFO root fetch - main [MainThread]: End processing [bap-elk-backends]: success
+[2024-04-01 11:31:22] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.7.1.tar.gz]
+[2024-04-01 11:31:22] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.9.tar.gz]
+[2024-04-01 11:31:22] INFO root fetch - main [MainThread]: End processing [gigachain]: success
+[2024-04-01 11:31:22] INFO root fetch - main [MainThread]: Store serial: [22567735]
