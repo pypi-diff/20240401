@@ -301,3 +301,69 @@
 [2024-04-01 11:42:16] INFO root fetch - processPackages [encapsia-api]: Remove: archive file [/home/abi/fetcher/tmp/encapsia_api-0.4.6.tar.gz]
 [2024-04-01 11:42:16] INFO root fetch - main [MainThread]: End processing [encapsia-api]: success
 [2024-04-01 11:42:16] INFO root fetch - main [MainThread]: Store serial: [22567792]
+[2024-04-01 11:44:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567792]
+[2024-04-01 11:44:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrendatools.plantillas
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RTSDB
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bota
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asktable
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LdShell
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: picachain
+[2024-04-01 11:44:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scalifiai-client
+[2024-04-01 11:44:26] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [RTSDB]: New version: [1.2] Old Version: [1.1]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [LdShell]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [arrendatools.plantillas]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [picachain]: New version: [0.1.20] Old Version: [0.1.2]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [asktable]: New version: [0.13.1] Old Version: [0.13.0]
+[2024-04-01 11:44:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/f2/b2/fabdea5a4b78898e89d88c9c025eba7d70f70ed79ca65606a82cc8e99d8c/RTSDB-1.1.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/89/1b/a4b3b320ce77fdaa348ef52b4a3ba1b0face40cb97677d51f643b8218a1a/LdShell-1.6.6.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [arrendatools.plantillas]: Downloading https://files.pythonhosted.org/packages/7c/00/797cc10f0eab6d4b4bb5bf73e857c4a5d77ddd4d3a591832c643bd65f91d/arrendatools.plantillas-0.4.3.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/cd/a7/15d444d1e43219322cecddf20d2de59058c6a7485ab7f55015930fa60d32/asktable-0.13.0-py3-none-any.whl
+[2024-04-01 11:44:26] INFO root fetch - processPackages [picachain]: Downloading https://files.pythonhosted.org/packages/47/ce/be44a0e15801fc5d00b3a3879d5b25b60ee9dcab91d6fa6ea9604dfe9210/picachain-0.1.2.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/f5/92/d1120a7104450060376900ac15dcbfa024518e1fba968832e9384dc2b8df/RTSDB-1.2.tar.gz
+[2024-04-01 11:44:26] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:44:26] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:44:26] INFO root fetch - processPackages [RTSDB]: executing diffoscope
+[2024-04-01 11:44:26] INFO root fetch - processPackages [RTSDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSDB-1.1.tar.gz tmp/RTSDB-1.2.tar.gz --markdown 20240401/R/RTSDB/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/d8/59/54babb042696f2ca7f408a6b18beed89a67c85284ebcb5b70a8d0daf654f/LdShell-1.6.7.tar.gz
+[2024-04-01 11:44:27] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-01 11:44:27] INFO root fetch - processPackages [arrendatools.plantillas]: Downloading https://files.pythonhosted.org/packages/b5/4c/0076be74354e501928cd6d0f230666642e9aca274aad30c550eb7f1657b5/arrendatools.plantillas-0.4.4.tar.gz
+[2024-04-01 11:44:27] INFO root fetch - processPackages [picachain]: Downloading https://files.pythonhosted.org/packages/7d/2d/4544026e453b84765eeaa679cade652412a5f934cb4d0f9ae72b54a2f320/picachain-0.1.20.tar.gz
+[2024-04-01 11:44:27] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/3b/89/c9e7a68312f7393476bfaf23df9104c152c83771d7c0e78aff076b2e858c/asktable-0.13.1-py3-none-any.whl
+[2024-04-01 11:44:27] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-04-01 11:44:27] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-1.6.6.tar.gz tmp/LdShell-1.6.7.tar.gz --markdown 20240401/L/LdShell/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-01 11:44:27] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240401/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [arrendatools.plantillas]: executing diffoscope
+[2024-04-01 11:44:27] INFO root fetch - processPackages [arrendatools.plantillas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrendatools.plantillas-0.4.3.tar.gz tmp/arrendatools.plantillas-0.4.4.tar.gz --markdown 20240401/a/arrendatools.plantillas/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [picachain]: executing diffoscope
+[2024-04-01 11:44:27] INFO root fetch - processPackages [picachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picachain-0.1.2.tar.gz tmp/picachain-0.1.20.tar.gz --markdown 20240401/p/picachain/0.1.2-0.1.20/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-04-01 11:44:27] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.13.0-py3-none-any.whl.zip tmp/asktable-0.13.1-py3-none-any.whl.zip --markdown 20240401/a/asktable/0.13.0-0.13.1/diff.md --exclude *.pyd
+[2024-04-01 11:44:27] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.1.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.2.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - main [MainThread]: End processing [RTSDB]: success
+[2024-04-01 11:44:27] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:44:27] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.6.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.7.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-04-01 11:44:27] INFO root fetch - processPackages [picachain]: Remove: archive file [/home/abi/fetcher/tmp/picachain-0.1.2.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - processPackages [picachain]: Remove: archive file [/home/abi/fetcher/tmp/picachain-0.1.20.tar.gz]
+[2024-04-01 11:44:27] INFO root fetch - main [MainThread]: End processing [picachain]: success
+[2024-04-01 11:44:28] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.0-py3-none-any.whl.zip]
+[2024-04-01 11:44:28] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.1-py3-none-any.whl.zip]
+[2024-04-01 11:44:28] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-04-01 11:44:28] INFO root fetch - processPackages [arrendatools.plantillas]: Remove: archive file [/home/abi/fetcher/tmp/arrendatools.plantillas-0.4.3.tar.gz]
+[2024-04-01 11:44:28] INFO root fetch - processPackages [arrendatools.plantillas]: Remove: archive file [/home/abi/fetcher/tmp/arrendatools.plantillas-0.4.4.tar.gz]
+[2024-04-01 11:44:28] INFO root fetch - main [MainThread]: End processing [arrendatools.plantillas]: success
+[2024-04-01 11:44:28] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-01 11:44:28] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-01 11:44:28] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-01 11:44:28] INFO root fetch - main [MainThread]: Store serial: [22567809]
