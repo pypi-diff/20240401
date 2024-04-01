@@ -11655,3 +11655,41 @@ EOFError: EOF read where object expected
 [2024-04-01 20:02:35] INFO root fetch - processPackages [drf-spectacular]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-0.9.9.tar.gz]
 [2024-04-01 20:02:35] INFO root fetch - main [MainThread]: End processing [drf-spectacular]: success
 [2024-04-01 20:02:35] INFO root fetch - main [MainThread]: Store serial: [22573168]
+[2024-04-01 20:04:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573168]
+[2024-04-01 20:04:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 20:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonevu
+[2024-04-01 20:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kolmogorov-abacus
+[2024-04-01 20:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nestpython
+[2024-04-01 20:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: foxesscloud
+[2024-04-01 20:04:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: profiles-rudderstack-bin
+[2024-04-01 20:04:44] WARNING root fetch - processPackages [nestpython]: Skipping, unable to determine old version
+[2024-04-01 20:04:44] INFO root fetch - main [MainThread]: End processing [nestpython] error
+[2024-04-01 20:04:45] INFO root fetch - processPackages [kolmogorov-abacus]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 20:04:45] INFO root fetch - processPackages [profiles-rudderstack-bin]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-01 20:04:45] INFO root fetch - processPackages [zonevu]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-01 20:04:45] INFO root fetch - processPackages [foxesscloud]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-01 20:04:45] INFO root fetch - processPackages [kolmogorov-abacus]: Downloading https://files.pythonhosted.org/packages/2a/9b/853edbc8e5d432bdd4f91288706b3ee5b52d156ba1986d33a5105ec79aa3/kolmogorov-abacus-0.0.5.tar.gz
+[2024-04-01 20:04:45] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/5f/68/a7f3c357f0db51de0cd837d5922f7b656e1300583c5dde57faf4739371aa/zonevu-1.1.0-py3-none-any.whl
+[2024-04-01 20:04:45] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/85/9d/ef9005ef76a0881d540b4694602dad3d0fce45879a68ec8f67613c0fddcc/foxesscloud-2.1.8.tar.gz
+[2024-04-01 20:04:45] INFO root fetch - processPackages [profiles-rudderstack-bin]: Downloading https://files.pythonhosted.org/packages/2a/fa/f53dd82c8de9a17b04a3bee01636c020e77a2b5df73b8c9f0849c679393a/profiles_rudderstack_bin-0.9.3-py3-none-win_amd64.whl
+[2024-04-01 20:04:45] INFO root fetch - processPackages [kolmogorov-abacus]: Downloading https://files.pythonhosted.org/packages/36/3c/6c4653e08bf22284d0149bbfb04ac230206a7520a3dcf7c13d0adb4fbf71/kolmogorov-abacus-0.0.6.tar.gz
+[2024-04-01 20:04:45] INFO root fetch - processPackages [foxesscloud]: Downloading https://files.pythonhosted.org/packages/60/f9/dc971049ce8fd975ef25a7e6cc854c140a361a301ddb4eab62c610abc43b/foxesscloud-2.1.9.tar.gz
+[2024-04-01 20:04:45] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/d8/83/1d3535023c3122a634dda33bb578f29357c632b740fdb73c45b9d24ba8f5/zonevu-1.1.1-py3-none-any.whl
+[2024-04-01 20:04:45] WARNING root fetch - processPackages [profiles-rudderstack-bin]: Skipping package: exceeds size limit 35657249>=10485760
+[2024-04-01 20:04:45] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack-bin] error
+[2024-04-01 20:04:45] INFO root fetch - processPackages [kolmogorov-abacus]: executing diffoscope
+[2024-04-01 20:04:45] INFO root fetch - processPackages [kolmogorov-abacus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolmogorov-abacus-0.0.5.tar.gz tmp/kolmogorov-abacus-0.0.6.tar.gz --markdown 20240401/k/kolmogorov-abacus/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 20:04:45] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-01 20:04:45] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.0-py3-none-any.whl.zip tmp/zonevu-1.1.1-py3-none-any.whl.zip --markdown 20240401/z/zonevu/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 20:04:45] INFO root fetch - processPackages [foxesscloud]: executing diffoscope
+[2024-04-01 20:04:45] INFO root fetch - processPackages [foxesscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foxesscloud-2.1.8.tar.gz tmp/foxesscloud-2.1.9.tar.gz --markdown 20240401/f/foxesscloud/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-01 20:04:46] INFO root fetch - processPackages [kolmogorov-abacus]: Remove: archive file [/home/abi/fetcher/tmp/kolmogorov-abacus-0.0.5.tar.gz]
+[2024-04-01 20:04:46] INFO root fetch - processPackages [kolmogorov-abacus]: Remove: archive file [/home/abi/fetcher/tmp/kolmogorov-abacus-0.0.6.tar.gz]
+[2024-04-01 20:04:46] INFO root fetch - main [MainThread]: End processing [kolmogorov-abacus]: success
+[2024-04-01 20:04:46] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.1.8.tar.gz]
+[2024-04-01 20:04:46] INFO root fetch - processPackages [foxesscloud]: Remove: archive file [/home/abi/fetcher/tmp/foxesscloud-2.1.9.tar.gz]
+[2024-04-01 20:04:46] INFO root fetch - main [MainThread]: End processing [foxesscloud]: success
+[2024-04-01 20:04:47] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.0-py3-none-any.whl.zip]
+[2024-04-01 20:04:47] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.1-py3-none-any.whl.zip]
+[2024-04-01 20:04:47] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-01 20:04:47] INFO root fetch - main [MainThread]: Store serial: [22573182]
