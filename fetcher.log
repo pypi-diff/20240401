@@ -1904,3 +1904,68 @@ EOFError: EOF read where object expected
 [2024-04-01 13:17:28] INFO root fetch - processPackages [wasabi-geom]: Remove: archive file [/home/abi/fetcher/tmp/wasabi_geom-2.2.0-cp36-cp36m-macosx_10_9_x86_64.whl.zip]
 [2024-04-01 13:17:28] INFO root fetch - main [MainThread]: End processing [wasabi-geom]: success
 [2024-04-01 13:17:28] INFO root fetch - main [MainThread]: Store serial: [22568504]
+[2024-04-01 13:19:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568504]
+[2024-04-01 13:19:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwb4fp
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phone-email-auth
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qodex-cameras
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsbi
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: phenomApis
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gmalglib
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gameInvasion3
+[2024-04-01 13:19:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cashfree-pg
+[2024-04-01 13:19:44] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [gameInvasion3]: New version: [1.1.19] Old Version: [1.1.18]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [phone-email-auth]: New version: [0.5] Old Version: [0.4]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [phenomApis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.7.9] Old Version: [0.5.7.7]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [fsbi]: New version: [0.4] Old Version: [0.3]
+[2024-04-01 13:19:44] WARNING root fetch - processPackages [gmalglib]: Skipping, unable to determine old version
+[2024-04-01 13:19:44] INFO root fetch - main [MainThread]: End processing [gmalglib] error
+[2024-04-01 13:19:44] INFO root fetch - processPackages [cashfree-pg]: New version: [4.1.2] Old Version: [4.0.9]
+[2024-04-01 13:19:44] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/ba/d4/a754c903ad0f9a0946ded437ce79ed302c1b104c52645b20857dd42d842d/qodex_cameras-2.0.3-py3-none-any.whl
+[2024-04-01 13:19:44] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/7c/17/a1551cc76da02fcfc34c1d33824eff5bca46f5357b7fbf089b41274741b2/nwb4fp-0.5.7.7.tar.gz
+[2024-04-01 13:19:44] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/d5/44/20514974e1dc7a1e3261cd9c24ce464c2d2b6a3e36a14e00f427e1934e00/phone_email_auth-0.4.tar.gz
+[2024-04-01 13:19:44] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/dc/6e/9d8d6d0a353f15c4e0dbcac21813fecf658590610c200b290d1d52cf4bcf/phenomApis-0.0.8.tar.gz
+[2024-04-01 13:19:44] INFO root fetch - processPackages [gameInvasion3]: Downloading https://files.pythonhosted.org/packages/af/a9/7f4bec856dc6ccb49b2650157bfea438647a701b9735b2206f8765f54bd6/gameInvasion3-1.1.18.tar.gz
+[2024-04-01 13:19:44] INFO root fetch - processPackages [fsbi]: Downloading https://files.pythonhosted.org/packages/c4/b4/b57328dcd14f95406988db35cce992042109c96ccfc0961d07c8d612b600/fsbi-0.3.tar.gz
+[2024-04-01 13:19:44] INFO root fetch - processPackages [cashfree-pg]: Downloading https://files.pythonhosted.org/packages/86/5b/ecb9f05414fb6a0b907ed345b8741beace256dcf421a52a12655f518aa20/cashfree_pg-4.0.9.tar.gz
+[2024-04-01 13:19:44] WARNING root fetch - processPackages [gameInvasion3]: Skipping package: exceeds size limit 15695158>=10485760
+[2024-04-01 13:19:44] INFO root fetch - main [MainThread]: End processing [gameInvasion3] error
+[2024-04-01 13:19:45] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/5b/7d/a15527f4e85b136e77312a8c5163dff758db6086830bec732317b0889b89/qodex_cameras-2.1.0-py3-none-any.whl
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/8c/11/d16b9ca2be6fb2b01615a06f9bf44f651e576dfc105290f5214102ad51b1/phone_email_auth-0.5.tar.gz
+[2024-04-01 13:19:45] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/62/b8/d2714814f0bfda2cd6e84f84888347d1bae3bb6f1fe3d6463d6ad6aef060/nwb4fp-0.5.7.9.tar.gz
+[2024-04-01 13:19:45] INFO root fetch - processPackages [fsbi]: Downloading https://files.pythonhosted.org/packages/0f/b7/4d15c462850056103e6ee3135bb65c256140123ac2fc02b762af83029586/fsbi-0.4.tar.gz
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phenomApis]: Downloading https://files.pythonhosted.org/packages/5f/02/49c95ae3497919b13b780a550e266d2efa5075914f9577ea76fee1cd3852/phenomApis-0.0.9.tar.gz
+[2024-04-01 13:19:45] INFO root fetch - processPackages [cashfree-pg]: Downloading https://files.pythonhosted.org/packages/a2/57/5a4bffa9eb5f322250654ba200edeba601994937d8b2ce6a7a29231c8805/cashfree_pg-4.1.2.tar.gz
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phone-email-auth]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phone-email-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_email_auth-0.4.tar.gz tmp/phone_email_auth-0.5.tar.gz --markdown 20240401/p/phone-email-auth/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-01 13:19:45] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.0.3-py3-none-any.whl.zip tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-01 13:19:45] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.7.7.tar.gz tmp/nwb4fp-0.5.7.9.tar.gz --markdown 20240401/n/nwb4fp/0.5.7.7-0.5.7.9/diff.md --exclude *.pyd
+[2024-04-01 13:19:45] INFO root fetch - processPackages [fsbi]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [fsbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsbi-0.3.tar.gz tmp/fsbi-0.4.tar.gz --markdown 20240401/f/fsbi/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phenomApis]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [phenomApis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenomApis-0.0.8.tar.gz tmp/phenomApis-0.0.9.tar.gz --markdown 20240401/p/phenomApis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:19:45] INFO root fetch - processPackages [cashfree-pg]: executing diffoscope
+[2024-04-01 13:19:45] INFO root fetch - processPackages [cashfree-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cashfree_pg-4.0.9.tar.gz tmp/cashfree_pg-4.1.2.tar.gz --markdown 20240401/c/cashfree-pg/4.0.9-4.1.2/diff.md --exclude *.pyd
+[2024-04-01 13:19:46] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.0.3-py3-none-any.whl.zip]
+[2024-04-01 13:19:46] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip]
+[2024-04-01 13:19:46] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 13:19:46] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.4.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.5.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - main [MainThread]: End processing [phone-email-auth]: success
+[2024-04-01 13:19:46] INFO root fetch - processPackages [fsbi]: Remove: archive file [/home/abi/fetcher/tmp/fsbi-0.3.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - processPackages [fsbi]: Remove: archive file [/home/abi/fetcher/tmp/fsbi-0.4.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - main [MainThread]: End processing [fsbi]: success
+[2024-04-01 13:19:46] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.7.7.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.7.9.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-01 13:19:46] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.8.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - processPackages [phenomApis]: Remove: archive file [/home/abi/fetcher/tmp/phenomApis-0.0.9.tar.gz]
+[2024-04-01 13:19:46] INFO root fetch - main [MainThread]: End processing [phenomApis]: success
+[2024-04-01 13:19:47] INFO root fetch - processPackages [cashfree-pg]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_pg-4.0.9.tar.gz]
+[2024-04-01 13:19:47] INFO root fetch - processPackages [cashfree-pg]: Remove: archive file [/home/abi/fetcher/tmp/cashfree_pg-4.1.2.tar.gz]
+[2024-04-01 13:19:47] INFO root fetch - main [MainThread]: End processing [cashfree-pg]: success
+[2024-04-01 13:19:47] INFO root fetch - main [MainThread]: Store serial: [22568564]
