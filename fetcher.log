@@ -4792,3 +4792,69 @@ EOFError: EOF read where object expected
 [2024-04-01 15:46:03] INFO root fetch - processPackages [tdrpa.tdcore]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdcore-1.1.27-py39-none-win_amd64.whl.zip]
 [2024-04-01 15:46:03] INFO root fetch - main [MainThread]: End processing [tdrpa.tdcore]: success
 [2024-04-01 15:46:03] INFO root fetch - main [MainThread]: Store serial: [22569799]
+[2024-04-01 15:48:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569799]
+[2024-04-01 15:48:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: demisto-sdk
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: secsend
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secsend-api
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secsend-webapp
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gemcat
+[2024-04-01 15:48:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qodex-cameras
+[2024-04-01 15:48:12] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend-api]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend-webapp]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [gemcat]: New version: [1.2.0] Old Version: [1.0.1]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/5b/7d/a15527f4e85b136e77312a8c5163dff758db6086830bec732317b0889b89/qodex_cameras-2.1.0-py3-none-any.whl
+[2024-04-01 15:48:12] INFO root fetch - processPackages [demisto-sdk]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-01 15:48:12] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend-api]: Downloading https://files.pythonhosted.org/packages/6f/a7/7daaf39ab6d64a5dc0e1dc5f00aeef465e43a3989ac79601b93b03914639/secsend_api-1.0.0rc0.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend]: Downloading https://files.pythonhosted.org/packages/b8/0b/171ba275c1d9fb19da9c8e2c2b2398075b220be302e62598b12deca50155/secsend-1.0.0rc0.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [secsend-webapp]: Downloading https://files.pythonhosted.org/packages/07/c5/2dfe74d52f4c9297b5a2d0784f820c97c19e4acc80eae5a74da6c7902bed/secsend_webapp-1.0.0rc0-py3-none-any.whl
+[2024-04-01 15:48:12] INFO root fetch - processPackages [gemcat]: Downloading https://files.pythonhosted.org/packages/64/7a/50965750fe8c7e86acd1dad8fee4e390e030baf753e49b504f83010c9c59/gemcat-1.0.1.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/09/d8/b40156edfeb2c658f2e1fbd96230c4ad73caeb31f2c65c8c3c79aadd10ae/demisto_sdk-1.8.3.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:48:12] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/1d/37/520e86c7d5aeca875ce28e0885b746a08ddaece5daaeba3f8b4b16ba4d2d/qodex_cameras-2.1.1-py3-none-any.whl
+[2024-04-01 15:48:12] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:48:12] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:48:12] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 15:48:12] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip tmp/qodex_cameras-2.1.1-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-01 15:48:13] INFO root fetch - processPackages [gemcat]: Downloading https://files.pythonhosted.org/packages/82/cf/b9e2d32a2aa3562e4224ec8480df79e119df3edef5b19069558ade329130/gemcat-1.2.0.tar.gz
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-api]: Downloading https://files.pythonhosted.org/packages/38/e6/e8d723c07a52336ed43eac8a22105f47ca7fc1cee5a662d8c245c58fa9b2/secsend_api-1.1.0.tar.gz
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend]: Downloading https://files.pythonhosted.org/packages/34/db/12d32972dc24abf776ecb83b6dc3cf62a5b2f67347366b0b1ab13a32fda7/secsend-1.1.0.tar.gz
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-webapp]: Downloading https://files.pythonhosted.org/packages/ed/c7/2bba96a52953813444ed52438c2949e95653ba6bf1892a9cabc03896a76e/secsend_webapp-1.1.0-py3-none-any.whl
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-api]: executing diffoscope
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend_api-1.0.0rc0.tar.gz tmp/secsend_api-1.1.0.tar.gz --markdown 20240401/s/secsend-api/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend]: executing diffoscope
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend-1.0.0rc0.tar.gz tmp/secsend-1.1.0.tar.gz --markdown 20240401/s/secsend/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-webapp]: executing diffoscope
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend_webapp-1.0.0rc0-py3-none-any.whl.zip tmp/secsend_webapp-1.1.0-py3-none-any.whl.zip --markdown 20240401/s/secsend-webapp/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:48:13] INFO root fetch - processPackages [gemcat]: executing diffoscope
+[2024-04-01 15:48:13] INFO root fetch - processPackages [gemcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemcat-1.0.1.tar.gz tmp/gemcat-1.2.0.tar.gz --markdown 20240401/g/gemcat/1.0.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:48:13] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.0-py3-none-any.whl.zip]
+[2024-04-01 15:48:13] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.1-py3-none-any.whl.zip]
+[2024-04-01 15:48:13] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 15:48:13] INFO root fetch - processPackages [demisto-sdk]: Downloading https://files.pythonhosted.org/packages/64/f1/eb1afa74c8cd36ec00a08aa9c524502235aca66e33f399269e7f2b852df2/demisto_sdk-1.9.0.tar.gz
+[2024-04-01 15:48:13] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-api]: Remove: archive file [/home/abi/fetcher/tmp/secsend_api-1.0.0rc0.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-api]: Remove: archive file [/home/abi/fetcher/tmp/secsend_api-1.1.0.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - main [MainThread]: End processing [secsend-api]: success
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend]: Remove: archive file [/home/abi/fetcher/tmp/secsend-1.0.0rc0.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend]: Remove: archive file [/home/abi/fetcher/tmp/secsend-1.1.0.tar.gz]
+[2024-04-01 15:48:13] INFO root fetch - main [MainThread]: End processing [secsend]: success
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-webapp]: Remove: archive file [/home/abi/fetcher/tmp/secsend_webapp-1.0.0rc0-py3-none-any.whl.zip]
+[2024-04-01 15:48:13] INFO root fetch - processPackages [secsend-webapp]: Remove: archive file [/home/abi/fetcher/tmp/secsend_webapp-1.1.0-py3-none-any.whl.zip]
+[2024-04-01 15:48:13] INFO root fetch - main [MainThread]: End processing [secsend-webapp]: success
+[2024-04-01 15:48:14] INFO root fetch - processPackages [gemcat]: Remove: archive file [/home/abi/fetcher/tmp/gemcat-1.0.1.tar.gz]
+[2024-04-01 15:48:14] INFO root fetch - processPackages [gemcat]: Remove: archive file [/home/abi/fetcher/tmp/gemcat-1.2.0.tar.gz]
+[2024-04-01 15:48:14] INFO root fetch - main [MainThread]: End processing [gemcat]: success
+[2024-04-01 15:48:14] INFO root fetch - processPackages [demisto-sdk]: executing diffoscope
+[2024-04-01 15:48:14] INFO root fetch - processPackages [demisto-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demisto_sdk-1.8.3.tar.gz tmp/demisto_sdk-1.9.0.tar.gz --markdown 20240401/d/demisto-sdk/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 15:48:18] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.8.3.tar.gz]
+[2024-04-01 15:48:18] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
+[2024-04-01 15:48:18] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
+[2024-04-01 15:48:18] INFO root fetch - main [MainThread]: Store serial: [22569821]
