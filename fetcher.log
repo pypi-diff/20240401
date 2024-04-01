@@ -9444,3 +9444,38 @@ EOFError: EOF read where object expected
 [2024-04-01 18:34:37] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.7.tar.gz]
 [2024-04-01 18:34:37] INFO root fetch - main [MainThread]: End processing [bioomics]: success
 [2024-04-01 18:34:37] INFO root fetch - main [MainThread]: Store serial: [22572135]
+[2024-04-01 18:36:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572135]
+[2024-04-01 18:36:46] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-01 18:38:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572138]
+[2024-04-01 18:38:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 18:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: monisha
+[2024-04-01 18:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-kv
+[2024-04-01 18:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tpds-application-root
+[2024-04-01 18:38:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tpds-core
+[2024-04-01 18:38:52] INFO root fetch - processPackages [monisha]: New version: [0.0.40] Old Version: [0.0.39]
+[2024-04-01 18:38:52] INFO root fetch - processPackages [tpds-application-root]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-04-01 18:38:52] WARNING root fetch - processPackages [sqlite-kv]: Skipping, unable to determine old version
+[2024-04-01 18:38:52] INFO root fetch - main [MainThread]: End processing [sqlite-kv] error
+[2024-04-01 18:38:52] INFO root fetch - processPackages [tpds-core]: New version: [2.3.8] Old Version: [2.3.7]
+[2024-04-01 18:38:53] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/14/08/22d7eed5ad4c616728bab58f27c4575ee78b305c1e94d7615efedd38e363/monisha-0.0.39.tar.gz
+[2024-04-01 18:38:53] INFO root fetch - processPackages [tpds-application-root]: Downloading https://files.pythonhosted.org/packages/d0/71/4e47386c313e8c255e5db7a3672782db575e16c825dc65d0ca917ac2d784/tpds_application_root-2.3.8-py3-none-any.whl
+[2024-04-01 18:38:53] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/ec/68/337c922553078bac0ce454482893684a6fe1e6a0ef074973af5dd29a476f/tpds_core-2.3.7-py3-none-any.whl
+[2024-04-01 18:38:53] INFO root fetch - processPackages [monisha]: Downloading https://files.pythonhosted.org/packages/1e/79/4f4b54c2b26168ceca308dca54b84e37c42e28579c6373e9f04bbae70c9e/monisha-0.0.40.tar.gz
+[2024-04-01 18:38:53] INFO root fetch - processPackages [monisha]: executing diffoscope
+[2024-04-01 18:38:53] INFO root fetch - processPackages [monisha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monisha-0.0.39.tar.gz tmp/monisha-0.0.40.tar.gz --markdown 20240401/m/monisha/0.0.39-0.0.40/diff.md --exclude *.pyd
+[2024-04-01 18:38:53] INFO root fetch - processPackages [tpds-core]: Downloading https://files.pythonhosted.org/packages/e9/07/9f8025fe13e6d3d99483c9339a255137f6fa0a296b90f6df20dd981c76de/tpds_core-2.3.8-py3-none-any.whl
+[2024-04-01 18:38:53] INFO root fetch - processPackages [tpds-core]: executing diffoscope
+[2024-04-01 18:38:53] INFO root fetch - processPackages [tpds-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_core-2.3.7-py3-none-any.whl.zip tmp/tpds_core-2.3.8-py3-none-any.whl.zip --markdown 20240401/t/tpds-core/2.3.7-2.3.8/diff.md --exclude *.pyd
+[2024-04-01 18:38:54] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.39.tar.gz]
+[2024-04-01 18:38:54] INFO root fetch - processPackages [monisha]: Remove: archive file [/home/abi/fetcher/tmp/monisha-0.0.40.tar.gz]
+[2024-04-01 18:38:54] INFO root fetch - main [MainThread]: End processing [monisha]: success
+[2024-04-01 18:38:54] INFO root fetch - processPackages [tpds-application-root]: Downloading https://files.pythonhosted.org/packages/f5/e4/bb3ea60140cd1d8399b6c078d9ffe8da1010651308073dfe2bee486922e1/tpds_application_root-2.3.9-py3-none-any.whl
+[2024-04-01 18:38:54] INFO root fetch - processPackages [tpds-application-root]: executing diffoscope
+[2024-04-01 18:38:54] INFO root fetch - processPackages [tpds-application-root]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tpds_application_root-2.3.8-py3-none-any.whl.zip tmp/tpds_application_root-2.3.9-py3-none-any.whl.zip --markdown 20240401/t/tpds-application-root/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2024-04-01 18:38:54] INFO root fetch - processPackages [tpds-core]: Remove: archive file [/home/abi/fetcher/tmp/tpds_core-2.3.7-py3-none-any.whl.zip]
+[2024-04-01 18:38:54] INFO root fetch - processPackages [tpds-core]: Remove: archive file [/home/abi/fetcher/tmp/tpds_core-2.3.8-py3-none-any.whl.zip]
+[2024-04-01 18:38:54] INFO root fetch - main [MainThread]: End processing [tpds-core]: success
+[2024-04-01 18:39:07] INFO root fetch - processPackages [tpds-application-root]: Remove: archive file [/home/abi/fetcher/tmp/tpds_application_root-2.3.8-py3-none-any.whl.zip]
+[2024-04-01 18:39:07] INFO root fetch - processPackages [tpds-application-root]: Remove: archive file [/home/abi/fetcher/tmp/tpds_application_root-2.3.9-py3-none-any.whl.zip]
+[2024-04-01 18:39:07] INFO root fetch - main [MainThread]: End processing [tpds-application-root]: success
+[2024-04-01 18:39:07] INFO root fetch - main [MainThread]: Store serial: [22572150]
