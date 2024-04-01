@@ -6561,3 +6561,42 @@ EOFError: EOF read where object expected
 [2024-04-01 16:48:45] INFO root fetch - processPackages [pulumi-stripe]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_stripe-0.0.8.tar.gz]
 [2024-04-01 16:48:45] INFO root fetch - main [MainThread]: End processing [pulumi-stripe]: success
 [2024-04-01 16:48:45] INFO root fetch - main [MainThread]: Store serial: [22570712]
+[2024-04-01 16:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570712]
+[2024-04-01 16:50:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 16:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-swagger-coverage
+[2024-04-01 16:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: my-first-python-package-0
+[2024-04-01 16:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Xodia24
+[2024-04-01 16:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metalarchivist
+[2024-04-01 16:50:56] INFO root fetch - processPackages [Xodia24]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 16:50:56] INFO root fetch - processPackages [test-swagger-coverage]: New version: [2.1.60] Old Version: [2.1.59]
+[2024-04-01 16:50:56] INFO root fetch - processPackages [my-first-python-package-0]: New version: [1.1.0] Old Version: [0.1.4]
+[2024-04-01 16:50:56] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/0f/0b/a2007ecda7d6a3071f0809543e996b166f9d4c240cb6e010c8d6847e48a6/test_swagger_coverage-2.1.59.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [metalarchivist]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:50:56] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/13/da/8817dff0561e3da9dbf5740d9154c9111158822be88bad2a2dac78f63d50/Xodia24-0.0.2.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [my-first-python-package-0]: Downloading https://files.pythonhosted.org/packages/68/c2/4c7edd5505e231da995c74a6053755638137a365e7dd038c402eb5f74302/my_first_python_package_0-0.1.4.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/3f/f8/4fd1a926b9f72e291294726fd73330bdbb50de53bbb77eb23e162bbdd204/metalarchivist-0.1.8.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/a9/3d/3f066c76030e5fa84793a53a453d3ce1f06c5f9d0967639b824e22773a8d/test_swagger_coverage-2.1.60.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [test-swagger-coverage]: executing diffoscope
+[2024-04-01 16:50:56] INFO root fetch - processPackages [test-swagger-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_swagger_coverage-2.1.59.tar.gz tmp/test_swagger_coverage-2.1.60.tar.gz --markdown 20240401/t/test-swagger-coverage/2.1.59-2.1.60/diff.md --exclude *.pyd
+[2024-04-01 16:50:56] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/32/d6/dc36f4167a8a7ac516c2ee19e3c058273ed9f353fc5e3d67b61309cd98fe/Xodia24-0.0.3.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [my-first-python-package-0]: Downloading https://files.pythonhosted.org/packages/91/5a/46a5ea23dea3b64c309e5d550631d02440ae4c9f04299bdec10fbccc9356/my_first_python_package_0-1.1.0.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-01 16:50:56] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.2.tar.gz tmp/Xodia24-0.0.3.tar.gz --markdown 20240401/X/Xodia24/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:50:56] INFO root fetch - processPackages [metalarchivist]: Downloading https://files.pythonhosted.org/packages/a5/26/dbab6843e323f42a5660a659bc09d78fa76b8db6b729a57f854d0b1099ca/metalarchivist-0.1.9.tar.gz
+[2024-04-01 16:50:56] INFO root fetch - processPackages [my-first-python-package-0]: executing diffoscope
+[2024-04-01 16:50:56] INFO root fetch - processPackages [my-first-python-package-0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/my_first_python_package_0-0.1.4.tar.gz tmp/my_first_python_package_0-1.1.0.tar.gz --markdown 20240401/m/my-first-python-package-0/0.1.4-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 16:50:56] INFO root fetch - processPackages [metalarchivist]: executing diffoscope
+[2024-04-01 16:50:56] INFO root fetch - processPackages [metalarchivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metalarchivist-0.1.8.tar.gz tmp/metalarchivist-0.1.9.tar.gz --markdown 20240401/m/metalarchivist/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:50:57] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.59.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.60.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - main [MainThread]: End processing [test-swagger-coverage]: success
+[2024-04-01 16:50:57] INFO root fetch - processPackages [my-first-python-package-0]: Remove: archive file [/home/abi/fetcher/tmp/my_first_python_package_0-0.1.4.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - processPackages [my-first-python-package-0]: Remove: archive file [/home/abi/fetcher/tmp/my_first_python_package_0-1.1.0.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - main [MainThread]: End processing [my-first-python-package-0]: success
+[2024-04-01 16:50:57] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.2.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.3.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-01 16:50:57] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.8.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - processPackages [metalarchivist]: Remove: archive file [/home/abi/fetcher/tmp/metalarchivist-0.1.9.tar.gz]
+[2024-04-01 16:50:57] INFO root fetch - main [MainThread]: End processing [metalarchivist]: success
+[2024-04-01 16:50:57] INFO root fetch - main [MainThread]: Store serial: [22570724]
