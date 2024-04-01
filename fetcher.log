@@ -2260,3 +2260,65 @@ EOFError: EOF read where object expected
 [2024-04-01 13:33:54] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-04-01 13:33:54] INFO root fetch - main [MainThread]: Store serial: [22568697]
+[2024-04-01 13:36:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568697]
+[2024-04-01 13:36:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaea-paddledet
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchserve-nightly
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-archiver-nightly
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-workflow-archiver-nightly
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-arrow
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomicshop
+[2024-04-01 13:36:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pre5g
+[2024-04-01 13:36:20] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [pre5g]: New version: [0.9] Old Version: [0.8]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [cloud-arrow]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/17/83/1456dde549d5b37c40f04c5db13fc74037aa22f8d1c17660269c3d0c8cdd/pre5g-0.8.tar.gz
+[2024-04-01 13:36:20] INFO root fetch - processPackages [gaea-paddledet]: New version: [2.5.0.1] Old Version: [2.5.0]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:36:20] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 13:36:20] INFO root fetch - processPackages [cloud-arrow]: Downloading https://files.pythonhosted.org/packages/1e/24/fe63c1c1a4994ea87a0f96062f2885ef8d75c66b4ccc6b4bc74e050a0513/cloud-arrow-0.7.0.tar.gz
+[2024-04-01 13:36:20] INFO root fetch - processPackages [gaea-paddledet]: Downloading https://files.pythonhosted.org/packages/14/b7/3ac8dec63cdfb4b7b65720d76ce589974cb9e2bc8c2259699ab8c4c3d105/gaea_paddledet-2.5.0-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/ab/cc/8e5ca4cf3635218b0da03231410fa3bf3accb2151186e1dda82862f9f8cb/torchserve_nightly-2024.3.9-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f8/6d/44f9a65f0cd7efc78ef2976dbc574243159ff227db949af5a6092b6d54a9/torch_workflow_archiver_nightly-2024.3.9-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/a1/91/59b322e74e8cec948dd4bfc8e186c2f0d26eda358d7b3db480cadbece55d/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/43/57/1779c79260669527fbb20084102019c028b1ca761789107974b8e9b4a1a6/pre5g-0.9.tar.gz
+[2024-04-01 13:36:21] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.8.tar.gz tmp/pre5g-0.9.tar.gz --markdown 20240401/p/pre5g/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [cloud-arrow]: Downloading https://files.pythonhosted.org/packages/a5/58/59a75ff7bef5db3a7d2b0485810721c81f99cc85118244dae78f68904fa0/cloud-arrow-0.8.0.tar.gz
+[2024-04-01 13:36:21] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5d/3f/7a316e6f20f2c5d3360ee47d4a71af05f921fb8d8c921212dbdd951648d0/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [gaea-paddledet]: Downloading https://files.pythonhosted.org/packages/ef/6a/141ef676f90f78182d8433aeb6b832d0fac65c6f658343165cbadddf6f75/gaea_paddledet-2.5.0.1-py3-none-any.whl
+[2024-04-01 13:36:21] INFO root fetch - processPackages [cloud-arrow]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [cloud-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-arrow-0.7.0.tar.gz tmp/cloud-arrow-0.8.0.tar.gz --markdown 20240401/c/cloud-arrow/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/54/83/6329dea276ace83e487f46acec47b4fd46afb01f6da98d76294d84973efb/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl
+[2024-04-01 13:36:21] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24331996>=10485760
+[2024-04-01 13:36:21] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl.zip --markdown 20240401/t/torch-model-archiver-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.3.9-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl.zip --markdown 20240401/t/torch-workflow-archiver-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [gaea-paddledet]: executing diffoscope
+[2024-04-01 13:36:21] INFO root fetch - processPackages [gaea-paddledet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_paddledet-2.5.0-py3-none-any.whl.zip tmp/gaea_paddledet-2.5.0.1-py3-none-any.whl.zip --markdown 20240401/g/gaea-paddledet/2.5.0-2.5.0.1/diff.md --exclude *.pyd
+[2024-04-01 13:36:21] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.8.tar.gz]
+[2024-04-01 13:36:21] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.9.tar.gz]
+[2024-04-01 13:36:21] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-01 13:36:22] INFO root fetch - processPackages [cloud-arrow]: Remove: archive file [/home/abi/fetcher/tmp/cloud-arrow-0.7.0.tar.gz]
+[2024-04-01 13:36:22] INFO root fetch - processPackages [cloud-arrow]: Remove: archive file [/home/abi/fetcher/tmp/cloud-arrow-0.8.0.tar.gz]
+[2024-04-01 13:36:22] INFO root fetch - main [MainThread]: End processing [cloud-arrow]: success
+[2024-04-01 13:36:22] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.3.9-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-01 13:36:22] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-01 13:36:22] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:36:22] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:36:23] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0-py3-none-any.whl.zip]
+[2024-04-01 13:36:23] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0.1-py3-none-any.whl.zip]
+[2024-04-01 13:36:23] INFO root fetch - main [MainThread]: End processing [gaea-paddledet]: success
+[2024-04-01 13:36:23] INFO root fetch - main [MainThread]: Store serial: [22568712]
