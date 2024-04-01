@@ -3774,3 +3774,18 @@ EOFError: EOF read where object expected
 [2024-04-01 14:57:04] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 14:57:04] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 14:57:04] INFO root fetch - main [MainThread]: Store serial: [22569307]
+[2024-04-01 14:59:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569307]
+[2024-04-01 14:59:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 14:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RTSDB
+[2024-04-01 14:59:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-pdf2text
+[2024-04-01 14:59:13] INFO root fetch - processPackages [RTSDB]: New version: [1.4] Old Version: [1.3]
+[2024-04-01 14:59:13] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/ae/5d/e9a3d3a34f407c395ae43b2447a47c417a05e4bf3e0b4c2dcc3c068be8ad/RTSDB-1.3.tar.gz
+[2024-04-01 14:59:13] WARNING root fetch - processPackages [simple-pdf2text]: Skipping, unable to determine old version
+[2024-04-01 14:59:13] INFO root fetch - main [MainThread]: End processing [simple-pdf2text] error
+[2024-04-01 14:59:13] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/93/ec/4fa3aeeec174104c3f776c3d420d55129c4e128f0c1a64b9107417fa4bd0/RTSDB-1.4.tar.gz
+[2024-04-01 14:59:13] INFO root fetch - processPackages [RTSDB]: executing diffoscope
+[2024-04-01 14:59:13] INFO root fetch - processPackages [RTSDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSDB-1.3.tar.gz tmp/RTSDB-1.4.tar.gz --markdown 20240401/R/RTSDB/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-01 14:59:14] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.3.tar.gz]
+[2024-04-01 14:59:14] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.4.tar.gz]
+[2024-04-01 14:59:14] INFO root fetch - main [MainThread]: End processing [RTSDB]: success
+[2024-04-01 14:59:14] INFO root fetch - main [MainThread]: Store serial: [22569314]
