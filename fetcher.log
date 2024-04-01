@@ -10380,3 +10380,45 @@ EOFError: EOF read where object expected
 [2024-04-01 19:07:56] INFO root fetch - processPackages [alas-ce0-client]: Remove: archive file [/home/abi/fetcher/tmp/alas-ce0-client-5.0.78.tar.gz]
 [2024-04-01 19:07:56] INFO root fetch - main [MainThread]: End processing [alas-ce0-client]: success
 [2024-04-01 19:07:56] INFO root fetch - main [MainThread]: Store serial: [22572533]
+[2024-04-01 19:09:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572533]
+[2024-04-01 19:10:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 19:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deltalake
+[2024-04-01 19:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streaming-assistants
+[2024-04-01 19:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amilib
+[2024-04-01 19:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: donkeycar
+[2024-04-01 19:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tatik-calc
+[2024-04-01 19:10:04] INFO root fetch - processPackages [amilib]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-01 19:10:04] WARNING root fetch - processPackages [tatik-calc]: Skipping, unable to determine old version
+[2024-04-01 19:10:04] INFO root fetch - main [MainThread]: End processing [tatik-calc] error
+[2024-04-01 19:10:04] INFO root fetch - processPackages [donkeycar]: New version: [5.1.0] Old Version: [5.0.0]
+[2024-04-01 19:10:04] INFO root fetch - processPackages [deltalake]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-01 19:10:04] INFO root fetch - processPackages [streaming-assistants]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 19:10:04] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/69/de/c7da749256708a40e5cf75b281a43536db5475a7b91abc4e58bbc6f1071f/amilib-0.0.1a1.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [donkeycar]: Downloading https://files.pythonhosted.org/packages/95/85/bd51b486099cfea402dc36ee2b4184c14e9c8ca7d7d32b7e955f3025f851/donkeycar-5.0.0.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [deltalake]: Downloading https://files.pythonhosted.org/packages/fd/0e/b5472564df2041caea5b9d85de4be27ba13a03d845250b370f01319fa857/deltalake-0.8.1.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/af/3d/dc293cdb4c429406a79b61362e9e426095eccd198212a0cdd2f44174114f/streaming_assistants-0.8.0.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [amilib]: Downloading https://files.pythonhosted.org/packages/6a/5b/e5fd887c1d0ecdc1ab9fe0b278684870526a418f7faf2552f9e5add51c6d/amilib-0.0.1a2.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [amilib]: executing diffoscope
+[2024-04-01 19:10:05] INFO root fetch - processPackages [amilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amilib-0.0.1a1.tar.gz tmp/amilib-0.0.1a2.tar.gz --markdown 20240401/a/amilib/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-01 19:10:05] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/2f/a1/d98bc2e51aa7ddc249766325c12aca7c66d084cae0413a47250126f98e95/streaming_assistants-0.9.0.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [donkeycar]: Downloading https://files.pythonhosted.org/packages/e2/1a/49fc3843acb5f880e316a436148d5fa4b4abfe1684ea76ae662fb92d72df/donkeycar-5.1.0.tar.gz
+[2024-04-01 19:10:05] INFO root fetch - processPackages [streaming-assistants]: executing diffoscope
+[2024-04-01 19:10:05] INFO root fetch - processPackages [streaming-assistants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_assistants-0.8.0.tar.gz tmp/streaming_assistants-0.9.0.tar.gz --markdown 20240401/s/streaming-assistants/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 19:10:05] INFO root fetch - processPackages [donkeycar]: executing diffoscope
+[2024-04-01 19:10:05] INFO root fetch - processPackages [donkeycar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/donkeycar-5.0.0.tar.gz tmp/donkeycar-5.1.0.tar.gz --markdown 20240401/d/donkeycar/5.0.0-5.1.0/diff.md --exclude *.pyd
+[2024-04-01 19:10:06] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.1a1.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - processPackages [amilib]: Remove: archive file [/home/abi/fetcher/tmp/amilib-0.0.1a2.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - main [MainThread]: End processing [amilib]: success
+[2024-04-01 19:10:06] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.8.0.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.9.0.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - main [MainThread]: End processing [streaming-assistants]: success
+[2024-04-01 19:10:06] INFO root fetch - processPackages [deltalake]: Downloading https://files.pythonhosted.org/packages/a5/58/38edf79c582fbb1a46b8d0ded08d033a1b1085b8c7997c592aacc5d38e35/deltalake-0.9.0.tar.gz
+[2024-04-01 19:10:06] INFO root fetch - processPackages [donkeycar]: Remove: archive file [/home/abi/fetcher/tmp/donkeycar-5.0.0.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - processPackages [donkeycar]: Remove: archive file [/home/abi/fetcher/tmp/donkeycar-5.1.0.tar.gz]
+[2024-04-01 19:10:06] INFO root fetch - main [MainThread]: End processing [donkeycar]: success
+[2024-04-01 19:10:07] INFO root fetch - processPackages [deltalake]: executing diffoscope
+[2024-04-01 19:10:07] INFO root fetch - processPackages [deltalake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltalake-0.8.1.tar.gz tmp/deltalake-0.9.0.tar.gz --markdown 20240401/d/deltalake/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 19:10:09] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.8.1.tar.gz]
+[2024-04-01 19:10:09] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.9.0.tar.gz]
+[2024-04-01 19:10:09] INFO root fetch - main [MainThread]: End processing [deltalake]: success
+[2024-04-01 19:10:09] INFO root fetch - main [MainThread]: Store serial: [22572563]
