@@ -4189,3 +4189,38 @@ EOFError: EOF read where object expected
 [2024-04-01 15:19:18] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.0.tar.gz]
 [2024-04-01 15:19:18] INFO root fetch - main [MainThread]: End processing [pybts]: success
 [2024-04-01 15:19:18] INFO root fetch - main [MainThread]: Store serial: [22569557]
+[2024-04-01 15:21:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569557]
+[2024-04-01 15:21:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pybts
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebpfcat
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalifiai-client
+[2024-04-01 15:21:27] INFO root fetch - processPackages [pybts]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-01 15:21:27] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:21:27] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/f9/fd/ce4ea8d06e3c156a1f29bde8db3da48d99ab9800c30415d94c415b446168/pybts-1.1.0.tar.gz
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ebpfcat]: New version: [0.4.1] Old Version: [0.1.0]
+[2024-04-01 15:21:27] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:21:27] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 15:21:27] INFO root fetch - processPackages [ebpfcat]: Downloading https://files.pythonhosted.org/packages/ad/83/bf8f83d264562ef5bcf7a402ca21078b99910d0cd82e619e9f91d96da3c6/ebpfcat-0.1.0.tar.gz
+[2024-04-01 15:21:27] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/ec/1f/c615d0f9eecbed26c0260746b88b257793c23f0729d23dad2a5d70d8eec0/bigdl_core_xe_esimd_21-2.5.0b20240331-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-01 15:21:29] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46708651>=10485760
+[2024-04-01 15:21:29] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-01 15:21:29] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:21:29] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/82/d1/b465c8793d20de9c5dca2641c8aa8145ef9f92819db4ccaa7bcc2edbc9ba/pybts-1.2.0.tar.gz
+[2024-04-01 15:21:29] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:21:29] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:21:29] INFO root fetch - processPackages [ebpfcat]: Downloading https://files.pythonhosted.org/packages/e7/78/5acd4c5725d59b07a1fb76e76859de276d43095cc9d52d0295021eaa0d19/ebpfcat-0.4.1.tar.gz
+[2024-04-01 15:21:29] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-01 15:21:29] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.1.0.tar.gz tmp/pybts-1.2.0.tar.gz --markdown 20240401/p/pybts/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:21:29] INFO root fetch - processPackages [ebpfcat]: executing diffoscope
+[2024-04-01 15:21:29] INFO root fetch - processPackages [ebpfcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebpfcat-0.1.0.tar.gz tmp/ebpfcat-0.4.1.tar.gz --markdown 20240401/e/ebpfcat/0.1.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:21:29] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:21:29] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:21:29] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:21:30] INFO root fetch - processPackages [ebpfcat]: Remove: archive file [/home/abi/fetcher/tmp/ebpfcat-0.1.0.tar.gz]
+[2024-04-01 15:21:30] INFO root fetch - processPackages [ebpfcat]: Remove: archive file [/home/abi/fetcher/tmp/ebpfcat-0.4.1.tar.gz]
+[2024-04-01 15:21:30] INFO root fetch - main [MainThread]: End processing [ebpfcat]: success
+[2024-04-01 15:21:48] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.1.0.tar.gz]
+[2024-04-01 15:21:48] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.0.tar.gz]
+[2024-04-01 15:21:48] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-01 15:21:48] INFO root fetch - main [MainThread]: Store serial: [22569572]
