@@ -12179,3 +12179,36 @@ EOFError: EOF read where object expected
 [2024-04-01 20:25:01] INFO root fetch - processPackages [promptflow-vectordb]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_vectordb-0.2.7-py3-none-any.whl.zip]
 [2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [promptflow-vectordb]: success
 [2024-04-01 20:25:01] INFO root fetch - main [MainThread]: Store serial: [22573392]
+[2024-04-01 20:27:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573392]
+[2024-04-01 20:27:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 20:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imagespec-fast-builder
+[2024-04-01 20:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SQLDataModel
+[2024-04-01 20:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-account-loan
+[2024-04-01 20:27:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mm0204
+[2024-04-01 20:27:10] INFO root fetch - processPackages [imagespec-fast-builder]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 20:27:10] WARNING root fetch - processPackages [mm0204]: Skipping, unable to determine old version
+[2024-04-01 20:27:10] INFO root fetch - main [MainThread]: End processing [mm0204] error
+[2024-04-01 20:27:10] INFO root fetch - processPackages [SQLDataModel]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 20:27:10] INFO root fetch - processPackages [odoo14-addon-account-loan]: New version: [14.0.1.1.5.dev2] Old Version: [14.0.1.1.5.dev1]
+[2024-04-01 20:27:10] INFO root fetch - processPackages [imagespec-fast-builder]: Downloading https://files.pythonhosted.org/packages/0c/ec/ef722cda470a28ad5bedc535f0cb7490a45698ca1c14a8930c0bff0df24b/imagespec_fast_builder-0.0.6.tar.gz
+[2024-04-01 20:27:10] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/1f/7a/3c1eb034ccbbba135215829836a5aa92ad5c02cef4e87d7ae69e68adf875/odoo14_addon_account_loan-14.0.1.1.5.dev1-py3-none-any.whl
+[2024-04-01 20:27:10] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/70/cd/3454e6c8db8b837b9e5cec403b249afa9e9f38b4d9120e3fec19ac603665/SQLDataModel-0.3.0.tar.gz
+[2024-04-01 20:27:11] INFO root fetch - processPackages [imagespec-fast-builder]: Downloading https://files.pythonhosted.org/packages/1d/d9/dd2842c61e5dd545f1c9db1c46b45fc515267588d143ed104a7a555a602b/imagespec_fast_builder-0.0.7.tar.gz
+[2024-04-01 20:27:11] INFO root fetch - processPackages [SQLDataModel]: Downloading https://files.pythonhosted.org/packages/c1/96/c46589631bba411613b16f0a6c9ee4ee1346a7d03994d86ea2fd2c892d07/SQLDataModel-0.3.1.tar.gz
+[2024-04-01 20:27:11] INFO root fetch - processPackages [odoo14-addon-account-loan]: Downloading https://files.pythonhosted.org/packages/5f/9b/ad32b89284f244b9d266b653704c45e4679a0b6bf0879b4106128db6ff98/odoo14_addon_account_loan-14.0.1.1.5.dev2-py3-none-any.whl
+[2024-04-01 20:27:11] INFO root fetch - processPackages [SQLDataModel]: executing diffoscope
+[2024-04-01 20:27:11] INFO root fetch - processPackages [SQLDataModel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLDataModel-0.3.0.tar.gz tmp/SQLDataModel-0.3.1.tar.gz --markdown 20240401/S/SQLDataModel/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 20:27:11] INFO root fetch - processPackages [imagespec-fast-builder]: executing diffoscope
+[2024-04-01 20:27:11] INFO root fetch - processPackages [imagespec-fast-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagespec_fast_builder-0.0.6.tar.gz tmp/imagespec_fast_builder-0.0.7.tar.gz --markdown 20240401/i/imagespec-fast-builder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 20:27:11] INFO root fetch - processPackages [odoo14-addon-account-loan]: executing diffoscope
+[2024-04-01 20:27:11] INFO root fetch - processPackages [odoo14-addon-account-loan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_loan-14.0.1.1.5.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_loan-14.0.1.1.5.dev2-py3-none-any.whl.zip --markdown 20240401/o/odoo14-addon-account-loan/14.0.1.1.5.dev1-14.0.1.1.5.dev2/diff.md --exclude *.pyd
+[2024-04-01 20:27:12] INFO root fetch - processPackages [imagespec-fast-builder]: Remove: archive file [/home/abi/fetcher/tmp/imagespec_fast_builder-0.0.6.tar.gz]
+[2024-04-01 20:27:12] INFO root fetch - processPackages [imagespec-fast-builder]: Remove: archive file [/home/abi/fetcher/tmp/imagespec_fast_builder-0.0.7.tar.gz]
+[2024-04-01 20:27:12] INFO root fetch - main [MainThread]: End processing [imagespec-fast-builder]: success
+[2024-04-01 20:27:12] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.0.tar.gz]
+[2024-04-01 20:27:12] INFO root fetch - processPackages [SQLDataModel]: Remove: archive file [/home/abi/fetcher/tmp/SQLDataModel-0.3.1.tar.gz]
+[2024-04-01 20:27:12] INFO root fetch - main [MainThread]: End processing [SQLDataModel]: success
+[2024-04-01 20:27:12] INFO root fetch - processPackages [odoo14-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_loan-14.0.1.1.5.dev1-py3-none-any.whl.zip]
+[2024-04-01 20:27:12] INFO root fetch - processPackages [odoo14-addon-account-loan]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_loan-14.0.1.1.5.dev2-py3-none-any.whl.zip]
+[2024-04-01 20:27:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-loan]: success
+[2024-04-01 20:27:12] INFO root fetch - main [MainThread]: Store serial: [22573405]
