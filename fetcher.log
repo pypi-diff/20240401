@@ -2478,3 +2478,18 @@ EOFError: EOF read where object expected
 [2024-04-01 13:44:13] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
 [2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
 [2024-04-01 13:44:14] INFO root fetch - main [MainThread]: Store serial: [22568761]
+[2024-04-01 13:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568761]
+[2024-04-01 13:46:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 13:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airouter
+[2024-04-01 13:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: switchkeys
+[2024-04-01 13:46:40] WARNING root fetch - processPackages [switchkeys]: Skipping, unable to determine old version
+[2024-04-01 13:46:40] INFO root fetch - main [MainThread]: End processing [switchkeys] error
+[2024-04-01 13:46:40] INFO root fetch - processPackages [airouter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 13:46:40] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/8a/3e/da06f92af428f5b70f43949f2e50c9b5f58563142fda79296230caf358d7/airouter-0.1.8.tar.gz
+[2024-04-01 13:46:41] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/c4/d7/f6d9f500e0aa8354a4af24c90d8fc78305df63bb7b2133759b92be00e3e0/airouter-0.1.9.tar.gz
+[2024-04-01 13:46:41] INFO root fetch - processPackages [airouter]: executing diffoscope
+[2024-04-01 13:46:41] INFO root fetch - processPackages [airouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airouter-0.1.8.tar.gz tmp/airouter-0.1.9.tar.gz --markdown 20240401/a/airouter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 13:46:41] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.8.tar.gz]
+[2024-04-01 13:46:41] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.9.tar.gz]
+[2024-04-01 13:46:41] INFO root fetch - main [MainThread]: End processing [airouter]: success
+[2024-04-01 13:46:41] INFO root fetch - main [MainThread]: Store serial: [22568769]
