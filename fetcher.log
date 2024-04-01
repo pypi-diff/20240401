@@ -13782,3 +13782,41 @@ EOFError: EOF read where object expected
 [2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: Remove: archive file [/home/abi/fetcher/tmp/html_text_color-0.0.7.tar.gz]
 [2024-04-01 21:36:45] INFO root fetch - main [MainThread]: End processing [html-text-color]: success
 [2024-04-01 21:36:45] INFO root fetch - main [MainThread]: Store serial: [22574136]
+[2024-04-01 21:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574136]
+[2024-04-01 21:38:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 21:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CrunchyrollAPI
+[2024-04-01 21:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cooking-with-gas
+[2024-04-01 21:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-01 21:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: randovania
+[2024-04-01 21:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystow
+[2024-04-01 21:38:54] INFO root fetch - processPackages [CrunchyrollAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 21:38:55] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/47/c3/4c840a0d3da7428a0f4519a12807caef3020219646668e528987c612ca59/CrunchyrollAPI-0.1.8.tar.gz
+[2024-04-01 21:38:55] WARNING root fetch - processPackages [cooking-with-gas]: Skipping, unable to determine old version
+[2024-04-01 21:38:55] INFO root fetch - main [MainThread]: End processing [cooking-with-gas] error
+[2024-04-01 21:38:55] INFO root fetch - processPackages [randovania]: New version: [7.5.0] Old Version: [7.4.2]
+[2024-04-01 21:38:55] INFO root fetch - processPackages [pystow]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-01 21:38:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev96] Old Version: [0.0.1.dev95]
+[2024-04-01 21:38:55] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/97/bf/9695615b27883251a6c836eafd3dbecfb350d07f29ef5d502b6b0dae7339/CrunchyrollAPI-0.1.9.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [pystow]: Downloading https://files.pythonhosted.org/packages/a2/1b/e3c5c1d6f63374d43af00542481a2763bb47e3a79eab9e40854e8d7d8a8c/pystow-0.5.3.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [randovania]: Downloading https://files.pythonhosted.org/packages/e5/36/d19e8660fa02fdcf1a1e3f9bfc215acd834eed325a60fdbd703848c5ca89/randovania-7.4.2.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/08/a9/8eacbb8658f1d22ac1cb8000a3371c3ba65cbd550727fbff320f3f69dde7/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [CrunchyrollAPI]: executing diffoscope
+[2024-04-01 21:38:55] INFO root fetch - processPackages [CrunchyrollAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrunchyrollAPI-0.1.8.tar.gz tmp/CrunchyrollAPI-0.1.9.tar.gz --markdown 20240401/C/CrunchyrollAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:38:55] WARNING root fetch - processPackages [randovania]: Skipping package: exceeds size limit 23270436>=10485760
+[2024-04-01 21:38:55] INFO root fetch - main [MainThread]: End processing [randovania] error
+[2024-04-01 21:38:55] INFO root fetch - processPackages [pystow]: Downloading https://files.pythonhosted.org/packages/a5/9a/7677a2b8101da65f30d49144910088168ea3acd1ecbe4ee989dfae1f41bc/pystow-0.5.4.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/4c/0d/10e4beb76a1203033217eea40e76ed03a7b4d37438f82180df19890194c1/sleipnirgroup_jormungandr-0.0.1.dev96.tar.gz
+[2024-04-01 21:38:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-01 21:38:55] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev96.tar.gz --markdown 20240401/s/sleipnirgroup-jormungandr/0.0.1.dev95-0.0.1.dev96/diff.md --exclude *.pyd
+[2024-04-01 21:38:55] INFO root fetch - processPackages [pystow]: executing diffoscope
+[2024-04-01 21:38:55] INFO root fetch - processPackages [pystow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystow-0.5.3.tar.gz tmp/pystow-0.5.4.tar.gz --markdown 20240401/p/pystow/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2024-04-01 21:38:56] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.8.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.9.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - main [MainThread]: End processing [CrunchyrollAPI]: success
+[2024-04-01 21:38:56] INFO root fetch - processPackages [pystow]: Remove: archive file [/home/abi/fetcher/tmp/pystow-0.5.3.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - processPackages [pystow]: Remove: archive file [/home/abi/fetcher/tmp/pystow-0.5.4.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - main [MainThread]: End processing [pystow]: success
+[2024-04-01 21:38:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev96.tar.gz]
+[2024-04-01 21:38:56] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-01 21:38:56] INFO root fetch - main [MainThread]: Store serial: [22574166]
