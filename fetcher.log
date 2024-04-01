@@ -3903,3 +3903,38 @@ EOFError: EOF read where object expected
 [2024-04-01 15:03:35] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.4.tar.gz]
 [2024-04-01 15:03:35] INFO root fetch - main [MainThread]: End processing [sssom-schema]: success
 [2024-04-01 15:03:35] INFO root fetch - main [MainThread]: Store serial: [22569348]
+[2024-04-01 15:05:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569348]
+[2024-04-01 15:05:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psl
+[2024-04-01 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-01 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Products.urban
+[2024-04-01 15:05:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ruleopt
+[2024-04-01 15:05:44] INFO root fetch - processPackages [Products.urban]: New version: [2.7.6] Old Version: [2.7.5]
+[2024-04-01 15:05:44] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 15:05:44] INFO root fetch - processPackages [ruleopt]: New version: [0.1.1] Old Version: [0.1]
+[2024-04-01 15:05:45] INFO root fetch - processPackages [psl]: New version: [2024.4.1] Old Version: [2024.3.4]
+[2024-04-01 15:05:45] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/4d/19/560064636196eea3c2b39ac6a05f75dcb593498112a2fe80b397ab3bf8ad/Products.urban-2.7.5.tar.gz
+[2024-04-01 15:05:45] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 15:05:45] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20167806>=10485760
+[2024-04-01 15:05:45] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-01 15:05:45] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/b2/fa/b2f6fcdb5115d1430f981b4d05874a9c3366e2be859cc78bcf93d7a66c41/psl-2024.3.4.tar.gz
+[2024-04-01 15:05:45] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/e5/74/14810d0e03668d14ff9bfeb7b820e7ad18caef31e48c0926320181e80283/ruleopt-0.1-cp39-cp39-win_amd64.whl
+[2024-04-01 15:05:45] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 15:05:45] INFO root fetch - processPackages [psl]: Downloading https://files.pythonhosted.org/packages/46/e5/9e715514ddc1429cb2cc54c4660ef55df2c824d66212e54845fdffec9a24/psl-2024.4.1.tar.gz
+[2024-04-01 15:05:45] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/fd/ba/e4f0fbee7c83d024cb3414f95996688e86874883d19bf04dab44bcadd729/ruleopt-0.1.1-cp39-cp39-macosx_11_0_arm64.whl
+[2024-04-01 15:05:45] INFO root fetch - processPackages [psl]: executing diffoscope
+[2024-04-01 15:05:45] INFO root fetch - processPackages [psl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psl-2024.3.4.tar.gz tmp/psl-2024.4.1.tar.gz --markdown 20240401/p/psl/2024.3.4-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:05:45] INFO root fetch - processPackages [ruleopt]: executing diffoscope
+[2024-04-01 15:05:45] INFO root fetch - processPackages [ruleopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleopt-0.1-cp39-cp39-win_amd64.whl.zip tmp/ruleopt-0.1.1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240401/r/ruleopt/0.1-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 15:05:45] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 15:05:45] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 15:05:46] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.3.4.tar.gz]
+[2024-04-01 15:05:46] INFO root fetch - processPackages [psl]: Remove: archive file [/home/abi/fetcher/tmp/psl-2024.4.1.tar.gz]
+[2024-04-01 15:05:46] INFO root fetch - main [MainThread]: End processing [psl]: success
+[2024-04-01 15:05:46] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 15:05:46] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 15:05:46] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 15:05:47] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 15:05:47] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-04-01 15:05:47] INFO root fetch - main [MainThread]: End processing [ruleopt]: success
+[2024-04-01 15:05:47] INFO root fetch - main [MainThread]: Store serial: [22569361]
