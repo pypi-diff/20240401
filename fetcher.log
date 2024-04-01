@@ -4933,3 +4933,59 @@ EOFError: EOF read where object expected
 [2024-04-01 15:50:29] INFO root fetch - processPackages [fastmat]: Remove: archive file [/home/abi/fetcher/tmp/fastmat-0.2rc0.tar.gz]
 [2024-04-01 15:50:29] INFO root fetch - main [MainThread]: End processing [fastmat]: success
 [2024-04-01 15:50:29] INFO root fetch - main [MainThread]: Store serial: [22569870]
+[2024-04-01 15:52:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569870]
+[2024-04-01 15:52:39] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xkcdpass
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bbot
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-sdk
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configureout
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qodex-cameras
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: beautifuljason
+[2024-04-01 15:52:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensordict-nightly
+[2024-04-01 15:52:39] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-01 15:52:39] INFO root fetch - processPackages [bbot]: New version: [1.1.7.7rc0] Old Version: [1.1.7.6rc0]
+[2024-04-01 15:52:39] WARNING root fetch - processPackages [configureout]: Skipping, unable to determine old version
+[2024-04-01 15:52:39] INFO root fetch - main [MainThread]: End processing [configureout] error
+[2024-04-01 15:52:39] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/1d/37/520e86c7d5aeca875ce28e0885b746a08ddaece5daaeba3f8b4b16ba4d2d/qodex_cameras-2.1.1-py3-none-any.whl
+[2024-04-01 15:52:39] INFO root fetch - processPackages [xkcdpass]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-01 15:52:39] INFO root fetch - processPackages [cognite-sdk]: New version: [7.9.0] Old Version: [7.8.9]
+[2024-04-01 15:52:40] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/0e/89/05677f40d2885a5aa8306d6e691a9c8e8bde59b2659d8c45e30c01a31b74/bbot-1.1.7.6rc0.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [xkcdpass]: Downloading https://files.pythonhosted.org/packages/20/0b/2e5d43f5416fe132408e403e0f8cac04af0d0a1a46f789d3b699ff30e801/xkcdpass-1.9.4.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/3a/da/08548de702dfbea6b1062e8994a1411347778ac52ad6c7db4550cbb42a5a/cognite_sdk-7.8.9.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [beautifuljason]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-01 15:52:40] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/b4/f7/f0daed42e5b3e30fcac489f44d8b9fca3066fb7ab111aa631b6ef9052aac/qodex_cameras-2.1.2-py3-none-any.whl
+[2024-04-01 15:52:40] INFO root fetch - processPackages [bbot]: Downloading https://files.pythonhosted.org/packages/84/41/8580d0cea5bf01417fb7b7db4ce6c0bc6617c939c9859c98790d2121b508/bbot-1.1.7.7rc0.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 15:52:40] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 15:52:40] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.1-py3-none-any.whl.zip tmp/qodex_cameras-2.1.2-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-01 15:52:40] INFO root fetch - processPackages [beautifuljason]: Downloading https://files.pythonhosted.org/packages/78/b4/ea79f71f8b9c2eb56487145ded0703a6690e25c5333a25080200e4b63439/beautifuljason-1.0.1.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [xkcdpass]: Downloading https://files.pythonhosted.org/packages/30/53/8259109eaa49ae2ec9bbbecb0c1fc5d42b9561a54ba6bc8a736ddb8ac251/xkcdpass-1.9.5.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - processPackages [bbot]: executing diffoscope
+[2024-04-01 15:52:40] INFO root fetch - processPackages [bbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbot-1.1.7.6rc0.tar.gz tmp/bbot-1.1.7.7rc0.tar.gz --markdown 20240401/b/bbot/1.1.7.6rc0-1.1.7.7rc0/diff.md --exclude *.pyd
+[2024-04-01 15:52:40] WARNING root fetch - processPackages [beautifuljason]: Skipping package: exceeds size limit 53061236>=10485760
+[2024-04-01 15:52:40] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/f3/d0/084198ea74187c00a0e69e824227d6cb1a40491cd4a427cf4a86e43a4f32/cognite_sdk-7.9.0.tar.gz
+[2024-04-01 15:52:40] INFO root fetch - main [MainThread]: End processing [beautifuljason] error
+[2024-04-01 15:52:40] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/7f/d8/967f47c9dac3843fff9fca16ffa1d5d1be2e568ec9ccca44d4e71847ad9b/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl
+[2024-04-01 15:52:40] INFO root fetch - processPackages [xkcdpass]: executing diffoscope
+[2024-04-01 15:52:40] INFO root fetch - processPackages [xkcdpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xkcdpass-1.9.4.tar.gz tmp/xkcdpass-1.9.5.tar.gz --markdown 20240401/x/xkcdpass/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2024-04-01 15:52:40] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2024-04-01 15:52:40] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-7.8.9.tar.gz tmp/cognite_sdk-7.9.0.tar.gz --markdown 20240401/c/cognite-sdk/7.8.9-7.9.0/diff.md --exclude *.pyd
+[2024-04-01 15:52:41] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.1-py3-none-any.whl.zip]
+[2024-04-01 15:52:41] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.2-py3-none-any.whl.zip]
+[2024-04-01 15:52:41] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 15:52:41] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/51/bf/d4feabf8eedeabfdc7525868f849773de0b4f0b944812f2fc66442a487e5/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-01 15:52:41] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-01 15:52:41] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20240401/t/tensordict-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:52:41] INFO root fetch - processPackages [xkcdpass]: Remove: archive file [/home/abi/fetcher/tmp/xkcdpass-1.9.4.tar.gz]
+[2024-04-01 15:52:41] INFO root fetch - processPackages [xkcdpass]: Remove: archive file [/home/abi/fetcher/tmp/xkcdpass-1.9.5.tar.gz]
+[2024-04-01 15:52:41] INFO root fetch - main [MainThread]: End processing [xkcdpass]: success
+[2024-04-01 15:52:41] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.8.9.tar.gz]
+[2024-04-01 15:52:41] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-7.9.0.tar.gz]
+[2024-04-01 15:52:41] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2024-04-01 15:52:42] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.6rc0.tar.gz]
+[2024-04-01 15:52:42] INFO root fetch - processPackages [bbot]: Remove: archive file [/home/abi/fetcher/tmp/bbot-1.1.7.7rc0.tar.gz]
+[2024-04-01 15:52:42] INFO root fetch - main [MainThread]: End processing [bbot]: success
+[2024-04-01 15:52:42] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 15:52:42] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2024-04-01 15:52:42] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-01 15:52:42] INFO root fetch - main [MainThread]: Store serial: [22569902]
