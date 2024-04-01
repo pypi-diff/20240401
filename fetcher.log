@@ -7949,3 +7949,42 @@ EOFError: EOF read where object expected
 [2024-04-01 17:37:23] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.2.9.tar.gz]
 [2024-04-01 17:37:23] INFO root fetch - main [MainThread]: End processing [lunary]: success
 [2024-04-01 17:37:23] INFO root fetch - main [MainThread]: Store serial: [22571340]
+[2024-04-01 17:39:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571340]
+[2024-04-01 17:39:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microagi-git
+[2024-04-01 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-vault
+[2024-04-01 17:39:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fast-html
+[2024-04-01 17:39:33] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a3] Old Version: [1.2.0a2]
+[2024-04-01 17:39:33] INFO root fetch - processPackages [pulumi-vault]: New version: [6.1.0a1711686644] Old Version: [6.1.0a1711608625]
+[2024-04-01 17:39:33] INFO root fetch - processPackages [microagi-git]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 17:39:33] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/f6/51/124fe563f0d7b2877beab958c8ed6332e7777af184aed6067bcc71193f04/scalifiai-client-1.2.0a2.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [fast-html]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-01 17:39:33] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/2c/d5/841e0ce3f169fcd7fafaec10a88c3dda80d214cb3d885d7048900b0445e5/pulumi_vault-6.1.0a1711608625.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [microagi-git]: Downloading https://files.pythonhosted.org/packages/d2/eb/f2e67b594f71177e193a483c5815c4548c41856ca33f135cdd55bcd52102/microagi_git-0.0.5.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/2f/ee/69c9f21aab62ec3c09703b937107493c628a50796e2d0fd6d491537a10c0/fast_html-1.0.7.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/53/d1/0084c27f30131828db39945782455b590f22d566ed81e1a3fc5d3b91ad0c/scalifiai-client-1.2.0a3.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [microagi-git]: Downloading https://files.pythonhosted.org/packages/5a/70/17c8943ebc00bb0d7c5c39ebad7f2a8b6fba36fa4c74436194fb62c37e91/microagi_git-0.0.6.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/5f/8c/097589cb5c8c585ca8a3226240cb35e67a043acd13452951208f3bf7c4c6/pulumi_vault-6.1.0a1711686644.tar.gz
+[2024-04-01 17:39:33] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/40/e2/90cd9d97f3705e60aa5d427f7a3b9c4199cafca69c523fcafd0cb80dec3e/fast_html-1.0.8.tar.gz
+[2024-04-01 17:39:34] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:39:34] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a2.tar.gz tmp/scalifiai-client-1.2.0a3.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a2-1.2.0a3/diff.md --exclude *.pyd
+[2024-04-01 17:39:34] INFO root fetch - processPackages [microagi-git]: executing diffoscope
+[2024-04-01 17:39:34] INFO root fetch - processPackages [microagi-git]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microagi_git-0.0.5.tar.gz tmp/microagi_git-0.0.6.tar.gz --markdown 20240401/m/microagi-git/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 17:39:34] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-04-01 17:39:34] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.1.0a1711608625.tar.gz tmp/pulumi_vault-6.1.0a1711686644.tar.gz --markdown 20240401/p/pulumi-vault/6.1.0a1711608625-6.1.0a1711686644/diff.md --exclude *.pyd
+[2024-04-01 17:39:34] INFO root fetch - processPackages [microagi-git]: Remove: archive file [/home/abi/fetcher/tmp/microagi_git-0.0.5.tar.gz]
+[2024-04-01 17:39:34] INFO root fetch - processPackages [fast-html]: executing diffoscope
+[2024-04-01 17:39:34] INFO root fetch - processPackages [fast-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_html-1.0.7.tar.gz tmp/fast_html-1.0.8.tar.gz --markdown 20240401/f/fast-html/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-01 17:39:34] INFO root fetch - processPackages [microagi-git]: Remove: archive file [/home/abi/fetcher/tmp/microagi_git-0.0.6.tar.gz]
+[2024-04-01 17:39:34] INFO root fetch - main [MainThread]: End processing [microagi-git]: success
+[2024-04-01 17:39:34] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a2.tar.gz]
+[2024-04-01 17:39:34] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a3.tar.gz]
+[2024-04-01 17:39:34] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:39:35] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.7.tar.gz]
+[2024-04-01 17:39:35] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.8.tar.gz]
+[2024-04-01 17:39:35] INFO root fetch - main [MainThread]: End processing [fast-html]: success
+[2024-04-01 17:39:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1711608625.tar.gz]
+[2024-04-01 17:39:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1711686644.tar.gz]
+[2024-04-01 17:39:35] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-04-01 17:39:35] INFO root fetch - main [MainThread]: Store serial: [22571352]
