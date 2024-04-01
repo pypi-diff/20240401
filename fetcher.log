@@ -3058,3 +3058,43 @@ EOFError: EOF read where object expected
 [2024-04-01 14:15:10] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.2.0.tar.gz]
 [2024-04-01 14:15:10] INFO root fetch - main [MainThread]: End processing [quickfin]: success
 [2024-04-01 14:15:10] INFO root fetch - main [MainThread]: Store serial: [22568999]
+[2024-04-01 14:17:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568999]
+[2024-04-01 14:17:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 14:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Products.urban
+[2024-04-01 14:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s-cdktf-resolver
+[2024-04-01 14:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nrobo
+[2024-04-01 14:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-pipeline-engine
+[2024-04-01 14:17:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pillow
+[2024-04-01 14:17:20] INFO root fetch - processPackages [nrobo]: New version: [2024.38.0] Old Version: [2024.37.0]
+[2024-04-01 14:17:20] INFO root fetch - processPackages [pillow]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-04-01 14:17:20] INFO root fetch - processPackages [ml-pipeline-engine]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-01 14:17:20] INFO root fetch - processPackages [Products.urban]: New version: [2.7.6] Old Version: [2.7.5]
+[2024-04-01 14:17:20] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/69/16/9ead4dc8104aba223969e1ad20136a0f9785065c3b0c343fd4d7ac47a9f0/nrobo-2024.37.0.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 14:17:20] INFO root fetch - processPackages [ml-pipeline-engine]: Downloading https://files.pythonhosted.org/packages/5a/17/796461af77accbfad63c4848868439a8cfc0f5969640c2499aa2e22725c0/ml_pipeline_engine-1.6.0.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/4d/19/560064636196eea3c2b39ac6a05f75dcb593498112a2fe80b397ab3bf8ad/Products.urban-2.7.5.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/d0/7b/6e241c141aee876e6231c607ad885acbb3d93f3e8d6215bf20ad4718a568/cdk8s-cdktf-resolver-0.0.8.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [pillow]: Downloading https://files.pythonhosted.org/packages/bc/07/830784e061fb94d67649f3e438ff63cfb902dec6d48ac75aeaaac7c7c30e/Pillow-9.4.0.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [nrobo]: Downloading https://files.pythonhosted.org/packages/17/1b/c5113054682e5b7caca31a7bd79b1d186344961c876d0d18712d0401c40b/nrobo-2024.38.0.tar.gz
+[2024-04-01 14:17:20] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20167806>=10485760
+[2024-04-01 14:17:20] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-01 14:17:20] WARNING root fetch - processPackages [pillow]: Skipping package: exceeds size limit 50403076>=10485760
+[2024-04-01 14:17:20] INFO root fetch - main [MainThread]: End processing [pillow] error
+[2024-04-01 14:17:20] INFO root fetch - processPackages [nrobo]: executing diffoscope
+[2024-04-01 14:17:20] INFO root fetch - processPackages [nrobo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrobo-2024.37.0.tar.gz tmp/nrobo-2024.38.0.tar.gz --markdown 20240401/n/nrobo/2024.37.0-2024.38.0/diff.md --exclude *.pyd
+[2024-04-01 14:17:20] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Downloading https://files.pythonhosted.org/packages/17/4d/78b8350a2cb674183d85f673cae768cba8891cc6c1031b4c61aa54af2f42/cdk8s-cdktf-resolver-0.0.9.tar.gz
+[2024-04-01 14:17:20] INFO root fetch - processPackages [ml-pipeline-engine]: Downloading https://files.pythonhosted.org/packages/8e/bc/261896f596a1302bdc7af755bc1c6683a62415ee47569066ea71ebdbd796/ml_pipeline_engine-1.7.0.tar.gz
+[2024-04-01 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: executing diffoscope
+[2024-04-01 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz --markdown 20240401/c/cdk8s-cdktf-resolver/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:17:21] INFO root fetch - processPackages [ml-pipeline-engine]: executing diffoscope
+[2024-04-01 14:17:21] INFO root fetch - processPackages [ml-pipeline-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_pipeline_engine-1.6.0.tar.gz tmp/ml_pipeline_engine-1.7.0.tar.gz --markdown 20240401/m/ml-pipeline-engine/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-01 14:17:21] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.37.0.tar.gz]
+[2024-04-01 14:17:21] INFO root fetch - processPackages [nrobo]: Remove: archive file [/home/abi/fetcher/tmp/nrobo-2024.38.0.tar.gz]
+[2024-04-01 14:17:21] INFO root fetch - main [MainThread]: End processing [nrobo]: success
+[2024-04-01 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.8.tar.gz]
+[2024-04-01 14:17:21] INFO root fetch - processPackages [cdk8s-cdktf-resolver]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-cdktf-resolver-0.0.9.tar.gz]
+[2024-04-01 14:17:21] INFO root fetch - main [MainThread]: End processing [cdk8s-cdktf-resolver]: success
+[2024-04-01 14:17:22] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-1.6.0.tar.gz]
+[2024-04-01 14:17:22] INFO root fetch - processPackages [ml-pipeline-engine]: Remove: archive file [/home/abi/fetcher/tmp/ml_pipeline_engine-1.7.0.tar.gz]
+[2024-04-01 14:17:22] INFO root fetch - main [MainThread]: End processing [ml-pipeline-engine]: success
+[2024-04-01 14:17:22] INFO root fetch - main [MainThread]: Store serial: [22569017]
