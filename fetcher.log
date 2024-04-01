@@ -4432,3 +4432,30 @@ EOFError: EOF read where object expected
 [2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: Remove: archive file [/home/abi/fetcher/tmp/winzig-0.2.8.tar.gz]
 [2024-04-01 15:30:37] INFO root fetch - main [MainThread]: End processing [winzig]: success
 [2024-04-01 15:30:37] INFO root fetch - main [MainThread]: Store serial: [22569640]
+[2024-04-01 15:32:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569640]
+[2024-04-01 15:32:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lineup-lang
+[2024-04-01 15:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vcx-py
+[2024-04-01 15:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valapi.py
+[2024-04-01 15:32:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-tracker
+[2024-04-01 15:32:46] INFO root fetch - processPackages [vcx-py]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 15:32:46] WARNING root fetch - processPackages [lineup-lang]: Skipping, unable to determine old version
+[2024-04-01 15:32:46] INFO root fetch - main [MainThread]: End processing [lineup-lang] error
+[2024-04-01 15:32:46] INFO root fetch - processPackages [vcx-py]: Downloading https://files.pythonhosted.org/packages/5c/cb/cfddb1eef039663c4d83d76612a71aef2651562384c4193c3c1e9738c3e6/vcx_py-1.1.1.tar.gz
+[2024-04-01 15:32:46] WARNING root fetch - processPackages [valapi.py]: Skipping, unable to determine old version
+[2024-04-01 15:32:46] INFO root fetch - main [MainThread]: End processing [valapi.py] error
+[2024-04-01 15:32:46] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.1] Old Version: [1.1.1.2]
+[2024-04-01 15:32:46] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/4d/b2/2812aaf15d9af9bcc1f40ffefd75c152208a1957f1c73b25c66432863334/gaea_tracker-1.1.1.2-py3-none-any.whl
+[2024-04-01 15:32:46] INFO root fetch - processPackages [vcx-py]: Downloading https://files.pythonhosted.org/packages/ff/15/4d24b523ef9a4d79a248ee1709e1f0a1935167fd79ba2fc1ff4a872bfcdf/vcx_py-1.1.2.tar.gz
+[2024-04-01 15:32:46] INFO root fetch - processPackages [vcx-py]: executing diffoscope
+[2024-04-01 15:32:46] INFO root fetch - processPackages [vcx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcx_py-1.1.1.tar.gz tmp/vcx_py-1.1.2.tar.gz --markdown 20240401/v/vcx-py/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 15:32:47] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/a8/c3/5a7432e586c7f1349dd58c1bf997323fefea7f5a1cdadcb994c6d2eb5d70/gaea_tracker-1.2.0.1-py3-none-any.whl
+[2024-04-01 15:32:47] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-01 15:32:47] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.1.1.2-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.1-py3-none-any.whl.zip --markdown 20240401/g/gaea-tracker/1.1.1.2-1.2.0.1/diff.md --exclude *.pyd
+[2024-04-01 15:32:47] INFO root fetch - processPackages [vcx-py]: Remove: archive file [/home/abi/fetcher/tmp/vcx_py-1.1.1.tar.gz]
+[2024-04-01 15:32:47] INFO root fetch - processPackages [vcx-py]: Remove: archive file [/home/abi/fetcher/tmp/vcx_py-1.1.2.tar.gz]
+[2024-04-01 15:32:47] INFO root fetch - main [MainThread]: End processing [vcx-py]: success
+[2024-04-01 15:32:47] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.1.1.2-py3-none-any.whl.zip]
+[2024-04-01 15:32:47] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.1-py3-none-any.whl.zip]
+[2024-04-01 15:32:47] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-01 15:32:47] INFO root fetch - main [MainThread]: Store serial: [22569654]
