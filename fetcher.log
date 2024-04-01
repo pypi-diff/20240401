@@ -1,0 +1,17 @@
+[2024-04-01 11:19:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [404: Not Found]
+[2024-04-01 11:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [404: Not Found]
+[2024-04-01 11:23:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [404: Not Found]
+[2024-04-01 11:23:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [404: Not Found]
+[2024-04-01 11:23:51] INFO root fetch - main [MainThread]: No serial file found, fetching last serial via API
+[2024-04-01 11:23:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567642]
+[2024-04-01 11:23:56] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 11:23:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudquery-plugin-sdk
+[2024-04-01 11:23:56] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 11:23:56] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-04-01 11:23:57] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-04-01 11:23:57] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-04-01 11:23:57] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240401/c/cloudquery-plugin-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 11:25:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-04-01 11:25:52] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-04-01 11:25:52] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-04-01 11:25:52] INFO root fetch - main [MainThread]: Store serial: [22567647]
