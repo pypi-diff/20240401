@@ -13850,3 +13850,63 @@ EOFError: EOF read where object expected
 [2024-04-01 21:41:44] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
 [2024-04-01 21:41:44] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-04-01 21:41:44] INFO root fetch - main [MainThread]: Store serial: [22574203]
+[2024-04-01 21:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574203]
+[2024-04-01 21:43:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-llmexplorer
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tecton
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viaconstructor
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GenCasting
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abstracttree
+[2024-04-01 21:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: distributed
+[2024-04-01 21:43:55] INFO root fetch - processPackages [python-llmexplorer]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-01 21:43:55] WARNING root fetch - processPackages [GenCasting]: Skipping, unable to determine old version
+[2024-04-01 21:43:55] INFO root fetch - main [MainThread]: End processing [GenCasting] error
+[2024-04-01 21:43:55] INFO root fetch - processPackages [viaconstructor]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-01 21:43:55] INFO root fetch - processPackages [abstracttree]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 21:43:55] INFO root fetch - processPackages [dask]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-01 21:43:55] INFO root fetch - processPackages [tecton]: New version: [0.9.0rc2] Old Version: [0.9.0rc1]
+[2024-04-01 21:43:55] INFO root fetch - processPackages [distributed]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-01 21:43:56] INFO root fetch - processPackages [viaconstructor]: Downloading https://files.pythonhosted.org/packages/7c/81/c40ecb8bac012f8c6b42d07167f320b00ad1ae02a1c5a6cfe055e22e1ce7/viaconstructor-0.6.5.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [abstracttree]: Downloading https://files.pythonhosted.org/packages/9e/94/c57a1e41cc012a2d888a892c023736ec1caf45e85dc1b58120b85b132012/abstracttree-0.0.4-py3-none-any.whl
+[2024-04-01 21:43:56] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/bb/9e/dfb162acabd02105aa7e5826a74bdd1966c9ec530b64267f52327df21e87/tecton-0.9.0rc1.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [dask]: Downloading https://files.pythonhosted.org/packages/5f/a2/74b7d22a265e5eb04d5b7654cc3b75a9736a7dff8ec999afaa4860f34e86/dask-2024.3.1.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [distributed]: Downloading https://files.pythonhosted.org/packages/bd/80/56269904f37e5d0391aa9094a674b47cf346e0b9ebe372524ad32e56c42f/distributed-2024.3.1.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [python-llmexplorer]: Downloading https://files.pythonhosted.org/packages/63/3f/ebfcbe672ab62a0c2423bb438c2ba695143ad5e4694759e2320a28d67b72/python-llmexplorer-0.1.0.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [abstracttree]: Downloading https://files.pythonhosted.org/packages/9d/10/1993b81ddadd90c615656be7bb810c254a401f5c8ccd19a6785c987bc0be/abstracttree-0.0.5-py3-none-any.whl
+[2024-04-01 21:43:56] INFO root fetch - processPackages [python-llmexplorer]: Downloading https://files.pythonhosted.org/packages/c6/f7/2325eb97fe64366d1fd371b651fc344764863eb9ae3c11eedde13a2d62a7/python-llmexplorer-0.1.2.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [viaconstructor]: Downloading https://files.pythonhosted.org/packages/1f/16/41aed6522ddde326593d9b5e653b850cf310785c7b1ecbb5aaf8d17d358e/viaconstructor-0.6.6.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [distributed]: Downloading https://files.pythonhosted.org/packages/11/ca/54c5f5e32026ae8d48a9c617b63593d89cb5b98ab318f06e1df791b85af1/distributed-2024.4.0.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [abstracttree]: executing diffoscope
+[2024-04-01 21:43:56] INFO root fetch - processPackages [abstracttree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abstracttree-0.0.4-py3-none-any.whl.zip tmp/abstracttree-0.0.5-py3-none-any.whl.zip --markdown 20240401/a/abstracttree/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 21:43:56] INFO root fetch - processPackages [python-llmexplorer]: executing diffoscope
+[2024-04-01 21:43:56] INFO root fetch - processPackages [python-llmexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-llmexplorer-0.1.0.tar.gz tmp/python-llmexplorer-0.1.2.tar.gz --markdown 20240401/p/python-llmexplorer/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 21:43:56] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/9d/53/670a2f8c753ae895db23b7abd7ee4834a6eee6815d97552f87ae7b82637e/tecton-0.9.0rc2.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [viaconstructor]: executing diffoscope
+[2024-04-01 21:43:56] INFO root fetch - processPackages [viaconstructor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viaconstructor-0.6.5.tar.gz tmp/viaconstructor-0.6.6.tar.gz --markdown 20240401/v/viaconstructor/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2024-04-01 21:43:56] INFO root fetch - processPackages [distributed]: executing diffoscope
+[2024-04-01 21:43:56] INFO root fetch - processPackages [distributed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distributed-2024.3.1.tar.gz tmp/distributed-2024.4.0.tar.gz --markdown 20240401/d/distributed/2024.3.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-01 21:43:56] INFO root fetch - processPackages [dask]: Downloading https://files.pythonhosted.org/packages/7d/45/deaf66e3c9fe791e185a1388aa5dbc5cdd0c213ee626a65ed59e4cf8d648/dask-2024.4.0.tar.gz
+[2024-04-01 21:43:56] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-04-01 21:43:56] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.0rc1.tar.gz tmp/tecton-0.9.0rc2.tar.gz --markdown 20240401/t/tecton/0.9.0rc1-0.9.0rc2/diff.md --exclude *.pyd
+[2024-04-01 21:43:57] INFO root fetch - processPackages [abstracttree]: Remove: archive file [/home/abi/fetcher/tmp/abstracttree-0.0.4-py3-none-any.whl.zip]
+[2024-04-01 21:43:57] INFO root fetch - processPackages [abstracttree]: Remove: archive file [/home/abi/fetcher/tmp/abstracttree-0.0.5-py3-none-any.whl.zip]
+[2024-04-01 21:43:57] INFO root fetch - main [MainThread]: End processing [abstracttree]: success
+[2024-04-01 21:43:57] INFO root fetch - processPackages [python-llmexplorer]: Remove: archive file [/home/abi/fetcher/tmp/python-llmexplorer-0.1.0.tar.gz]
+[2024-04-01 21:43:57] INFO root fetch - processPackages [python-llmexplorer]: Remove: archive file [/home/abi/fetcher/tmp/python-llmexplorer-0.1.2.tar.gz]
+[2024-04-01 21:43:57] INFO root fetch - main [MainThread]: End processing [python-llmexplorer]: success
+[2024-04-01 21:43:57] INFO root fetch - processPackages [dask]: executing diffoscope
+[2024-04-01 21:43:57] INFO root fetch - processPackages [dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-2024.3.1.tar.gz tmp/dask-2024.4.0.tar.gz --markdown 20240401/d/dask/2024.3.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-01 21:43:57] INFO root fetch - processPackages [viaconstructor]: Remove: archive file [/home/abi/fetcher/tmp/viaconstructor-0.6.5.tar.gz]
+[2024-04-01 21:43:57] INFO root fetch - processPackages [viaconstructor]: Remove: archive file [/home/abi/fetcher/tmp/viaconstructor-0.6.6.tar.gz]
+[2024-04-01 21:43:57] INFO root fetch - main [MainThread]: End processing [viaconstructor]: success
+[2024-04-01 21:43:59] INFO root fetch - processPackages [distributed]: Remove: archive file [/home/abi/fetcher/tmp/distributed-2024.3.1.tar.gz]
+[2024-04-01 21:43:59] INFO root fetch - processPackages [distributed]: Remove: archive file [/home/abi/fetcher/tmp/distributed-2024.4.0.tar.gz]
+[2024-04-01 21:43:59] INFO root fetch - main [MainThread]: End processing [distributed]: success
+[2024-04-01 21:43:59] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc1.tar.gz]
+[2024-04-01 21:43:59] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.0rc2.tar.gz]
+[2024-04-01 21:43:59] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-04-01 21:44:00] INFO root fetch - processPackages [dask]: Remove: archive file [/home/abi/fetcher/tmp/dask-2024.3.1.tar.gz]
+[2024-04-01 21:44:00] INFO root fetch - processPackages [dask]: Remove: archive file [/home/abi/fetcher/tmp/dask-2024.4.0.tar.gz]
+[2024-04-01 21:44:00] INFO root fetch - main [MainThread]: End processing [dask]: success
+[2024-04-01 21:44:00] INFO root fetch - main [MainThread]: Store serial: [22574225]
