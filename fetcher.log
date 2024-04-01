@@ -4525,3 +4525,112 @@ EOFError: EOF read where object expected
 [2024-04-01 15:37:15] INFO root fetch - processPackages [oci]: Remove: archive file [/home/abi/fetcher/tmp/oci-2.99.1.tar.gz]
 [2024-04-01 15:37:15] INFO root fetch - main [MainThread]: End processing [oci]: success
 [2024-04-01 15:37:15] INFO root fetch - main [MainThread]: Store serial: [22569675]
+[2024-04-01 15:39:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569675]
+[2024-04-01 15:39:25] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scalifiai-client
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotgm
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: streamdal
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalifiai-client
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eReg
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myfunx
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyxel
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rot-kbd
+[2024-04-01 15:39:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiolyric
+[2024-04-01 15:39:25] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 15:39:25] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:39:25] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:39:25] INFO root fetch - processPackages [rot-kbd]: New version: [2024.4.1.post1] Old Version: [2024.4.1]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [eReg]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [streamdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiolyric]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [myfunx]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [pyxel]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiotgm]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [rot-kbd]: Downloading https://files.pythonhosted.org/packages/40/b2/e8bba9e8ad96e22f0adf4a4a9de85a650f025ba1bc9e69248f279ab2728a/rot-kbd-2024.4.1.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [myfunx]: Downloading https://files.pythonhosted.org/packages/8f/91/91a2434bbe7a4f5d5c5db65a34d6982f1e09ea07ad22ef7408e1bcba6127/myfunx-0.5.0.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [eReg]: Downloading https://files.pythonhosted.org/packages/1b/fe/04a3b3b3db66bfb4aa35c524538df52621456e44973e56184e62e950d149/ereg-0.0.7-py3-none-any.whl
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiolyric]: Downloading https://files.pythonhosted.org/packages/41/23/045920e7b97b66406d8c42db495742b78fc8a687bb2376c3e37c63e6a9f0/aiolyric-1.1.1.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/b7/65/f5508dc7e379c46447acabc03f7e9b1142133dbfc02b335bd9316d65e9c0/pyxel-2.0.8-cp37-abi3-win_amd64.whl
+[2024-04-01 15:39:26] INFO root fetch - processPackages [streamdal]: Downloading https://files.pythonhosted.org/packages/3f/4b/0c9e3c042453fd88b752009dcc7bb6508271862c606ef2618f9da5e3237a/streamdal-0.1.8.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/a6/fe/df4fe1b18a2ab6737aaf19bddc2f8eaeae5ff2f777d6e8b0783211dfddf1/aiotgm-0.2.7.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [rot-kbd]: Downloading https://files.pythonhosted.org/packages/bc/fc/689a7a28733956a919e0f19e7bdb61e6c04fcd0904563fc97999dc64008c/rot-kbd-2024.4.1.post1.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:39:26] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:39:26] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [myfunx]: Downloading https://files.pythonhosted.org/packages/c6/95/c9c6d5ba0d13ff87580175d56117e75a02369d30b7d3252cf76dd3d0712c/myfunx-0.5.1.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [eReg]: Downloading https://files.pythonhosted.org/packages/5d/6e/5c879f5061603eed88fb8fd75b65eab3e4b0f0b4f1eafa5c0a3295093f1c/ereg-0.0.8-py3-none-any.whl
+[2024-04-01 15:39:26] INFO root fetch - processPackages [rot-kbd]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [rot-kbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rot-kbd-2024.4.1.tar.gz tmp/rot-kbd-2024.4.1.post1.tar.gz --markdown 20240401/r/rot-kbd/2024.4.1-2024.4.1.post1/diff.md --exclude *.pyd
+[2024-04-01 15:39:26] INFO root fetch - processPackages [streamdal]: Downloading https://files.pythonhosted.org/packages/ee/36/3bc383cf5854370e65f10c0390fc790e345f864b8fc1c41f917f888d58c4/streamdal-0.1.9.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiolyric]: Downloading https://files.pythonhosted.org/packages/b8/6b/519c22932a7725c9b2487c3e4b2f2018064e87c944db55730b6f541fd7dc/aiolyric-2.0.0.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/e2/e2/c74bd2866697a20d74f05a30509e712633bbdbedbc7509774d1e4480576b/aiotgm-0.2.8.tar.gz
+[2024-04-01 15:39:26] INFO root fetch - processPackages [myfunx]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [myfunx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myfunx-0.5.0.tar.gz tmp/myfunx-0.5.1.tar.gz --markdown 20240401/m/myfunx/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-01 15:39:26] INFO root fetch - processPackages [eReg]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [eReg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ereg-0.0.7-py3-none-any.whl.zip tmp/ereg-0.0.8-py3-none-any.whl.zip --markdown 20240401/e/eReg/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiotgm]: executing diffoscope
+[2024-04-01 15:39:26] INFO root fetch - processPackages [aiotgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgm-0.2.7.tar.gz tmp/aiotgm-0.2.8.tar.gz --markdown 20240401/a/aiotgm/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: executing diffoscope
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdal-0.1.8.tar.gz tmp/streamdal-0.1.9.tar.gz --markdown 20240401/s/streamdal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [aiolyric]: executing diffoscope
+[2024-04-01 15:39:27] INFO root fetch - processPackages [aiolyric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiolyric-1.1.1.tar.gz tmp/aiolyric-2.0.0.tar.gz --markdown 20240401/a/aiolyric/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 15:39:27] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [pyxel]: Downloading https://files.pythonhosted.org/packages/1a/c3/5faae21b3f85c3252e5682b5fcdf749c839454addec09027c2e15e4f82df/pyxel-2.0.9-cp37-abi3-win_amd64.whl
+[2024-04-01 15:39:27] INFO root fetch - processPackages [rot-kbd]: Remove: archive file [/home/abi/fetcher/tmp/rot-kbd-2024.4.1.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [rot-kbd]: Remove: archive file [/home/abi/fetcher/tmp/rot-kbd-2024.4.1.post1.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [rot-kbd]: Start processing: deep-utils
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [rot-kbd]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [scalifiai-client]: Start processing: streamdal
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [myfunx]: Remove: archive file [/home/abi/fetcher/tmp/myfunx-0.5.0.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [myfunx]: Remove: archive file [/home/abi/fetcher/tmp/myfunx-0.5.1.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [myfunx]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [deep-utils]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [pyxel]: executing diffoscope
+[2024-04-01 15:39:27] INFO root fetch - processPackages [pyxel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxel-2.0.8-cp37-abi3-win_amd64.whl.zip tmp/pyxel-2.0.9-cp37-abi3-win_amd64.whl.zip --markdown 20240401/p/pyxel/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [eReg]: Remove: archive file [/home/abi/fetcher/tmp/ereg-0.0.7-py3-none-any.whl.zip]
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [eReg]: Remove: archive file [/home/abi/fetcher/tmp/ereg-0.0.8-py3-none-any.whl.zip]
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [eReg]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: executing diffoscope
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamdal-0.1.8.tar.gz tmp/streamdal-0.1.9.tar.gz --markdown 20240401/s/streamdal/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-0.1.8.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - processPackages [streamdal]: Remove: archive file [/home/abi/fetcher/tmp/streamdal-0.1.9.tar.gz]
+[2024-04-01 15:39:27] INFO root fetch - main [MainThread]: End processing [streamdal]: success
+[2024-04-01 15:39:27] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/49/68/f6e5c4226abe4bc6dd3b14531abddd5374e59fc2ce1832907d93f2855935/deep_utils-1.3.8.tar.gz
+[2024-04-01 15:39:28] INFO root fetch - processPackages [aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/aiolyric-1.1.1.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - processPackages [aiolyric]: Remove: archive file [/home/abi/fetcher/tmp/aiolyric-2.0.0.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - main [MainThread]: End processing [aiolyric]: success
+[2024-04-01 15:39:28] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.2.7.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.2.8.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
+[2024-04-01 15:39:28] ERROR root fetch - processPackages [streamdal]: Diffoscope failed: time="2024-04-01T15:39:27+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/streamdal-0.1.8.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/streamdal-0.1.9.tar.gz: No such file or directory
+
+[2024-04-01 15:39:28] INFO root fetch - main [MainThread]: End processing [streamdal] error
+[2024-04-01 15:39:28] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 15:39:28] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 15:39:28] INFO root fetch - processPackages [deep-utils]: Downloading https://files.pythonhosted.org/packages/e0/06/728eb7458cfb1b26de44010d59bef94cd9a590a00dac7dda13e3777e437c/deep_utils-1.3.9.tar.gz
+[2024-04-01 15:39:28] INFO root fetch - processPackages [deep-utils]: executing diffoscope
+[2024-04-01 15:39:28] INFO root fetch - processPackages [deep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_utils-1.3.8.tar.gz tmp/deep_utils-1.3.9.tar.gz --markdown 20240401/d/deep-utils/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-01 15:39:28] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-2.0.8-cp37-abi3-win_amd64.whl.zip]
+[2024-04-01 15:39:28] INFO root fetch - processPackages [pyxel]: Remove: archive file [/home/abi/fetcher/tmp/pyxel-2.0.9-cp37-abi3-win_amd64.whl.zip]
+[2024-04-01 15:39:28] INFO root fetch - main [MainThread]: End processing [pyxel]: success
+[2024-04-01 15:39:29] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.8.tar.gz]
+[2024-04-01 15:39:29] INFO root fetch - processPackages [deep-utils]: Remove: archive file [/home/abi/fetcher/tmp/deep_utils-1.3.9.tar.gz]
+[2024-04-01 15:39:29] INFO root fetch - main [MainThread]: End processing [deep-utils]: success
+[2024-04-01 15:39:29] INFO root fetch - main [MainThread]: Store serial: [22569725]
