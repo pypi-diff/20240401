@@ -13820,3 +13820,33 @@ EOFError: EOF read where object expected
 [2024-04-01 21:38:56] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev96.tar.gz]
 [2024-04-01 21:38:56] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-01 21:38:56] INFO root fetch - main [MainThread]: Store serial: [22574166]
+[2024-04-01 21:41:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574166]
+[2024-04-01 21:41:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 21:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burr
+[2024-04-01 21:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seedhelper
+[2024-04-01 21:41:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-explorer
+[2024-04-01 21:41:07] INFO root fetch - processPackages [model-explorer]: New version: [0.0.61] Old Version: [0.0.60]
+[2024-04-01 21:41:07] INFO root fetch - processPackages [seedhelper]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 21:41:07] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/73/05/ea6e9833872a69fedc02c78c29de11ce5c90411472d65d41f67b8b3cfd16/model-explorer-0.0.60.tar.gz
+[2024-04-01 21:41:07] INFO root fetch - processPackages [seedhelper]: Downloading https://files.pythonhosted.org/packages/fb/fd/410f7fe4eab8c1bd39c4797e162e7329a26e7d92caed2789b79128d6daad/seedhelper-0.1.2.tar.gz
+[2024-04-01 21:41:07] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-01 21:41:07] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-04-01 21:41:07] INFO root fetch - processPackages [seedhelper]: Downloading https://files.pythonhosted.org/packages/cd/51/ecacb2e964c7fdbcac34992953575874191d40053ae8bcaec0e49ed56573/seedhelper-0.1.3.tar.gz
+[2024-04-01 21:41:08] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/0a/2a/2584a062fa2172e1ef34dc35f549bb96e9fa7c6cc21d51ef2061ef8b67b3/model-explorer-0.0.61.tar.gz
+[2024-04-01 21:41:08] INFO root fetch - processPackages [seedhelper]: executing diffoscope
+[2024-04-01 21:41:08] INFO root fetch - processPackages [seedhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedhelper-0.1.2.tar.gz tmp/seedhelper-0.1.3.tar.gz --markdown 20240401/s/seedhelper/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 21:41:08] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-01 21:41:08] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.60.tar.gz tmp/model-explorer-0.0.61.tar.gz --markdown 20240401/m/model-explorer/0.0.60-0.0.61/diff.md --exclude *.pyd
+[2024-04-01 21:41:08] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-04-01 21:41:08] INFO root fetch - processPackages [seedhelper]: Remove: archive file [/home/abi/fetcher/tmp/seedhelper-0.1.2.tar.gz]
+[2024-04-01 21:41:08] INFO root fetch - processPackages [seedhelper]: Remove: archive file [/home/abi/fetcher/tmp/seedhelper-0.1.3.tar.gz]
+[2024-04-01 21:41:08] INFO root fetch - main [MainThread]: End processing [seedhelper]: success
+[2024-04-01 21:41:08] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-04-01 21:41:08] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240401/b/burr/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 21:41:09] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.60.tar.gz]
+[2024-04-01 21:41:09] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.61.tar.gz]
+[2024-04-01 21:41:09] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-01 21:41:44] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-04-01 21:41:44] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-04-01 21:41:44] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-04-01 21:41:44] INFO root fetch - main [MainThread]: Store serial: [22574203]
