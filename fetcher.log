@@ -2322,3 +2322,33 @@ EOFError: EOF read where object expected
 [2024-04-01 13:36:23] INFO root fetch - processPackages [gaea-paddledet]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddledet-2.5.0.1-py3-none-any.whl.zip]
 [2024-04-01 13:36:23] INFO root fetch - main [MainThread]: End processing [gaea-paddledet]: success
 [2024-04-01 13:36:23] INFO root fetch - main [MainThread]: Store serial: [22568712]
+[2024-04-01 13:38:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568712]
+[2024-04-01 13:38:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaea-paddleclas
+[2024-04-01 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-injection
+[2024-04-01 13:38:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comet-maths
+[2024-04-01 13:38:49] INFO root fetch - processPackages [gaea-paddleclas]: New version: [2.5.0.1] Old Version: [2.5.0]
+[2024-04-01 13:38:49] INFO root fetch - processPackages [python-injection]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-01 13:38:49] INFO root fetch - processPackages [comet-maths]: New version: [0.9] Old Version: [0.8]
+[2024-04-01 13:38:49] INFO root fetch - processPackages [gaea-paddleclas]: Downloading https://files.pythonhosted.org/packages/1b/af/48b95390b515af77333b30c057cc732151472b0d25046cf82083d1eb65da/gaea_paddleclas-2.5.0-py3-none-any.whl
+[2024-04-01 13:38:49] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/a0/9d/10de8a8610929b5e518ad469fbe5f79b5741949de43cb299129d8d099452/comet_maths-0.8.tar.gz
+[2024-04-01 13:38:49] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/20/52/604957d6db168cf603f6721ee8de13612b78450f2421db32d60062cac802/python_injection-0.8.0.tar.gz
+[2024-04-01 13:38:49] INFO root fetch - processPackages [python-injection]: Downloading https://files.pythonhosted.org/packages/80/f1/f479fa9cd4602d2aac0df57df820ba48027db4ba070af6fd2c7b605e76e1/python_injection-0.8.1.tar.gz
+[2024-04-01 13:38:49] INFO root fetch - processPackages [gaea-paddleclas]: Downloading https://files.pythonhosted.org/packages/24/07/d31efa54d0a4b3fa69341e5d39e366cb415c6815f346c33a19684d17866a/gaea_paddleclas-2.5.0.1-py3-none-any.whl
+[2024-04-01 13:38:49] INFO root fetch - processPackages [comet-maths]: Downloading https://files.pythonhosted.org/packages/cf/a7/a9877e8a9b60f1dea120f60fa85520f52bf5d43e689e40c0cc4cc604c78f/comet_maths-0.9.tar.gz
+[2024-04-01 13:38:49] INFO root fetch - processPackages [python-injection]: executing diffoscope
+[2024-04-01 13:38:49] INFO root fetch - processPackages [python-injection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_injection-0.8.0.tar.gz tmp/python_injection-0.8.1.tar.gz --markdown 20240401/p/python-injection/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-01 13:38:49] INFO root fetch - processPackages [gaea-paddleclas]: executing diffoscope
+[2024-04-01 13:38:49] INFO root fetch - processPackages [gaea-paddleclas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_paddleclas-2.5.0-py3-none-any.whl.zip tmp/gaea_paddleclas-2.5.0.1-py3-none-any.whl.zip --markdown 20240401/g/gaea-paddleclas/2.5.0-2.5.0.1/diff.md --exclude *.pyd
+[2024-04-01 13:38:49] INFO root fetch - processPackages [comet-maths]: executing diffoscope
+[2024-04-01 13:38:49] INFO root fetch - processPackages [comet-maths]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_maths-0.8.tar.gz tmp/comet_maths-0.9.tar.gz --markdown 20240401/c/comet-maths/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-01 13:38:50] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.8.0.tar.gz]
+[2024-04-01 13:38:50] INFO root fetch - processPackages [python-injection]: Remove: archive file [/home/abi/fetcher/tmp/python_injection-0.8.1.tar.gz]
+[2024-04-01 13:38:50] INFO root fetch - main [MainThread]: End processing [python-injection]: success
+[2024-04-01 13:38:50] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.8.tar.gz]
+[2024-04-01 13:38:50] INFO root fetch - processPackages [comet-maths]: Remove: archive file [/home/abi/fetcher/tmp/comet_maths-0.9.tar.gz]
+[2024-04-01 13:38:50] INFO root fetch - main [MainThread]: End processing [comet-maths]: success
+[2024-04-01 13:38:50] INFO root fetch - processPackages [gaea-paddleclas]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddleclas-2.5.0-py3-none-any.whl.zip]
+[2024-04-01 13:38:50] INFO root fetch - processPackages [gaea-paddleclas]: Remove: archive file [/home/abi/fetcher/tmp/gaea_paddleclas-2.5.0.1-py3-none-any.whl.zip]
+[2024-04-01 13:38:50] INFO root fetch - main [MainThread]: End processing [gaea-paddleclas]: success
+[2024-04-01 13:38:50] INFO root fetch - main [MainThread]: Store serial: [22568722]
