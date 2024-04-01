@@ -12576,3 +12576,42 @@ EOFError: EOF read where object expected
 [2024-04-01 20:40:04] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-01 20:40:04] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-01 20:40:04] INFO root fetch - main [MainThread]: Store serial: [22573628]
+[2024-04-01 20:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573628]
+[2024-04-01 20:42:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 20:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: d-fake-seeder
+[2024-04-01 20:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjet-common
+[2024-04-01 20:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrepositories
+[2024-04-01 20:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbari-pbp
+[2024-04-01 20:42:16] INFO root fetch - processPackages [pinjet-common]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 20:42:16] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pyrepositories]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-01 20:42:17] INFO root fetch - processPackages [mbari-pbp]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/02/1e/0181adf329342dc393af18bbf74791190f9789d5e221666a5781f2c194b9/pinjet-common-0.0.5.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/cf/29/ff20d8314376f876aa3a6579740fad1181c084a7d4b03a4ac89e27e35ba7/mbari_pbp-0.3.0b8.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pyrepositories]: Downloading https://files.pythonhosted.org/packages/a4/46/3260856fe973f0e67455538d05e220c26d1975ba69f5765e7c7315c4a567/pyrepositories-2.0.3.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/d0/51/97e353b4746f08d8abb99f12fb7a122493d72de75aeb38135ad8700d92c1/pinjet-common-0.0.6.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 20:42:17] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pinjet-common]: executing diffoscope
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pinjet-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjet-common-0.0.5.tar.gz tmp/pinjet-common-0.0.6.tar.gz --markdown 20240401/p/pinjet-common/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pyrepositories]: Downloading https://files.pythonhosted.org/packages/85/07/7d98a34d777ecb8f8e0f1a65f1aefccd38531870712b57c58ac442c5560d/pyrepositories-2.1.0.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/b4/9a/e36916a9b680f4d1b9465eadb829fcabefd7cc5f6ec46ae5d8c328600254/mbari_pbp-0.3.0b9.tar.gz
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pyrepositories]: executing diffoscope
+[2024-04-01 20:42:17] INFO root fetch - processPackages [pyrepositories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepositories-2.0.3.tar.gz tmp/pyrepositories-2.1.0.tar.gz --markdown 20240401/p/pyrepositories/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-01 20:42:17] INFO root fetch - processPackages [mbari-pbp]: executing diffoscope
+[2024-04-01 20:42:17] INFO root fetch - processPackages [mbari-pbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbari_pbp-0.3.0b8.tar.gz tmp/mbari_pbp-0.3.0b9.tar.gz --markdown 20240401/m/mbari-pbp/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2024-04-01 20:42:18] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.5.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.6.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - main [MainThread]: End processing [pinjet-common]: success
+[2024-04-01 20:42:18] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 20:42:18] INFO root fetch - processPackages [pyrepositories]: Remove: archive file [/home/abi/fetcher/tmp/pyrepositories-2.0.3.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - processPackages [pyrepositories]: Remove: archive file [/home/abi/fetcher/tmp/pyrepositories-2.1.0.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - main [MainThread]: End processing [pyrepositories]: success
+[2024-04-01 20:42:18] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b8.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b9.tar.gz]
+[2024-04-01 20:42:18] INFO root fetch - main [MainThread]: End processing [mbari-pbp]: success
+[2024-04-01 20:42:18] INFO root fetch - main [MainThread]: Store serial: [22573641]
