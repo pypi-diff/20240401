@@ -10961,3 +10961,46 @@ EOFError: EOF read where object expected
 [2024-04-01 19:35:17] INFO root fetch - processPackages [answerrocket-client]: Remove: archive file [/home/abi/fetcher/tmp/answerrocket-client-0.1.9.tar.gz]
 [2024-04-01 19:35:17] INFO root fetch - main [MainThread]: End processing [answerrocket-client]: success
 [2024-04-01 19:35:17] INFO root fetch - main [MainThread]: Store serial: [22572807]
+[2024-04-01 19:37:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572807]
+[2024-04-01 19:37:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ruff
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeconcat
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylogfile
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pylogfile
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datadd-server
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matrecord-suggestion
+[2024-04-01 19:37:25] INFO root fetch - processPackages [ruff]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-01 19:37:25] INFO root fetch - processPackages [codeconcat]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 19:37:25] INFO root fetch - processPackages [pylogfile]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-04-01 19:37:25] INFO root fetch - processPackages [pylogfile]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-04-01 19:37:26] WARNING root fetch - processPackages [matrecord-suggestion]: Skipping, unable to determine old version
+[2024-04-01 19:37:26] INFO root fetch - main [MainThread]: End processing [matrecord-suggestion] error
+[2024-04-01 19:37:26] WARNING root fetch - processPackages [datadd-server]: Skipping, unable to determine old version
+[2024-04-01 19:37:26] INFO root fetch - main [MainThread]: End processing [datadd-server] error
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: Downloading https://files.pythonhosted.org/packages/74/84/c3e9244cf2eaacaab6174145041046ca79e294316e0bd3e0270f4260e4b1/pylogfile-0.0.1.dev1.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/01/29/17c1004215dc334305825622192de03b3d5f008290e04e472705527e9e15/ruff-0.3.3.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: Downloading https://files.pythonhosted.org/packages/74/84/c3e9244cf2eaacaab6174145041046ca79e294316e0bd3e0270f4260e4b1/pylogfile-0.0.1.dev1.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [codeconcat]: Downloading https://files.pythonhosted.org/packages/1b/60/d72d1291dc7dd12ef289798f032f466799143dd80b971700f5ac92b19db5/codeconcat-0.1.4.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: Downloading https://files.pythonhosted.org/packages/58/74/b1b5362e22a4775ecb2564105ae7d31f93fee032985f3c10369b5cd89ab5/pylogfile-0.0.1.dev2.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: Downloading https://files.pythonhosted.org/packages/58/74/b1b5362e22a4775ecb2564105ae7d31f93fee032985f3c10369b5cd89ab5/pylogfile-0.0.1.dev2.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: executing diffoscope
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogfile-0.0.1.dev1.tar.gz tmp/pylogfile-0.0.1.dev2.tar.gz --markdown 20240401/p/pylogfile/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2024-04-01 19:37:26] INFO root fetch - processPackages [codeconcat]: Downloading https://files.pythonhosted.org/packages/de/b9/dd8d0a5c5f842bb0cac3d0b67331e3e31a23edf8700626a29bf510e8d77c/codeconcat-0.1.5.tar.gz
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: executing diffoscope
+[2024-04-01 19:37:26] INFO root fetch - processPackages [pylogfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogfile-0.0.1.dev1.tar.gz tmp/pylogfile-0.0.1.dev2.tar.gz --markdown 20240401/p/pylogfile/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2024-04-01 19:37:26] INFO root fetch - processPackages [codeconcat]: executing diffoscope
+[2024-04-01 19:37:26] INFO root fetch - processPackages [codeconcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeconcat-0.1.4.tar.gz tmp/codeconcat-0.1.5.tar.gz --markdown 20240401/c/codeconcat/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 19:37:27] INFO root fetch - processPackages [ruff]: Downloading https://files.pythonhosted.org/packages/a0/98/91e1ad8a6777c300b15cad46a1b507375010f8a53cfeaa17f0385bde1103/ruff-0.3.4.tar.gz
+[2024-04-01 19:37:27] INFO root fetch - processPackages [pylogfile]: Remove: archive file [/home/abi/fetcher/tmp/pylogfile-0.0.1.dev1.tar.gz]
+[2024-04-01 19:37:27] INFO root fetch - processPackages [pylogfile]: Remove: archive file [/home/abi/fetcher/tmp/pylogfile-0.0.1.dev2.tar.gz]
+[2024-04-01 19:37:27] INFO root fetch - main [MainThread]: End processing [pylogfile]: success
+[2024-04-01 19:37:27] INFO root fetch - main [MainThread]: End processing [pylogfile]: success
+[2024-04-01 19:37:27] INFO root fetch - processPackages [ruff]: executing diffoscope
+[2024-04-01 19:37:27] INFO root fetch - processPackages [ruff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruff-0.3.3.tar.gz tmp/ruff-0.3.4.tar.gz --markdown 20240401/r/ruff/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-01 19:37:27] INFO root fetch - processPackages [codeconcat]: Remove: archive file [/home/abi/fetcher/tmp/codeconcat-0.1.4.tar.gz]
+[2024-04-01 19:37:27] INFO root fetch - processPackages [codeconcat]: Remove: archive file [/home/abi/fetcher/tmp/codeconcat-0.1.5.tar.gz]
+[2024-04-01 19:37:27] INFO root fetch - main [MainThread]: End processing [codeconcat]: success
+[2024-04-01 19:37:41] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.3.tar.gz]
+[2024-04-01 19:37:41] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.4.tar.gz]
+[2024-04-01 19:37:41] INFO root fetch - main [MainThread]: End processing [ruff]: success
+[2024-04-01 19:37:41] INFO root fetch - main [MainThread]: Store serial: [22572844]
