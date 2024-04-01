@@ -942,3 +942,47 @@ EOFError: EOF read where object expected
 [2024-04-01 12:15:48] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
 [2024-04-01 12:15:48] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2024-04-01 12:15:48] INFO root fetch - main [MainThread]: Store serial: [22568102]
+[2024-04-01 12:17:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568102]
+[2024-04-01 12:17:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 12:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: indico
+[2024-04-01 12:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RL-OM
+[2024-04-01 12:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gha-ci-detector
+[2024-04-01 12:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autotrain-advanced
+[2024-04-01 12:17:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: switchkey
+[2024-04-01 12:17:57] INFO root fetch - processPackages [indico]: New version: [3.3.1] Old Version: [3.3]
+[2024-04-01 12:17:57] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 12:17:58] INFO root fetch - processPackages [switchkey]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 12:17:58] INFO root fetch - processPackages [gha-ci-detector]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 12:17:58] INFO root fetch - processPackages [autotrain-advanced]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 12:17:58] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/1e/54/9cc91bfce7346d0d230d3f480b202b5adb3a82c9b7707d5d385ac3a77f3d/RL_OM-0.7.8.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [indico]: Downloading https://files.pythonhosted.org/packages/52/4d/0c8afcc035bb284a82424b6b883b5e6d0e3574fff5552237e9b53fd594ae/indico-3.3-py3-none-any.whl
+[2024-04-01 12:17:58] WARNING root fetch - processPackages [indico]: Skipping package: exceeds size limit 38093454>=10485760
+[2024-04-01 12:17:58] INFO root fetch - main [MainThread]: End processing [indico] error
+[2024-04-01 12:17:58] INFO root fetch - processPackages [gha-ci-detector]: Downloading https://files.pythonhosted.org/packages/c5/bf/4ac2c1bf871c99b42e57bcacc4d6bcdfa1abcff70672babbdf52b88411dc/gha_ci_detector-0.0.2.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/f7/32/d4134f2d2283aafd5d82db1b47031a6025f7f458bf7dc07ef8389a35fab9/autotrain-advanced-0.7.8.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [switchkey]: Downloading https://files.pythonhosted.org/packages/0c/9f/ff9ecb138551917718deede36d1891a0a7ed6599e10b822094386bcb6ffe/switchkey-0.1.0.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-01 12:17:58] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.8.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240401/R/RL-OM/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 12:17:58] INFO root fetch - processPackages [gha-ci-detector]: Downloading https://files.pythonhosted.org/packages/09/79/a7f4376963eb3e974f5df437e6dc24141dfec17dde9fa22b8d7e763506a0/gha_ci_detector-0.0.3.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [switchkey]: Downloading https://files.pythonhosted.org/packages/8f/e5/2020776046450dfdf6106fb3f40a0183a22374d4e12e38330fe55ad9cb04/switchkey-0.1.1.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [autotrain-advanced]: Downloading https://files.pythonhosted.org/packages/95/9e/ee31433cc0bd82c907dd180918e1072f54bcd0139421e0ab4df0c9f3f919/autotrain-advanced-0.7.9.tar.gz
+[2024-04-01 12:17:58] INFO root fetch - processPackages [gha-ci-detector]: executing diffoscope
+[2024-04-01 12:17:58] INFO root fetch - processPackages [gha-ci-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gha_ci_detector-0.0.2.tar.gz tmp/gha_ci_detector-0.0.3.tar.gz --markdown 20240401/g/gha-ci-detector/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 12:17:58] INFO root fetch - processPackages [switchkey]: executing diffoscope
+[2024-04-01 12:17:58] INFO root fetch - processPackages [switchkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchkey-0.1.0.tar.gz tmp/switchkey-0.1.1.tar.gz --markdown 20240401/s/switchkey/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 12:17:58] INFO root fetch - processPackages [autotrain-advanced]: executing diffoscope
+[2024-04-01 12:17:58] INFO root fetch - processPackages [autotrain-advanced]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotrain-advanced-0.7.8.tar.gz tmp/autotrain-advanced-0.7.9.tar.gz --markdown 20240401/a/autotrain-advanced/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 12:17:59] INFO root fetch - processPackages [gha-ci-detector]: Remove: archive file [/home/abi/fetcher/tmp/gha_ci_detector-0.0.2.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - processPackages [gha-ci-detector]: Remove: archive file [/home/abi/fetcher/tmp/gha_ci_detector-0.0.3.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - main [MainThread]: End processing [gha-ci-detector]: success
+[2024-04-01 12:17:59] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.8.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-01 12:17:59] INFO root fetch - processPackages [switchkey]: Remove: archive file [/home/abi/fetcher/tmp/switchkey-0.1.0.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - processPackages [switchkey]: Remove: archive file [/home/abi/fetcher/tmp/switchkey-0.1.1.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - main [MainThread]: End processing [switchkey]: success
+[2024-04-01 12:17:59] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.8.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
+[2024-04-01 12:17:59] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
+[2024-04-01 12:17:59] INFO root fetch - main [MainThread]: Store serial: [22568121]
