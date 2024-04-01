@@ -1678,3 +1678,42 @@ EOFError: EOF read where object expected
 [2024-04-01 13:01:22] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.9.tar.gz]
 [2024-04-01 13:01:22] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
 [2024-04-01 13:01:22] INFO root fetch - main [MainThread]: Store serial: [22568352]
+[2024-04-01 13:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568352]
+[2024-04-01 13:03:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 13:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasetlib
+[2024-04-01 13:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xchainpy2-midgard
+[2024-04-01 13:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scim-client
+[2024-04-01 13:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vartastorage
+[2024-04-01 13:03:38] INFO root fetch - processPackages [datasetlib]: New version: [0.2.1] Old Version: [0.2]
+[2024-04-01 13:03:38] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/75/1c/d6291f1f6cbb9c3947982982ae59bf823550d461b3d8edfa54e422a6ef26/datasetlib-0.2.tar.gz
+[2024-04-01 13:03:38] INFO root fetch - processPackages [xchainpy2-midgard]: New version: [2.20.1] Old Version: [2.18.2]
+[2024-04-01 13:03:38] INFO root fetch - processPackages [scim-client]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 13:03:38] INFO root fetch - processPackages [vartastorage]: New version: [0.3.2] Old Version: [0.2.7]
+[2024-04-01 13:03:38] INFO root fetch - processPackages [xchainpy2-midgard]: Downloading https://files.pythonhosted.org/packages/ea/c4/8b6e425bf643c981a9788e393639d47f68acc9021da232c96177d85be64c/xchainpy2-midgard-2.18.2.tar.gz
+[2024-04-01 13:03:38] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/e4/98/063341e252bd692937ac18ebf7db258daaee43063d63a569d4a73c518a4d/scim_client-0.1.5.tar.gz
+[2024-04-01 13:03:38] INFO root fetch - processPackages [vartastorage]: Downloading https://files.pythonhosted.org/packages/59/da/feb6d5c7b5c29bc2c976c803d16cc418321e54d93f0044cb8e97b66a9877/vartastorage-0.2.7.tar.gz
+[2024-04-01 13:03:39] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/1f/a7/f5015d6c27d5c7b3c6bbc2a405b8a251e0b8243e921eef7015ea12637d63/datasetlib-0.2.1.tar.gz
+[2024-04-01 13:03:39] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/38/8b/978a9027d2bab2fa8761cda2cdf03c405b83be91b0c4f6091f194901bbd7/scim_client-0.1.6.tar.gz
+[2024-04-01 13:03:39] INFO root fetch - processPackages [xchainpy2-midgard]: Downloading https://files.pythonhosted.org/packages/c1/3c/0d420ffb12c58e8d303ba13655fe54a3d46f99bf8952de755aeba0cad48f/xchainpy2-midgard-2.20.1.tar.gz
+[2024-04-01 13:03:39] INFO root fetch - processPackages [vartastorage]: Downloading https://files.pythonhosted.org/packages/3d/1f/6d192502c69653e547f029e1a4a68724d96ec10c270e8ce7e41f8e400959/vartastorage-0.3.2.tar.gz
+[2024-04-01 13:03:39] INFO root fetch - processPackages [scim-client]: executing diffoscope
+[2024-04-01 13:03:39] INFO root fetch - processPackages [scim-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scim_client-0.1.5.tar.gz tmp/scim_client-0.1.6.tar.gz --markdown 20240401/s/scim-client/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 13:03:39] INFO root fetch - processPackages [xchainpy2-midgard]: executing diffoscope
+[2024-04-01 13:03:39] INFO root fetch - processPackages [xchainpy2-midgard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2-midgard-2.18.2.tar.gz tmp/xchainpy2-midgard-2.20.1.tar.gz --markdown 20240401/x/xchainpy2-midgard/2.18.2-2.20.1/diff.md --exclude *.pyd
+[2024-04-01 13:03:39] INFO root fetch - processPackages [vartastorage]: executing diffoscope
+[2024-04-01 13:03:39] INFO root fetch - processPackages [vartastorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vartastorage-0.2.7.tar.gz tmp/vartastorage-0.3.2.tar.gz --markdown 20240401/v/vartastorage/0.2.7-0.3.2/diff.md --exclude *.pyd
+[2024-04-01 13:03:39] INFO root fetch - processPackages [datasetlib]: executing diffoscope
+[2024-04-01 13:03:39] INFO root fetch - processPackages [datasetlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasetlib-0.2.tar.gz tmp/datasetlib-0.2.1.tar.gz --markdown 20240401/d/datasetlib/0.2-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 13:03:40] INFO root fetch - processPackages [vartastorage]: Remove: archive file [/home/abi/fetcher/tmp/vartastorage-0.2.7.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - processPackages [vartastorage]: Remove: archive file [/home/abi/fetcher/tmp/vartastorage-0.3.2.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - main [MainThread]: End processing [vartastorage]: success
+[2024-04-01 13:03:40] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.5.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.6.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - main [MainThread]: End processing [scim-client]: success
+[2024-04-01 13:03:40] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.2.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.2.1.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - main [MainThread]: End processing [datasetlib]: success
+[2024-04-01 13:03:40] INFO root fetch - processPackages [xchainpy2-midgard]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-midgard-2.18.2.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - processPackages [xchainpy2-midgard]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-midgard-2.20.1.tar.gz]
+[2024-04-01 13:03:40] INFO root fetch - main [MainThread]: End processing [xchainpy2-midgard]: success
+[2024-04-01 13:03:40] INFO root fetch - main [MainThread]: Store serial: [22568365]
