@@ -13692,3 +13692,69 @@ EOFError: EOF read where object expected
 [2024-04-01 21:32:16] INFO root fetch - processPackages [netsblox]: Remove: archive file [/home/abi/fetcher/tmp/netsblox-0.6.6.tar.gz]
 [2024-04-01 21:32:16] INFO root fetch - main [MainThread]: End processing [netsblox]: success
 [2024-04-01 21:32:16] INFO root fetch - main [MainThread]: Store serial: [22574108]
+[2024-04-01 21:34:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574108]
+[2024-04-01 21:34:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: blacksheep-shuttle
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: umpyutl
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vqt
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-model-utils
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-l10n-br-fiscal
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djsm
+[2024-04-01 21:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gepref
+[2024-04-01 21:34:25] INFO root fetch - processPackages [umpyutl]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-01 21:34:25] INFO root fetch - processPackages [django-model-utils]: New version: [4.5.0] Old Version: [4.4.0]
+[2024-04-01 21:34:25] INFO root fetch - processPackages [blacksheep-shuttle]: New version: [0.3.4] Old Version: [0.3.2]
+[2024-04-01 21:34:25] INFO root fetch - processPackages [vqt]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 21:34:25] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: New version: [14.0.9.2.1.dev3] Old Version: [14.0.9.2.1.dev2]
+[2024-04-01 21:34:25] INFO root fetch - processPackages [gepref]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 21:34:26] INFO root fetch - processPackages [djsm]: New version: [0.1.51] Old Version: [0.1.5]
+[2024-04-01 21:34:26] INFO root fetch - processPackages [umpyutl]: Downloading https://files.pythonhosted.org/packages/e1/51/2d086a8ead2a3585b2288948ee4fd656ddac63dea94c67fa39baafc0bd1a/umpyutl-2.1.0.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [blacksheep-shuttle]: Downloading https://files.pythonhosted.org/packages/e8/dd/e80a369ae0937797ebd7bca37786b58cdf677e87fd482a01e03ce54628b1/blacksheep_shuttle-0.3.2-cp312-cp312-win_amd64.whl
+[2024-04-01 21:34:26] INFO root fetch - processPackages [vqt]: Downloading https://files.pythonhosted.org/packages/a4/75/bb7cb857f1d1a797618b1fabf3287d1239d0113a9a58e7550485c5ed929b/vqt-0.1.2.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/b6/ae/9800d777e4d7166c8a0ee02cd7c2602421433738397b582d529f48db7c5b/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl
+[2024-04-01 21:34:26] INFO root fetch - processPackages [django-model-utils]: Downloading https://files.pythonhosted.org/packages/bd/2d/117b9b0c1e14bd543940439fd11feb8f57d62e10ea05fc45e55b592a486a/django-model-utils-4.4.0.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [gepref]: Downloading https://files.pythonhosted.org/packages/98/59/9b6519dcf674eeeaf06c1e4ee196999a0d3eec2a2c6d0e368c1d837514c8/gepref-0.1.1.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [djsm]: Downloading https://files.pythonhosted.org/packages/f7/33/27b1d83693e1c27c742d2bb66cff41b017f940e98723a8bfde20f6b497c0/djsm-0.1.5.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [umpyutl]: Downloading https://files.pythonhosted.org/packages/08/8e/342906b0ef48bb2bb6cf10b32839e1dd7af6ce58041d1c359c9e16095b96/umpyutl-2.1.1.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [vqt]: Downloading https://files.pythonhosted.org/packages/8f/8e/d90ffcc3950b8ac2766b455e9676eee45ebdc9af7d901ad925859362c102/vqt-0.1.3.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [django-model-utils]: Downloading https://files.pythonhosted.org/packages/46/be/9a1ed09695d7997011c5c81d3ce133503281c3fabd691f848afccdecfbbe/django-model-utils-4.5.0.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [umpyutl]: executing diffoscope
+[2024-04-01 21:34:26] INFO root fetch - processPackages [umpyutl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umpyutl-2.1.0.tar.gz tmp/umpyutl-2.1.1.tar.gz --markdown 20240401/u/umpyutl/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-01 21:34:26] INFO root fetch - processPackages [gepref]: Downloading https://files.pythonhosted.org/packages/70/c8/38cbf5dcc88465badc96fb5a59d41b877400f326807b57b69eec628ce28d/gepref-0.1.2-py3-none-any.whl
+[2024-04-01 21:34:26] INFO root fetch - processPackages [blacksheep-shuttle]: Downloading https://files.pythonhosted.org/packages/c3/1c/91ab7ffc80c94a189f40a483a17d92f2363399e686307e3cbbb65b2cb53a/blacksheep-shuttle-0.3.4.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [vqt]: executing diffoscope
+[2024-04-01 21:34:26] INFO root fetch - processPackages [vqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vqt-0.1.2.tar.gz tmp/vqt-0.1.3.tar.gz --markdown 20240401/v/vqt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 21:34:26] INFO root fetch - processPackages [djsm]: Downloading https://files.pythonhosted.org/packages/a0/47/3f731e00b0df315ac1a5aa661b39305be03ee485d2089581f5e36acffba3/djsm-0.1.51.tar.gz
+[2024-04-01 21:34:26] INFO root fetch - processPackages [django-model-utils]: executing diffoscope
+[2024-04-01 21:34:26] INFO root fetch - processPackages [django-model-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-model-utils-4.4.0.tar.gz tmp/django-model-utils-4.5.0.tar.gz --markdown 20240401/d/django-model-utils/4.4.0-4.5.0/diff.md --exclude *.pyd
+[2024-04-01 21:34:26] INFO root fetch - processPackages [djsm]: executing diffoscope
+[2024-04-01 21:34:26] INFO root fetch - processPackages [djsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djsm-0.1.5.tar.gz tmp/djsm-0.1.51.tar.gz --markdown 20240401/d/djsm/0.1.5-0.1.51/diff.md --exclude *.pyd
+[2024-04-01 21:34:27] INFO root fetch - processPackages [blacksheep-shuttle]: executing diffoscope
+[2024-04-01 21:34:27] INFO root fetch - processPackages [blacksheep-shuttle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blacksheep_shuttle-0.3.2-cp312-cp312-win_amd64.whl.zip tmp/blacksheep-shuttle-0.3.4.tar.gz --markdown 20240401/b/blacksheep-shuttle/0.3.2-0.3.4/diff.md --exclude *.pyd
+[2024-04-01 21:34:27] INFO root fetch - processPackages [gepref]: executing diffoscope
+[2024-04-01 21:34:27] INFO root fetch - processPackages [gepref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gepref-0.1.1.tar.gz tmp/gepref-0.1.2-py3-none-any.whl.zip --markdown 20240401/g/gepref/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 21:34:27] INFO root fetch - processPackages [vqt]: Remove: archive file [/home/abi/fetcher/tmp/vqt-0.1.2.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - processPackages [vqt]: Remove: archive file [/home/abi/fetcher/tmp/vqt-0.1.3.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - main [MainThread]: End processing [vqt]: success
+[2024-04-01 21:34:27] INFO root fetch - processPackages [umpyutl]: Remove: archive file [/home/abi/fetcher/tmp/umpyutl-2.1.0.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - processPackages [umpyutl]: Remove: archive file [/home/abi/fetcher/tmp/umpyutl-2.1.1.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - main [MainThread]: End processing [umpyutl]: success
+[2024-04-01 21:34:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Downloading https://files.pythonhosted.org/packages/3e/9d/f06739d0fc5ac83076dbdce19b1fc1ffc33e068724d0f81d8a08b9fed2ef/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl
+[2024-04-01 21:34:27] INFO root fetch - processPackages [djsm]: Remove: archive file [/home/abi/fetcher/tmp/djsm-0.1.5.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - processPackages [djsm]: Remove: archive file [/home/abi/fetcher/tmp/djsm-0.1.51.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - main [MainThread]: End processing [djsm]: success
+[2024-04-01 21:34:27] INFO root fetch - processPackages [gepref]: Remove: archive file [/home/abi/fetcher/tmp/gepref-0.1.1.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - processPackages [gepref]: Remove: archive file [/home/abi/fetcher/tmp/gepref-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 21:34:27] INFO root fetch - main [MainThread]: End processing [gepref]: success
+[2024-04-01 21:34:27] INFO root fetch - processPackages [django-model-utils]: Remove: archive file [/home/abi/fetcher/tmp/django-model-utils-4.4.0.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - processPackages [django-model-utils]: Remove: archive file [/home/abi/fetcher/tmp/django-model-utils-4.5.0.tar.gz]
+[2024-04-01 21:34:27] INFO root fetch - main [MainThread]: End processing [django-model-utils]: success
+[2024-04-01 21:34:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: executing diffoscope
+[2024-04-01 21:34:28] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip --markdown 20240401/o/odoo14-addon-l10n-br-fiscal/14.0.9.2.1.dev2-14.0.9.2.1.dev3/diff.md --exclude *.pyd
+[2024-04-01 21:34:29] INFO root fetch - processPackages [blacksheep-shuttle]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep_shuttle-0.3.2-cp312-cp312-win_amd64.whl.zip]
+[2024-04-01 21:34:29] INFO root fetch - processPackages [blacksheep-shuttle]: Remove: archive file [/home/abi/fetcher/tmp/blacksheep-shuttle-0.3.4.tar.gz]
+[2024-04-01 21:34:29] INFO root fetch - main [MainThread]: End processing [blacksheep-shuttle]: success
+[2024-04-01 21:34:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev2-py3-none-any.whl.zip]
+[2024-04-01 21:34:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
+[2024-04-01 21:34:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
+[2024-04-01 21:34:29] INFO root fetch - main [MainThread]: Store serial: [22574124]
