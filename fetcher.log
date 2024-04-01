@@ -6777,3 +6777,83 @@ EOFError: EOF read where object expected
 [2024-04-01 16:55:19] INFO root fetch - processPackages [parea-ai]: Remove: archive file [/home/abi/fetcher/tmp/parea_ai-0.2.99.tar.gz]
 [2024-04-01 16:55:19] INFO root fetch - main [MainThread]: End processing [parea-ai]: success
 [2024-04-01 16:55:19] INFO root fetch - main [MainThread]: Store serial: [22570789]
+[2024-04-01 16:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570789]
+[2024-04-01 16:57:28] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gesys
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-bluefruitconnect
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: athena-intelligence
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-keyup
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafruit-circuitpython-mlx90393
+[2024-04-01 16:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2024-04-01 16:57:28] INFO root fetch - processPackages [gesys]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [streamlit-keyup]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [athena-intelligence]: New version: [0.1.33] Old Version: [0.1.32]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Downloading https://files.pythonhosted.org/packages/53/bd/6e1f772c5a6e8e25db4718dbaa86285c000edf8e65f3ff1713cabf9341c5/adafruit-circuitpython-bluefruitconnect-1.2.8.tar.gz
+[2024-04-01 16:57:28] INFO root fetch - processPackages [gesys]: Downloading https://files.pythonhosted.org/packages/0a/12/bcdac25deb3bf7008101d6b45295d828d9d813986241f3a1d5e179bbaabe/gesys-1.1.8.tar.gz
+[2024-04-01 16:57:28] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 16:57:28] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/96/4a/f0a44f52fcee8b511e6391812a35852684c652c07335f099111d21972717/athena_intelligence-0.1.32.tar.gz
+[2024-04-01 16:57:28] INFO root fetch - processPackages [streamlit-keyup]: Downloading https://files.pythonhosted.org/packages/ee/d6/41e37aee91813d76dc3a107c539bf584f7feb51a8e58b781af36db8a910f/streamlit-keyup-0.2.3.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: Downloading https://files.pythonhosted.org/packages/bd/6c/fcbf30d762b8fe7ac3532a30eaf0a30a3269046ec483008d6dd26b499179/adafruit-circuitpython-mlx90393-2.1.3.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Downloading https://files.pythonhosted.org/packages/eb/53/a7291c8aba55d5f033dc2aee15498ffa1090f84b44c5802de72fbcac00b0/adafruit-circuitpython-bluefruitconnect-1.2.9.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [gesys]: Downloading https://files.pythonhosted.org/packages/18/0e/e6bfc4a26db8080fd192c6fde508034c2949d5e067a452f0e0ea3a5fe3a5/gesys-1.1.9.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-bluefruitconnect-1.2.8.tar.gz tmp/adafruit-circuitpython-bluefruitconnect-1.2.9.tar.gz --markdown 20240401/a/adafruit-circuitpython-bluefruitconnect/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [athena-intelligence]: Downloading https://files.pythonhosted.org/packages/59/15/ac8d9f1deef62314b20d22d90648e042fd699eca0f70e2c0a95ba66f7431/athena_intelligence-0.1.33.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [streamlit-keyup]: Downloading https://files.pythonhosted.org/packages/6f/dd/4a714e9996abfaf654605da83455037e02409cb716df1441e77c3cf956e6/streamlit-keyup-0.2.4.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: Downloading https://files.pythonhosted.org/packages/81/11/5d9058e22ecccbd769621b178e42ee997d7d7f06995feabaf2fb229ef8a0/adafruit-circuitpython-mlx90393-2.1.4.tar.gz
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [gesys]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [gesys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gesys-1.1.8.tar.gz tmp/gesys-1.1.9.tar.gz --markdown 20240401/g/gesys/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-01 16:57:29] INFO root fetch - processPackages [streamlit-keyup]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [streamlit-keyup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-keyup-0.2.3.tar.gz tmp/streamlit-keyup-0.2.4.tar.gz --markdown 20240401/s/streamlit-keyup/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [athena-intelligence]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [athena-intelligence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/athena_intelligence-0.1.32.tar.gz tmp/athena_intelligence-0.1.33.tar.gz --markdown 20240401/a/athena-intelligence/0.1.32-0.1.33/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-mlx90393-2.1.3.tar.gz tmp/adafruit-circuitpython-mlx90393-2.1.4.tar.gz --markdown 20240401/a/adafruit-circuitpython-mlx90393/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-01 16:57:29] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 16:57:30] INFO root fetch - processPackages [gesys]: Remove: archive file [/home/abi/fetcher/tmp/gesys-1.1.8.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [gesys]: Remove: archive file [/home/abi/fetcher/tmp/gesys-1.1.9.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [gesys]: success
+[2024-04-01 16:57:30] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-bluefruitconnect-1.2.8.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [adafruit-circuitpython-bluefruitconnect]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-bluefruitconnect-1.2.9.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-bluefruitconnect]: success
+[2024-04-01 16:57:30] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-mlx90393-2.1.3.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [adafruit-circuitpython-mlx90393]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-mlx90393-2.1.4.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-mlx90393]: success
+[2024-04-01 16:57:30] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-01 16:57:30] INFO root fetch - processPackages [streamlit-keyup]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-keyup-0.2.3.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [streamlit-keyup]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-keyup-0.2.4.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [streamlit-keyup]: success
+[2024-04-01 16:57:30] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.32.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - processPackages [athena-intelligence]: Remove: archive file [/home/abi/fetcher/tmp/athena_intelligence-0.1.33.tar.gz]
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [athena-intelligence]: success
+[2024-04-01 16:57:30] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-01 16:57:31] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 16:57:31] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 16:57:31] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-01 16:57:31] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-01 16:57:31] INFO root fetch - main [MainThread]: Store serial: [22570821]
