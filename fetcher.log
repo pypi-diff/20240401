@@ -13593,3 +13593,24 @@ EOFError: EOF read where object expected
 [2024-04-01 21:25:32] INFO root fetch - processPackages [PHX]: Remove: archive file [/home/abi/fetcher/tmp/PHX-1.9.0.tar.gz]
 [2024-04-01 21:25:32] INFO root fetch - main [MainThread]: End processing [PHX]: success
 [2024-04-01 21:25:32] INFO root fetch - main [MainThread]: Store serial: [22574076]
+[2024-04-01 21:27:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574076]
+[2024-04-01 21:27:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crm1
+[2024-04-01 21:27:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeassistant-stubs
+[2024-04-01 21:27:41] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.0b2] Old Version: [2024.4.0b1]
+[2024-04-01 21:27:41] INFO root fetch - processPackages [crm1]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 21:27:41] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c5/32/be5be01c3b86806529d86a3838479e7365ff4ab55a2ed31ede7747b0d194/homeassistant_stubs-2024.4.0b1.tar.gz
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/83/7f/70e37d776a78d3a3b79b284bc9e0680d6d1ebba229f2a940f9bbb375bce3/crm1-0.0.2.tar.gz
+[2024-04-01 21:27:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/90/e0/437cf91e3b7d8072a9f4222b6daf6452373da3915b25bed8bccfde08f8e6/homeassistant_stubs-2024.4.0b2.tar.gz
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/6c/c6/ac3d68b1a5af4f39ae2ad74d02956ac276d9ec4fd90fc5ca47c6846c1121/crm1-0.0.3.tar.gz
+[2024-04-01 21:27:42] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-01 21:27:42] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.0b1.tar.gz tmp/homeassistant_stubs-2024.4.0b2.tar.gz --markdown 20240401/h/homeassistant-stubs/2024.4.0b1-2024.4.0b2/diff.md --exclude *.pyd
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: executing diffoscope
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crm1-0.0.2.tar.gz tmp/crm1-0.0.3.tar.gz --markdown 20240401/c/crm1/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.2.tar.gz]
+[2024-04-01 21:27:42] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.3.tar.gz]
+[2024-04-01 21:27:42] INFO root fetch - main [MainThread]: End processing [crm1]: success
+[2024-04-01 21:27:54] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b1.tar.gz]
+[2024-04-01 21:27:54] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b2.tar.gz]
+[2024-04-01 21:27:54] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-01 21:27:54] INFO root fetch - main [MainThread]: Store serial: [22574083]
