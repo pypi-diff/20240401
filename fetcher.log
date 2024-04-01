@@ -7988,3 +7988,81 @@ EOFError: EOF read where object expected
 [2024-04-01 17:39:35] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1711686644.tar.gz]
 [2024-04-01 17:39:35] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-04-01 17:39:35] INFO root fetch - main [MainThread]: Store serial: [22571352]
+[2024-04-01 17:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571352]
+[2024-04-01 17:41:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-html
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcd
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spakky-core
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: standardbots
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p621
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ft2bt
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libre-linkup-py
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: array-record
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiotgm
+[2024-04-01 17:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scalifiai-client
+[2024-04-01 17:41:44] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a4] Old Version: [1.2.0a3]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [fast-html]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-01 17:41:44] WARNING root fetch - processPackages [aiotgm]: Skipping, unable to determine old version
+[2024-04-01 17:41:44] INFO root fetch - main [MainThread]: End processing [aiotgm] error
+[2024-04-01 17:41:44] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/53/d1/0084c27f30131828db39945782455b590f22d566ed81e1a3fc5d3b91ad0c/scalifiai-client-1.2.0a3.tar.gz
+[2024-04-01 17:41:44] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/2f/ee/69c9f21aab62ec3c09703b937107493c628a50796e2d0fd6d491537a10c0/fast_html-1.0.7.tar.gz
+[2024-04-01 17:41:44] WARNING root fetch - processPackages [ft2bt]: Skipping, unable to determine old version
+[2024-04-01 17:41:44] INFO root fetch - main [MainThread]: End processing [ft2bt] error
+[2024-04-01 17:41:44] INFO root fetch - processPackages [array-record]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [fcd]: New version: [1.2.1] Old Version: [1.2]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [p621]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [libre-linkup-py]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [spakky-core]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 17:41:44] INFO root fetch - processPackages [standardbots]: New version: [2.20240401.1] Old Version: [2.20240212.9]
+[2024-04-01 17:41:45] INFO root fetch - processPackages [p621]: Downloading https://files.pythonhosted.org/packages/2b/b1/2de2b6e93c4eef74657c1e0fb3c828ace20b92f1e2264c6b2c0871404b6f/p621-0.1.0.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/40/e2/90cd9d97f3705e60aa5d427f7a3b9c4199cafca69c523fcafd0cb80dec3e/fast_html-1.0.8.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fcd]: Downloading https://files.pythonhosted.org/packages/71/80/ab1868cc301426ddffa927976f72918cabe694c2907403b4f27b9eb0de7b/FCD-1.2.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/e2/b9/bb04ed1ee1e8654d9ace3ec65dfad56a088aca138b9b96ccc44567ca4dcb/standardbots-2.20240212.9.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [spakky-core]: Downloading https://files.pythonhosted.org/packages/00/89/a60a8c635a72b40aa44f33aa7dac2eea514665e281ebf848dca350c39a65/spakky_core-0.7.8.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [array-record]: Downloading https://files.pythonhosted.org/packages/6b/20/a5f93b62b6a15e62b79d6222552f8221037d5ec7cb2e0c97c45340ff46e0/array_record-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 17:41:45] INFO root fetch - processPackages [libre-linkup-py]: Downloading https://files.pythonhosted.org/packages/81/2d/d35b3235ddcbdf9fed855315602aba0ec4d4ac6aa517ba96a8a466499190/libre_linkup_py-0.2.1.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/b6/12/8783b2db2a4d01c662151d982e800c8ba943282b8b9e89b96685de699084/scalifiai-client-1.2.0a4.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fast-html]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fast-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_html-1.0.7.tar.gz tmp/fast_html-1.0.8.tar.gz --markdown 20240401/f/fast-html/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a3.tar.gz tmp/scalifiai-client-1.2.0a4.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a3-1.2.0a4/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [p621]: Downloading https://files.pythonhosted.org/packages/26/44/53b1343a9170b76fabe3eaa0c87ae956d45b80e39357bc2daf2842326275/p621-0.1.1.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [p621]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [p621]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p621-0.1.0.tar.gz tmp/p621-0.1.1.tar.gz --markdown 20240401/p/p621/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [standardbots]: Downloading https://files.pythonhosted.org/packages/0e/c2/e6f444af5e64d3babe7a41184c46fe037e8bc066f003f980ab6093f2fcfc/standardbots-2.20240401.1.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [libre-linkup-py]: Downloading https://files.pythonhosted.org/packages/f7/c5/dad78d7c67bcdc71a5b4f5bb3d70e60ae7029837e2d2f2c40ae94a92fdfd/libre_linkup_py-0.2.2.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [spakky-core]: Downloading https://files.pythonhosted.org/packages/c8/cd/b8c03005e0a9cac715b483e9d58fe8def2df30b6c3815ffb82a4f8914b0c/spakky_core-0.7.9.tar.gz
+[2024-04-01 17:41:45] INFO root fetch - processPackages [libre-linkup-py]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [libre-linkup-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_linkup_py-0.2.1.tar.gz tmp/libre_linkup_py-0.2.2.tar.gz --markdown 20240401/l/libre-linkup-py/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [standardbots]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [standardbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/standardbots-2.20240212.9.tar.gz tmp/standardbots-2.20240401.1.tar.gz --markdown 20240401/s/standardbots/2.20240212.9-2.20240401.1/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [spakky-core]: executing diffoscope
+[2024-04-01 17:41:45] INFO root fetch - processPackages [spakky-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spakky_core-0.7.8.tar.gz tmp/spakky_core-0.7.9.tar.gz --markdown 20240401/s/spakky-core/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 17:41:45] INFO root fetch - processPackages [array-record]: Downloading https://files.pythonhosted.org/packages/d6/cb/243a580ae2425ca23957c804a1dd8263f9eb0a328f60457527bf2c42d10d/array_record-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.7.tar.gz]
+[2024-04-01 17:41:45] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.8.tar.gz]
+[2024-04-01 17:41:45] INFO root fetch - main [MainThread]: End processing [fast-html]: success
+[2024-04-01 17:41:46] INFO root fetch - processPackages [p621]: Remove: archive file [/home/abi/fetcher/tmp/p621-0.1.0.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - processPackages [p621]: Remove: archive file [/home/abi/fetcher/tmp/p621-0.1.1.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [p621]: success
+[2024-04-01 17:41:46] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a3.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a4.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:41:46] INFO root fetch - processPackages [array-record]: executing diffoscope
+[2024-04-01 17:41:46] INFO root fetch - processPackages [array-record]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/array_record-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/array_record-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/a/array-record/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-01 17:41:46] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240212.9.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - processPackages [standardbots]: Remove: archive file [/home/abi/fetcher/tmp/standardbots-2.20240401.1.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [standardbots]: success
+[2024-04-01 17:41:46] INFO root fetch - processPackages [libre-linkup-py]: Remove: archive file [/home/abi/fetcher/tmp/libre_linkup_py-0.2.1.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - processPackages [libre-linkup-py]: Remove: archive file [/home/abi/fetcher/tmp/libre_linkup_py-0.2.2.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [libre-linkup-py]: success
+[2024-04-01 17:41:46] INFO root fetch - processPackages [fcd]: Downloading https://files.pythonhosted.org/packages/91/83/b2bd47ed44cb73b661535827ae3e4bae2d9327a55b4962065dc0611757fd/fcd-1.2.1.tar.gz
+[2024-04-01 17:41:46] INFO root fetch - processPackages [spakky-core]: Remove: archive file [/home/abi/fetcher/tmp/spakky_core-0.7.8.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - processPackages [spakky-core]: Remove: archive file [/home/abi/fetcher/tmp/spakky_core-0.7.9.tar.gz]
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [spakky-core]: success
+[2024-04-01 17:41:46] WARNING root fetch - processPackages [fcd]: Skipping package: exceeds size limit 15118302>=10485760
+[2024-04-01 17:41:46] INFO root fetch - main [MainThread]: End processing [fcd] error
+[2024-04-01 17:42:23] INFO root fetch - processPackages [array-record]: Remove: archive file [/home/abi/fetcher/tmp/array_record-0.5.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 17:42:23] INFO root fetch - processPackages [array-record]: Remove: archive file [/home/abi/fetcher/tmp/array_record-0.5.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 17:42:23] INFO root fetch - main [MainThread]: End processing [array-record]: success
+[2024-04-01 17:42:23] INFO root fetch - main [MainThread]: Store serial: [22571392]
