@@ -12008,3 +12008,45 @@ EOFError: EOF read where object expected
 [2024-04-01 20:16:11] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_multi_destination-16.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-04-01 20:16:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-multi-destination]: success
 [2024-04-01 20:16:11] INFO root fetch - main [MainThread]: Store serial: [22573339]
+[2024-04-01 20:18:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573339]
+[2024-04-01 20:18:20] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crm1
+[2024-04-01 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d-fake-seeder
+[2024-04-01 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonevu
+[2024-04-01 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-policy-validator
+[2024-04-01 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinta
+[2024-04-01 20:18:20] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:18:20] INFO root fetch - processPackages [zonevu]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-01 20:18:20] WARNING root fetch - processPackages [crm1]: Skipping, unable to determine old version
+[2024-04-01 20:18:20] INFO root fetch - main [MainThread]: End processing [crm1] error
+[2024-04-01 20:18:20] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 20:18:20] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/5b/e7/286c9d7fc06f132d3f9c11b1893f4090af5f3e0968ef3105144ed913d0e0/zonevu-1.1.2-py3-none-any.whl
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tf-policy-validator]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tinta]: New version: [0.1.7b1] Old Version: [0.1.6]
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tf-policy-validator]: Downloading https://files.pythonhosted.org/packages/24/a1/f436222fa190c146d67d85c905fbc284ab3d4aa042ea3b047d09955a1527/tf_policy_validator-0.0.5.tar.gz
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/0d/09/9ed95ee65d729435f9faeb6b8f9b36a9c5b88a1d95c87bd1d9550374c8d0/tinta-0.1.6.tar.gz
+[2024-04-01 20:18:20] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 20:18:20] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 20:18:20] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:18:20] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/df/07/180cecdf056e426df51b8c594f6249233eb90f61340d3452a51b4308e811/zonevu-1.1.3-py3-none-any.whl
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tf-policy-validator]: Downloading https://files.pythonhosted.org/packages/e4/52/e8a90702874795f1239bfb846571120c9e7d4986193062b8a818da3f017e/tf_policy_validator-0.0.6.tar.gz
+[2024-04-01 20:18:20] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/42/0c/2c68c7872f279f6da845f2797421d665d1b18c8816719551f150dfc2a1cd/tinta-0.1.7b1.tar.gz
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tf-policy-validator]: executing diffoscope
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tf-policy-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_policy_validator-0.0.5.tar.gz tmp/tf_policy_validator-0.0.6.tar.gz --markdown 20240401/t/tf-policy-validator/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 20:18:21] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-01 20:18:21] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.2-py3-none-any.whl.zip tmp/zonevu-1.1.3-py3-none-any.whl.zip --markdown 20240401/z/zonevu/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tinta]: executing diffoscope
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinta-0.1.6.tar.gz tmp/tinta-0.1.7b1.tar.gz --markdown 20240401/t/tinta/0.1.6-0.1.7b1/diff.md --exclude *.pyd
+[2024-04-01 20:18:21] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 20:18:21] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 20:18:21] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tf-policy-validator]: Remove: archive file [/home/abi/fetcher/tmp/tf_policy_validator-0.0.5.tar.gz]
+[2024-04-01 20:18:21] INFO root fetch - processPackages [tf-policy-validator]: Remove: archive file [/home/abi/fetcher/tmp/tf_policy_validator-0.0.6.tar.gz]
+[2024-04-01 20:18:21] INFO root fetch - main [MainThread]: End processing [tf-policy-validator]: success
+[2024-04-01 20:18:22] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.6.tar.gz]
+[2024-04-01 20:18:22] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b1.tar.gz]
+[2024-04-01 20:18:22] INFO root fetch - main [MainThread]: End processing [tinta]: success
+[2024-04-01 20:18:23] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.2-py3-none-any.whl.zip]
+[2024-04-01 20:18:23] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.3-py3-none-any.whl.zip]
+[2024-04-01 20:18:23] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-01 20:18:23] INFO root fetch - main [MainThread]: Store serial: [22573352]
