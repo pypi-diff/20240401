@@ -3496,3 +3496,33 @@ EOFError: EOF read where object expected
 [2024-04-01 14:41:47] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240401-py3-none-win_amd64.whl.zip]
 [2024-04-01 14:41:47] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
 [2024-04-01 14:41:47] INFO root fetch - main [MainThread]: Store serial: [22569220]
+[2024-04-01 14:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569220]
+[2024-04-01 14:43:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 14:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gtfs-station-stop
+[2024-04-01 14:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-swagger-coverage
+[2024-04-01 14:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: g2p-mix
+[2024-04-01 14:43:57] INFO root fetch - processPackages [gtfs-station-stop]: New version: [0.7.0b5] Old Version: [0.7.0b4]
+[2024-04-01 14:43:57] INFO root fetch - processPackages [g2p-mix]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-01 14:43:57] INFO root fetch - processPackages [test-swagger-coverage]: New version: [2.1.60] Old Version: [2.1.59]
+[2024-04-01 14:43:57] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/0f/0b/a2007ecda7d6a3071f0809543e996b166f9d4c240cb6e010c8d6847e48a6/test_swagger_coverage-2.1.59.tar.gz
+[2024-04-01 14:43:57] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/b3/3e/eb04413aef959823f54a07fa3fd35d47b815abcf04c68d7fa56b10dc1490/g2p_mix-0.3.5.tar.gz
+[2024-04-01 14:43:57] INFO root fetch - processPackages [gtfs-station-stop]: Downloading https://files.pythonhosted.org/packages/66/c0/7cf60351b908d2472ddd5952bb7da212ea2fa356c6cec1b1be56b45a036a/gtfs_station_stop-0.7.0b4.tar.gz
+[2024-04-01 14:43:58] INFO root fetch - processPackages [test-swagger-coverage]: Downloading https://files.pythonhosted.org/packages/a9/3d/3f066c76030e5fa84793a53a453d3ce1f06c5f9d0967639b824e22773a8d/test_swagger_coverage-2.1.60.tar.gz
+[2024-04-01 14:43:58] INFO root fetch - processPackages [gtfs-station-stop]: Downloading https://files.pythonhosted.org/packages/87/6d/b6b471887f4fa1b68c77b80343ff24b4091506bad286cb45ef13b85930e2/gtfs_station_stop-0.7.0b5.tar.gz
+[2024-04-01 14:43:58] INFO root fetch - processPackages [test-swagger-coverage]: executing diffoscope
+[2024-04-01 14:43:58] INFO root fetch - processPackages [test-swagger-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_swagger_coverage-2.1.59.tar.gz tmp/test_swagger_coverage-2.1.60.tar.gz --markdown 20240401/t/test-swagger-coverage/2.1.59-2.1.60/diff.md --exclude *.pyd
+[2024-04-01 14:43:58] INFO root fetch - processPackages [gtfs-station-stop]: executing diffoscope
+[2024-04-01 14:43:58] INFO root fetch - processPackages [gtfs-station-stop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtfs_station_stop-0.7.0b4.tar.gz tmp/gtfs_station_stop-0.7.0b5.tar.gz --markdown 20240401/g/gtfs-station-stop/0.7.0b4-0.7.0b5/diff.md --exclude *.pyd
+[2024-04-01 14:43:58] INFO root fetch - processPackages [g2p-mix]: Downloading https://files.pythonhosted.org/packages/2a/ea/896679c9ec604803d15d284df4278e908b02e0cd350ffbf1fecc5b9c768b/g2p_mix-0.3.6.tar.gz
+[2024-04-01 14:43:58] INFO root fetch - processPackages [g2p-mix]: executing diffoscope
+[2024-04-01 14:43:58] INFO root fetch - processPackages [g2p-mix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g2p_mix-0.3.5.tar.gz tmp/g2p_mix-0.3.6.tar.gz --markdown 20240401/g/g2p-mix/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-01 14:43:59] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.59.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - processPackages [test-swagger-coverage]: Remove: archive file [/home/abi/fetcher/tmp/test_swagger_coverage-2.1.60.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - main [MainThread]: End processing [test-swagger-coverage]: success
+[2024-04-01 14:43:59] INFO root fetch - processPackages [gtfs-station-stop]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_station_stop-0.7.0b4.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - processPackages [gtfs-station-stop]: Remove: archive file [/home/abi/fetcher/tmp/gtfs_station_stop-0.7.0b5.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - main [MainThread]: End processing [gtfs-station-stop]: success
+[2024-04-01 14:43:59] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p_mix-0.3.5.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p_mix-0.3.6.tar.gz]
+[2024-04-01 14:43:59] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
+[2024-04-01 14:43:59] INFO root fetch - main [MainThread]: Store serial: [22569229]
