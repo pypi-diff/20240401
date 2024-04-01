@@ -10305,3 +10305,57 @@ EOFError: EOF read where object expected
 [2024-04-01 19:03:22] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.1.9.tar.gz]
 [2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [relationalai]: success
 [2024-04-01 19:03:22] INFO root fetch - main [MainThread]: Store serial: [22572494]
+[2024-04-01 19:05:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572494]
+[2024-04-01 19:05:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidal-dl-ng
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-resizer
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-upscaler
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pnu-portstreelint
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acquire-imaging
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: besapi
+[2024-04-01 19:05:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: RipeDB
+[2024-04-01 19:05:31] INFO root fetch - processPackages [RipeDB]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-01 19:05:31] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 19:05:31] WARNING root fetch - processPackages [video-upscaler]: Skipping, unable to determine old version
+[2024-04-01 19:05:31] INFO root fetch - main [MainThread]: End processing [video-upscaler] error
+[2024-04-01 19:05:31] INFO root fetch - processPackages [besapi]: New version: [3.2.4] Old Version: [3.2.2]
+[2024-04-01 19:05:31] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/10/77/a9627484f6cb26ee638be3862521a954504963ad3991c40612da5d0b1e40/RipeDB-0.3.4.tar.gz
+[2024-04-01 19:05:31] INFO root fetch - processPackages [acquire-imaging]: New version: [0.3.0rc5] Old Version: [0.3.0rc4]
+[2024-04-01 19:05:31] INFO root fetch - processPackages [pnu-portstreelint]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-01 19:05:31] ERROR root fetch - processPackages [video-resizer]: Unable to get metadata: No such project 'video-resizer'
+[2024-04-01 19:05:31] INFO root fetch - main [MainThread]: End processing [video-resizer] error
+[2024-04-01 19:05:31] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-04-01 19:05:31] INFO root fetch - processPackages [besapi]: Downloading https://files.pythonhosted.org/packages/c6/e8/21e772c1b8d4832f7935555f442e115e30b52a4c4f92a2d6003589af0816/besapi-3.2.2.tar.gz
+[2024-04-01 19:05:31] INFO root fetch - processPackages [acquire-imaging]: Downloading https://files.pythonhosted.org/packages/b7/ea/2c9923c7b220391ac8c8f7a9fa628cd845c385e7a9047c3d4aaa975fca7d/acquire_imaging-0.3.0rc4-cp38-abi3-win_amd64.whl
+[2024-04-01 19:05:31] INFO root fetch - processPackages [pnu-portstreelint]: Downloading https://files.pythonhosted.org/packages/94/cc/8316699b8079f9b4615fab52f33c955580c6b3d5df616e4ea8da04b8aae0/pnu-portstreelint-1.2.1.tar.gz
+[2024-04-01 19:05:32] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-04-01 19:05:32] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/2c/e1/55d2c63a4933ac5a2a7822a297c155c38e9ed52fd912f492ccf760b42b0c/RipeDB-0.3.5.tar.gz
+[2024-04-01 19:05:32] INFO root fetch - processPackages [RipeDB]: executing diffoscope
+[2024-04-01 19:05:32] INFO root fetch - processPackages [RipeDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RipeDB-0.3.4.tar.gz tmp/RipeDB-0.3.5.tar.gz --markdown 20240401/R/RipeDB/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-01 19:05:32] INFO root fetch - processPackages [besapi]: Downloading https://files.pythonhosted.org/packages/0e/3a/dd68cce8a66d39acb56bc215705f14c4b9d792ca57e97242dc75850f8c0a/besapi-3.2.4.tar.gz
+[2024-04-01 19:05:32] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-04-01 19:05:32] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240401/t/tidal-dl-ng/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 19:05:32] INFO root fetch - processPackages [pnu-portstreelint]: Downloading https://files.pythonhosted.org/packages/93/06/6b6a8ea4bff715713b16e4fcfd36517a5e4729dbdd580be58275970634c5/pnu-portstreelint-1.3.0.tar.gz
+[2024-04-01 19:05:32] INFO root fetch - processPackages [besapi]: executing diffoscope
+[2024-04-01 19:05:32] INFO root fetch - processPackages [besapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/besapi-3.2.2.tar.gz tmp/besapi-3.2.4.tar.gz --markdown 20240401/b/besapi/3.2.2-3.2.4/diff.md --exclude *.pyd
+[2024-04-01 19:05:32] INFO root fetch - processPackages [pnu-portstreelint]: executing diffoscope
+[2024-04-01 19:05:32] INFO root fetch - processPackages [pnu-portstreelint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnu-portstreelint-1.2.1.tar.gz tmp/pnu-portstreelint-1.3.0.tar.gz --markdown 20240401/p/pnu-portstreelint/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2024-04-01 19:05:32] INFO root fetch - processPackages [acquire-imaging]: Downloading https://files.pythonhosted.org/packages/f7/9a/d4042ee857854fea76685168a3d9be640054a6de149500a722cf0aa5ebba/acquire_imaging-0.3.0rc5-cp38-abi3-win_amd64.whl
+[2024-04-01 19:05:32] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.4.tar.gz]
+[2024-04-01 19:05:32] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.5.tar.gz]
+[2024-04-01 19:05:32] INFO root fetch - main [MainThread]: End processing [RipeDB]: success
+[2024-04-01 19:05:32] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-04-01 19:05:32] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-04-01 19:05:32] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-04-01 19:05:32] INFO root fetch - processPackages [acquire-imaging]: executing diffoscope
+[2024-04-01 19:05:32] INFO root fetch - processPackages [acquire-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire_imaging-0.3.0rc4-cp38-abi3-win_amd64.whl.zip tmp/acquire_imaging-0.3.0rc5-cp38-abi3-win_amd64.whl.zip --markdown 20240401/a/acquire-imaging/0.3.0rc4-0.3.0rc5/diff.md --exclude *.pyd
+[2024-04-01 19:05:33] INFO root fetch - processPackages [besapi]: Remove: archive file [/home/abi/fetcher/tmp/besapi-3.2.2.tar.gz]
+[2024-04-01 19:05:33] INFO root fetch - processPackages [besapi]: Remove: archive file [/home/abi/fetcher/tmp/besapi-3.2.4.tar.gz]
+[2024-04-01 19:05:33] INFO root fetch - main [MainThread]: End processing [besapi]: success
+[2024-04-01 19:05:33] INFO root fetch - processPackages [pnu-portstreelint]: Remove: archive file [/home/abi/fetcher/tmp/pnu-portstreelint-1.2.1.tar.gz]
+[2024-04-01 19:05:33] INFO root fetch - processPackages [pnu-portstreelint]: Remove: archive file [/home/abi/fetcher/tmp/pnu-portstreelint-1.3.0.tar.gz]
+[2024-04-01 19:05:33] INFO root fetch - main [MainThread]: End processing [pnu-portstreelint]: success
+[2024-04-01 19:05:40] INFO root fetch - processPackages [acquire-imaging]: Remove: archive file [/home/abi/fetcher/tmp/acquire_imaging-0.3.0rc4-cp38-abi3-win_amd64.whl.zip]
+[2024-04-01 19:05:40] INFO root fetch - processPackages [acquire-imaging]: Remove: archive file [/home/abi/fetcher/tmp/acquire_imaging-0.3.0rc5-cp38-abi3-win_amd64.whl.zip]
+[2024-04-01 19:05:40] INFO root fetch - main [MainThread]: End processing [acquire-imaging]: success
+[2024-04-01 19:05:40] INFO root fetch - main [MainThread]: Store serial: [22572523]
