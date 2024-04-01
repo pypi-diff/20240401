@@ -1765,3 +1765,27 @@ EOFError: EOF read where object expected
 [2024-04-01 13:05:59] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.61.dev3-py3-none-any.whl.zip]
 [2024-04-01 13:05:59] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
 [2024-04-01 13:05:59] INFO root fetch - main [MainThread]: Store serial: [22568391]
+[2024-04-01 13:08:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568391]
+[2024-04-01 13:08:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 13:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sirji-messages
+[2024-04-01 13:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-01 13:08:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgini
+[2024-04-01 13:08:15] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:08:15] WARNING root fetch - processPackages [sirji-messages]: Skipping, unable to determine old version
+[2024-04-01 13:08:15] INFO root fetch - main [MainThread]: End processing [sirji-messages] error
+[2024-04-01 13:08:15] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:08:15] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-01 13:08:15] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:08:15] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-04-01 13:08:15] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:08:15] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:08:16] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-04-01 13:08:16] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-04-01 13:08:16] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240401/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2024-04-01 13:08:17] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:08:17] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:08:17] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:08:17] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-04-01 13:08:17] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-04-01 13:08:17] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-04-01 13:08:17] INFO root fetch - main [MainThread]: Store serial: [22568412]
