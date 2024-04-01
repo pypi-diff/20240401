@@ -8133,3 +8133,111 @@ EOFError: EOF read where object expected
 [2024-04-01 17:44:41] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
 [2024-04-01 17:44:41] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
 [2024-04-01 17:44:41] INFO root fetch - main [MainThread]: Store serial: [22571413]
+[2024-04-01 17:46:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571413]
+[2024-04-01 17:46:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-protos
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emailbob-twingate
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-sdk
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exacheck
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-telemetry
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-utils
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: concurrent_tasks
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: factorial-aivn-aio2023
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inigrep
+[2024-04-01 17:46:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ssi-voucher-cheque
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.45.0.post375] Old Version: [2.45.0.post374]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: New version: [14.0.2.2.0] Old Version: [14.0.2.1.2.dev1]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [inigrep]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [exacheck]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [emailbob-twingate]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [concurrent_tasks]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/05/3f/7f35a6adb0e751195c9f223c33f956ad4448f40f448cfa5cf62584c65681/nucliadb_telemetry-2.45.0.post374-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-01 17:46:50] WARNING root fetch - processPackages [factorial-aivn-aio2023]: Skipping, unable to determine old version
+[2024-04-01 17:46:50] INFO root fetch - processPackages [factorial-aivn-aio2023]: Start processing: bosch-thermostat-client
+[2024-04-01 17:46:50] INFO root fetch - main [MainThread]: End processing [factorial-aivn-aio2023] error
+[2024-04-01 17:46:50] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/18/7e/a687c4e43fc45eff26972a197771eb8e92b254e0f58f3c4716278fe44500/emailbob_twingate-0.0.7.tar.gz
+[2024-04-01 17:46:50] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Downloading https://files.pythonhosted.org/packages/94/dd/f2895bd59614c5f41b89653477c4728cad4cc50144829055cac94f8479ad/odoo14_addon_ssi_voucher_cheque-14.0.2.1.2.dev1-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [inigrep]: Downloading https://files.pythonhosted.org/packages/41/5f/43c42e88dd41a0b7c5d6a48bfb043634b78923012a7f4c97eca198b972e8/inigrep-0.5.1.tar.gz
+[2024-04-01 17:46:50] INFO root fetch - processPackages [exacheck]: Downloading https://files.pythonhosted.org/packages/d6/6f/fd2160cf5e02919203a8291f03fc9cffd1a18d75e8a0a1f60e3502d7633e/exacheck-0.0.9.tar.gz
+[2024-04-01 17:46:50] INFO root fetch - processPackages [concurrent_tasks]: Downloading https://files.pythonhosted.org/packages/ce/c3/a7e24a4fcf89996c1ad7486ff551f60bc9883983775763bab526a08a4e06/concurrent_tasks-1.7.0.tar.gz
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [bosch-thermostat-client]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/3d/da/8b41b9e0e140adecdf7ba1a48f6f3981c6cdfa3f08dd44d46a3332a1b8c9/nucliadb_telemetry-2.45.0.post375-py3-none-any.whl
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-01 17:46:50] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-01 17:46:50] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/c7/a1/3ecc81ba0c2dd8f2a311c53c25d798e5fb626653517f148e74d31a2848a6/bosch-thermostat-client-0.9.8.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/07/8d/c311d8169e9a874b9001ea68d0070a70b1baa5e11917d0e7cb8f6e9bdb6a/emailbob_twingate-0.0.9.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.45.0.post374-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.45.0.post375-py3-none-any.whl.zip --markdown 20240401/n/nucliadb-telemetry/2.45.0.post374-2.45.0.post375/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [inigrep]: Downloading https://files.pythonhosted.org/packages/ef/a6/ce1739b24467e0e7f9e4e9b8204977a94e9f280c04a00ad2d6f6c9d8f641/inigrep-0.5.2.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [exacheck]: Downloading https://files.pythonhosted.org/packages/cc/fe/717869f490042a133b498e97d26c36bad6cef722e3bc4db1381c64ef8463/exacheck-0.1.0.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Downloading https://files.pythonhosted.org/packages/65/8a/a6efbbe47d3d45a5eddd28c97fbe5ffd1827868a20a6bcea990320090752/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl
+[2024-04-01 17:46:51] INFO root fetch - processPackages [concurrent_tasks]: Downloading https://files.pythonhosted.org/packages/1e/2a/63b7808d14608e0e9c02983bbfd05bc4854f9aec53439de46ba9b7d5a379/concurrent_tasks-1.7.1.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [emailbob-twingate]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [emailbob-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailbob_twingate-0.0.7.tar.gz tmp/emailbob_twingate-0.0.9.tar.gz --markdown 20240401/e/emailbob-twingate/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [inigrep]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [inigrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inigrep-0.5.1.tar.gz tmp/inigrep-0.5.2.tar.gz --markdown 20240401/i/inigrep/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [exacheck]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [exacheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exacheck-0.0.9.tar.gz tmp/exacheck-0.1.0.tar.gz --markdown 20240401/e/exacheck/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [concurrent_tasks]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [concurrent_tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concurrent_tasks-1.7.0.tar.gz tmp/concurrent_tasks-1.7.1.tar.gz --markdown 20240401/c/concurrent_tasks/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.1.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl.zip --markdown 20240401/o/odoo14-addon-ssi-voucher-cheque/14.0.2.1.2.dev1-14.0.2.2.0/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [bosch-thermostat-client]: Downloading https://files.pythonhosted.org/packages/61/c9/c2e93b4a507a766d56275f1de6a60af3b7f44329093d55fb9cd14244d4b5/bosch-thermostat-client-0.9.9.tar.gz
+[2024-04-01 17:46:51] INFO root fetch - processPackages [bosch-thermostat-client]: executing diffoscope
+[2024-04-01 17:46:51] INFO root fetch - processPackages [bosch-thermostat-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosch-thermostat-client-0.9.8.tar.gz tmp/bosch-thermostat-client-0.9.9.tar.gz --markdown 20240401/b/bosch-thermostat-client/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: twofa
+[2024-04-01 17:46:51] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-01 17:46:51] WARNING root fetch - processPackages [twofa]: Skipping, unable to determine old version
+[2024-04-01 17:46:51] INFO root fetch - processPackages [twofa]: Start processing: heaven
+[2024-04-01 17:46:51] INFO root fetch - main [MainThread]: End processing [twofa] error
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 17:46:51] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 17:46:51] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [heaven]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.45.0.post374-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.45.0.post375-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [inigrep]: Remove: archive file [/home/abi/fetcher/tmp/inigrep-0.5.1.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [inigrep]: Remove: archive file [/home/abi/fetcher/tmp/inigrep-0.5.2.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [inigrep]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.7.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.9.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [emailbob-twingate]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/29/e7/15105830cbec524c61d6c4acf316838dc6bb6111409c6c872fea1ac1bfe9/heaven-0.3.2.tar.gz
+[2024-04-01 17:46:52] INFO root fetch - processPackages [exacheck]: Remove: archive file [/home/abi/fetcher/tmp/exacheck-0.0.9.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [exacheck]: Remove: archive file [/home/abi/fetcher/tmp/exacheck-0.1.0.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [exacheck]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.1.2.dev1-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [odoo14-addon-ssi-voucher-cheque]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_voucher_cheque-14.0.2.2.0-py3-none-any.whl.zip]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-voucher-cheque]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [concurrent_tasks]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_tasks-1.7.0.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [concurrent_tasks]: Remove: archive file [/home/abi/fetcher/tmp/concurrent_tasks-1.7.1.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [concurrent_tasks]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.8.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - processPackages [bosch-thermostat-client]: Remove: archive file [/home/abi/fetcher/tmp/bosch-thermostat-client-0.9.9.tar.gz]
+[2024-04-01 17:46:52] INFO root fetch - main [MainThread]: End processing [bosch-thermostat-client]: success
+[2024-04-01 17:46:52] INFO root fetch - processPackages [heaven]: Downloading https://files.pythonhosted.org/packages/43/79/b19b3264e9d5dc095aec51e27987ea50e648998fb657a0a09500f3b1f7e7/heaven-0.3.3.tar.gz
+[2024-04-01 17:46:52] INFO root fetch - processPackages [heaven]: executing diffoscope
+[2024-04-01 17:46:52] INFO root fetch - processPackages [heaven]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaven-0.3.2.tar.gz tmp/heaven-0.3.3.tar.gz --markdown 20240401/h/heaven/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-01 17:46:53] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.3.2.tar.gz]
+[2024-04-01 17:46:53] INFO root fetch - processPackages [heaven]: Remove: archive file [/home/abi/fetcher/tmp/heaven-0.3.3.tar.gz]
+[2024-04-01 17:46:53] INFO root fetch - main [MainThread]: End processing [heaven]: success
+[2024-04-01 17:46:53] INFO root fetch - main [MainThread]: Store serial: [22571451]
