@@ -18320,3 +18320,51 @@ EOFError: EOF read where object expected
 [2024-04-01 23:30:49] INFO root fetch - processPackages [waii-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/waii-sdk-py-1.9.1.tar.gz]
 [2024-04-01 23:30:49] INFO root fetch - main [MainThread]: End processing [waii-sdk-py]: success
 [2024-04-01 23:30:49] INFO root fetch - main [MainThread]: Store serial: [22576016]
+[2024-04-01 23:32:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576016]
+[2024-04-01 23:32:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 23:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openparse
+[2024-04-01 23:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intel-power-control
+[2024-04-01 23:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tics
+[2024-04-01 23:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tiems
+[2024-04-01 23:32:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-tiia
+[2024-04-01 23:32:59] INFO root fetch - processPackages [intel-power-control]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-01 23:32:59] INFO root fetch - processPackages [openparse]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:32:59] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/5a/77/245331c176591bdf31b91e7adf274e8b10882820451eb9152d14fa8f476f/openparse-0.3.0.tar.gz
+[2024-04-01 23:32:59] INFO root fetch - processPackages [intel-power-control]: Downloading https://files.pythonhosted.org/packages/f7/1e/bc8677b57c5504d310e0fac69fbea79a2ba7fb9e380f23bdba3744deb175/intel-power-control-1.0.1.tar.gz
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/7d/44/794f54c761ad7240e521d54096c73c5cda58a8be7acb7740a04cdc5464cc/tencentcloud-sdk-python-tiems-3.0.998.tar.gz
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/cb/d5/544eef7b901ac7cfe6e062c33f28334b7c183da0e8d0b237587d3fc44f46/tencentcloud-sdk-python-tics-3.0.998.tar.gz
+[2024-04-01 23:32:59] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/af/27/4ad442a5d25485197a556ada200fa71343c412ee6a4ee82ac012af4402b5/tencentcloud-sdk-python-tiia-3.0.998.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [intel-power-control]: Downloading https://files.pythonhosted.org/packages/c8/8f/5a701b202792fe751c978728dc5a9259c6d7e42111369971b67a6aea912c/intel-power-control-1.0.2.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [openparse]: Downloading https://files.pythonhosted.org/packages/6d/78/ec977d59c1fccde34607c65dc03d105daa69812481a20ec0cac31fee0dfe/openparse-0.3.1.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Downloading https://files.pythonhosted.org/packages/d6/4e/57a8aa4f2c8576516cf928fd6dbfaec80218157e0554b781bdbb7df72622/tencentcloud-sdk-python-tiems-3.0.999.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [intel-power-control]: executing diffoscope
+[2024-04-01 23:33:00] INFO root fetch - processPackages [intel-power-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intel-power-control-1.0.1.tar.gz tmp/intel-power-control-1.0.2.tar.gz --markdown 20240401/i/intel-power-control/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: executing diffoscope
+[2024-04-01 23:33:00] INFO root fetch - processPackages [openparse]: executing diffoscope
+[2024-04-01 23:33:00] INFO root fetch - processPackages [openparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openparse-0.3.0.tar.gz tmp/openparse-0.3.1.tar.gz --markdown 20240401/o/openparse/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tiems/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Downloading https://files.pythonhosted.org/packages/a6/c0/1592be13e4dfda8bde9aff86de4a82eed35c99c7d89bc85edb2a03e5063d/tencentcloud-sdk-python-tics-3.0.999.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Downloading https://files.pythonhosted.org/packages/cc/23/051612b22f6b5c1d75c05182ee42a3d1c7736dd05147367d7b6aa0b5e403/tencentcloud-sdk-python-tiia-3.0.999.tar.gz
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: executing diffoscope
+[2024-04-01 23:33:00] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tics/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:33:00] INFO root fetch - processPackages [intel-power-control]: Remove: archive file [/home/abi/fetcher/tmp/intel-power-control-1.0.1.tar.gz]
+[2024-04-01 23:33:00] INFO root fetch - processPackages [intel-power-control]: Remove: archive file [/home/abi/fetcher/tmp/intel-power-control-1.0.2.tar.gz]
+[2024-04-01 23:33:00] INFO root fetch - main [MainThread]: End processing [intel-power-control]: success
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.998.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiems]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiems-3.0.999.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiems]: success
+[2024-04-01 23:33:01] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.3.0.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - processPackages [openparse]: Remove: archive file [/home/abi/fetcher/tmp/openparse-0.3.1.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - main [MainThread]: End processing [openparse]: success
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: executing diffoscope
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tiia/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.998.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tiia]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tiia-3.0.999.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tiia]: success
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.998.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - processPackages [tencentcloud-sdk-python-tics]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tics-3.0.999.tar.gz]
+[2024-04-01 23:33:01] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tics]: success
+[2024-04-01 23:33:01] INFO root fetch - main [MainThread]: Store serial: [22576031]
