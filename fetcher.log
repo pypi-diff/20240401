@@ -2029,3 +2029,92 @@ EOFError: EOF read where object expected
 [2024-04-01 13:23:52] INFO root fetch - processPackages [drf-spectacular-sidecar]: Remove: archive file [/home/abi/fetcher/tmp/drf-spectacular-sidecar-2024.4.1.tar.gz]
 [2024-04-01 13:23:52] INFO root fetch - main [MainThread]: End processing [drf-spectacular-sidecar]: success
 [2024-04-01 13:23:52] INFO root fetch - main [MainThread]: Store serial: [22568584]
+[2024-04-01 13:26:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568584]
+[2024-04-01 13:26:08] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rssbot
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sora-sdk
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantumspectra-2024
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: firebatch
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: SANTO
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastdup
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ytdl-sub
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytubefix
+[2024-04-01 13:26:08] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [fastdup]: New version: [1.85] Old Version: [1.118]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:26:08] INFO root fetch - processPackages [rssbot]: New version: [551] Old Version: [550]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [quantumspectra-2024]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [SANTO]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [firebatch]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [pytubefix]: New version: [4.0rc1] Old Version: [3.1rc1]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [ytdl-sub]: New version: [2024.4.1] Old Version: [2024.3.31]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [sora-sdk]: New version: [2024.2.0.dev2] Old Version: [2024.2.0.dev1]
+[2024-04-01 13:26:08] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/61/85/7c21f214c72340d2c5a065ecaee3312da04977d6621b3ca85d2c689f2ead/fastdup-1.118-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-04-01 13:26:08] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/c9/cc/fadeb13a95855c91c9174f7a775dce3bc8e34e7ebfbca7fb8e11f899c57c/rssbot-550.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [quantumspectra-2024]: Downloading https://files.pythonhosted.org/packages/78/45/3b977d968d070a370eb7ec9c6bf5d5c03d6c39b78c70fd98d2bf044f3dcd/quantumspectra_2024-0.1.3.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [SANTO]: Downloading https://files.pythonhosted.org/packages/9d/cb/654f4539bf795f0d2905cb98424e1c4c57da930bcfea2b1d1f7a783d44ab/SANTO-0.0.2.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [firebatch]: Downloading https://files.pythonhosted.org/packages/f6/a4/8d76b11a57cb945b9821c56cb054bde2b3fb27844bb5e399d19acbe77626/firebatch-1.0.1.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/1a/e6/9d84723fddaa9fa65867f220ee9c619d7c22ff7834af65a57215ffab5730/pytubefix-3.1rc1.tar.gz
+[2024-04-01 13:26:09] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75233092>=10485760
+[2024-04-01 13:26:09] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-04-01 13:26:09] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 13:26:09] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:26:09] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/85/9a/4ecbb4b0ad2138a5109233ab1d288880fa07608a55be7362c211ac111814/ytdl-sub-2024.3.31.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/68/45/9b6b881da5d2a3f1e7d4463ca0a8ce2bf69bd31287377f787c498f64f077/sora_sdk-2024.2.0.dev1.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a0/5c/fe0ee3f585f1c2fe0c5c57d0bbd2156071edde281121eac92fd4d5c904d3/torchrl_nightly-2024.3.9-cp39-cp39-win_amd64.whl
+[2024-04-01 13:26:09] INFO root fetch - processPackages [rssbot]: Downloading https://files.pythonhosted.org/packages/d1/cb/d7282fb3251d2a8fc076154e24a0c27969c3796ff3fe51c5be13990e524f/rssbot-551.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [quantumspectra-2024]: Downloading https://files.pythonhosted.org/packages/55/1e/f635d6b3f8c4b3e4d4e924c12dd84a76d0a4665d84082f6f87550f835464/quantumspectra_2024-0.1.4.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [firebatch]: Downloading https://files.pythonhosted.org/packages/85/ed/30a0bde9bfa023b75edec629b9c2f2da1df780d6eb1199c43600f8198d40/firebatch-1.1.0.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/f9/cf/c92313eb279ffcae98ebd8257f6091497d3209e68ec03b2a4675b9e00bf2/pytubefix-4.0rc1.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [SANTO]: Downloading https://files.pythonhosted.org/packages/ac/ba/8cbf443430730d49eca2be597c81f40f2a9c6972ed496a6641be8a9202aa/SANTO-0.0.3.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [ytdl-sub]: Downloading https://files.pythonhosted.org/packages/68/66/40ec7c566ddc171e4efdbaa878202168a878997e9ae8b7fd6acbc556fb86/ytdl-sub-2024.4.1.tar.gz
+[2024-04-01 13:26:09] INFO root fetch - processPackages [firebatch]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [firebatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firebatch-1.0.1.tar.gz tmp/firebatch-1.1.0.tar.gz --markdown 20240401/f/firebatch/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [quantumspectra-2024]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [quantumspectra-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumspectra_2024-0.1.3.tar.gz tmp/quantumspectra_2024-0.1.4.tar.gz --markdown 20240401/q/quantumspectra-2024/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [rssbot]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [rssbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rssbot-550.tar.gz tmp/rssbot-551.tar.gz --markdown 20240401/r/rssbot/550-551/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-3.1rc1.tar.gz tmp/pytubefix-4.0rc1.tar.gz --markdown 20240401/p/pytubefix/3.1rc1-4.0rc1/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [ytdl-sub]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [ytdl-sub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytdl-sub-2024.3.31.tar.gz tmp/ytdl-sub-2024.4.1.tar.gz --markdown 20240401/y/ytdl-sub/2024.3.31-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [SANTO]: executing diffoscope
+[2024-04-01 13:26:09] INFO root fetch - processPackages [SANTO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SANTO-0.0.2.tar.gz tmp/SANTO-0.0.3.tar.gz --markdown 20240401/S/SANTO/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 13:26:09] INFO root fetch - processPackages [sora-sdk]: Downloading https://files.pythonhosted.org/packages/ad/10/1d3aab48d3097631a2271d58bcdc672aad4e52fc517edbee308c3512d31e/sora_sdk-2024.2.0.dev2.tar.gz
+[2024-04-01 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/89/99/198d8eecf35d2c4cf03631b43e89caa802e1e26ead41f9650f99e826fe33/torchrl_nightly-2024.4.1-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-01 13:26:10] INFO root fetch - processPackages [firebatch]: Remove: archive file [/home/abi/fetcher/tmp/firebatch-1.0.1.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [firebatch]: Remove: archive file [/home/abi/fetcher/tmp/firebatch-1.1.0.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [firebatch]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [SANTO]: Remove: archive file [/home/abi/fetcher/tmp/SANTO-0.0.2.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [SANTO]: Remove: archive file [/home/abi/fetcher/tmp/SANTO-0.0.3.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [SANTO]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [quantumspectra-2024]: Remove: archive file [/home/abi/fetcher/tmp/quantumspectra_2024-0.1.3.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [quantumspectra-2024]: Remove: archive file [/home/abi/fetcher/tmp/quantumspectra_2024-0.1.4.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [quantumspectra-2024]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-550.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [rssbot]: Remove: archive file [/home/abi/fetcher/tmp/rssbot-551.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [rssbot]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-3.1rc1.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc1.tar.gz]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:26:10] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:26:10] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-04-01 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.4.1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240401/t/torchrl-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 13:26:11] INFO root fetch - processPackages [sora-sdk]: executing diffoscope
+[2024-04-01 13:26:11] INFO root fetch - processPackages [sora-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sora_sdk-2024.2.0.dev1.tar.gz tmp/sora_sdk-2024.2.0.dev2.tar.gz --markdown 20240401/s/sora-sdk/2024.2.0.dev1-2024.2.0.dev2/diff.md --exclude *.pyd
+[2024-04-01 13:26:11] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2024.3.31.tar.gz]
+[2024-04-01 13:26:11] INFO root fetch - processPackages [ytdl-sub]: Remove: archive file [/home/abi/fetcher/tmp/ytdl-sub-2024.4.1.tar.gz]
+[2024-04-01 13:26:11] INFO root fetch - main [MainThread]: End processing [ytdl-sub]: success
+[2024-04-01 13:26:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 13:26:14] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-01 13:26:14] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-04-01 13:26:23] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev1.tar.gz]
+[2024-04-01 13:26:23] INFO root fetch - processPackages [sora-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sora_sdk-2024.2.0.dev2.tar.gz]
+[2024-04-01 13:26:23] INFO root fetch - main [MainThread]: End processing [sora-sdk]: success
+[2024-04-01 13:26:23] INFO root fetch - main [MainThread]: Store serial: [22568635]
