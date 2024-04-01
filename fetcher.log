@@ -13614,3 +13614,24 @@ EOFError: EOF read where object expected
 [2024-04-01 21:27:54] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b2.tar.gz]
 [2024-04-01 21:27:54] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-01 21:27:54] INFO root fetch - main [MainThread]: Store serial: [22574083]
+[2024-04-01 21:29:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574083]
+[2024-04-01 21:30:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 21:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-typing
+[2024-04-01 21:30:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crim_intervals
+[2024-04-01 21:30:04] INFO root fetch - processPackages [eth-typing]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-01 21:30:04] INFO root fetch - processPackages [crim_intervals]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-01 21:30:04] INFO root fetch - processPackages [eth-typing]: Downloading https://files.pythonhosted.org/packages/07/8c/607509f95e8924bfb6053a1fc282fee9d1673590c1c534bb82843e4d6368/eth-typing-4.0.0.tar.gz
+[2024-04-01 21:30:04] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/14/10/db1639610adea92e48bee314e4539d2ae8c2d70f743cf00f19636fa93fae/crim_intervals-2.0.8.tar.gz
+[2024-04-01 21:30:04] INFO root fetch - processPackages [eth-typing]: Downloading https://files.pythonhosted.org/packages/6e/2d/f6e4d2992dc1120914c3c55601b4c0fff7eff72f5257dd891d30d07d45ff/eth-typing-4.1.0.tar.gz
+[2024-04-01 21:30:04] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/36/f0/00176e039f8e2b2fdea7dd3a42ec3c2f1bd95c9baed349d57619592266e6/crim_intervals-2.0.9.tar.gz
+[2024-04-01 21:30:04] INFO root fetch - processPackages [crim_intervals]: executing diffoscope
+[2024-04-01 21:30:04] INFO root fetch - processPackages [crim_intervals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crim_intervals-2.0.8.tar.gz tmp/crim_intervals-2.0.9.tar.gz --markdown 20240401/c/crim_intervals/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-01 21:30:04] INFO root fetch - processPackages [eth-typing]: executing diffoscope
+[2024-04-01 21:30:04] INFO root fetch - processPackages [eth-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-typing-4.0.0.tar.gz tmp/eth-typing-4.1.0.tar.gz --markdown 20240401/e/eth-typing/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2024-04-01 21:30:05] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.8.tar.gz]
+[2024-04-01 21:30:05] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
+[2024-04-01 21:30:05] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
+[2024-04-01 21:30:05] INFO root fetch - processPackages [eth-typing]: Remove: archive file [/home/abi/fetcher/tmp/eth-typing-4.0.0.tar.gz]
+[2024-04-01 21:30:05] INFO root fetch - processPackages [eth-typing]: Remove: archive file [/home/abi/fetcher/tmp/eth-typing-4.1.0.tar.gz]
+[2024-04-01 21:30:05] INFO root fetch - main [MainThread]: End processing [eth-typing]: success
+[2024-04-01 21:30:05] INFO root fetch - main [MainThread]: Store serial: [22574089]
