@@ -5991,3 +5991,54 @@ EOFError: EOF read where object expected
 [2024-04-01 16:24:31] INFO root fetch - processPackages [latynkatar]: Remove: archive file [/home/abi/fetcher/tmp/latynkatar-1.1.3.tar.gz]
 [2024-04-01 16:24:31] INFO root fetch - main [MainThread]: End processing [latynkatar]: success
 [2024-04-01 16:24:31] INFO root fetch - main [MainThread]: Store serial: [22570459]
+[2024-04-01 16:26:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570459]
+[2024-04-01 16:26:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qteasy
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budget-notifier
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ARS-Test-Runner
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gdce-baseactions
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whistle
+[2024-04-01 16:26:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-component-fill-square-cropper101
+[2024-04-01 16:26:40] WARNING root fetch - processPackages [gdce-baseactions]: Skipping, unable to determine old version
+[2024-04-01 16:26:40] INFO root fetch - main [MainThread]: End processing [gdce-baseactions] error
+[2024-04-01 16:26:40] INFO root fetch - processPackages [ARS-Test-Runner]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 16:26:40] INFO root fetch - processPackages [cdk-budget-notifier]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 16:26:40] INFO root fetch - processPackages [whistle]: New version: [2.0.0a1] Old Version: [1.0a3]
+[2024-04-01 16:26:40] INFO root fetch - processPackages [qteasy]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-01 16:26:40] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 16:26:40] INFO root fetch - processPackages [ARS-Test-Runner]: Downloading https://files.pythonhosted.org/packages/90/25/9b4372e53559ab587381ddf7198adaaab2eaa7309958f94469553d558874/ARS_Test_Runner-0.1.4.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/c4/54/64f3aabbfb5aaf7a4c140f15507aba3c02449c45bfc17f318adf221a35b2/cdk-budget-notifier-0.3.8.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/12/eb/cee1e6c8147d86c3c8c2d273ab06d8d75192640ff290f63a167908fe81b4/qteasy-1.1.4.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [whistle]: Downloading https://files.pythonhosted.org/packages/2e/81/7a1a78134fa31c33a9922a5c003a5e2d15012a9077c2febfa8ebb613bc0f/whistle-1.0a3.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: Downloading https://files.pythonhosted.org/packages/76/be/a7cff61834fcb58beb2d96c5ca48f3a31bb7eef81c13d08bc65933013994/streamlit_component_fill_square_cropper101-0.0.5.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [ARS-Test-Runner]: Downloading https://files.pythonhosted.org/packages/a1/30/edbd8ecc2cbe072c2df3734e2bb2599de9083714d7f6519d089855dacc1a/ARS_Test_Runner-0.1.5.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [cdk-budget-notifier]: Downloading https://files.pythonhosted.org/packages/e0/58/c599a41a4ea378adf0b120567f3f77768fbe70b9dee58c9c83be204555a7/cdk-budget-notifier-0.3.9.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: Downloading https://files.pythonhosted.org/packages/39/e2/0e0dd51da2c54f573e948620229958c33bbc5b46da45badde36606ad6256/streamlit_component_fill_square_cropper101-0.0.6.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [ARS-Test-Runner]: executing diffoscope
+[2024-04-01 16:26:40] INFO root fetch - processPackages [ARS-Test-Runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARS_Test_Runner-0.1.4.tar.gz tmp/ARS_Test_Runner-0.1.5.tar.gz --markdown 20240401/A/ARS-Test-Runner/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 16:26:40] INFO root fetch - processPackages [qteasy]: Downloading https://files.pythonhosted.org/packages/68/5c/3940e2e936c5fc6d43eb9ac0df4a6ee30b7beb9921750cc39a23da109b4c/qteasy-1.1.5.tar.gz
+[2024-04-01 16:26:40] INFO root fetch - processPackages [cdk-budget-notifier]: executing diffoscope
+[2024-04-01 16:26:40] INFO root fetch - processPackages [cdk-budget-notifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budget-notifier-0.3.8.tar.gz tmp/cdk-budget-notifier-0.3.9.tar.gz --markdown 20240401/c/cdk-budget-notifier/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 16:26:41] INFO root fetch - processPackages [qteasy]: executing diffoscope
+[2024-04-01 16:26:41] INFO root fetch - processPackages [qteasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qteasy-1.1.4.tar.gz tmp/qteasy-1.1.5.tar.gz --markdown 20240401/q/qteasy/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-01 16:26:41] INFO root fetch - processPackages [whistle]: Downloading https://files.pythonhosted.org/packages/d2/c1/73f3e6edd35996d648135c40d66bfb535044194b81b84feab8c62c98a62c/whistle-2.0.0a1.tar.gz
+[2024-04-01 16:26:41] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: executing diffoscope
+[2024-04-01 16:26:41] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_component_fill_square_cropper101-0.0.5.tar.gz tmp/streamlit_component_fill_square_cropper101-0.0.6.tar.gz --markdown 20240401/s/streamlit-component-fill-square-cropper101/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 16:26:41] INFO root fetch - processPackages [whistle]: executing diffoscope
+[2024-04-01 16:26:41] INFO root fetch - processPackages [whistle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whistle-1.0a3.tar.gz tmp/whistle-2.0.0a1.tar.gz --markdown 20240401/w/whistle/1.0a3-2.0.0a1/diff.md --exclude *.pyd
+[2024-04-01 16:26:41] INFO root fetch - processPackages [ARS-Test-Runner]: Remove: archive file [/home/abi/fetcher/tmp/ARS_Test_Runner-0.1.4.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - processPackages [ARS-Test-Runner]: Remove: archive file [/home/abi/fetcher/tmp/ARS_Test_Runner-0.1.5.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [ARS-Test-Runner]: success
+[2024-04-01 16:26:41] INFO root fetch - processPackages [cdk-budget-notifier]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budget-notifier-0.3.8.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - processPackages [cdk-budget-notifier]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budget-notifier-0.3.9.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [cdk-budget-notifier]: success
+[2024-04-01 16:26:41] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_component_fill_square_cropper101-0.0.5.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - processPackages [streamlit-component-fill-square-cropper101]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_component_fill_square_cropper101-0.0.6.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [streamlit-component-fill-square-cropper101]: success
+[2024-04-01 16:26:41] INFO root fetch - processPackages [whistle]: Remove: archive file [/home/abi/fetcher/tmp/whistle-1.0a3.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - processPackages [whistle]: Remove: archive file [/home/abi/fetcher/tmp/whistle-2.0.0a1.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [whistle]: success
+[2024-04-01 16:26:41] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.4.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - processPackages [qteasy]: Remove: archive file [/home/abi/fetcher/tmp/qteasy-1.1.5.tar.gz]
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: End processing [qteasy]: success
+[2024-04-01 16:26:41] INFO root fetch - main [MainThread]: Store serial: [22570481]
