@@ -14469,3 +14469,44 @@ EOFError: EOF read where object expected
 [2024-04-01 22:06:10] INFO root fetch - processPackages [eseq]: Remove: archive file [/home/abi/fetcher/tmp/eseq-0.0.4.tar.gz]
 [2024-04-01 22:06:10] INFO root fetch - main [MainThread]: End processing [eseq]: success
 [2024-04-01 22:06:10] INFO root fetch - main [MainThread]: Store serial: [22574437]
+[2024-04-01 22:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574437]
+[2024-04-01 22:08:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aim-ui
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ucsc-cse40
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mmmm1
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Clypher
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: adaptivecard
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aim
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ucsc-cse40]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 22:08:19] WARNING root fetch - processPackages [mmmm1]: Skipping, unable to determine old version
+[2024-04-01 22:08:19] INFO root fetch - main [MainThread]: End processing [mmmm1] error
+[2024-04-01 22:08:19] WARNING root fetch - processPackages [Clypher]: Skipping, unable to determine old version
+[2024-04-01 22:08:19] INFO root fetch - main [MainThread]: End processing [Clypher] error
+[2024-04-01 22:08:19] INFO root fetch - processPackages [adaptivecard]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-01 22:08:19] INFO root fetch - processPackages [aim-ui]: New version: [4.1.0.dev20230930] Old Version: [4.1.0.dev20230929]
+[2024-04-01 22:08:19] INFO root fetch - processPackages [aim]: New version: [4.0.3] Old Version: [4.0.2]
+[2024-04-01 22:08:19] INFO root fetch - processPackages [ucsc-cse40]: Downloading https://files.pythonhosted.org/packages/cc/05/c9f7a58cf4a1d660149a6cf68811ce029b6f1a5236c686036d85a3556e59/ucsc-cse40-0.9.0.tar.gz
+[2024-04-01 22:08:19] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/2a/05/f8c2e155a815903b692d80c9a1647ba25d4a1f119791eaeb671026bcfa33/aim-ui-4.1.0.dev20230929.tar.gz
+[2024-04-01 22:08:19] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/4a/00/f7e303a3bd0a6d75c08ccd60562a0c5f00fa9f4c16c945fbffa86d96ab7d/aim-4.0.2.tar.gz
+[2024-04-01 22:08:19] INFO root fetch - processPackages [adaptivecard]: Downloading https://files.pythonhosted.org/packages/9d/33/256b00092159ba2a4ee74f87e949a96036393b6014faeb6cb759490965c0/adaptivecard-0.2.0.tar.gz
+[2024-04-01 22:08:20] INFO root fetch - processPackages [ucsc-cse40]: Downloading https://files.pythonhosted.org/packages/ce/07/ec556313d7eeda892023d5c9afc59dfefbc16f80e5531ceb0b14e2c1e010/ucsc-cse40-0.9.1.tar.gz
+[2024-04-01 22:08:20] INFO root fetch - processPackages [adaptivecard]: Downloading https://files.pythonhosted.org/packages/01/e4/7ca4af74391bfa9c7013c249666ee218a56ab89a1c1825d4c2cecf999816/adaptivecard-0.2.1.tar.gz
+[2024-04-01 22:08:20] INFO root fetch - processPackages [ucsc-cse40]: executing diffoscope
+[2024-04-01 22:08:20] INFO root fetch - processPackages [ucsc-cse40]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ucsc-cse40-0.9.0.tar.gz tmp/ucsc-cse40-0.9.1.tar.gz --markdown 20240401/u/ucsc-cse40/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 22:08:20] INFO root fetch - processPackages [adaptivecard]: executing diffoscope
+[2024-04-01 22:08:20] INFO root fetch - processPackages [adaptivecard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptivecard-0.2.0.tar.gz tmp/adaptivecard-0.2.1.tar.gz --markdown 20240401/a/adaptivecard/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 22:08:20] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19246573>=10485760
+[2024-04-01 22:08:20] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2024-04-01 22:08:20] INFO root fetch - processPackages [ucsc-cse40]: Remove: archive file [/home/abi/fetcher/tmp/ucsc-cse40-0.9.0.tar.gz]
+[2024-04-01 22:08:20] INFO root fetch - processPackages [ucsc-cse40]: Remove: archive file [/home/abi/fetcher/tmp/ucsc-cse40-0.9.1.tar.gz]
+[2024-04-01 22:08:20] INFO root fetch - main [MainThread]: End processing [ucsc-cse40]: success
+[2024-04-01 22:08:20] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/50/12/a5a7bf25fd6105558d11afbd3f7500aa63283494e429296746c821354590/aim-4.0.3.tar.gz
+[2024-04-01 22:08:20] INFO root fetch - processPackages [adaptivecard]: Remove: archive file [/home/abi/fetcher/tmp/adaptivecard-0.2.0.tar.gz]
+[2024-04-01 22:08:20] INFO root fetch - processPackages [adaptivecard]: Remove: archive file [/home/abi/fetcher/tmp/adaptivecard-0.2.1.tar.gz]
+[2024-04-01 22:08:20] INFO root fetch - main [MainThread]: End processing [adaptivecard]: success
+[2024-04-01 22:08:21] INFO root fetch - processPackages [aim]: executing diffoscope
+[2024-04-01 22:08:21] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.2.tar.gz tmp/aim-4.0.3.tar.gz --markdown 20240401/a/aim/4.0.2-4.0.3/diff.md --exclude *.pyd
+[2024-04-01 22:08:25] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.2.tar.gz]
+[2024-04-01 22:08:25] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
+[2024-04-01 22:08:25] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2024-04-01 22:08:25] INFO root fetch - main [MainThread]: Store serial: [22574456]
