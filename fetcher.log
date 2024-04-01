@@ -4858,3 +4858,78 @@ EOFError: EOF read where object expected
 [2024-04-01 15:48:18] INFO root fetch - processPackages [demisto-sdk]: Remove: archive file [/home/abi/fetcher/tmp/demisto_sdk-1.9.0.tar.gz]
 [2024-04-01 15:48:18] INFO root fetch - main [MainThread]: End processing [demisto-sdk]: success
 [2024-04-01 15:48:18] INFO root fetch - main [MainThread]: Store serial: [22569821]
+[2024-04-01 15:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569821]
+[2024-04-01 15:50:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastmat
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whru
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fediverse-pasture
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conformal-tights
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: marble-client
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: robocorp-excel
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntaxlight
+[2024-04-01 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: streamlit-chart-js
+[2024-04-01 15:50:27] INFO root fetch - processPackages [conformal-tights]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/e3/7c/afe0f0fed43a17bd38e8c1d213c468ad821ecb02c95e34abef14c8625497/conformal_tights-0.2.2.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [marble-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fediverse-pasture]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [streamlit-chart-js]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [whru]: New version: [0.4] Old Version: [0.3]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [robocorp-excel]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fastmat]: New version: [0.2rc0] Old Version: [0.2a4]
+[2024-04-01 15:50:27] INFO root fetch - processPackages [whru]: Downloading https://files.pythonhosted.org/packages/fd/59/0a70ea767f3430b676aeaaccf36bda8eec7f9bc69226b8f0a62fe056842f/whru-0.3.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fediverse-pasture]: Downloading https://files.pythonhosted.org/packages/7c/6c/78e1ef97dc4ab41180250bb3b35593dcd901cecdceb53383189f6f851c03/fediverse_pasture-0.2.8.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [marble-client]: Downloading https://files.pythonhosted.org/packages/6b/da/f688fe4c1626ad8861a33da74a7fc21035e37e9badb5e04c0ae38aecd96f/marble_client-1.1.1.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/20/69/a19120d7a47304c976cb7230bd2ee9ef9028d9e49429dc63ee8f643b64d9/robocorp_excel-0.4.2.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [streamlit-chart-js]: Downloading https://files.pythonhosted.org/packages/83/96/7ae5955108cd9ae1b8042e703ea0a76426794669bf8c87a4475024e5a984/streamlit_chart_js-0.0.5.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fastmat]: Downloading https://files.pythonhosted.org/packages/6c/04/4fe7b5282f3f51d0e8cb3809e9444b8a8153f9a0a83d1e06a90cad068594/fastmat-0.2a4.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/7a/79/2301ec8f55a293537267c3551e3399e12935dda72420a72467f0c6bdc555/syntaxlight-0.1.8.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [conformal-tights]: Downloading https://files.pythonhosted.org/packages/da/e6/55bde45a7805197984ff6931761d7a6f3199e37d408e1e2350e48a7895b1/conformal_tights-0.2.3.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [conformal-tights]: executing diffoscope
+[2024-04-01 15:50:27] INFO root fetch - processPackages [conformal-tights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conformal_tights-0.2.2.tar.gz tmp/conformal_tights-0.2.3.tar.gz --markdown 20240401/c/conformal-tights/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-01 15:50:27] INFO root fetch - processPackages [whru]: Downloading https://files.pythonhosted.org/packages/f3/f4/4d852e529e231612ebefe1e3d19b96bb74277e16e46833088f72be63f3e3/whru-0.4.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fediverse-pasture]: Downloading https://files.pythonhosted.org/packages/d9/9c/0e6a7cd4134c9dc1b91712046356140cb271540563d0db3376b4e5e95003/fediverse_pasture-0.2.9.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [robocorp-excel]: Downloading https://files.pythonhosted.org/packages/aa/92/35a7961ae4628e800a373859a72fc6f6a3f58c287ee4a11cbf9c3552df7e/robocorp_excel-0.4.3.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [marble-client]: Downloading https://files.pythonhosted.org/packages/d0/a8/3d98f2c216451c5fe028bf21ad9e093ede9745cf12387418c230185c7b2d/marble_client-1.1.2.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [streamlit-chart-js]: Downloading https://files.pythonhosted.org/packages/f7/38/6444409fddbb08008209e9a55c74ed33ca42e623a2e964cb9f5c24a6582f/streamlit_chart_js-0.0.6.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [whru]: executing diffoscope
+[2024-04-01 15:50:27] INFO root fetch - processPackages [whru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whru-0.3.tar.gz tmp/whru-0.4.tar.gz --markdown 20240401/w/whru/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fediverse-pasture]: executing diffoscope
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fediverse-pasture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fediverse_pasture-0.2.8.tar.gz tmp/fediverse_pasture-0.2.9.tar.gz --markdown 20240401/f/fediverse-pasture/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 15:50:27] INFO root fetch - processPackages [fastmat]: Downloading https://files.pythonhosted.org/packages/82/c5/03b8539b4b5a6bebc283ec229f734817bed0b081a9c7dbc78286dce40e8a/fastmat-0.2rc0.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/5d/5d/baa11c92a42514efc11f867983e51bcf5c2a036044e6117d6a4e629d267f/syntaxlight-0.1.9.tar.gz
+[2024-04-01 15:50:27] INFO root fetch - processPackages [marble-client]: executing diffoscope
+[2024-04-01 15:50:27] INFO root fetch - processPackages [marble-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marble_client-1.1.1.tar.gz tmp/marble_client-1.1.2.tar.gz --markdown 20240401/m/marble-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 15:50:27] INFO root fetch - processPackages [streamlit-chart-js]: executing diffoscope
+[2024-04-01 15:50:27] INFO root fetch - processPackages [streamlit-chart-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chart_js-0.0.5.tar.gz tmp/streamlit_chart_js-0.0.6.tar.gz --markdown 20240401/s/streamlit-chart-js/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 15:50:28] INFO root fetch - processPackages [robocorp-excel]: executing diffoscope
+[2024-04-01 15:50:28] INFO root fetch - processPackages [robocorp-excel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_excel-0.4.2.tar.gz tmp/robocorp_excel-0.4.3.tar.gz --markdown 20240401/r/robocorp-excel/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-01 15:50:28] INFO root fetch - processPackages [fastmat]: executing diffoscope
+[2024-04-01 15:50:28] INFO root fetch - processPackages [fastmat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastmat-0.2a4.tar.gz tmp/fastmat-0.2rc0.tar.gz --markdown 20240401/f/fastmat/0.2a4-0.2rc0/diff.md --exclude *.pyd
+[2024-04-01 15:50:28] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2024-04-01 15:50:28] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.8.tar.gz tmp/syntaxlight-0.1.9.tar.gz --markdown 20240401/s/syntaxlight/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 15:50:28] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.2.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - processPackages [conformal-tights]: Remove: archive file [/home/abi/fetcher/tmp/conformal_tights-0.2.3.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - main [MainThread]: End processing [conformal-tights]: success
+[2024-04-01 15:50:28] INFO root fetch - processPackages [whru]: Remove: archive file [/home/abi/fetcher/tmp/whru-0.3.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - processPackages [whru]: Remove: archive file [/home/abi/fetcher/tmp/whru-0.4.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - main [MainThread]: End processing [whru]: success
+[2024-04-01 15:50:28] INFO root fetch - processPackages [marble-client]: Remove: archive file [/home/abi/fetcher/tmp/marble_client-1.1.1.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - processPackages [marble-client]: Remove: archive file [/home/abi/fetcher/tmp/marble_client-1.1.2.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - main [MainThread]: End processing [marble-client]: success
+[2024-04-01 15:50:28] INFO root fetch - processPackages [streamlit-chart-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chart_js-0.0.5.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - processPackages [streamlit-chart-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chart_js-0.0.6.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - main [MainThread]: End processing [streamlit-chart-js]: success
+[2024-04-01 15:50:28] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.8.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.9.tar.gz]
+[2024-04-01 15:50:28] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2024-04-01 15:50:29] INFO root fetch - processPackages [robocorp-excel]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_excel-0.4.2.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - processPackages [robocorp-excel]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_excel-0.4.3.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - main [MainThread]: End processing [robocorp-excel]: success
+[2024-04-01 15:50:29] INFO root fetch - processPackages [fediverse-pasture]: Remove: archive file [/home/abi/fetcher/tmp/fediverse_pasture-0.2.8.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - processPackages [fediverse-pasture]: Remove: archive file [/home/abi/fetcher/tmp/fediverse_pasture-0.2.9.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - main [MainThread]: End processing [fediverse-pasture]: success
+[2024-04-01 15:50:29] INFO root fetch - processPackages [fastmat]: Remove: archive file [/home/abi/fetcher/tmp/fastmat-0.2a4.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - processPackages [fastmat]: Remove: archive file [/home/abi/fetcher/tmp/fastmat-0.2rc0.tar.gz]
+[2024-04-01 15:50:29] INFO root fetch - main [MainThread]: End processing [fastmat]: success
+[2024-04-01 15:50:29] INFO root fetch - main [MainThread]: Store serial: [22569870]
