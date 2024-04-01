@@ -573,3 +573,51 @@
 [2024-04-01 11:58:07] INFO root fetch - processPackages [liege.urban]: Remove: archive file [/home/abi/fetcher/tmp/liege.urban-1.0.3.tar.gz]
 [2024-04-01 11:58:07] INFO root fetch - main [MainThread]: End processing [liege.urban]: success
 [2024-04-01 11:58:07] INFO root fetch - main [MainThread]: Store serial: [22567964]
+[2024-04-01 12:00:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567964]
+[2024-04-01 12:00:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 12:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: payze-pkg
+[2024-04-01 12:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moonstreamdb
+[2024-04-01 12:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commit-tracker
+[2024-04-01 12:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalifiai-client
+[2024-04-01 12:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tendril-interests
+[2024-04-01 12:00:16] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 12:00:16] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 12:00:16] INFO root fetch - processPackages [payze-pkg]: New version: [2.2] Old Version: [2.1]
+[2024-04-01 12:00:16] INFO root fetch - processPackages [commit-tracker]: New version: [2.4] Old Version: [2.3]
+[2024-04-01 12:00:16] INFO root fetch - processPackages [moonstreamdb]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 12:00:16] INFO root fetch - processPackages [tendril-interests]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-01 12:00:16] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/55/c5/d32eda67dac9eed0a69b98f0d2585a3b3138c392bb4aaf2271dad1e0aa49/payze-pkg-2.1.tar.gz
+[2024-04-01 12:00:16] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 12:00:16] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/bb/86/b5bc26236d688684674b9a4d0e0922e6a70cff16a3d97d9d9e871e6dd007/moonstreamdb-0.3.8.tar.gz
+[2024-04-01 12:00:16] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/25/26/803e57e0c551bbc53f5c6df4f04701b65545a2aced199b229566b95578ab/commit-tracker-2.3.tar.gz
+[2024-04-01 12:00:16] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/77/0f/66609d7e9aae5d6f619a67532415fdb61b4575742e370515effea4eeb8e4/tendril-interests-0.5.2.tar.gz
+[2024-04-01 12:00:17] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 12:00:17] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 12:00:17] INFO root fetch - processPackages [moonstreamdb]: Downloading https://files.pythonhosted.org/packages/1e/62/461691e87077f3969afaa756ab875aa88beb7c4a8738965f3375f46ebbe1/moonstreamdb-0.3.9.tar.gz
+[2024-04-01 12:00:17] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/35/02/71e25115533f8545160ed00de01fcce22ca287c66117baf1e8411892dbcd/payze-pkg-2.2.tar.gz
+[2024-04-01 12:00:17] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/55/19/3a0bc702e94c71db4ecfb61bbcaf52a2a635193643194be913a73baae416/commit-tracker-2.4.tar.gz
+[2024-04-01 12:00:17] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/dd/22/e63e1a067416a65250bd41596b3bb9020152d88b3355ec34d097396a9a16/tendril-interests-0.5.3.tar.gz
+[2024-04-01 12:00:17] INFO root fetch - processPackages [moonstreamdb]: executing diffoscope
+[2024-04-01 12:00:17] INFO root fetch - processPackages [moonstreamdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moonstreamdb-0.3.8.tar.gz tmp/moonstreamdb-0.3.9.tar.gz --markdown 20240401/m/moonstreamdb/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 12:00:17] INFO root fetch - processPackages [payze-pkg]: executing diffoscope
+[2024-04-01 12:00:17] INFO root fetch - processPackages [payze-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payze-pkg-2.1.tar.gz tmp/payze-pkg-2.2.tar.gz --markdown 20240401/p/payze-pkg/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-01 12:00:17] INFO root fetch - processPackages [commit-tracker]: executing diffoscope
+[2024-04-01 12:00:17] INFO root fetch - processPackages [commit-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commit-tracker-2.3.tar.gz tmp/commit-tracker-2.4.tar.gz --markdown 20240401/c/commit-tracker/2.3-2.4/diff.md --exclude *.pyd
+[2024-04-01 12:00:17] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2024-04-01 12:00:17] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.5.2.tar.gz tmp/tendril-interests-0.5.3.tar.gz --markdown 20240401/t/tendril-interests/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-01 12:00:17] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 12:00:17] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 12:00:17] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 12:00:17] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.8.tar.gz]
+[2024-04-01 12:00:17] INFO root fetch - processPackages [moonstreamdb]: Remove: archive file [/home/abi/fetcher/tmp/moonstreamdb-0.3.9.tar.gz]
+[2024-04-01 12:00:17] INFO root fetch - main [MainThread]: End processing [moonstreamdb]: success
+[2024-04-01 12:00:18] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.3.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.4.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - main [MainThread]: End processing [commit-tracker]: success
+[2024-04-01 12:00:18] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.5.2.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.5.3.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2024-04-01 12:00:18] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.1.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.tar.gz]
+[2024-04-01 12:00:18] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
+[2024-04-01 12:00:18] INFO root fetch - main [MainThread]: Store serial: [22567977]
