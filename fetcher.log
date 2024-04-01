@@ -7191,3 +7191,56 @@ EOFError: EOF read where object expected
 [2024-04-01 17:12:59] INFO root fetch - processPackages [hbase-driver]: Remove: archive file [/home/abi/fetcher/tmp/hbase-driver-0.0.9.tar.gz]
 [2024-04-01 17:12:59] INFO root fetch - main [MainThread]: End processing [hbase-driver]: success
 [2024-04-01 17:12:59] INFO root fetch - main [MainThread]: Store serial: [22570974]
+[2024-04-01 17:15:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570974]
+[2024-04-01 17:15:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etl-pipes
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymmg
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-twingate
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quant2
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-04-01 17:15:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scalifiai-client
+[2024-04-01 17:15:08] INFO root fetch - processPackages [etl-pipes]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240401.9.41.243436] Old Version: [20240401.9.11.953054]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/c4/d6/a2ae6197c16bad6cc679121bcfda537674e60cf785b9c39361e88a6de0d8/etl_pipes-0.1.0.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pulumi-twingate]: New version: [2.1.2] Old Version: [1.0.1]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [quant2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pymmg]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a1] Old Version: [1.1.0a2]
+[2024-04-01 17:15:08] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d9/db/ff9327d4ecf035b6275ff087f162f4488858ef51ed42a7ac77b3267d51b6/certora-cli-alpha-master-20240401.9.11.953054.tar.gz
+[2024-04-01 17:15:08] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14465524>=10485760
+[2024-04-01 17:15:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pulumi-twingate]: Downloading https://files.pythonhosted.org/packages/da/9d/9faa95bba977420a4f217199990c15743676594ef181a9fa0544dd924475/pulumi_twingate-1.0.1.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [etl-pipes]: Downloading https://files.pythonhosted.org/packages/40/8d/683c07ee11ea40fd469fe138c535099587d1989dd8f9eb5e3385a288fea0/etl_pipes-0.2.0.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/11/bf/4225581d3021d37874804da989897221f25fc6c93fa5f1b07d38fcbf01d3/quant2-0.0.8.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pymmg]: Downloading https://files.pythonhosted.org/packages/c7/77/1474a492bc1a6f13ab3d95dee644871230e0478457836fd68b5fe89411dd/pymmg-0.1.0.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/1a/6e/75e66e9024ec428211b701c9a55d42bd5a13a1256c654020ab830eecfc49/scalifiai-client-1.1.0a2.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [etl-pipes]: executing diffoscope
+[2024-04-01 17:15:08] INFO root fetch - processPackages [etl-pipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etl_pipes-0.1.0.tar.gz tmp/etl_pipes-0.2.0.tar.gz --markdown 20240401/e/etl-pipes/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pulumi-twingate]: Downloading https://files.pythonhosted.org/packages/df/d3/224607f36659fc613a535715765f5166377ef582d921ae04687f0f6914ed/pulumi_twingate-2.1.2.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/f8/9c/e6a0ef9f50913c3e708b617777c98f580840c7a42cd0d09b2d6b8433dec2/scalifiai-client-1.2.0a1.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [quant2]: Downloading https://files.pythonhosted.org/packages/14/b2/02902adfc8374a2d4e7cf6e11c97319142fb7a2f1565e78bcc91dd0cd825/quant2-0.0.9.tar.gz
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pulumi-twingate]: executing diffoscope
+[2024-04-01 17:15:08] INFO root fetch - processPackages [pulumi-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_twingate-1.0.1.tar.gz tmp/pulumi_twingate-2.1.2.tar.gz --markdown 20240401/p/pulumi-twingate/1.0.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-01 17:15:08] INFO root fetch - processPackages [quant2]: executing diffoscope
+[2024-04-01 17:15:08] INFO root fetch - processPackages [quant2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quant2-0.0.8.tar.gz tmp/quant2-0.0.9.tar.gz --markdown 20240401/q/quant2/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:15:09] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:15:09] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.0a2.tar.gz tmp/scalifiai-client-1.2.0a1.tar.gz --markdown 20240401/s/scalifiai-client/1.1.0a2-1.2.0a1/diff.md --exclude *.pyd
+[2024-04-01 17:15:09] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.1.0.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - processPackages [etl-pipes]: Remove: archive file [/home/abi/fetcher/tmp/etl_pipes-0.2.0.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - main [MainThread]: End processing [etl-pipes]: success
+[2024-04-01 17:15:09] INFO root fetch - processPackages [pymmg]: Downloading https://files.pythonhosted.org/packages/e3/58/00664f089c0d3c5cdad3740b2b6aca3a9dd31aef751b3431ec7937954ba4/pymmg-1.0.0.tar.gz
+[2024-04-01 17:15:09] INFO root fetch - processPackages [pulumi-twingate]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_twingate-1.0.1.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - processPackages [pulumi-twingate]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_twingate-2.1.2.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - processPackages [pymmg]: executing diffoscope
+[2024-04-01 17:15:09] INFO root fetch - processPackages [pymmg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymmg-0.1.0.tar.gz tmp/pymmg-1.0.0.tar.gz --markdown 20240401/p/pymmg/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 17:15:09] INFO root fetch - main [MainThread]: End processing [pulumi-twingate]: success
+[2024-04-01 17:15:09] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.8.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - processPackages [quant2]: Remove: archive file [/home/abi/fetcher/tmp/quant2-0.0.9.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - main [MainThread]: End processing [quant2]: success
+[2024-04-01 17:15:09] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.0a2.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a1.tar.gz]
+[2024-04-01 17:15:09] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:15:24] INFO root fetch - processPackages [pymmg]: Remove: archive file [/home/abi/fetcher/tmp/pymmg-0.1.0.tar.gz]
+[2024-04-01 17:15:24] INFO root fetch - processPackages [pymmg]: Remove: archive file [/home/abi/fetcher/tmp/pymmg-1.0.0.tar.gz]
+[2024-04-01 17:15:24] INFO root fetch - main [MainThread]: End processing [pymmg]: success
+[2024-04-01 17:15:24] INFO root fetch - main [MainThread]: Store serial: [22570999]
