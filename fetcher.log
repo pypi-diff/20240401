@@ -16767,3 +16767,75 @@ EOFError: EOF read where object expected
 [2024-04-01 22:57:21] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
 [2024-04-01 22:57:21] INFO root fetch - main [MainThread]: End processing [flet]: success
 [2024-04-01 22:57:21] INFO root fetch - main [MainThread]: Store serial: [22575449]
+[2024-04-01 22:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575449]
+[2024-04-01 22:59:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenCasting
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tccli-intl-en
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deadline-cloud-test-fixtures
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beep-utils
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apollo-orm
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-fmu
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: carrion
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-ft
+[2024-04-01 22:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-gaap
+[2024-04-01 22:59:31] INFO root fetch - processPackages [beep-utils]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 22:59:31] INFO root fetch - processPackages [GenCasting]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 22:59:31] WARNING root fetch - processPackages [carrion]: Skipping, unable to determine old version
+[2024-04-01 22:59:31] INFO root fetch - main [MainThread]: End processing [carrion] error
+[2024-04-01 22:59:31] WARNING root fetch - processPackages [deadline-cloud-test-fixtures]: Skipping, unable to determine old version
+[2024-04-01 22:59:31] INFO root fetch - main [MainThread]: End processing [deadline-cloud-test-fixtures] error
+[2024-04-01 22:59:31] INFO root fetch - processPackages [apollo-orm]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tccli-intl-en]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2024-04-01 22:59:31] INFO root fetch - processPackages [beep-utils]: Downloading https://files.pythonhosted.org/packages/12/7f/038ed9f7408be56b1b04e6a1fbd215d5c24e752828ae9c2cbaa17ec19d26/beep_utils-0.0.1.tar.gz
+[2024-04-01 22:59:31] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/77/59/36b47e5a8c617150af35681ce85c695c40b8e9e0951a96a1311fa639a884/GenCasting-0.0.3.tar.gz
+[2024-04-01 22:59:31] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/ad/ce/a95002370bf233b6dd9035b224f8ed8d8002bba94c3ef3831051cb6b84f9/apollo-orm-2.1.0.tar.gz
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: Downloading https://files.pythonhosted.org/packages/51/ee/9dcebe5ae3f3450c048a7abfe91693be79e52f0fae0279eabfe22c9484e9/tencentcloud-sdk-python-ft-3.0.998.tar.gz
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: Downloading https://files.pythonhosted.org/packages/40/77/972722a200f9619b219a0ec3c857f7f4284707fadd6999b26ba63e9a270d/tencentcloud-sdk-python-fmu-3.0.998.tar.gz
+[2024-04-01 22:59:31] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/f1/30/41af4d3a9dae71d94a6518cc57186cc8cf5a5b38d29a6a50861712b42078/tccli-intl-en-3.0.98.1.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/37/dd/27312bdc0933e06449f85ef137d8b4beaf8e716057fd727fe4107bd07d25/GenCasting-0.0.4.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [beep-utils]: Downloading https://files.pythonhosted.org/packages/64/07/b55d24360521d13aede6434fa76a887f40b88c1a1b550c48f04b2e45b1e1/beep_utils-0.0.2.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:59:32] INFO root fetch - processPackages [apollo-orm]: Downloading https://files.pythonhosted.org/packages/2d/cc/f5ecf33a25db726ef4149776c88b5e9cec4f78c6edb5d9aa156b985e635e/apollo-orm-2.1.1.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [GenCasting]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [GenCasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenCasting-0.0.3.tar.gz tmp/GenCasting-0.0.4.tar.gz --markdown 20240401/G/GenCasting/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 22:59:32] INFO root fetch - processPackages [beep-utils]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [beep-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beep_utils-0.0.1.tar.gz tmp/beep_utils-0.0.2.tar.gz --markdown 20240401/b/beep-utils/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: Downloading https://files.pythonhosted.org/packages/9c/07/7f5d7750bed85e85911410f1ba170d645abd06f53549d8f9c2005500daf6/tencentcloud-sdk-python-ft-3.0.999.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: Downloading https://files.pythonhosted.org/packages/63/51/15f6decc12c38b95eb54fda2d1e709e0e74253ff0cdf2cdcbb588a1d7bda/tencentcloud-sdk-python-fmu-3.0.999.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: Downloading https://files.pythonhosted.org/packages/a9/2e/4d5b675312a295fdb9b979196edea49395b22913dd93ac50738b137fd17d/tencentcloud-sdk-python-gaap-3.0.998.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [apollo-orm]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [apollo-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo-orm-2.1.0.tar.gz tmp/apollo-orm-2.1.1.tar.gz --markdown 20240401/a/apollo-orm/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ft-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ft-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-ft/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tccli-intl-en]: Downloading https://files.pythonhosted.org/packages/08/e0/99b129dd2c25cb88719c0b1692fbc03b299057b179a6c33831623b44d96b/tccli-intl-en-3.0.99.1.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-fmu-3.0.998.tar.gz tmp/tencentcloud-sdk-python-fmu-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-fmu/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:59:32] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.3.tar.gz]
+[2024-04-01 22:59:32] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.4.tar.gz]
+[2024-04-01 22:59:32] INFO root fetch - main [MainThread]: End processing [GenCasting]: success
+[2024-04-01 22:59:32] INFO root fetch - processPackages [beep-utils]: Remove: archive file [/home/abi/fetcher/tmp/beep_utils-0.0.1.tar.gz]
+[2024-04-01 22:59:32] INFO root fetch - processPackages [beep-utils]: Remove: archive file [/home/abi/fetcher/tmp/beep_utils-0.0.2.tar.gz]
+[2024-04-01 22:59:32] INFO root fetch - main [MainThread]: End processing [beep-utils]: success
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: Downloading https://files.pythonhosted.org/packages/31/68/ff118e6ff059e84d11498ed175cf45422cb4bd0cfd2a4c1fad4b1c4e3ffe/tencentcloud-sdk-python-gaap-3.0.999.tar.gz
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tccli-intl-en]: executing diffoscope
+[2024-04-01 22:59:32] INFO root fetch - processPackages [tccli-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-intl-en-3.0.98.1.tar.gz tmp/tccli-intl-en-3.0.99.1.tar.gz --markdown 20240401/t/tccli-intl-en/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ft-3.0.998.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-ft]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ft-3.0.999.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ft]: success
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: executing diffoscope
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-gaap-3.0.998.tar.gz tmp/tencentcloud-sdk-python-gaap-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-gaap/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:59:33] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.0.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - processPackages [apollo-orm]: Remove: archive file [/home/abi/fetcher/tmp/apollo-orm-2.1.1.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - main [MainThread]: End processing [apollo-orm]: success
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-fmu-3.0.998.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-fmu]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-fmu-3.0.999.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-fmu]: success
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-gaap-3.0.998.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - processPackages [tencentcloud-sdk-python-gaap]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-gaap-3.0.999.tar.gz]
+[2024-04-01 22:59:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-gaap]: success
+[2024-04-01 22:59:35] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.98.1.tar.gz]
+[2024-04-01 22:59:35] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
+[2024-04-01 22:59:35] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
+[2024-04-01 22:59:35] INFO root fetch - main [MainThread]: Store serial: [22575477]
