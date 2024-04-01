@@ -12050,3 +12050,51 @@ EOFError: EOF read where object expected
 [2024-04-01 20:18:23] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.3-py3-none-any.whl.zip]
 [2024-04-01 20:18:23] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-01 20:18:23] INFO root fetch - main [MainThread]: Store serial: [22573352]
+[2024-04-01 20:20:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573352]
+[2024-04-01 20:20:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strapp
+[2024-04-01 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-handler-registry
+[2024-04-01 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoblocksai
+[2024-04-01 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcicutils
+[2024-04-01 20:20:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kdp-python-connector
+[2024-04-01 20:20:34] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.58.0] Old Version: [0.57.0]
+[2024-04-01 20:20:34] INFO root fetch - processPackages [dcicutils]: New version: [8.8.1.1b9] Old Version: [8.8.1.1b7]
+[2024-04-01 20:20:34] INFO root fetch - processPackages [autoblocksai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:20:34] INFO root fetch - processPackages [strapp]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 20:20:34] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/b1/ba/5b820428140896a966a107f3a4e322f7718806927681a614a9b5d7798d68/kdp-python-connector-0.57.0.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [json-handler-registry]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-01 20:20:34] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/90/b8/72fb6df705cb1c09869e87c8a2e7800bfb131ec14bd74375afcb9facc0e3/dcicutils-8.8.1.1b7.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/00/4f/f1230e4c9c1f29b9d6430f8fdba2f61eb407bdf2b64d53c82007af2c9afe/autoblocksai-0.0.8.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [strapp]: Downloading https://files.pythonhosted.org/packages/7f/8e/84ec86a6b828697553be5d7029784a006b7216c62a4ddf4bcb8918a8a2b5/strapp-0.3.8.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [json-handler-registry]: Downloading https://files.pythonhosted.org/packages/24/69/def2fe6debf3792d21861ac43fd2b57e0d30846f35c37b90fa2cf46b5f5f/json-handler-registry-1.2.0.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/ea/26/6bf648a48a555c0f46661c66fafec17eaa769f6cf8c3e7cdb8f972907500/kdp-python-connector-0.58.0.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-01 20:20:34] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.57.0.tar.gz tmp/kdp-python-connector-0.58.0.tar.gz --markdown 20240401/k/kdp-python-connector/0.57.0-0.58.0/diff.md --exclude *.pyd
+[2024-04-01 20:20:34] INFO root fetch - processPackages [autoblocksai]: Downloading https://files.pythonhosted.org/packages/7d/3f/bb0c01ca25bdf029927519d4da6f040d581a9ac7b177f0834322a4334d17/autoblocksai-0.0.9.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b8/73/51271cee9352a565862ee60d8adeb0aec89e045bcafdb0b76eeb4b4222e2/dcicutils-8.8.1.1b9.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [json-handler-registry]: Downloading https://files.pythonhosted.org/packages/81/b2/e359ef4e332439d13773114bc411c23b9e3832043dfb8c8b4173bb204a9c/json-handler-registry-1.3.0.tar.gz
+[2024-04-01 20:20:34] INFO root fetch - processPackages [strapp]: Downloading https://files.pythonhosted.org/packages/78/74/bb6e33708ae3860bfed931cdbcb51440a4a581fdfb97f6d1e270c9ae764a/strapp-0.3.9.tar.gz
+[2024-04-01 20:20:35] INFO root fetch - processPackages [autoblocksai]: executing diffoscope
+[2024-04-01 20:20:35] INFO root fetch - processPackages [autoblocksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoblocksai-0.0.8.tar.gz tmp/autoblocksai-0.0.9.tar.gz --markdown 20240401/a/autoblocksai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:20:35] INFO root fetch - processPackages [json-handler-registry]: executing diffoscope
+[2024-04-01 20:20:35] INFO root fetch - processPackages [json-handler-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-handler-registry-1.2.0.tar.gz tmp/json-handler-registry-1.3.0.tar.gz --markdown 20240401/j/json-handler-registry/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-01 20:20:35] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-01 20:20:35] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.1.1b7.tar.gz tmp/dcicutils-8.8.1.1b9.tar.gz --markdown 20240401/d/dcicutils/8.8.1.1b7-8.8.1.1b9/diff.md --exclude *.pyd
+[2024-04-01 20:20:35] INFO root fetch - processPackages [strapp]: executing diffoscope
+[2024-04-01 20:20:35] INFO root fetch - processPackages [strapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strapp-0.3.8.tar.gz tmp/strapp-0.3.9.tar.gz --markdown 20240401/s/strapp/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 20:20:35] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.57.0.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.58.0.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-01 20:20:35] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.8.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - processPackages [autoblocksai]: Remove: archive file [/home/abi/fetcher/tmp/autoblocksai-0.0.9.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - main [MainThread]: End processing [autoblocksai]: success
+[2024-04-01 20:20:35] INFO root fetch - processPackages [json-handler-registry]: Remove: archive file [/home/abi/fetcher/tmp/json-handler-registry-1.2.0.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - processPackages [json-handler-registry]: Remove: archive file [/home/abi/fetcher/tmp/json-handler-registry-1.3.0.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - main [MainThread]: End processing [json-handler-registry]: success
+[2024-04-01 20:20:35] INFO root fetch - processPackages [strapp]: Remove: archive file [/home/abi/fetcher/tmp/strapp-0.3.8.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - processPackages [strapp]: Remove: archive file [/home/abi/fetcher/tmp/strapp-0.3.9.tar.gz]
+[2024-04-01 20:20:35] INFO root fetch - main [MainThread]: End processing [strapp]: success
+[2024-04-01 20:20:36] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b7.tar.gz]
+[2024-04-01 20:20:36] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
+[2024-04-01 20:20:36] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-01 20:20:36] INFO root fetch - main [MainThread]: Store serial: [22573366]
