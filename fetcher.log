@@ -5269,3 +5269,33 @@ EOFError: EOF read where object expected
 [2024-04-01 16:06:08] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.9.0.tar.gz]
 [2024-04-01 16:06:08] INFO root fetch - main [MainThread]: End processing [FanFicFare]: success
 [2024-04-01 16:06:08] INFO root fetch - main [MainThread]: Store serial: [22570042]
+[2024-04-01 16:08:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570042]
+[2024-04-01 16:08:17] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 16:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clear-skies
+[2024-04-01 16:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tidal-dl-ng
+[2024-04-01 16:08:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deltachat2
+[2024-04-01 16:08:17] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 16:08:17] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-04-01 16:08:17] INFO root fetch - processPackages [deltachat2]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-01 16:08:17] INFO root fetch - processPackages [clear-skies]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-01 16:08:17] INFO root fetch - processPackages [deltachat2]: Downloading https://files.pythonhosted.org/packages/d6/16/24c5f8085515de533626389980f45aef41b5348e1a3183d761ef275fa210/deltachat2-0.1.1.tar.gz
+[2024-04-01 16:08:17] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/86/c6/5fc7f98d0b986c1fc7be0ee2f9821c93bff9852a85fc1b812fd0d36b5902/clear-skies-1.8.0.tar.gz
+[2024-04-01 16:08:17] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-04-01 16:08:17] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-04-01 16:08:17] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240401/t/tidal-dl-ng/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 16:08:18] INFO root fetch - processPackages [deltachat2]: Downloading https://files.pythonhosted.org/packages/6f/13/2f2d67955753f2d5af7330bd9aa3b0e2e10f95feb2d4d30f3d45072066dc/deltachat2-0.2.0.tar.gz
+[2024-04-01 16:08:18] INFO root fetch - processPackages [clear-skies]: Downloading https://files.pythonhosted.org/packages/46/ff/38dd0872e0df49c2ac34c7256f311d26a829dd84c6f09be6ed0215107767/clear-skies-1.9.0.tar.gz
+[2024-04-01 16:08:18] INFO root fetch - processPackages [deltachat2]: executing diffoscope
+[2024-04-01 16:08:18] INFO root fetch - processPackages [deltachat2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat2-0.1.1.tar.gz tmp/deltachat2-0.2.0.tar.gz --markdown 20240401/d/deltachat2/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 16:08:18] INFO root fetch - processPackages [clear-skies]: executing diffoscope
+[2024-04-01 16:08:18] INFO root fetch - processPackages [clear-skies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clear-skies-1.8.0.tar.gz tmp/clear-skies-1.9.0.tar.gz --markdown 20240401/c/clear-skies/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:08:18] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-04-01 16:08:18] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-04-01 16:08:18] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-04-01 16:08:18] INFO root fetch - processPackages [deltachat2]: Remove: archive file [/home/abi/fetcher/tmp/deltachat2-0.1.1.tar.gz]
+[2024-04-01 16:08:18] INFO root fetch - processPackages [deltachat2]: Remove: archive file [/home/abi/fetcher/tmp/deltachat2-0.2.0.tar.gz]
+[2024-04-01 16:08:18] INFO root fetch - main [MainThread]: End processing [deltachat2]: success
+[2024-04-01 16:08:19] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.8.0.tar.gz]
+[2024-04-01 16:08:19] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
+[2024-04-01 16:08:19] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
+[2024-04-01 16:08:19] INFO root fetch - main [MainThread]: Store serial: [22570053]
