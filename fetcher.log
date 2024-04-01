@@ -12489,3 +12489,90 @@ EOFError: EOF read where object expected
 [2024-04-01 20:37:18] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-01 20:37:18] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
 [2024-04-01 20:37:18] INFO root fetch - main [MainThread]: Store serial: [22573578]
+[2024-04-01 20:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573578]
+[2024-04-01 20:39:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-dev
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reflex
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-cli-dev
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: transfernet
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalifiai-client
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-robocorp
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: evennia
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clickup-sdk
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hidebound
+[2024-04-01 20:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pinjet-common
+[2024-04-01 20:39:39] INFO root fetch - processPackages [pinjet-common]: New version: [0.0.5] Old Version: [0.0.3]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [transfernet]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a9] Old Version: [1.2.0a8]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev6] Old Version: [0.8.0.dev1]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [transfernet]: Downloading https://files.pythonhosted.org/packages/dc/22/a2b2e0d35f76e902529094959ba5c8fc65739187e831e9dc3cc2a46044bc/transfernet-0.4.0.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [evennia]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [langchain-robocorp]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 20:39:39] WARNING root fetch - processPackages [clickup-sdk]: Skipping, unable to determine old version
+[2024-04-01 20:39:39] INFO root fetch - main [MainThread]: End processing [clickup-sdk] error
+[2024-04-01 20:39:39] INFO root fetch - processPackages [reflex]: New version: [0.4.6a2] Old Version: [0.4.6a1]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/e4/9f/514e9ab517aff86fb9a361cbcf8b259a5c36c7476e0268e87e253ece4654/pinjet-common-0.0.3.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [hidebound]: New version: [0.9.7] Old Version: [0.9.2]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/f5/62/7f54b129d4e926bd61b97474a53a029b461691fbc6be5c672ce3dd25a0f1/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:39:39] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev6] Old Version: [0.8.0.dev1]
+[2024-04-01 20:39:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/bd/c4/3ab80f33621a6110e942d2cb9066ecd47cbe5e28317a211b51c03edd9623/scalifiai-client-1.2.0a8.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/6e/2e/a9ce6e1ece8b60a125ca4f2b996c0e61bdcb5193b84914aaf9c6f2652172/evennia-4.0.0.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [langchain-robocorp]: Downloading https://files.pythonhosted.org/packages/1d/b7/ed4c81a8078224a3724bd33c99757b5fa98c8cddfd9f5703b159cc68f5ba/langchain_robocorp-0.0.4.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/5a/ab/0e4df7cef7ff216ebf7cde34c85951358f9b159c42cf243bb6baf127911d/reflex-0.4.6a1.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [transfernet]: Downloading https://files.pythonhosted.org/packages/cf/db/13e16305c2322b51faffa3ca2e0ab6e34f909457afb9c31f842f51d1db74/transfernet-0.4.1.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/e3/82/d240824016e19ffc99cd02a004c156d01d6d29f8cdb8de9bd8c3e1bfba9e/hidebound-0.9.2.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/46/0c/98a89fddd3ace21a87736371ce5478c10c8bed5cb757eb91047fa7673fff/composabl_cli_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:39:39] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/7d/f6/564c3e8cbd507c55ac7ab03cbce90e04b44b1420f2821f3458b806519c15/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl
+[2024-04-01 20:39:39] INFO root fetch - processPackages [pinjet-common]: Downloading https://files.pythonhosted.org/packages/02/1e/0181adf329342dc393af18bbf74791190f9789d5e221666a5781f2c194b9/pinjet-common-0.0.5.tar.gz
+[2024-04-01 20:39:39] INFO root fetch - processPackages [transfernet]: executing diffoscope
+[2024-04-01 20:39:39] INFO root fetch - processPackages [transfernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transfernet-0.4.0.tar.gz tmp/transfernet-0.4.1.tar.gz --markdown 20240401/t/transfernet/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-01 20:39:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/91/15/c69b6d58a40e4fa97716389e7d9d388c72526a3784cdcab3592ab434de0a/scalifiai-client-1.2.0a9.tar.gz
+[2024-04-01 20:39:40] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl.zip --markdown 20240401/c/composabl-dev/0.8.0.dev1-0.8.0.dev6/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [pinjet-common]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [pinjet-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjet-common-0.0.3.tar.gz tmp/pinjet-common-0.0.5.tar.gz --markdown 20240401/p/pinjet-common/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a8.tar.gz tmp/scalifiai-client-1.2.0a9.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a8-1.2.0a9/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [langchain-robocorp]: Downloading https://files.pythonhosted.org/packages/71/85/b42ef30e1d74d7d27ba7851499ace98b14ce9c2501425118f749e9d61530/langchain_robocorp-0.0.5.tar.gz
+[2024-04-01 20:39:40] INFO root fetch - processPackages [hidebound]: Downloading https://files.pythonhosted.org/packages/b5/1c/690f949fb65091e7d7aa80db117303ea172f1a7d194c9f8d4fbb5d0ff73d/hidebound-0.9.7.tar.gz
+[2024-04-01 20:39:40] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/9a/30/dc546e1a8f5535c5e63b7963041d58ae7d703722b5abd869783eb52268f4/reflex-0.4.6a2.tar.gz
+[2024-04-01 20:39:40] INFO root fetch - processPackages [langchain-robocorp]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [langchain-robocorp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_robocorp-0.0.4.tar.gz tmp/langchain_robocorp-0.0.5.tar.gz --markdown 20240401/l/langchain-robocorp/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [hidebound]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [hidebound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidebound-0.9.2.tar.gz tmp/hidebound-0.9.7.tar.gz --markdown 20240401/h/hidebound/0.9.2-0.9.7/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.6a1.tar.gz tmp/reflex-0.4.6a2.tar.gz --markdown 20240401/r/reflex/0.4.6a1-0.4.6a2/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [evennia]: Downloading https://files.pythonhosted.org/packages/59/f7/51dec8087d5fdc3aab1a2ec403a2a3b3bedba61f193adf43c50aa9dbb328/evennia-4.1.0.tar.gz
+[2024-04-01 20:39:40] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-01 20:39:40] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:39:40] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp310-cp310-macosx_10_9_x86_64.whl.zip]
+[2024-04-01 20:39:40] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-01 20:39:40] INFO root fetch - processPackages [evennia]: executing diffoscope
+[2024-04-01 20:39:40] INFO root fetch - processPackages [evennia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evennia-4.0.0.tar.gz tmp/evennia-4.1.0.tar.gz --markdown 20240401/e/evennia/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2024-04-01 20:39:40] INFO root fetch - processPackages [transfernet]: Remove: archive file [/home/abi/fetcher/tmp/transfernet-0.4.0.tar.gz]
+[2024-04-01 20:39:40] INFO root fetch - processPackages [transfernet]: Remove: archive file [/home/abi/fetcher/tmp/transfernet-0.4.1.tar.gz]
+[2024-04-01 20:39:40] INFO root fetch - main [MainThread]: End processing [transfernet]: success
+[2024-04-01 20:39:40] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.3.tar.gz]
+[2024-04-01 20:39:40] INFO root fetch - processPackages [pinjet-common]: Remove: archive file [/home/abi/fetcher/tmp/pinjet-common-0.0.5.tar.gz]
+[2024-04-01 20:39:40] INFO root fetch - main [MainThread]: End processing [pinjet-common]: success
+[2024-04-01 20:39:41] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-01 20:39:41] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240401/c/composabl-cli-dev/0.8.0.dev1-0.8.0.dev6/diff.md --exclude *.pyd
+[2024-04-01 20:39:41] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a8.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a9.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 20:39:41] INFO root fetch - processPackages [langchain-robocorp]: Remove: archive file [/home/abi/fetcher/tmp/langchain_robocorp-0.0.4.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - processPackages [langchain-robocorp]: Remove: archive file [/home/abi/fetcher/tmp/langchain_robocorp-0.0.5.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - main [MainThread]: End processing [langchain-robocorp]: success
+[2024-04-01 20:39:41] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.2.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - processPackages [hidebound]: Remove: archive file [/home/abi/fetcher/tmp/hidebound-0.9.7.tar.gz]
+[2024-04-01 20:39:41] INFO root fetch - main [MainThread]: End processing [hidebound]: success
+[2024-04-01 20:39:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a1.tar.gz]
+[2024-04-01 20:39:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a2.tar.gz]
+[2024-04-01 20:39:42] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-04-01 20:39:45] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-4.0.0.tar.gz]
+[2024-04-01 20:39:45] INFO root fetch - processPackages [evennia]: Remove: archive file [/home/abi/fetcher/tmp/evennia-4.1.0.tar.gz]
+[2024-04-01 20:39:45] INFO root fetch - main [MainThread]: End processing [evennia]: success
+[2024-04-01 20:40:04] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:40:04] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-01 20:40:04] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-01 20:40:04] INFO root fetch - main [MainThread]: Store serial: [22573628]
