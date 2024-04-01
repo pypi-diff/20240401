@@ -8533,3 +8533,39 @@ EOFError: EOF read where object expected
 [2024-04-01 17:57:53] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
 [2024-04-01 17:57:53] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
 [2024-04-01 17:57:53] INFO root fetch - main [MainThread]: Store serial: [22571627]
+[2024-04-01 17:59:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571627]
+[2024-04-01 18:00:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 18:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: configureout
+[2024-04-01 18:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nutshell
+[2024-04-01 18:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vrconcept-arhdron
+[2024-04-01 18:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drapi-lemur
+[2024-04-01 18:00:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalifiai-client
+[2024-04-01 18:00:01] WARNING root fetch - processPackages [vrconcept-arhdron]: Skipping, unable to determine old version
+[2024-04-01 18:00:01] INFO root fetch - main [MainThread]: End processing [vrconcept-arhdron] error
+[2024-04-01 18:00:01] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a9] Old Version: [1.2.0a8]
+[2024-04-01 18:00:01] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-01 18:00:01] WARNING root fetch - processPackages [configureout]: Skipping, unable to determine old version
+[2024-04-01 18:00:01] INFO root fetch - main [MainThread]: End processing [configureout] error
+[2024-04-01 18:00:01] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/bd/c4/3ab80f33621a6110e942d2cb9066ecd47cbe5e28317a211b51c03edd9623/scalifiai-client-1.2.0a8.tar.gz
+[2024-04-01 18:00:01] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/3e/5b/5bfdc65218ade3245d4acca327f837b703a02117e393630ec6d424bea64e/drapi-lemur-1.0.4.tar.gz
+[2024-04-01 18:00:01] INFO root fetch - processPackages [nutshell]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 18:00:02] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/91/15/c69b6d58a40e4fa97716389e7d9d388c72526a3784cdcab3592ab434de0a/scalifiai-client-1.2.0a9.tar.gz
+[2024-04-01 18:00:02] INFO root fetch - processPackages [nutshell]: Downloading https://files.pythonhosted.org/packages/d4/26/6e18c580ee6e17661e60cd995905a7fba274cd34a081bf2a1f8a22043299/nutshell-0.2.1.tar.gz
+[2024-04-01 18:00:02] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-04-01 18:00:02] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 18:00:02] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a8.tar.gz tmp/scalifiai-client-1.2.0a9.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a8-1.2.0a9/diff.md --exclude *.pyd
+[2024-04-01 18:00:02] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-04-01 18:00:02] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi-lemur-1.0.4.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240401/d/drapi-lemur/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-01 18:00:02] INFO root fetch - processPackages [nutshell]: Downloading https://files.pythonhosted.org/packages/9d/ab/148a465d631b5816f8869a7ac4bdea1f1cd54b0920ad4180667765ca35cc/nutshell-0.2.2.tar.gz
+[2024-04-01 18:00:02] INFO root fetch - processPackages [nutshell]: executing diffoscope
+[2024-04-01 18:00:02] INFO root fetch - processPackages [nutshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutshell-0.2.1.tar.gz tmp/nutshell-0.2.2.tar.gz --markdown 20240401/n/nutshell/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 18:00:02] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a8.tar.gz]
+[2024-04-01 18:00:02] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a9.tar.gz]
+[2024-04-01 18:00:02] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 18:00:03] INFO root fetch - processPackages [nutshell]: Remove: archive file [/home/abi/fetcher/tmp/nutshell-0.2.1.tar.gz]
+[2024-04-01 18:00:03] INFO root fetch - processPackages [nutshell]: Remove: archive file [/home/abi/fetcher/tmp/nutshell-0.2.2.tar.gz]
+[2024-04-01 18:00:03] INFO root fetch - main [MainThread]: End processing [nutshell]: success
+[2024-04-01 18:00:03] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.4.tar.gz]
+[2024-04-01 18:00:03] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-04-01 18:00:03] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-04-01 18:00:03] INFO root fetch - main [MainThread]: Store serial: [22571641]
