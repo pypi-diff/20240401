@@ -1717,3 +1717,51 @@ EOFError: EOF read where object expected
 [2024-04-01 13:03:40] INFO root fetch - processPackages [xchainpy2-midgard]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-midgard-2.20.1.tar.gz]
 [2024-04-01 13:03:40] INFO root fetch - main [MainThread]: End processing [xchainpy2-midgard]: success
 [2024-04-01 13:03:40] INFO root fetch - main [MainThread]: Store serial: [22568365]
+[2024-04-01 13:05:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568365]
+[2024-04-01 13:05:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: second-test
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pciSeq
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: service-oriented
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datacontract-cli
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jupyterlite-xblock
+[2024-04-01 13:05:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: waizao
+[2024-04-01 13:05:56] WARNING root fetch - processPackages [second-test]: Skipping, unable to determine old version
+[2024-04-01 13:05:56] INFO root fetch - main [MainThread]: End processing [second-test] error
+[2024-04-01 13:05:56] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 13:05:56] INFO root fetch - processPackages [datacontract-cli]: New version: [0.9.7] Old Version: [0.9.6.post2]
+[2024-04-01 13:05:56] INFO root fetch - processPackages [service-oriented]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-01 13:05:56] INFO root fetch - processPackages [pciSeq]: New version: [0.0.61.dev3] Old Version: [0.0.61.dev2]
+[2024-04-01 13:05:56] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-01 13:05:56] WARNING root fetch - processPackages [waizao]: Skipping, unable to determine old version
+[2024-04-01 13:05:56] INFO root fetch - main [MainThread]: End processing [waizao] error
+[2024-04-01 13:05:56] WARNING root fetch - processPackages [jupyterlite-xblock]: Skipping, unable to determine old version
+[2024-04-01 13:05:56] INFO root fetch - main [MainThread]: End processing [jupyterlite-xblock] error
+[2024-04-01 13:05:56] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/cb/05/c56dd8761096a04ccafc350da2ede9bea3c644301386a5acf623878d6dd9/datacontract-cli-0.9.6.post2.tar.gz
+[2024-04-01 13:05:56] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/cc/e0/a196a6cd6ec1d279dbc362dd8d9d940370eb873c7d3aa02032dc3dd534ba/service_oriented-0.0.2a8.tar.gz
+[2024-04-01 13:05:56] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/a2/88/2396c3604c5382362a50b8355dc942234260ecfaee371e3bb6fd9e79d9fc/pciSeq-0.0.61.dev2-py3-none-any.whl
+[2024-04-01 13:05:57] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-01 13:05:57] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-01 13:05:57] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240401/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:05:57] INFO root fetch - processPackages [datacontract-cli]: Downloading https://files.pythonhosted.org/packages/bd/c6/f7a47c1c7402c37fcdb7d88b0a0afee72c8f709289c2ee3f185c96cdf70c/datacontract-cli-0.9.7.tar.gz
+[2024-04-01 13:05:57] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/91/93/8808e2b0a7e857434b3c8a2d8ecd72eb853035e8af948edf46e51c3d1101/service_oriented-0.0.2a9.tar.gz
+[2024-04-01 13:05:57] INFO root fetch - processPackages [service-oriented]: executing diffoscope
+[2024-04-01 13:05:57] INFO root fetch - processPackages [service-oriented]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_oriented-0.0.2a8.tar.gz tmp/service_oriented-0.0.2a9.tar.gz --markdown 20240401/s/service-oriented/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2024-04-01 13:05:57] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/2b/c6/3dc3e317d5fb3706c46b9d01b749a74292d8ef89b84e3ba897cb4b47e562/pciSeq-0.0.61.dev3-py3-none-any.whl
+[2024-04-01 13:05:57] INFO root fetch - processPackages [datacontract-cli]: executing diffoscope
+[2024-04-01 13:05:57] INFO root fetch - processPackages [datacontract-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacontract-cli-0.9.6.post2.tar.gz tmp/datacontract-cli-0.9.7.tar.gz --markdown 20240401/d/datacontract-cli/0.9.6.post2-0.9.7/diff.md --exclude *.pyd
+[2024-04-01 13:05:57] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-01 13:05:57] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-01 13:05:57] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-01 13:05:57] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2024-04-01 13:05:57] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.61.dev2-py3-none-any.whl.zip tmp/pciSeq-0.0.61.dev3-py3-none-any.whl.zip --markdown 20240401/p/pciSeq/0.0.61.dev2-0.0.61.dev3/diff.md --exclude *.pyd
+[2024-04-01 13:05:57] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a8.tar.gz]
+[2024-04-01 13:05:57] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a9.tar.gz]
+[2024-04-01 13:05:57] INFO root fetch - main [MainThread]: End processing [service-oriented]: success
+[2024-04-01 13:05:58] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.6.post2.tar.gz]
+[2024-04-01 13:05:58] INFO root fetch - processPackages [datacontract-cli]: Remove: archive file [/home/abi/fetcher/tmp/datacontract-cli-0.9.7.tar.gz]
+[2024-04-01 13:05:58] INFO root fetch - main [MainThread]: End processing [datacontract-cli]: success
+[2024-04-01 13:05:59] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.61.dev2-py3-none-any.whl.zip]
+[2024-04-01 13:05:59] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.61.dev3-py3-none-any.whl.zip]
+[2024-04-01 13:05:59] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2024-04-01 13:05:59] INFO root fetch - main [MainThread]: Store serial: [22568391]
