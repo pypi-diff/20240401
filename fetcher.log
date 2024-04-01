@@ -3445,3 +3445,24 @@ EOFError: EOF read where object expected
 [2024-04-01 14:37:21] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 14:37:21] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 14:37:21] INFO root fetch - main [MainThread]: Store serial: [22569206]
+[2024-04-01 14:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569206]
+[2024-04-01 14:39:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorcircuit-nightly
+[2024-04-01 14:39:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyedifice
+[2024-04-01 14:39:30] INFO root fetch - processPackages [pyedifice]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-01 14:39:30] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-01 14:39:30] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/01/bb/508286ebe644d1c629cc0b90783e72f64fc5f9f817fdc252be78a4bfef0c/pyedifice-0.5.1.tar.gz
+[2024-04-01 14:39:30] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-01 14:39:30] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/c3/f3/ab6ccf1f4e3ccdc82f5527ad899346b9510e2112a68f001bb2bdea226d4c/pyedifice-0.5.2.tar.gz
+[2024-04-01 14:39:31] INFO root fetch - processPackages [pyedifice]: executing diffoscope
+[2024-04-01 14:39:31] INFO root fetch - processPackages [pyedifice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedifice-0.5.1.tar.gz tmp/pyedifice-0.5.2.tar.gz --markdown 20240401/p/pyedifice/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-01 14:39:31] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-01 14:39:31] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-01 14:39:31] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240401/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2024-04-01 14:39:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-01 14:39:32] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-01 14:39:32] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-01 14:39:35] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.1.tar.gz]
+[2024-04-01 14:39:35] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.5.2.tar.gz]
+[2024-04-01 14:39:35] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
+[2024-04-01 14:39:35] INFO root fetch - main [MainThread]: Store serial: [22569213]
