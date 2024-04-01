@@ -14625,3 +14625,69 @@ EOFError: EOF read where object expected
 [2024-04-01 22:10:38] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.34.9.tar.gz]
 [2024-04-01 22:10:38] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
 [2024-04-01 22:10:38] INFO root fetch - main [MainThread]: Store serial: [22574506]
+[2024-04-01 22:12:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574506]
+[2024-04-01 22:12:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tccli
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodestream
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ostorlab
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: owasp-depscan
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: justai
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blar-graph
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xia-framework
+[2024-04-01 22:12:47] INFO root fetch - processPackages [xia-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/4d/ec/8ba56b22e3b523e06aaac69046406b53a851ada9fdfb0c21920204e3ccee/xia-framework-0.0.8.tar.gz
+[2024-04-01 22:12:47] INFO root fetch - processPackages [owasp-depscan]: New version: [5.2.9] Old Version: [5.2.8]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [blar-graph]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [justai]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [nodestream]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [tccli]: New version: [3.0.999.1] Old Version: [3.0.998.1]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [ostorlab]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-01 22:12:47] INFO root fetch - processPackages [xia-framework]: Downloading https://files.pythonhosted.org/packages/1a/aa/c1278b76a785a1c89cde0fa37b425dbc14d128e5a6542af6978710d87150/xia-framework-0.0.9.tar.gz
+[2024-04-01 22:12:47] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/42/01/5c945281358b5358f178a91a03218f346a83fcf5930b0b7ff6c5e0f71f1b/blar_graph-0.0.6.tar.gz
+[2024-04-01 22:12:47] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/27/46/bc0ae611c296212e19c3ed9ad6004409e83e979755a1c82acb02f0155f83/justai-3.2.3.tar.gz
+[2024-04-01 22:12:47] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/82/d6/965e104645f1e5a470358e4c0bc36bbb354edc7496ff42dd25fd0aa3c3e7/owasp-depscan-5.2.8.tar.gz
+[2024-04-01 22:12:47] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/f4/0e/3436f2e0786634345dbeba81219006b1d249a2d993c29bca494850002047/nodestream-0.9.4.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/4b/45/a3b0e2cc7f86f87ffa99bd6f833796de67aee82386f88a6d4a85073532e9/tccli-3.0.998.1.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/63/e1/b1e4c17daafff07f12a7823f3ca234f491ededcd52d6a9cd51603d353345/ostorlab-1.0.2.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [xia-framework]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [xia-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-framework-0.0.8.tar.gz tmp/xia-framework-0.0.9.tar.gz --markdown 20240401/x/xia-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 22:12:48] INFO root fetch - processPackages [blar-graph]: Downloading https://files.pythonhosted.org/packages/f7/3a/0369047db96e20d8b6836402d1fc92159380f3c9e354643b0c381d4adde6/blar_graph-0.0.7.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [justai]: Downloading https://files.pythonhosted.org/packages/84/03/0632c2bb353704d1921018a2ccfcdda57614c86bfdb17cc21ce4428dcffb/justai-3.2.4.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [ostorlab]: Downloading https://files.pythonhosted.org/packages/90/3e/75795882419f3bf2c460ed8e4968589f7054d86e41d79d75b0c5d6d14a28/ostorlab-1.0.3.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/0b/66/dc3244dfcea99c94cb737511a6d643334a9686dba3c099ace65de9cb2fef/owasp-depscan-5.2.9.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [nodestream]: Downloading https://files.pythonhosted.org/packages/e2/04/8af62b732a83ffbe4119d69efa3b8097c3e26c258316430d35e977b96008/nodestream-0.9.5.tar.gz
+[2024-04-01 22:12:48] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.8.tar.gz]
+[2024-04-01 22:12:48] INFO root fetch - processPackages [xia-framework]: Remove: archive file [/home/abi/fetcher/tmp/xia-framework-0.0.9.tar.gz]
+[2024-04-01 22:12:48] INFO root fetch - main [MainThread]: End processing [xia-framework]: success
+[2024-04-01 22:12:48] INFO root fetch - processPackages [justai]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [justai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justai-3.2.3.tar.gz tmp/justai-3.2.4.tar.gz --markdown 20240401/j/justai/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2024-04-01 22:12:48] INFO root fetch - processPackages [owasp-depscan]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [owasp-depscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owasp-depscan-5.2.8.tar.gz tmp/owasp-depscan-5.2.9.tar.gz --markdown 20240401/o/owasp-depscan/5.2.8-5.2.9/diff.md --exclude *.pyd
+[2024-04-01 22:12:48] INFO root fetch - processPackages [ostorlab]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [ostorlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ostorlab-1.0.2.tar.gz tmp/ostorlab-1.0.3.tar.gz --markdown 20240401/o/ostorlab/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-01 22:12:48] INFO root fetch - processPackages [nodestream]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [nodestream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodestream-0.9.4.tar.gz tmp/nodestream-0.9.5.tar.gz --markdown 20240401/n/nodestream/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-01 22:12:48] INFO root fetch - processPackages [blar-graph]: executing diffoscope
+[2024-04-01 22:12:48] INFO root fetch - processPackages [blar-graph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blar_graph-0.0.6.tar.gz tmp/blar_graph-0.0.7.tar.gz --markdown 20240401/b/blar-graph/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 22:12:49] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.3.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - processPackages [justai]: Remove: archive file [/home/abi/fetcher/tmp/justai-3.2.4.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - main [MainThread]: End processing [justai]: success
+[2024-04-01 22:12:49] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.9.4.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - processPackages [nodestream]: Remove: archive file [/home/abi/fetcher/tmp/nodestream-0.9.5.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - main [MainThread]: End processing [nodestream]: success
+[2024-04-01 22:12:49] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp-depscan-5.2.8.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp-depscan-5.2.9.tar.gz]
+[2024-04-01 22:12:49] INFO root fetch - main [MainThread]: End processing [owasp-depscan]: success
+[2024-04-01 22:12:49] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/06/41/78d3ee9b2ead17ab0876618d203995653100fb27e524f51810d16df1bc97/tccli-3.0.999.1.tar.gz
+[2024-04-01 22:12:51] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.2.tar.gz]
+[2024-04-01 22:12:51] INFO root fetch - processPackages [ostorlab]: Remove: archive file [/home/abi/fetcher/tmp/ostorlab-1.0.3.tar.gz]
+[2024-04-01 22:12:51] INFO root fetch - main [MainThread]: End processing [ostorlab]: success
+[2024-04-01 22:12:51] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2024-04-01 22:12:51] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.998.1.tar.gz tmp/tccli-3.0.999.1.tar.gz --markdown 20240401/t/tccli/3.0.998.1-3.0.999.1/diff.md --exclude *.pyd
+[2024-04-01 22:12:56] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.6.tar.gz]
+[2024-04-01 22:12:56] INFO root fetch - processPackages [blar-graph]: Remove: archive file [/home/abi/fetcher/tmp/blar_graph-0.0.7.tar.gz]
+[2024-04-01 22:12:57] INFO root fetch - main [MainThread]: End processing [blar-graph]: success
+[2024-04-01 22:14:09] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.998.1.tar.gz]
+[2024-04-01 22:14:09] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
+[2024-04-01 22:14:09] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2024-04-01 22:14:09] INFO root fetch - main [MainThread]: Store serial: [22574530]
