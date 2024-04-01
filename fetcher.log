@@ -1193,3 +1193,60 @@ EOFError: EOF read where object expected
 [2024-04-01 12:31:18] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip]
 [2024-04-01 12:31:18] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
 [2024-04-01 12:31:18] INFO root fetch - main [MainThread]: Store serial: [22568190]
+[2024-04-01 12:33:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568190]
+[2024-04-01 12:33:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finazon-grpc-python
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sunholo
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: difft
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pvp-backend-api
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unihan-db
+[2024-04-01 12:33:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: switchkey
+[2024-04-01 12:33:37] INFO root fetch - processPackages [switchkey]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [finazon-grpc-python]: New version: [1.0.141] Old Version: [1.0.136.2]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [switchkey]: Downloading https://files.pythonhosted.org/packages/0c/9f/ff9ecb138551917718deede36d1891a0a7ed6599e10b822094386bcb6ffe/switchkey-0.1.0.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/f2/de/51415a5c6e6f20eb8f147cdc19559b89c11e7dc7a05f7e25b344bd6e50a7/finazon_grpc_python-1.0.136.2.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [unihan-db]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [difft]: New version: [1.4.3] Old Version: [1.4.1]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [pvp-backend-api]: New version: [0.7] Old Version: [0.6]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-01 12:33:37] INFO root fetch - processPackages [pvp-backend-api]: Downloading https://files.pythonhosted.org/packages/2e/e8/b6eab2466ef3a38048335d8afae9383c73efd045d7d16d76277d6c16ad89/pvp-backend-api-0.6.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [switchkey]: Downloading https://files.pythonhosted.org/packages/8f/e5/2020776046450dfdf6106fb3f40a0183a22374d4e12e38330fe55ad9cb04/switchkey-0.1.1.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [unihan-db]: Downloading https://files.pythonhosted.org/packages/a9/6a/baaefbbad3d0d7ae92e9ba6835d5a53978431e5e35ed02aba25e1c50fef9/unihan_db-0.8.0.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/14/7c/3f13a44d4b91ca6ce200fc4b9ea65f2f78191d38535544b1c30d54b9e42e/difft-1.4.1-py3-none-any.whl
+[2024-04-01 12:33:37] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/be/6c/1917de6759b83331c7bc213d3df65600decb92901128e0cc922e8bf4a7fe/finazon_grpc_python-1.0.141.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [switchkey]: executing diffoscope
+[2024-04-01 12:33:37] INFO root fetch - processPackages [switchkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switchkey-0.1.0.tar.gz tmp/switchkey-0.1.1.tar.gz --markdown 20240401/s/switchkey/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 12:33:37] INFO root fetch - processPackages [finazon-grpc-python]: executing diffoscope
+[2024-04-01 12:33:37] INFO root fetch - processPackages [finazon-grpc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finazon_grpc_python-1.0.136.2.tar.gz tmp/finazon_grpc_python-1.0.141.tar.gz --markdown 20240401/f/finazon-grpc-python/1.0.136.2-1.0.141/diff.md --exclude *.pyd
+[2024-04-01 12:33:37] INFO root fetch - processPackages [pvp-backend-api]: Downloading https://files.pythonhosted.org/packages/30/32/32b2efd7ccd3513f6e32dafe5a81eb3a9906e749fcd52e70bfed381f43d7/pvp-backend-api-0.7.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [difft]: Downloading https://files.pythonhosted.org/packages/46/20/b9083390ea64c11983f1eda6900af5aad355cac5767d10d7f0e8e9dbbda6/difft-1.4.3-py2-none-any.whl
+[2024-04-01 12:33:37] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-01 12:33:37] INFO root fetch - processPackages [pvp-backend-api]: executing diffoscope
+[2024-04-01 12:33:37] INFO root fetch - processPackages [pvp-backend-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pvp-backend-api-0.6.tar.gz tmp/pvp-backend-api-0.7.tar.gz --markdown 20240401/p/pvp-backend-api/0.6-0.7/diff.md --exclude *.pyd
+[2024-04-01 12:33:37] INFO root fetch - processPackages [unihan-db]: Downloading https://files.pythonhosted.org/packages/4f/b9/0100cfe6f41e00f683f46dba03add5d65285f27520928706ade09e33a031/unihan_db-0.9.0.tar.gz
+[2024-04-01 12:33:38] INFO root fetch - processPackages [difft]: executing diffoscope
+[2024-04-01 12:33:38] INFO root fetch - processPackages [difft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/difft-1.4.1-py3-none-any.whl.zip tmp/difft-1.4.3-py2-none-any.whl.zip --markdown 20240401/d/difft/1.4.1-1.4.3/diff.md --exclude *.pyd
+[2024-04-01 12:33:38] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-01 12:33:38] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240401/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-01 12:33:38] INFO root fetch - processPackages [switchkey]: Remove: archive file [/home/abi/fetcher/tmp/switchkey-0.1.0.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - processPackages [switchkey]: Remove: archive file [/home/abi/fetcher/tmp/switchkey-0.1.1.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - main [MainThread]: End processing [switchkey]: success
+[2024-04-01 12:33:38] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.0.136.2.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.0.141.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - main [MainThread]: End processing [finazon-grpc-python]: success
+[2024-04-01 12:33:38] INFO root fetch - processPackages [unihan-db]: executing diffoscope
+[2024-04-01 12:33:38] INFO root fetch - processPackages [unihan-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unihan_db-0.8.0.tar.gz tmp/unihan_db-0.9.0.tar.gz --markdown 20240401/u/unihan-db/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 12:33:38] INFO root fetch - processPackages [pvp-backend-api]: Remove: archive file [/home/abi/fetcher/tmp/pvp-backend-api-0.6.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - processPackages [pvp-backend-api]: Remove: archive file [/home/abi/fetcher/tmp/pvp-backend-api-0.7.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - main [MainThread]: End processing [pvp-backend-api]: success
+[2024-04-01 12:33:38] INFO root fetch - processPackages [difft]: Remove: archive file [/home/abi/fetcher/tmp/difft-1.4.1-py3-none-any.whl.zip]
+[2024-04-01 12:33:38] INFO root fetch - processPackages [difft]: Remove: archive file [/home/abi/fetcher/tmp/difft-1.4.3-py2-none-any.whl.zip]
+[2024-04-01 12:33:38] INFO root fetch - main [MainThread]: End processing [difft]: success
+[2024-04-01 12:33:38] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-01 12:33:38] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-01 12:33:39] INFO root fetch - processPackages [unihan-db]: Remove: archive file [/home/abi/fetcher/tmp/unihan_db-0.8.0.tar.gz]
+[2024-04-01 12:33:39] INFO root fetch - processPackages [unihan-db]: Remove: archive file [/home/abi/fetcher/tmp/unihan_db-0.9.0.tar.gz]
+[2024-04-01 12:33:39] INFO root fetch - main [MainThread]: End processing [unihan-db]: success
+[2024-04-01 12:33:39] INFO root fetch - main [MainThread]: Store serial: [22568207]
