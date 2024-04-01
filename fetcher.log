@@ -15937,3 +15937,36 @@ EOFError: EOF read where object expected
 [2024-04-01 22:37:00] INFO root fetch - processPackages [tencentcloud-sdk-python-clb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-clb-3.0.999.tar.gz]
 [2024-04-01 22:37:00] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-clb]: success
 [2024-04-01 22:37:00] INFO root fetch - main [MainThread]: Store serial: [22574947]
+[2024-04-01 22:39:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574947]
+[2024-04-01 22:39:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 22:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpop
+[2024-04-01 22:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepview-converter-rtm
+[2024-04-01 22:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crm1
+[2024-04-01 22:39:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-fck-nat
+[2024-04-01 22:39:09] INFO root fetch - processPackages [crm1]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 22:39:09] WARNING root fetch - processPackages [cpop]: Skipping, unable to determine old version
+[2024-04-01 22:39:09] INFO root fetch - main [MainThread]: End processing [cpop] error
+[2024-04-01 22:39:09] INFO root fetch - processPackages [cdk-fck-nat]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-01 22:39:09] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/92/df/85c66a478c51d94e08f5ade35e2334e25f10db3d17a769e893a5d141beb5/crm1-0.0.4.tar.gz
+[2024-04-01 22:39:09] INFO root fetch - processPackages [cdk-fck-nat]: Downloading https://files.pythonhosted.org/packages/dd/a4/d8b91fab65d555c0844bebe22366bfc13b2d83fdb1fe3fd73e7e048514a6/cdk-fck-nat-1.3.8.tar.gz
+[2024-04-01 22:39:10] INFO root fetch - processPackages [deepview-converter-rtm]: New version: [2.5.29] Old Version: [2.5.28]
+[2024-04-01 22:39:10] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/d5/91/f21a99120e95e68e60a2ef7aaa5d6256f90bc7b1bbfcc3c2d4ab7c923850/crm1-0.0.5.tar.gz
+[2024-04-01 22:39:10] INFO root fetch - processPackages [cdk-fck-nat]: Downloading https://files.pythonhosted.org/packages/bc/de/c04232d0fdb854c64bb05ecc5ecd8fdf54d09e2426ad8c1456bb93a93dfa/cdk-fck-nat-1.3.9.tar.gz
+[2024-04-01 22:39:10] INFO root fetch - processPackages [deepview-converter-rtm]: Downloading https://files.pythonhosted.org/packages/57/4a/c50971c7bb5c3eb0d231aa661a745e9e882a3848c783add29ddc67a70de5/deepview_converter_rtm-2.5.28-cp39-cp39-win_amd64.whl
+[2024-04-01 22:39:10] INFO root fetch - processPackages [crm1]: executing diffoscope
+[2024-04-01 22:39:10] INFO root fetch - processPackages [crm1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crm1-0.0.4.tar.gz tmp/crm1-0.0.5.tar.gz --markdown 20240401/c/crm1/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 22:39:10] INFO root fetch - processPackages [cdk-fck-nat]: executing diffoscope
+[2024-04-01 22:39:10] INFO root fetch - processPackages [cdk-fck-nat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-fck-nat-1.3.8.tar.gz tmp/cdk-fck-nat-1.3.9.tar.gz --markdown 20240401/c/cdk-fck-nat/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-01 22:39:10] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.4.tar.gz]
+[2024-04-01 22:39:10] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.5.tar.gz]
+[2024-04-01 22:39:10] INFO root fetch - main [MainThread]: End processing [crm1]: success
+[2024-04-01 22:39:10] INFO root fetch - processPackages [deepview-converter-rtm]: Downloading https://files.pythonhosted.org/packages/d3/e9/c33bf6ab07da1af248418ea882eb7c218a36853662984b972d446407f196/deepview_converter_rtm-2.5.29-cp39-cp39-win_amd64.whl
+[2024-04-01 22:39:11] INFO root fetch - processPackages [cdk-fck-nat]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fck-nat-1.3.8.tar.gz]
+[2024-04-01 22:39:11] INFO root fetch - processPackages [cdk-fck-nat]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fck-nat-1.3.9.tar.gz]
+[2024-04-01 22:39:11] INFO root fetch - main [MainThread]: End processing [cdk-fck-nat]: success
+[2024-04-01 22:39:12] INFO root fetch - processPackages [deepview-converter-rtm]: executing diffoscope
+[2024-04-01 22:39:12] INFO root fetch - processPackages [deepview-converter-rtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_converter_rtm-2.5.28-cp39-cp39-win_amd64.whl.zip tmp/deepview_converter_rtm-2.5.29-cp39-cp39-win_amd64.whl.zip --markdown 20240401/d/deepview-converter-rtm/2.5.28-2.5.29/diff.md --exclude *.pyd
+[2024-04-01 22:39:13] INFO root fetch - processPackages [deepview-converter-rtm]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter_rtm-2.5.28-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 22:39:13] INFO root fetch - processPackages [deepview-converter-rtm]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter_rtm-2.5.29-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 22:39:13] INFO root fetch - main [MainThread]: End processing [deepview-converter-rtm]: success
+[2024-04-01 22:39:13] INFO root fetch - main [MainThread]: Store serial: [22574967]
