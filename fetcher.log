@@ -4245,3 +4245,94 @@ EOFError: EOF read where object expected
 [2024-04-01 15:24:00] INFO root fetch - processPackages [ckanext-or-facet]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-or_facet-0.3.0.tar.gz]
 [2024-04-01 15:24:00] INFO root fetch - main [MainThread]: End processing [ckanext-or-facet]: success
 [2024-04-01 15:24:00] INFO root fetch - main [MainThread]: Store serial: [22569580]
+[2024-04-01 15:26:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569580]
+[2024-04-01 15:26:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 15:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 15:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-ftp
+[2024-04-01 15:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mplhep
+[2024-04-01 15:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guan
+[2024-04-01 15:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gps-building-blocks
+[2024-04-01 15:26:09] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:26:09] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [shipyard-ftp]: New version: [0.2.0a7] Old Version: [0.2.0a6]
+[2024-04-01 15:26:09] INFO root fetch - processPackages [mplhep]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 15:26:09] INFO root fetch - processPackages [gps-building-blocks]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-01 15:26:09] INFO root fetch - processPackages [guan]: New version: [0.1.93] Old Version: [0.1.92]
+[2024-04-01 15:26:09] INFO root fetch - processPackages [shipyard-ftp]: Downloading https://files.pythonhosted.org/packages/02/80/2dc40925bf9300e4f6328941031cebb3cab9e68a9f5679d48aa2b3374bbc/shipyard_ftp-0.2.0a6.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/3e/23/96f4d67432c03f398c31ba59fd42fddda4c686a75e62bbb632f2600d90f4/mplhep-0.3.8.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/71/de/29b8d5afef1de629736885761de3eeeed53a58c7f5dc93ea834fa2edae65/gps_building_blocks-1.98.0-py3-none-any.whl
+[2024-04-01 15:26:09] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/ab/1c/0aa6211ebc14a39199d95c10b49b69f7f32ad071f563d36bffd55adb03b8/guan-0.1.92.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:26:09] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:26:09] INFO root fetch - processPackages [shipyard-ftp]: Downloading https://files.pythonhosted.org/packages/36/f2/5dd7d39c03c2522a3f67c38100196d6e418eac34ee6d1608dd0d8ca6d22b/shipyard_ftp-0.2.0a7.tar.gz
+[2024-04-01 15:26:09] INFO root fetch - processPackages [mplhep]: Downloading https://files.pythonhosted.org/packages/79/7d/14def2d0871d2c96df5d1427dad4024d57c8ca1c5ed0e3e57724ae2f430c/mplhep-0.3.9.tar.gz
+[2024-04-01 15:26:10] INFO root fetch - processPackages [mplhep]: executing diffoscope
+[2024-04-01 15:26:10] INFO root fetch - processPackages [mplhep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplhep-0.3.8.tar.gz tmp/mplhep-0.3.9.tar.gz --markdown 20240401/m/mplhep/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 15:26:10] INFO root fetch - processPackages [gps-building-blocks]: Downloading https://files.pythonhosted.org/packages/79/b4/9d18eee49dfd6521e304862a4c835a7fe5cf477f45d83a4f98f885c76c29/gps_building_blocks-1.99.0-py3-none-any.whl
+[2024-04-01 15:26:10] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/d5/96/04cb635e4bc046faa40fa38b97d6e0ad54a11c2a11d04e8dcb8e0b9b6455/guan-0.1.93.tar.gz
+[2024-04-01 15:26:10] INFO root fetch - processPackages [shipyard-ftp]: executing diffoscope
+[2024-04-01 15:26:10] INFO root fetch - processPackages [shipyard-ftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_ftp-0.2.0a6.tar.gz tmp/shipyard_ftp-0.2.0a7.tar.gz --markdown 20240401/s/shipyard-ftp/0.2.0a6-0.2.0a7/diff.md --exclude *.pyd
+[2024-04-01 15:26:10] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-04-01 15:26:10] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.92.tar.gz tmp/guan-0.1.93.tar.gz --markdown 20240401/g/guan/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2024-04-01 15:26:10] INFO root fetch - processPackages [gps-building-blocks]: executing diffoscope
+[2024-04-01 15:26:10] INFO root fetch - processPackages [gps-building-blocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gps_building_blocks-1.98.0-py3-none-any.whl.zip tmp/gps_building_blocks-1.99.0-py3-none-any.whl.zip --markdown 20240401/g/gps-building-blocks/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-01 15:26:10] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:26:10] INFO root fetch - processPackages [shipyard-ftp]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_ftp-0.2.0a6.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - processPackages [shipyard-ftp]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_ftp-0.2.0a7.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - main [MainThread]: End processing [shipyard-ftp]: success
+[2024-04-01 15:26:10] INFO root fetch - processPackages [mplhep]: Remove: archive file [/home/abi/fetcher/tmp/mplhep-0.3.8.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - processPackages [mplhep]: Remove: archive file [/home/abi/fetcher/tmp/mplhep-0.3.9.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - main [MainThread]: End processing [mplhep]: success
+[2024-04-01 15:26:10] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.92.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.93.tar.gz]
+[2024-04-01 15:26:10] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-04-01 15:26:11] ERROR root fetch - processPackages [gps-building-blocks]: Diffoscope failed: time="2024-04-01T15:26:10+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-01 15:26:11] INFO root fetch - main [MainThread]: End processing [gps-building-blocks] error
+[2024-04-01 15:26:11] INFO root fetch - main [MainThread]: Store serial: [22569607]
