@@ -13026,3 +13026,33 @@ EOFError: EOF read where object expected
 [2024-04-01 21:03:10] INFO root fetch - processPackages [FAdo]: Remove: archive file [/home/abi/fetcher/tmp/fado-2.2.0.tar.gz]
 [2024-04-01 21:03:10] INFO root fetch - main [MainThread]: End processing [FAdo]: success
 [2024-04-01 21:03:10] INFO root fetch - main [MainThread]: Store serial: [22573825]
+[2024-04-01 21:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573825]
+[2024-04-01 21:05:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 21:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: marcuslion
+[2024-04-01 21:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-04-01 21:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strapp
+[2024-04-01 21:05:19] INFO root fetch - processPackages [strapp]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 21:05:19] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-01 21:05:19] INFO root fetch - processPackages [strapp]: Downloading https://files.pythonhosted.org/packages/7f/8e/84ec86a6b828697553be5d7029784a006b7216c62a4ddf4bcb8918a8a2b5/strapp-0.3.8.tar.gz
+[2024-04-01 21:05:19] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/43/18/11febb06edec6861f2fa0f2a2e8cde87d306a4cc955fae7a8fca89a9a520/MobileInventoryCLI-0.4.1.tar.gz
+[2024-04-01 21:05:19] INFO root fetch - processPackages [marcuslion]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 21:05:19] INFO root fetch - processPackages [strapp]: Downloading https://files.pythonhosted.org/packages/78/74/bb6e33708ae3860bfed931cdbcb51440a4a581fdfb97f6d1e270c9ae764a/strapp-0.3.9.tar.gz
+[2024-04-01 21:05:19] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/9e/1b/35d713162681f4b6a508ca2f0abe84f28934e251febf83a312e0978d0135/marcuslion-0.2.8.tar.gz
+[2024-04-01 21:05:19] INFO root fetch - processPackages [strapp]: executing diffoscope
+[2024-04-01 21:05:19] INFO root fetch - processPackages [strapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strapp-0.3.8.tar.gz tmp/strapp-0.3.9.tar.gz --markdown 20240401/s/strapp/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 21:05:19] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/5a/ff/15803fdb234e9c138024a823acdfa442ddfe42796d9d6ceef388b483750d/MobileInventoryCLI-0.4.2.tar.gz
+[2024-04-01 21:05:20] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 21:05:20] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.1.tar.gz tmp/MobileInventoryCLI-0.4.2.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-01 21:05:20] INFO root fetch - processPackages [marcuslion]: Downloading https://files.pythonhosted.org/packages/73/74/371dc6066e1b5614cacf5b247114099a910b32ff470c7e0515f1a376d74d/marcuslion-0.2.9.tar.gz
+[2024-04-01 21:05:20] INFO root fetch - processPackages [marcuslion]: executing diffoscope
+[2024-04-01 21:05:20] INFO root fetch - processPackages [marcuslion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marcuslion-0.2.8.tar.gz tmp/marcuslion-0.2.9.tar.gz --markdown 20240401/m/marcuslion/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 21:05:20] INFO root fetch - processPackages [strapp]: Remove: archive file [/home/abi/fetcher/tmp/strapp-0.3.8.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - processPackages [strapp]: Remove: archive file [/home/abi/fetcher/tmp/strapp-0.3.9.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - main [MainThread]: End processing [strapp]: success
+[2024-04-01 21:05:20] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.1.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.2.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 21:05:20] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.8.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - processPackages [marcuslion]: Remove: archive file [/home/abi/fetcher/tmp/marcuslion-0.2.9.tar.gz]
+[2024-04-01 21:05:20] INFO root fetch - main [MainThread]: End processing [marcuslion]: success
+[2024-04-01 21:05:20] INFO root fetch - main [MainThread]: Store serial: [22573835]
