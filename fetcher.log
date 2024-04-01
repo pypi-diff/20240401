@@ -4393,3 +4393,42 @@ EOFError: EOF read where object expected
 [2024-04-01 15:28:27] INFO root fetch - processPackages [sinergym]: Remove: archive file [/home/abi/fetcher/tmp/sinergym-3.2.7.tar.gz]
 [2024-04-01 15:28:27] INFO root fetch - main [MainThread]: End processing [sinergym]: success
 [2024-04-01 15:28:27] INFO root fetch - main [MainThread]: Store serial: [22569629]
+[2024-04-01 15:30:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569629]
+[2024-04-01 15:30:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phone-email-auth
+[2024-04-01 15:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: winzig
+[2024-04-01 15:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scalifiai-client
+[2024-04-01 15:30:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PoseButcher
+[2024-04-01 15:30:36] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:30:36] INFO root fetch - processPackages [phone-email-auth]: New version: [0.7] Old Version: [0.6]
+[2024-04-01 15:30:36] INFO root fetch - processPackages [PoseButcher]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 15:30:36] INFO root fetch - processPackages [winzig]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 15:30:36] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/87/16/b5a1a2710078c203b4c7db893122d48050d65ba939c0a83edd0a1d3f5372/phone_email_auth-0.6.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [PoseButcher]: Downloading https://files.pythonhosted.org/packages/bd/1c/18452a8608c9b0df8a5438cc91e7ac38e26c78d15910dea7f54e5cd2a3e7/posebutcher-0.0.8.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [winzig]: Downloading https://files.pythonhosted.org/packages/2d/21/05d455e86ed4bcbb1e45137b206b67780b34ac31913a73b7803f1bbdbe81/winzig-0.2.7.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/78/a0/aef9b006d16e172325489a50c1807ea8258090f4e5fca3699dbb5b916cd6/phone_email_auth-0.7.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:30:36] INFO root fetch - processPackages [phone-email-auth]: executing diffoscope
+[2024-04-01 15:30:36] INFO root fetch - processPackages [phone-email-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_email_auth-0.6.tar.gz tmp/phone_email_auth-0.7.tar.gz --markdown 20240401/p/phone-email-auth/0.6-0.7/diff.md --exclude *.pyd
+[2024-04-01 15:30:36] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:30:36] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: Downloading https://files.pythonhosted.org/packages/c0/03/3c3547e722639a9cdf576359e84aea30ebf032b6d2cd3a2378349a255f4f/winzig-0.2.8.tar.gz
+[2024-04-01 15:30:37] INFO root fetch - processPackages [PoseButcher]: Downloading https://files.pythonhosted.org/packages/64/24/b18776a0119b7c9790a77e962d324412da1e191510927e7e66e73743cb19/posebutcher-0.0.9.tar.gz
+[2024-04-01 15:30:37] INFO root fetch - processPackages [PoseButcher]: executing diffoscope
+[2024-04-01 15:30:37] INFO root fetch - processPackages [PoseButcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posebutcher-0.0.8.tar.gz tmp/posebutcher-0.0.9.tar.gz --markdown 20240401/P/PoseButcher/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: executing diffoscope
+[2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winzig-0.2.7.tar.gz tmp/winzig-0.2.8.tar.gz --markdown 20240401/w/winzig/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 15:30:37] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.6.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.7.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - main [MainThread]: End processing [phone-email-auth]: success
+[2024-04-01 15:30:37] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:30:37] INFO root fetch - processPackages [PoseButcher]: Remove: archive file [/home/abi/fetcher/tmp/posebutcher-0.0.8.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - processPackages [PoseButcher]: Remove: archive file [/home/abi/fetcher/tmp/posebutcher-0.0.9.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - main [MainThread]: End processing [PoseButcher]: success
+[2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: Remove: archive file [/home/abi/fetcher/tmp/winzig-0.2.7.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - processPackages [winzig]: Remove: archive file [/home/abi/fetcher/tmp/winzig-0.2.8.tar.gz]
+[2024-04-01 15:30:37] INFO root fetch - main [MainThread]: End processing [winzig]: success
+[2024-04-01 15:30:37] INFO root fetch - main [MainThread]: Store serial: [22569640]
