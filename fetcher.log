@@ -1580,3 +1580,53 @@ EOFError: EOF read where object expected
 [2024-04-01 12:50:06] INFO root fetch - processPackages [datasetlib]: Remove: archive file [/home/abi/fetcher/tmp/datasetlib-0.2.tar.gz]
 [2024-04-01 12:50:06] INFO root fetch - main [MainThread]: End processing [datasetlib]: success
 [2024-04-01 12:50:06] INFO root fetch - main [MainThread]: Store serial: [22568322]
+[2024-04-01 12:52:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568322]
+[2024-04-01 12:52:22] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-01 12:54:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568323]
+[2024-04-01 12:54:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-04-01 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kevin-toolbox
+[2024-04-01 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kevin-toolbox-dev
+[2024-04-01 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: KeyDnn
+[2024-04-01 12:54:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 2captcha-python
+[2024-04-01 12:54:27] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 12:54:27] INFO root fetch - processPackages [2captcha-python]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-01 12:54:27] INFO root fetch - processPackages [KeyDnn]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 12:54:27] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-01 12:54:28] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 12:54:28] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/d8/34/a67407e2aba7bf886dfc78f46cecafb6ee3f7fe91a0c6eb4c30ff6ff428a/2captcha-python-1.2.2.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/23/aa/84c6a5835535850c501e4636d88217a2672e2d6383ea674b684af8b81267/kevin-toolbox-1.3.2.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/9b/4c/661ea0a78d1282af26cbee545a48c35626384627c77b1403f720023d3f41/kevin-toolbox-dev-1.3.2.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [KeyDnn]: Downloading https://files.pythonhosted.org/packages/6e/c9/4a8f5b308a6b5f623e888d1db638fec97e14afbc9755d37a5fbdd3bd4385/KeyDnn-0.8.0.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 12:54:28] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 12:54:28] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 12:54:28] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/b2/2b/7858cb17259cb6f9dd052ff75909adc5f019f9269d7385a648ec20dcb668/2captcha-python-1.2.3.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/d3/8a/d254630d784f23e0cc8ef19a7ce60f09bea6da1d456ef31c0d7396c64dbe/kevin-toolbox-dev-1.3.3.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/79/23/dfdbb9f493f68d5e03eee93b0aea271868dfc44b452df6e571680ba0fa66/kevin-toolbox-1.3.3.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [2captcha-python]: executing diffoscope
+[2024-04-01 12:54:28] INFO root fetch - processPackages [2captcha-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/2captcha-python-1.2.2.tar.gz tmp/2captcha-python-1.2.3.tar.gz --markdown 20240401/2/2captcha-python/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-01 12:54:28] INFO root fetch - processPackages [KeyDnn]: Downloading https://files.pythonhosted.org/packages/71/8e/4996739ae2d9bdd753f647691acae41ba3ac13a70182221444a89a351ecc/KeyDnn-0.9.0.tar.gz
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.3.2.tar.gz tmp/kevin-toolbox-1.3.3.tar.gz --markdown 20240401/k/kevin-toolbox/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2024-04-01 12:54:28] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.3.2.tar.gz tmp/kevin-toolbox-dev-1.3.3.tar.gz --markdown 20240401/k/kevin-toolbox-dev/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-01 12:54:29] INFO root fetch - processPackages [KeyDnn]: executing diffoscope
+[2024-04-01 12:54:29] INFO root fetch - processPackages [KeyDnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KeyDnn-0.8.0.tar.gz tmp/KeyDnn-0.9.0.tar.gz --markdown 20240401/K/KeyDnn/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 12:54:29] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha-python-1.2.2.tar.gz]
+[2024-04-01 12:54:29] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha-python-1.2.3.tar.gz]
+[2024-04-01 12:54:29] INFO root fetch - main [MainThread]: End processing [2captcha-python]: success
+[2024-04-01 12:54:29] INFO root fetch - processPackages [KeyDnn]: Remove: archive file [/home/abi/fetcher/tmp/KeyDnn-0.8.0.tar.gz]
+[2024-04-01 12:54:29] INFO root fetch - processPackages [KeyDnn]: Remove: archive file [/home/abi/fetcher/tmp/KeyDnn-0.9.0.tar.gz]
+[2024-04-01 12:54:29] INFO root fetch - main [MainThread]: End processing [KeyDnn]: success
+[2024-04-01 12:54:29] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 12:54:29] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 12:54:29] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 12:54:29] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.3.2.tar.gz]
+[2024-04-01 12:54:29] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.3.3.tar.gz]
+[2024-04-01 12:54:30] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2024-04-01 12:54:30] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.3.2.tar.gz]
+[2024-04-01 12:54:30] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.3.3.tar.gz]
+[2024-04-01 12:54:30] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2024-04-01 12:54:30] INFO root fetch - main [MainThread]: Store serial: [22568337]
