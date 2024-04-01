@@ -13238,3 +13238,42 @@ EOFError: EOF read where object expected
 [2024-04-01 21:11:55] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-1.2.1.tar.gz]
 [2024-04-01 21:11:55] INFO root fetch - main [MainThread]: End processing [epdx]: success
 [2024-04-01 21:11:55] INFO root fetch - main [MainThread]: Store serial: [22573901]
+[2024-04-01 21:13:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573901]
+[2024-04-01 21:14:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 21:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Energy4TreeClassification
+[2024-04-01 21:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makdo
+[2024-04-01 21:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smaht-submitr
+[2024-04-01 21:14:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: uv
+[2024-04-01 21:14:04] INFO root fetch - processPackages [makdo]: New version: [7.1] Old Version: [7.0]
+[2024-04-01 21:14:04] INFO root fetch - processPackages [Energy4TreeClassification]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 21:14:04] INFO root fetch - processPackages [smaht-submitr]: New version: [0.7.0.1b9] Old Version: [0.7.0.1b7]
+[2024-04-01 21:14:04] INFO root fetch - processPackages [Energy4TreeClassification]: Downloading https://files.pythonhosted.org/packages/ea/fb/6c6fd382daea8bdc3752e73b31f4e58663aab6a5c08d16d1f3bbd75fbd2e/Energy4treeClassification-0.1.0.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/94/9b/5cf40794f8d67804d86086f236c8f7f3cc5ac22069bf3cdd97c819a9d84e/makdo-7.0.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/8c/4f/cd1b0aae9f630fbc43f3e5c3421bee3d4de9ca44ec2bdd4c6efc35e51030/smaht_submitr-0.7.0.1b7.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [uv]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 21:14:04] INFO root fetch - processPackages [Energy4TreeClassification]: Downloading https://files.pythonhosted.org/packages/8e/69/803f6969ed05fb3b3cf97570ffeabdd78b8b654fe73024c2a0d671589a85/Energy4TreeClassification-0.1.1-py3-none-any.whl
+[2024-04-01 21:14:04] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/a0/e6/3098c0e5986919287a41a4a1134b67f94b93da18b3c007875932e6844d8e/uv-0.1.8.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/ff/84/cead0681f1d3b22d8c2cc55c431321aa00039b758129671d6e752101a732/smaht_submitr-0.7.0.1b9.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [Energy4TreeClassification]: executing diffoscope
+[2024-04-01 21:14:04] INFO root fetch - processPackages [Energy4TreeClassification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Energy4treeClassification-0.1.0.tar.gz tmp/Energy4TreeClassification-0.1.1-py3-none-any.whl.zip --markdown 20240401/E/Energy4TreeClassification/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 21:14:04] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/98/72/2ce25b7d489a90c108d8b2ddc4f96b19ae792d2b93dec444f89c187ebb5f/makdo-7.1.tar.gz
+[2024-04-01 21:14:04] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-01 21:14:04] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.1b7.tar.gz tmp/smaht_submitr-0.7.0.1b9.tar.gz --markdown 20240401/s/smaht-submitr/0.7.0.1b7-0.7.0.1b9/diff.md --exclude *.pyd
+[2024-04-01 21:14:05] INFO root fetch - processPackages [makdo]: executing diffoscope
+[2024-04-01 21:14:05] INFO root fetch - processPackages [makdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makdo-7.0.tar.gz tmp/makdo-7.1.tar.gz --markdown 20240401/m/makdo/7.0-7.1/diff.md --exclude *.pyd
+[2024-04-01 21:14:05] INFO root fetch - processPackages [Energy4TreeClassification]: Remove: archive file [/home/abi/fetcher/tmp/Energy4treeClassification-0.1.0.tar.gz]
+[2024-04-01 21:14:05] INFO root fetch - processPackages [Energy4TreeClassification]: Remove: archive file [/home/abi/fetcher/tmp/Energy4TreeClassification-0.1.1-py3-none-any.whl.zip]
+[2024-04-01 21:14:05] INFO root fetch - main [MainThread]: End processing [Energy4TreeClassification]: success
+[2024-04-01 21:14:05] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b7.tar.gz]
+[2024-04-01 21:14:05] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
+[2024-04-01 21:14:05] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-01 21:14:05] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.0.tar.gz]
+[2024-04-01 21:14:05] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.1.tar.gz]
+[2024-04-01 21:14:05] INFO root fetch - main [MainThread]: End processing [makdo]: success
+[2024-04-01 21:14:06] INFO root fetch - processPackages [uv]: Downloading https://files.pythonhosted.org/packages/d2/e8/e726e0b0cf2dac9c89f3871c8c19bd673273f3cf9711d91e4902ee67a0d0/uv-0.1.9.tar.gz
+[2024-04-01 21:14:08] INFO root fetch - processPackages [uv]: executing diffoscope
+[2024-04-01 21:14:08] INFO root fetch - processPackages [uv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uv-0.1.8.tar.gz tmp/uv-0.1.9.tar.gz --markdown 20240401/u/uv/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 21:14:10] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.8.tar.gz]
+[2024-04-01 21:14:10] INFO root fetch - processPackages [uv]: Remove: archive file [/home/abi/fetcher/tmp/uv-0.1.9.tar.gz]
+[2024-04-01 21:14:10] INFO root fetch - main [MainThread]: End processing [uv]: success
+[2024-04-01 21:14:10] INFO root fetch - main [MainThread]: Store serial: [22573918]
