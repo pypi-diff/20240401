@@ -14415,3 +14415,10 @@ EOFError: EOF read where object expected
 [2024-04-01 22:01:50] INFO root fetch - processPackages [teams-ai]: Remove: archive file [/home/abi/fetcher/tmp/teams_ai-1.0.1.tar.gz]
 [2024-04-01 22:01:50] INFO root fetch - main [MainThread]: End processing [teams-ai]: success
 [2024-04-01 22:01:50] INFO root fetch - main [MainThread]: Store serial: [22574417]
+[2024-04-01 22:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574417]
+[2024-04-01 22:03:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 22:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GenCasting
+[2024-04-01 22:03:59] INFO root fetch - processPackages [GenCasting]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 22:03:59] ERROR root fetch - processPackages [GenCasting]: Unable to fetch info: No such project/version 'GenCasting' 0.0.1
+[2024-04-01 22:03:59] INFO root fetch - main [MainThread]: End processing [GenCasting] error
+[2024-04-01 22:03:59] INFO root fetch - main [MainThread]: Store serial: [22574420]
