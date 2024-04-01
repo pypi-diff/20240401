@@ -2704,3 +2704,45 @@ EOFError: EOF read where object expected
 [2024-04-01 13:56:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401115342.tar.gz]
 [2024-04-01 13:56:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-01 13:56:35] INFO root fetch - main [MainThread]: Store serial: [22568855]
+[2024-04-01 13:58:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568855]
+[2024-04-01 13:59:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 13:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-04-01 13:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alita-tools
+[2024-04-01 13:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itcpr
+[2024-04-01 13:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sbcli-mig
+[2024-04-01 13:59:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alita-sdk
+[2024-04-01 13:59:02] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:59:02] INFO root fetch - processPackages [sbcli-mig]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 13:59:02] INFO root fetch - processPackages [itcpr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 13:59:02] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:59:02] INFO root fetch - processPackages [alita-sdk]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-01 13:59:02] WARNING root fetch - processPackages [alita-tools]: Skipping, unable to determine old version
+[2024-04-01 13:59:02] INFO root fetch - main [MainThread]: End processing [alita-tools] error
+[2024-04-01 13:59:02] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/06/2f/2b2f1cfa7b91365cf5cd645c5967a8e8a8bd7f1c8e89f91d7e43e2aefc87/sbcli-mig-1.0.8.zip
+[2024-04-01 13:59:02] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/6c/30/11eb81111b0398ccc45c445b35952fb676c5bc5cdc5e5146956865db2c0e/itcpr-1.0.8.tar.gz
+[2024-04-01 13:59:02] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/d2/ee/68e47d6d2e03c92579dba27f9c042eb96b3c75776fe27f1b3f23f42e3dde/alita_sdk-0.0.6.tar.gz
+[2024-04-01 13:59:02] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:59:03] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:59:03] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:59:03] INFO root fetch - processPackages [sbcli-mig]: Downloading https://files.pythonhosted.org/packages/4b/15/9c1afe915f08547ce582aeae079f597b2a173df003109bcd1d0f0bbf037e/sbcli-mig-1.0.9.zip
+[2024-04-01 13:59:03] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/f9/40/a7cc942973f9e514f2ab71117552a8131487c9b1711fa47b5bcc6c6e3891/itcpr-1.0.9.tar.gz
+[2024-04-01 13:59:03] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/3c/eb/f179bef73b5e231fcd4612214199cf62b22205ce941a25676660b44bd5af/alita_sdk-0.0.9.tar.gz
+[2024-04-01 13:59:03] INFO root fetch - processPackages [itcpr]: executing diffoscope
+[2024-04-01 13:59:03] INFO root fetch - processPackages [itcpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itcpr-1.0.8.tar.gz tmp/itcpr-1.0.9.tar.gz --markdown 20240401/i/itcpr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:59:03] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-04-01 13:59:03] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.0.6.tar.gz tmp/alita_sdk-0.0.9.tar.gz --markdown 20240401/a/alita-sdk/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:59:03] INFO root fetch - processPackages [sbcli-mig]: executing diffoscope
+[2024-04-01 13:59:03] INFO root fetch - processPackages [sbcli-mig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-mig-1.0.8.zip tmp/sbcli-mig-1.0.9.zip --markdown 20240401/s/sbcli-mig/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:59:04] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.8.tar.gz]
+[2024-04-01 13:59:04] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.9.tar.gz]
+[2024-04-01 13:59:04] INFO root fetch - main [MainThread]: End processing [itcpr]: success
+[2024-04-01 13:59:04] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.0.6.tar.gz]
+[2024-04-01 13:59:04] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.0.9.tar.gz]
+[2024-04-01 13:59:04] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-04-01 13:59:04] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:59:04] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:59:04] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:59:04] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.8.zip]
+[2024-04-01 13:59:04] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
+[2024-04-01 13:59:04] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
+[2024-04-01 13:59:04] INFO root fetch - main [MainThread]: Store serial: [22568869]
