@@ -5299,3 +5299,56 @@ EOFError: EOF read where object expected
 [2024-04-01 16:08:19] INFO root fetch - processPackages [clear-skies]: Remove: archive file [/home/abi/fetcher/tmp/clear-skies-1.9.0.tar.gz]
 [2024-04-01 16:08:19] INFO root fetch - main [MainThread]: End processing [clear-skies]: success
 [2024-04-01 16:08:19] INFO root fetch - main [MainThread]: Store serial: [22570053]
+[2024-04-01 16:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570053]
+[2024-04-01 16:10:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fbgemm-gpu-nightly
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-core
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Eratosthenes
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: approxscimate
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meshtastic2hass
+[2024-04-01 16:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysma-plus
+[2024-04-01 16:10:27] INFO root fetch - processPackages [approxscimate]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 16:10:27] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/91/0d/94e55a8efcd75ab2d10242c10dacce3e6034f291e190d38790c71f1bbbd9/approxscimate-0.0.2.tar.gz
+[2024-04-01 16:10:27] INFO root fetch - processPackages [pysma-plus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 16:10:27] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2024.4.1] Old Version: [2024.3.31]
+[2024-04-01 16:10:27] INFO root fetch - processPackages [openbb-core]: New version: [1.2.0] Old Version: [1.1.5]
+[2024-04-01 16:10:27] INFO root fetch - processPackages [meshtastic2hass]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-01 16:10:27] INFO root fetch - processPackages [Eratosthenes]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-01 16:10:28] INFO root fetch - processPackages [openbb-core]: Downloading https://files.pythonhosted.org/packages/7e/8d/f8305c66013551a56a12697fcfd9bd74abdc3b046acddaee4ad83c86c0d5/openbb_core-1.1.5.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/43/1a/6423fc7737e9546a551c7a2eab2fad0b09cb38de64e39d0f8ef02a956e97/pysma-plus-0.1.0.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/44/6f/67c8ce21b4f7f8ad4d3534eaf4056c514bba12704f4f4fcaae243f1f0962/fbgemm_gpu_nightly-2024.3.31-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-01 16:10:28] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/46/33/96f2b77d80333146c3feaf54a37b7d6ee34d4e4996f8c4b1d9a5df7fccf6/Eratosthenes-3.0.6.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/06/a4/10cfade05f74c322ae937796f5ff6db2f5456e29670d47be96d5e2f03860/meshtastic2hass-1.0.5.tar.gz
+[2024-04-01 16:10:28] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 196354649>=10485760
+[2024-04-01 16:10:28] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2024-04-01 16:10:28] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/45/ab/cf19fe8eab92abe916dd9a16aeff00f43054a80d12339bb40390e7c7b7f9/approxscimate-0.0.3.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [approxscimate]: executing diffoscope
+[2024-04-01 16:10:28] INFO root fetch - processPackages [approxscimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approxscimate-0.0.2.tar.gz tmp/approxscimate-0.0.3.tar.gz --markdown 20240401/a/approxscimate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:10:28] INFO root fetch - processPackages [openbb-core]: Downloading https://files.pythonhosted.org/packages/4c/07/c211ba34d929499aabe1ae157db263a29a5b5c430da2246b04f40c4f0fdd/openbb_core-1.2.0.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/b9/95/35e50c9d152534419e9be4ba430babc54bf32a7552f1b16dc247d059bea2/pysma-plus-0.1.1.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/c6/41/20e757d0c3046bedb547b3221c6942d6e366d43dd4827329c91b191422da/Eratosthenes-3.0.7.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [meshtastic2hass]: Downloading https://files.pythonhosted.org/packages/7e/f3/dad38ea2ceb5ea87c82cf293c0f04d4664da610d44bc6e78df0d604773be/meshtastic2hass-1.0.6.tar.gz
+[2024-04-01 16:10:28] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-04-01 16:10:28] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma-plus-0.1.0.tar.gz tmp/pysma-plus-0.1.1.tar.gz --markdown 20240401/p/pysma-plus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 16:10:28] INFO root fetch - processPackages [Eratosthenes]: executing diffoscope
+[2024-04-01 16:10:28] INFO root fetch - processPackages [Eratosthenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eratosthenes-3.0.6.tar.gz tmp/Eratosthenes-3.0.7.tar.gz --markdown 20240401/E/Eratosthenes/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2024-04-01 16:10:28] INFO root fetch - processPackages [meshtastic2hass]: executing diffoscope
+[2024-04-01 16:10:28] INFO root fetch - processPackages [meshtastic2hass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshtastic2hass-1.0.5.tar.gz tmp/meshtastic2hass-1.0.6.tar.gz --markdown 20240401/m/meshtastic2hass/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-01 16:10:28] INFO root fetch - processPackages [openbb-core]: executing diffoscope
+[2024-04-01 16:10:28] INFO root fetch - processPackages [openbb-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_core-1.1.5.tar.gz tmp/openbb_core-1.2.0.tar.gz --markdown 20240401/o/openbb-core/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 16:10:29] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.2.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.3.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - main [MainThread]: End processing [approxscimate]: success
+[2024-04-01 16:10:29] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.6.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.7.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - main [MainThread]: End processing [Eratosthenes]: success
+[2024-04-01 16:10:29] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma-plus-0.1.0.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma-plus-0.1.1.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-04-01 16:10:29] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.5.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - processPackages [meshtastic2hass]: Remove: archive file [/home/abi/fetcher/tmp/meshtastic2hass-1.0.6.tar.gz]
+[2024-04-01 16:10:29] INFO root fetch - main [MainThread]: End processing [meshtastic2hass]: success
+[2024-04-01 16:10:30] INFO root fetch - processPackages [openbb-core]: Remove: archive file [/home/abi/fetcher/tmp/openbb_core-1.1.5.tar.gz]
+[2024-04-01 16:10:30] INFO root fetch - processPackages [openbb-core]: Remove: archive file [/home/abi/fetcher/tmp/openbb_core-1.2.0.tar.gz]
+[2024-04-01 16:10:30] INFO root fetch - main [MainThread]: End processing [openbb-core]: success
+[2024-04-01 16:10:30] INFO root fetch - main [MainThread]: Store serial: [22570074]
