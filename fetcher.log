@@ -5375,3 +5375,112 @@ EOFError: EOF read where object expected
 [2024-04-01 16:12:41] INFO root fetch - processPackages [SQLAlchemy-serializer]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemy-serializer-1.4.8.tar.gz]
 [2024-04-01 16:12:41] INFO root fetch - main [MainThread]: End processing [SQLAlchemy-serializer]: success
 [2024-04-01 16:12:41] INFO root fetch - main [MainThread]: Store serial: [22570133]
+[2024-04-01 16:14:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570133]
+[2024-04-01 16:14:49] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-quantitative
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bepatient
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-crypto
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-economy
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stigg-api-client
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: parseid
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openbb-derivatives
+[2024-04-01 16:14:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: composio-core
+[2024-04-01 16:14:50] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [bepatient]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-crypto]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-economy]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-quantitative]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-derivatives]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [parseid]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [composio-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:14:50] INFO root fetch - processPackages [bepatient]: Downloading https://files.pythonhosted.org/packages/4d/31/c1f973e9e0593c1c52f4b3030b54f405d5a05335cf09dbb97f6cf81ff2d0/bepatient-0.8.1.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-crypto]: Downloading https://files.pythonhosted.org/packages/aa/a6/332ddd48a9d2f228a9bd680f7721ab811f5d729adf023d4ca62e7ff19c02/openbb_crypto-1.1.3.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-quantitative]: Downloading https://files.pythonhosted.org/packages/b8/a9/a16470c2389ec332b934fc7bce93e8fd7d297d1f4a62b20b088d403538c0/openbb_quantitative-1.1.3.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-derivatives]: Downloading https://files.pythonhosted.org/packages/34/2f/68e5141f13286a45add239b716271f53c6f79d495b6e5bb9b7de59d7113d/openbb_derivatives-1.1.3.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-economy]: Downloading https://files.pythonhosted.org/packages/f3/d1/99b5d0258ca418a537b7928b8ef09d5d5b279c1af5311f379d310bdbb9c5/openbb_economy-1.1.3.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/f3/4a/f5a4f6de185a86dd9c00a099815d6909cf613b5f63b90a35ec03b08d0c4c/parseid-0.1.1.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/3a/70/a6c99eda58f0c331b3b3e4c221b41ec627de2dcd84e06b92892759abd983/composio_core-0.1.8.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-01 16:14:50] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240401/s/stigg-api-client/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-01 16:14:50] INFO root fetch - processPackages [bepatient]: Downloading https://files.pythonhosted.org/packages/b4/ad/8bbfb639897d8367c85e72a70adbeffa8304f0e02ff1c3fa7bd716325264/bepatient-0.9.0.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-quantitative]: Downloading https://files.pythonhosted.org/packages/c8/01/d18b6523bd47f7e5e9e75300cdb25875f4eaedb5f3ea3c1f1487792b63f4/openbb_quantitative-1.1.4-py3-none-any.whl
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-crypto]: Downloading https://files.pythonhosted.org/packages/24/c3/8d7134fc8ef4f7048e4ebada9b43c9e40e552c98ddba7ed5c8a16897c400/openbb_crypto-1.1.4-py3-none-any.whl
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-economy]: Downloading https://files.pythonhosted.org/packages/e2/c1/7fbd6ca881a4fe81e5157c14f2a62e215a942a59b3205447206de03d4703/openbb_economy-1.1.4-py3-none-any.whl
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-quantitative]: executing diffoscope
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-quantitative]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_quantitative-1.1.3.tar.gz tmp/openbb_quantitative-1.1.4-py3-none-any.whl.zip --markdown 20240401/o/openbb-quantitative/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-derivatives]: Downloading https://files.pythonhosted.org/packages/65/1f/da68764ad8cd7a8624e8e3cada27c42f5ba43fd9a83b07fb349597dce8c4/openbb_derivatives-1.1.4-py3-none-any.whl
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-crypto]: executing diffoscope
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_crypto-1.1.3.tar.gz tmp/openbb_crypto-1.1.4-py3-none-any.whl.zip --markdown 20240401/o/openbb-crypto/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:14:50] INFO root fetch - processPackages [bepatient]: executing diffoscope
+[2024-04-01 16:14:50] INFO root fetch - processPackages [bepatient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bepatient-0.8.1.tar.gz tmp/bepatient-0.9.0.tar.gz --markdown 20240401/b/bepatient/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:14:50] INFO root fetch - processPackages [composio-core]: Downloading https://files.pythonhosted.org/packages/7c/1d/e62d63f7d6f62b32c8f24e3ce8cc32c7590c985d57d8b64024f33e2d58f0/composio_core-0.1.9.tar.gz
+[2024-04-01 16:14:50] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/9a/95/e7bd0d95dcc8162f15902e0d5a16f95ffeaf121f1ec63a59c4c63b2bcfcf/parseid-0.1.2-py3-none-any.whl
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-economy]: executing diffoscope
+[2024-04-01 16:14:50] INFO root fetch - processPackages [openbb-economy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_economy-1.1.3.tar.gz tmp/openbb_economy-1.1.4-py3-none-any.whl.zip --markdown 20240401/o/openbb-economy/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:14:51] INFO root fetch - processPackages [composio-core]: executing diffoscope
+[2024-04-01 16:14:51] INFO root fetch - processPackages [composio-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composio_core-0.1.8.tar.gz tmp/composio_core-0.1.9.tar.gz --markdown 20240401/c/composio-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-derivatives]: executing diffoscope
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-derivatives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_derivatives-1.1.3.tar.gz tmp/openbb_derivatives-1.1.4-py3-none-any.whl.zip --markdown 20240401/o/openbb-derivatives/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:14:51] INFO root fetch - processPackages [parseid]: executing diffoscope
+[2024-04-01 16:14:51] INFO root fetch - processPackages [parseid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseid-0.1.1.tar.gz tmp/parseid-0.1.2-py3-none-any.whl.zip --markdown 20240401/p/parseid/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-quantitative]: Remove: archive file [/home/abi/fetcher/tmp/openbb_quantitative-1.1.3.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-quantitative]: Remove: archive file [/home/abi/fetcher/tmp/openbb_quantitative-1.1.4-py3-none-any.whl.zip]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-quantitative]: Start processing: buckaroo
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [openbb-quantitative]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-crypto]: Remove: archive file [/home/abi/fetcher/tmp/openbb_crypto-1.1.3.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-crypto]: Remove: archive file [/home/abi/fetcher/tmp/openbb_crypto-1.1.4-py3-none-any.whl.zip]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-crypto]: Start processing: robocorp-windows
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [openbb-crypto]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [bepatient]: Remove: archive file [/home/abi/fetcher/tmp/bepatient-0.8.1.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [bepatient]: Remove: archive file [/home/abi/fetcher/tmp/bepatient-0.9.0.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [bepatient]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [robocorp-windows]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [buckaroo]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.1.8.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [composio-core]: Remove: archive file [/home/abi/fetcher/tmp/composio_core-0.1.9.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [composio-core]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-economy]: Remove: archive file [/home/abi/fetcher/tmp/openbb_economy-1.1.3.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-economy]: Remove: archive file [/home/abi/fetcher/tmp/openbb_economy-1.1.4-py3-none-any.whl.zip]
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [openbb-economy]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-derivatives]: Remove: archive file [/home/abi/fetcher/tmp/openbb_derivatives-1.1.3.tar.gz]
+[2024-04-01 16:14:51] INFO root fetch - processPackages [openbb-derivatives]: Remove: archive file [/home/abi/fetcher/tmp/openbb_derivatives-1.1.4-py3-none-any.whl.zip]
+[2024-04-01 16:14:51] INFO root fetch - main [MainThread]: End processing [openbb-derivatives]: success
+[2024-04-01 16:14:51] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/1a/2e/780ab48415f1a07ac0273906a94e6d608d445ebcffd34d2c012c9be72239/buckaroo-0.6.8.tar.gz
+[2024-04-01 16:14:51] INFO root fetch - processPackages [robocorp-windows]: Downloading https://files.pythonhosted.org/packages/1d/d4/f0a368af5e3a979562ee9845bbc1e4cd976a729bf95a0c85e6bc1eed96a4/robocorp_windows-1.0.1.tar.gz
+[2024-04-01 16:14:52] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.1.tar.gz]
+[2024-04-01 16:14:52] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 16:14:52] INFO root fetch - main [MainThread]: End processing [parseid]: success
+[2024-04-01 16:14:52] INFO root fetch - processPackages [robocorp-windows]: Downloading https://files.pythonhosted.org/packages/f0/28/b701e33b3708dfffe3da27b5d9cd5f043f3f2ac091ff4bdd95038de612c9/robocorp_windows-1.0.2.tar.gz
+[2024-04-01 16:14:52] INFO root fetch - processPackages [buckaroo]: Downloading https://files.pythonhosted.org/packages/0d/14/33a66b6de9825590382a19ad8f7a0299396fdbb2a598d7046612b4e82c91/buckaroo-0.6.9.tar.gz
+[2024-04-01 16:14:52] INFO root fetch - processPackages [buckaroo]: executing diffoscope
+[2024-04-01 16:14:52] INFO root fetch - processPackages [buckaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buckaroo-0.6.8.tar.gz tmp/buckaroo-0.6.9.tar.gz --markdown 20240401/b/buckaroo/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-01 16:14:52] INFO root fetch - processPackages [robocorp-windows]: executing diffoscope
+[2024-04-01 16:14:52] INFO root fetch - processPackages [robocorp-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_windows-1.0.1.tar.gz tmp/robocorp_windows-1.0.2.tar.gz --markdown 20240401/r/robocorp-windows/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-01 16:14:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 16:14:52] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-01 16:14:53] INFO root fetch - processPackages [robocorp-windows]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_windows-1.0.1.tar.gz]
+[2024-04-01 16:14:53] INFO root fetch - processPackages [robocorp-windows]: Remove: archive file [/home/abi/fetcher/tmp/robocorp_windows-1.0.2.tar.gz]
+[2024-04-01 16:14:53] INFO root fetch - main [MainThread]: End processing [robocorp-windows]: success
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 16:14:53] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 16:14:54] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-01 16:14:54] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-01 16:14:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 16:14:54] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 16:15:12] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.6.8.tar.gz]
+[2024-04-01 16:15:12] INFO root fetch - processPackages [buckaroo]: Remove: archive file [/home/abi/fetcher/tmp/buckaroo-0.6.9.tar.gz]
+[2024-04-01 16:15:12] INFO root fetch - main [MainThread]: End processing [buckaroo]: success
+[2024-04-01 16:15:12] INFO root fetch - main [MainThread]: Store serial: [22570158]
