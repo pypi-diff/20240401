@@ -4726,3 +4726,69 @@ EOFError: EOF read where object expected
 [2024-04-01 15:43:51] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-04-01 15:43:51] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-04-01 15:43:51] INFO root fetch - main [MainThread]: Store serial: [22569772]
+[2024-04-01 15:45:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569772]
+[2024-04-01 15:45:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uwsgitop
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-all-star
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdrpa.tdcore
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-torillic
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tidal-dl-ng
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cloudquery-plugin-sdk
+[2024-04-01 15:45:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: approxscimate
+[2024-04-01 15:45:59] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 15:45:59] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-04-01 15:45:59] INFO root fetch - processPackages [mkdocs-torillic]: New version: [2.2.0] Old Version: [2.0.3]
+[2024-04-01 15:45:59] INFO root fetch - processPackages [gpt-all-star]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-01 15:45:59] INFO root fetch - processPackages [tdrpa.tdcore]: New version: [1.1.27] Old Version: [1.1.26]
+[2024-04-01 15:45:59] INFO root fetch - processPackages [uwsgitop]: New version: [0.9] Old Version: [0.8]
+[2024-04-01 15:45:59] INFO root fetch - processPackages [approxscimate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tidal-dl-ng]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 15:46:00] INFO root fetch - processPackages [mkdocs-torillic]: Downloading https://files.pythonhosted.org/packages/2b/b6/8fe43923dff5c8bf2948d3d9c2e02cf675ba5d8fea45056c1c3f91680c9b/mkdocs-torillic-2.0.3.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [uwsgitop]: Downloading https://files.pythonhosted.org/packages/04/38/7db46d6ae3de6878317b0e92966d660a9ef8efe67ee8587b89063adf2111/uwsgitop-0.8.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tdrpa.tdcore]: Downloading https://files.pythonhosted.org/packages/9b/85/54fca90fde1a4988011f293d2629183c99f4def90b87e697cb23b76d9d20/tdrpa.tdcore-1.1.26-py39-none-win_amd64.whl
+[2024-04-01 15:46:00] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/95/00/47f2780dce549d1ce8aad7cb17a7c758209c4539c6f75dcdbe0e9322ce0e/gpt_all_star-0.0.7.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/9e/70/b555bff42679e2c523b9b185a4afc3ab84f257151c70ee2f4a4a2c8a2981/tidal_dl_ng-0.9.0.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/ad/a0/850d87d31b2d5944a2af7bd1103758b8b1be3cfacb866ffeb196769fa861/approxscimate-0.0.1.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240401/c/cloudquery-plugin-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 15:46:00] INFO root fetch - processPackages [mkdocs-torillic]: Downloading https://files.pythonhosted.org/packages/54/8d/91c3a1b78b262478ca36dd4700a0629300ba2b4e8ebd39bb5b64413645d7/mkdocs-torillic-2.2.0.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [uwsgitop]: Downloading https://files.pythonhosted.org/packages/82/2c/42eb50eb877f9cc3c315965ee142f47feeffc3655f9f6a3935f3f71570da/uwsgitop-0.9.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/91/0d/94e55a8efcd75ab2d10242c10dacce3e6034f291e190d38790c71f1bbbd9/approxscimate-0.0.2.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [gpt-all-star]: Downloading https://files.pythonhosted.org/packages/96/40/c6f6b9dc146ffbf8c97d68b1ad200a51bb0f5a239c5e4d11725f1fff5f45/gpt_all_star-0.0.9.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tidal-dl-ng]: Downloading https://files.pythonhosted.org/packages/5b/ba/0352f5184c84ccc8beb455f316863bb1cd67a1a23de799df04e98159f6dd/tidal_dl_ng-0.9.1.tar.gz
+[2024-04-01 15:46:00] INFO root fetch - processPackages [uwsgitop]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [uwsgitop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uwsgitop-0.8.tar.gz tmp/uwsgitop-0.9.tar.gz --markdown 20240401/u/uwsgitop/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tdrpa.tdcore]: Downloading https://files.pythonhosted.org/packages/f9/77/4a6d9aecffb1440089146245f5e64fd47283f40b4f3105b986ae6cddeacd/tdrpa.tdcore-1.1.27-py39-none-win_amd64.whl
+[2024-04-01 15:46:00] INFO root fetch - processPackages [approxscimate]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [approxscimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approxscimate-0.0.1.tar.gz tmp/approxscimate-0.0.2.tar.gz --markdown 20240401/a/approxscimate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 15:46:00] INFO root fetch - processPackages [gpt-all-star]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [gpt-all-star]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_all_star-0.0.7.tar.gz tmp/gpt_all_star-0.0.9.tar.gz --markdown 20240401/g/gpt-all-star/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tidal-dl-ng]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [tidal-dl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidal_dl_ng-0.9.0.tar.gz tmp/tidal_dl_ng-0.9.1.tar.gz --markdown 20240401/t/tidal-dl-ng/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 15:46:00] INFO root fetch - processPackages [mkdocs-torillic]: executing diffoscope
+[2024-04-01 15:46:00] INFO root fetch - processPackages [mkdocs-torillic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-torillic-2.0.3.tar.gz tmp/mkdocs-torillic-2.2.0.tar.gz --markdown 20240401/m/mkdocs-torillic/2.0.3-2.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:46:01] INFO root fetch - processPackages [tdrpa.tdcore]: executing diffoscope
+[2024-04-01 15:46:01] INFO root fetch - processPackages [tdrpa.tdcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdcore-1.1.26-py39-none-win_amd64.whl.zip tmp/tdrpa.tdcore-1.1.27-py39-none-win_amd64.whl.zip --markdown 20240401/t/tdrpa.tdcore/1.1.26-1.1.27/diff.md --exclude *.pyd
+[2024-04-01 15:46:01] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-04-01 15:46:01] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.1.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.2.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [approxscimate]: success
+[2024-04-01 15:46:01] INFO root fetch - processPackages [uwsgitop]: Remove: archive file [/home/abi/fetcher/tmp/uwsgitop-0.8.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [uwsgitop]: Remove: archive file [/home/abi/fetcher/tmp/uwsgitop-0.9.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [uwsgitop]: success
+[2024-04-01 15:46:01] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.7.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [gpt-all-star]: Remove: archive file [/home/abi/fetcher/tmp/gpt_all_star-0.0.9.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [gpt-all-star]: success
+[2024-04-01 15:46:01] INFO root fetch - processPackages [mkdocs-torillic]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-torillic-2.0.3.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [mkdocs-torillic]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-torillic-2.2.0.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [mkdocs-torillic]: success
+[2024-04-01 15:46:01] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.0.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - processPackages [tidal-dl-ng]: Remove: archive file [/home/abi/fetcher/tmp/tidal_dl_ng-0.9.1.tar.gz]
+[2024-04-01 15:46:01] INFO root fetch - main [MainThread]: End processing [tidal-dl-ng]: success
+[2024-04-01 15:46:03] INFO root fetch - processPackages [tdrpa.tdcore]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdcore-1.1.26-py39-none-win_amd64.whl.zip]
+[2024-04-01 15:46:03] INFO root fetch - processPackages [tdrpa.tdcore]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdcore-1.1.27-py39-none-win_amd64.whl.zip]
+[2024-04-01 15:46:03] INFO root fetch - main [MainThread]: End processing [tdrpa.tdcore]: success
+[2024-04-01 15:46:03] INFO root fetch - main [MainThread]: Store serial: [22569799]
