@@ -3322,3 +3322,15 @@ EOFError: EOF read where object expected
 [2024-04-01 14:30:43] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.98.tar.gz]
 [2024-04-01 14:30:43] INFO root fetch - main [MainThread]: End processing [volcengine]: success
 [2024-04-01 14:30:43] INFO root fetch - main [MainThread]: Store serial: [22569163]
+[2024-04-01 14:32:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569163]
+[2024-04-01 14:32:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-01 14:32:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: video-images-creator
+[2024-04-01 14:32:53] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 14:32:53] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 14:32:55] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 14:32:57] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 14:32:57] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 14:32:58] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 14:32:58] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 14:32:58] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 14:32:58] INFO root fetch - main [MainThread]: Store serial: [22569165]
