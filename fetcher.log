@@ -8856,3 +8856,80 @@ EOFError: EOF read where object expected
 [2024-04-01 18:11:40] INFO root fetch - processPackages [azureml-rag]: Remove: archive file [/home/abi/fetcher/tmp/azureml_rag-0.2.9-py3-none-any.whl.zip]
 [2024-04-01 18:11:40] INFO root fetch - main [MainThread]: End processing [azureml-rag]: success
 [2024-04-01 18:11:40] INFO root fetch - main [MainThread]: Store serial: [22571839]
+[2024-04-01 18:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571839]
+[2024-04-01 18:13:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transcript-transformer
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fairometrics
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djdantic
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spl-signer
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botnikkk
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: efficientvit-gml
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ions
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: djfapi
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-metric-learning
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imt-ikarus
+[2024-04-01 18:13:49] INFO root fetch - processPackages [botnikkk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ions]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-01 18:13:49] WARNING root fetch - processPackages [efficientvit-gml]: Skipping, unable to determine old version
+[2024-04-01 18:13:49] INFO root fetch - main [MainThread]: End processing [efficientvit-gml] error
+[2024-04-01 18:13:49] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [transcript-transformer]: New version: [0.6.1] Old Version: [0.6]
+[2024-04-01 18:13:49] ERROR root fetch - processPackages [spl-signer]: Unable to get metadata: No such project 'spl-signer'
+[2024-04-01 18:13:49] INFO root fetch - main [MainThread]: End processing [spl-signer] error
+[2024-04-01 18:13:49] INFO root fetch - processPackages [fairometrics]: New version: [24.4.1] Old Version: [24.3.3]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/c2/04/fe9dfbc3154b852a11f1f1111aa65fae52881e6ae7569356d17ed6713be8/botnikkk-0.0.5.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [open-metric-learning]: New version: [2.1.7] Old Version: [2.1.6]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/5b/ca/14e3f747282938317770eb712fb76adff05c70428f1874106f098e0154c9/ions-0.2.7.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [imt-ikarus]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [djfapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:13:49] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [transcript-transformer]: Downloading https://files.pythonhosted.org/packages/dc/04/f8b3607096b96977650403b02de3fdf6aff0b9c9a07d28714b40eada9034/transcript_transformer-0.6.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [fairometrics]: Downloading https://files.pythonhosted.org/packages/3a/1e/379e35cd593e71f821226dd2ebf656433f7d5e4ae56daa39e251297a1993/fairometrics-24.3.3.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/87/aa/fb8421062291ec7eb2246225cbf004a922e108265baaf1bc298d9cb0db0c/open-metric-learning-2.1.6.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/f7/3e/2627bd273d84358c8e64ae07dc3c7c0442dffc8cabaa4993cd18fc652c20/imt-ikarus-1.0.0.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/ec/91/212e1a394a4b7d62bf3d3dc4739dc10a9ddedc9fe6ee1c1fd3a0c3a66f24/djfapi-0.0.8.tar.gz
+[2024-04-01 18:13:49] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/dc/33/b4cdf43c911359b695d19d36f3f7e9539a04f1ea787171cf3148e425f097/ions-0.2.8.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/06/e6/f85caa7d15ccade5ba90ed6e077680fb1a5aed6dc182243f7fd6b2e884b8/botnikkk-0.0.6.tar.gz
+[2024-04-01 18:13:50] WARNING root fetch - processPackages [transcript-transformer]: Skipping package: exceeds size limit 28396845>=10485760
+[2024-04-01 18:13:50] INFO root fetch - main [MainThread]: End processing [transcript-transformer] error
+[2024-04-01 18:13:50] INFO root fetch - processPackages [ions]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [ions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ions-0.2.7.tar.gz tmp/ions-0.2.8.tar.gz --markdown 20240401/i/ions/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [botnikkk]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [botnikkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botnikkk-0.0.5.tar.gz tmp/botnikkk-0.0.6.tar.gz --markdown 20240401/b/botnikkk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [fairometrics]: Downloading https://files.pythonhosted.org/packages/31/a2/5c9aa5aae1e4cc04d4a37760845f772f4cdbd2bc2055521bbcd78530aee7/fairometrics-24.4.1.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [open-metric-learning]: Downloading https://files.pythonhosted.org/packages/30/df/141c55487747b7b6cf2b816a69627af78d3dfa30a6a84932469a82de68f0/open-metric-learning-2.1.7.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djfapi]: Downloading https://files.pythonhosted.org/packages/9a/84/a6710eab6739d2351d2a2585909093b9947b85cb544edc5f944e1ae1a85d/djfapi-0.0.9.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [fairometrics]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [fairometrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairometrics-24.3.3.tar.gz tmp/fairometrics-24.4.1.tar.gz --markdown 20240401/f/fairometrics/24.3.3-24.4.1/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20240401/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [open-metric-learning]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [open-metric-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-metric-learning-2.1.6.tar.gz tmp/open-metric-learning-2.1.7.tar.gz --markdown 20240401/o/open-metric-learning/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djfapi]: executing diffoscope
+[2024-04-01 18:13:50] INFO root fetch - processPackages [djfapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djfapi-0.0.8.tar.gz tmp/djfapi-0.0.9.tar.gz --markdown 20240401/d/djfapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:13:50] INFO root fetch - processPackages [imt-ikarus]: Downloading https://files.pythonhosted.org/packages/49/f3/db4601281f187aac067ec0e6fd564169ee3283d487837fd7942e6baa9166/imt-ikarus-1.0.1.tar.gz
+[2024-04-01 18:13:50] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.5.tar.gz]
+[2024-04-01 18:13:50] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.6.tar.gz]
+[2024-04-01 18:13:50] INFO root fetch - main [MainThread]: End processing [botnikkk]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.2.7.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.2.8.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [ions]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [imt-ikarus]: executing diffoscope
+[2024-04-01 18:13:51] INFO root fetch - processPackages [imt-ikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imt-ikarus-1.0.0.tar.gz tmp/imt-ikarus-1.0.1.tar.gz --markdown 20240401/i/imt-ikarus/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 18:13:51] INFO root fetch - processPackages [fairometrics]: Remove: archive file [/home/abi/fetcher/tmp/fairometrics-24.3.3.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [fairometrics]: Remove: archive file [/home/abi/fetcher/tmp/fairometrics-24.4.1.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [fairometrics]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.8.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [djfapi]: Remove: archive file [/home/abi/fetcher/tmp/djfapi-0.0.9.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [djfapi]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-2.1.6.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [open-metric-learning]: Remove: archive file [/home/abi/fetcher/tmp/open-metric-learning-2.1.7.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [open-metric-learning]: success
+[2024-04-01 18:13:51] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt-ikarus-1.0.0.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - processPackages [imt-ikarus]: Remove: archive file [/home/abi/fetcher/tmp/imt-ikarus-1.0.1.tar.gz]
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: End processing [imt-ikarus]: success
+[2024-04-01 18:13:51] INFO root fetch - main [MainThread]: Store serial: [22571880]
