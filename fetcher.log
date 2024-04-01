@@ -10159,3 +10159,45 @@ EOFError: EOF read where object expected
 [2024-04-01 18:56:50] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.59.tar.gz]
 [2024-04-01 18:56:50] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-04-01 18:56:50] INFO root fetch - main [MainThread]: Store serial: [22572440]
+[2024-04-01 18:58:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572440]
+[2024-04-01 18:58:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 18:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: efficientvit-gml
+[2024-04-01 18:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-gitlab
+[2024-04-01 18:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utils-huna
+[2024-04-01 18:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chem-bench
+[2024-04-01 18:58:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-explorer
+[2024-04-01 18:58:59] INFO root fetch - processPackages [model-explorer]: New version: [0.0.59] Old Version: [0.0.58]
+[2024-04-01 18:58:59] INFO root fetch - processPackages [efficientvit-gml]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 18:58:59] INFO root fetch - processPackages [utils-huna]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 18:58:59] WARNING root fetch - processPackages [chem-bench]: Skipping, unable to determine old version
+[2024-04-01 18:58:59] INFO root fetch - main [MainThread]: End processing [chem-bench] error
+[2024-04-01 18:58:59] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/10/21/4e01d2da36e626065b0163bac2f0c57a1749a673269211c592e447267f88/model-explorer-0.0.58.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/c1/ad/2135cc8409ec95a50b1c53478bcb5af9c1d79cf48679f6cd90db3b6a94d6/utils_huna-0.1.2.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [airbyte-source-gitlab]: New version: [4.0.0] Old Version: [3.0.0.dev202403072311]
+[2024-04-01 18:58:59] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/1b/92/0333aebb7a341d69192bd9ebfde88c18668f73b776662ea7d302d4b40df3/efficientvit-gml-0.1.3.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [airbyte-source-gitlab]: Downloading https://files.pythonhosted.org/packages/e7/bf/9370a4f56492533a9a135f9ad65791d2d6b03c9dfbd07aae70f27805ba05/airbyte_source_gitlab-3.0.0.dev202403072311.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/e0/a5/df1465ccd5677fc5dd8f0f8dc8aef665142056ecd26ad1d18dbfcd53baee/utils_huna-0.1.3.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [efficientvit-gml]: Downloading https://files.pythonhosted.org/packages/9e/ee/cd781d6f2ee65ddd44ecc610095ad7bb3833be60eff91184a9310df0ec37/efficientvit-gml-0.1.4.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/e0/5c/b68f674efa4ccae1c996a5b0e8c674f95a37eb1cb3884aeb9885bbd0b9b1/model-explorer-0.0.59.tar.gz
+[2024-04-01 18:58:59] INFO root fetch - processPackages [utils-huna]: executing diffoscope
+[2024-04-01 18:58:59] INFO root fetch - processPackages [utils-huna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_huna-0.1.2.tar.gz tmp/utils_huna-0.1.3.tar.gz --markdown 20240401/u/utils-huna/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 18:58:59] INFO root fetch - processPackages [efficientvit-gml]: executing diffoscope
+[2024-04-01 18:58:59] INFO root fetch - processPackages [efficientvit-gml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficientvit-gml-0.1.3.tar.gz tmp/efficientvit-gml-0.1.4.tar.gz --markdown 20240401/e/efficientvit-gml/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 18:59:00] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-01 18:59:00] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.58.tar.gz tmp/model-explorer-0.0.59.tar.gz --markdown 20240401/m/model-explorer/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2024-04-01 18:59:00] INFO root fetch - processPackages [airbyte-source-gitlab]: Downloading https://files.pythonhosted.org/packages/64/ca/05b82a709a28ffd0f6a8c494bcace52b793b0483f39d0bc42eb7cc0f10e5/airbyte_source_gitlab-4.0.0.tar.gz
+[2024-04-01 18:59:00] INFO root fetch - processPackages [airbyte-source-gitlab]: executing diffoscope
+[2024-04-01 18:59:00] INFO root fetch - processPackages [airbyte-source-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_gitlab-3.0.0.dev202403072311.tar.gz tmp/airbyte_source_gitlab-4.0.0.tar.gz --markdown 20240401/a/airbyte-source-gitlab/3.0.0.dev202403072311-4.0.0/diff.md --exclude *.pyd
+[2024-04-01 18:59:00] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.2.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.3.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - main [MainThread]: End processing [utils-huna]: success
+[2024-04-01 18:59:00] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit-gml-0.1.3.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - processPackages [efficientvit-gml]: Remove: archive file [/home/abi/fetcher/tmp/efficientvit-gml-0.1.4.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - main [MainThread]: End processing [efficientvit-gml]: success
+[2024-04-01 18:59:00] INFO root fetch - processPackages [airbyte-source-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_gitlab-3.0.0.dev202403072311.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - processPackages [airbyte-source-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_gitlab-4.0.0.tar.gz]
+[2024-04-01 18:59:00] INFO root fetch - main [MainThread]: End processing [airbyte-source-gitlab]: success
+[2024-04-01 18:59:01] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.58.tar.gz]
+[2024-04-01 18:59:01] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.59.tar.gz]
+[2024-04-01 18:59:01] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-01 18:59:01] INFO root fetch - main [MainThread]: Store serial: [22572456]
