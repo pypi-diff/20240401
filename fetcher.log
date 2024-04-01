@@ -3702,3 +3702,33 @@ EOFError: EOF read where object expected
 [2024-04-01 14:52:42] INFO root fetch - processPackages [chat-exporter]: Remove: archive file [/home/abi/fetcher/tmp/chat_exporter-2.7.0.tar.gz]
 [2024-04-01 14:52:42] INFO root fetch - main [MainThread]: End processing [chat-exporter]: success
 [2024-04-01 14:52:42] INFO root fetch - main [MainThread]: Store serial: [22569285]
+[2024-04-01 14:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569285]
+[2024-04-01 14:54:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 14:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RTSDB
+[2024-04-01 14:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-images-creator
+[2024-04-01 14:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: atomicshop
+[2024-04-01 14:54:51] INFO root fetch - processPackages [RTSDB]: New version: [1.4] Old Version: [1.3]
+[2024-04-01 14:54:51] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 14:54:51] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 14:54:51] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/ae/5d/e9a3d3a34f407c395ae43b2447a47c417a05e4bf3e0b4c2dcc3c068be8ad/RTSDB-1.3.tar.gz
+[2024-04-01 14:54:51] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 14:54:51] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 14:54:52] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 14:54:52] INFO root fetch - processPackages [RTSDB]: Downloading https://files.pythonhosted.org/packages/93/ec/4fa3aeeec174104c3f776c3d420d55129c4e128f0c1a64b9107417fa4bd0/RTSDB-1.4.tar.gz
+[2024-04-01 14:54:52] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 14:54:52] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 14:54:52] INFO root fetch - processPackages [RTSDB]: executing diffoscope
+[2024-04-01 14:54:52] INFO root fetch - processPackages [RTSDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSDB-1.3.tar.gz tmp/RTSDB-1.4.tar.gz --markdown 20240401/R/RTSDB/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-01 14:54:52] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 14:54:52] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 14:54:52] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 14:54:53] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.3.tar.gz]
+[2024-04-01 14:54:53] INFO root fetch - processPackages [RTSDB]: Remove: archive file [/home/abi/fetcher/tmp/RTSDB-1.4.tar.gz]
+[2024-04-01 14:54:53] INFO root fetch - main [MainThread]: End processing [RTSDB]: success
+[2024-04-01 14:54:53] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 14:54:53] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 14:54:53] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 14:54:53] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 14:54:53] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 14:54:53] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 14:54:53] INFO root fetch - main [MainThread]: Store serial: [22569292]
