@@ -5667,3 +5667,294 @@ EOFError: EOF read where object expected
 [2024-04-01 16:19:54] INFO root fetch - processPackages [mrflagly]: Remove: archive file [/home/abi/fetcher/tmp/mrflagly-0.2.8-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-01 16:19:54] INFO root fetch - main [MainThread]: End processing [mrflagly]: success
 [2024-04-01 16:19:54] INFO root fetch - main [MainThread]: Store serial: [22570275]
+[2024-04-01 16:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570275]
+[2024-04-01 16:22:11] INFO root fetch - main [MainThread]: Found 32 changed packages
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openbb-yfinance
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openbb-finviz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openbb-tradier
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: merakicat
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openbb-wsj
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openbb-nasdaq
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openbb-sec
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openbb-seeking-alpha
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openbb-fred
+[2024-04-01 16:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: json-autocomplete
+[2024-04-01 16:22:11] INFO root fetch - processPackages [merakicat]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-sec]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-finviz]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-seeking-alpha]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-nasdaq]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-yfinance]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-fred]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-wsj]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-tradier]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [json-autocomplete]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 16:22:11] INFO root fetch - processPackages [merakicat]: Downloading https://files.pythonhosted.org/packages/c4/5f/986be74ad05e6ca38b67d3a2a989b128f70b38cc650db65a685fcaefc372/merakicat-0.1.6.tar.gz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-finviz]: Downloading https://files.pythonhosted.org/packages/72/22/964adef675d6da06efd1838b96cf886021eb607ad8408a59619d346d476a/openbb_finviz-1.0.2.tar.gz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-sec]: Downloading https://files.pythonhosted.org/packages/d5/2b/b7f0e699eba7ff4e199c6e6a8ab3570396c17cf962e0774070ac37506f14/openbb_sec-1.1.3.tar.gz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-seeking-alpha]: Downloading https://files.pythonhosted.org/packages/60/ca/5ad74358ff5a8339d14220a5481ea52dc800070b1cf0305262f486ba97f1/openbb_seeking_alpha-1.1.3.tar.gz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-nasdaq]: Downloading https://files.pythonhosted.org/packages/bc/a4/1c9c2d5c7f97028f80aaa1af5d6ecf0083bfe65ee7055e4014fddd249f9a/openbb_nasdaq-1.1.4.tar.gz
+[2024-04-01 16:22:11] INFO root fetch - processPackages [openbb-wsj]: Downloading https://files.pythonhosted.org/packages/a2/b5/cb347726b6b3f282128b28a8059ed55a714bbf0aa568f2990f131cb724f7/openbb_wsj-1.1.3.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-yfinance]: Downloading https://files.pythonhosted.org/packages/b9/f1/a1f7c370a8a2fa7ef81e4f6f76d71c96a0061e51a96f4b7ad4fa076e2ad2/openbb_yfinance-1.1.3.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-tradier]: Downloading https://files.pythonhosted.org/packages/fe/54/52074aa2e0cbe26b77deef7f3e3f3e75dd744238304e9750f8400c6309f1/openbb_tradier-1.0.0.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [json-autocomplete]: Downloading https://files.pythonhosted.org/packages/34/f7/08a2f97f95aa22330807227c4fcbafa059c52e83a564d55ef5e114eae55b/json-autocomplete-0.2.1.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-fred]: Downloading https://files.pythonhosted.org/packages/47/67/d27ce5a2e2dae055221946b29ab4ef102b54a2e47eb6d5b3ae2ec1d7d106/openbb_fred-1.1.3.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-finviz]: Downloading https://files.pythonhosted.org/packages/f5/7a/34ed787f11dcfd43507fc88cefa274d1b29a9fdc11f77e37083b4c187029/openbb_finviz-1.0.3.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-sec]: Downloading https://files.pythonhosted.org/packages/94/42/3da7984b95dede7d2cc16dcc3fca3f31e8ba896cfaab511ad43c3bd4119f/openbb_sec-1.1.4.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-seeking-alpha]: Downloading https://files.pythonhosted.org/packages/92/1e/35020892b04b1ff220f059796f72095a8846c361a2fafb2a9c72f62b534d/openbb_seeking_alpha-1.1.4.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-wsj]: Downloading https://files.pythonhosted.org/packages/0c/86/255cbc2acbcf1f2fb112e6143891d3892762ee9b51e4d0f5ff198cb96a12/openbb_wsj-1.1.4.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-nasdaq]: Downloading https://files.pythonhosted.org/packages/72/aa/7c5fd25c27522ab41b266371c4335f7af93f99b6c990a4d99ecb1c01869f/openbb_nasdaq-1.1.5.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-tradier]: Downloading https://files.pythonhosted.org/packages/5b/bb/1558a08acb6cb6a97349f17a380ace68a6d1249919a8c6d0af48e85afc12/openbb_tradier-1.0.1.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-yfinance]: Downloading https://files.pythonhosted.org/packages/d4/40/883b964715c0851885245e8cf070b84f9cd3e4905d19f5a81dfa2168c470/openbb_yfinance-1.1.4.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-fred]: Downloading https://files.pythonhosted.org/packages/09/07/db914f17865417ffae21a4efd578a2329ac11602f08f8896eab78393dd3f/openbb_fred-1.1.4.tar.gz
+[2024-04-01 16:22:12] INFO root fetch - processPackages [json-autocomplete]: Downloading https://files.pythonhosted.org/packages/53/41/4a0e8f5a5a5d168c2003aecf494175ae02bb0a274cf2529ee057610c7941/json_autocomplete-0.2.2-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-finviz]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-finviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_finviz-1.0.2.tar.gz tmp/openbb_finviz-1.0.3.tar.gz --markdown 20240401/o/openbb-finviz/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-sec]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-sec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_sec-1.1.3.tar.gz tmp/openbb_sec-1.1.4.tar.gz --markdown 20240401/o/openbb-sec/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-wsj]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-wsj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_wsj-1.1.3.tar.gz tmp/openbb_wsj-1.1.4.tar.gz --markdown 20240401/o/openbb-wsj/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-seeking-alpha]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-seeking-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_seeking_alpha-1.1.3.tar.gz tmp/openbb_seeking_alpha-1.1.4.tar.gz --markdown 20240401/o/openbb-seeking-alpha/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-nasdaq]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-nasdaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nasdaq-1.1.4.tar.gz tmp/openbb_nasdaq-1.1.5.tar.gz --markdown 20240401/o/openbb-nasdaq/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-tradier]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-tradier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_tradier-1.0.0.tar.gz tmp/openbb_tradier-1.0.1.tar.gz --markdown 20240401/o/openbb-tradier/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-yfinance]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-yfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_yfinance-1.1.3.tar.gz tmp/openbb_yfinance-1.1.4.tar.gz --markdown 20240401/o/openbb-yfinance/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-fred]: executing diffoscope
+[2024-04-01 16:22:12] INFO root fetch - processPackages [openbb-fred]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_fred-1.1.3.tar.gz tmp/openbb_fred-1.1.4.tar.gz --markdown 20240401/o/openbb-fred/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:12] INFO root fetch - processPackages [merakicat]: Downloading https://files.pythonhosted.org/packages/1e/05/82473b02799094f3a8e577a373fe71a6ad8b4fd9a66ab649e5e79a62819d/merakicat-0.1.7.tar.gz
+[2024-04-01 16:22:13] INFO root fetch - processPackages [merakicat]: executing diffoscope
+[2024-04-01 16:22:13] INFO root fetch - processPackages [merakicat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merakicat-0.1.6.tar.gz tmp/merakicat-0.1.7.tar.gz --markdown 20240401/m/merakicat/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 16:22:13] INFO root fetch - processPackages [json-autocomplete]: executing diffoscope
+[2024-04-01 16:22:13] INFO root fetch - processPackages [json-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-autocomplete-0.2.1.tar.gz tmp/json_autocomplete-0.2.2-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240401/j/json-autocomplete/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-seeking-alpha]: Remove: archive file [/home/abi/fetcher/tmp/openbb_seeking_alpha-1.1.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-seeking-alpha]: Remove: archive file [/home/abi/fetcher/tmp/openbb_seeking_alpha-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-seeking-alpha]: Start processing: openbb-polygon
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-seeking-alpha]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-sec]: Remove: archive file [/home/abi/fetcher/tmp/openbb_sec-1.1.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-sec]: Remove: archive file [/home/abi/fetcher/tmp/openbb_sec-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-sec]: Start processing: openbb-finra
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-sec]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-wsj]: Remove: archive file [/home/abi/fetcher/tmp/openbb_wsj-1.1.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-wsj]: Remove: archive file [/home/abi/fetcher/tmp/openbb_wsj-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-wsj]: Start processing: openbb-government-us
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-wsj]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-polygon]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-finra]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-yfinance]: Remove: archive file [/home/abi/fetcher/tmp/openbb_yfinance-1.1.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-yfinance]: Remove: archive file [/home/abi/fetcher/tmp/openbb_yfinance-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-yfinance]: Start processing: openbb-oecd
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-yfinance]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-government-us]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-fred]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fred-1.1.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-fred]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fred-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-fred]: Start processing: openbb-alpha-vantage
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-fred]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-nasdaq]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nasdaq-1.1.4.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-nasdaq]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nasdaq-1.1.5.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-nasdaq]: Start processing: openbb-biztoc
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-nasdaq]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-polygon]: Downloading https://files.pythonhosted.org/packages/42/e7/35609e6c1d8296bad37021b235610320d91af912f18c37690a957686bfd6/openbb_polygon-1.1.3.tar.gz
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-oecd]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-finra]: Downloading https://files.pythonhosted.org/packages/86/06/024f950f65e26f748c0387b52bc95077113e9f0e1dc1ae8cbc98ec019c4a/openbb_finra-1.1.3.tar.gz
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-finviz]: Remove: archive file [/home/abi/fetcher/tmp/openbb_finviz-1.0.2.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-finviz]: Remove: archive file [/home/abi/fetcher/tmp/openbb_finviz-1.0.3.tar.gz]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-finviz]: Start processing: openbb-federal-reserve
+[2024-04-01 16:22:13] INFO root fetch - main [MainThread]: End processing [openbb-finviz]: success
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-alpha-vantage]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-government-us]: Downloading https://files.pythonhosted.org/packages/37/fa/b603cff72ddf7222e833457b9e1273c706d3f58b2faa9d7b41f34959c19f/openbb_government_us-1.1.3.tar.gz
+[2024-04-01 16:22:13] INFO root fetch - processPackages [openbb-biztoc]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-federal-reserve]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tradier]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tradier-1.0.0.tar.gz]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tradier]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tradier-1.0.1.tar.gz]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tradier]: Start processing: openbb-fmp
+[2024-04-01 16:22:14] INFO root fetch - main [MainThread]: End processing [openbb-tradier]: success
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-oecd]: Downloading https://files.pythonhosted.org/packages/96/26/e87d2a0cc949cf73a7f257602231c7a6b9d37c59b5869a5eccf1cff68485/openbb_oecd-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-alpha-vantage]: Downloading https://files.pythonhosted.org/packages/ed/2a/e9f56987edc373774c61c0bf5d2e6c123f5c3d11498caece403b273a7b29/openbb_alpha_vantage-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [merakicat]: Remove: archive file [/home/abi/fetcher/tmp/merakicat-0.1.6.tar.gz]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [merakicat]: Remove: archive file [/home/abi/fetcher/tmp/merakicat-0.1.7.tar.gz]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [merakicat]: Start processing: openbb-cboe
+[2024-04-01 16:22:14] INFO root fetch - main [MainThread]: End processing [merakicat]: success
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-finra]: Downloading https://files.pythonhosted.org/packages/8f/62/8b62cf72dd7ee5f85f7921d6af6392a30bbb984784e23a85aa03152fd5e2/openbb_finra-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-polygon]: Downloading https://files.pythonhosted.org/packages/f1/a1/77bd3d7620a1386604b14ecd230aa18bdfc5bb94bb2ed7a7675c5fec50ff/openbb_polygon-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-biztoc]: Downloading https://files.pythonhosted.org/packages/03/d2/b1ff94d07bc4354fa446cce575824b94ce1023a8a23749d6426cc41fdb85/openbb_biztoc-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [json-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/json-autocomplete-0.2.1.tar.gz]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-government-us]: Downloading https://files.pythonhosted.org/packages/17/83/9cf748ba2d7598ca6db3394ca63e11559dfc01ac8dc288f10f6fa910fd6d/openbb_government_us-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [json-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/json_autocomplete-0.2.2-pp310-pypy310_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [json-autocomplete]: Start processing: openbb-tiingo
+[2024-04-01 16:22:14] INFO root fetch - main [MainThread]: End processing [json-autocomplete]: success
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-fmp]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-federal-reserve]: Downloading https://files.pythonhosted.org/packages/c2/4d/ef0a9c5bf247b042f0e24270396a05cc309bcd87aa87aba2903565e1a63d/openbb_federal_reserve-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-finra]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-finra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_finra-1.1.3.tar.gz tmp/openbb_finra-1.1.4.tar.gz --markdown 20240401/o/openbb-finra/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-polygon]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-polygon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_polygon-1.1.3.tar.gz tmp/openbb_polygon-1.1.4.tar.gz --markdown 20240401/o/openbb-polygon/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-government-us]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-government-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_government_us-1.1.3.tar.gz tmp/openbb_government_us-1.1.4.tar.gz --markdown 20240401/o/openbb-government-us/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-cboe]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tiingo]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-oecd]: Downloading https://files.pythonhosted.org/packages/65/f3/750511aae3fc39c23ff5319a48295d7f35c0e999412a7dbd8cb9b1c73448/openbb_oecd-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-fmp]: Downloading https://files.pythonhosted.org/packages/c2/25/a9ee4d8ecec94850c0c92b27e7cf88ab511b9f16796e797039b122dc3909/openbb_fmp-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-alpha-vantage]: Downloading https://files.pythonhosted.org/packages/f7/a3/72b8dc71f5af3deb08cd3aab08b7f996ec217184854d213daa5ec8d853b7/openbb_alpha_vantage-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-biztoc]: Downloading https://files.pythonhosted.org/packages/46/ff/44ab163bc7e770661cda72b2c2008a88d4f1254ec5eccea90b62ab21c1d4/openbb_biztoc-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-oecd]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-oecd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_oecd-1.1.3.tar.gz tmp/openbb_oecd-1.1.4.tar.gz --markdown 20240401/o/openbb-oecd/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-cboe]: Downloading https://files.pythonhosted.org/packages/7e/49/3d75e39979baf930e71ab02eceafced61432e4ed14bc43df3fbf69318bfe/openbb_cboe-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-alpha-vantage]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-alpha-vantage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_alpha_vantage-1.1.3.tar.gz tmp/openbb_alpha_vantage-1.1.4.tar.gz --markdown 20240401/o/openbb-alpha-vantage/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-biztoc]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-biztoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_biztoc-1.1.3.tar.gz tmp/openbb_biztoc-1.1.4.tar.gz --markdown 20240401/o/openbb-biztoc/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tiingo]: Downloading https://files.pythonhosted.org/packages/07/8b/9519e410d0a46895baf6247564ae4f90df1802f700690d0f895e2c0d9b5d/openbb_tiingo-1.1.3.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-federal-reserve]: Downloading https://files.pythonhosted.org/packages/35/23/84e6818889440b316c80704500ac40c16dd2011d13bc46f08a54f995deb6/openbb_federal_reserve-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-fmp]: Downloading https://files.pythonhosted.org/packages/25/48/0756aa77b236442217ac314ee430472087122f1c1b70590d3faf76a66d32/openbb_fmp-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-cboe]: Downloading https://files.pythonhosted.org/packages/0c/c6/a48428eae8927ec8ac54c5e7b211b2cb9b79da022159422a95408183ca9b/openbb_cboe-1.1.4.tar.gz
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-federal-reserve]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-federal-reserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_federal_reserve-1.1.3.tar.gz tmp/openbb_federal_reserve-1.1.4.tar.gz --markdown 20240401/o/openbb-federal-reserve/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-fmp]: executing diffoscope
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-fmp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_fmp-1.1.3.tar.gz tmp/openbb_fmp-1.1.4.tar.gz --markdown 20240401/o/openbb-fmp/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:14] INFO root fetch - processPackages [openbb-tiingo]: Downloading https://files.pythonhosted.org/packages/70/72/66546830e2dc3f56c0c1f1a63b6afdb3133b5fe4ccda70761d93dbb1fb88/openbb_tiingo-1.1.4.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-cboe]: executing diffoscope
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-cboe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_cboe-1.1.3.tar.gz tmp/openbb_cboe-1.1.4.tar.gz --markdown 20240401/o/openbb-cboe/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-government-us]: Remove: archive file [/home/abi/fetcher/tmp/openbb_government_us-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-government-us]: Remove: archive file [/home/abi/fetcher/tmp/openbb_government_us-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-government-us]: Start processing: pyerrors
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-government-us]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tiingo]: executing diffoscope
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tiingo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_tiingo-1.1.3.tar.gz tmp/openbb_tiingo-1.1.4.tar.gz --markdown 20240401/o/openbb-tiingo/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:15] INFO root fetch - processPackages [pyerrors]: New version: [2.9.0] Old Version: [2.8.2]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-finra]: Remove: archive file [/home/abi/fetcher/tmp/openbb_finra-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-finra]: Remove: archive file [/home/abi/fetcher/tmp/openbb_finra-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-finra]: Start processing: openbb-intrinio
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-finra]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-polygon]: Remove: archive file [/home/abi/fetcher/tmp/openbb_polygon-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-polygon]: Remove: archive file [/home/abi/fetcher/tmp/openbb_polygon-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-polygon]: Start processing: openbb-stockgrid
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-polygon]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-biztoc]: Remove: archive file [/home/abi/fetcher/tmp/openbb_biztoc-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-biztoc]: Remove: archive file [/home/abi/fetcher/tmp/openbb_biztoc-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-biztoc]: Start processing: openbb-tmx
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-biztoc]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-oecd]: Remove: archive file [/home/abi/fetcher/tmp/openbb_oecd-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-intrinio]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-oecd]: Remove: archive file [/home/abi/fetcher/tmp/openbb_oecd-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-oecd]: Start processing: openbb-ecb
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-oecd]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-stockgrid]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-alpha-vantage]: Remove: archive file [/home/abi/fetcher/tmp/openbb_alpha_vantage-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-alpha-vantage]: Remove: archive file [/home/abi/fetcher/tmp/openbb_alpha_vantage-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-alpha-vantage]: Start processing: xia-module-pypi
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-alpha-vantage]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [pyerrors]: Downloading https://files.pythonhosted.org/packages/59/6a/845251394bc1b55e0281d1d8cc79e2b4e6b07fbc24d955ea0026a4c2fb3b/pyerrors-2.8.2.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tmx]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-ecb]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [xia-module-pypi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-intrinio]: Downloading https://files.pythonhosted.org/packages/70/8a/421200375a6d614a105eff201e9d8bcb1b4e7e2535be8e64fc00e2acae03/openbb_intrinio-1.1.3.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-stockgrid]: Downloading https://files.pythonhosted.org/packages/ef/3d/fd92343ce67ada5d045ae3f73bbda4237535517f43052d9545ce8ebd285e/openbb_stockgrid-1.1.3.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-cboe]: Remove: archive file [/home/abi/fetcher/tmp/openbb_cboe-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-cboe]: Remove: archive file [/home/abi/fetcher/tmp/openbb_cboe-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-cboe]: Start processing: microslac
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-cboe]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-federal-reserve]: Remove: archive file [/home/abi/fetcher/tmp/openbb_federal_reserve-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-federal-reserve]: Remove: archive file [/home/abi/fetcher/tmp/openbb_federal_reserve-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-federal-reserve]: Start processing: openbb-benzinga
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-federal-reserve]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tmx]: Downloading https://files.pythonhosted.org/packages/39/e2/ddd63ae2fdccc4a3c9da037d31898c5f2dce1982c69f1c4badbadaae7aad/openbb_tmx-1.0.0.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-ecb]: Downloading https://files.pythonhosted.org/packages/13/0a/9c94f8e31e66f7cdc16437bae0e9f1d92eabbf4af3bca2648495619ec2d7/openbb_ecb-1.1.3.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tiingo]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tiingo-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tiingo]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tiingo-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-tiingo]: Start processing: openbb-tradingeconomics
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-tiingo]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [microslac]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [xia-module-pypi]: Downloading https://files.pythonhosted.org/packages/56/d9/08d002fd6aa89e5e1cd3f1756b72e5a08d8a631ce6899470f54314ae8743/xia-module-pypi-0.0.2.tar.gz
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-fmp]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fmp-1.1.3.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-fmp]: Remove: archive file [/home/abi/fetcher/tmp/openbb_fmp-1.1.4.tar.gz]
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-fmp]: Start processing: froggius
+[2024-04-01 16:22:15] INFO root fetch - main [MainThread]: End processing [openbb-fmp]: success
+[2024-04-01 16:22:15] INFO root fetch - processPackages [openbb-benzinga]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:16] INFO root fetch - processPackages [froggius]: New version: [0.1.3.post1] Old Version: [0.1.3]
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tradingeconomics]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-stockgrid]: Downloading https://files.pythonhosted.org/packages/f0/94/ad2d4fb9e396a0b754730751e1cc107fd3ec4f728470bf1f8c10c9783938/openbb_stockgrid-1.1.4.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-intrinio]: Downloading https://files.pythonhosted.org/packages/7d/59/894f929ea164bd5d188dc20f46b40092b61498264098a2747efb76ba7d4d/openbb_intrinio-1.1.4.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/df/2b/a34fd2f39f8d3b08da961d81063e0d22875fb89206fd716f4f0e7d32ce8d/froggius-0.1.3.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [microslac]: Downloading https://files.pythonhosted.org/packages/e5/23/734e75177e228ad13d88772a18df141cc5a0d26616792ca994f24d0f9a48/microslac-0.0.8.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-benzinga]: Downloading https://files.pythonhosted.org/packages/53/6f/eac1374ce69758b61b1ae879005065fbc50b8bc370bd3df50d9cf9ad5d0c/openbb_benzinga-1.1.3.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-intrinio]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-intrinio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_intrinio-1.1.3.tar.gz tmp/openbb_intrinio-1.1.4.tar.gz --markdown 20240401/o/openbb-intrinio/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-ecb]: Downloading https://files.pythonhosted.org/packages/fa/2e/09744f6fc4d8f7a3df0a00ecf1394ea56f2445de7496525ad37065412f31/openbb_ecb-1.1.4.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tmx]: Downloading https://files.pythonhosted.org/packages/88/93/d26abe8159980ca9718fc68cd6c4ad3666edce79495b4cf9bdba2488c833/openbb_tmx-1.0.1.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [xia-module-pypi]: Downloading https://files.pythonhosted.org/packages/0b/04/29488ab93d03865492b8ff0b4b2ea0772f9fec72e70e7fa4cf92c85f07f8/xia-module-pypi-0.0.3.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tradingeconomics]: Downloading https://files.pythonhosted.org/packages/35/ad/ae2ba45d528ef6d1988eb61039e1a51f73cf20d5a968dd260b31c9d89550/openbb_tradingeconomics-1.1.3.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-stockgrid]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-stockgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_stockgrid-1.1.3.tar.gz tmp/openbb_stockgrid-1.1.4.tar.gz --markdown 20240401/o/openbb-stockgrid/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/fa/bf/4ec2efafc57a2c87796a73af5652b6bb522d8d73920ae0f04e8c9cb98477/froggius-0.1.3.post1.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tmx]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tmx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_tmx-1.0.0.tar.gz tmp/openbb_tmx-1.0.1.tar.gz --markdown 20240401/o/openbb-tmx/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-ecb]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-ecb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_ecb-1.1.3.tar.gz tmp/openbb_ecb-1.1.4.tar.gz --markdown 20240401/o/openbb-ecb/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [froggius]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [froggius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froggius-0.1.3.tar.gz tmp/froggius-0.1.3.post1.tar.gz --markdown 20240401/f/froggius/0.1.3-0.1.3.post1/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [pyerrors]: Downloading https://files.pythonhosted.org/packages/d7/08/1706d4eba18bf924c05a16108b0da494151e30dcf78eb658e7eab64faa6e/pyerrors-2.9.0.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [xia-module-pypi]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [xia-module-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xia-module-pypi-0.0.2.tar.gz tmp/xia-module-pypi-0.0.3.tar.gz --markdown 20240401/x/xia-module-pypi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-benzinga]: Downloading https://files.pythonhosted.org/packages/b5/f3/949ea16ebf39563787c3bd646c7fd42f438d68c9baf653009d1a70b9cfae/openbb_benzinga-1.1.4.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [microslac]: Downloading https://files.pythonhosted.org/packages/f1/fc/dbbc926c453fbc8dfe6c14952aa3bc7e8af70e806b86acf2bb02a3b224c6/microslac-0.0.9.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-tradingeconomics]: Downloading https://files.pythonhosted.org/packages/21/f3/fed752a67b4edbf37aa97601b362735dfce829262f62c0f99632f4b52e8b/openbb_tradingeconomics-1.1.4.tar.gz
+[2024-04-01 16:22:16] INFO root fetch - processPackages [microslac]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [microslac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microslac-0.0.8.tar.gz tmp/microslac-0.0.9.tar.gz --markdown 20240401/m/microslac/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-benzinga]: executing diffoscope
+[2024-04-01 16:22:16] INFO root fetch - processPackages [openbb-benzinga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_benzinga-1.1.3.tar.gz tmp/openbb_benzinga-1.1.4.tar.gz --markdown 20240401/o/openbb-benzinga/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-stockgrid]: Remove: archive file [/home/abi/fetcher/tmp/openbb_stockgrid-1.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-stockgrid]: Remove: archive file [/home/abi/fetcher/tmp/openbb_stockgrid-1.1.4.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-stockgrid]: Start processing: quickfin
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-stockgrid]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tradingeconomics]: executing diffoscope
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tradingeconomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_tradingeconomics-1.1.3.tar.gz tmp/openbb_tradingeconomics-1.1.4.tar.gz --markdown 20240401/o/openbb-tradingeconomics/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:22:17] INFO root fetch - processPackages [quickfin]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/11/c6/3d5ef93807f2e088267d28ec88279d5eda013696d715d791bc59bbcaff3e/quickfin-1.4.0.tar.gz
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-intrinio]: Remove: archive file [/home/abi/fetcher/tmp/openbb_intrinio-1.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-intrinio]: Remove: archive file [/home/abi/fetcher/tmp/openbb_intrinio-1.1.4.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-intrinio]: Start processing: openbb-charting
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-intrinio]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [pyerrors]: executing diffoscope
+[2024-04-01 16:22:17] INFO root fetch - processPackages [pyerrors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerrors-2.8.2.tar.gz tmp/pyerrors-2.9.0.tar.gz --markdown 20240401/p/pyerrors/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-charting]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.post1.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [froggius]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tmx]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tmx-1.0.0.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tmx]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tmx-1.0.1.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-tmx]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-ecb]: Remove: archive file [/home/abi/fetcher/tmp/openbb_ecb-1.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-ecb]: Remove: archive file [/home/abi/fetcher/tmp/openbb_ecb-1.1.4.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-ecb]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/22/63/54a0d336717f04fe73c19c63dd03dec14bdbe9e0fe602bf8076c6ea1d085/quickfin-1.5.0.tar.gz
+[2024-04-01 16:22:17] INFO root fetch - processPackages [xia-module-pypi]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-pypi-0.0.2.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [xia-module-pypi]: Remove: archive file [/home/abi/fetcher/tmp/xia-module-pypi-0.0.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [xia-module-pypi]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-charting]: Downloading https://files.pythonhosted.org/packages/cd/56/00dccaa9950463300dac17117cc96f0036ed10eb470ce30d1cf033b24c49/openbb_charting-2.0.1.tar.gz
+[2024-04-01 16:22:17] INFO root fetch - processPackages [microslac]: Remove: archive file [/home/abi/fetcher/tmp/microslac-0.0.8.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [microslac]: Remove: archive file [/home/abi/fetcher/tmp/microslac-0.0.9.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [microslac]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-01 16:22:17] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.4.0.tar.gz tmp/quickfin-1.5.0.tar.gz --markdown 20240401/q/quickfin/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-benzinga]: Remove: archive file [/home/abi/fetcher/tmp/openbb_benzinga-1.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-benzinga]: Remove: archive file [/home/abi/fetcher/tmp/openbb_benzinga-1.1.4.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-benzinga]: success
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tradingeconomics]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tradingeconomics-1.1.3.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - processPackages [openbb-tradingeconomics]: Remove: archive file [/home/abi/fetcher/tmp/openbb_tradingeconomics-1.1.4.tar.gz]
+[2024-04-01 16:22:17] INFO root fetch - main [MainThread]: End processing [openbb-tradingeconomics]: success
+[2024-04-01 16:22:18] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.4.0.tar.gz]
+[2024-04-01 16:22:18] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.5.0.tar.gz]
+[2024-04-01 16:22:18] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-01 16:22:18] INFO root fetch - processPackages [openbb-charting]: Downloading https://files.pythonhosted.org/packages/e9/c9/9cdec91419cd834660703a8925a0a8e10c4073949203ad25cc920be1f93e/openbb_charting-2.0.2.tar.gz
+[2024-04-01 16:22:18] INFO root fetch - processPackages [pyerrors]: Remove: archive file [/home/abi/fetcher/tmp/pyerrors-2.8.2.tar.gz]
+[2024-04-01 16:22:18] INFO root fetch - processPackages [pyerrors]: Remove: archive file [/home/abi/fetcher/tmp/pyerrors-2.9.0.tar.gz]
+[2024-04-01 16:22:18] INFO root fetch - main [MainThread]: End processing [pyerrors]: success
+[2024-04-01 16:22:18] INFO root fetch - processPackages [openbb-charting]: executing diffoscope
+[2024-04-01 16:22:18] INFO root fetch - processPackages [openbb-charting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_charting-2.0.1.tar.gz tmp/openbb_charting-2.0.2.tar.gz --markdown 20240401/o/openbb-charting/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-01 16:22:20] INFO root fetch - processPackages [openbb-charting]: Remove: archive file [/home/abi/fetcher/tmp/openbb_charting-2.0.1.tar.gz]
+[2024-04-01 16:22:20] INFO root fetch - processPackages [openbb-charting]: Remove: archive file [/home/abi/fetcher/tmp/openbb_charting-2.0.2.tar.gz]
+[2024-04-01 16:22:20] INFO root fetch - main [MainThread]: End processing [openbb-charting]: success
+[2024-04-01 16:22:20] INFO root fetch - main [MainThread]: Store serial: [22570429]
