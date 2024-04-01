@@ -2421,3 +2421,60 @@ EOFError: EOF read where object expected
 [2024-04-01 13:41:46] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240401-py3-none-win_amd64.whl.zip]
 [2024-04-01 13:41:46] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-04-01 13:41:46] INFO root fetch - main [MainThread]: Store serial: [22568744]
+[2024-04-01 13:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568744]
+[2024-04-01 13:44:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esp-flasher
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torrentp
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dynamic-graphs-with-pygame
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phone-email-auth
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jsbgym
+[2024-04-01 13:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mc-netease-sdk
+[2024-04-01 13:44:11] INFO root fetch - processPackages [phone-email-auth]: New version: [0.5] Old Version: [0.4]
+[2024-04-01 13:44:11] INFO root fetch - processPackages [jsbgym]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-01 13:44:11] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/d5/44/20514974e1dc7a1e3261cd9c24ce464c2d2b6a3e36a14e00f427e1934e00/phone_email_auth-0.4.tar.gz
+[2024-04-01 13:44:11] INFO root fetch - processPackages [torrentp]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-01 13:44:11] INFO root fetch - processPackages [esp-flasher]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-01 13:44:11] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 13:44:11] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.9.0.44290] Old Version: [2.9.0.44274]
+[2024-04-01 13:44:12] INFO root fetch - processPackages [torrentp]: Downloading https://files.pythonhosted.org/packages/de/b1/9c4bc0e2211d0139e9b3b5eb9723415525a1ab472b34300dfd06a4236589/torrentp-0.1.7.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [jsbgym]: Downloading https://files.pythonhosted.org/packages/ee/4c/99f8cc02f2f5a1ceab7ed75a12bcb1d3d9da7599ff5f719ee68e3046d886/jsbgym-0.3.1.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/8c/11/d16b9ca2be6fb2b01615a06f9bf44f651e576dfc105290f5214102ad51b1/phone_email_auth-0.5.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [esp-flasher]: Downloading https://files.pythonhosted.org/packages/a0/07/fe378ef402ada43f19daafb906cc3fc98d08380d207f2ab77491bcdc1727/esp_flasher-2.2.3.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: Downloading https://files.pythonhosted.org/packages/e8/be/69adbf85d94724766dcd45726d236e8868a54918451d6e828d70a9d24cc4/dynamic_graphs_with_pygame-1.0.8.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/ce/bd/ce66c963701930ef65984ffe07a603cf9a40839ee616187f8a9af3b96d24/mc_netease_sdk-2.9.0.44274-py2-none-any.whl
+[2024-04-01 13:44:12] INFO root fetch - processPackages [phone-email-auth]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [phone-email-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_email_auth-0.4.tar.gz tmp/phone_email_auth-0.5.tar.gz --markdown 20240401/p/phone-email-auth/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [torrentp]: Downloading https://files.pythonhosted.org/packages/b5/7d/df36630503ec593df98eb21324a694939d4c1d6e65812c81c9e3594f975f/torrentp-0.1.9.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [jsbgym]: Downloading https://files.pythonhosted.org/packages/c0/0d/791befb2eb48b3a9fac3b4a715d6aca47fc375d90b52156936ecb9237986/jsbgym-0.3.2.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: Downloading https://files.pythonhosted.org/packages/c0/33/b56fe8308823cac6aeb078b8f0502c691c22bfd2540070e841af4bbf127c/dynamic_graphs_with_pygame-1.0.9.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [esp-flasher]: Downloading https://files.pythonhosted.org/packages/96/39/22164b1c013b7dcea0bcbce52fa1e62e1b8f21ca745b826051d8da8eb090/esp_flasher-2.2.4.tar.gz
+[2024-04-01 13:44:12] INFO root fetch - processPackages [torrentp]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [torrentp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torrentp-0.1.7.tar.gz tmp/torrentp-0.1.9.tar.gz --markdown 20240401/t/torrentp/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [jsbgym]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [jsbgym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsbgym-0.3.1.tar.gz tmp/jsbgym-0.3.2.tar.gz --markdown 20240401/j/jsbgym/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/63/0d/f58f720ee05ea75b4a3c959d9fa6e49e17b844e50741adff621cdf8590a5/mc_netease_sdk-2.9.0.44290-py2-none-any.whl
+[2024-04-01 13:44:12] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamic_graphs_with_pygame-1.0.8.tar.gz tmp/dynamic_graphs_with_pygame-1.0.9.tar.gz --markdown 20240401/d/dynamic-graphs-with-pygame/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [esp-flasher]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [esp-flasher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp_flasher-2.2.3.tar.gz tmp/esp_flasher-2.2.4.tar.gz --markdown 20240401/e/esp-flasher/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2024-04-01 13:44:12] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip --markdown 20240401/m/mc-netease-sdk/2.9.0.44274-2.9.0.44290/diff.md --exclude *.pyd
+[2024-04-01 13:44:12] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.4.tar.gz]
+[2024-04-01 13:44:12] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.5.tar.gz]
+[2024-04-01 13:44:12] INFO root fetch - main [MainThread]: End processing [phone-email-auth]: success
+[2024-04-01 13:44:13] INFO root fetch - processPackages [torrentp]: Remove: archive file [/home/abi/fetcher/tmp/torrentp-0.1.7.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - processPackages [torrentp]: Remove: archive file [/home/abi/fetcher/tmp/torrentp-0.1.9.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [torrentp]: success
+[2024-04-01 13:44:13] INFO root fetch - processPackages [jsbgym]: Remove: archive file [/home/abi/fetcher/tmp/jsbgym-0.3.1.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - processPackages [jsbgym]: Remove: archive file [/home/abi/fetcher/tmp/jsbgym-0.3.2.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [jsbgym]: success
+[2024-04-01 13:44:13] INFO root fetch - processPackages [esp-flasher]: Remove: archive file [/home/abi/fetcher/tmp/esp_flasher-2.2.3.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - processPackages [esp-flasher]: Remove: archive file [/home/abi/fetcher/tmp/esp_flasher-2.2.4.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [esp-flasher]: success
+[2024-04-01 13:44:13] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_graphs_with_pygame-1.0.8.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - processPackages [dynamic-graphs-with-pygame]: Remove: archive file [/home/abi/fetcher/tmp/dynamic_graphs_with_pygame-1.0.9.tar.gz]
+[2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [dynamic-graphs-with-pygame]: success
+[2024-04-01 13:44:13] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip]
+[2024-04-01 13:44:13] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
+[2024-04-01 13:44:13] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2024-04-01 13:44:14] INFO root fetch - main [MainThread]: Store serial: [22568761]
