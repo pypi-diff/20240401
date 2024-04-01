@@ -15140,3 +15140,153 @@ EOFError: EOF read where object expected
 [2024-04-01 22:23:28] INFO root fetch - processPackages [fdasrsf]: Remove: archive file [/home/abi/fetcher/tmp/fdasrsf-2.5.9.tar.gz]
 [2024-04-01 22:23:28] INFO root fetch - main [MainThread]: End processing [fdasrsf]: success
 [2024-04-01 22:23:28] INFO root fetch - main [MainThread]: Store serial: [22574696]
+[2024-04-01 22:25:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574696]
+[2024-04-01 22:25:38] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-ba
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-batch
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-bda
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-bi
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python-billing
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-nessus-pro
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-bizlive
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-bm
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-bma
+[2024-04-01 22:25:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python-bmeip
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [py-nessus-pro]: New version: [1.2.0] Old Version: [1.1.4]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/73/9d/f80badd2d43e3d7842c40578884470fdeafe5337b4ed8b8c3ae92741ce7a/tencentcloud-sdk-python-ba-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/d4/3c/0d418abfac1039841ba0a6e74bba770b8a062b81b6d40a2c40d604c9ea01/tencentcloud-sdk-python-bda-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [py-nessus-pro]: Downloading https://files.pythonhosted.org/packages/be/61/de5306893a2854e077ea038725725a0f7390636ec2e179b5fd29ee6fe740/py_nessus_pro-1.1.4.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Downloading https://files.pythonhosted.org/packages/f0/fb/9666e12a7b0210a916d6bed6d603dafd691565341960731fbbcb1388bb5f/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/08/07/50b04234f7d2186c868c4a6240ec0fb207103b471734db3250e66b6e7305/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Downloading https://files.pythonhosted.org/packages/84/e4/85a88d223d519658897f3c75e894534ff07512c95041bb5f7ef666edff77/tencentcloud-sdk-python-billing-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Downloading https://files.pythonhosted.org/packages/94/d9/1ce43443df2566a69abbe8f6f90ff3c9989425fd2d5fdcf6983d59124824/tencentcloud-sdk-python-bm-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/1f/80/2087f8229c3800365b5ed599421f1c812aab22dc669fc5dde78dfc261b01/tencentcloud-sdk-python-bma-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Downloading https://files.pythonhosted.org/packages/a6/5f/7b04992ad00e61483a93d1e3c24ffc72d88d90c52339b59e90b664e805ad/tencentcloud-sdk-python-ba-3.0.999.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/84/2c/212f86ff53168584fed4fd51300747ef6f235f1dc886a9d7deb92aec4188/tencentcloud-sdk-python-batch-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Downloading https://files.pythonhosted.org/packages/61/2c/dd1a05f83bf5970094ec9cf10d3a16fceb7036457180f5a518b2492a763f/tencentcloud-sdk-python-bi-3.0.998.tar.gz
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: executing diffoscope
+[2024-04-01 22:25:38] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ba-3.0.998.tar.gz tmp/tencentcloud-sdk-python-ba-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-ba/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [py-nessus-pro]: Downloading https://files.pythonhosted.org/packages/c1/14/6f6ff6d80f2d6b3592ee4acf0a94c480fa057f2d35652500f7f4bda39de8/py_nessus_pro-1.2.0.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Downloading https://files.pythonhosted.org/packages/53/52/59484777d14af766b1e3906a5fbf026829acf3b6ae015166f4cfcba754c4/tencentcloud-sdk-python-bda-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Downloading https://files.pythonhosted.org/packages/51/b5/9dcb2f4ac38782d1f315cff1713441abbb4d8b14c2ae002870b191ee3214/tencentcloud-sdk-python-billing-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Downloading https://files.pythonhosted.org/packages/ae/b7/7ae3a22bc90573884d7622720542fe50c64e6a17e12f710ef0973e159616/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Downloading https://files.pythonhosted.org/packages/1c/95/2baff7d4f4c1eeffa5bbcf74973a379bf9f6f42b23817e5f891535ff3ff5/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Downloading https://files.pythonhosted.org/packages/11/cd/7659d8bb5189a3b345538a35453afaf3edf3f9dfe285d24a57179527fe5a/tencentcloud-sdk-python-bi-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Downloading https://files.pythonhosted.org/packages/c1/b8/8ea74081f4f187f0ea20a99d0462b7035a7032b675d1eca65b352280517c/tencentcloud-sdk-python-bma-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Downloading https://files.pythonhosted.org/packages/fa/fe/f49e20c052380b9804454af018c23280cff7f66a1c8ceaa458f744521e92/tencentcloud-sdk-python-bm-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Downloading https://files.pythonhosted.org/packages/ba/0a/fa9126fbd657ceeafa5d044c9bff15dbde88a1d5970d7c57d980a9fbd8a5/tencentcloud-sdk-python-batch-3.0.999.tar.gz
+[2024-04-01 22:25:39] INFO root fetch - processPackages [py-nessus-pro]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [py-nessus-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_nessus_pro-1.1.4.tar.gz tmp/py_nessus_pro-1.2.0.tar.gz --markdown 20240401/p/py-nessus-pro/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bda/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-billing-3.0.998.tar.gz tmp/tencentcloud-sdk-python-billing-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-billing/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bi-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bi-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bi/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bizlive/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bmeip/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-batch/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bma/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: executing diffoscope
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-bm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-bm-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-bm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.998.tar.gz]
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-ba-3.0.999.tar.gz]
+[2024-04-01 22:25:39] INFO root fetch - processPackages [tencentcloud-sdk-python-ba]: Start processing: mypy-protobuf
+[2024-04-01 22:25:39] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ba]: success
+[2024-04-01 22:25:39] INFO root fetch - processPackages [mypy-protobuf]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [mypy-protobuf]: Downloading https://files.pythonhosted.org/packages/61/10/585b0a5494c8bc6e4fe33a92eadc4f750ab192ecbdfd1d9f7fc4545c2985/mypy-protobuf-3.5.0.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [py-nessus-pro]: Remove: archive file [/home/abi/fetcher/tmp/py_nessus_pro-1.1.4.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [py-nessus-pro]: Remove: archive file [/home/abi/fetcher/tmp/py_nessus_pro-1.2.0.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [py-nessus-pro]: Start processing: rlviser-py
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [py-nessus-pro]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bda-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bda]: Start processing: girder
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bda]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [rlviser-py]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-billing-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-billing-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-billing]: Start processing: girder-audit-logs
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-billing]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bizlive-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bizlive-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bizlive]: Start processing: pulumi-aws-native
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bizlive]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [mypy-protobuf]: Downloading https://files.pythonhosted.org/packages/4d/6f/282d64d66bf48ce60e38a6560753f784e0f88ab245ac2fb5e93f701a36cd/mypy-protobuf-3.6.0.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-audit-logs]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder]: Downloading https://files.pythonhosted.org/packages/bb/ac/832a8302ce24b832d902e9dced660c141282098b1dc9d47a3d271f7b7367/girder-3.2.3.dev5.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bmeip-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bmeip]: Start processing: girder-authorized-upload
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bmeip]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bi-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bi-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bi]: Start processing: RAGAAS-first-module
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bi]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-authorized-upload]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-audit-logs]: Downloading https://files.pythonhosted.org/packages/67/fd/411a5f192d5bf0764348cdc3f0e4baa43ade6aedb5ae4df851e80819d538/girder-audit-logs-3.2.3.dev5.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-batch]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-batch-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-batch]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/d3/f3/2125d1d57e316608e991f3e7fbd9320806ebc2fac78d45494b95de59a8c9/rlviser_py-0.6.4.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [mypy-protobuf]: executing diffoscope
+[2024-04-01 22:25:40] INFO root fetch - processPackages [mypy-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-protobuf-3.5.0.tar.gz tmp/mypy-protobuf-3.6.0.tar.gz --markdown 20240401/m/mypy-protobuf/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bm-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bm-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bm]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-authorized-upload]: Downloading https://files.pythonhosted.org/packages/7e/36/531fbd450043e2c22eb33aeb49c0e73066b727f61553a57130082f9c42cf/girder-authorized-upload-3.2.3.dev5.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [pulumi-aws-native]: New version: [0.99.1a1711556734] Old Version: [0.99.1a1711140610]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.998.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - processPackages [tencentcloud-sdk-python-bma]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-bma-3.0.999.tar.gz]
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-bma]: success
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-audit-logs]: Downloading https://files.pythonhosted.org/packages/10/f6/6dc97c0543c4ad2898a6743c97d3ad7e667f43b14491d8f5b5497ac958c5/girder-audit-logs-3.2.3.dev7.tar.gz
+[2024-04-01 22:25:40] WARNING root fetch - processPackages [RAGAAS-first-module]: Skipping, unable to determine old version
+[2024-04-01 22:25:40] INFO root fetch - main [MainThread]: End processing [RAGAAS-first-module] error
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder]: Downloading https://files.pythonhosted.org/packages/e4/a8/58780404e843cc8c38c3212966e4a1b1208fe434f0a69a45b98b097d4765/girder-3.2.3.dev7.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-authorized-upload]: Downloading https://files.pythonhosted.org/packages/61/ca/1ebd4d300835bf79129e8702ecce1f848915f663dd8b8e0fdfe3c2145082/girder-authorized-upload-3.2.3.dev7.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-audit-logs]: executing diffoscope
+[2024-04-01 22:25:40] INFO root fetch - processPackages [girder-audit-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-audit-logs-3.2.3.dev5.tar.gz tmp/girder-audit-logs-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-audit-logs/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:25:40] INFO root fetch - processPackages [rlviser-py]: Downloading https://files.pythonhosted.org/packages/ff/88/54a77d0292c919c4e1cfad65a689b1b1f395f145d0181180d4586bd545a7/rlviser_py-0.6.5.tar.gz
+[2024-04-01 22:25:40] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/19/c7/d03ea0c1414fd20fb080e9a3bd37d113e50575a061fa505b7748f059ce83/pulumi_aws_native-0.99.1a1711140610.tar.gz
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-authorized-upload]: executing diffoscope
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-authorized-upload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-authorized-upload-3.2.3.dev5.tar.gz tmp/girder-authorized-upload-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-authorized-upload/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder]: executing diffoscope
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-3.2.3.dev5.tar.gz tmp/girder-3.2.3.dev7.tar.gz --markdown 20240401/g/girder/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 22:25:41] INFO root fetch - processPackages [rlviser-py]: executing diffoscope
+[2024-04-01 22:25:41] INFO root fetch - processPackages [rlviser-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rlviser_py-0.6.4.tar.gz tmp/rlviser_py-0.6.5.tar.gz --markdown 20240401/r/rlviser-py/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-01 22:25:41] INFO root fetch - processPackages [mypy-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/mypy-protobuf-3.5.0.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - processPackages [mypy-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/mypy-protobuf-3.6.0.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - main [MainThread]: End processing [mypy-protobuf]: success
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-audit-logs]: Remove: archive file [/home/abi/fetcher/tmp/girder-audit-logs-3.2.3.dev5.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-audit-logs]: Remove: archive file [/home/abi/fetcher/tmp/girder-audit-logs-3.2.3.dev7.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - main [MainThread]: End processing [girder-audit-logs]: success
+[2024-04-01 22:25:41] INFO root fetch - processPackages [pulumi-aws-native]: Downloading https://files.pythonhosted.org/packages/d0/0e/7e16c6b89142943493d6c6bd57d07580a6118b74b519c157fd40acdf71b7/pulumi_aws_native-0.99.1a1711556734.tar.gz
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-authorized-upload]: Remove: archive file [/home/abi/fetcher/tmp/girder-authorized-upload-3.2.3.dev5.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - processPackages [girder-authorized-upload]: Remove: archive file [/home/abi/fetcher/tmp/girder-authorized-upload-3.2.3.dev7.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - main [MainThread]: End processing [girder-authorized-upload]: success
+[2024-04-01 22:25:41] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.6.4.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - processPackages [rlviser-py]: Remove: archive file [/home/abi/fetcher/tmp/rlviser_py-0.6.5.tar.gz]
+[2024-04-01 22:25:41] INFO root fetch - main [MainThread]: End processing [rlviser-py]: success
+[2024-04-01 22:25:41] INFO root fetch - processPackages [pulumi-aws-native]: executing diffoscope
+[2024-04-01 22:25:41] INFO root fetch - processPackages [pulumi-aws-native]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz --markdown 20240401/p/pulumi-aws-native/0.99.1a1711140610-0.99.1a1711556734/diff.md --exclude *.pyd
+[2024-04-01 22:25:43] INFO root fetch - processPackages [girder]: Remove: archive file [/home/abi/fetcher/tmp/girder-3.2.3.dev5.tar.gz]
+[2024-04-01 22:25:43] INFO root fetch - processPackages [girder]: Remove: archive file [/home/abi/fetcher/tmp/girder-3.2.3.dev7.tar.gz]
+[2024-04-01 22:25:43] INFO root fetch - main [MainThread]: End processing [girder]: success
+[2024-04-01 22:25:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711140610.tar.gz]
+[2024-04-01 22:25:56] INFO root fetch - processPackages [pulumi-aws-native]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws_native-0.99.1a1711556734.tar.gz]
+[2024-04-01 22:25:56] INFO root fetch - main [MainThread]: End processing [pulumi-aws-native]: success
+[2024-04-01 22:25:56] INFO root fetch - main [MainThread]: Store serial: [22574747]
