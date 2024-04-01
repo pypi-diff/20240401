@@ -5095,3 +5095,96 @@ EOFError: EOF read where object expected
 [2024-04-01 15:57:22] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.1.tar.gz]
 [2024-04-01 15:57:22] INFO root fetch - main [MainThread]: End processing [pybts]: success
 [2024-04-01 15:57:22] INFO root fetch - main [MainThread]: Store serial: [22569968]
+[2024-04-01 15:59:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569968]
+[2024-04-01 15:59:31] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paperplotlib
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libdyson-neon
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinyoffice
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secsend
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secsend-api
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: secsend-webapp
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: airflow-dbt-winwin
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: approxscimate
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: klingon-serial
+[2024-04-01 15:59:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ficamp
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [approxscimate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-webapp]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-api]: New version: [1.1.0] Old Version: [1.0.0rc0]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [libdyson-neon]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [airflow-dbt-winwin]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [klingon-serial]: New version: [0.1.15] Old Version: [0.1.14]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [paperplotlib]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [tinyoffice]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [ficamp]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend]: Downloading https://files.pythonhosted.org/packages/b8/0b/171ba275c1d9fb19da9c8e2c2b2398075b220be302e62598b12deca50155/secsend-1.0.0rc0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/ad/a0/850d87d31b2d5944a2af7bd1103758b8b1be3cfacb866ffeb196769fa861/approxscimate-0.0.1.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-webapp]: Downloading https://files.pythonhosted.org/packages/07/c5/2dfe74d52f4c9297b5a2d0784f820c97c19e4acc80eae5a74da6c7902bed/secsend_webapp-1.0.0rc0-py3-none-any.whl
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-api]: Downloading https://files.pythonhosted.org/packages/6f/a7/7daaf39ab6d64a5dc0e1dc5f00aeef465e43a3989ac79601b93b03914639/secsend_api-1.0.0rc0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [libdyson-neon]: Downloading https://files.pythonhosted.org/packages/1f/07/fa58531a7fe59a5e667d8a843f3459b1b9526a98044cab2d6d65ea565450/libdyson-neon-1.4.0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [paperplotlib]: Downloading https://files.pythonhosted.org/packages/57/18/3fb710d227a2ac789a1d6b52f4b2b5a7460c733e614d865ef55f7defd3b4/paperplotlib-0.0.1.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [airflow-dbt-winwin]: Downloading https://files.pythonhosted.org/packages/49/74/d53031da133e7fbab5366f7ce574e41972417208839366cf4c89da5cfc2f/airflow-dbt-winwin-0.5.8.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [klingon-serial]: Downloading https://files.pythonhosted.org/packages/f8/00/4e1f7e61830d941bcd9851fbc41722b3f8e7a4366d21fa079b6da1b61758/klingon-serial-0.1.14.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [tinyoffice]: Downloading https://files.pythonhosted.org/packages/30/8c/615922fb2a4a48f8464192bcabf627931f212e69502bc33f2ccfb91ea81e/tinyoffice-0.0.2.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [ficamp]: Downloading https://files.pythonhosted.org/packages/40/9e/f6c7c1fb3536127c3ddf55569d285306a1a474d2fa65db1cbe70c1c12ec6/ficamp-0.8.0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [approxscimate]: Downloading https://files.pythonhosted.org/packages/91/0d/94e55a8efcd75ab2d10242c10dacce3e6034f291e190d38790c71f1bbbd9/approxscimate-0.0.2.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-webapp]: Downloading https://files.pythonhosted.org/packages/ed/c7/2bba96a52953813444ed52438c2949e95653ba6bf1892a9cabc03896a76e/secsend_webapp-1.1.0-py3-none-any.whl
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend]: Downloading https://files.pythonhosted.org/packages/34/db/12d32972dc24abf776ecb83b6dc3cf62a5b2f67347366b0b1ab13a32fda7/secsend-1.1.0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-api]: Downloading https://files.pythonhosted.org/packages/38/e6/e8d723c07a52336ed43eac8a22105f47ca7fc1cee5a662d8c245c58fa9b2/secsend_api-1.1.0.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [approxscimate]: executing diffoscope
+[2024-04-01 15:59:32] INFO root fetch - processPackages [approxscimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approxscimate-0.0.1.tar.gz tmp/approxscimate-0.0.2.tar.gz --markdown 20240401/a/approxscimate/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend]: executing diffoscope
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend-1.0.0rc0.tar.gz tmp/secsend-1.1.0.tar.gz --markdown 20240401/s/secsend/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-api]: executing diffoscope
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend_api-1.0.0rc0.tar.gz tmp/secsend_api-1.1.0.tar.gz --markdown 20240401/s/secsend-api/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-webapp]: executing diffoscope
+[2024-04-01 15:59:32] INFO root fetch - processPackages [secsend-webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secsend_webapp-1.0.0rc0-py3-none-any.whl.zip tmp/secsend_webapp-1.1.0-py3-none-any.whl.zip --markdown 20240401/s/secsend-webapp/1.0.0rc0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:59:32] INFO root fetch - processPackages [libdyson-neon]: Downloading https://files.pythonhosted.org/packages/3c/04/0471062ef3644d5c567a43144b2703e750026b0a6df040b6bfec4dee09e5/libdyson-neon-1.4.1.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [paperplotlib]: Downloading https://files.pythonhosted.org/packages/7d/8d/bdbc0d9b5e3d06e8cefea5041d0201600927429074ac13995f9daa7adf9a/paperplotlib-0.0.2.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [tinyoffice]: Downloading https://files.pythonhosted.org/packages/7b/15/b72ffd7c7d1b7334d8fb9b52803558fc190f5ac553298d790fe6109372fa/tinyoffice-0.0.3.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [klingon-serial]: Downloading https://files.pythonhosted.org/packages/fc/21/7f45911a13b68f9b154a7b3a7c378f5d3f04910d749442e164d927296cc6/klingon-serial-0.1.15.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [airflow-dbt-winwin]: Downloading https://files.pythonhosted.org/packages/13/df/deddbb6aa40cc624b4fe45784ade52c0541362538433da6056e6ea7b299f/airflow-dbt-winwin-0.5.9.tar.gz
+[2024-04-01 15:59:32] INFO root fetch - processPackages [ficamp]: Downloading https://files.pythonhosted.org/packages/ad/90/797551bc66beb0e5f7ffa31c680e42a6ed0e79b0ffd00e9bc575af0e347d/ficamp-0.9.0.tar.gz
+[2024-04-01 15:59:33] INFO root fetch - processPackages [paperplotlib]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [paperplotlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperplotlib-0.0.1.tar.gz tmp/paperplotlib-0.0.2.tar.gz --markdown 20240401/p/paperplotlib/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [tinyoffice]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [tinyoffice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinyoffice-0.0.2.tar.gz tmp/tinyoffice-0.0.3.tar.gz --markdown 20240401/t/tinyoffice/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [airflow-dbt-winwin]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [airflow-dbt-winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airflow-dbt-winwin-0.5.8.tar.gz tmp/airflow-dbt-winwin-0.5.9.tar.gz --markdown 20240401/a/airflow-dbt-winwin/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [libdyson-neon]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [libdyson-neon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdyson-neon-1.4.0.tar.gz tmp/libdyson-neon-1.4.1.tar.gz --markdown 20240401/l/libdyson-neon/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [ficamp]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [ficamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ficamp-0.8.0.tar.gz tmp/ficamp-0.9.0.tar.gz --markdown 20240401/f/ficamp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [klingon-serial]: executing diffoscope
+[2024-04-01 15:59:33] INFO root fetch - processPackages [klingon-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klingon-serial-0.1.14.tar.gz tmp/klingon-serial-0.1.15.tar.gz --markdown 20240401/k/klingon-serial/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2024-04-01 15:59:33] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.1.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - processPackages [approxscimate]: Remove: archive file [/home/abi/fetcher/tmp/approxscimate-0.0.2.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - main [MainThread]: End processing [approxscimate]: success
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend]: Remove: archive file [/home/abi/fetcher/tmp/secsend-1.0.0rc0.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend]: Remove: archive file [/home/abi/fetcher/tmp/secsend-1.1.0.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - main [MainThread]: End processing [secsend]: success
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend-api]: Remove: archive file [/home/abi/fetcher/tmp/secsend_api-1.0.0rc0.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend-api]: Remove: archive file [/home/abi/fetcher/tmp/secsend_api-1.1.0.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - main [MainThread]: End processing [secsend-api]: success
+[2024-04-01 15:59:33] INFO root fetch - processPackages [paperplotlib]: Remove: archive file [/home/abi/fetcher/tmp/paperplotlib-0.0.1.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - processPackages [paperplotlib]: Remove: archive file [/home/abi/fetcher/tmp/paperplotlib-0.0.2.tar.gz]
+[2024-04-01 15:59:33] INFO root fetch - main [MainThread]: End processing [paperplotlib]: success
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend-webapp]: Remove: archive file [/home/abi/fetcher/tmp/secsend_webapp-1.0.0rc0-py3-none-any.whl.zip]
+[2024-04-01 15:59:33] INFO root fetch - processPackages [secsend-webapp]: Remove: archive file [/home/abi/fetcher/tmp/secsend_webapp-1.1.0-py3-none-any.whl.zip]
+[2024-04-01 15:59:33] INFO root fetch - main [MainThread]: End processing [secsend-webapp]: success
+[2024-04-01 15:59:34] INFO root fetch - processPackages [airflow-dbt-winwin]: Remove: archive file [/home/abi/fetcher/tmp/airflow-dbt-winwin-0.5.8.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - processPackages [airflow-dbt-winwin]: Remove: archive file [/home/abi/fetcher/tmp/airflow-dbt-winwin-0.5.9.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [airflow-dbt-winwin]: success
+[2024-04-01 15:59:34] INFO root fetch - processPackages [ficamp]: Remove: archive file [/home/abi/fetcher/tmp/ficamp-0.8.0.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - processPackages [ficamp]: Remove: archive file [/home/abi/fetcher/tmp/ficamp-0.9.0.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [ficamp]: success
+[2024-04-01 15:59:34] INFO root fetch - processPackages [tinyoffice]: Remove: archive file [/home/abi/fetcher/tmp/tinyoffice-0.0.2.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - processPackages [tinyoffice]: Remove: archive file [/home/abi/fetcher/tmp/tinyoffice-0.0.3.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [tinyoffice]: success
+[2024-04-01 15:59:34] INFO root fetch - processPackages [klingon-serial]: Remove: archive file [/home/abi/fetcher/tmp/klingon-serial-0.1.14.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - processPackages [klingon-serial]: Remove: archive file [/home/abi/fetcher/tmp/klingon-serial-0.1.15.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [klingon-serial]: success
+[2024-04-01 15:59:34] INFO root fetch - processPackages [libdyson-neon]: Remove: archive file [/home/abi/fetcher/tmp/libdyson-neon-1.4.0.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - processPackages [libdyson-neon]: Remove: archive file [/home/abi/fetcher/tmp/libdyson-neon-1.4.1.tar.gz]
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [libdyson-neon]: success
+[2024-04-01 15:59:34] INFO root fetch - main [MainThread]: Store serial: [22570010]
