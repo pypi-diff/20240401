@@ -9656,3 +9656,90 @@ EOFError: EOF read where object expected
 [2024-04-01 18:41:21] INFO root fetch - processPackages [girder-ldap]: Remove: archive file [/home/abi/fetcher/tmp/girder-ldap-3.2.3.dev7.tar.gz]
 [2024-04-01 18:41:21] INFO root fetch - main [MainThread]: End processing [girder-ldap]: success
 [2024-04-01 18:41:21] INFO root fetch - main [MainThread]: Store serial: [22572226]
+[2024-04-01 18:43:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572226]
+[2024-04-01 18:43:29] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: girder-oauth
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: girder-readme
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: girder-sentry
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: girder-terms
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: girder-thumbnails
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-user-quota
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: girder-virtual-folders
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-girder
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: girder-client
+[2024-04-01 18:43:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: amilib
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-readme]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] WARNING root fetch - processPackages [amilib]: Skipping, unable to determine old version
+[2024-04-01 18:43:30] INFO root fetch - main [MainThread]: End processing [amilib] error
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-user-quota]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-oauth]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-terms]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [pytest-girder]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-virtual-folders]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-sentry]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-thumbnails]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-client]: New version: [3.2.3.dev7] Old Version: [3.2.3.dev5]
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/e3/09/af4c16f635c26de4a75ea2e085b63d7066af3418db484ad3a056e28fdb4f/girder-readme-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/09/16/4e3b07b3debfa1f4326c0f672a0466b13017bae296e71036845ea489478b/girder-user-quota-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/55/79/e83e84232939e7e331ac7a86d6e479f2c170933327c1000f96d61f2972a4/pytest-girder-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/a1/e3/0d9b06d667dd5eadb5e5498b42d550c36cf47328fd510e9dc4bebe9af9de/girder-oauth-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/5b/bd/33389cbe3f758373ca0171919a7a70545ca382e2d0a8941886d3e815325f/girder-terms-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/46/92/ebe52626933343d93db653d989f9e9e0a5d205733a5adf8b07d2bf2fa2b6/girder-virtual-folders-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/fe/27/1f59718bacbd1e4569b335657473fe40123e059e4e50d0584058defce89e/girder-sentry-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/79/5d/2361f8c2b1103bc464a33d33e57e9a0b06af38cdd167ceab41bfd97460e7/girder-thumbnails-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/9f/50/dbb27d4e42390f11e295a23bd65334542efa84aa41e022ed20bfbeb376b3/girder-client-3.2.3.dev5.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-readme]: Downloading https://files.pythonhosted.org/packages/f1/c9/a3d5bebf78d852d680a2e9ad7f006ac7b8d41a2949475dbaeb78d3b077f1/girder-readme-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-user-quota]: Downloading https://files.pythonhosted.org/packages/5d/11/61920810b8648fc07e496f621a37a290fe46e6fbbb78623a05a7c748795b/girder-user-quota-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [pytest-girder]: Downloading https://files.pythonhosted.org/packages/ac/b9/d2ff2b9a9e8bd5ae79ef906d828f9812c83989b4221d4f706f2ec21c43ab/pytest-girder-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-virtual-folders]: Downloading https://files.pythonhosted.org/packages/5a/4b/3baaa839f702a8db5a4f8665cfec84d16bd6ea11d8fb744a5c35de8f7177/girder-virtual-folders-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-readme]: executing diffoscope
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-readme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-readme-3.2.3.dev5.tar.gz tmp/girder-readme-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-readme/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-terms]: Downloading https://files.pythonhosted.org/packages/3d/0a/aab9ec6e89f6c7bb6f29b4920f11b298c950d9a1d10863660d496f884225/girder-terms-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-thumbnails]: Downloading https://files.pythonhosted.org/packages/e6/16/7116c97d79d43a1344f13e0f045548b84dfc42231ca640be5e33a954b62f/girder-thumbnails-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:30] INFO root fetch - processPackages [girder-sentry]: Downloading https://files.pythonhosted.org/packages/25/bc/fdc6ea8041206b55fe77a5ed07f380e0f3aafe320d2a050133931783b8d8/girder-sentry-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-oauth]: Downloading https://files.pythonhosted.org/packages/98/4a/8397d9e258efe1e778175311030708857af30e6a5ce579f9178d1ba618e3/girder-oauth-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-user-quota]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-user-quota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-user-quota-3.2.3.dev5.tar.gz tmp/girder-user-quota-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-user-quota/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [pytest-girder]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [pytest-girder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-girder-3.2.3.dev5.tar.gz tmp/pytest-girder-3.2.3.dev7.tar.gz --markdown 20240401/p/pytest-girder/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-client]: Downloading https://files.pythonhosted.org/packages/ce/65/b4c4d8ccbf986773b775d9b89cffee1657ba23c14285ac06da2d8db3b1c0/girder-client-3.2.3.dev7.tar.gz
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-virtual-folders]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-virtual-folders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-virtual-folders-3.2.3.dev5.tar.gz tmp/girder-virtual-folders-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-virtual-folders/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-thumbnails]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-thumbnails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-thumbnails-3.2.3.dev5.tar.gz tmp/girder-thumbnails-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-thumbnails/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-sentry]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-sentry-3.2.3.dev5.tar.gz tmp/girder-sentry-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-sentry/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-terms]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-terms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-terms-3.2.3.dev5.tar.gz tmp/girder-terms-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-terms/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-oauth]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-oauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-oauth-3.2.3.dev5.tar.gz tmp/girder-oauth-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-oauth/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-client]: executing diffoscope
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-client-3.2.3.dev5.tar.gz tmp/girder-client-3.2.3.dev7.tar.gz --markdown 20240401/g/girder-client/3.2.3.dev5-3.2.3.dev7/diff.md --exclude *.pyd
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-readme]: Remove: archive file [/home/abi/fetcher/tmp/girder-readme-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:31] INFO root fetch - main [MainThread]: End processing [girder-readme]: success
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:31] INFO root fetch - processPackages [girder-terms]: Remove: archive file [/home/abi/fetcher/tmp/girder-terms-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:31] INFO root fetch - main [MainThread]: End processing [girder-terms]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-sentry]: Remove: archive file [/home/abi/fetcher/tmp/girder-sentry-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-sentry]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder-virtual-folders-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-virtual-folders]: Remove: archive file [/home/abi/fetcher/tmp/girder-virtual-folders-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-virtual-folders]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder-thumbnails-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-thumbnails]: Remove: archive file [/home/abi/fetcher/tmp/girder-thumbnails-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-thumbnails]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-client]: Remove: archive file [/home/abi/fetcher/tmp/girder-client-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-client]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-oauth]: Remove: archive file [/home/abi/fetcher/tmp/girder-oauth-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-oauth]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder-user-quota-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [girder-user-quota]: Remove: archive file [/home/abi/fetcher/tmp/girder-user-quota-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [girder-user-quota]: success
+[2024-04-01 18:43:32] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.3.dev5.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.3.dev7.tar.gz]
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [pytest-girder]: success
+[2024-04-01 18:43:32] INFO root fetch - main [MainThread]: Store serial: [22572271]
