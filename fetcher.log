@@ -5188,3 +5188,33 @@ EOFError: EOF read where object expected
 [2024-04-01 15:59:34] INFO root fetch - processPackages [libdyson-neon]: Remove: archive file [/home/abi/fetcher/tmp/libdyson-neon-1.4.1.tar.gz]
 [2024-04-01 15:59:34] INFO root fetch - main [MainThread]: End processing [libdyson-neon]: success
 [2024-04-01 15:59:34] INFO root fetch - main [MainThread]: Store serial: [22570010]
+[2024-04-01 16:01:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570010]
+[2024-04-01 16:01:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 16:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cisco-acl
+[2024-04-01 16:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-displayio-sh1107
+[2024-04-01 16:01:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clustroai-sdk
+[2024-04-01 16:01:43] INFO root fetch - processPackages [cisco-acl]: New version: [3.2.4] Old Version: [3.2.3]
+[2024-04-01 16:01:43] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: New version: [1.7.0] Old Version: [1.6.2]
+[2024-04-01 16:01:43] INFO root fetch - processPackages [clustroai-sdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 16:01:43] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/90/2e/ce312c4a37f54f862c543f07977a9f7762ca0b8e72b81098922daa4928a4/cisco_acl-3.2.3.tar.gz
+[2024-04-01 16:01:43] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: Downloading https://files.pythonhosted.org/packages/a5/bb/0983443bfeefd7bf823bd22365994704c2434b9d9e5805be2ac5288fefab/adafruit-circuitpython-displayio-sh1107-1.6.2.tar.gz
+[2024-04-01 16:01:43] INFO root fetch - processPackages [clustroai-sdk]: Downloading https://files.pythonhosted.org/packages/4c/bb/0dd29e862b6ef559e7ba3607a41651da297925591a599ba9f02aa27a7c2e/clustroai_sdk-0.1.1-py3-none-any.whl
+[2024-04-01 16:01:43] INFO root fetch - processPackages [cisco-acl]: Downloading https://files.pythonhosted.org/packages/04/c0/72d92f445bc06936daeeeefd78939d511ea0679252139ceabe92d4e93a89/cisco_acl-3.2.4.tar.gz
+[2024-04-01 16:01:43] INFO root fetch - processPackages [clustroai-sdk]: Downloading https://files.pythonhosted.org/packages/87/f7/cccb2b8b822ec4fe76b74cdf027e38665ec366dc6215c2247b9be4eb1595/clustroai_sdk-0.1.2-py3-none-any.whl
+[2024-04-01 16:01:43] INFO root fetch - processPackages [cisco-acl]: executing diffoscope
+[2024-04-01 16:01:43] INFO root fetch - processPackages [cisco-acl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cisco_acl-3.2.3.tar.gz tmp/cisco_acl-3.2.4.tar.gz --markdown 20240401/c/cisco-acl/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: Downloading https://files.pythonhosted.org/packages/41/fd/a1ab3c1e5941a8df6d2bc2d265bc192854eadab9244b7c358691c2ff78df/adafruit-circuitpython-displayio-sh1107-1.7.0.tar.gz
+[2024-04-01 16:01:44] INFO root fetch - processPackages [clustroai-sdk]: executing diffoscope
+[2024-04-01 16:01:44] INFO root fetch - processPackages [clustroai-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustroai_sdk-0.1.1-py3-none-any.whl.zip tmp/clustroai_sdk-0.1.2-py3-none-any.whl.zip --markdown 20240401/c/clustroai-sdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: executing diffoscope
+[2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-displayio-sh1107-1.6.2.tar.gz tmp/adafruit-circuitpython-displayio-sh1107-1.7.0.tar.gz --markdown 20240401/a/adafruit-circuitpython-displayio-sh1107/1.6.2-1.7.0/diff.md --exclude *.pyd
+[2024-04-01 16:01:44] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.2.3.tar.gz]
+[2024-04-01 16:01:44] INFO root fetch - processPackages [cisco-acl]: Remove: archive file [/home/abi/fetcher/tmp/cisco_acl-3.2.4.tar.gz]
+[2024-04-01 16:01:44] INFO root fetch - main [MainThread]: End processing [cisco-acl]: success
+[2024-04-01 16:01:44] INFO root fetch - processPackages [clustroai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/clustroai_sdk-0.1.1-py3-none-any.whl.zip]
+[2024-04-01 16:01:44] INFO root fetch - processPackages [clustroai-sdk]: Remove: archive file [/home/abi/fetcher/tmp/clustroai_sdk-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 16:01:44] INFO root fetch - main [MainThread]: End processing [clustroai-sdk]: success
+[2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-displayio-sh1107-1.6.2.tar.gz]
+[2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-displayio-sh1107-1.7.0.tar.gz]
+[2024-04-01 16:01:44] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-displayio-sh1107]: success
+[2024-04-01 16:01:44] INFO root fetch - main [MainThread]: Store serial: [22570017]
