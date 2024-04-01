@@ -2553,3 +2553,27 @@ EOFError: EOF read where object expected
 [2024-04-01 13:49:09] INFO root fetch - processPackages [clams-python]: Remove: archive file [/home/abi/fetcher/tmp/clams-python-1.1.5.tar.gz]
 [2024-04-01 13:49:09] INFO root fetch - main [MainThread]: End processing [clams-python]: success
 [2024-04-01 13:49:09] INFO root fetch - main [MainThread]: Store serial: [22568790]
+[2024-04-01 13:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568790]
+[2024-04-01 13:51:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzuoyz
+[2024-04-01 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: par-run
+[2024-04-01 13:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocat
+[2024-04-01 13:51:34] INFO root fetch - processPackages [pyzuoyz]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 13:51:34] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/59/12/4446d16e1f7b880c833117e72b3b9ed33340fdb507cd6706e51731e8c7dc/pyzuoyz-0.1.2.tar.gz
+[2024-04-01 13:51:34] WARNING root fetch - processPackages [rocat]: Skipping, unable to determine old version
+[2024-04-01 13:51:34] INFO root fetch - main [MainThread]: End processing [rocat] error
+[2024-04-01 13:51:34] INFO root fetch - processPackages [par-run]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 13:51:34] INFO root fetch - processPackages [par-run]: Downloading https://files.pythonhosted.org/packages/8b/4e/ac0048b2bc58da99973602954f0165e0f5fcb372ecc00857a2fd42e8e04c/par_run-0.1.3.tar.gz
+[2024-04-01 13:51:34] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/7a/c6/209eee5a5d30ee84f0932e080a63ade01c2604e02fb83e36541a544be0af/pyzuoyz-0.1.3.tar.gz
+[2024-04-01 13:51:34] INFO root fetch - processPackages [pyzuoyz]: executing diffoscope
+[2024-04-01 13:51:34] INFO root fetch - processPackages [pyzuoyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzuoyz-0.1.2.tar.gz tmp/pyzuoyz-0.1.3.tar.gz --markdown 20240401/p/pyzuoyz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 13:51:34] INFO root fetch - processPackages [par-run]: Downloading https://files.pythonhosted.org/packages/c3/93/aae2aba80ba5be01995799b0ecc6bbb5d98a2efa3cddb9dfd23f0c2f2e5f/par_run-0.1.4.tar.gz
+[2024-04-01 13:51:34] INFO root fetch - processPackages [par-run]: executing diffoscope
+[2024-04-01 13:51:34] INFO root fetch - processPackages [par-run]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/par_run-0.1.3.tar.gz tmp/par_run-0.1.4.tar.gz --markdown 20240401/p/par-run/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 13:51:35] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.2.tar.gz]
+[2024-04-01 13:51:35] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.3.tar.gz]
+[2024-04-01 13:51:35] INFO root fetch - main [MainThread]: End processing [pyzuoyz]: success
+[2024-04-01 13:51:35] INFO root fetch - processPackages [par-run]: Remove: archive file [/home/abi/fetcher/tmp/par_run-0.1.3.tar.gz]
+[2024-04-01 13:51:35] INFO root fetch - processPackages [par-run]: Remove: archive file [/home/abi/fetcher/tmp/par_run-0.1.4.tar.gz]
+[2024-04-01 13:51:35] INFO root fetch - main [MainThread]: End processing [par-run]: success
+[2024-04-01 13:51:35] INFO root fetch - main [MainThread]: Store serial: [22568801]
