@@ -11004,3 +11004,75 @@ EOFError: EOF read where object expected
 [2024-04-01 19:37:41] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.3.4.tar.gz]
 [2024-04-01 19:37:41] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2024-04-01 19:37:41] INFO root fetch - main [MainThread]: Store serial: [22572844]
+[2024-04-01 19:39:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572844]
+[2024-04-01 19:39:52] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: makdo
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datadd-client
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lastmile-eval
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadd
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drapi-lemur
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: drf-appkit
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyNetCheck
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chalkpy
+[2024-04-01 19:39:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-01 19:39:52] WARNING root fetch - processPackages [datadd-client]: Skipping, unable to determine old version
+[2024-04-01 19:39:52] INFO root fetch - main [MainThread]: End processing [datadd-client] error
+[2024-04-01 19:39:52] INFO root fetch - processPackages [makdo]: New version: [7.0] Old Version: [6.0]
+[2024-04-01 19:39:52] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 19:39:52] INFO root fetch - processPackages [PyNetCheck]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/3e/5b/5bfdc65218ade3245d4acca327f837b703a02117e393630ec6d424bea64e/drapi-lemur-1.0.4.tar.gz
+[2024-04-01 19:39:52] WARNING root fetch - processPackages [datadd]: Skipping, unable to determine old version
+[2024-04-01 19:39:52] INFO root fetch - main [MainThread]: End processing [datadd] error
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drf-appkit]: New version: [1.4.0] Old Version: [1.3.9]
+[2024-04-01 19:39:52] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 19:39:52] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/19/c2/382daff14aad1d9841b0f33255ad4655f25a43a8fb1e5decf3ae2e76745b/makdo-6.0-py3-none-any.whl
+[2024-04-01 19:39:52] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/8c/d2/04d791058f333586da844d5537012791c0a6699c34ef6dcac1d548ca2399/lastmile-eval-0.0.3.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drf-appkit]: Downloading https://files.pythonhosted.org/packages/94/60/2630f2fda7e933d05ec2e28db126a28c13adaeb058992f3a59b59999d014/drf-appkit-1.3.9.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [PyNetCheck]: Downloading https://files.pythonhosted.org/packages/d2/29/41cdfb66d554eb76151639859b0e5e1880b48c2a491112abd08016ae4140/pynetcheck-0.2.4.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi-lemur-1.0.4.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240401/d/drapi-lemur/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-01 19:39:52] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/ad/40/2de0b564f0651b488b2901648d6808e8b56370ecd895ef3ec7943d7437ca/lastmile-eval-0.0.4.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/94/9b/5cf40794f8d67804d86086f236c8f7f3cc5ac22069bf3cdd97c819a9d84e/makdo-7.0.tar.gz
+[2024-04-01 19:39:52] INFO root fetch - processPackages [drf-appkit]: Downloading https://files.pythonhosted.org/packages/07/cd/06eb5b255c521ac347e18487107eac2f4237207522adfb51320413fb314e/drf-appkit-1.4.0.tar.gz
+[2024-04-01 19:39:53] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-04-01 19:39:53] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile-eval-0.0.3.tar.gz tmp/lastmile-eval-0.0.4.tar.gz --markdown 20240401/l/lastmile-eval/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 19:39:53] INFO root fetch - processPackages [makdo]: executing diffoscope
+[2024-04-01 19:39:53] INFO root fetch - processPackages [makdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makdo-6.0-py3-none-any.whl.zip tmp/makdo-7.0.tar.gz --markdown 20240401/m/makdo/6.0-7.0/diff.md --exclude *.pyd
+[2024-04-01 19:39:53] INFO root fetch - processPackages [drf-appkit]: executing diffoscope
+[2024-04-01 19:39:53] INFO root fetch - processPackages [drf-appkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-appkit-1.3.9.tar.gz tmp/drf-appkit-1.4.0.tar.gz --markdown 20240401/d/drf-appkit/1.3.9-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 19:39:53] INFO root fetch - processPackages [PyNetCheck]: Downloading https://files.pythonhosted.org/packages/2c/57/fbd638c6d5f14f46c4847061a78d5808230ce01c211659d36ae8791f0c87/pynetcheck-0.2.5.tar.gz
+[2024-04-01 19:39:53] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-01 19:39:53] INFO root fetch - processPackages [kcli]: New version: [99.0.202404011739] Old Version: [99.0.202404010855]
+[2024-04-01 19:39:53] INFO root fetch - processPackages [PyNetCheck]: executing diffoscope
+[2024-04-01 19:39:53] INFO root fetch - processPackages [PyNetCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynetcheck-0.2.4.tar.gz tmp/pynetcheck-0.2.5.tar.gz --markdown 20240401/P/PyNetCheck/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-01 19:39:53] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-01 19:39:53] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240401/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 19:39:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/15/a4/db617683a4f4d998b69b02969b41d1c72aa5ccf9fad47ee2a7c1e5577a8b/kcli-99.0.202404010855.tar.gz
+[2024-04-01 19:39:53] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.3.tar.gz]
+[2024-04-01 19:39:53] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.4.tar.gz]
+[2024-04-01 19:39:53] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-04-01 19:39:53] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/84/e8/674346db40eddf6dd7864976430429c7f50e18cace703a5763a3acba3055/kcli-99.0.202404011739-py3-none-any.whl
+[2024-04-01 19:39:53] INFO root fetch - processPackages [PyNetCheck]: Remove: archive file [/home/abi/fetcher/tmp/pynetcheck-0.2.4.tar.gz]
+[2024-04-01 19:39:53] INFO root fetch - processPackages [PyNetCheck]: Remove: archive file [/home/abi/fetcher/tmp/pynetcheck-0.2.5.tar.gz]
+[2024-04-01 19:39:53] INFO root fetch - main [MainThread]: End processing [PyNetCheck]: success
+[2024-04-01 19:39:53] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-6.0-py3-none-any.whl.zip]
+[2024-04-01 19:39:53] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.0.tar.gz]
+[2024-04-01 19:39:53] INFO root fetch - main [MainThread]: End processing [makdo]: success
+[2024-04-01 19:39:54] INFO root fetch - processPackages [drf-appkit]: Remove: archive file [/home/abi/fetcher/tmp/drf-appkit-1.3.9.tar.gz]
+[2024-04-01 19:39:54] INFO root fetch - processPackages [drf-appkit]: Remove: archive file [/home/abi/fetcher/tmp/drf-appkit-1.4.0.tar.gz]
+[2024-04-01 19:39:54] INFO root fetch - main [MainThread]: End processing [drf-appkit]: success
+[2024-04-01 19:39:54] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.4.tar.gz]
+[2024-04-01 19:39:54] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-04-01 19:39:54] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-04-01 19:39:54] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-01 19:39:54] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404010855.tar.gz tmp/kcli-99.0.202404011739-py3-none-any.whl.zip --markdown 20240401/k/kcli/99.0.202404010855-99.0.202404011739/diff.md --exclude *.pyd
+[2024-04-01 19:39:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404010855.tar.gz]
+[2024-04-01 19:39:55] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404011739-py3-none-any.whl.zip]
+[2024-04-01 19:39:55] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-01 19:39:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-01 19:39:55] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-01 19:39:55] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-01 19:39:55] INFO root fetch - main [MainThread]: Store serial: [22572874]
