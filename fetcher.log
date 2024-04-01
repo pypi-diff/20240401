@@ -9743,3 +9743,70 @@ EOFError: EOF read where object expected
 [2024-04-01 18:43:32] INFO root fetch - processPackages [pytest-girder]: Remove: archive file [/home/abi/fetcher/tmp/pytest-girder-3.2.3.dev7.tar.gz]
 [2024-04-01 18:43:32] INFO root fetch - main [MainThread]: End processing [pytest-girder]: success
 [2024-04-01 18:43:32] INFO root fetch - main [MainThread]: Store serial: [22572271]
+[2024-04-01 18:45:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572271]
+[2024-04-01 18:45:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pct
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simplebox
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medor
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dateroll
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-bank-python
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quantumspectra-2024
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-id-python
+[2024-04-01 18:45:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplebox
+[2024-04-01 18:45:41] INFO root fetch - processPackages [quantumspectra-2024]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [pct]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a186] Old Version: [0.0.1a185]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a186] Old Version: [0.0.1a185]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [quantumspectra-2024]: Downloading https://files.pythonhosted.org/packages/78/45/3b977d968d070a370eb7ec9c6bf5d5c03d6c39b78c70fd98d2bf044f3dcd/quantumspectra_2024-0.1.3.tar.gz
+[2024-04-01 18:45:41] WARNING root fetch - processPackages [medor]: Skipping, unable to determine old version
+[2024-04-01 18:45:41] INFO root fetch - main [MainThread]: End processing [medor] error
+[2024-04-01 18:45:41] INFO root fetch - processPackages [dateroll]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-01 18:45:41] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/db/7a/d1b40109a0a84e590b87fd346514cb9a971def5bca0f4c009fea4ab80c21/simplebox-0.0.1a185-py3-none-any.whl
+[2024-04-01 18:45:41] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/db/7a/d1b40109a0a84e590b87fd346514cb9a971def5bca0f4c009fea4ab80c21/simplebox-0.0.1a185-py3-none-any.whl
+[2024-04-01 18:45:41] INFO root fetch - processPackages [pct]: Downloading https://files.pythonhosted.org/packages/6c/ca/2b8761b59112f4ba499e36bf7387a40fed8820af939d06bfd4bdfbe9ad0b/pct-0.0.8.tar.gz
+[2024-04-01 18:45:41] INFO root fetch - processPackages [quantumspectra-2024]: Downloading https://files.pythonhosted.org/packages/55/1e/f635d6b3f8c4b3e4d4e924c12dd84a76d0a4665d84082f6f87550f835464/quantumspectra_2024-0.1.4.tar.gz
+[2024-04-01 18:45:41] INFO root fetch - processPackages [dateroll]: Downloading https://files.pythonhosted.org/packages/43/3d/17c3d90500b073164811b8a5168f83cb38a90cbb8202639f9ae73b815bb0/dateroll-0.1.8-py3-none-any.whl
+[2024-04-01 18:45:41] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-01 18:45:41] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-01 18:45:41] INFO root fetch - processPackages [quantumspectra-2024]: executing diffoscope
+[2024-04-01 18:45:41] INFO root fetch - processPackages [quantumspectra-2024]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantumspectra_2024-0.1.3.tar.gz tmp/quantumspectra_2024-0.1.4.tar.gz --markdown 20240401/q/quantumspectra-2024/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [pct]: Downloading https://files.pythonhosted.org/packages/15/05/9898f8df9a082ca4ee1749a6b523592f567cbaf423046ca9c806d529d457/pct-0.0.9.tar.gz
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/c3/78/6acc9b3c9deae3ad6aea0c2c9a2c62c7441a498ced31718944f50d3841ab/simplebox-0.0.1a186-py3-none-any.whl
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/c3/78/6acc9b3c9deae3ad6aea0c2c9a2c62c7441a498ced31718944f50d3841ab/simplebox-0.0.1a186-py3-none-any.whl
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-01 18:45:42] INFO root fetch - processPackages [dateroll]: Downloading https://files.pythonhosted.org/packages/df/b0/1d7806f483e8e247450adef2474c30bf2323ddcd62a2e1fac723c6415e69/dateroll-0.1.9-py3-none-any.whl
+[2024-04-01 18:45:42] INFO root fetch - processPackages [pct]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [pct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pct-0.0.8.tar.gz tmp/pct-0.0.9.tar.gz --markdown 20240401/p/pct/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a185-py3-none-any.whl.zip tmp/simplebox-0.0.1a186-py3-none-any.whl.zip --markdown 20240401/s/simplebox/0.0.1a185-0.0.1a186/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a185-py3-none-any.whl.zip tmp/simplebox-0.0.1a186-py3-none-any.whl.zip --markdown 20240401/s/simplebox/0.0.1a185-0.0.1a186/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240401/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [dateroll]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [dateroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dateroll-0.1.8-py3-none-any.whl.zip tmp/dateroll-0.1.9-py3-none-any.whl.zip --markdown 20240401/d/dateroll/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 18:45:42] INFO root fetch - processPackages [quantumspectra-2024]: Remove: archive file [/home/abi/fetcher/tmp/quantumspectra_2024-0.1.3.tar.gz]
+[2024-04-01 18:45:42] INFO root fetch - processPackages [quantumspectra-2024]: Remove: archive file [/home/abi/fetcher/tmp/quantumspectra_2024-0.1.4.tar.gz]
+[2024-04-01 18:45:42] INFO root fetch - main [MainThread]: End processing [quantumspectra-2024]: success
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-01 18:45:42] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240401/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-01 18:45:43] INFO root fetch - processPackages [pct]: Remove: archive file [/home/abi/fetcher/tmp/pct-0.0.8.tar.gz]
+[2024-04-01 18:45:43] INFO root fetch - processPackages [pct]: Remove: archive file [/home/abi/fetcher/tmp/pct-0.0.9.tar.gz]
+[2024-04-01 18:45:43] INFO root fetch - main [MainThread]: End processing [pct]: success
+[2024-04-01 18:45:43] INFO root fetch - processPackages [dateroll]: Remove: archive file [/home/abi/fetcher/tmp/dateroll-0.1.8-py3-none-any.whl.zip]
+[2024-04-01 18:45:43] INFO root fetch - processPackages [dateroll]: Remove: archive file [/home/abi/fetcher/tmp/dateroll-0.1.9-py3-none-any.whl.zip]
+[2024-04-01 18:45:43] INFO root fetch - main [MainThread]: End processing [dateroll]: success
+[2024-04-01 18:45:43] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a185-py3-none-any.whl.zip]
+[2024-04-01 18:45:43] INFO root fetch - processPackages [simplebox]: Remove: archive file [/home/abi/fetcher/tmp/simplebox-0.0.1a186-py3-none-any.whl.zip]
+[2024-04-01 18:45:43] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2024-04-01 18:45:43] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2024-04-01 18:45:43] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-01 18:45:43] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-01 18:45:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-01 18:45:44] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-01 18:45:44] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-01 18:45:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-01 18:45:44] INFO root fetch - main [MainThread]: Store serial: [22572299]
