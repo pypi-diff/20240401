@@ -6167,3 +6167,72 @@ EOFError: EOF read where object expected
 [2024-04-01 16:31:03] INFO root fetch - processPackages [biomedicus-client]: Remove: archive file [/home/abi/fetcher/tmp/biomedicus_client-3.4.2-py3-none-any.whl.zip]
 [2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [biomedicus-client]: success
 [2024-04-01 16:31:03] INFO root fetch - main [MainThread]: Store serial: [22570534]
+[2024-04-01 16:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570534]
+[2024-04-01 16:33:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dorkas
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edx-django-release-util
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parseid
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ultracart-rest-sdk
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ctfd-sdk
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: girder-client-mount
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ld-as-framework
+[2024-04-01 16:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: csnlp
+[2024-04-01 16:33:13] INFO root fetch - processPackages [parseid]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 16:33:14] WARNING root fetch - processPackages [dorkas]: Skipping, unable to determine old version
+[2024-04-01 16:33:14] INFO root fetch - main [MainThread]: End processing [dorkas] error
+[2024-04-01 16:33:14] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/90/c4/2398a18c525118c834d6b0417427f55d47a9c083a733ce18eb94779d1869/parseid-0.1.3-py3-none-any.whl
+[2024-04-01 16:33:14] INFO root fetch - processPackages [girder-client-mount]: New version: [0.3.3.dev3] Old Version: [0.3.3.dev1]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ld-as-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ctfd-sdk]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [csnlp]: New version: [1.5.9rc3] Old Version: [1.5.9rc2]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [edx-django-release-util]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2024-04-01 16:33:14] INFO root fetch - processPackages [edx-django-release-util]: Downloading https://files.pythonhosted.org/packages/a8/b6/3b1994404900736094f56e313a67a02871a848cd652023bdb97c3fdc7712/edx-django-release-util-1.3.0.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ld-as-framework]: Downloading https://files.pythonhosted.org/packages/72/7e/ace15a3613084288bd254ca778ae6299200c7b39673bf281277becac0380/ld-as-framework-0.0.8.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ctfd-sdk]: Downloading https://files.pythonhosted.org/packages/c3/32/33cd878df1068bdc5b103d33a89efa058b4d9671497a255da710c1d580e5/ctfd_sdk-0.2.1.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/2e/2b/01f3b4918ddda421aecf5cbdc4f03bde43a1b66121a33d6667e1ab1e4451/csnlp-1.5.9rc2.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/e7/04/3b386c6a581658b843c6404e725094b41d2c33a7e8de98297e3778052ce8/girder_client_mount-0.3.3.dev1.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [parseid]: Downloading https://files.pythonhosted.org/packages/0f/2a/879160723b1e3f580f935f60f6de5bfcc88e7a39dda6bf1a8b24dbdcf900/parseid-0.1.4.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [parseid]: executing diffoscope
+[2024-04-01 16:33:14] INFO root fetch - processPackages [parseid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parseid-0.1.3-py3-none-any.whl.zip tmp/parseid-0.1.4.tar.gz --markdown 20240401/p/parseid/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:33:14] INFO root fetch - processPackages [edx-django-release-util]: Downloading https://files.pythonhosted.org/packages/72/7f/fbbce8b03480cb97c17bb203c2602979a2d2b01737bb7c0a4b37756a1bdf/edx-django-release-util-1.4.0.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ld-as-framework]: Downloading https://files.pythonhosted.org/packages/f8/78/5ec8b92c09a357126ac3696b73a4f922790f4490e3d4cde554ad4e5d0144/ld-as-framework-0.0.9.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ctfd-sdk]: Downloading https://files.pythonhosted.org/packages/4d/81/ff4f9d606611141335e061e363d42076a8a34c34229c4bcc390a1b65dace/ctfd_sdk-0.2.2.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/fd/e8/1c04dad0cfdec700537a2b6ce841a1cea67f903d3a17a97ad7aa3be70e74/girder_client_mount-0.3.3.dev3.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ld-as-framework]: executing diffoscope
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ld-as-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ld-as-framework-0.0.8.tar.gz tmp/ld-as-framework-0.0.9.tar.gz --markdown 20240401/l/ld-as-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ctfd-sdk]: executing diffoscope
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ctfd-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctfd_sdk-0.2.1.tar.gz tmp/ctfd_sdk-0.2.2.tar.gz --markdown 20240401/c/ctfd-sdk/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 16:33:14] INFO root fetch - processPackages [girder-client-mount]: executing diffoscope
+[2024-04-01 16:33:14] INFO root fetch - processPackages [girder-client-mount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder_client_mount-0.3.3.dev1.tar.gz tmp/girder_client_mount-0.3.3.dev3.tar.gz --markdown 20240401/g/girder-client-mount/0.3.3.dev1-0.3.3.dev3/diff.md --exclude *.pyd
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2024-04-01 16:33:14] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20240401/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2024-04-01 16:33:15] INFO root fetch - processPackages [edx-django-release-util]: executing diffoscope
+[2024-04-01 16:33:15] INFO root fetch - processPackages [edx-django-release-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-django-release-util-1.3.0.tar.gz tmp/edx-django-release-util-1.4.0.tar.gz --markdown 20240401/e/edx-django-release-util/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 16:33:15] INFO root fetch - processPackages [csnlp]: Downloading https://files.pythonhosted.org/packages/75/46/cbfd8deaa3343e95a5f140e816f1f97a5c135d2e3934e237c6e2f0ee5f94/csnlp-1.5.9rc3.tar.gz
+[2024-04-01 16:33:15] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.3-py3-none-any.whl.zip]
+[2024-04-01 16:33:15] INFO root fetch - processPackages [parseid]: Remove: archive file [/home/abi/fetcher/tmp/parseid-0.1.4.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - main [MainThread]: End processing [parseid]: success
+[2024-04-01 16:33:15] INFO root fetch - processPackages [csnlp]: executing diffoscope
+[2024-04-01 16:33:15] INFO root fetch - processPackages [csnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csnlp-1.5.9rc2.tar.gz tmp/csnlp-1.5.9rc3.tar.gz --markdown 20240401/c/csnlp/1.5.9rc2-1.5.9rc3/diff.md --exclude *.pyd
+[2024-04-01 16:33:15] INFO root fetch - processPackages [ctfd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ctfd_sdk-0.2.1.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - processPackages [ctfd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ctfd_sdk-0.2.2.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - main [MainThread]: End processing [ctfd-sdk]: success
+[2024-04-01 16:33:15] INFO root fetch - processPackages [ld-as-framework]: Remove: archive file [/home/abi/fetcher/tmp/ld-as-framework-0.0.8.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - processPackages [ld-as-framework]: Remove: archive file [/home/abi/fetcher/tmp/ld-as-framework-0.0.9.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - main [MainThread]: End processing [ld-as-framework]: success
+[2024-04-01 16:33:15] INFO root fetch - processPackages [edx-django-release-util]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-release-util-1.3.0.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - processPackages [edx-django-release-util]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-release-util-1.4.0.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - main [MainThread]: End processing [edx-django-release-util]: success
+[2024-04-01 16:33:15] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev1.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev3.tar.gz]
+[2024-04-01 16:33:15] INFO root fetch - main [MainThread]: End processing [girder-client-mount]: success
+[2024-04-01 16:33:16] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc2.tar.gz]
+[2024-04-01 16:33:16] INFO root fetch - processPackages [csnlp]: Remove: archive file [/home/abi/fetcher/tmp/csnlp-1.5.9rc3.tar.gz]
+[2024-04-01 16:33:16] INFO root fetch - main [MainThread]: End processing [csnlp]: success
+[2024-04-01 16:33:18] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2024-04-01 16:33:18] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2024-04-01 16:33:18] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2024-04-01 16:33:18] INFO root fetch - main [MainThread]: Store serial: [22570570]
