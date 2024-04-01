@@ -9066,3 +9066,93 @@ EOFError: EOF read where object expected
 [2024-04-01 18:20:31] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
 [2024-04-01 18:20:31] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-01 18:20:31] INFO root fetch - main [MainThread]: Store serial: [22571923]
+[2024-04-01 18:22:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571923]
+[2024-04-01 18:22:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wolta
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicsnovault
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Connectdbtemplate
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fiddler
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creyPY
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: isapilib
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dcicutils
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ions
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dash-query-builder
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lineup-lang
+[2024-04-01 18:22:39] INFO root fetch - processPackages [lineup-lang]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [creyPY]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ions]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [dcicutils]: New version: [8.8.1.1b9] Old Version: [8.8.1.1b7]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [lineup-lang]: Downloading https://files.pythonhosted.org/packages/ac/39/76ae1303d8444fd4e004e94583c25c95d11aa485a6b6f5765cac15ff1c19/lineup-lang-0.1.1.tar.gz
+[2024-04-01 18:22:39] WARNING root fetch - processPackages [fiddler]: Skipping, unable to determine old version
+[2024-04-01 18:22:39] INFO root fetch - processPackages [fiddler]: Start processing: aws-lambda-bundler
+[2024-04-01 18:22:39] INFO root fetch - main [MainThread]: End processing [fiddler] error
+[2024-04-01 18:22:39] WARNING root fetch - processPackages [Connectdbtemplate]: Skipping, unable to determine old version
+[2024-04-01 18:22:39] INFO root fetch - main [MainThread]: End processing [Connectdbtemplate] error
+[2024-04-01 18:22:39] INFO root fetch - processPackages [isapilib]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [dash-query-builder]: New version: [0.5.0] Old Version: [0.3.2]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [wolta]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/e5/5c/ce3e23aebf30554baacdd8ef80ad62716a5fa7ce5683977d47ee4f95accc/creyPY-0.0.5.tar.gz
+[2024-04-01 18:22:39] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/dc/33/b4cdf43c911359b695d19d36f3f7e9539a04f1ea787171cf3148e425f097/ions-0.2.8.tar.gz
+[2024-04-01 18:22:39] INFO root fetch - processPackages [dcicsnovault]: New version: [9.9.9.0b0] Old Version: [9.1.1]
+[2024-04-01 18:22:39] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/90/b8/72fb6df705cb1c09869e87c8a2e7800bfb131ec14bd74375afcb9facc0e3/dcicutils-8.8.1.1b7.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [aws-lambda-bundler]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-01 18:22:40] INFO root fetch - processPackages [isapilib]: Downloading https://files.pythonhosted.org/packages/63/d8/8c7efe459c8813ff15f6a9f2164293d59622c34de5bf238a8f19df75584d/isapilib-1.6.8.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dash-query-builder]: Downloading https://files.pythonhosted.org/packages/88/17/8688a759949b4741e222c5c217a3ec28fabe1381375e8c158dcf17bb40ca/dash-query-builder-0.3.2.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/5d/e5/821f850412706cfe2ed687f436895807c2dc5bdff2aabb12933222997653/wolta-0.1.1.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/d9/56/60bf7990e8d3aa29414af29d0d3ac120091b7e42b64e880cc77388d6e641/dcicsnovault-9.1.1.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b8/73/51271cee9352a565862ee60d8adeb0aec89e045bcafdb0b76eeb4b4222e2/dcicutils-8.8.1.1b9.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [lineup-lang]: Downloading https://files.pythonhosted.org/packages/3a/5d/7f2647b4c191412918c5fb866db68c29e9bba5645580f71269c9875fb806/lineup-lang-0.1.2.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/fd/ab/ece0e860c7ad244336fdf7b2796246c9090327b531be8425981f823bd683/creyPY-0.0.6.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [aws-lambda-bundler]: Downloading https://files.pythonhosted.org/packages/46/52/d0c1f5c4939aab16f33d591e3940dd4de7f449baa1c7125cc1bae955f93e/aws_lambda_bundler-0.4.1.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [ions]: Downloading https://files.pythonhosted.org/packages/ec/df/a433713e4b23027370ce4ac3f814a1c5734d63e3271f740e9870100b441b/ions-0.2.9.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [lineup-lang]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [lineup-lang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lineup-lang-0.1.1.tar.gz tmp/lineup-lang-0.1.2.tar.gz --markdown 20240401/l/lineup-lang/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.5.tar.gz tmp/creyPY-0.0.6.tar.gz --markdown 20240401/c/creyPY/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [isapilib]: Downloading https://files.pythonhosted.org/packages/22/60/e413aeebf04cdb8512922e89885a3ae982d90568cb400f85c060d5af994e/isapilib-1.6.9.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.1.1b7.tar.gz tmp/dcicutils-8.8.1.1b9.tar.gz --markdown 20240401/d/dcicutils/8.8.1.1b7-8.8.1.1b9/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [ions]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [ions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ions-0.2.8.tar.gz tmp/ions-0.2.9.tar.gz --markdown 20240401/i/ions/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [wolta]: Downloading https://files.pythonhosted.org/packages/c0/d6/8640c149423cfca46a4a63a2cb0c285224eadbdee3b09de911b502d68d8a/wolta-0.1.2.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [wolta]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [wolta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolta-0.1.1.tar.gz tmp/wolta-0.1.2.tar.gz --markdown 20240401/w/wolta/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/5b/69/2d661efc29e872887f547a770c16dcae8bd7f059e2d578d1a0eb526564f9/dcicsnovault-9.9.9.0b0.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [isapilib]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [isapilib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isapilib-1.6.8.tar.gz tmp/isapilib-1.6.9.tar.gz --markdown 20240401/i/isapilib/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2024-04-01 18:22:40] INFO root fetch - processPackages [aws-lambda-bundler]: Downloading https://files.pythonhosted.org/packages/1f/9e/26006b39c9b95298440bef4cc71c71ac4c3c33fa1a8a00cfecb3af74a6e8/aws_lambda_bundler-0.4.2.tar.gz
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2024-04-01 18:22:40] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-9.1.1.tar.gz tmp/dcicsnovault-9.9.9.0b0.tar.gz --markdown 20240401/d/dcicsnovault/9.1.1-9.9.9.0b0/diff.md --exclude *.pyd
+[2024-04-01 18:22:41] INFO root fetch - processPackages [aws-lambda-bundler]: executing diffoscope
+[2024-04-01 18:22:41] INFO root fetch - processPackages [aws-lambda-bundler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_bundler-0.4.1.tar.gz tmp/aws_lambda_bundler-0.4.2.tar.gz --markdown 20240401/a/aws-lambda-bundler/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-01 18:22:41] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.5.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.6.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [lineup-lang]: Remove: archive file [/home/abi/fetcher/tmp/lineup-lang-0.1.1.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [lineup-lang]: Remove: archive file [/home/abi/fetcher/tmp/lineup-lang-0.1.2.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [lineup-lang]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.2.8.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [ions]: Remove: archive file [/home/abi/fetcher/tmp/ions-0.2.9.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [ions]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.1.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [wolta]: Remove: archive file [/home/abi/fetcher/tmp/wolta-0.1.2.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [wolta]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [isapilib]: Remove: archive file [/home/abi/fetcher/tmp/isapilib-1.6.8.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [isapilib]: Remove: archive file [/home/abi/fetcher/tmp/isapilib-1.6.9.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [isapilib]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b7.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [aws-lambda-bundler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_bundler-0.4.1.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - processPackages [aws-lambda-bundler]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_bundler-0.4.2.tar.gz]
+[2024-04-01 18:22:41] INFO root fetch - main [MainThread]: End processing [aws-lambda-bundler]: success
+[2024-04-01 18:22:41] INFO root fetch - processPackages [dash-query-builder]: Downloading https://files.pythonhosted.org/packages/84/7f/b0b30f59c9300c037b35eb5b141cf8cb78520efba4183e3400a9c946585a/dash_query_builder-0.5.0.tar.gz
+[2024-04-01 18:22:42] INFO root fetch - processPackages [dash-query-builder]: executing diffoscope
+[2024-04-01 18:22:42] INFO root fetch - processPackages [dash-query-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-query-builder-0.3.2.tar.gz tmp/dash_query_builder-0.5.0.tar.gz --markdown 20240401/d/dash-query-builder/0.3.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 18:22:42] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.1.1.tar.gz]
+[2024-04-01 18:22:42] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
+[2024-04-01 18:22:42] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2024-04-01 18:22:43] INFO root fetch - processPackages [dash-query-builder]: Remove: archive file [/home/abi/fetcher/tmp/dash-query-builder-0.3.2.tar.gz]
+[2024-04-01 18:22:43] INFO root fetch - processPackages [dash-query-builder]: Remove: archive file [/home/abi/fetcher/tmp/dash_query_builder-0.5.0.tar.gz]
+[2024-04-01 18:22:43] INFO root fetch - main [MainThread]: End processing [dash-query-builder]: success
+[2024-04-01 18:22:43] INFO root fetch - main [MainThread]: Store serial: [22571954]
