@@ -17516,3 +17516,42 @@ EOFError: EOF read where object expected
 [2024-04-01 23:10:43] INFO root fetch - processPackages [tencentcloud-sdk-python-nlp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-nlp-3.0.999.tar.gz]
 [2024-04-01 23:10:43] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-nlp]: success
 [2024-04-01 23:10:43] INFO root fetch - main [MainThread]: Store serial: [22575729]
+[2024-04-01 23:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575729]
+[2024-04-01 23:12:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 23:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sddl
+[2024-04-01 23:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sddl-parser
+[2024-04-01 23:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eevee-chat
+[2024-04-01 23:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-npp
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl-parser]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 23:12:52] INFO root fetch - processPackages [eevee-chat]: New version: [0.0.3] Old Version: [0.0.2.post1]
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl-parser]: Downloading https://files.pythonhosted.org/packages/6e/ee/526ac2d79bb2f5185ec2a21bab80fd3600b589b81044b2f72ae03e60986b/sddl_parser-0.6.0.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl]: Downloading https://files.pythonhosted.org/packages/88/68/3742bec1ac78f7210ea21f9c6f2e17d71e122c23334c7fd694d347f94c2f/sddl-0.3.0.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [eevee-chat]: Downloading https://files.pythonhosted.org/packages/2d/86/ef7600aedc017cc15723e6f2c3b69101ed11e22b580ea18ae09731a3d75d/eevee-chat-0.0.2.post1.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl-parser]: Downloading https://files.pythonhosted.org/packages/7b/6d/5127be2c183b8eea507316f0b5df70014c067742e8ad3ee1189fa4c20571/sddl_parser-0.6.1.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl]: Downloading https://files.pythonhosted.org/packages/f1/71/88b7c8db66cae141f922e54be96739a1f31db3a075eaf763b60dffd033a4/sddl-0.3.1.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl-parser]: executing diffoscope
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddl_parser-0.6.0.tar.gz tmp/sddl_parser-0.6.1.tar.gz --markdown 20240401/s/sddl-parser/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-01 23:12:52] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/35/2f/7be07bdedcbc4f997d328b54b723bc0a6f9d2f1289c977708e6d31c8b552/tencentcloud-sdk-python-npp-3.0.998.tar.gz
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl]: executing diffoscope
+[2024-04-01 23:12:52] INFO root fetch - processPackages [sddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddl-0.3.0.tar.gz tmp/sddl-0.3.1.tar.gz --markdown 20240401/s/sddl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 23:12:53] INFO root fetch - processPackages [eevee-chat]: Downloading https://files.pythonhosted.org/packages/4a/f7/528ba051ffea38dcdf5c0291f513210179ecbfb01f690783190d14baf190/eevee-chat-0.0.3.tar.gz
+[2024-04-01 23:12:53] INFO root fetch - processPackages [eevee-chat]: executing diffoscope
+[2024-04-01 23:12:53] INFO root fetch - processPackages [eevee-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eevee-chat-0.0.2.post1.tar.gz tmp/eevee-chat-0.0.3.tar.gz --markdown 20240401/e/eevee-chat/0.0.2.post1-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 23:12:53] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Downloading https://files.pythonhosted.org/packages/94/b9/7eecc3778b75dd2522b621c795d78a5625277df65226ba45c67361956990/tencentcloud-sdk-python-npp-3.0.999.tar.gz
+[2024-04-01 23:12:53] INFO root fetch - processPackages [sddl]: Remove: archive file [/home/abi/fetcher/tmp/sddl-0.3.0.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - processPackages [sddl]: Remove: archive file [/home/abi/fetcher/tmp/sddl-0.3.1.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - main [MainThread]: End processing [sddl]: success
+[2024-04-01 23:12:53] INFO root fetch - processPackages [sddl-parser]: Remove: archive file [/home/abi/fetcher/tmp/sddl_parser-0.6.0.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - processPackages [sddl-parser]: Remove: archive file [/home/abi/fetcher/tmp/sddl_parser-0.6.1.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - main [MainThread]: End processing [sddl-parser]: success
+[2024-04-01 23:12:53] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: executing diffoscope
+[2024-04-01 23:12:53] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-npp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:12:53] INFO root fetch - processPackages [eevee-chat]: Remove: archive file [/home/abi/fetcher/tmp/eevee-chat-0.0.2.post1.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - processPackages [eevee-chat]: Remove: archive file [/home/abi/fetcher/tmp/eevee-chat-0.0.3.tar.gz]
+[2024-04-01 23:12:53] INFO root fetch - main [MainThread]: End processing [eevee-chat]: success
+[2024-04-01 23:12:54] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.998.tar.gz]
+[2024-04-01 23:12:54] INFO root fetch - processPackages [tencentcloud-sdk-python-npp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-npp-3.0.999.tar.gz]
+[2024-04-01 23:12:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-npp]: success
+[2024-04-01 23:12:54] INFO root fetch - main [MainThread]: Store serial: [22575740]
