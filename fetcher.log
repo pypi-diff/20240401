@@ -11380,3 +11380,60 @@ EOFError: EOF read where object expected
 [2024-04-01 19:53:29] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
 [2024-04-01 19:53:29] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
 [2024-04-01 19:53:29] INFO root fetch - main [MainThread]: Store serial: [22573036]
+[2024-04-01 19:55:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573036]
+[2024-04-01 19:55:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boxedfactory
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasherlock
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mitoinstaller
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-community
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepeval
+[2024-04-01 19:55:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fauna
+[2024-04-01 19:55:38] INFO root fetch - processPackages [langchain-community]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [fauna]: New version: [1.2.0b4] Old Version: [1.2.0b3]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [boxedfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [datasherlock]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/ee/1e/5c46b87ca0b601027c230053bd7521fb9481acf31e7ed18328413cf84cc2/fauna-1.2.0b3-py2.py3-none-any.whl
+[2024-04-01 19:55:38] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/2e/3c/74917fe9bf4746dceec97aab9548b9fffa2ba6fdcf12be4bf475c48f6f6c/boxedfactory-0.0.7.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [mitoinstaller]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-01 19:55:38] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/ca/e0/b13f3f226be2c9054ddd0ea83d1b1e740ce4b7f77fe1fbfa4dc52b11892f/langchain_community-0.0.8.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [datasherlock]: Downloading https://files.pythonhosted.org/packages/d1/9a/b556a7b55f9a590030000fc2b6345f284604f843719437407ab82dd6cd82/datasherlock-0.0.7.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/a9/cc/efea247a930bcdd3371e2847677b40c385cbf35a56d638639d1e8b121847/mitoinstaller-0.0.98.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [fauna]: Downloading https://files.pythonhosted.org/packages/09/e7/7149a0e120ad53eb6b204fe979062f82031337c0478fd34ebb661b2a0559/fauna-1.2.0b4-py2.py3-none-any.whl
+[2024-04-01 19:55:38] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/db/84/654120932bbb70daaf8d11dec99ef25e174c66768fdc8559e2b74616c9d3/boxedfactory-0.0.8.tar.gz
+[2024-04-01 19:55:38] INFO root fetch - processPackages [boxedfactory]: executing diffoscope
+[2024-04-01 19:55:38] INFO root fetch - processPackages [boxedfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxedfactory-0.0.7.tar.gz tmp/boxedfactory-0.0.8.tar.gz --markdown 20240401/b/boxedfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 19:55:38] INFO root fetch - processPackages [fauna]: executing diffoscope
+[2024-04-01 19:55:38] INFO root fetch - processPackages [fauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fauna-1.2.0b3-py2.py3-none-any.whl.zip tmp/fauna-1.2.0b4-py2.py3-none-any.whl.zip --markdown 20240401/f/fauna/1.2.0b3-1.2.0b4/diff.md --exclude *.pyd
+[2024-04-01 19:55:39] INFO root fetch - processPackages [datasherlock]: Downloading https://files.pythonhosted.org/packages/1a/0f/eec064dcea5dbc1521a6bc0134289f24b59baec503a9e23edfd379acea94/datasherlock-0.0.8.tar.gz
+[2024-04-01 19:55:39] INFO root fetch - processPackages [mitoinstaller]: Downloading https://files.pythonhosted.org/packages/90/7c/46b1dcf5bb93cdb5baf1650e82750b20b76439dbb6550a8596d1d373443a/mitoinstaller-0.0.99.tar.gz
+[2024-04-01 19:55:39] INFO root fetch - processPackages [langchain-community]: Downloading https://files.pythonhosted.org/packages/f6/57/fb61a8ab98799272b297f9992e9b7c27d544840f67805b271540f929c52e/langchain_community-0.0.9.tar.gz
+[2024-04-01 19:55:39] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-01 19:55:39] INFO root fetch - processPackages [datasherlock]: executing diffoscope
+[2024-04-01 19:55:39] INFO root fetch - processPackages [datasherlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasherlock-0.0.7.tar.gz tmp/datasherlock-0.0.8.tar.gz --markdown 20240401/d/datasherlock/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 19:55:39] INFO root fetch - processPackages [mitoinstaller]: executing diffoscope
+[2024-04-01 19:55:39] INFO root fetch - processPackages [mitoinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitoinstaller-0.0.98.tar.gz tmp/mitoinstaller-0.0.99.tar.gz --markdown 20240401/m/mitoinstaller/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-01 19:55:39] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-01 19:55:39] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240401/d/deepeval/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 19:55:39] INFO root fetch - processPackages [langchain-community]: executing diffoscope
+[2024-04-01 19:55:39] INFO root fetch - processPackages [langchain-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_community-0.0.8.tar.gz tmp/langchain_community-0.0.9.tar.gz --markdown 20240401/l/langchain-community/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 19:55:39] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.7.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
+[2024-04-01 19:55:39] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-1.2.0b3-py2.py3-none-any.whl.zip]
+[2024-04-01 19:55:39] INFO root fetch - processPackages [fauna]: Remove: archive file [/home/abi/fetcher/tmp/fauna-1.2.0b4-py2.py3-none-any.whl.zip]
+[2024-04-01 19:55:39] INFO root fetch - main [MainThread]: End processing [fauna]: success
+[2024-04-01 19:55:39] INFO root fetch - processPackages [datasherlock]: Remove: archive file [/home/abi/fetcher/tmp/datasherlock-0.0.7.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - processPackages [datasherlock]: Remove: archive file [/home/abi/fetcher/tmp/datasherlock-0.0.8.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - main [MainThread]: End processing [datasherlock]: success
+[2024-04-01 19:55:39] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.98.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - processPackages [mitoinstaller]: Remove: archive file [/home/abi/fetcher/tmp/mitoinstaller-0.0.99.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - main [MainThread]: End processing [mitoinstaller]: success
+[2024-04-01 19:55:39] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-01 19:55:39] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-01 19:55:42] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.8.tar.gz]
+[2024-04-01 19:55:42] INFO root fetch - processPackages [langchain-community]: Remove: archive file [/home/abi/fetcher/tmp/langchain_community-0.0.9.tar.gz]
+[2024-04-01 19:55:42] INFO root fetch - main [MainThread]: End processing [langchain-community]: success
+[2024-04-01 19:55:42] INFO root fetch - main [MainThread]: Store serial: [22573051]
