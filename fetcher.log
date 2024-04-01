@@ -9295,3 +9295,41 @@ EOFError: EOF read where object expected
 [2024-04-01 18:27:09] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.1.tar.gz]
 [2024-04-01 18:27:09] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-01 18:27:09] INFO root fetch - main [MainThread]: Store serial: [22572010]
+[2024-04-01 18:29:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572010]
+[2024-04-01 18:29:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 18:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: m9s-nereid
+[2024-04-01 18:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fetchcode
+[2024-04-01 18:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: actfast
+[2024-04-01 18:29:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sageworks
+[2024-04-01 18:29:18] INFO root fetch - processPackages [sageworks]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-01 18:29:18] INFO root fetch - processPackages [fetchcode]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-01 18:29:18] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/35/34/7a87455f9b3d99c57d2bf6408f2f1cce465f1ebc348aff6aeab91f3c09ae/sageworks-0.5.0.tar.gz
+[2024-04-01 18:29:18] INFO root fetch - processPackages [m9s-nereid]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-01 18:29:19] INFO root fetch - processPackages [actfast]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-01 18:29:19] INFO root fetch - processPackages [fetchcode]: Downloading https://files.pythonhosted.org/packages/2d/48/a23c2947f0300c2a8b757039485f21896baeb66dbdfb32ede73a9a4bf98a/fetchcode-0.5.0.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/d6/ee/ed87ceb354699715d4d86b3db2c29d1115a5b79c05306d05224515e57710/m9s_nereid-7.0.8.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [actfast]: Downloading https://files.pythonhosted.org/packages/46/79/2be81897a48a56a77a6c30c81dd93c8cfca4add0fcdf04ecbb6e43966fd3/actfast-0.1.2.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [sageworks]: Downloading https://files.pythonhosted.org/packages/d6/fc/b73abcba866cc9c0c5a7916f38c9c0ef037fccce458f2f53e00c47ced82e/sageworks-0.5.1.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [m9s-nereid]: Downloading https://files.pythonhosted.org/packages/bc/d0/7460b07d1b06e2893c60e2f5695169f6f2478b7ce7b55d2eb86a75123eae/m9s_nereid-7.0.9.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [m9s-nereid]: executing diffoscope
+[2024-04-01 18:29:19] INFO root fetch - processPackages [m9s-nereid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m9s_nereid-7.0.8.tar.gz tmp/m9s_nereid-7.0.9.tar.gz --markdown 20240401/m/m9s-nereid/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:29:19] INFO root fetch - processPackages [fetchcode]: Downloading https://files.pythonhosted.org/packages/65/54/f3b324fb50768d29c00f58e64103836a894d9e97e577ee276fe7d0da7395/fetchcode-0.5.1.tar.gz
+[2024-04-01 18:29:19] INFO root fetch - processPackages [sageworks]: executing diffoscope
+[2024-04-01 18:29:19] INFO root fetch - processPackages [sageworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageworks-0.5.0.tar.gz tmp/sageworks-0.5.1.tar.gz --markdown 20240401/s/sageworks/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-01 18:29:19] INFO root fetch - processPackages [actfast]: Downloading https://files.pythonhosted.org/packages/cf/62/7f073548f30b741607f8fcb169140e6fb92350d67faec0c5872cb4a54505/actfast-0.1.4-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-01 18:29:20] INFO root fetch - processPackages [fetchcode]: executing diffoscope
+[2024-04-01 18:29:20] INFO root fetch - processPackages [fetchcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fetchcode-0.5.0.tar.gz tmp/fetchcode-0.5.1.tar.gz --markdown 20240401/f/fetchcode/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-01 18:29:20] INFO root fetch - processPackages [m9s-nereid]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid-7.0.8.tar.gz]
+[2024-04-01 18:29:20] INFO root fetch - processPackages [m9s-nereid]: Remove: archive file [/home/abi/fetcher/tmp/m9s_nereid-7.0.9.tar.gz]
+[2024-04-01 18:29:20] INFO root fetch - main [MainThread]: End processing [m9s-nereid]: success
+[2024-04-01 18:29:21] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.5.0.tar.gz]
+[2024-04-01 18:29:21] INFO root fetch - processPackages [sageworks]: Remove: archive file [/home/abi/fetcher/tmp/sageworks-0.5.1.tar.gz]
+[2024-04-01 18:29:21] INFO root fetch - main [MainThread]: End processing [sageworks]: success
+[2024-04-01 18:29:21] INFO root fetch - processPackages [actfast]: executing diffoscope
+[2024-04-01 18:29:21] INFO root fetch - processPackages [actfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/actfast-0.1.2.tar.gz tmp/actfast-0.1.4-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240401/a/actfast/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 18:29:21] INFO root fetch - processPackages [actfast]: Remove: archive file [/home/abi/fetcher/tmp/actfast-0.1.2.tar.gz]
+[2024-04-01 18:29:21] INFO root fetch - processPackages [actfast]: Remove: archive file [/home/abi/fetcher/tmp/actfast-0.1.4-pp310-pypy310_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-01 18:29:21] INFO root fetch - main [MainThread]: End processing [actfast]: success
+[2024-04-01 18:32:20] ERROR root fetch - processPackages [fetchcode]: Timeout during execution of pkgdiff
+[2024-04-01 18:32:20] INFO root fetch - main [MainThread]: End processing [fetchcode] error
+[2024-04-01 18:32:20] INFO root fetch - main [MainThread]: Store serial: [22572064]
