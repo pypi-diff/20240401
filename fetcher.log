@@ -4159,3 +4159,33 @@ EOFError: EOF read where object expected
 [2024-04-01 15:16:48] INFO root fetch - processPackages [sbcli-mig]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-mig-1.0.9.zip]
 [2024-04-01 15:16:48] INFO root fetch - main [MainThread]: End processing [sbcli-mig]: success
 [2024-04-01 15:16:48] INFO root fetch - main [MainThread]: Store serial: [22569550]
+[2024-04-01 15:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569550]
+[2024-04-01 15:18:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 15:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2024-04-01 15:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langtrace-python-sdk
+[2024-04-01 15:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybts
+[2024-04-01 15:18:57] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-01 15:18:57] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-01 15:18:57] INFO root fetch - processPackages [pybts]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-01 15:18:57] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-01 15:18:57] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-01 15:18:57] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/f9/fd/ce4ea8d06e3c156a1f29bde8db3da48d99ab9800c30415d94c415b446168/pybts-1.1.0.tar.gz
+[2024-04-01 15:18:58] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-01 15:18:58] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-01 15:18:58] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240401/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-01 15:18:58] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/82/d1/b465c8793d20de9c5dca2641c8aa8145ef9f92819db4ccaa7bcc2edbc9ba/pybts-1.2.0.tar.gz
+[2024-04-01 15:18:58] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-01 15:18:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-01 15:18:58] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-01 15:18:58] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-01 15:18:59] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-01 15:18:59] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.1.0.tar.gz tmp/pybts-1.2.0.tar.gz --markdown 20240401/p/pybts/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:18:59] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-01 15:18:59] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240401/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-01 15:19:02] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-01 15:19:02] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-01 15:19:02] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-01 15:19:18] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.1.0.tar.gz]
+[2024-04-01 15:19:18] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.0.tar.gz]
+[2024-04-01 15:19:18] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-01 15:19:18] INFO root fetch - main [MainThread]: Store serial: [22569557]
