@@ -986,3 +986,18 @@ EOFError: EOF read where object expected
 [2024-04-01 12:17:59] INFO root fetch - processPackages [autotrain-advanced]: Remove: archive file [/home/abi/fetcher/tmp/autotrain-advanced-0.7.9.tar.gz]
 [2024-04-01 12:17:59] INFO root fetch - main [MainThread]: End processing [autotrain-advanced]: success
 [2024-04-01 12:17:59] INFO root fetch - main [MainThread]: Store serial: [22568121]
+[2024-04-01 12:20:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568121]
+[2024-04-01 12:20:09] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 12:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-interests
+[2024-04-01 12:20:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fr24
+[2024-04-01 12:20:09] INFO root fetch - processPackages [tendril-interests]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-01 12:20:09] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/77/0f/66609d7e9aae5d6f619a67532415fdb61b4575742e370515effea4eeb8e4/tendril-interests-0.5.2.tar.gz
+[2024-04-01 12:20:09] WARNING root fetch - processPackages [fr24]: Skipping, unable to determine old version
+[2024-04-01 12:20:09] INFO root fetch - main [MainThread]: End processing [fr24] error
+[2024-04-01 12:20:09] INFO root fetch - processPackages [tendril-interests]: Downloading https://files.pythonhosted.org/packages/dd/22/e63e1a067416a65250bd41596b3bb9020152d88b3355ec34d097396a9a16/tendril-interests-0.5.3.tar.gz
+[2024-04-01 12:20:09] INFO root fetch - processPackages [tendril-interests]: executing diffoscope
+[2024-04-01 12:20:09] INFO root fetch - processPackages [tendril-interests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-interests-0.5.2.tar.gz tmp/tendril-interests-0.5.3.tar.gz --markdown 20240401/t/tendril-interests/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-01 12:20:10] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.5.2.tar.gz]
+[2024-04-01 12:20:10] INFO root fetch - processPackages [tendril-interests]: Remove: archive file [/home/abi/fetcher/tmp/tendril-interests-0.5.3.tar.gz]
+[2024-04-01 12:20:10] INFO root fetch - main [MainThread]: End processing [tendril-interests]: success
+[2024-04-01 12:20:10] INFO root fetch - main [MainThread]: Store serial: [22568130]
