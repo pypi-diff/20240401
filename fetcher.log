@@ -3526,3 +3526,45 @@ EOFError: EOF read where object expected
 [2024-04-01 14:43:59] INFO root fetch - processPackages [g2p-mix]: Remove: archive file [/home/abi/fetcher/tmp/g2p_mix-0.3.6.tar.gz]
 [2024-04-01 14:43:59] INFO root fetch - main [MainThread]: End processing [g2p-mix]: success
 [2024-04-01 14:43:59] INFO root fetch - main [MainThread]: Store serial: [22569229]
+[2024-04-01 14:46:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569229]
+[2024-04-01 14:46:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 14:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-04-01 14:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: godspeed-api
+[2024-04-01 14:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spacy-whisper
+[2024-04-01 14:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bota
+[2024-04-01 14:46:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus-server
+[2024-04-01 14:46:09] INFO root fetch - processPackages [godspeed-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 14:46:09] INFO root fetch - processPackages [bota]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-01 14:46:09] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 14:46:09] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-01 14:46:09] WARNING root fetch - processPackages [spacy-whisper]: Skipping, unable to determine old version
+[2024-04-01 14:46:09] INFO root fetch - main [MainThread]: End processing [spacy-whisper] error
+[2024-04-01 14:46:09] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/20/a9/4f637666fa83c508695967d807e33c729d659786a5de468b4289f5bff8b4/bota-4.0.8.tar.gz
+[2024-04-01 14:46:09] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 14:46:09] INFO root fetch - processPackages [godspeed-api]: Downloading https://files.pythonhosted.org/packages/09/d0/6711db22474fb6e1136b6bbefee26e0c2da8d6f2ad8d889e7e6792dc14d7/godspeed_api-0.0.1.tar.gz
+[2024-04-01 14:46:09] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-04-01 14:46:09] INFO root fetch - processPackages [bota]: Downloading https://files.pythonhosted.org/packages/a4/5f/24c14d0a7d609507557baf5369feaca8b3459d111f35e9258e9d0396f9a8/bota-4.0.9.tar.gz
+[2024-04-01 14:46:09] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 14:46:09] INFO root fetch - processPackages [godspeed-api]: Downloading https://files.pythonhosted.org/packages/84/c6/bd775561a0a8964740ca2613bfcddae31aef30c086fbe1d661d1ef157373/godspeed_api-0.0.2.tar.gz
+[2024-04-01 14:46:09] INFO root fetch - processPackages [bota]: executing diffoscope
+[2024-04-01 14:46:09] INFO root fetch - processPackages [bota]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bota-4.0.8.tar.gz tmp/bota-4.0.9.tar.gz --markdown 20240401/b/bota/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:46:09] INFO root fetch - processPackages [godspeed-api]: executing diffoscope
+[2024-04-01 14:46:09] INFO root fetch - processPackages [godspeed-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godspeed_api-0.0.1.tar.gz tmp/godspeed_api-0.0.2.tar.gz --markdown 20240401/g/godspeed-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 14:46:09] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 14:46:09] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 14:46:10] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-04-01 14:46:10] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-04-01 14:46:10] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240401/b/botasaurus-server/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-01 14:46:10] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.8.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - main [MainThread]: End processing [bota]: success
+[2024-04-01 14:46:10] INFO root fetch - processPackages [godspeed-api]: Remove: archive file [/home/abi/fetcher/tmp/godspeed_api-0.0.1.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - processPackages [godspeed-api]: Remove: archive file [/home/abi/fetcher/tmp/godspeed_api-0.0.2.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - main [MainThread]: End processing [godspeed-api]: success
+[2024-04-01 14:46:10] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-04-01 14:46:10] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-04-01 14:46:11] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 14:46:11] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 14:46:11] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 14:46:11] INFO root fetch - main [MainThread]: Store serial: [22569243]
