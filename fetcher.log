@@ -6374,3 +6374,72 @@ EOFError: EOF read where object expected
 [2024-04-01 16:39:52] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
 [2024-04-01 16:39:52] INFO root fetch - main [MainThread]: End processing [agenta]: success
 [2024-04-01 16:39:52] INFO root fetch - main [MainThread]: Store serial: [22570628]
+[2024-04-01 16:41:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570628]
+[2024-04-01 16:42:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: core-models
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-l10n-br-nfse-focus
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpp-runner
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-log-lens
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ptz-control-app
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultracart-rest-sdk
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: predeq
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ultracart-rest-sdk]: New version: [4.0.99rc0] Old Version: [4.0.98rc0]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: New version: [14.0.1.0.3] Old Version: [14.0.1.0.2]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ptz-control-app]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-01 16:42:01] WARNING root fetch - processPackages [predeq]: Skipping, unable to determine old version
+[2024-04-01 16:42:01] INFO root fetch - main [MainThread]: End processing [predeq] error
+[2024-04-01 16:42:01] INFO root fetch - processPackages [cpp-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [django-log-lens]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [core-models]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/71/ef/7b3e4c3123392afa24ebd5018befc34b4baacf0250c8a0c2ceeff4a3e3ad/ultracart_rest_sdk-4.0.98rc0.tar.gz
+[2024-04-01 16:42:01] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/0c/4c/03942afcebae3ac7a878f20894065c620fdfb21a3cd237fc1f09535d9caf/core_models-0.4.2.tar.gz
+[2024-04-01 16:42:01] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Downloading https://files.pythonhosted.org/packages/39/ad/7c2f081ab600e8eb58978f40cecef57d088648c2237c5950300f573dee23/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.2-py3-none-any.whl
+[2024-04-01 16:42:01] INFO root fetch - processPackages [django-log-lens]: Downloading https://files.pythonhosted.org/packages/de/99/7934475d9d0ad2169e01f86752b21cb8839a42abcaf29b8f779e729a56f9/django-log-lens-0.1.8.tar.gz
+[2024-04-01 16:42:01] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-04-01 16:42:01] INFO root fetch - processPackages [ptz-control-app]: Downloading https://files.pythonhosted.org/packages/08/62/84094d5be325a5a4ff13cc9f3d53671a302a41334f89e21c730fa9e3ca95/ptz_control_app-0.3.0.tar.gz
+[2024-04-01 16:42:01] INFO root fetch - processPackages [cpp-runner]: Downloading https://files.pythonhosted.org/packages/fe/30/3879430fbeacc1628512d76ad7fa77c148e57c192f7f443087a62a8ed602/cpp-runner-0.0.8.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ultracart-rest-sdk]: Downloading https://files.pythonhosted.org/packages/53/de/3357390dfc51b1725d15b38c41c9c2ab33d663a1cf3e2ab06dd0ed795755/ultracart_rest_sdk-4.0.99rc0.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/6d/60/026c7830f25fe38482bf5714a1d3471462fa666d6e023187effabb0ad058/core_models-0.4.3.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Downloading https://files.pythonhosted.org/packages/a2/57/b29386f3ab21805955bc4c15fff5a8fce1a6e4771f196a5b7788ae2fb0d9/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl
+[2024-04-01 16:42:02] INFO root fetch - processPackages [django-log-lens]: Downloading https://files.pythonhosted.org/packages/f8/5f/b35b61bb09f8282f6d826af399b1740546dc44ad80347c081d3160d60ddc/django-log-lens-0.1.9.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.4.2.tar.gz tmp/core_models-0.4.3.tar.gz --markdown 20240401/c/core-models/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ultracart-rest-sdk]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ultracart-rest-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz --markdown 20240401/u/ultracart-rest-sdk/4.0.98rc0-4.0.99rc0/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ptz-control-app]: Downloading https://files.pythonhosted.org/packages/ff/72/e1b0032b4ac41e4656a83e20b324a3b8e4b589d3423722bb0f5feb1a7140/ptz_control_app-0.4.0.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [cpp-runner]: Downloading https://files.pythonhosted.org/packages/09/6e/f76418b2914427e5522a6d30fc915fc5ef01a66554989deaf470a137ed36/cpp-runner-0.0.9.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.2-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl.zip --markdown 20240401/o/odoo14-addon-l10n-br-nfse-focus/14.0.1.0.2-14.0.1.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [django-log-lens]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [django-log-lens]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-log-lens-0.1.8.tar.gz tmp/django-log-lens-0.1.9.tar.gz --markdown 20240401/d/django-log-lens/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ptz-control-app]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [ptz-control-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptz_control_app-0.3.0.tar.gz tmp/ptz_control_app-0.4.0.tar.gz --markdown 20240401/p/ptz-control-app/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [cpp-runner]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [cpp-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp-runner-0.0.8.tar.gz tmp/cpp-runner-0.0.9.tar.gz --markdown 20240401/c/cpp-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 16:42:02] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-04-01 16:42:02] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240401/l/llama-index/0.9.8.post1-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 16:42:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-01 16:42:03] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfse-focus]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfse_focus-14.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-01 16:42:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfse-focus]: success
+[2024-04-01 16:42:03] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.2.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.3.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2024-04-01 16:42:03] INFO root fetch - processPackages [cpp-runner]: Remove: archive file [/home/abi/fetcher/tmp/cpp-runner-0.0.8.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - processPackages [cpp-runner]: Remove: archive file [/home/abi/fetcher/tmp/cpp-runner-0.0.9.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - main [MainThread]: End processing [cpp-runner]: success
+[2024-04-01 16:42:03] INFO root fetch - processPackages [django-log-lens]: Remove: archive file [/home/abi/fetcher/tmp/django-log-lens-0.1.8.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - processPackages [django-log-lens]: Remove: archive file [/home/abi/fetcher/tmp/django-log-lens-0.1.9.tar.gz]
+[2024-04-01 16:42:03] INFO root fetch - main [MainThread]: End processing [django-log-lens]: success
+[2024-04-01 16:42:04] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-04-01 16:42:04] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-04-01 16:42:04] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-04-01 16:42:05] INFO root fetch - processPackages [ptz-control-app]: Remove: archive file [/home/abi/fetcher/tmp/ptz_control_app-0.3.0.tar.gz]
+[2024-04-01 16:42:05] INFO root fetch - processPackages [ptz-control-app]: Remove: archive file [/home/abi/fetcher/tmp/ptz_control_app-0.4.0.tar.gz]
+[2024-04-01 16:42:05] INFO root fetch - main [MainThread]: End processing [ptz-control-app]: success
+[2024-04-01 16:42:06] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.98rc0.tar.gz]
+[2024-04-01 16:42:06] INFO root fetch - processPackages [ultracart-rest-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ultracart_rest_sdk-4.0.99rc0.tar.gz]
+[2024-04-01 16:42:06] INFO root fetch - main [MainThread]: End processing [ultracart-rest-sdk]: success
+[2024-04-01 16:42:06] INFO root fetch - main [MainThread]: Store serial: [22570652]
