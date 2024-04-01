@@ -6302,3 +6302,75 @@ EOFError: EOF read where object expected
 [2024-04-01 16:37:40] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
 [2024-04-01 16:37:40] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
 [2024-04-01 16:37:40] INFO root fetch - main [MainThread]: Store serial: [22570595]
+[2024-04-01 16:39:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570595]
+[2024-04-01 16:39:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transfernet
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudquery-plugin-sdk
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qodex-cameras
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agenta
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Xodia24
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: han2kip
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: girder-client-mount
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slpkg
+[2024-04-01 16:39:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aws-lambda-builders
+[2024-04-01 16:39:50] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.4] Old Version: [2.1.3]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [girder-client-mount]: New version: [0.3.3.dev3] Old Version: [0.3.3.dev1]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [cloudquery-plugin-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/67/92/746acce0cb26aec7290ad371f1e96b3d7299caa04b99cb9e2731b2d98de3/qodex_cameras-2.1.3-py3-none-any.whl
+[2024-04-01 16:39:50] WARNING root fetch - processPackages [Xodia24]: Skipping, unable to determine old version
+[2024-04-01 16:39:50] INFO root fetch - main [MainThread]: End processing [Xodia24] error
+[2024-04-01 16:39:50] WARNING root fetch - processPackages [han2kip]: Skipping, unable to determine old version
+[2024-04-01 16:39:50] INFO root fetch - main [MainThread]: End processing [han2kip] error
+[2024-04-01 16:39:50] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/e7/04/3b386c6a581658b843c6404e725094b41d2c33a7e8de98297e3778052ce8/girder_client_mount-0.3.3.dev1.tar.gz
+[2024-04-01 16:39:50] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/8d/fb/733720cbd77f5285dbf2d5e27b1c0aaaa06ff7792bcb8073c0ee5339ca57/cloudquery-plugin-sdk-0.1.8.tar.gz
+[2024-04-01 16:39:50] INFO root fetch - processPackages [aws-lambda-builders]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [slpkg]: New version: [5.0.3] Old Version: [5.0.2]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [agenta]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [transfernet]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-01 16:39:50] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Downloading https://files.pythonhosted.org/packages/05/dd/0462f062ce579c3d91af881cc72873b51b63a963fc6e8cfc436135ef582a/cloudquery-plugin-sdk-0.1.9.tar.gz
+[2024-04-01 16:39:50] INFO root fetch - processPackages [girder-client-mount]: Downloading https://files.pythonhosted.org/packages/fd/e8/1c04dad0cfdec700537a2b6ce841a1cea67f903d3a17a97ad7aa3be70e74/girder_client_mount-0.3.3.dev3.tar.gz
+[2024-04-01 16:39:50] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/b4/66/1637ea5767e569ff873e0dc6b4839e5da05e6e73d263cf0beda4c4e9bdfd/slpkg-5.0.2.tar.gz
+[2024-04-01 16:39:50] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e3/69/b30e6dd522093bda1a181f35238cc15adbccec6e37043e773b39ac03040e/aws_lambda_builders-1.8.1.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/82/bb/4a2fc5355712c27de96b0f37140906aad1d93b0f11070bd251b2fd6e468c/qodex_cameras-2.1.4-py3-none-any.whl
+[2024-04-01 16:39:51] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/e1/b3/694bb4fe67f0b63ef67836f5924bdc436dfb590d7e7da0824cbbc4b71853/agenta-0.8.4.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [transfernet]: Downloading https://files.pythonhosted.org/packages/dc/22/a2b2e0d35f76e902529094959ba5c8fc65739187e831e9dc3cc2a46044bc/transfernet-0.4.0.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [cloudquery-plugin-sdk]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [cloudquery-plugin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudquery-plugin-sdk-0.1.8.tar.gz tmp/cloudquery-plugin-sdk-0.1.9.tar.gz --markdown 20240401/c/cloudquery-plugin-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [girder-client-mount]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [girder-client-mount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder_client_mount-0.3.3.dev1.tar.gz tmp/girder_client_mount-0.3.3.dev3.tar.gz --markdown 20240401/g/girder-client-mount/0.3.3.dev1-0.3.3.dev3/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.3-py3-none-any.whl.zip tmp/qodex_cameras-2.1.4-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [aws-lambda-builders]: Downloading https://files.pythonhosted.org/packages/e9/59/d34d362a4f20df6d878a4efa92f9ef96e556c2070f93b248df06a8eaa5fa/aws_lambda_builders-1.9.0.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [slpkg]: Downloading https://files.pythonhosted.org/packages/9a/dc/1b29468f3b5f193a509801da7208fc0bf694550cb28a89f50bd9a304fc18/slpkg-5.0.3.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [transfernet]: Downloading https://files.pythonhosted.org/packages/cf/db/13e16305c2322b51faffa3ca2e0ab6e34f909457afb9c31f842f51d1db74/transfernet-0.4.1.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [agenta]: Downloading https://files.pythonhosted.org/packages/f7/a1/73689fd1faf7fbbd3985f8ed9673e4784bae27b1789d6fe5f7e4f001ed89/agenta-0.9.0.tar.gz
+[2024-04-01 16:39:51] INFO root fetch - processPackages [aws-lambda-builders]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [aws-lambda-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_builders-1.8.1.tar.gz tmp/aws_lambda_builders-1.9.0.tar.gz --markdown 20240401/a/aws-lambda-builders/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [agenta]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [agenta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agenta-0.8.4.tar.gz tmp/agenta-0.9.0.tar.gz --markdown 20240401/a/agenta/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [slpkg]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [slpkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slpkg-5.0.2.tar.gz tmp/slpkg-5.0.3.tar.gz --markdown 20240401/s/slpkg/5.0.2-5.0.3/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [transfernet]: executing diffoscope
+[2024-04-01 16:39:51] INFO root fetch - processPackages [transfernet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transfernet-0.4.0.tar.gz tmp/transfernet-0.4.1.tar.gz --markdown 20240401/t/transfernet/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-01 16:39:51] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.3-py3-none-any.whl.zip]
+[2024-04-01 16:39:51] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.4-py3-none-any.whl.zip]
+[2024-04-01 16:39:51] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 16:39:51] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.8.tar.gz]
+[2024-04-01 16:39:51] INFO root fetch - processPackages [cloudquery-plugin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cloudquery-plugin-sdk-0.1.9.tar.gz]
+[2024-04-01 16:39:51] INFO root fetch - main [MainThread]: End processing [cloudquery-plugin-sdk]: success
+[2024-04-01 16:39:51] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev1.tar.gz]
+[2024-04-01 16:39:51] INFO root fetch - processPackages [girder-client-mount]: Remove: archive file [/home/abi/fetcher/tmp/girder_client_mount-0.3.3.dev3.tar.gz]
+[2024-04-01 16:39:51] INFO root fetch - main [MainThread]: End processing [girder-client-mount]: success
+[2024-04-01 16:39:52] INFO root fetch - processPackages [transfernet]: Remove: archive file [/home/abi/fetcher/tmp/transfernet-0.4.0.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - processPackages [transfernet]: Remove: archive file [/home/abi/fetcher/tmp/transfernet-0.4.1.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - main [MainThread]: End processing [transfernet]: success
+[2024-04-01 16:39:52] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.2.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - processPackages [slpkg]: Remove: archive file [/home/abi/fetcher/tmp/slpkg-5.0.3.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - main [MainThread]: End processing [slpkg]: success
+[2024-04-01 16:39:52] INFO root fetch - processPackages [aws-lambda-builders]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_builders-1.8.1.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - processPackages [aws-lambda-builders]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_builders-1.9.0.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - main [MainThread]: End processing [aws-lambda-builders]: success
+[2024-04-01 16:39:52] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.8.4.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - processPackages [agenta]: Remove: archive file [/home/abi/fetcher/tmp/agenta-0.9.0.tar.gz]
+[2024-04-01 16:39:52] INFO root fetch - main [MainThread]: End processing [agenta]: success
+[2024-04-01 16:39:52] INFO root fetch - main [MainThread]: Store serial: [22570628]
