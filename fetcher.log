@@ -11109,3 +11109,33 @@ EOFError: EOF read where object expected
 [2024-04-01 19:42:07] INFO root fetch - processPackages [jupyturtle]: Remove: archive file [/home/abi/fetcher/tmp/jupyturtle-2024.4.1.tar.gz]
 [2024-04-01 19:42:07] INFO root fetch - main [MainThread]: End processing [jupyturtle]: success
 [2024-04-01 19:42:07] INFO root fetch - main [MainThread]: Store serial: [22572889]
+[2024-04-01 19:44:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572889]
+[2024-04-01 19:44:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 19:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gutta
+[2024-04-01 19:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2024-04-01 19:44:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onekit
+[2024-04-01 19:44:16] INFO root fetch - processPackages [onekit]: New version: [1.0.0] Old Version: [0.9.0]
+[2024-04-01 19:44:16] INFO root fetch - processPackages [gutta]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 19:44:16] INFO root fetch - processPackages [kfish]: New version: [99.0.202404011742] Old Version: [99.0.202404010858]
+[2024-04-01 19:44:16] INFO root fetch - processPackages [gutta]: Downloading https://files.pythonhosted.org/packages/e3/e9/18960afee76668197afb10e5d8b918defbde2e54f6a795a1de911c47f68d/gutta-0.1.4-py3-none-any.whl
+[2024-04-01 19:44:16] INFO root fetch - processPackages [onekit]: Downloading https://files.pythonhosted.org/packages/c6/a0/47e9e6ac311950ded6162a9cbe139b76aa81f945363ec9b8453c91c23555/onekit-0.9.0.tar.gz
+[2024-04-01 19:44:16] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/ef/06/0f2c22d532fc86c40b04a6e74d1863fafd2b9579dcd527a9c20a08913481/kfish-99.0.202404010858-py3-none-any.whl
+[2024-04-01 19:44:16] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/18/0f/d66581530a40c908950a40fd5a0027e9bd4b2f14986980f44671c73f39ea/kfish-99.0.202404011742-py3-none-any.whl
+[2024-04-01 19:44:16] INFO root fetch - processPackages [gutta]: Downloading https://files.pythonhosted.org/packages/6f/37/3f321635851181070687847a5e853a559c2e0a6980728baf3e5b9bda4fe4/gutta-0.1.5-py3-none-any.whl
+[2024-04-01 19:44:16] INFO root fetch - processPackages [onekit]: Downloading https://files.pythonhosted.org/packages/5b/1e/75d74c983e250a49a3f859a208225288da74b387d1cb716408b180224b71/onekit-1.0.0.tar.gz
+[2024-04-01 19:44:16] INFO root fetch - processPackages [onekit]: executing diffoscope
+[2024-04-01 19:44:16] INFO root fetch - processPackages [onekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onekit-0.9.0.tar.gz tmp/onekit-1.0.0.tar.gz --markdown 20240401/o/onekit/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 19:44:16] INFO root fetch - processPackages [gutta]: executing diffoscope
+[2024-04-01 19:44:16] INFO root fetch - processPackages [gutta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gutta-0.1.4-py3-none-any.whl.zip tmp/gutta-0.1.5-py3-none-any.whl.zip --markdown 20240401/g/gutta/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 19:44:16] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-01 19:44:16] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404010858-py3-none-any.whl.zip tmp/kfish-99.0.202404011742-py3-none-any.whl.zip --markdown 20240401/k/kfish/99.0.202404010858-99.0.202404011742/diff.md --exclude *.pyd
+[2024-04-01 19:44:17] INFO root fetch - processPackages [gutta]: Remove: archive file [/home/abi/fetcher/tmp/gutta-0.1.4-py3-none-any.whl.zip]
+[2024-04-01 19:44:17] INFO root fetch - processPackages [gutta]: Remove: archive file [/home/abi/fetcher/tmp/gutta-0.1.5-py3-none-any.whl.zip]
+[2024-04-01 19:44:17] INFO root fetch - main [MainThread]: End processing [gutta]: success
+[2024-04-01 19:44:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404010858-py3-none-any.whl.zip]
+[2024-04-01 19:44:17] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404011742-py3-none-any.whl.zip]
+[2024-04-01 19:44:17] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-01 19:44:17] INFO root fetch - processPackages [onekit]: Remove: archive file [/home/abi/fetcher/tmp/onekit-0.9.0.tar.gz]
+[2024-04-01 19:44:17] INFO root fetch - processPackages [onekit]: Remove: archive file [/home/abi/fetcher/tmp/onekit-1.0.0.tar.gz]
+[2024-04-01 19:44:17] INFO root fetch - main [MainThread]: End processing [onekit]: success
+[2024-04-01 19:44:17] INFO root fetch - main [MainThread]: Store serial: [22572896]
