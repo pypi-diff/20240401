@@ -367,3 +367,51 @@
 [2024-04-01 11:44:28] INFO root fetch - processPackages [bota]: Remove: archive file [/home/abi/fetcher/tmp/bota-4.0.9.tar.gz]
 [2024-04-01 11:44:28] INFO root fetch - main [MainThread]: End processing [bota]: success
 [2024-04-01 11:44:28] INFO root fetch - main [MainThread]: Store serial: [22567809]
+[2024-04-01 11:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567809]
+[2024-04-01 11:46:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-04-01 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-field-logger
+[2024-04-01 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: th2-grpc-read-db
+[2024-04-01 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: broadworks-ocip
+[2024-04-01 11:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gluepy
+[2024-04-01 11:46:36] INFO root fetch - processPackages [gluepy]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-01 11:46:36] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/cd/cd/d63f3fba71fd76c7f8ac1d6ae6b87160822cd40448430be4db93e9311943/gluepy-0.1.0.tar.gz
+[2024-04-01 11:46:36] INFO root fetch - processPackages [broadworks-ocip]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-01 11:46:36] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8506539601]
+[2024-04-01 11:46:36] INFO root fetch - processPackages [django-field-logger]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 11:46:36] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 11:46:36] INFO root fetch - processPackages [broadworks-ocip]: Downloading https://files.pythonhosted.org/packages/72/ef/3c8fdf4be8d2590475f44ac5a08a27c7a2d4dacbd25b0df1fcd781ec11f4/broadworks_ocip-2.1.2.tar.gz
+[2024-04-01 11:46:36] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/b3/e2/fcaa98a51ebbfb6fb55fc789f31dec80706c354f58b90871053739564703/gluepy-1.0.0.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/1c/b1/0c28001b1c64dc68f23f04b7ed59dc0c799098d1b32e8eb9504b9754fc22/django-field-logger-0.0.8.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 11:46:37] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/1b/b7/82bfac16fbc4680a244adeeca4882ff93fc476f41e881ad7ce6994edbfdd/th2_grpc_read_db-0.0.8.dev8506539601.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [gluepy]: executing diffoscope
+[2024-04-01 11:46:37] INFO root fetch - processPackages [gluepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluepy-0.1.0.tar.gz tmp/gluepy-1.0.0.tar.gz --markdown 20240401/g/gluepy/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 11:46:37] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-01 11:46:37] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8506539601.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240401/t/th2-grpc-read-db/0.0.8.dev8506539601-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-01 11:46:37] INFO root fetch - processPackages [broadworks-ocip]: Downloading https://files.pythonhosted.org/packages/2d/19/2a4c55559a5edc37635f62d6e7b711ed09d488b25264bb8f097073755be4/broadworks_ocip-2.2.0.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-0.1.0.tar.gz]
+[2024-04-01 11:46:37] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.0.0.tar.gz]
+[2024-04-01 11:46:37] INFO root fetch - main [MainThread]: End processing [gluepy]: success
+[2024-04-01 11:46:37] INFO root fetch - processPackages [django-field-logger]: Downloading https://files.pythonhosted.org/packages/5c/38/5b6cb284e041551a472a53325ce600b28a43088933b8022578ffa40f44de/django-field-logger-0.0.9.tar.gz
+[2024-04-01 11:46:37] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 11:46:37] INFO root fetch - processPackages [django-field-logger]: executing diffoscope
+[2024-04-01 11:46:37] INFO root fetch - processPackages [django-field-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-field-logger-0.0.8.tar.gz tmp/django-field-logger-0.0.9.tar.gz --markdown 20240401/d/django-field-logger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 11:46:37] INFO root fetch - processPackages [broadworks-ocip]: executing diffoscope
+[2024-04-01 11:46:37] INFO root fetch - processPackages [broadworks-ocip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/broadworks_ocip-2.1.2.tar.gz tmp/broadworks_ocip-2.2.0.tar.gz --markdown 20240401/b/broadworks-ocip/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2024-04-01 11:46:37] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 11:46:37] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 11:46:38] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8506539601.tar.gz]
+[2024-04-01 11:46:38] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-01 11:46:38] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-01 11:46:38] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.8.tar.gz]
+[2024-04-01 11:46:38] INFO root fetch - processPackages [django-field-logger]: Remove: archive file [/home/abi/fetcher/tmp/django-field-logger-0.0.9.tar.gz]
+[2024-04-01 11:46:38] INFO root fetch - main [MainThread]: End processing [django-field-logger]: success
+[2024-04-01 11:46:39] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 11:46:39] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 11:46:39] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 11:46:53] INFO root fetch - processPackages [broadworks-ocip]: Remove: archive file [/home/abi/fetcher/tmp/broadworks_ocip-2.1.2.tar.gz]
+[2024-04-01 11:46:53] INFO root fetch - processPackages [broadworks-ocip]: Remove: archive file [/home/abi/fetcher/tmp/broadworks_ocip-2.2.0.tar.gz]
+[2024-04-01 11:46:53] INFO root fetch - main [MainThread]: End processing [broadworks-ocip]: success
+[2024-04-01 11:46:53] INFO root fetch - main [MainThread]: Store serial: [22567822]
