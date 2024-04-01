@@ -12254,3 +12254,81 @@ EOFError: EOF read where object expected
 [2024-04-01 20:29:22] INFO root fetch - processPackages [deepllm]: Remove: archive file [/home/abi/fetcher/tmp/deepllm-1.4.1.tar.gz]
 [2024-04-01 20:29:22] INFO root fetch - main [MainThread]: End processing [deepllm]: success
 [2024-04-01 20:29:22] INFO root fetch - main [MainThread]: Store serial: [22573422]
+[2024-04-01 20:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573422]
+[2024-04-01 20:31:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pinjet-common
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickup-sdk
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: promptlayer
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaaql-monitor
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modlee-onnx-graphsurgeon
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bytewax
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: DFRobot-GP8403
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modlee
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MobileInventoryCLI
+[2024-04-01 20:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: deeptorchblocks
+[2024-04-01 20:31:31] WARNING root fetch - processPackages [pinjet-common]: Skipping, unable to determine old version
+[2024-04-01 20:31:31] INFO root fetch - processPackages [pinjet-common]: Start processing: winter
+[2024-04-01 20:31:31] INFO root fetch - main [MainThread]: End processing [pinjet-common] error
+[2024-04-01 20:31:32] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [modlee]: New version: [0.0.1.post6] Old Version: [0.0.1.post1]
+[2024-04-01 20:31:32] WARNING root fetch - processPackages [modlee-onnx-graphsurgeon]: Skipping, unable to determine old version
+[2024-04-01 20:31:32] INFO root fetch - main [MainThread]: End processing [modlee-onnx-graphsurgeon] error
+[2024-04-01 20:31:32] WARNING root fetch - processPackages [clickup-sdk]: Skipping, unable to determine old version
+[2024-04-01 20:31:32] INFO root fetch - main [MainThread]: End processing [clickup-sdk] error
+[2024-04-01 20:31:32] WARNING root fetch - processPackages [deeptorchblocks]: Skipping, unable to determine old version
+[2024-04-01 20:31:32] INFO root fetch - main [MainThread]: End processing [deeptorchblocks] error
+[2024-04-01 20:31:32] INFO root fetch - processPackages [DFRobot-GP8403]: New version: [10.0.0] Old Version: [0.1.1]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [promptlayer]: New version: [0.5.4] Old Version: [0.5.3]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/17/b5/32e3ac966ede8aee3da3bf810c4bd238e2a8b291bf22e1f1bd8a5659905c/MobileInventoryCLI-0.4.0.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [jaaql-monitor]: New version: [1.2.99] Old Version: [1.2.98]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [winter]: New version: [9.6.4] Old Version: [9.6.3]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/89/45/e057d12697964f2b60bd77a59dd3de9ad46abb74411df17480445257a93f/modlee-0.0.1.post1.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/b2/ec/2dad03665eb0c389547dcbd97700bdeb698655a86710794c684f184472f2/promptlayer-0.5.3.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [bytewax]: New version: [0.9.0] Old Version: [0.8.0b2]
+[2024-04-01 20:31:32] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/80/27/cd391208e45e79c24a8a3c147059581e229086e3fd355deabbaaef08cba6/jaaql-monitor-1.2.98.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [DFRobot-GP8403]: Downloading https://files.pythonhosted.org/packages/0f/01/439d7fa0d11943146602c6dd71b0f26f25d638b16b70a1672813613c84d3/DFRobot_GP8403-0.1.1.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/46/8a/816fba55ee7b4f089bab594def4e1f6d52ff11618d5c02c388eb2ca05c8e/winter-9.6.3.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/43/18/11febb06edec6861f2fa0f2a2e8cde87d306a4cc955fae7a8fca89a9a520/MobileInventoryCLI-0.4.1.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [bytewax]: Downloading https://files.pythonhosted.org/packages/43/26/50eab58b6a1d3f2822dc9f685553ceb4e2398d7d7e3acd75d7349f1d6f43/bytewax-0.8.0_beta.2.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.0.tar.gz tmp/MobileInventoryCLI-0.4.1.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-01 20:31:32] INFO root fetch - processPackages [modlee]: Downloading https://files.pythonhosted.org/packages/4b/44/df7d5ee48b41a60e325f80156bbabc76b379675f6fa312f9ea02606aa243/modlee-0.0.1.post6.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [promptlayer]: Downloading https://files.pythonhosted.org/packages/0a/f9/b0f03b3106f1e8102f284c4d240c6e59b065360aa4607d857bbf24a20bbe/promptlayer-0.5.4.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [jaaql-monitor]: Downloading https://files.pythonhosted.org/packages/38/72/19bb845ce929eb67ea1384097fd45a39c91b84579b3cfa77612867cec978/jaaql-monitor-1.2.99.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [DFRobot-GP8403]: Downloading https://files.pythonhosted.org/packages/ef/86/201dcf7d5e068601886000a8c2659d634d88ac1b5d6f795a7068198a1bc4/DFRobot_GP8403-10.0.0.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [promptlayer]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [promptlayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptlayer-0.5.3.tar.gz tmp/promptlayer-0.5.4.tar.gz --markdown 20240401/p/promptlayer/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2024-04-01 20:31:32] INFO root fetch - processPackages [winter]: Downloading https://files.pythonhosted.org/packages/e8/5d/636b014ae9453463f8cd456911d870d57243f605ea0324c1f5888edb5ed6/winter-9.6.4.tar.gz
+[2024-04-01 20:31:32] INFO root fetch - processPackages [modlee]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [modlee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modlee-0.0.1.post1.tar.gz tmp/modlee-0.0.1.post6.tar.gz --markdown 20240401/m/modlee/0.0.1.post1-0.0.1.post6/diff.md --exclude *.pyd
+[2024-04-01 20:31:32] INFO root fetch - processPackages [DFRobot-GP8403]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [DFRobot-GP8403]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DFRobot_GP8403-0.1.1.tar.gz tmp/DFRobot_GP8403-10.0.0.tar.gz --markdown 20240401/D/DFRobot-GP8403/0.1.1-10.0.0/diff.md --exclude *.pyd
+[2024-04-01 20:31:32] INFO root fetch - processPackages [jaaql-monitor]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [jaaql-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-monitor-1.2.98.tar.gz tmp/jaaql-monitor-1.2.99.tar.gz --markdown 20240401/j/jaaql-monitor/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2024-04-01 20:31:32] INFO root fetch - processPackages [winter]: executing diffoscope
+[2024-04-01 20:31:32] INFO root fetch - processPackages [winter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winter-9.6.3.tar.gz tmp/winter-9.6.4.tar.gz --markdown 20240401/w/winter/9.6.3-9.6.4/diff.md --exclude *.pyd
+[2024-04-01 20:31:33] INFO root fetch - processPackages [bytewax]: Downloading https://files.pythonhosted.org/packages/d1/dd/3ac31759195724a74f6fbd67bd5b1c9f48852dc64f572ee7be0b719908e9/bytewax-0.9.0.tar.gz
+[2024-04-01 20:31:33] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.0.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.1.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.5.3.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [promptlayer]: Remove: archive file [/home/abi/fetcher/tmp/promptlayer-0.5.4.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [promptlayer]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post1.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [modlee]: Remove: archive file [/home/abi/fetcher/tmp/modlee-0.0.1.post6.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [modlee]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [DFRobot-GP8403]: Remove: archive file [/home/abi/fetcher/tmp/DFRobot_GP8403-0.1.1.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [DFRobot-GP8403]: Remove: archive file [/home/abi/fetcher/tmp/DFRobot_GP8403-10.0.0.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [DFRobot-GP8403]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [jaaql-monitor]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-monitor-1.2.98.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [jaaql-monitor]: Remove: archive file [/home/abi/fetcher/tmp/jaaql-monitor-1.2.99.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [jaaql-monitor]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.3.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - processPackages [winter]: Remove: archive file [/home/abi/fetcher/tmp/winter-9.6.4.tar.gz]
+[2024-04-01 20:31:33] INFO root fetch - main [MainThread]: End processing [winter]: success
+[2024-04-01 20:31:33] INFO root fetch - processPackages [bytewax]: executing diffoscope
+[2024-04-01 20:31:33] INFO root fetch - processPackages [bytewax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bytewax-0.8.0_beta.2.tar.gz tmp/bytewax-0.9.0.tar.gz --markdown 20240401/b/bytewax/0.8.0b2-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:31:34] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.8.0_beta.2.tar.gz]
+[2024-04-01 20:31:34] INFO root fetch - processPackages [bytewax]: Remove: archive file [/home/abi/fetcher/tmp/bytewax-0.9.0.tar.gz]
+[2024-04-01 20:31:34] INFO root fetch - main [MainThread]: End processing [bytewax]: success
+[2024-04-01 20:31:34] INFO root fetch - main [MainThread]: Store serial: [22573476]
