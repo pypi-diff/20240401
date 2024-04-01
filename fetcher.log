@@ -513,3 +513,21 @@
 [2024-04-01 11:51:34] INFO root fetch - processPackages [qiskit-aer]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-aer-0.9.1.tar.gz]
 [2024-04-01 11:51:34] INFO root fetch - main [MainThread]: End processing [qiskit-aer]: success
 [2024-04-01 11:51:34] INFO root fetch - main [MainThread]: Store serial: [22567903]
+[2024-04-01 11:53:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567903]
+[2024-04-01 11:53:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 11:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: longport
+[2024-04-01 11:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embeddings-explorer
+[2024-04-01 11:53:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: embeddings-explorer
+[2024-04-01 11:53:43] WARNING root fetch - processPackages [embeddings-explorer]: Skipping, unable to determine old version
+[2024-04-01 11:53:43] INFO root fetch - main [MainThread]: End processing [embeddings-explorer] error
+[2024-04-01 11:53:43] WARNING root fetch - processPackages [embeddings-explorer]: Skipping, unable to determine old version
+[2024-04-01 11:53:43] INFO root fetch - main [MainThread]: End processing [embeddings-explorer] error
+[2024-04-01 11:53:43] INFO root fetch - processPackages [longport]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 11:53:44] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/a8/d8/56cdd8d715e4b07343d1f38a8f39c316d9a41ef8a16b04ac9ccfb685fd44/longport-1.0.8.tar.gz
+[2024-04-01 11:53:44] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/36/fa/25c45854f4cc739ef801f581c0cf5186fa2fd4928be5a85bf9dba778d99e/longport-1.0.9.tar.gz
+[2024-04-01 11:53:44] INFO root fetch - processPackages [longport]: executing diffoscope
+[2024-04-01 11:53:44] INFO root fetch - processPackages [longport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longport-1.0.8.tar.gz tmp/longport-1.0.9.tar.gz --markdown 20240401/l/longport/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 11:53:45] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.8.tar.gz]
+[2024-04-01 11:53:45] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
+[2024-04-01 11:53:45] INFO root fetch - main [MainThread]: End processing [longport]: success
+[2024-04-01 11:53:45] INFO root fetch - main [MainThread]: Store serial: [22567954]
