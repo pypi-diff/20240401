@@ -6260,3 +6260,45 @@ EOFError: EOF read where object expected
 [2024-04-01 16:35:30] INFO root fetch - processPackages [All-in-one-chay]: Remove: archive file [/home/abi/fetcher/tmp/All-in-one-chay-2.4.5.tar.gz]
 [2024-04-01 16:35:30] INFO root fetch - main [MainThread]: End processing [All-in-one-chay]: success
 [2024-04-01 16:35:30] INFO root fetch - main [MainThread]: Store serial: [22570580]
+[2024-04-01 16:37:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570580]
+[2024-04-01 16:37:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 16:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansar-connect
+[2024-04-01 16:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elex-solver
+[2024-04-01 16:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-django-azure
+[2024-04-01 16:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-sidu
+[2024-04-01 16:37:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-huna
+[2024-04-01 16:37:38] INFO root fetch - processPackages [pytorch-sidu]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-01 16:37:39] WARNING root fetch - processPackages [utils-huna]: Skipping, unable to determine old version
+[2024-04-01 16:37:39] INFO root fetch - main [MainThread]: End processing [utils-huna] error
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pulumi-django-azure]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/12/7d/29ce1859e6a13f1cc2b8d64fcb5ba237b6bf30900f8acb84be21c8cd3ddf/pytorch-sidu-1.0.6.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [elex-solver]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-01 16:37:39] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-01 16:37:39] INFO root fetch - processPackages [elex-solver]: Downloading https://files.pythonhosted.org/packages/b5/7b/d9100873badbf283490488b9e14b50aa83e3deefe07939e27225e09090c3/elex-solver-2.0.1.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/c8/2d/5a199e5ea523566ac590f3b08cfe06fd88e1b64e04495fa03726377e08a7/pulumi-django-azure-1.0.6.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/28/56/fcacd6f457d566da2370f76c2aeaaf235eb17f82b8fd853c878bc7a53f10/pytorch-sidu-1.0.7.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: executing diffoscope
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-sidu-1.0.6.tar.gz tmp/pytorch-sidu-1.0.7.tar.gz --markdown 20240401/p/pytorch-sidu/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-01 16:37:39] INFO root fetch - processPackages [elex-solver]: Downloading https://files.pythonhosted.org/packages/4e/ec/608017dd82f8830e998af3db84f4707caadcd24fa7ef179a056cdbd2178f/elex-solver-2.1.0.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pulumi-django-azure]: Downloading https://files.pythonhosted.org/packages/7b/b6/eba327a28bfc4dfb9a10fa8f6686aafd5c16b44f6ec48d950e820e284131/pulumi-django-azure-1.0.7.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pulumi-django-azure]: executing diffoscope
+[2024-04-01 16:37:39] INFO root fetch - processPackages [elex-solver]: executing diffoscope
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pulumi-django-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-django-azure-1.0.6.tar.gz tmp/pulumi-django-azure-1.0.7.tar.gz --markdown 20240401/p/pulumi-django-azure/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-01 16:37:39] INFO root fetch - processPackages [elex-solver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elex-solver-2.0.1.tar.gz tmp/elex-solver-2.1.0.tar.gz --markdown 20240401/e/elex-solver/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-01 16:37:39] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-01 16:37:39] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240401/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.6.tar.gz]
+[2024-04-01 16:37:39] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.7.tar.gz]
+[2024-04-01 16:37:39] INFO root fetch - main [MainThread]: End processing [pytorch-sidu]: success
+[2024-04-01 16:37:40] INFO root fetch - processPackages [elex-solver]: Remove: archive file [/home/abi/fetcher/tmp/elex-solver-2.0.1.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - processPackages [elex-solver]: Remove: archive file [/home/abi/fetcher/tmp/elex-solver-2.1.0.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - main [MainThread]: End processing [elex-solver]: success
+[2024-04-01 16:37:40] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.6.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - processPackages [pulumi-django-azure]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-django-azure-1.0.7.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - main [MainThread]: End processing [pulumi-django-azure]: success
+[2024-04-01 16:37:40] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-01 16:37:40] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-01 16:37:40] INFO root fetch - main [MainThread]: Store serial: [22570595]
