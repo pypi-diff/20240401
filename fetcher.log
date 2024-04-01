@@ -10239,3 +10239,69 @@ EOFError: EOF read where object expected
 [2024-04-01 19:01:11] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
 [2024-04-01 19:01:11] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
 [2024-04-01 19:01:11] INFO root fetch - main [MainThread]: Store serial: [22572470]
+[2024-04-01 19:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572470]
+[2024-04-01 19:03:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-huna
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-explorer
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wipac-keycloak-rest-services
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ob-dj-store
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: relationalai
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amilib
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: metaphor-connectors
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discminer
+[2024-04-01 19:03:20] WARNING root fetch - processPackages [amilib]: Skipping, unable to determine old version
+[2024-04-01 19:03:20] INFO root fetch - main [MainThread]: End processing [amilib] error
+[2024-04-01 19:03:20] INFO root fetch - processPackages [utils-huna]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [model-explorer]: New version: [0.0.60] Old Version: [0.0.59]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [discminer]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/e0/5c/b68f674efa4ccae1c996a5b0e8c674f95a37eb1cb3884aeb9885bbd0b9b1/model-explorer-0.0.59.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/e0/a5/df1465ccd5677fc5dd8f0f8dc8aef665142056ecd26ad1d18dbfcd53baee/utils_huna-0.1.3.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [relationalai]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [wipac-keycloak-rest-services]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-01 19:03:20] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/58/bd/b7a4651982c7e560bbcde08ca931b1f985f42ad94f3e1d3762ad2a2a3ec8/relationalai-0.1.8.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/22/85/fc995b014d0d5c0defed9adf90b80ff22e9374849a59becfa2707b580e8c/wipac-keycloak-rest-services-1.4.8.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/77/c6/106fc242dbc7d02ceaa95afca4b431badac485140cc2ee8180df3f6101ce/utils_huna-0.1.4.tar.gz
+[2024-04-01 19:03:20] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/08/c0/c01ceb9d46bb9939d426785c6c516af3ecc85ea2eaa96ef786ac90d375da/discminer-0.2.8.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [utils-huna]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [utils-huna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_huna-0.1.3.tar.gz tmp/utils_huna-0.1.4.tar.gz --markdown 20240401/u/utils-huna/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 19:03:21] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/73/05/ea6e9833872a69fedc02c78c29de11ce5c90411472d65d41f67b8b3cfd16/model-explorer-0.0.60.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [relationalai]: Downloading https://files.pythonhosted.org/packages/da/7c/4cbd4d2249bb104187923452f51aafbe03e171f9f7ee42645663384c107b/relationalai-0.1.9.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Downloading https://files.pythonhosted.org/packages/9e/e7/0838151110668383451ef0f17b701dd859914bd1ac0a02f0c73dfee7b06d/wipac-keycloak-rest-services-1.4.9.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [discminer]: Downloading https://files.pythonhosted.org/packages/82/25/c05cbcbaea7b51dcc80bf33dbe97400f612e7521d9e0a7c767f170087a8c/discminer-0.2.9.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.59.tar.gz tmp/model-explorer-0.0.60.tar.gz --markdown 20240401/m/model-explorer/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2024-04-01 19:03:21] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2024-04-01 19:03:21] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240401/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-01 19:03:21] INFO root fetch - processPackages [wipac-keycloak-rest-services]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [wipac-keycloak-rest-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wipac-keycloak-rest-services-1.4.8.tar.gz tmp/wipac-keycloak-rest-services-1.4.9.tar.gz --markdown 20240401/w/wipac-keycloak-rest-services/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2024-04-01 19:03:21] INFO root fetch - processPackages [relationalai]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [relationalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relationalai-0.1.8.tar.gz tmp/relationalai-0.1.9.tar.gz --markdown 20240401/r/relationalai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 19:03:21] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.3.tar.gz]
+[2024-04-01 19:03:21] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.4.tar.gz]
+[2024-04-01 19:03:21] INFO root fetch - main [MainThread]: End processing [utils-huna]: success
+[2024-04-01 19:03:21] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2024-04-01 19:03:21] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20240401/o/ob-dj-store/0.0.9.7-0.0.9.8/diff.md --exclude *.pyd
+[2024-04-01 19:03:22] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.8.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - processPackages [wipac-keycloak-rest-services]: Remove: archive file [/home/abi/fetcher/tmp/wipac-keycloak-rest-services-1.4.9.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [wipac-keycloak-rest-services]: success
+[2024-04-01 19:03:22] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-01 19:03:22] WARNING root fetch - processPackages [discminer]: Skipping package: exceeds size limit 11323881>=10485760
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [discminer] error
+[2024-04-01 19:03:22] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.7.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2024-04-01 19:03:22] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.59.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.60.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-01 19:03:22] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.1.8.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - processPackages [relationalai]: Remove: archive file [/home/abi/fetcher/tmp/relationalai-0.1.9.tar.gz]
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: End processing [relationalai]: success
+[2024-04-01 19:03:22] INFO root fetch - main [MainThread]: Store serial: [22572494]
