@@ -18524,3 +18524,126 @@ EOFError: EOF read where object expected
 [2024-04-01 23:35:15] INFO root fetch - processPackages [tencentcloud-sdk-python-tsf]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsf-3.0.999.tar.gz]
 [2024-04-01 23:35:15] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsf]: success
 [2024-04-01 23:35:15] INFO root fetch - main [MainThread]: Store serial: [22576085]
+[2024-04-01 23:37:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576085]
+[2024-04-01 23:37:24] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-readers-gcs
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-fedit
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-tsw
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-tts
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-readers-google
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentinelc-appfeed
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d-fake-seeder
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index-readers-microsoft-sharepoint
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-vm
+[2024-04-01 23:37:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FMLC
+[2024-04-01 23:37:24] WARNING root fetch - processPackages [wagtail-fedit]: Skipping, unable to determine old version
+[2024-04-01 23:37:24] INFO root fetch - processPackages [wagtail-fedit]: Start processing: tencentcloud-sdk-python-vms
+[2024-04-01 23:37:24] INFO root fetch - main [MainThread]: End processing [wagtail-fedit] error
+[2024-04-01 23:37:24] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-gcs]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-google]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [FMLC]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [sentinelc-appfeed]: New version: [3.0.2] Old Version: [3.0.1]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-gcs]: Downloading https://files.pythonhosted.org/packages/4f/70/e449bcdd8a0ecea8956cfa495b2f72f2df34e03fd823d06bd56c5904e6f9/llama_index_readers_gcs-0.1.5.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-google]: Downloading https://files.pythonhosted.org/packages/4b/90/2176e37695432d11d6d0f0d15c7c311124703b89b80ca8a58248e61aed52/llama_index_readers_google-0.2.3.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-gcs]: Downloading https://files.pythonhosted.org/packages/3e/5b/8f07356d0f40693e641100d7560ceb081248a76ce723a21078ba58fd6fdf/llama_index_readers_gcs-0.1.6.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: Downloading https://files.pythonhosted.org/packages/7a/b9/1afc5c583627947785d8bbd04872a61607c5e2c4e58be94ae6a4a22f7526/llama_index_readers_microsoft_sharepoint-0.1.5.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [sentinelc-appfeed]: Downloading https://files.pythonhosted.org/packages/42/e3/1d839f209cd220e0673ae6f1aeb0846b65769684dbe1517627e45ea40e9d/sentinelc-appfeed-3.0.1.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [FMLC]: Downloading https://files.pythonhosted.org/packages/62/ce/16e744f40ae145e2b292c387a8afe0c94d5e46ad87216cf930700c25f03b/FMLC-1.2.1.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Downloading https://files.pythonhosted.org/packages/94/fd/93f5c3fbea11d1cbc6de5123a46923ddbf38a9a9904f1ce6ea59ea7e866d/tencentcloud-sdk-python-vm-3.0.998.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 23:37:24] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/10/59/08b9a1edde05fa318d69973b229f30dfbe049da31ff6fe2c7b369bb6abea/tencentcloud-sdk-python-tts-3.0.998.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Downloading https://files.pythonhosted.org/packages/0b/37/ef768839680845605dc1ad548f95dfc85501d713bb1afd3b4ebe256b2866/tencentcloud-sdk-python-vms-3.0.998.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/9c/15/5d686a8ece4a00e5a315a66e90b30727564fbbc80fe142ff5b19583b9758/tencentcloud-sdk-python-tsw-3.0.998.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-gcs]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-gcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_gcs-0.1.5.tar.gz tmp/llama_index_readers_gcs-0.1.6.tar.gz --markdown 20240401/l/llama-index-readers-gcs/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-google]: Downloading https://files.pythonhosted.org/packages/be/66/aebb12b9d05fa742e54c22dfa1cbe71fa429162a44ba8f0b6a638b0b29f8/llama_index_readers_google-0.2.4.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [sentinelc-appfeed]: Downloading https://files.pythonhosted.org/packages/4e/ac/c165c5315ee8bb785a5d1a900cfa5bc1c5e65c8ca098277a12c00c0f9265/sentinelc-appfeed-3.0.2.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [FMLC]: Downloading https://files.pythonhosted.org/packages/d9/b8/deb3b9201bc068ed1ff1eb4a38920575fd0584625381e6aa48949b36441f/FMLC-1.2.2.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-google]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_google-0.2.3.tar.gz tmp/llama_index_readers_google-0.2.4.tar.gz --markdown 20240401/l/llama-index-readers-google/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Downloading https://files.pythonhosted.org/packages/20/de/08c782128d2630bf5daf31530f1783a255752dce61e1220554659b9d2fa5/tencentcloud-sdk-python-tts-3.0.999.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: Downloading https://files.pythonhosted.org/packages/4c/06/bd21bdc139fbdd08f021a8ef62dfb4b11d4471c5bcb46aac9873c636b828/llama_index_readers_microsoft_sharepoint-0.1.6.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Downloading https://files.pythonhosted.org/packages/bb/7f/952b82b80058a96138241447ab68d6447b7ff8802443b5c28fe59e65fa36/tencentcloud-sdk-python-vms-3.0.999.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Downloading https://files.pythonhosted.org/packages/b5/4b/330ed99d61f77ecadd7ff7b4d3588ec8d083968876df2a56ea9c0a104b19/tencentcloud-sdk-python-tsw-3.0.999.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [FMLC]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [FMLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FMLC-1.2.1.tar.gz tmp/FMLC-1.2.2.tar.gz --markdown 20240401/F/FMLC/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [sentinelc-appfeed]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [sentinelc-appfeed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinelc-appfeed-3.0.1.tar.gz tmp/sentinelc-appfeed-3.0.2.tar.gz --markdown 20240401/s/sentinelc-appfeed/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_microsoft_sharepoint-0.1.5.tar.gz tmp/llama_index_readers_microsoft_sharepoint-0.1.6.tar.gz --markdown 20240401/l/llama-index-readers-microsoft-sharepoint/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tts/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-tsw/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vms-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vms-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-vms/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Downloading https://files.pythonhosted.org/packages/bb/80/4a9a7daa8215fb6641ed5340fdf77e6477ba460c1a63ed05e3e35fd525e2/tencentcloud-sdk-python-vm-3.0.999.tar.gz
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-gcs]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_gcs-0.1.5.tar.gz]
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-gcs]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_gcs-0.1.6.tar.gz]
+[2024-04-01 23:37:25] INFO root fetch - processPackages [llama-index-readers-gcs]: Start processing: tencentcloud-sdk-python-vod
+[2024-04-01 23:37:25] INFO root fetch - main [MainThread]: End processing [llama-index-readers-gcs]: success
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: executing diffoscope
+[2024-04-01 23:37:25] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vm-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vm-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-vm/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [d-fake-seeder]: Start processing: bertagent
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [llama-index-readers-google]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_google-0.2.3.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [llama-index-readers-google]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_google-0.2.4.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [llama-index-readers-google]: Start processing: bioimageio-chatbot
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [llama-index-readers-google]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: Downloading https://files.pythonhosted.org/packages/5a/03/c6fc731670c4240cc16694a12640fecb44ac1cfc62ee0d44003a81d81183/tencentcloud-sdk-python-vod-3.0.998.tar.gz
+[2024-04-01 23:37:26] INFO root fetch - processPackages [bertagent]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.998.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-tsw]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tsw-3.0.999.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [FMLC]: Remove: archive file [/home/abi/fetcher/tmp/FMLC-1.2.1.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [FMLC]: Remove: archive file [/home/abi/fetcher/tmp/FMLC-1.2.2.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tsw]: success
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [FMLC]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [bioimageio-chatbot]: New version: [0.1.9] Old Version: [0.1.85]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/a2/97/a8298f459b91c30352283a6abf4a88e5d8b5a6de56ae40c41431454f36c2/bertagent-1.0.7.tar.gz
+[2024-04-01 23:37:26] INFO root fetch - processPackages [sentinelc-appfeed]: Remove: archive file [/home/abi/fetcher/tmp/sentinelc-appfeed-3.0.1.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [sentinelc-appfeed]: Remove: archive file [/home/abi/fetcher/tmp/sentinelc-appfeed-3.0.2.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [sentinelc-appfeed]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vms-3.0.998.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vms]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vms-3.0.999.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vms]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.998.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-tts]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-tts-3.0.999.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-tts]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_microsoft_sharepoint-0.1.5.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [llama-index-readers-microsoft-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_microsoft_sharepoint-0.1.6.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [llama-index-readers-microsoft-sharepoint]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vm-3.0.998.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vm]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vm-3.0.999.tar.gz]
+[2024-04-01 23:37:26] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vm]: success
+[2024-04-01 23:37:26] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/67/77/a787a6da9f47ab4de79827eae2c7994c791b13f422cea7e99325d0c06422/bioimageio-chatbot-0.1.85.tar.gz
+[2024-04-01 23:37:26] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: Downloading https://files.pythonhosted.org/packages/bf/2e/7b235c5524d23ec8fd5039d768a09373c8872d8a7c420d923cf28659844a/tencentcloud-sdk-python-vod-3.0.999.tar.gz
+[2024-04-01 23:37:26] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/22/9f/fb29e1ffecbfd558337e18da44ce27c52981637c9f60ba6165142c5656ff/bertagent-1.1.0.tar.gz
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-1.0.7.tar.gz tmp/bertagent-1.1.0.tar.gz --markdown 20240401/b/bertagent/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 23:37:27] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: executing diffoscope
+[2024-04-01 23:37:27] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-vod-3.0.998.tar.gz tmp/tencentcloud-sdk-python-vod-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-vod/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.0.7.tar.gz]
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.1.0.tar.gz]
+[2024-04-01 23:37:27] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/46/24/3d75cc49c62134f17ff70233ecff68a22210ad57197e61afdf38567d13c7/bioimageio-chatbot-0.1.9.tar.gz
+[2024-04-01 23:37:27] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vod-3.0.998.tar.gz]
+[2024-04-01 23:37:27] INFO root fetch - processPackages [tencentcloud-sdk-python-vod]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-vod-3.0.999.tar.gz]
+[2024-04-01 23:37:27] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-vod]: success
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bioimageio-chatbot]: executing diffoscope
+[2024-04-01 23:37:27] INFO root fetch - processPackages [bioimageio-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio-chatbot-0.1.85.tar.gz tmp/bioimageio-chatbot-0.1.9.tar.gz --markdown 20240401/b/bioimageio-chatbot/0.1.85-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 23:37:28] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.85.tar.gz]
+[2024-04-01 23:37:28] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.9.tar.gz]
+[2024-04-01 23:37:28] INFO root fetch - main [MainThread]: End processing [bioimageio-chatbot]: success
+[2024-04-01 23:37:28] INFO root fetch - main [MainThread]: Store serial: [22576139]
