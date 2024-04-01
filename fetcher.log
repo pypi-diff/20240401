@@ -3977,3 +3977,36 @@ EOFError: EOF read where object expected
 [2024-04-01 15:08:03] INFO root fetch - processPackages [volcengine-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-python-sdk-1.0.9.tar.gz]
 [2024-04-01 15:08:03] INFO root fetch - main [MainThread]: End processing [volcengine-python-sdk]: success
 [2024-04-01 15:08:03] INFO root fetch - main [MainThread]: Store serial: [22569379]
+[2024-04-01 15:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569379]
+[2024-04-01 15:10:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smtpproto
+[2024-04-01 15:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scalifiai-client
+[2024-04-01 15:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autoviz
+[2024-04-01 15:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configureout
+[2024-04-01 15:10:12] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 15:10:12] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 15:10:12] INFO root fetch - processPackages [smtpproto]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-01 15:10:12] INFO root fetch - processPackages [autoviz]: New version: [0.1.807] Old Version: [0.1.806]
+[2024-04-01 15:10:12] WARNING root fetch - processPackages [configureout]: Skipping, unable to determine old version
+[2024-04-01 15:10:12] INFO root fetch - main [MainThread]: End processing [configureout] error
+[2024-04-01 15:10:12] INFO root fetch - processPackages [smtpproto]: Downloading https://files.pythonhosted.org/packages/0f/6e/14baaa5acee89d6bd8d28ba89f86ea1194c6acbab0fad8333463abc6b890/smtpproto-1.2.1.tar.gz
+[2024-04-01 15:10:13] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/ce/70/80d3c62f44f9bd71f47c5fd3e6f04d88e43453288878d22322cb4d20671e/autoviz-0.1.806.tar.gz
+[2024-04-01 15:10:13] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 15:10:13] INFO root fetch - processPackages [smtpproto]: Downloading https://files.pythonhosted.org/packages/01/ed/52b88238793bb50198196d95577c08ad88b3d91539a798344873a4207096/smtpproto-2.0.0.tar.gz
+[2024-04-01 15:10:13] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 15:10:13] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 15:10:13] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/cd/6a/48bad43abbbc2bbb09c09f2680a1dfade32635d7b2d200ccdcf960ed97dd/autoviz-0.1.807.tar.gz
+[2024-04-01 15:10:13] INFO root fetch - processPackages [smtpproto]: executing diffoscope
+[2024-04-01 15:10:13] INFO root fetch - processPackages [smtpproto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smtpproto-1.2.1.tar.gz tmp/smtpproto-2.0.0.tar.gz --markdown 20240401/s/smtpproto/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 15:10:13] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2024-04-01 15:10:13] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.806.tar.gz tmp/autoviz-0.1.807.tar.gz --markdown 20240401/a/autoviz/0.1.806-0.1.807/diff.md --exclude *.pyd
+[2024-04-01 15:10:13] INFO root fetch - processPackages [smtpproto]: Remove: archive file [/home/abi/fetcher/tmp/smtpproto-1.2.1.tar.gz]
+[2024-04-01 15:10:13] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 15:10:13] INFO root fetch - processPackages [smtpproto]: Remove: archive file [/home/abi/fetcher/tmp/smtpproto-2.0.0.tar.gz]
+[2024-04-01 15:10:13] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 15:10:13] INFO root fetch - main [MainThread]: End processing [smtpproto]: success
+[2024-04-01 15:10:13] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 15:10:14] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.806.tar.gz]
+[2024-04-01 15:10:14] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.807.tar.gz]
+[2024-04-01 15:10:14] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2024-04-01 15:10:14] INFO root fetch - main [MainThread]: Store serial: [22569388]
