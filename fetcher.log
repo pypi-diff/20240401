@@ -11251,3 +11251,66 @@ EOFError: EOF read where object expected
 [2024-04-01 19:49:04] INFO root fetch - processPackages [dataforseo-client]: Remove: archive file [/home/abi/fetcher/tmp/dataforseo-client-1.0.9.tar.gz]
 [2024-04-01 19:49:04] INFO root fetch - main [MainThread]: End processing [dataforseo-client]: success
 [2024-04-01 19:49:04] INFO root fetch - main [MainThread]: Store serial: [22572930]
+[2024-04-01 19:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572930]
+[2024-04-01 19:51:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lap-task1
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjet-common
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-cdk
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amazon-braket-sdk
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jump-consistent-hash
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sequentia
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m3u8
+[2024-04-01 19:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bits-github
+[2024-04-01 19:51:15] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-01 19:51:15] INFO root fetch - processPackages [m3u8]: New version: [4.1.0] Old Version: [4.0.0]
+[2024-04-01 19:51:15] WARNING root fetch - processPackages [lap-task1]: Skipping, unable to determine old version
+[2024-04-01 19:51:15] INFO root fetch - main [MainThread]: End processing [lap-task1] error
+[2024-04-01 19:51:15] WARNING root fetch - processPackages [pinjet-common]: Skipping, unable to determine old version
+[2024-04-01 19:51:15] INFO root fetch - main [MainThread]: End processing [pinjet-common] error
+[2024-04-01 19:51:15] INFO root fetch - processPackages [sequentia]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-01 19:51:15] INFO root fetch - processPackages [bits-github]: New version: [1.4.0] Old Version: [1.3.8]
+[2024-04-01 19:51:15] INFO root fetch - processPackages [amazon-braket-sdk]: New version: [1.9.5.post0] Old Version: [1.9.5]
+[2024-04-01 19:51:15] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [jump-consistent-hash]: New version: [3.5.0] Old Version: [3.4.0]
+[2024-04-01 19:51:15] INFO root fetch - processPackages [m3u8]: Downloading https://files.pythonhosted.org/packages/d4/f3/10e8d8879f284c17ea658a9ddca3b4f9958697d8fd3e50d149133f2a3dc7/m3u8-4.0.0.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [sequentia]: Downloading https://files.pythonhosted.org/packages/c6/30/bacc6bb33d35cb1a7c612eebff48b9405a043f0e94b819feaf8024316450/sequentia-1.1.1.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/85/cb/f563b80f4c903004b15e6be7245ef49cc3d1e16c8a667aab991f31853061/amazon-braket-sdk-1.9.5.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [jump-consistent-hash]: Downloading https://files.pythonhosted.org/packages/f6/ed/c217ba6721c17b4566ebb1de20dfa7f243104e54d8b32cdb5acfae28c3a0/jump-consistent-hash-3.4.0.tar.gz
+[2024-04-01 19:51:15] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/9c/af/caaefd659c805c9968d5c707f07d5f383337fafafde7247e7e71b53ba0e1/bits-github-1.3.8.tar.gz
+[2024-04-01 19:51:16] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2024-04-01 19:51:16] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20240401/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-01 19:51:16] INFO root fetch - processPackages [m3u8]: Downloading https://files.pythonhosted.org/packages/a5/e8/ab61b44acfd8cda68144f3d63f161893cde72ecf8fa6999bb83478c6d310/m3u8-4.1.0.tar.gz
+[2024-04-01 19:51:16] INFO root fetch - processPackages [jump-consistent-hash]: Downloading https://files.pythonhosted.org/packages/47/67/d7094c85d8dd4c5780cf8f20def683696453f42a1d5edfc46130c46fdfdb/jump_consistent_hash-3.5.0-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-01 19:51:16] INFO root fetch - processPackages [amazon-braket-sdk]: Downloading https://files.pythonhosted.org/packages/9e/84/c7a37a19be25e1021345ade602f9852e48f219edaa855aa624e9d54e0d70/amazon-braket-sdk-1.9.5.post0.tar.gz
+[2024-04-01 19:51:16] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/38/d5/8909d994109663b6184e128134a8ee7cea215342a83a13a629ee7b10d8bf/bits_github-1.4.0.tar.gz
+[2024-04-01 19:51:16] INFO root fetch - processPackages [m3u8]: executing diffoscope
+[2024-04-01 19:51:16] INFO root fetch - processPackages [m3u8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8-4.0.0.tar.gz tmp/m3u8-4.1.0.tar.gz --markdown 20240401/m/m3u8/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2024-04-01 19:51:16] INFO root fetch - processPackages [jump-consistent-hash]: executing diffoscope
+[2024-04-01 19:51:16] INFO root fetch - processPackages [jump-consistent-hash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jump-consistent-hash-3.4.0.tar.gz tmp/jump_consistent_hash-3.5.0-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240401/j/jump-consistent-hash/3.4.0-3.5.0/diff.md --exclude *.pyd
+[2024-04-01 19:51:16] INFO root fetch - processPackages [bits-github]: executing diffoscope
+[2024-04-01 19:51:16] INFO root fetch - processPackages [bits-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bits-github-1.3.8.tar.gz tmp/bits_github-1.4.0.tar.gz --markdown 20240401/b/bits-github/1.3.8-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 19:51:16] INFO root fetch - processPackages [amazon-braket-sdk]: executing diffoscope
+[2024-04-01 19:51:16] INFO root fetch - processPackages [amazon-braket-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-sdk-1.9.5.tar.gz tmp/amazon-braket-sdk-1.9.5.post0.tar.gz --markdown 20240401/a/amazon-braket-sdk/1.9.5-1.9.5.post0/diff.md --exclude *.pyd
+[2024-04-01 19:51:17] INFO root fetch - processPackages [m3u8]: Remove: archive file [/home/abi/fetcher/tmp/m3u8-4.0.0.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - processPackages [m3u8]: Remove: archive file [/home/abi/fetcher/tmp/m3u8-4.1.0.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - main [MainThread]: End processing [m3u8]: success
+[2024-04-01 19:51:17] INFO root fetch - processPackages [jump-consistent-hash]: Remove: archive file [/home/abi/fetcher/tmp/jump-consistent-hash-3.4.0.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - processPackages [jump-consistent-hash]: Remove: archive file [/home/abi/fetcher/tmp/jump_consistent_hash-3.5.0-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-01 19:51:17] INFO root fetch - main [MainThread]: End processing [jump-consistent-hash]: success
+[2024-04-01 19:51:17] INFO root fetch - processPackages [sequentia]: Downloading https://files.pythonhosted.org/packages/0f/5c/2d251dd04b44e3d8428ec133335826e9847ff0440c85122e0f2181c5c577/sequentia-2.0.0.tar.gz
+[2024-04-01 19:51:17] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2024-04-01 19:51:17] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits-github-1.3.8.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits_github-1.4.0.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - main [MainThread]: End processing [bits-github]: success
+[2024-04-01 19:51:17] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - processPackages [amazon-braket-sdk]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-sdk-1.9.5.post0.tar.gz]
+[2024-04-01 19:51:17] INFO root fetch - main [MainThread]: End processing [amazon-braket-sdk]: success
+[2024-04-01 19:51:18] INFO root fetch - processPackages [sequentia]: executing diffoscope
+[2024-04-01 19:51:18] INFO root fetch - processPackages [sequentia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequentia-1.1.1.tar.gz tmp/sequentia-2.0.0.tar.gz --markdown 20240401/s/sequentia/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 19:51:18] INFO root fetch - processPackages [sequentia]: Remove: archive file [/home/abi/fetcher/tmp/sequentia-1.1.1.tar.gz]
+[2024-04-01 19:51:18] INFO root fetch - processPackages [sequentia]: Remove: archive file [/home/abi/fetcher/tmp/sequentia-2.0.0.tar.gz]
+[2024-04-01 19:51:18] INFO root fetch - main [MainThread]: End processing [sequentia]: success
+[2024-04-01 19:51:18] INFO root fetch - main [MainThread]: Store serial: [22572983]
