@@ -179,3 +179,27 @@
 [2024-04-01 11:33:33] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
 [2024-04-01 11:33:33] INFO root fetch - main [MainThread]: End processing [core-pro]: success
 [2024-04-01 11:33:33] INFO root fetch - main [MainThread]: Store serial: [22567747]
+[2024-04-01 11:35:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567747]
+[2024-04-01 11:35:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 11:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scalifiai-client
+[2024-04-01 11:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: example-package-aviv-s
+[2024-04-01 11:35:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3-gar-client
+[2024-04-01 11:35:41] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:35:42] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:35:42] WARNING root fetch - processPackages [example-package-aviv-s]: Skipping, unable to determine old version
+[2024-04-01 11:35:42] INFO root fetch - main [MainThread]: End processing [example-package-aviv-s] error
+[2024-04-01 11:35:42] INFO root fetch - processPackages [m3-gar-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 11:35:42] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/11/68/3945930d2f957fd3f5ab0b0e0a50e5a53cb5928e54fedad23ad00065b46b/m3-gar-client-1.1.1.tar.gz
+[2024-04-01 11:35:42] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:35:42] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:35:42] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:35:42] INFO root fetch - processPackages [m3-gar-client]: Downloading https://files.pythonhosted.org/packages/a2/46/89c76bf72a7063997bb5cf11fe8be86f5db77179fa8718dad652b91a38d7/m3-gar-client-1.1.2.tar.gz
+[2024-04-01 11:35:42] INFO root fetch - processPackages [m3-gar-client]: executing diffoscope
+[2024-04-01 11:35:42] INFO root fetch - processPackages [m3-gar-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-gar-client-1.1.1.tar.gz tmp/m3-gar-client-1.1.2.tar.gz --markdown 20240401/m/m3-gar-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 11:35:43] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:35:43] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:35:43] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:35:43] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.1.tar.gz]
+[2024-04-01 11:35:43] INFO root fetch - processPackages [m3-gar-client]: Remove: archive file [/home/abi/fetcher/tmp/m3-gar-client-1.1.2.tar.gz]
+[2024-04-01 11:35:43] INFO root fetch - main [MainThread]: End processing [m3-gar-client]: success
+[2024-04-01 11:35:43] INFO root fetch - main [MainThread]: Store serial: [22567758]
