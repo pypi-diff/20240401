@@ -12654,3 +12654,60 @@ EOFError: EOF read where object expected
 [2024-04-01 20:44:28] INFO root fetch - processPackages [py3gpp]: Remove: archive file [/home/abi/fetcher/tmp/py3gpp-0.5.0.tar.gz]
 [2024-04-01 20:44:28] INFO root fetch - main [MainThread]: End processing [py3gpp]: success
 [2024-04-01 20:44:28] INFO root fetch - main [MainThread]: Store serial: [22573652]
+[2024-04-01 20:46:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573652]
+[2024-04-01 20:46:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bzutech
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gptscript
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blosc2
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcicutils
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bits-github
+[2024-04-01 20:46:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pccloner
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bits-github]: New version: [1.4.0] Old Version: [1.3.8]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [dcicutils]: New version: [8.8.1.1b9] Old Version: [8.8.1.1b7]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/9c/af/caaefd659c805c9968d5c707f07d5f383337fafafde7247e7e71b53ba0e1/bits-github-1.3.8.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [gptscript]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bzutech]: New version: [2.3] Old Version: [2.2]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [blosc2]: New version: [2.6.0] Old Version: [2.5.1]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/90/b8/72fb6df705cb1c09869e87c8a2e7800bfb131ec14bd74375afcb9facc0e3/dcicutils-8.8.1.1b7.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [pccloner]: New version: [0.0.9] Old Version: [0.0.8.1]
+[2024-04-01 20:46:37] INFO root fetch - processPackages [gptscript]: Downloading https://files.pythonhosted.org/packages/50/51/296441c30fb1a7b5a860932ff2a11c68cdce577cdfe4aaa61607689833b8/gptscript-0.2.0.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bzutech]: Downloading https://files.pythonhosted.org/packages/3b/f6/fe34a0cea0f5a7c1bfdb724d3f92acf5c62cf88efac183caa3478a4321b5/bzutech-2.2.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bits-github]: Downloading https://files.pythonhosted.org/packages/38/d5/8909d994109663b6184e128134a8ee7cea215342a83a13a629ee7b10d8bf/bits_github-1.4.0.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [blosc2]: Downloading https://files.pythonhosted.org/packages/f7/60/5bc8601f8ffcd5d8787b346898de8a0b454d031c3e158e3bbc312003984e/blosc2-2.5.1.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [dcicutils]: Downloading https://files.pythonhosted.org/packages/b8/73/51271cee9352a565862ee60d8adeb0aec89e045bcafdb0b76eeb4b4222e2/dcicutils-8.8.1.1b9.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [pccloner]: Downloading https://files.pythonhosted.org/packages/65/0c/215e582b1d13a3e1ecfe8caaa156bb92760db15dad869bb36447cd49be9b/pccloner-0.0.8.1.tar.gz
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bits-github]: executing diffoscope
+[2024-04-01 20:46:37] INFO root fetch - processPackages [bits-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bits-github-1.3.8.tar.gz tmp/bits_github-1.4.0.tar.gz --markdown 20240401/b/bits-github/1.3.8-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 20:46:38] INFO root fetch - processPackages [dcicutils]: executing diffoscope
+[2024-04-01 20:46:38] INFO root fetch - processPackages [dcicutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicutils-8.8.1.1b7.tar.gz tmp/dcicutils-8.8.1.1b9.tar.gz --markdown 20240401/d/dcicutils/8.8.1.1b7-8.8.1.1b9/diff.md --exclude *.pyd
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bzutech]: Downloading https://files.pythonhosted.org/packages/78/65/bd0c403fad4cdcea3d2b4d261c1d2264afce2dfe930f57589d53f6e1b3a7/bzutech-2.3.tar.gz
+[2024-04-01 20:46:38] INFO root fetch - processPackages [gptscript]: Downloading https://files.pythonhosted.org/packages/36/b6/66dbf8f03cc96e6faf0b6f28efaaf232c114e6cc20bff7bd14f880f83942/gptscript-0.3.0.tar.gz
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bzutech]: executing diffoscope
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bzutech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bzutech-2.2.tar.gz tmp/bzutech-2.3.tar.gz --markdown 20240401/b/bzutech/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-01 20:46:38] INFO root fetch - processPackages [blosc2]: Downloading https://files.pythonhosted.org/packages/26/82/8163b22dfc7d556b4a93d4752ae43ac4ba190d0b96d1431a1e2bca5051c9/blosc2-2.6.0.tar.gz
+[2024-04-01 20:46:38] INFO root fetch - processPackages [gptscript]: executing diffoscope
+[2024-04-01 20:46:38] INFO root fetch - processPackages [gptscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptscript-0.2.0.tar.gz tmp/gptscript-0.3.0.tar.gz --markdown 20240401/g/gptscript/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 20:46:38] INFO root fetch - processPackages [pccloner]: Downloading https://files.pythonhosted.org/packages/cf/b4/db80a54f4eb4990af34b85dd53ce8ee87170a994266014378f94311943a4/pccloner-0.0.9.tar.gz
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits-github-1.3.8.tar.gz]
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bits-github]: Remove: archive file [/home/abi/fetcher/tmp/bits_github-1.4.0.tar.gz]
+[2024-04-01 20:46:38] INFO root fetch - main [MainThread]: End processing [bits-github]: success
+[2024-04-01 20:46:38] INFO root fetch - processPackages [pccloner]: executing diffoscope
+[2024-04-01 20:46:38] INFO root fetch - processPackages [pccloner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pccloner-0.0.8.1.tar.gz tmp/pccloner-0.0.9.tar.gz --markdown 20240401/p/pccloner/0.0.8.1-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bzutech]: Remove: archive file [/home/abi/fetcher/tmp/bzutech-2.2.tar.gz]
+[2024-04-01 20:46:38] INFO root fetch - processPackages [bzutech]: Remove: archive file [/home/abi/fetcher/tmp/bzutech-2.3.tar.gz]
+[2024-04-01 20:46:38] INFO root fetch - main [MainThread]: End processing [bzutech]: success
+[2024-04-01 20:46:39] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b7.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
+[2024-04-01 20:46:39] INFO root fetch - processPackages [gptscript]: Remove: archive file [/home/abi/fetcher/tmp/gptscript-0.2.0.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - processPackages [gptscript]: Remove: archive file [/home/abi/fetcher/tmp/gptscript-0.3.0.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - main [MainThread]: End processing [gptscript]: success
+[2024-04-01 20:46:39] INFO root fetch - processPackages [pccloner]: Remove: archive file [/home/abi/fetcher/tmp/pccloner-0.0.8.1.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - processPackages [pccloner]: Remove: archive file [/home/abi/fetcher/tmp/pccloner-0.0.9.tar.gz]
+[2024-04-01 20:46:39] INFO root fetch - main [MainThread]: End processing [pccloner]: success
+[2024-04-01 20:46:39] INFO root fetch - processPackages [blosc2]: executing diffoscope
+[2024-04-01 20:46:39] INFO root fetch - processPackages [blosc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blosc2-2.5.1.tar.gz tmp/blosc2-2.6.0.tar.gz --markdown 20240401/b/blosc2/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2024-04-01 20:46:45] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.5.1.tar.gz]
+[2024-04-01 20:46:45] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.6.0.tar.gz]
+[2024-04-01 20:46:45] INFO root fetch - main [MainThread]: End processing [blosc2]: success
+[2024-04-01 20:46:45] INFO root fetch - main [MainThread]: Store serial: [22573694]
