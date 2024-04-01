@@ -4989,3 +4989,74 @@ EOFError: EOF read where object expected
 [2024-04-01 15:52:42] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl.zip]
 [2024-04-01 15:52:42] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
 [2024-04-01 15:52:42] INFO root fetch - main [MainThread]: Store serial: [22569902]
+[2024-04-01 15:54:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569902]
+[2024-04-01 15:54:51] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NewareNDA
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: importmonkey
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: buildz
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-displayio-ssd1306
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: payconpy
+[2024-04-01 15:54:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CrunchyrollAPI
+[2024-04-01 15:54:52] INFO root fetch - processPackages [NewareNDA]: New version: [2024.4.1] Old Version: [2024.3.1]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [CrunchyrollAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [importmonkey]: New version: [2.0.0] Old Version: [1.0.0]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [payconpy]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [buildz]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-01 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/7f/d8/967f47c9dac3843fff9fca16ffa1d5d1be2e568ec9ccca44d4e71847ad9b/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl
+[2024-04-01 15:54:52] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/e5/a5/6a534184d351854f6f850773a8ac17018a1413bbf524ce0e6339ad5a1e83/NewareNDA-2024.3.1.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/e9/9b/6a96c9922bf3ea3abe03580163e8dc1de6718d57918474e2e0d64eb48f7c/bigdl_core_xe-2.5.0b20240331-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-01 15:54:52] INFO root fetch - processPackages [importmonkey]: Downloading https://files.pythonhosted.org/packages/0a/84/18c6b0842e77e51d0ec4884d915b5e22d15a525d514043f525a289cb62ba/importmonkey-1.0.0-py3-none-any.whl
+[2024-04-01 15:54:52] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 96213360>=10485760
+[2024-04-01 15:54:52] INFO root fetch - processPackages [payconpy]: Downloading https://files.pythonhosted.org/packages/05/98/6ff44407c1c1ac954ae3f6c0fefd5ffe59c417ed526e1c6cbad016d663cc/payconpy-1.0.0.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-01 15:54:52] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: Downloading https://files.pythonhosted.org/packages/2e/24/7c5a521d9efc6b43de508ba79b0fd277653da0f2d9ebed688b6702740052/adafruit-circuitpython-displayio-ssd1306-2.0.0.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/02/40/f7030357326853d7550080f7d4a49d592756357fb8779692c7945f0f5b7b/buildz-0.4.3.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/47/c3/4c840a0d3da7428a0f4519a12807caef3020219646668e528987c612ca59/CrunchyrollAPI-0.1.8.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/51/bf/d4feabf8eedeabfdc7525868f849773de0b4f0b944812f2fc66442a487e5/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-01 15:54:52] INFO root fetch - processPackages [NewareNDA]: Downloading https://files.pythonhosted.org/packages/66/25/5920ee4824acb6b0c0630bc09ab23a64600df6754bf9efb0870ec96b868d/NewareNDA-2024.4.1.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-01 15:54:52] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20240401/t/tensordict-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:54:52] INFO root fetch - processPackages [importmonkey]: Downloading https://files.pythonhosted.org/packages/8e/1c/d43c2815d51611923528ca7afefbc52b5b00346f1ce68378117d5db97fae/importmonkey-2.0.0-py3-none-any.whl
+[2024-04-01 15:54:52] INFO root fetch - processPackages [NewareNDA]: executing diffoscope
+[2024-04-01 15:54:52] INFO root fetch - processPackages [NewareNDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NewareNDA-2024.3.1.tar.gz tmp/NewareNDA-2024.4.1.tar.gz --markdown 20240401/N/NewareNDA/2024.3.1-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:54:52] INFO root fetch - processPackages [payconpy]: Downloading https://files.pythonhosted.org/packages/a4/69/d7328bd56e9683f3df86eb57737332ed78e5544e7d388de16561b8d6829e/payconpy-1.1.0.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: Downloading https://files.pythonhosted.org/packages/77/99/16a6086ef26161c8876e0ebe256ef53b9486d709205c17b45498420fa1cc/adafruit-circuitpython-displayio-ssd1306-2.0.1.tar.gz
+[2024-04-01 15:54:52] INFO root fetch - processPackages [buildz]: Downloading https://files.pythonhosted.org/packages/5f/a4/96d8a86677f8c9f018a614b839b9aac26a499a3b0e20fd63c7da4a4079d0/buildz-0.4.4.tar.gz
+[2024-04-01 15:54:53] INFO root fetch - processPackages [importmonkey]: executing diffoscope
+[2024-04-01 15:54:53] INFO root fetch - processPackages [importmonkey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/importmonkey-1.0.0-py3-none-any.whl.zip tmp/importmonkey-2.0.0-py3-none-any.whl.zip --markdown 20240401/i/importmonkey/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-01 15:54:53] INFO root fetch - processPackages [payconpy]: executing diffoscope
+[2024-04-01 15:54:53] INFO root fetch - processPackages [payconpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payconpy-1.0.0.tar.gz tmp/payconpy-1.1.0.tar.gz --markdown 20240401/p/payconpy/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-01 15:54:53] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: executing diffoscope
+[2024-04-01 15:54:53] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-displayio-ssd1306-2.0.0.tar.gz tmp/adafruit-circuitpython-displayio-ssd1306-2.0.1.tar.gz --markdown 20240401/a/adafruit-circuitpython-displayio-ssd1306/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-01 15:54:53] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/97/bf/9695615b27883251a6c836eafd3dbecfb350d07f29ef5d502b6b0dae7339/CrunchyrollAPI-0.1.9.tar.gz
+[2024-04-01 15:54:53] INFO root fetch - processPackages [buildz]: executing diffoscope
+[2024-04-01 15:54:53] INFO root fetch - processPackages [buildz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildz-0.4.3.tar.gz tmp/buildz-0.4.4.tar.gz --markdown 20240401/b/buildz/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-01 15:54:53] INFO root fetch - processPackages [CrunchyrollAPI]: executing diffoscope
+[2024-04-01 15:54:53] INFO root fetch - processPackages [CrunchyrollAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrunchyrollAPI-0.1.8.tar.gz tmp/CrunchyrollAPI-0.1.9.tar.gz --markdown 20240401/C/CrunchyrollAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 15:54:53] INFO root fetch - processPackages [importmonkey]: Remove: archive file [/home/abi/fetcher/tmp/importmonkey-1.0.0-py3-none-any.whl.zip]
+[2024-04-01 15:54:53] INFO root fetch - processPackages [importmonkey]: Remove: archive file [/home/abi/fetcher/tmp/importmonkey-2.0.0-py3-none-any.whl.zip]
+[2024-04-01 15:54:53] INFO root fetch - main [MainThread]: End processing [importmonkey]: success
+[2024-04-01 15:54:53] INFO root fetch - processPackages [NewareNDA]: Remove: archive file [/home/abi/fetcher/tmp/NewareNDA-2024.3.1.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - processPackages [NewareNDA]: Remove: archive file [/home/abi/fetcher/tmp/NewareNDA-2024.4.1.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - main [MainThread]: End processing [NewareNDA]: success
+[2024-04-01 15:54:53] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-displayio-ssd1306-2.0.0.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - processPackages [adafruit-circuitpython-displayio-ssd1306]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-displayio-ssd1306-2.0.1.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-displayio-ssd1306]: success
+[2024-04-01 15:54:53] INFO root fetch - processPackages [payconpy]: Remove: archive file [/home/abi/fetcher/tmp/payconpy-1.0.0.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - processPackages [payconpy]: Remove: archive file [/home/abi/fetcher/tmp/payconpy-1.1.0.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - main [MainThread]: End processing [payconpy]: success
+[2024-04-01 15:54:53] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.8.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.9.tar.gz]
+[2024-04-01 15:54:53] INFO root fetch - main [MainThread]: End processing [CrunchyrollAPI]: success
+[2024-04-01 15:54:54] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.3.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 15:54:54] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.1-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2024-04-01 15:54:54] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-01 15:54:54] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.4.3.tar.gz]
+[2024-04-01 15:54:54] INFO root fetch - processPackages [buildz]: Remove: archive file [/home/abi/fetcher/tmp/buildz-0.4.4.tar.gz]
+[2024-04-01 15:54:54] INFO root fetch - main [MainThread]: End processing [buildz]: success
+[2024-04-01 15:54:54] INFO root fetch - main [MainThread]: Store serial: [22569940]
