@@ -10771,3 +10771,26 @@ EOFError: EOF read where object expected
 [2024-04-01 19:22:05] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
 [2024-04-01 19:22:05] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
 [2024-04-01 19:22:05] INFO root fetch - main [MainThread]: Store serial: [22572697]
+[2024-04-01 19:24:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572697]
+[2024-04-01 19:24:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 19:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestpython
+[2024-04-01 19:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidtide
+[2024-04-01 19:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unifyai
+[2024-04-01 19:24:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msgraphhelper
+[2024-04-01 19:24:15] WARNING root fetch - processPackages [unifyai]: Skipping, unable to determine old version
+[2024-04-01 19:24:15] INFO root fetch - main [MainThread]: End processing [unifyai] error
+[2024-04-01 19:24:15] WARNING root fetch - processPackages [nestpython]: Skipping, unable to determine old version
+[2024-04-01 19:24:15] INFO root fetch - main [MainThread]: End processing [nestpython] error
+[2024-04-01 19:24:15] INFO root fetch - processPackages [msgraphhelper]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-01 19:24:15] INFO root fetch - processPackages [rapidtide]: New version: [2.8.5.1] Old Version: [2.8.5]
+[2024-04-01 19:24:15] INFO root fetch - processPackages [msgraphhelper]: Downloading https://files.pythonhosted.org/packages/e8/06/8c260a754119ba76e21c9e3c6aca999e167e84ee9e91740df51469f7609d/msgraphhelper-0.1.1.tar.gz
+[2024-04-01 19:24:15] INFO root fetch - processPackages [rapidtide]: Downloading https://files.pythonhosted.org/packages/1d/ab/35974babbad56723998b3db1f4e53dd388cacde305b83d6fe42e75283f2e/rapidtide-2.8.5.tar.gz
+[2024-04-01 19:24:15] WARNING root fetch - processPackages [rapidtide]: Skipping package: exceeds size limit 18995657>=10485760
+[2024-04-01 19:24:15] INFO root fetch - main [MainThread]: End processing [rapidtide] error
+[2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: Downloading https://files.pythonhosted.org/packages/0f/69/d096418d4a3a4b54b55bafa9b5a1f0dc45c31e31f079c13fa8fc4892281b/msgraphhelper-0.2.0.tar.gz
+[2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: executing diffoscope
+[2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgraphhelper-0.1.1.tar.gz tmp/msgraphhelper-0.2.0.tar.gz --markdown 20240401/m/msgraphhelper/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: Remove: archive file [/home/abi/fetcher/tmp/msgraphhelper-0.1.1.tar.gz]
+[2024-04-01 19:24:16] INFO root fetch - processPackages [msgraphhelper]: Remove: archive file [/home/abi/fetcher/tmp/msgraphhelper-0.2.0.tar.gz]
+[2024-04-01 19:24:16] INFO root fetch - main [MainThread]: End processing [msgraphhelper]: success
+[2024-04-01 19:24:16] INFO root fetch - main [MainThread]: Store serial: [22572723]
