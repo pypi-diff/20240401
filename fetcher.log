@@ -7111,3 +7111,48 @@ EOFError: EOF read where object expected
 [2024-04-01 17:08:34] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
 [2024-04-01 17:08:34] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2024-04-01 17:08:34] INFO root fetch - main [MainThread]: Store serial: [22570939]
+[2024-04-01 17:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570939]
+[2024-04-01 17:10:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twilio
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cli-progress
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Xodia24
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drapi-lemur
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: twofa
+[2024-04-01 17:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: han2kip
+[2024-04-01 17:10:44] INFO root fetch - processPackages [Xodia24]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 17:10:44] WARNING root fetch - processPackages [han2kip]: Skipping, unable to determine old version
+[2024-04-01 17:10:44] INFO root fetch - main [MainThread]: End processing [han2kip] error
+[2024-04-01 17:10:44] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/32/d6/dc36f4167a8a7ac516c2ee19e3c058273ed9f353fc5e3d67b61309cd98fe/Xodia24-0.0.3.tar.gz
+[2024-04-01 17:10:44] WARNING root fetch - processPackages [twofa]: Skipping, unable to determine old version
+[2024-04-01 17:10:44] INFO root fetch - main [MainThread]: End processing [twofa] error
+[2024-04-01 17:10:44] INFO root fetch - processPackages [cli-progress]: New version: [1.9.0] Old Version: [1.7.0]
+[2024-04-01 17:10:44] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-01 17:10:44] INFO root fetch - processPackages [twilio]: New version: [9.0.3] Old Version: [9.0.2]
+[2024-04-01 17:10:44] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/06/30/2dd2f6cc970f53ec476608b89d2fc02b37349c895b8d53e356d8c25450d4/twilio-9.0.2.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [cli-progress]: Downloading https://files.pythonhosted.org/packages/7b/9a/ac14c732da0ceb80284354d7ae5cf6a8b4f4d3e39937d2fc13fd0a2caf0b/cli_progress-1.7.0.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/3e/5b/5bfdc65218ade3245d4acca327f837b703a02117e393630ec6d424bea64e/drapi-lemur-1.0.4.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [Xodia24]: Downloading https://files.pythonhosted.org/packages/7a/15/1628ccafa4f3283ae11063f811e57c4cb80c49a0c0038e0fe816d9a225fc/Xodia24-0.0.4.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [Xodia24]: executing diffoscope
+[2024-04-01 17:10:44] INFO root fetch - processPackages [Xodia24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xodia24-0.0.3.tar.gz tmp/Xodia24-0.0.4.tar.gz --markdown 20240401/X/Xodia24/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 17:10:44] INFO root fetch - processPackages [cli-progress]: Downloading https://files.pythonhosted.org/packages/59/d4/8702bead2b1765fe45ebb488f3ebebffca8af8355012efb38ef4c44c9fc7/cli_progress-1.9.0.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [twilio]: Downloading https://files.pythonhosted.org/packages/d6/16/d3a698cd6a58c2e85a4a383ff7966df7b993c49c25e6080cb5ac5bfede92/twilio-9.0.3.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [cli-progress]: executing diffoscope
+[2024-04-01 17:10:44] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-04-01 17:10:44] INFO root fetch - processPackages [cli-progress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_progress-1.7.0.tar.gz tmp/cli_progress-1.9.0.tar.gz --markdown 20240401/c/cli-progress/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-01 17:10:44] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-04-01 17:10:44] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi-lemur-1.0.4.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240401/d/drapi-lemur/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-01 17:10:44] INFO root fetch - processPackages [twilio]: executing diffoscope
+[2024-04-01 17:10:44] INFO root fetch - processPackages [twilio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twilio-9.0.2.tar.gz tmp/twilio-9.0.3.tar.gz --markdown 20240401/t/twilio/9.0.2-9.0.3/diff.md --exclude *.pyd
+[2024-04-01 17:10:45] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.3.tar.gz]
+[2024-04-01 17:10:45] INFO root fetch - processPackages [Xodia24]: Remove: archive file [/home/abi/fetcher/tmp/Xodia24-0.0.4.tar.gz]
+[2024-04-01 17:10:45] INFO root fetch - main [MainThread]: End processing [Xodia24]: success
+[2024-04-01 17:10:45] INFO root fetch - processPackages [cli-progress]: Remove: archive file [/home/abi/fetcher/tmp/cli_progress-1.7.0.tar.gz]
+[2024-04-01 17:10:45] INFO root fetch - processPackages [cli-progress]: Remove: archive file [/home/abi/fetcher/tmp/cli_progress-1.9.0.tar.gz]
+[2024-04-01 17:10:45] INFO root fetch - main [MainThread]: End processing [cli-progress]: success
+[2024-04-01 17:10:46] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.4.tar.gz]
+[2024-04-01 17:10:46] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-04-01 17:10:46] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-04-01 17:10:48] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.2.tar.gz]
+[2024-04-01 17:10:48] INFO root fetch - processPackages [twilio]: Remove: archive file [/home/abi/fetcher/tmp/twilio-9.0.3.tar.gz]
+[2024-04-01 17:10:48] INFO root fetch - main [MainThread]: End processing [twilio]: success
+[2024-04-01 17:10:48] INFO root fetch - main [MainThread]: Store serial: [22570961]
