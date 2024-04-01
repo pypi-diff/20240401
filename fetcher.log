@@ -2671,3 +2671,36 @@ EOFError: EOF read where object expected
 [2024-04-01 13:54:03] INFO root fetch - processPackages [eyes-common]: Remove: archive file [/home/abi/fetcher/tmp/eyes_common-5.27.4-py2.py3-none-any.whl.zip]
 [2024-04-01 13:54:03] INFO root fetch - main [MainThread]: End processing [eyes-common]: success
 [2024-04-01 13:54:03] INFO root fetch - main [MainThread]: Store serial: [22568842]
+[2024-04-01 13:56:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568842]
+[2024-04-01 13:56:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 13:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-04-01 13:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pciSeq
+[2024-04-01 13:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EduWorld
+[2024-04-01 13:56:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tube-scriptor
+[2024-04-01 13:56:30] INFO root fetch - processPackages [pciSeq]: New version: [0.0.61.dev3] Old Version: [0.0.61.dev2]
+[2024-04-01 13:56:30] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/a2/88/2396c3604c5382362a50b8355dc942234260ecfaee371e3bb6fd9e79d9fc/pciSeq-0.0.61.dev2-py3-none-any.whl
+[2024-04-01 13:56:30] INFO root fetch - processPackages [EduWorld]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 13:56:30] WARNING root fetch - processPackages [tube-scriptor]: Skipping, unable to determine old version
+[2024-04-01 13:56:30] INFO root fetch - main [MainThread]: End processing [tube-scriptor] error
+[2024-04-01 13:56:30] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/d2/e9/9059daaf908df88545defa11e93fe59095bf5bd8c7d6ee1636b1de378fff/eduworld-0.0.8.tar.gz
+[2024-04-01 13:56:30] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240401115342] Old Version: [3.3.1.dev20240401022330]
+[2024-04-01 13:56:30] INFO root fetch - processPackages [pciSeq]: Downloading https://files.pythonhosted.org/packages/2b/c6/3dc3e317d5fb3706c46b9d01b749a74292d8ef89b84e3ba897cb4b47e562/pciSeq-0.0.61.dev3-py3-none-any.whl
+[2024-04-01 13:56:30] INFO root fetch - processPackages [pciSeq]: executing diffoscope
+[2024-04-01 13:56:30] INFO root fetch - processPackages [pciSeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pciSeq-0.0.61.dev2-py3-none-any.whl.zip tmp/pciSeq-0.0.61.dev3-py3-none-any.whl.zip --markdown 20240401/p/pciSeq/0.0.61.dev2-0.0.61.dev3/diff.md --exclude *.pyd
+[2024-04-01 13:56:30] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/71/9b/23c6a60da934bae2a5d8f91f5cd321b460117ccf1ba35d0ab2efe6ad125e/localstack-core-3.3.1.dev20240401022330.tar.gz
+[2024-04-01 13:56:30] INFO root fetch - processPackages [EduWorld]: Downloading https://files.pythonhosted.org/packages/cd/ad/5d9dcd6558665c4d07701bb9e1c30762e9fb53f3c14635353af23c10f825/eduworld-0.0.9.tar.gz
+[2024-04-01 13:56:30] INFO root fetch - processPackages [EduWorld]: executing diffoscope
+[2024-04-01 13:56:30] INFO root fetch - processPackages [EduWorld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eduworld-0.0.8.tar.gz tmp/eduworld-0.0.9.tar.gz --markdown 20240401/E/EduWorld/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 13:56:30] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e4/17/36507d17decdcc5360d1a00912ba268e21b2b787c884d117afda10abb8ef/localstack-core-3.3.1.dev20240401115342.tar.gz
+[2024-04-01 13:56:31] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.8.tar.gz]
+[2024-04-01 13:56:31] INFO root fetch - processPackages [EduWorld]: Remove: archive file [/home/abi/fetcher/tmp/eduworld-0.0.9.tar.gz]
+[2024-04-01 13:56:31] INFO root fetch - main [MainThread]: End processing [EduWorld]: success
+[2024-04-01 13:56:31] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-01 13:56:31] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240401022330.tar.gz tmp/localstack-core-3.3.1.dev20240401115342.tar.gz --markdown 20240401/l/localstack-core/3.3.1.dev20240401022330-3.3.1.dev20240401115342/diff.md --exclude *.pyd
+[2024-04-01 13:56:32] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.61.dev2-py3-none-any.whl.zip]
+[2024-04-01 13:56:32] INFO root fetch - processPackages [pciSeq]: Remove: archive file [/home/abi/fetcher/tmp/pciSeq-0.0.61.dev3-py3-none-any.whl.zip]
+[2024-04-01 13:56:32] INFO root fetch - main [MainThread]: End processing [pciSeq]: success
+[2024-04-01 13:56:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401022330.tar.gz]
+[2024-04-01 13:56:35] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401115342.tar.gz]
+[2024-04-01 13:56:35] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-01 13:56:35] INFO root fetch - main [MainThread]: Store serial: [22568855]
