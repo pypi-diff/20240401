@@ -14691,3 +14691,102 @@ EOFError: EOF read where object expected
 [2024-04-01 22:14:09] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.999.1.tar.gz]
 [2024-04-01 22:14:09] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2024-04-01 22:14:09] INFO root fetch - main [MainThread]: Store serial: [22574530]
+[2024-04-01 22:16:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574530]
+[2024-04-01 22:16:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sddl
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitpackage
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: knnclassifier
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lg-payroll-api
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modal-client
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsharp
+[2024-04-01 22:16:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsharp-jupyterlab
+[2024-04-01 22:16:19] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [knnclassifier]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-01 22:16:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [sddl]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/8a/19/49c017fb9fb3c69859bd0e6aec2b1e02d31b41832a449010d1ec41917726/knnclassifier-0.0.1.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [lg-payroll-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.3.5.dev0] Old Version: [1.3.4.dev0]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [unitpackage]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [qsharp]: New version: [1.3.5.dev0] Old Version: [1.3.4.dev0]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-01 22:16:19] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-01 22:16:19] INFO root fetch - processPackages [sddl]: Downloading https://files.pythonhosted.org/packages/88/68/3742bec1ac78f7210ea21f9c6f2e17d71e122c23334c7fd694d347f94c2f/sddl-0.3.0.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/8c/63/7ef19394394b24feb07cbbf20cd15f449a881204245443e09246c06a6774/qsharp-1.3.4.dev0-cp37-abi3-win_arm64.whl
+[2024-04-01 22:16:19] INFO root fetch - processPackages [unitpackage]: Downloading https://files.pythonhosted.org/packages/48/1e/4333c0f2464797ea1d305542808222a92bf294d340139d74f144eb698285/unitpackage-0.8.2.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [lg-payroll-api]: Downloading https://files.pythonhosted.org/packages/89/a9/68f4670579029e8717d6209e60eb4421e8ba7626e0fa05ff5231195698b7/lg_payroll_api-0.1.3.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/0c/4f/7a743f0e0d0d4f8e30707ebe63ecdfd557d1ae6279deceaeefa42e358dca/qsharp_jupyterlab-1.3.4.dev0-py3-none-any.whl
+[2024-04-01 22:16:19] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/be/db/ae9ce9808591ba712e8c5c8fbccc9bf0237423d0e7b63780863cd8c484b6/knnclassifier-0.0.3.tar.gz
+[2024-04-01 22:16:19] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-01 22:16:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240401/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240401/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [knnclassifier]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [knnclassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnclassifier-0.0.1.tar.gz tmp/knnclassifier-0.0.3.tar.gz --markdown 20240401/k/knnclassifier/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240401/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [sddl]: Downloading https://files.pythonhosted.org/packages/f1/71/88b7c8db66cae141f922e54be96739a1f31db3a075eaf763b60dffd033a4/sddl-0.3.1.tar.gz
+[2024-04-01 22:16:20] INFO root fetch - processPackages [unitpackage]: Downloading https://files.pythonhosted.org/packages/b5/45/3649503c0f48cbf6eacc7e6a267c1d9d7544cc7136b0ed711af4919a2231/unitpackage-0.8.3.tar.gz
+[2024-04-01 22:16:20] INFO root fetch - processPackages [lg-payroll-api]: Downloading https://files.pythonhosted.org/packages/67/77/d511e2987ddb589be208cf38c6d94f7c8de1792032a33e1fe436f2a3dc96/lg_payroll_api-0.1.4.tar.gz
+[2024-04-01 22:16:20] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/52/9b/4e164d6ab59b589396c9ce6173407f44d73184a6f6dc7763b4c05d91d58e/qsharp_jupyterlab-1.3.5.dev0-py3-none-any.whl
+[2024-04-01 22:16:20] INFO root fetch - processPackages [sddl]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [sddl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sddl-0.3.0.tar.gz tmp/sddl-0.3.1.tar.gz --markdown 20240401/s/sddl/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [unitpackage]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [unitpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitpackage-0.8.2.tar.gz tmp/unitpackage-0.8.3.tar.gz --markdown 20240401/u/unitpackage/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [lg-payroll-api]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [lg-payroll-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lg_payroll_api-0.1.3.tar.gz tmp/lg_payroll_api-0.1.4.tar.gz --markdown 20240401/l/lg-payroll-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-04-01 22:16:20] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.3.4.dev0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.3.5.dev0-py3-none-any.whl.zip --markdown 20240401/q/qsharp-jupyterlab/1.3.4.dev0-1.3.5.dev0/diff.md --exclude *.pyd
+[2024-04-01 22:16:20] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/64/0b/ef28fbe4593c7c873db1b78d0edeacc781c0e9b923baf9b3e95a87c3b1c3/qsharp-1.3.5.dev0-cp37-abi3-win_arm64.whl
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-01 22:16:20] INFO root fetch - processPackages [modal-client]: Start processing: qsharp-widgets
+[2024-04-01 22:16:20] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.3.5.dev0] Old Version: [1.3.4.dev0]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [knnclassifier]: Remove: archive file [/home/abi/fetcher/tmp/knnclassifier-0.0.1.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [knnclassifier]: Remove: archive file [/home/abi/fetcher/tmp/knnclassifier-0.0.3.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [knnclassifier]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [sddl]: Remove: archive file [/home/abi/fetcher/tmp/sddl-0.3.0.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [sddl]: Remove: archive file [/home/abi/fetcher/tmp/sddl-0.3.1.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [sddl]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/3f/bf/501ddd974f6e3af320d90138b6e13d497085b83ed447e110170278e698b2/qsharp_widgets-1.3.4.dev0-py2.py3-none-any.whl
+[2024-04-01 22:16:21] INFO root fetch - processPackages [unitpackage]: Remove: archive file [/home/abi/fetcher/tmp/unitpackage-0.8.2.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [unitpackage]: Remove: archive file [/home/abi/fetcher/tmp/unitpackage-0.8.3.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [unitpackage]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.3.4.dev0-py3-none-any.whl.zip]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.3.5.dev0-py3-none-any.whl.zip]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.3.4.dev0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.3.5.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240401/q/qsharp/1.3.4.dev0-1.3.5.dev0/diff.md --exclude *.pyd
+[2024-04-01 22:16:21] INFO root fetch - processPackages [lg-payroll-api]: Remove: archive file [/home/abi/fetcher/tmp/lg_payroll_api-0.1.3.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [lg-payroll-api]: Remove: archive file [/home/abi/fetcher/tmp/lg_payroll_api-0.1.4.tar.gz]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [lg-payroll-api]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/1f/ba/0ba3901f8b1825f7c8b581328c82d7aa26f80c400202a813debc302c6013/qsharp_widgets-1.3.5.dev0-py2.py3-none-any.whl
+[2024-04-01 22:16:21] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-01 22:16:21] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-01 22:16:21] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-04-01 22:16:21] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.3.4.dev0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.3.5.dev0-py2.py3-none-any.whl.zip --markdown 20240401/q/qsharp-widgets/1.3.4.dev0-1.3.5.dev0/diff.md --exclude *.pyd
+[2024-04-01 22:16:22] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.3.4.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-04-01 22:16:22] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.3.5.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-04-01 22:16:22] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-04-01 22:16:22] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.3.4.dev0-py2.py3-none-any.whl.zip]
+[2024-04-01 22:16:22] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.3.5.dev0-py2.py3-none-any.whl.zip]
+[2024-04-01 22:16:22] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-04-01 22:16:22] INFO root fetch - main [MainThread]: Store serial: [22574566]
