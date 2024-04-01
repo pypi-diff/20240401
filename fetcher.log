@@ -18839,3 +18839,54 @@ EOFError: EOF read where object expected
 [2024-04-01 23:44:04] INFO root fetch - processPackages [talklib]: Remove: archive file [/home/abi/fetcher/tmp/talklib-1.0.9.tar.gz]
 [2024-04-01 23:44:04] INFO root fetch - main [MainThread]: End processing [talklib]: success
 [2024-04-01 23:44:04] INFO root fetch - main [MainThread]: Store serial: [22576204]
+[2024-04-01 23:46:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576204]
+[2024-04-01 23:46:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commit-tracker
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ask-amazon-bedrock
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaeger
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-about
+[2024-04-01 23:46:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mama
+[2024-04-01 23:46:13] INFO root fetch - processPackages [commit-tracker]: New version: [2.5] Old Version: [2.4]
+[2024-04-01 23:46:13] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/55/19/3a0bc702e94c71db4ecfb61bbcaf52a2a635193643194be913a73baae416/commit-tracker-2.4.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [jaeger]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-01 23:46:13] WARNING root fetch - processPackages [ask-amazon-bedrock]: Skipping, unable to determine old version
+[2024-04-01 23:46:13] INFO root fetch - main [MainThread]: End processing [ask-amazon-bedrock] error
+[2024-04-01 23:46:13] INFO root fetch - processPackages [neon-skill-about]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2024-04-01 23:46:13] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-01 23:46:13] INFO root fetch - processPackages [mama]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-01 23:46:13] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/ab/6a/f16208a05c9eeb0dd11885d96eb57553590a260a05160e7c3895e976ecd0/jaeger-1.6.2.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [neon-skill-about]: Downloading https://files.pythonhosted.org/packages/cf/c8/b273c7241a337ac6a612c0d68956bb229ada3e5605dad61d71eb4d344bc0/neon-skill-about-1.0.1a1.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [commit-tracker]: Downloading https://files.pythonhosted.org/packages/03/c8/c428516e40f27386bce7f08a241d25cfb11f35725058873baebafdee6057/commit-tracker-2.5.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/0e/33/258e7d7a5b840228bdaf6b4515ac92ef84eed357e480244485a4fcfcf89e/mama-0.9.0.tar.gz
+[2024-04-01 23:46:13] INFO root fetch - processPackages [commit-tracker]: executing diffoscope
+[2024-04-01 23:46:13] INFO root fetch - processPackages [commit-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commit-tracker-2.4.tar.gz tmp/commit-tracker-2.5.tar.gz --markdown 20240401/c/commit-tracker/2.4-2.5/diff.md --exclude *.pyd
+[2024-04-01 23:46:14] INFO root fetch - processPackages [jaeger]: Downloading https://files.pythonhosted.org/packages/7e/03/583bd05a34d05b6f14ff342bdd2c66aed0c659f08575fa97d37d24ed085b/jaeger-1.6.3.tar.gz
+[2024-04-01 23:46:14] INFO root fetch - processPackages [neon-skill-about]: Downloading https://files.pythonhosted.org/packages/17/f2/bc2288aeeb3dc8e29d1e24dc32404515ad37b5dfe049734c982e80a20afd/neon-skill-about-1.0.1a2.tar.gz
+[2024-04-01 23:46:14] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-01 23:46:14] INFO root fetch - processPackages [mama]: Downloading https://files.pythonhosted.org/packages/29/cc/802ebdeda23150dbbec2c2223324b5323faf2aa65f93388c640981877d51/mama-0.9.1-py3-none-any.whl
+[2024-04-01 23:46:14] INFO root fetch - processPackages [neon-skill-about]: executing diffoscope
+[2024-04-01 23:46:14] INFO root fetch - processPackages [neon-skill-about]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-about-1.0.1a1.tar.gz tmp/neon-skill-about-1.0.1a2.tar.gz --markdown 20240401/n/neon-skill-about/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2024-04-01 23:46:14] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-01 23:46:14] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240401/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 23:46:14] INFO root fetch - processPackages [jaeger]: executing diffoscope
+[2024-04-01 23:46:14] INFO root fetch - processPackages [jaeger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaeger-1.6.2.tar.gz tmp/jaeger-1.6.3.tar.gz --markdown 20240401/j/jaeger/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-01 23:46:14] INFO root fetch - processPackages [mama]: executing diffoscope
+[2024-04-01 23:46:14] INFO root fetch - processPackages [mama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mama-0.9.0.tar.gz tmp/mama-0.9.1-py3-none-any.whl.zip --markdown 20240401/m/mama/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-01 23:46:14] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.4.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - processPackages [commit-tracker]: Remove: archive file [/home/abi/fetcher/tmp/commit-tracker-2.5.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - main [MainThread]: End processing [commit-tracker]: success
+[2024-04-01 23:46:14] INFO root fetch - processPackages [neon-skill-about]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-about-1.0.1a1.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - processPackages [neon-skill-about]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-about-1.0.1a2.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - main [MainThread]: End processing [neon-skill-about]: success
+[2024-04-01 23:46:14] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-01 23:46:14] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-01 23:46:15] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.0.tar.gz]
+[2024-04-01 23:46:15] INFO root fetch - processPackages [mama]: Remove: archive file [/home/abi/fetcher/tmp/mama-0.9.1-py3-none-any.whl.zip]
+[2024-04-01 23:46:15] INFO root fetch - main [MainThread]: End processing [mama]: success
+[2024-04-01 23:46:15] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.6.2.tar.gz]
+[2024-04-01 23:46:15] INFO root fetch - processPackages [jaeger]: Remove: archive file [/home/abi/fetcher/tmp/jaeger-1.6.3.tar.gz]
+[2024-04-01 23:46:15] INFO root fetch - main [MainThread]: End processing [jaeger]: success
+[2024-04-01 23:46:15] INFO root fetch - main [MainThread]: Store serial: [22576219]
