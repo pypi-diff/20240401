@@ -5218,3 +5218,36 @@ EOFError: EOF read where object expected
 [2024-04-01 16:01:44] INFO root fetch - processPackages [adafruit-circuitpython-displayio-sh1107]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-displayio-sh1107-1.7.0.tar.gz]
 [2024-04-01 16:01:44] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-displayio-sh1107]: success
 [2024-04-01 16:01:44] INFO root fetch - main [MainThread]: Store serial: [22570017]
+[2024-04-01 16:03:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570017]
+[2024-04-01 16:03:53] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 16:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: advanced-alchemy
+[2024-04-01 16:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hundred-x
+[2024-04-01 16:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cartesify-backend
+[2024-04-01 16:03:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coursebox
+[2024-04-01 16:03:53] WARNING root fetch - processPackages [hundred-x]: Skipping, unable to determine old version
+[2024-04-01 16:03:53] INFO root fetch - main [MainThread]: End processing [hundred-x] error
+[2024-04-01 16:03:53] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 16:03:53] INFO root fetch - processPackages [advanced-alchemy]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-01 16:03:53] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 16:03:53] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-01 16:03:53] INFO root fetch - processPackages [advanced-alchemy]: Downloading https://files.pythonhosted.org/packages/ae/97/1bc6f2c315752d1a3d517b40777f75a2192ad81538eeb81dbaee309c70c0/advanced_alchemy-0.8.2.tar.gz
+[2024-04-01 16:03:54] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2024-04-01 16:03:54] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-01 16:03:54] INFO root fetch - processPackages [advanced-alchemy]: Downloading https://files.pythonhosted.org/packages/d3/c9/910b682ba5e133df6fa889e19304498d235e63617beb9ce962442e09c184/advanced_alchemy-0.8.3.tar.gz
+[2024-04-01 16:03:54] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-01 16:03:54] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240401/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 16:03:54] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2024-04-01 16:03:54] INFO root fetch - processPackages [advanced-alchemy]: executing diffoscope
+[2024-04-01 16:03:54] INFO root fetch - processPackages [advanced-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_alchemy-0.8.2.tar.gz tmp/advanced_alchemy-0.8.3.tar.gz --markdown 20240401/a/advanced-alchemy/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-01 16:03:54] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2024-04-01 16:03:54] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20240401/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 16:03:54] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-01 16:03:54] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-01 16:03:54] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-01 16:03:55] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2024-04-01 16:03:55] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2024-04-01 16:03:55] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2024-04-01 16:03:55] INFO root fetch - processPackages [advanced-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/advanced_alchemy-0.8.2.tar.gz]
+[2024-04-01 16:03:55] INFO root fetch - processPackages [advanced-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/advanced_alchemy-0.8.3.tar.gz]
+[2024-04-01 16:03:55] INFO root fetch - main [MainThread]: End processing [advanced-alchemy]: success
+[2024-04-01 16:03:55] INFO root fetch - main [MainThread]: Store serial: [22570026]
