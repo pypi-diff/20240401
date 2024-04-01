@@ -14510,3 +14510,118 @@ EOFError: EOF read where object expected
 [2024-04-01 22:08:25] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.3.tar.gz]
 [2024-04-01 22:08:25] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2024-04-01 22:08:25] INFO root fetch - main [MainThread]: Store serial: [22574456]
+[2024-04-01 22:10:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574456]
+[2024-04-01 22:10:33] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meringue
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mypy-boto3-datazone
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-cloudwatch
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-deadline
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mypy-boto3-emr
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botnikkk
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mypy-boto3-lightsail
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GenCasting
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3
+[2024-04-01 22:10:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boto3-stubs
+[2024-04-01 22:10:34] WARNING root fetch - processPackages [GenCasting]: Skipping, unable to determine old version
+[2024-04-01 22:10:34] INFO root fetch - processPackages [GenCasting]: Start processing: knnclassifier
+[2024-04-01 22:10:34] INFO root fetch - main [MainThread]: End processing [GenCasting] error
+[2024-04-01 22:10:34] INFO root fetch - processPackages [botnikkk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-01 22:10:34] WARNING root fetch - processPackages [mypy-boto3-deadline]: Skipping, unable to determine old version
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-deadline]: Start processing: knnclassifier
+[2024-04-01 22:10:34] INFO root fetch - main [MainThread]: End processing [mypy-boto3-deadline] error
+[2024-04-01 22:10:34] INFO root fetch - processPackages [meringue]: New version: [1.2.0.dev4] Old Version: [1.2.0.dev3]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/b6/1b/ee8da9e2a555b63781d56fcf2ac07071fb1955957376d20bfc54dfc87485/botnikkk-0.0.7.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-datazone]: New version: [1.34.75] Old Version: [1.34.31]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: New version: [0.0.3] Old Version: [0.0.1]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-lightsail]: New version: [1.34.75] Old Version: [1.34.41]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: New version: [1.34.75] Old Version: [1.34.40]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-emr]: New version: [1.34.9] Old Version: [1.34.75]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/a3/2b/359af7efe26397e58f9a7ad354933a93998db92ca3f9d2c2c58f1790c1e4/meringue-1.2.0.dev3.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-datazone]: Downloading https://files.pythonhosted.org/packages/9b/1a/8949b69e1cda69907e9b5fe67315f2bab94a97b6145971237497c1d8e2cc/mypy-boto3-datazone-1.34.31.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/8a/19/49c017fb9fb3c69859bd0e6aec2b1e02d31b41832a449010d1ec41917726/knnclassifier-0.0.1.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/8a/19/49c017fb9fb3c69859bd0e6aec2b1e02d31b41832a449010d1ec41917726/knnclassifier-0.0.1.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: Downloading https://files.pythonhosted.org/packages/05/cf/9c98434febdc5a1b3fed9e95fe2d48032b6be99f1cc3b15e08b4a1a4eb7b/mypy-boto3-cloudwatch-1.34.40.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-emr]: Downloading https://files.pythonhosted.org/packages/bb/2b/9edc3522f546411e26e9443b1138603b3cab4d82670bcb86da4f30bb4b27/mypy-boto3-emr-1.34.75.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/01/45/ee411d7f52c8e223dd2f71baa4d1f0bdb3910b3d0ec503c8072fd1f7db13/botnikkk-0.0.8.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [boto3-stubs]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-lightsail]: Downloading https://files.pythonhosted.org/packages/11/6e/1371a0edd70cca4e49e2469252f5442729ef8b8ab26365720729b28d2c95/mypy-boto3-lightsail-1.34.41.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/07/77/8f8ecfc093fe5e164f678c6662f784db587d787abe72b1d1e30484e25715/mypy-boto3-1.34.8.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/3b/67/7f9ecc5db4c31f924798f0db4c48eba09002c106935af70cbf7ba74fb211/meringue-1.2.0.dev4.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [botnikkk]: executing diffoscope
+[2024-04-01 22:10:34] INFO root fetch - processPackages [botnikkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botnikkk-0.0.7.tar.gz tmp/botnikkk-0.0.8.tar.gz --markdown 20240401/b/botnikkk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/be/db/ae9ce9808591ba712e8c5c8fbccc9bf0237423d0e7b63780863cd8c484b6/knnclassifier-0.0.3.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [knnclassifier]: Downloading https://files.pythonhosted.org/packages/be/db/ae9ce9808591ba712e8c5c8fbccc9bf0237423d0e7b63780863cd8c484b6/knnclassifier-0.0.3.tar.gz
+[2024-04-01 22:10:34] INFO root fetch - processPackages [mypy-boto3-datazone]: Downloading https://files.pythonhosted.org/packages/12/3e/1d0357bd4eb99fda3c660d81e77282be8de79efc04cd70ed74766e8477a9/mypy-boto3-datazone-1.34.75.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: Downloading https://files.pythonhosted.org/packages/0a/02/407bfdc7ed418275cb9e7d0a6796274cfe745615639a4ff66f328cdc27bc/mypy-boto3-cloudwatch-1.34.75.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnclassifier-0.0.1.tar.gz tmp/knnclassifier-0.0.3.tar.gz --markdown 20240401/k/knnclassifier/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knnclassifier-0.0.1.tar.gz tmp/knnclassifier-0.0.3.tar.gz --markdown 20240401/k/knnclassifier/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-datazone]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-datazone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-datazone-1.34.31.tar.gz tmp/mypy-boto3-datazone-1.34.75.tar.gz --markdown 20240401/m/mypy-boto3-datazone/1.34.31-1.34.75/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.2.0.dev3.tar.gz tmp/meringue-1.2.0.dev4.tar.gz --markdown 20240401/m/meringue/1.2.0.dev3-1.2.0.dev4/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-lightsail]: Downloading https://files.pythonhosted.org/packages/f4/17/3fdce8ca96f9e1027c23c595259c2e1365d6972ca83977c6dc042502e692/mypy-boto3-lightsail-1.34.75.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-emr]: Downloading https://files.pythonhosted.org/packages/96/fd/40b6c6d06c97981f18b8966fe06f718c1ab2b3a38950ffa7e0465019c6cf/mypy-boto3-emr-1.34.9.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-cloudwatch-1.34.40.tar.gz tmp/mypy-boto3-cloudwatch-1.34.75.tar.gz --markdown 20240401/m/mypy-boto3-cloudwatch/1.34.40-1.34.75/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3]: Downloading https://files.pythonhosted.org/packages/fa/53/82de8c83b16651c55f087742b511a721afe62ed7673edb3b1dd1390d05c2/mypy-boto3-1.34.9.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/49/40/9a9bfe1c6f9bff7d38798beb307ed5d3470e646dd62f6e0802d44a4c2c52/boto3-stubs-1.34.8.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-emr]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-emr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-emr-1.34.75.tar.gz tmp/mypy-boto3-emr-1.34.9.tar.gz --markdown 20240401/m/mypy-boto3-emr/1.34.75-1.34.9/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-lightsail]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3-lightsail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-lightsail-1.34.41.tar.gz tmp/mypy-boto3-lightsail-1.34.75.tar.gz --markdown 20240401/m/mypy-boto3-lightsail/1.34.41-1.34.75/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3]: executing diffoscope
+[2024-04-01 22:10:35] INFO root fetch - processPackages [mypy-boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-1.34.8.tar.gz tmp/mypy-boto3-1.34.9.tar.gz --markdown 20240401/m/mypy-boto3/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-01 22:10:35] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.7.tar.gz]
+[2024-04-01 22:10:35] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.8.tar.gz]
+[2024-04-01 22:10:35] INFO root fetch - processPackages [botnikkk]: Start processing: boto3-stubs-lite
+[2024-04-01 22:10:35] INFO root fetch - main [MainThread]: End processing [botnikkk]: success
+[2024-04-01 22:10:35] INFO root fetch - processPackages [boto3-stubs-lite]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-01 22:10:35] INFO root fetch - processPackages [boto3-stubs]: Downloading https://files.pythonhosted.org/packages/52/a9/e927da123fb47a00cd3d7255ebb41ac1a9a0317a111709926f74de3afef1/boto3-stubs-1.34.9.tar.gz
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: Remove: archive file [/home/abi/fetcher/tmp/knnclassifier-0.0.1.tar.gz]
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: Remove: archive file [/home/abi/fetcher/tmp/knnclassifier-0.0.3.tar.gz]
+[2024-04-01 22:10:35] INFO root fetch - processPackages [knnclassifier]: Start processing: mlpro-int-gymnasium
+[2024-04-01 22:10:35] INFO root fetch - main [MainThread]: End processing [knnclassifier]: success
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [knnclassifier]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mlpro-int-gymnasium]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev3.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev4.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [boto3-stubs]: executing diffoscope
+[2024-04-01 22:10:36] INFO root fetch - processPackages [boto3-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-1.34.8.tar.gz tmp/boto3-stubs-1.34.9.tar.gz --markdown 20240401/b/boto3-stubs/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-datazone]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-datazone-1.34.31.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-datazone]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-datazone-1.34.75.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [mypy-boto3-datazone]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mlpro-int-gymnasium]: Downloading https://files.pythonhosted.org/packages/56/cb/a17e8f86f19050f9bd88ca1f005ec01ad8b1934498ad7d8ef68ce7ca55c1/mlpro-int-gymnasium-0.1.2.tar.gz
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.34.8.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-1.34.9.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [mypy-boto3]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/8a/36/fff585903d5f1921b92c3bff404ddaba96b4ee058008537b052e74d59c2a/boto3-stubs-lite-1.34.8.tar.gz
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-emr]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-emr-1.34.75.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-emr]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-emr-1.34.9.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [mypy-boto3-emr]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cloudwatch-1.34.40.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-cloudwatch]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-cloudwatch-1.34.75.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-lightsail]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lightsail-1.34.41.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [mypy-boto3-cloudwatch]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mypy-boto3-lightsail]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lightsail-1.34.75.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [mypy-boto3-lightsail]: success
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mlpro-int-gymnasium]: Downloading https://files.pythonhosted.org/packages/54/02/63922172f8835d5555ef131ad638e809f715cb3c8a3f4b51c7dc6bf51fe6/mlpro-int-gymnasium-0.1.3.tar.gz
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mlpro-int-gymnasium]: executing diffoscope
+[2024-04-01 22:10:36] INFO root fetch - processPackages [mlpro-int-gymnasium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlpro-int-gymnasium-0.1.2.tar.gz tmp/mlpro-int-gymnasium-0.1.3.tar.gz --markdown 20240401/m/mlpro-int-gymnasium/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 22:10:36] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.34.8.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - processPackages [boto3-stubs]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-1.34.9.tar.gz]
+[2024-04-01 22:10:36] INFO root fetch - main [MainThread]: End processing [boto3-stubs]: success
+[2024-04-01 22:10:37] INFO root fetch - processPackages [mlpro-int-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-gymnasium-0.1.2.tar.gz]
+[2024-04-01 22:10:37] INFO root fetch - processPackages [mlpro-int-gymnasium]: Remove: archive file [/home/abi/fetcher/tmp/mlpro-int-gymnasium-0.1.3.tar.gz]
+[2024-04-01 22:10:37] INFO root fetch - main [MainThread]: End processing [mlpro-int-gymnasium]: success
+[2024-04-01 22:10:37] INFO root fetch - processPackages [boto3-stubs-lite]: Downloading https://files.pythonhosted.org/packages/38/f9/63e2cdac1b98258ba8c9d225eb1514d2439968cb10424e02a494a4d49ad1/boto3-stubs-lite-1.34.9.tar.gz
+[2024-04-01 22:10:37] INFO root fetch - processPackages [boto3-stubs-lite]: executing diffoscope
+[2024-04-01 22:10:37] INFO root fetch - processPackages [boto3-stubs-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-stubs-lite-1.34.8.tar.gz tmp/boto3-stubs-lite-1.34.9.tar.gz --markdown 20240401/b/boto3-stubs-lite/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-01 22:10:38] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.34.8.tar.gz]
+[2024-04-01 22:10:38] INFO root fetch - processPackages [boto3-stubs-lite]: Remove: archive file [/home/abi/fetcher/tmp/boto3-stubs-lite-1.34.9.tar.gz]
+[2024-04-01 22:10:38] INFO root fetch - main [MainThread]: End processing [boto3-stubs-lite]: success
+[2024-04-01 22:10:38] INFO root fetch - main [MainThread]: Store serial: [22574506]
