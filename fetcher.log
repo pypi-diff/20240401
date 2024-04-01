@@ -9861,3 +9861,65 @@ EOFError: EOF read where object expected
 [2024-04-01 18:47:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2024-04-01 18:47:58] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2024-04-01 18:47:58] INFO root fetch - main [MainThread]: Store serial: [22572318]
+[2024-04-01 18:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572318]
+[2024-04-01 18:50:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ome-types
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: semantic-kernel
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d-fake-seeder
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dorkas-core
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dorkas
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coastsat-package
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netbox-plugin-dns
+[2024-04-01 18:50:07] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas-core]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ome-types]: New version: [0.5.1.post1] Old Version: [0.5.1]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [netbox-plugin-dns]: New version: [0.22.7] Old Version: [0.22.6]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/b1/50/54d44a4599b1d19feb0e36614530497c0f1691c9eadba7f2cb92b5ba4c6e/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl
+[2024-04-01 18:50:07] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [coastsat-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas]: Downloading https://files.pythonhosted.org/packages/a6/68/b2e10a325c41178909db5a0175085db0c886ca3ed2100cf690795e099be7/dorkas-0.1.0.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [semantic-kernel]: New version: [0.9.5b1] Old Version: [0.9.4b1]
+[2024-04-01 18:50:07] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/5b/c5/933eff031ca38f784fbdfde2922006a758c8489663d92ae4a252fd2eef49/ome_types-0.5.1.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/ae/d9/e71db3effa7bac114a35c196799556270ebfea27564f2bbee02492eaf030/netbox_plugin_dns-0.22.6.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [coastsat-package]: Downloading https://files.pythonhosted.org/packages/c5/b9/bbe0f91e773f2ff00b4883939c25278cb13099ac01d05593e3bae87ad82c/coastsat_package-0.1.8.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/d7/50/f31c343eedca2c481d13630f10b0635169d41d070372fc36e231b71545fc/semantic_kernel-0.9.4b1.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas-core]: Downloading https://files.pythonhosted.org/packages/47/64/a13b23029d2427e7ced362b6849effc1fee1287cc51e4dbe7c579c49e5d7/dorkas_core-0.1.2.tar.gz
+[2024-04-01 18:50:07] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-01 18:50:07] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240401/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:50:07] INFO root fetch - processPackages [dorkas]: Downloading https://files.pythonhosted.org/packages/e4/e9/27d4fb92273c4652ef09292d06548e2daa5dcaf2cc13302f25f8977e8842/dorkas-0.1.2.tar.gz
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas-core]: executing diffoscope
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip tmp/dorkas_core-0.1.2.tar.gz --markdown 20240401/d/dorkas-core/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:50:08] INFO root fetch - processPackages [netbox-plugin-dns]: Downloading https://files.pythonhosted.org/packages/df/83/f159cffdf39c25952d8882442beeb4931476df12592fd280e5c0aa8a5277/netbox_plugin_dns-0.22.7.tar.gz
+[2024-04-01 18:50:08] INFO root fetch - processPackages [ome-types]: Downloading https://files.pythonhosted.org/packages/4a/69/190f9cabbcbbfbd49acc867c3b5191fd7634928270ea2fa3a8da79febc12/ome_types-0.5.1.post1.tar.gz
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas]: executing diffoscope
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dorkas-0.1.0.tar.gz tmp/dorkas-0.1.2.tar.gz --markdown 20240401/d/dorkas/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:50:08] INFO root fetch - processPackages [netbox-plugin-dns]: executing diffoscope
+[2024-04-01 18:50:08] INFO root fetch - processPackages [netbox-plugin-dns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_plugin_dns-0.22.6.tar.gz tmp/netbox_plugin_dns-0.22.7.tar.gz --markdown 20240401/n/netbox-plugin-dns/0.22.6-0.22.7/diff.md --exclude *.pyd
+[2024-04-01 18:50:08] INFO root fetch - processPackages [ome-types]: executing diffoscope
+[2024-04-01 18:50:08] INFO root fetch - processPackages [ome-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome_types-0.5.1.tar.gz tmp/ome_types-0.5.1.post1.tar.gz --markdown 20240401/o/ome-types/0.5.1-0.5.1.post1/diff.md --exclude *.pyd
+[2024-04-01 18:50:08] INFO root fetch - processPackages [semantic-kernel]: Downloading https://files.pythonhosted.org/packages/59/9f/56b0f3f09906ed17609f7243b24e513c9c028d1bdb0b4a6caf7878e726fc/semantic_kernel-0.9.5b1.tar.gz
+[2024-04-01 18:50:08] INFO root fetch - processPackages [semantic-kernel]: executing diffoscope
+[2024-04-01 18:50:08] INFO root fetch - processPackages [semantic-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_kernel-0.9.4b1.tar.gz tmp/semantic_kernel-0.9.5b1.tar.gz --markdown 20240401/s/semantic-kernel/0.9.4b1-0.9.5b1/diff.md --exclude *.pyd
+[2024-04-01 18:50:08] WARNING root fetch - processPackages [coastsat-package]: Skipping package: exceeds size limit 32859514>=10485760
+[2024-04-01 18:50:08] INFO root fetch - main [MainThread]: End processing [coastsat-package] error
+[2024-04-01 18:50:08] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-01 18:50:08] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-01 18:50:08] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas]: Remove: archive file [/home/abi/fetcher/tmp/dorkas-0.1.0.tar.gz]
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas]: Remove: archive file [/home/abi/fetcher/tmp/dorkas-0.1.2.tar.gz]
+[2024-04-01 18:50:08] INFO root fetch - main [MainThread]: End processing [dorkas]: success
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.1-cp311-cp311-macosx_11_0_arm64.whl.zip]
+[2024-04-01 18:50:08] INFO root fetch - processPackages [dorkas-core]: Remove: archive file [/home/abi/fetcher/tmp/dorkas_core-0.1.2.tar.gz]
+[2024-04-01 18:50:08] INFO root fetch - main [MainThread]: End processing [dorkas-core]: success
+[2024-04-01 18:50:09] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.5.1.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - processPackages [ome-types]: Remove: archive file [/home/abi/fetcher/tmp/ome_types-0.5.1.post1.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - main [MainThread]: End processing [ome-types]: success
+[2024-04-01 18:50:09] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.22.6.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - processPackages [netbox-plugin-dns]: Remove: archive file [/home/abi/fetcher/tmp/netbox_plugin_dns-0.22.7.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - main [MainThread]: End processing [netbox-plugin-dns]: success
+[2024-04-01 18:50:09] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.4b1.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.5b1.tar.gz]
+[2024-04-01 18:50:09] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
+[2024-04-01 18:50:09] INFO root fetch - main [MainThread]: Store serial: [22572339]
