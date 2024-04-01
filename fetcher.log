@@ -14868,3 +14868,63 @@ EOFError: EOF read where object expected
 [2024-04-01 22:18:46] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
 [2024-04-01 22:18:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
 [2024-04-01 22:18:46] INFO root fetch - main [MainThread]: Store serial: [22574602]
+[2024-04-01 22:20:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574602]
+[2024-04-01 22:20:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tencentcloud-sdk-python-aai
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-horizontal-plot
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tencentcloud-sdk-python-acp
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tencentcloud-sdk-python-advisor
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mmmm2
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Toisto
+[2024-04-01 22:20:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tencentcloud-sdk-python-af
+[2024-04-01 22:20:55] INFO root fetch - processPackages [custom-horizontal-plot]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 22:20:55] WARNING root fetch - processPackages [mmmm2]: Skipping, unable to determine old version
+[2024-04-01 22:20:55] INFO root fetch - main [MainThread]: End processing [mmmm2] error
+[2024-04-01 22:20:55] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/ea/db/9249660edaf9c61fd6021200ae87c78a833e7b6baa5669e5da375827bd2c/custom-horizontal-plot-0.0.4.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [Toisto]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:20:55] INFO root fetch - processPackages [Toisto]: Downloading https://files.pythonhosted.org/packages/98/78/5a993242d700f23c0e967d95076a31ddb9fa171e51c6b21095b796d40543/Toisto-0.8.2.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/99/fd/89c30befef9f12ad92625fd8181dc608e8da914c10981b6de726e95411d1/tencentcloud-sdk-python-advisor-3.0.998.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/64/9b/cafb1e8bbf3f513628efd435d89fdcf1fe80a0bd888b32c50acffdd5b277/tencentcloud-sdk-python-aai-3.0.998.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/32/cd/310dfc1b231f91094eb0b66ffda3518b9dbf6487688b2fc420db4ddd4fc0/tencentcloud-sdk-python-af-3.0.998.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [custom-horizontal-plot]: Downloading https://files.pythonhosted.org/packages/66/d5/5ebedab48118d4a83f2cf00e1b3e1e38db1c65af034eab8e1c8e8943f29f/custom-horizontal-plot-0.0.5.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [custom-horizontal-plot]: executing diffoscope
+[2024-04-01 22:20:55] INFO root fetch - processPackages [custom-horizontal-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom-horizontal-plot-0.0.4.tar.gz tmp/custom-horizontal-plot-0.0.5.tar.gz --markdown 20240401/c/custom-horizontal-plot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 22:20:55] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/d9/da/d6c3e80c69119d355325a9658fcf1603a84db706d3ea862cee488eecd718/tencentcloud-sdk-python-acp-3.0.998.tar.gz
+[2024-04-01 22:20:55] INFO root fetch - processPackages [Toisto]: Downloading https://files.pythonhosted.org/packages/34/f8/c004cf7715228beb3edaae9346c9e3fa7cd21eb4cc5bc92f22aa053dc205/Toisto-0.9.0.tar.gz
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Downloading https://files.pythonhosted.org/packages/71/fa/79e79aea4e2b7227439b7553c3d43a4ba081ba3c2c74ca7a6f0557769c00/tencentcloud-sdk-python-advisor-3.0.999.tar.gz
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Downloading https://files.pythonhosted.org/packages/c3/af/0edc99ca0ec65ae386d0bbdffe9147c9d3d488acec8ed620c99082453f8f/tencentcloud-sdk-python-aai-3.0.999.tar.gz
+[2024-04-01 22:20:56] INFO root fetch - processPackages [Toisto]: executing diffoscope
+[2024-04-01 22:20:56] INFO root fetch - processPackages [Toisto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Toisto-0.8.2.tar.gz tmp/Toisto-0.9.0.tar.gz --markdown 20240401/T/Toisto/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Downloading https://files.pythonhosted.org/packages/60/87/c3400c845a32edea1a82597849385ca49c7a5b2913971888ed1f05e8e32f/tencentcloud-sdk-python-af-3.0.999.tar.gz
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: executing diffoscope
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-advisor/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: executing diffoscope
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-aai/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Downloading https://files.pythonhosted.org/packages/bf/47/f0af650651378b58199eb8911b24039f4e9ab6aac0574141aeb1f7de1b73/tencentcloud-sdk-python-acp-3.0.999.tar.gz
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: executing diffoscope
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-af/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: executing diffoscope
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-acp/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.998.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-advisor]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-advisor-3.0.999.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-advisor]: success
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.998.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-aai]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-aai-3.0.999.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-aai]: success
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.998.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - processPackages [tencentcloud-sdk-python-af]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-af-3.0.999.tar.gz]
+[2024-04-01 22:20:56] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-af]: success
+[2024-04-01 22:20:57] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.998.tar.gz]
+[2024-04-01 22:20:57] INFO root fetch - processPackages [tencentcloud-sdk-python-acp]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-acp-3.0.999.tar.gz]
+[2024-04-01 22:20:57] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-acp]: success
+[2024-04-01 22:20:57] INFO root fetch - processPackages [Toisto]: Remove: archive file [/home/abi/fetcher/tmp/Toisto-0.8.2.tar.gz]
+[2024-04-01 22:20:57] INFO root fetch - processPackages [Toisto]: Remove: archive file [/home/abi/fetcher/tmp/Toisto-0.9.0.tar.gz]
+[2024-04-01 22:20:57] INFO root fetch - main [MainThread]: End processing [Toisto]: success
+[2024-04-01 22:21:11] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.4.tar.gz]
+[2024-04-01 22:21:11] INFO root fetch - processPackages [custom-horizontal-plot]: Remove: archive file [/home/abi/fetcher/tmp/custom-horizontal-plot-0.0.5.tar.gz]
+[2024-04-01 22:21:11] INFO root fetch - main [MainThread]: End processing [custom-horizontal-plot]: success
+[2024-04-01 22:21:11] INFO root fetch - main [MainThread]: Store serial: [22574626]
