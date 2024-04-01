@@ -1827,3 +1827,27 @@ EOFError: EOF read where object expected
 [2024-04-01 13:10:34] INFO root fetch - processPackages [tracking-lib]: Remove: archive file [/home/abi/fetcher/tmp/tracking_lib-0.1.9.tar.gz]
 [2024-04-01 13:10:34] INFO root fetch - main [MainThread]: End processing [tracking-lib]: success
 [2024-04-01 13:10:34] INFO root fetch - main [MainThread]: Store serial: [22568432]
+[2024-04-01 13:12:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568432]
+[2024-04-01 13:12:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 13:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: undertext
+[2024-04-01 13:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-01 13:12:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tb-nightly
+[2024-04-01 13:12:49] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:12:49] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:12:49] WARNING root fetch - processPackages [undertext]: Skipping, unable to determine old version
+[2024-04-01 13:12:49] INFO root fetch - main [MainThread]: End processing [undertext] error
+[2024-04-01 13:12:49] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-01 13:12:50] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:12:50] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-01 13:12:50] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:12:50] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:12:51] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:12:51] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:12:51] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:12:51] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-01 13:12:52] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-01 13:12:52] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240401/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2024-04-01 13:12:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-01 13:12:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-01 13:12:54] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-01 13:12:54] INFO root fetch - main [MainThread]: Store serial: [22568444]
