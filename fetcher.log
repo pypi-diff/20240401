@@ -9923,3 +9923,141 @@ EOFError: EOF read where object expected
 [2024-04-01 18:50:09] INFO root fetch - processPackages [semantic-kernel]: Remove: archive file [/home/abi/fetcher/tmp/semantic_kernel-0.9.5b1.tar.gz]
 [2024-04-01 18:50:09] INFO root fetch - main [MainThread]: End processing [semantic-kernel]: success
 [2024-04-01 18:50:09] INFO root fetch - main [MainThread]: Store serial: [22572339]
+[2024-04-01 18:52:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572339]
+[2024-04-01 18:52:19] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordslab-llms
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eptr2
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: allure-python-commons-test
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: allure-python-commons
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: allure-behave
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdklabs.generative-ai-cdk-constructs
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: allure-nose2
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nnsight
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: allure-pytest
+[2024-04-01 18:52:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: allure-pytest-bdd
+[2024-04-01 18:52:19] INFO root fetch - processPackages [wordslab-llms]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-nose2]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-python-commons-test]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [eptr2]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-python-commons]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-pytest]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-behave]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-pytest-bdd]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [nnsight]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-python-commons-test]: Downloading https://files.pythonhosted.org/packages/f3/78/32f749f62a58d8f6c33c5e025d81e7309ffb28a03a0b2a0dcb70651adc84/allure-python-commons-test-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [wordslab-llms]: Downloading https://files.pythonhosted.org/packages/df/42/87ad704c58cbd642fd4c4c35033fcda6987c9844644aa7ef2388d3b88b62/wordslab_llms-0.0.1.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-nose2]: Downloading https://files.pythonhosted.org/packages/1c/c7/a15b23e6164bf820f75d7b7892a32fb01b0ce4831c875b6a306c1cd9f2b5/allure-nose2-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [eptr2]: Downloading https://files.pythonhosted.org/packages/4d/42/b77e3221928d2fc77f88dfb5f16efdef98d66af4fae7fd4b68a0b23ec097/eptr2-0.2.3.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-pytest-bdd]: Downloading https://files.pythonhosted.org/packages/3b/78/79ac73386d66ed89accbe17356eb803680bf5aed6742676a453c4c1253a6/allure-pytest-bdd-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-pytest]: Downloading https://files.pythonhosted.org/packages/93/9a/ada2ae28b171a46447fe0b2863dc7d59b5a5fb300f41c005bbcf7f3b1c2b/allure-pytest-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-behave]: Downloading https://files.pythonhosted.org/packages/7c/f7/26fc8d93256be4224c59b28868cce4bdf44c3410a2b46476fc7410650ede/allure-behave-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [nnsight]: Downloading https://files.pythonhosted.org/packages/ff/60/1acd92c862457178d4b9ade3b0a16ec2816f8bebf47bbd5eeed678a9be29/nnsight-0.2.8.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/79/87/07cb65a8c0c2fc2875a184fdc369cb5cae8af38496f859dbedf1593cf94a/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [allure-python-commons]: Downloading https://files.pythonhosted.org/packages/4b/7d/3bf35990599204ee7a4c4670c0bc2df48007fb2dc6074460bac84e470df8/allure-python-commons-2.9.44.tar.gz
+[2024-04-01 18:52:19] INFO root fetch - processPackages [wordslab-llms]: Downloading https://files.pythonhosted.org/packages/3b/ea/7d1db5528b563f8177f0b17f3693c7c4862ed207906a62d41b74d48247c9/wordslab_llms-0.0.2.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons-test]: Downloading https://files.pythonhosted.org/packages/fa/f1/c232f02193ee7903c6dd9724000a8154fdd9fedc52a1d81f2e8ba57a9b0e/allure-python-commons-test-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [eptr2]: Downloading https://files.pythonhosted.org/packages/c2/b8/bfcb3db9006cdae9a0992be30151c6270c6ac40eb75606ff145b0a43bf50/eptr2-0.3.0.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest-bdd]: Downloading https://files.pythonhosted.org/packages/3b/6c/e207567ad9df9f273e11d57e559c3091e521d906caabdb81d10454fcb067/allure-pytest-bdd-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [wordslab-llms]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [wordslab-llms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordslab_llms-0.0.1.tar.gz tmp/wordslab_llms-0.0.2.tar.gz --markdown 20240401/w/wordslab-llms/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-nose2]: Downloading https://files.pythonhosted.org/packages/dc/da/f7403d72c45b508060824d089f787a1eed8dbd02e594bce76bce28437841/allure-nose2-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-behave]: Downloading https://files.pythonhosted.org/packages/1d/55/00c340f364c47ce0367f4f374d76e386ae2c3979bc4828681e3ef4ff6da6/allure-behave-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest]: Downloading https://files.pythonhosted.org/packages/d3/6f/0557406c941acb82dbd6715ea57c580fc0836cdda9bdf5174b8548851c27/allure-pytest-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons-test]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-python-commons-test-2.9.44.tar.gz tmp/allure-python-commons-test-2.9.45.tar.gz --markdown 20240401/a/allure-python-commons-test/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Downloading https://files.pythonhosted.org/packages/b1/3f/bb620aad2e3c9827bbd2a2a36dc64be1b0084b319f0f120e13690f4f1f17/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [eptr2]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [eptr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eptr2-0.2.3.tar.gz tmp/eptr2-0.3.0.tar.gz --markdown 20240401/e/eptr2/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons]: Downloading https://files.pythonhosted.org/packages/4b/42/d3f23c3e5c85b05ff001fa040c31967ea25748e2d95507cf939f684ae87c/allure-python-commons-2.9.45.tar.gz
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-nose2]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-nose2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-nose2-2.9.44.tar.gz tmp/allure-nose2-2.9.45.tar.gz --markdown 20240401/a/allure-nose2/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-behave]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-behave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-behave-2.9.44.tar.gz tmp/allure-behave-2.9.45.tar.gz --markdown 20240401/a/allure-behave/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest-bdd]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest-bdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-pytest-bdd-2.9.44.tar.gz tmp/allure-pytest-bdd-2.9.45.tar.gz --markdown 20240401/a/allure-pytest-bdd/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-python-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-python-commons-2.9.44.tar.gz tmp/allure-python-commons-2.9.45.tar.gz --markdown 20240401/a/allure-python-commons/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz --markdown 20240401/c/cdklabs.generative-ai-cdk-constructs/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest]: executing diffoscope
+[2024-04-01 18:52:20] INFO root fetch - processPackages [allure-pytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-pytest-2.9.44.tar.gz tmp/allure-pytest-2.9.45.tar.gz --markdown 20240401/a/allure-pytest/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:20] INFO root fetch - processPackages [wordslab-llms]: Remove: archive file [/home/abi/fetcher/tmp/wordslab_llms-0.0.1.tar.gz]
+[2024-04-01 18:52:20] INFO root fetch - processPackages [wordslab-llms]: Remove: archive file [/home/abi/fetcher/tmp/wordslab_llms-0.0.2.tar.gz]
+[2024-04-01 18:52:20] INFO root fetch - processPackages [wordslab-llms]: Start processing: allure-robotframework
+[2024-04-01 18:52:20] INFO root fetch - main [MainThread]: End processing [wordslab-llms]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons-test]: Remove: archive file [/home/abi/fetcher/tmp/allure-python-commons-test-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons-test]: Remove: archive file [/home/abi/fetcher/tmp/allure-python-commons-test-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons-test]: Start processing: RipeDB
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-python-commons-test]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [RipeDB]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-robotframework]: New version: [2.9.45] Old Version: [2.9.44]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/52/99/5f5d052533331c3836de8367e2d7a096b12851eb6af0fa299093b7b72465/RipeDB-0.3.3.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-nose2]: Remove: archive file [/home/abi/fetcher/tmp/allure-nose2-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-nose2]: Remove: archive file [/home/abi/fetcher/tmp/allure-nose2-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-nose2]: Start processing: ncm
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-nose2]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [eptr2]: Remove: archive file [/home/abi/fetcher/tmp/eptr2-0.2.3.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [ncm]: New version: [0.0.29] Old Version: [0.0.28]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [eptr2]: Remove: archive file [/home/abi/fetcher/tmp/eptr2-0.3.0.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [eptr2]: Start processing: PyNUTClient
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [eptr2]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/allure-python-commons-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons]: Remove: archive file [/home/abi/fetcher/tmp/allure-python-commons-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-python-commons]: Start processing: sqlite-kv
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-python-commons]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [sqlite-kv]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-robotframework]: Downloading https://files.pythonhosted.org/packages/11/c6/06b7ecdecabb3d91e71f3f1b6533c7d454450e2507f9f6a6836c38bdecbe/allure-robotframework-2.9.44.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-pytest-bdd]: Remove: archive file [/home/abi/fetcher/tmp/allure-pytest-bdd-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-pytest-bdd]: Remove: archive file [/home/abi/fetcher/tmp/allure-pytest-bdd-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-pytest-bdd]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/10/77/a9627484f6cb26ee638be3862521a954504963ad3991c40612da5d0b1e40/RipeDB-0.3.4.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-behave]: Remove: archive file [/home/abi/fetcher/tmp/allure-behave-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-behave]: Remove: archive file [/home/abi/fetcher/tmp/allure-behave-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-behave]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [PyNUTClient]: New version: [2.8.2] Old Version: [2.8.1.post1]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [ncm]: Downloading https://files.pythonhosted.org/packages/33/8f/6de77a2d1b050cd9990f84c3cb89f976b6eead9fb3d5e5ec466eedfb35c5/ncm-0.0.28.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [nnsight]: Downloading https://files.pythonhosted.org/packages/47/33/8eae8afc3570554943405d61b9f2d64dc535632ef4f55fb5079be311e11c/nnsight-0.2.9.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.98.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [cdklabs.generative-ai-cdk-constructs]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.generative-ai-cdk-constructs-0.1.99.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [cdklabs.generative-ai-cdk-constructs]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [RipeDB]: executing diffoscope
+[2024-04-01 18:52:21] INFO root fetch - processPackages [RipeDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RipeDB-0.3.3.tar.gz tmp/RipeDB-0.3.4.tar.gz --markdown 20240401/R/RipeDB/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-01 18:52:21] INFO root fetch - processPackages [sqlite-kv]: Downloading https://files.pythonhosted.org/packages/82/8b/464f41f992c443e543225d2121c2c2b4c8f277fc3f91a60480677df6e413/sqlite-kv-0.1.0.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-pytest]: Remove: archive file [/home/abi/fetcher/tmp/allure-pytest-2.9.44.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-pytest]: Remove: archive file [/home/abi/fetcher/tmp/allure-pytest-2.9.45.tar.gz]
+[2024-04-01 18:52:21] INFO root fetch - main [MainThread]: End processing [allure-pytest]: success
+[2024-04-01 18:52:21] INFO root fetch - processPackages [ncm]: Downloading https://files.pythonhosted.org/packages/e4/91/0d22ba155e33ee99bf7e7863984ce28b65a53de12120758df0ff61f83e91/ncm-0.0.29.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [PyNUTClient]: Downloading https://files.pythonhosted.org/packages/e1/2e/b78b0e65811b9b12a151074805da63199522d34514d70ffa72f5df5e4c3b/PyNUTClient-2.8.1.post1.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [ncm]: executing diffoscope
+[2024-04-01 18:52:21] INFO root fetch - processPackages [ncm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncm-0.0.28.tar.gz tmp/ncm-0.0.29.tar.gz --markdown 20240401/n/ncm/0.0.28-0.0.29/diff.md --exclude *.pyd
+[2024-04-01 18:52:21] INFO root fetch - processPackages [allure-robotframework]: Downloading https://files.pythonhosted.org/packages/47/39/ae4d330ee2e269fbf6a9f7f946fa8c6365cf24cdf1f10a32916364cf3b30/allure-robotframework-2.9.45.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [sqlite-kv]: Downloading https://files.pythonhosted.org/packages/ff/3f/e43bcd949a412ae76788bf8f457f6015ff7fbb04d238f68c51e18194cee0/sqlite-kv-0.1.1.tar.gz
+[2024-04-01 18:52:21] INFO root fetch - processPackages [nnsight]: executing diffoscope
+[2024-04-01 18:52:21] INFO root fetch - processPackages [nnsight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnsight-0.2.8.tar.gz tmp/nnsight-0.2.9.tar.gz --markdown 20240401/n/nnsight/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 18:52:21] INFO root fetch - processPackages [PyNUTClient]: Downloading https://files.pythonhosted.org/packages/23/f4/3f73f2c094fc7bb4aadb6fb987f43cd578e424edcede27ea6c3686e3d1b3/PyNUTClient-2.8.2.tar.gz
+[2024-04-01 18:52:22] INFO root fetch - processPackages [allure-robotframework]: executing diffoscope
+[2024-04-01 18:52:22] INFO root fetch - processPackages [allure-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/allure-robotframework-2.9.44.tar.gz tmp/allure-robotframework-2.9.45.tar.gz --markdown 20240401/a/allure-robotframework/2.9.44-2.9.45/diff.md --exclude *.pyd
+[2024-04-01 18:52:22] INFO root fetch - processPackages [sqlite-kv]: executing diffoscope
+[2024-04-01 18:52:22] INFO root fetch - processPackages [sqlite-kv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-kv-0.1.0.tar.gz tmp/sqlite-kv-0.1.1.tar.gz --markdown 20240401/s/sqlite-kv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:52:22] INFO root fetch - processPackages [PyNUTClient]: executing diffoscope
+[2024-04-01 18:52:22] INFO root fetch - processPackages [PyNUTClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNUTClient-2.8.1.post1.tar.gz tmp/PyNUTClient-2.8.2.tar.gz --markdown 20240401/P/PyNUTClient/2.8.1.post1-2.8.2/diff.md --exclude *.pyd
+[2024-04-01 18:52:22] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.3.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.4.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - main [MainThread]: End processing [RipeDB]: success
+[2024-04-01 18:52:22] INFO root fetch - processPackages [ncm]: Remove: archive file [/home/abi/fetcher/tmp/ncm-0.0.28.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - processPackages [ncm]: Remove: archive file [/home/abi/fetcher/tmp/ncm-0.0.29.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - main [MainThread]: End processing [ncm]: success
+[2024-04-01 18:52:22] INFO root fetch - processPackages [sqlite-kv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-kv-0.1.0.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - processPackages [sqlite-kv]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-kv-0.1.1.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - main [MainThread]: End processing [sqlite-kv]: success
+[2024-04-01 18:52:22] INFO root fetch - processPackages [allure-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/allure-robotframework-2.9.44.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - processPackages [allure-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/allure-robotframework-2.9.45.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - main [MainThread]: End processing [allure-robotframework]: success
+[2024-04-01 18:52:22] INFO root fetch - processPackages [PyNUTClient]: Remove: archive file [/home/abi/fetcher/tmp/PyNUTClient-2.8.1.post1.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - processPackages [PyNUTClient]: Remove: archive file [/home/abi/fetcher/tmp/PyNUTClient-2.8.2.tar.gz]
+[2024-04-01 18:52:22] INFO root fetch - main [MainThread]: End processing [PyNUTClient]: success
+[2024-04-01 18:52:24] INFO root fetch - processPackages [nnsight]: Remove: archive file [/home/abi/fetcher/tmp/nnsight-0.2.8.tar.gz]
+[2024-04-01 18:52:24] INFO root fetch - processPackages [nnsight]: Remove: archive file [/home/abi/fetcher/tmp/nnsight-0.2.9.tar.gz]
+[2024-04-01 18:52:24] INFO root fetch - main [MainThread]: End processing [nnsight]: success
+[2024-04-01 18:52:24] INFO root fetch - main [MainThread]: Store serial: [22572384]
