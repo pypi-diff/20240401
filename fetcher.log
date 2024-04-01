@@ -14790,3 +14790,81 @@ EOFError: EOF read where object expected
 [2024-04-01 22:16:22] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.3.5.dev0-py2.py3-none-any.whl.zip]
 [2024-04-01 22:16:22] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
 [2024-04-01 22:16:22] INFO root fetch - main [MainThread]: Store serial: [22574566]
+[2024-04-01 22:18:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574566]
+[2024-04-01 22:18:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sajjad
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-kedro
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: holidays
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tencentcloud-sdk-python
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DataComparerLibrary
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cbrkit
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mmmm1
+[2024-04-01 22:18:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circfirm-hello-world
+[2024-04-01 22:18:31] INFO root fetch - processPackages [sajjad]: New version: [1.1] Old Version: [1.0]
+[2024-04-01 22:18:31] WARNING root fetch - processPackages [mmmm1]: Skipping, unable to determine old version
+[2024-04-01 22:18:31] INFO root fetch - main [MainThread]: End processing [mmmm1] error
+[2024-04-01 22:18:31] INFO root fetch - processPackages [DataComparerLibrary]: New version: [0.839] Old Version: [0.838]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [pydantic-kedro]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [circfirm-hello-world]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [cbrkit]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [holidays]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-01 22:18:31] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/ec/72/f260458c92e751fc33aff067f9dffbc15a78112c56751f857d7d1ea7627c/sajjad-1.0.tar.gz
+[2024-04-01 22:18:31] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/89/a0/4f32a7b26af1ddf7c27297d571a4eef556067d58b9ac2e71a8ab957601fb/cbrkit-0.7.0.tar.gz
+[2024-04-01 22:18:31] INFO root fetch - processPackages [DataComparerLibrary]: Downloading https://files.pythonhosted.org/packages/0f/af/77c080a05dbb76b14cc749c32a0ae820af2c3fe11d389bd0639fe1e466bb/DataComparerLibrary-0.838.tar.gz
+[2024-04-01 22:18:31] INFO root fetch - processPackages [circfirm-hello-world]: Downloading https://files.pythonhosted.org/packages/5e/83/1ddb3898df5507e0211c025b56c6841ed59fb72b4199e266aba77f263047/circfirm-hello-world-0.0.3.tar.gz
+[2024-04-01 22:18:31] INFO root fetch - processPackages [pydantic-kedro]: Downloading https://files.pythonhosted.org/packages/08/37/9e0a6895f7fa6175c2e0da835e23ab51042a2e0c6702441815ea3d8e3cc7/pydantic-kedro-0.7.0.tar.gz
+[2024-04-01 22:18:31] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/cc/da/7d0642a8b94ea413fc7005f4538c01475a45b420d705f57481752552ac55/holidays-0.9.8.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/0e/49/d3deea1dbe9eed3d486f850eab70b665bc903e06042c7b39c19585e01b6a/tencentcloud-sdk-python-3.0.998.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [circfirm-hello-world]: Downloading https://files.pythonhosted.org/packages/36/ab/03136e44e8f9e83cd931bbaac80aa7388f91512e0c436b6f5deee9cc5176/circfirm-hello-world-0.0.4.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/3e/c3/79378c8d519516f0a254a2a44f332d13aaf57767c616046f3376fb3b183c/cbrkit-0.8.0.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [DataComparerLibrary]: Downloading https://files.pythonhosted.org/packages/ae/91/f0a0906ceda772c1f9713eadb59dbc7f6f2cc1b446b3407cda63a546210f/DataComparerLibrary-0.839.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [pydantic-kedro]: Downloading https://files.pythonhosted.org/packages/ab/a6/a2b2c2a7b367f02e601d3f32dea6961550df5b190361e0e29c636d6de093/pydantic-kedro-0.8.0.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/9f/6c/b818fe93947f311cba088fe2d13c427db0b9c1932a7fa532057133c1271a/sajjad-1.1.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [holidays]: Downloading https://files.pythonhosted.org/packages/40/b0/3dfe3d3ed79087848a22de46d379462e371517571ee64668791f3d49ea29/holidays-0.9.9.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-01 22:18:32] INFO root fetch - processPackages [circfirm-hello-world]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [circfirm-hello-world]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circfirm-hello-world-0.0.3.tar.gz tmp/circfirm-hello-world-0.0.4.tar.gz --markdown 20240401/c/circfirm-hello-world/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [cbrkit]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [cbrkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbrkit-0.7.0.tar.gz tmp/cbrkit-0.8.0.tar.gz --markdown 20240401/c/cbrkit/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [DataComparerLibrary]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [DataComparerLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataComparerLibrary-0.838.tar.gz tmp/DataComparerLibrary-0.839.tar.gz --markdown 20240401/D/DataComparerLibrary/0.838-0.839/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [pydantic-kedro]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [pydantic-kedro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic-kedro-0.7.0.tar.gz tmp/pydantic-kedro-0.8.0.tar.gz --markdown 20240401/p/pydantic-kedro/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.0.tar.gz tmp/sajjad-1.1.tar.gz --markdown 20240401/s/sajjad/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [holidays]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [holidays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holidays-0.9.8.tar.gz tmp/holidays-0.9.9.tar.gz --markdown 20240401/h/holidays/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 22:18:32] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-01 22:18:32] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240401/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-01 22:18:33] INFO root fetch - processPackages [circfirm-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/circfirm-hello-world-0.0.3.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [circfirm-hello-world]: Remove: archive file [/home/abi/fetcher/tmp/circfirm-hello-world-0.0.4.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [circfirm-hello-world]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.7.0.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.8.0.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [cbrkit]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.0.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.1.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [DataComparerLibrary]: Remove: archive file [/home/abi/fetcher/tmp/DataComparerLibrary-0.838.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [DataComparerLibrary]: Remove: archive file [/home/abi/fetcher/tmp/DataComparerLibrary-0.839.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [DataComparerLibrary]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [pydantic-kedro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-kedro-0.7.0.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [pydantic-kedro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic-kedro-0.8.0.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [pydantic-kedro]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-01 22:18:33] INFO root fetch - processPackages [holidays]: Remove: archive file [/home/abi/fetcher/tmp/holidays-0.9.8.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - processPackages [holidays]: Remove: archive file [/home/abi/fetcher/tmp/holidays-0.9.9.tar.gz]
+[2024-04-01 22:18:33] INFO root fetch - main [MainThread]: End processing [holidays]: success
+[2024-04-01 22:18:34] INFO root fetch - processPackages [tencentcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/72/eb/b7f20f227c30beeb1298a5013dbd98cf616d9c321398cf216c1b15940a8b/tencentcloud-sdk-python-3.0.999.tar.gz
+[2024-04-01 22:18:35] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2024-04-01 22:18:35] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.998.tar.gz tmp/tencentcloud-sdk-python-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:18:46] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.998.tar.gz]
+[2024-04-01 22:18:46] INFO root fetch - processPackages [tencentcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-3.0.999.tar.gz]
+[2024-04-01 22:18:46] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2024-04-01 22:18:46] INFO root fetch - main [MainThread]: Store serial: [22574602]
