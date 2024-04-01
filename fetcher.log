@@ -4079,3 +4079,33 @@ EOFError: EOF read where object expected
 [2024-04-01 15:12:25] INFO root fetch - processPackages [mkninja]: Remove: archive file [/home/abi/fetcher/tmp/mkninja-0.2.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-01 15:12:25] INFO root fetch - main [MainThread]: End processing [mkninja]: success
 [2024-04-01 15:12:25] INFO root fetch - main [MainThread]: Store serial: [22569477]
+[2024-04-01 15:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569477]
+[2024-04-01 15:14:34] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 15:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outpostkit
+[2024-04-01 15:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fbgemm-gpu-nightly-cpu
+[2024-04-01 15:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phone-email-auth
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: New version: [0.7] Old Version: [0.6]
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/87/16/b5a1a2710078c203b4c7db893122d48050d65ba939c0a83edd0a1d3f5372/phone_email_auth-0.6.tar.gz
+[2024-04-01 15:14:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2024.4.1] Old Version: [2024.3.31]
+[2024-04-01 15:14:35] INFO root fetch - processPackages [outpostkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-01 15:14:35] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/e8/20/6f4f3b0edb61dd5f691668605b0901894c58c85e728662fff6913423203c/outpostkit-0.0.7.tar.gz
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: Downloading https://files.pythonhosted.org/packages/78/a0/aef9b006d16e172325489a50c1807ea8258090f4e5fca3699dbb5b916cd6/phone_email_auth-0.7.tar.gz
+[2024-04-01 15:14:35] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/90/89/125e9a5db861f38f362eaa15d569e741d03d8ca9add8e3f55d3cfa8ab1f4/fbgemm_gpu_nightly_cpu-2024.3.31-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: executing diffoscope
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phone_email_auth-0.6.tar.gz tmp/phone_email_auth-0.7.tar.gz --markdown 20240401/p/phone-email-auth/0.6-0.7/diff.md --exclude *.pyd
+[2024-04-01 15:14:35] INFO root fetch - processPackages [outpostkit]: Downloading https://files.pythonhosted.org/packages/b3/af/8945c62fc6dc5596e5618810b3971a4c11d217517a24d0cd40a10b5b9553/outpostkit-0.0.9.tar.gz
+[2024-04-01 15:14:35] INFO root fetch - processPackages [outpostkit]: executing diffoscope
+[2024-04-01 15:14:35] INFO root fetch - processPackages [outpostkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostkit-0.0.7.tar.gz tmp/outpostkit-0.0.9.tar.gz --markdown 20240401/o/outpostkit/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.6.tar.gz]
+[2024-04-01 15:14:35] INFO root fetch - processPackages [phone-email-auth]: Remove: archive file [/home/abi/fetcher/tmp/phone_email_auth-0.7.tar.gz]
+[2024-04-01 15:14:36] INFO root fetch - main [MainThread]: End processing [phone-email-auth]: success
+[2024-04-01 15:14:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/95/00/5163a4c4e4bf64a640f5711443df4da6eed3fd8d8ee0b4d708652984e5de/fbgemm_gpu_nightly_cpu-2024.4.1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-01 15:14:36] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.7.tar.gz]
+[2024-04-01 15:14:36] INFO root fetch - processPackages [outpostkit]: Remove: archive file [/home/abi/fetcher/tmp/outpostkit-0.0.9.tar.gz]
+[2024-04-01 15:14:36] INFO root fetch - main [MainThread]: End processing [outpostkit]: success
+[2024-04-01 15:14:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2024-04-01 15:14:36] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2024.3.31-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2024.4.1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20240401/f/fbgemm-gpu-nightly-cpu/2024.3.31-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 15:14:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.3.31-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-01 15:14:37] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2024.4.1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-04-01 15:14:37] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2024-04-01 15:14:37] INFO root fetch - main [MainThread]: Store serial: [22569528]
