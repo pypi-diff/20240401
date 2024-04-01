@@ -10422,3 +10422,37 @@ EOFError: EOF read where object expected
 [2024-04-01 19:10:09] INFO root fetch - processPackages [deltalake]: Remove: archive file [/home/abi/fetcher/tmp/deltalake-0.9.0.tar.gz]
 [2024-04-01 19:10:09] INFO root fetch - main [MainThread]: End processing [deltalake]: success
 [2024-04-01 19:10:09] INFO root fetch - main [MainThread]: Store serial: [22572563]
+[2024-04-01 19:12:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572563]
+[2024-04-01 19:12:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 19:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-01 19:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcd
+[2024-04-01 19:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycarlo
+[2024-04-01 19:12:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cwsgiutils
+[2024-04-01 19:12:18] INFO root fetch - processPackages [fcd]: New version: [1.2.1.1] Old Version: [1.2.1]
+[2024-04-01 19:12:18] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-04-01 19:12:18] INFO root fetch - processPackages [fcd]: Downloading https://files.pythonhosted.org/packages/91/83/b2bd47ed44cb73b661535827ae3e4bae2d9327a55b4962065dc0611757fd/fcd-1.2.1.tar.gz
+[2024-04-01 19:12:18] INFO root fetch - processPackages [pycarlo]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-01 19:12:18] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-04-01 19:12:18] INFO root fetch - processPackages [smaht-submitr]: New version: [0.7.0.1b9] Old Version: [0.7.0.1b7]
+[2024-04-01 19:12:18] WARNING root fetch - processPackages [fcd]: Skipping package: exceeds size limit 15118302>=10485760
+[2024-04-01 19:12:18] INFO root fetch - main [MainThread]: End processing [fcd] error
+[2024-04-01 19:12:19] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/8c/4f/cd1b0aae9f630fbc43f3e5c3421bee3d4de9ca44ec2bdd4c6efc35e51030/smaht_submitr-0.7.0.1b7.tar.gz
+[2024-04-01 19:12:19] INFO root fetch - processPackages [pycarlo]: Downloading https://files.pythonhosted.org/packages/6f/42/69e86f206deeb820f2ce080d05c76504b9df3d58a720138991a98f041bf1/pycarlo-0.9.5.tar.gz
+[2024-04-01 19:12:19] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-04-01 19:12:19] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-04-01 19:12:19] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240401/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/diff.md --exclude *.pyd
+[2024-04-01 19:12:19] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/ff/84/cead0681f1d3b22d8c2cc55c431321aa00039b758129671d6e752101a732/smaht_submitr-0.7.0.1b9.tar.gz
+[2024-04-01 19:12:19] INFO root fetch - processPackages [pycarlo]: Downloading https://files.pythonhosted.org/packages/c7/49/79a6eceb68807c4ad0e061d619b4d81d2a8475c8254c6f71dbb5a7628da2/pycarlo-0.9.6.tar.gz
+[2024-04-01 19:12:19] INFO root fetch - processPackages [pycarlo]: executing diffoscope
+[2024-04-01 19:12:19] INFO root fetch - processPackages [pycarlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycarlo-0.9.5.tar.gz tmp/pycarlo-0.9.6.tar.gz --markdown 20240401/p/pycarlo/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-01 19:12:19] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-01 19:12:19] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.1b7.tar.gz tmp/smaht_submitr-0.7.0.1b9.tar.gz --markdown 20240401/s/smaht-submitr/0.7.0.1b7-0.7.0.1b9/diff.md --exclude *.pyd
+[2024-04-01 19:12:19] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-04-01 19:12:19] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-04-01 19:12:19] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-04-01 19:12:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b7.tar.gz]
+[2024-04-01 19:12:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
+[2024-04-01 19:12:20] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-01 19:15:19] ERROR root fetch - processPackages [pycarlo]: Timeout during execution of pkgdiff
+[2024-04-01 19:15:19] INFO root fetch - main [MainThread]: End processing [pycarlo] error
+[2024-04-01 19:15:19] INFO root fetch - main [MainThread]: Store serial: [22572582]
