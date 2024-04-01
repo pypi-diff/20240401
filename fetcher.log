@@ -8963,3 +8963,51 @@ EOFError: EOF read where object expected
 [2024-04-01 18:16:02] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.2.tar.gz]
 [2024-04-01 18:16:02] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
 [2024-04-01 18:16:02] INFO root fetch - main [MainThread]: Store serial: [22571889]
+[2024-04-01 18:18:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571889]
+[2024-04-01 18:18:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 18:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoseeq
+[2024-04-01 18:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pelc
+[2024-04-01 18:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: avn
+[2024-04-01 18:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dcmfetch
+[2024-04-01 18:18:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaraco.home
+[2024-04-01 18:18:12] INFO root fetch - processPackages [avn]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-01 18:18:12] INFO root fetch - processPackages [dcmfetch]: New version: [0.3.1] Old Version: [0.2.0]
+[2024-04-01 18:18:12] INFO root fetch - processPackages [pelc]: New version: [0.5.4.2] Old Version: [0.5.4.1]
+[2024-04-01 18:18:12] INFO root fetch - processPackages [geoseeq]: New version: [0.5.6a4] Old Version: [0.5.6a3]
+[2024-04-01 18:18:12] INFO root fetch - processPackages [jaraco.home]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-04-01 18:18:12] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/bb/dc/53fcde2759484504e9253ff903a3b1ca70ffeba3c34959f1925d22cf6eea/avn-0.3.0.tar.gz
+[2024-04-01 18:18:12] INFO root fetch - processPackages [dcmfetch]: Downloading https://files.pythonhosted.org/packages/53/3c/91bd23db08b70b620cfbdd0c94a5136aedbed50f93577173e26428df0ad1/dcmfetch-0.2.0.tar.gz
+[2024-04-01 18:18:12] INFO root fetch - processPackages [geoseeq]: Downloading https://files.pythonhosted.org/packages/07/37/93614532e39eba989c17af661f6184b388771ac290d397c0f8e49fddfc73/geoseeq-0.5.6a3.tar.gz
+[2024-04-01 18:18:12] INFO root fetch - processPackages [jaraco.home]: Downloading https://files.pythonhosted.org/packages/51/75/9db345bca99cdda9cd26dd318190ac79f18f0d69de37c9d5ba7c0fa2ce82/jaraco.home-3.5.0.tar.gz
+[2024-04-01 18:18:12] INFO root fetch - processPackages [pelc]: Downloading https://files.pythonhosted.org/packages/cf/63/d1b70d3612ba19508801c3caf0912d9b1ebc380b0c8e96a91cbd051713b3/pelc-0.5.4.1.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [avn]: Downloading https://files.pythonhosted.org/packages/f9/f6/41d934a3b18503873b844b97f51bb9b630600d18a113423481f2295c1287/avn-0.4.0.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [geoseeq]: Downloading https://files.pythonhosted.org/packages/05/35/37ecd2e88405546359a5e785fccf87722abd0248fd976545ab89573cc866/geoseeq-0.5.6a4.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [jaraco.home]: Downloading https://files.pythonhosted.org/packages/62/6c/ee62f7dde9671f07c1643e111a3d98fb22e77e024e0b0230a772ca545759/jaraco.home-3.6.0.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [pelc]: Downloading https://files.pythonhosted.org/packages/5b/4b/de611d0859415d19709af0fba548fc3022c48233ab4db8b734ab3b7cf659/pelc-0.5.4.2.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [avn]: executing diffoscope
+[2024-04-01 18:18:13] INFO root fetch - processPackages [avn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avn-0.3.0.tar.gz tmp/avn-0.4.0.tar.gz --markdown 20240401/a/avn/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-01 18:18:13] INFO root fetch - processPackages [geoseeq]: executing diffoscope
+[2024-04-01 18:18:13] INFO root fetch - processPackages [geoseeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoseeq-0.5.6a3.tar.gz tmp/geoseeq-0.5.6a4.tar.gz --markdown 20240401/g/geoseeq/0.5.6a3-0.5.6a4/diff.md --exclude *.pyd
+[2024-04-01 18:18:13] INFO root fetch - processPackages [pelc]: executing diffoscope
+[2024-04-01 18:18:13] INFO root fetch - processPackages [pelc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pelc-0.5.4.1.tar.gz tmp/pelc-0.5.4.2.tar.gz --markdown 20240401/p/pelc/0.5.4.1-0.5.4.2/diff.md --exclude *.pyd
+[2024-04-01 18:18:13] INFO root fetch - processPackages [jaraco.home]: executing diffoscope
+[2024-04-01 18:18:13] INFO root fetch - processPackages [jaraco.home]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.home-3.5.0.tar.gz tmp/jaraco.home-3.6.0.tar.gz --markdown 20240401/j/jaraco.home/3.5.0-3.6.0/diff.md --exclude *.pyd
+[2024-04-01 18:18:13] INFO root fetch - processPackages [dcmfetch]: Downloading https://files.pythonhosted.org/packages/ed/e8/e5f1e1e4a9cf9aa6f0ab41518570e6b0e8a037f76d5005ac6eb56fd7b443/dcmfetch-0.3.1.tar.gz
+[2024-04-01 18:18:13] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.3.0.tar.gz]
+[2024-04-01 18:18:13] INFO root fetch - processPackages [avn]: Remove: archive file [/home/abi/fetcher/tmp/avn-0.4.0.tar.gz]
+[2024-04-01 18:18:13] INFO root fetch - main [MainThread]: End processing [avn]: success
+[2024-04-01 18:18:14] INFO root fetch - processPackages [geoseeq]: Remove: archive file [/home/abi/fetcher/tmp/geoseeq-0.5.6a3.tar.gz]
+[2024-04-01 18:18:14] INFO root fetch - processPackages [geoseeq]: Remove: archive file [/home/abi/fetcher/tmp/geoseeq-0.5.6a4.tar.gz]
+[2024-04-01 18:18:14] INFO root fetch - main [MainThread]: End processing [geoseeq]: success
+[2024-04-01 18:18:14] INFO root fetch - processPackages [jaraco.home]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.home-3.5.0.tar.gz]
+[2024-04-01 18:18:14] INFO root fetch - processPackages [jaraco.home]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.home-3.6.0.tar.gz]
+[2024-04-01 18:18:14] INFO root fetch - main [MainThread]: End processing [jaraco.home]: success
+[2024-04-01 18:18:14] INFO root fetch - processPackages [dcmfetch]: executing diffoscope
+[2024-04-01 18:18:14] INFO root fetch - processPackages [dcmfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcmfetch-0.2.0.tar.gz tmp/dcmfetch-0.3.1.tar.gz --markdown 20240401/d/dcmfetch/0.2.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 18:18:15] INFO root fetch - processPackages [dcmfetch]: Remove: archive file [/home/abi/fetcher/tmp/dcmfetch-0.2.0.tar.gz]
+[2024-04-01 18:18:15] INFO root fetch - processPackages [dcmfetch]: Remove: archive file [/home/abi/fetcher/tmp/dcmfetch-0.3.1.tar.gz]
+[2024-04-01 18:18:15] INFO root fetch - main [MainThread]: End processing [dcmfetch]: success
+[2024-04-01 18:18:17] INFO root fetch - processPackages [pelc]: Remove: archive file [/home/abi/fetcher/tmp/pelc-0.5.4.1.tar.gz]
+[2024-04-01 18:18:17] INFO root fetch - processPackages [pelc]: Remove: archive file [/home/abi/fetcher/tmp/pelc-0.5.4.2.tar.gz]
+[2024-04-01 18:18:17] INFO root fetch - main [MainThread]: End processing [pelc]: success
+[2024-04-01 18:18:17] INFO root fetch - main [MainThread]: Store serial: [22571904]
