@@ -5251,3 +5251,21 @@ EOFError: EOF read where object expected
 [2024-04-01 16:03:55] INFO root fetch - processPackages [advanced-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/advanced_alchemy-0.8.3.tar.gz]
 [2024-04-01 16:03:55] INFO root fetch - main [MainThread]: End processing [advanced-alchemy]: success
 [2024-04-01 16:03:55] INFO root fetch - main [MainThread]: Store serial: [22570026]
+[2024-04-01 16:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570026]
+[2024-04-01 16:06:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 16:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hundred-x
+[2024-04-01 16:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FanFicFare
+[2024-04-01 16:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manamodeller
+[2024-04-01 16:06:06] WARNING root fetch - processPackages [hundred-x]: Skipping, unable to determine old version
+[2024-04-01 16:06:06] INFO root fetch - main [MainThread]: End processing [hundred-x] error
+[2024-04-01 16:06:06] WARNING root fetch - processPackages [manamodeller]: Skipping, unable to determine old version
+[2024-04-01 16:06:06] INFO root fetch - main [MainThread]: End processing [manamodeller] error
+[2024-04-01 16:06:06] INFO root fetch - processPackages [FanFicFare]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-01 16:06:06] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/65/3c/613804b633302b19386d97264f6bf5dbe92d582179d73817ac7f423da8ee/FanFicFare-4.8.0.tar.gz
+[2024-04-01 16:06:07] INFO root fetch - processPackages [FanFicFare]: Downloading https://files.pythonhosted.org/packages/90/9e/67fd90f648717f76346e4199615d175d1315a0901c081b90a79401b8a818/FanFicFare-4.9.0.tar.gz
+[2024-04-01 16:06:07] INFO root fetch - processPackages [FanFicFare]: executing diffoscope
+[2024-04-01 16:06:07] INFO root fetch - processPackages [FanFicFare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FanFicFare-4.8.0.tar.gz tmp/FanFicFare-4.9.0.tar.gz --markdown 20240401/F/FanFicFare/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:06:08] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.8.0.tar.gz]
+[2024-04-01 16:06:08] INFO root fetch - processPackages [FanFicFare]: Remove: archive file [/home/abi/fetcher/tmp/FanFicFare-4.9.0.tar.gz]
+[2024-04-01 16:06:08] INFO root fetch - main [MainThread]: End processing [FanFicFare]: success
+[2024-04-01 16:06:08] INFO root fetch - main [MainThread]: Store serial: [22570042]
