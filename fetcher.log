@@ -8707,3 +8707,68 @@ EOFError: EOF read where object expected
 [2024-04-01 18:04:49] INFO root fetch - processPackages [breezy]: Remove: archive file [/home/abi/fetcher/tmp/breezy-3.3.6.tar.gz]
 [2024-04-01 18:04:49] INFO root fetch - main [MainThread]: End processing [breezy]: success
 [2024-04-01 18:04:49] INFO root fetch - main [MainThread]: Store serial: [22571689]
+[2024-04-01 18:06:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571689]
+[2024-04-01 18:07:00] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: busker
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: json-autocomplete
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DataPrepKitV2
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scalifiai-client
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: configureout
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amazon-braket-algorithm-library
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pjrmi
+[2024-04-01 18:07:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqnado
+[2024-04-01 18:07:01] INFO root fetch - processPackages [configureout]: New version: [1.1] Old Version: [1.0]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a9] Old Version: [1.2.0a8]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/bd/c4/3ab80f33621a6110e942d2cb9066ecd47cbe5e28317a211b51c03edd9623/scalifiai-client-1.2.0a8.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [busker]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-01 18:07:01] WARNING root fetch - processPackages [DataPrepKitV2]: Skipping, unable to determine old version
+[2024-04-01 18:07:01] INFO root fetch - main [MainThread]: End processing [DataPrepKitV2] error
+[2024-04-01 18:07:01] INFO root fetch - processPackages [seqnado]: New version: [0.5.0] Old Version: [0.4.3]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [amazon-braket-algorithm-library]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [pjrmi]: New version: [1.13.8] Old Version: [1.13.0]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [json-autocomplete]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-01 18:07:01] INFO root fetch - processPackages [configureout]: Downloading https://files.pythonhosted.org/packages/8d/08/9a64625beb06883fd766c0ce656a8782a37f23eff3408ed99ad0deb97083/configureout-1.0.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [json-autocomplete]: Downloading https://files.pythonhosted.org/packages/c2/08/d6a58dfe5e12cf2b0ac14f65e609c450a76eafbadf61ef2f5d31a79f9b69/json-autocomplete-0.2.2.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [seqnado]: Downloading https://files.pythonhosted.org/packages/ee/f9/0cdc060210f5442b3e8ffa1e39b37ad28fc5cde8b73b587990d8a9195a99/seqnado-0.4.3.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/2f/4d/44ea9c4c860a59c449fb184f583c5654c6b286d9a6a5370fcc9de35bf2c2/amazon-braket-algorithm-library-1.4.8.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/91/15/c69b6d58a40e4fa97716389e7d9d388c72526a3784cdcab3592ab434de0a/scalifiai-client-1.2.0a9.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [busker]: Downloading https://files.pythonhosted.org/packages/9e/9c/5db09976bbe9113b313fb494299dd3594b955b5e5e2df613624f6920b8bd/busker-0.5.0.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [pjrmi]: Downloading https://files.pythonhosted.org/packages/c3/20/956b5a22c068b9996f5227491349cd8e7a2cb95cb557079a7e493aa8dc9f/pjrmi-1.13.0.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 18:07:01] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a8.tar.gz tmp/scalifiai-client-1.2.0a9.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a8-1.2.0a9/diff.md --exclude *.pyd
+[2024-04-01 18:07:01] INFO root fetch - processPackages [configureout]: Downloading https://files.pythonhosted.org/packages/c0/56/01988afb3da1670816a32bdf16aa1dedfbce226a042af8d6c65f6a6fe05b/configureout-1.1.tar.gz
+[2024-04-01 18:07:01] INFO root fetch - processPackages [configureout]: executing diffoscope
+[2024-04-01 18:07:01] INFO root fetch - processPackages [configureout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configureout-1.0.tar.gz tmp/configureout-1.1.tar.gz --markdown 20240401/c/configureout/1.0-1.1/diff.md --exclude *.pyd
+[2024-04-01 18:07:01] INFO root fetch - processPackages [json-autocomplete]: Downloading https://files.pythonhosted.org/packages/7c/94/4a708fd9d76189b66b15bbf0ef166db6fb50451c96ad5f80a0e4dfb03c80/json_autocomplete-0.2.3-cp39-cp39-musllinux_1_1_i686.whl
+[2024-04-01 18:07:01] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Downloading https://files.pythonhosted.org/packages/75/52/f68fbb9cf47822f980d807095bf1e211ad01f862c48dfe8a47f371ababca/amazon-braket-algorithm-library-1.4.9.tar.gz
+[2024-04-01 18:07:01] WARNING root fetch - processPackages [seqnado]: Skipping package: exceeds size limit 69572370>=10485760
+[2024-04-01 18:07:01] INFO root fetch - main [MainThread]: End processing [seqnado] error
+[2024-04-01 18:07:01] INFO root fetch - processPackages [busker]: Downloading https://files.pythonhosted.org/packages/e8/6e/ec129252a856052b88296049024ca09e00b0082233a4be0f9dbdee531170/busker-0.6.0.tar.gz
+[2024-04-01 18:07:02] INFO root fetch - processPackages [amazon-braket-algorithm-library]: executing diffoscope
+[2024-04-01 18:07:02] INFO root fetch - processPackages [amazon-braket-algorithm-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-algorithm-library-1.4.8.tar.gz tmp/amazon-braket-algorithm-library-1.4.9.tar.gz --markdown 20240401/a/amazon-braket-algorithm-library/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2024-04-01 18:07:02] INFO root fetch - processPackages [busker]: executing diffoscope
+[2024-04-01 18:07:02] INFO root fetch - processPackages [busker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busker-0.5.0.tar.gz tmp/busker-0.6.0.tar.gz --markdown 20240401/b/busker/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-01 18:07:02] INFO root fetch - processPackages [pjrmi]: Downloading https://files.pythonhosted.org/packages/53/37/59b5afd27e1594bc1e54ddb14c3e2973c516103b9c315b7baec199aa33a7/pjrmi-1.13.8.tar.gz
+[2024-04-01 18:07:02] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a8.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a9.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 18:07:02] INFO root fetch - processPackages [configureout]: Remove: archive file [/home/abi/fetcher/tmp/configureout-1.0.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - processPackages [configureout]: Remove: archive file [/home/abi/fetcher/tmp/configureout-1.1.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - main [MainThread]: End processing [configureout]: success
+[2024-04-01 18:07:02] INFO root fetch - processPackages [pjrmi]: executing diffoscope
+[2024-04-01 18:07:02] INFO root fetch - processPackages [pjrmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pjrmi-1.13.0.tar.gz tmp/pjrmi-1.13.8.tar.gz --markdown 20240401/p/pjrmi/1.13.0-1.13.8/diff.md --exclude *.pyd
+[2024-04-01 18:07:02] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.4.8.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - processPackages [amazon-braket-algorithm-library]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-algorithm-library-1.4.9.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - main [MainThread]: End processing [amazon-braket-algorithm-library]: success
+[2024-04-01 18:07:02] INFO root fetch - processPackages [busker]: Remove: archive file [/home/abi/fetcher/tmp/busker-0.5.0.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - processPackages [busker]: Remove: archive file [/home/abi/fetcher/tmp/busker-0.6.0.tar.gz]
+[2024-04-01 18:07:02] INFO root fetch - main [MainThread]: End processing [busker]: success
+[2024-04-01 18:07:03] INFO root fetch - processPackages [json-autocomplete]: executing diffoscope
+[2024-04-01 18:07:03] INFO root fetch - processPackages [json-autocomplete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-autocomplete-0.2.2.tar.gz tmp/json_autocomplete-0.2.3-cp39-cp39-musllinux_1_1_i686.whl.zip --markdown 20240401/j/json-autocomplete/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-01 18:07:03] INFO root fetch - processPackages [json-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/json-autocomplete-0.2.2.tar.gz]
+[2024-04-01 18:07:03] INFO root fetch - processPackages [json-autocomplete]: Remove: archive file [/home/abi/fetcher/tmp/json_autocomplete-0.2.3-cp39-cp39-musllinux_1_1_i686.whl.zip]
+[2024-04-01 18:07:03] INFO root fetch - main [MainThread]: End processing [json-autocomplete]: success
+[2024-04-01 18:09:27] INFO root fetch - processPackages [pjrmi]: Remove: archive file [/home/abi/fetcher/tmp/pjrmi-1.13.0.tar.gz]
+[2024-04-01 18:09:27] INFO root fetch - processPackages [pjrmi]: Remove: archive file [/home/abi/fetcher/tmp/pjrmi-1.13.8.tar.gz]
+[2024-04-01 18:09:27] INFO root fetch - main [MainThread]: End processing [pjrmi]: success
+[2024-04-01 18:09:27] INFO root fetch - main [MainThread]: Store serial: [22571765]
