@@ -7337,3 +7337,48 @@ EOFError: EOF read where object expected
 [2024-04-01 17:17:39] INFO root fetch - processPackages [morph-kgc]: Remove: archive file [/home/abi/fetcher/tmp/morph_kgc-2.7.0.tar.gz]
 [2024-04-01 17:17:39] INFO root fetch - main [MainThread]: End processing [morph-kgc]: success
 [2024-04-01 17:17:39] INFO root fetch - main [MainThread]: Store serial: [22571031]
+[2024-04-01 17:19:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571031]
+[2024-04-01 17:19:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: core-models
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scalifiai-client
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: utils-huna
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorneko-lib
+[2024-04-01 17:19:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafruit-circuitpython-httpserver
+[2024-04-01 17:19:48] WARNING root fetch - processPackages [utils-huna]: Skipping, unable to determine old version
+[2024-04-01 17:19:48] INFO root fetch - main [MainThread]: End processing [utils-huna] error
+[2024-04-01 17:19:48] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a1] Old Version: [1.1.0a2]
+[2024-04-01 17:19:48] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 17:19:48] INFO root fetch - processPackages [core-models]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-01 17:19:48] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/36/2d/3280b28fc6fdb6dacfeb0c3500173fd7be3cc22e1392cbc2488c8fb96132/telegram_collector-0.0.5.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: New version: [4.5.7] Old Version: [4.5.6]
+[2024-04-01 17:19:48] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/6d/60/026c7830f25fe38482bf5714a1d3471462fa666d6e023187effabb0ad058/core_models-0.4.3.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/1a/6e/75e66e9024ec428211b701c9a55d42bd5a13a1256c654020ab830eecfc49/scalifiai-client-1.1.0a2.tar.gz
+[2024-04-01 17:19:48] WARNING root fetch - processPackages [tensorneko-lib]: Skipping, unable to determine old version
+[2024-04-01 17:19:48] INFO root fetch - main [MainThread]: End processing [tensorneko-lib] error
+[2024-04-01 17:19:48] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Downloading https://files.pythonhosted.org/packages/0f/56/523ae56f21df15da1065fedd0bd7eaef1bd3bdc4f56d73bfa840e6354b5a/adafruit-circuitpython-httpserver-4.5.6.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/f8/9c/e6a0ef9f50913c3e708b617777c98f580840c7a42cd0d09b2d6b8433dec2/scalifiai-client-1.2.0a1.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/a8/3e/daf640cf70746f0803a54917371a6b9d998d24610b46285c5da996e09597/telegram_collector-0.0.6.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [core-models]: Downloading https://files.pythonhosted.org/packages/79/5d/e7d81db9d5b4ad2cde1bd34138e1a6c3d2b6c4fdbdbd51551266d0c1e16e/core_models-0.4.4.tar.gz
+[2024-04-01 17:19:48] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-01 17:19:48] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.5.tar.gz tmp/telegram_collector-0.0.6.tar.gz --markdown 20240401/t/telegram-collector/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 17:19:48] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:19:48] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.0a2.tar.gz tmp/scalifiai-client-1.2.0a1.tar.gz --markdown 20240401/s/scalifiai-client/1.1.0a2-1.2.0a1/diff.md --exclude *.pyd
+[2024-04-01 17:19:48] INFO root fetch - processPackages [core-models]: executing diffoscope
+[2024-04-01 17:19:48] INFO root fetch - processPackages [core-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_models-0.4.3.tar.gz tmp/core_models-0.4.4.tar.gz --markdown 20240401/c/core-models/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-01 17:19:48] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Downloading https://files.pythonhosted.org/packages/4b/d4/b723b01e8ec01c41d49c3f446f4cfd543cb25a6ff3ab3bd9b97856ecf327/adafruit-circuitpython-httpserver-4.5.7.tar.gz
+[2024-04-01 17:19:49] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: executing diffoscope
+[2024-04-01 17:19:49] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-httpserver-4.5.6.tar.gz tmp/adafruit-circuitpython-httpserver-4.5.7.tar.gz --markdown 20240401/a/adafruit-circuitpython-httpserver/4.5.6-4.5.7/diff.md --exclude *.pyd
+[2024-04-01 17:19:49] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.5.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.6.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-01 17:19:49] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.0a2.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a1.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:19:49] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.3.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - processPackages [core-models]: Remove: archive file [/home/abi/fetcher/tmp/core_models-0.4.4.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - main [MainThread]: End processing [core-models]: success
+[2024-04-01 17:19:49] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-httpserver-4.5.6.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - processPackages [adafruit-circuitpython-httpserver]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-httpserver-4.5.7.tar.gz]
+[2024-04-01 17:19:49] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-httpserver]: success
+[2024-04-01 17:19:49] INFO root fetch - main [MainThread]: Store serial: [22571065]
