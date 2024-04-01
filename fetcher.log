@@ -13376,3 +13376,79 @@ EOFError: EOF read where object expected
 [2024-04-01 21:18:31] INFO root fetch - processPackages [dt-extensions-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dt_extensions_sdk-1.1.9.tar.gz]
 [2024-04-01 21:18:31] INFO root fetch - main [MainThread]: End processing [dt-extensions-sdk]: success
 [2024-04-01 21:18:31] INFO root fetch - main [MainThread]: Store serial: [22573992]
+[2024-04-01 21:20:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573992]
+[2024-04-01 21:20:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant-stubs
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: travdata
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: staff-graded-xblock
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drl-microgrid-ems
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ssz
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shillelagh-gristapi
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clouddrift
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dt-vsphere-automation-sdk
+[2024-04-01 21:20:41] INFO root fetch - processPackages [clouddrift]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [staff-graded-xblock]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [shillelagh-gristapi]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [drl-microgrid-ems]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [travdata]: New version: [0.3.1] Old Version: [0.2.2]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [ssz]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.0b1] Old Version: [2024.4.0b0]
+[2024-04-01 21:20:41] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.0b1] Old Version: [2024.4.0b0]
+[2024-04-01 21:20:41] WARNING root fetch - processPackages [dt-vsphere-automation-sdk]: Skipping, unable to determine old version
+[2024-04-01 21:20:41] INFO root fetch - main [MainThread]: End processing [dt-vsphere-automation-sdk] error
+[2024-04-01 21:20:42] INFO root fetch - processPackages [travdata]: Downloading https://files.pythonhosted.org/packages/2a/f8/655eebad761b88842cbf2865dade906645df902683f4a113d988ca64c5ca/travdata-0.2.2.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [staff-graded-xblock]: Downloading https://files.pythonhosted.org/packages/7a/24/2d059882ec20960462b2ce62601b80d881a8fc7d798257aebae174c806f6/staff_graded-xblock-2.2.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/f6/91/4f915f94cc334ea3b6ef410812a07f68b5062ff1f7e6ce6e8bce2f697523/homeassistant_stubs-2024.4.0b0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/f6/91/4f915f94cc334ea3b6ef410812a07f68b5062ff1f7e6ce6e8bce2f697523/homeassistant_stubs-2024.4.0b0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [drl-microgrid-ems]: Downloading https://files.pythonhosted.org/packages/84/58/cae3ad9b79966efa77f79d7b93c7d0bf696b0a52878b9cfd802309ea61f4/drl_microgrid_ems-0.1.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [shillelagh-gristapi]: Downloading https://files.pythonhosted.org/packages/c3/9c/35bda54c63beb1c99beb252dfe81f9883292563dfc719fc187b6b5f768da/shillelagh-gristapi-0.0.5.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/61/a9/16e0aeafcb93211e4a2712d92d3acae9bd421980399cb1f070a0a3a9304f/clouddrift-0.8.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [ssz]: Downloading https://files.pythonhosted.org/packages/dc/ee/0e7b3d711be43d02cf9dccd7eff4573d6097a991a01d836da5f8197b587e/ssz-0.4.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [travdata]: Downloading https://files.pythonhosted.org/packages/fe/46/62676720949c43c2012ab50779928514c925f83c1cf35c1c50fde106808c/travdata-0.3.1.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [drl-microgrid-ems]: Downloading https://files.pythonhosted.org/packages/12/8d/fdc8017d9774903d0eef42138bb7439d77da6791ecfdb068ecae8184f2c1/drl_microgrid_ems-0.1.1.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [shillelagh-gristapi]: Downloading https://files.pythonhosted.org/packages/6a/55/dfcf1fe879d608e3f85fa1cf40b70fee81b2335babdd4fac38b840b1fb82/shillelagh-gristapi-0.0.6.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [staff-graded-xblock]: Downloading https://files.pythonhosted.org/packages/b2/90/9728ffc1073348ffa249a7c2001ce072e1114d0074bac686f12f09f5863b/staff_graded-xblock-2.3.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c5/32/be5be01c3b86806529d86a3838479e7365ff4ab55a2ed31ede7747b0d194/homeassistant_stubs-2024.4.0b1.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/c5/32/be5be01c3b86806529d86a3838479e7365ff4ab55a2ed31ede7747b0d194/homeassistant_stubs-2024.4.0b1.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [clouddrift]: Downloading https://files.pythonhosted.org/packages/1f/18/b2984ef3cdb516b0cf8d568f3b526266929412695fbf43538a73b5f82bac/clouddrift-0.9.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [travdata]: executing diffoscope
+[2024-04-01 21:20:42] INFO root fetch - processPackages [travdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/travdata-0.2.2.tar.gz tmp/travdata-0.3.1.tar.gz --markdown 20240401/t/travdata/0.2.2-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 21:20:42] INFO root fetch - processPackages [drl-microgrid-ems]: executing diffoscope
+[2024-04-01 21:20:42] INFO root fetch - processPackages [drl-microgrid-ems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drl_microgrid_ems-0.1.0.tar.gz tmp/drl_microgrid_ems-0.1.1.tar.gz --markdown 20240401/d/drl-microgrid-ems/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 21:20:42] INFO root fetch - processPackages [staff-graded-xblock]: executing diffoscope
+[2024-04-01 21:20:42] INFO root fetch - processPackages [staff-graded-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/staff_graded-xblock-2.2.0.tar.gz tmp/staff_graded-xblock-2.3.0.tar.gz --markdown 20240401/s/staff-graded-xblock/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-01 21:20:42] INFO root fetch - processPackages [ssz]: Downloading https://files.pythonhosted.org/packages/8b/01/1cc59fe2b4eb6c424cdbd6f54cce5333c622178789b6666face4eb4f385d/ssz-0.5.0.tar.gz
+[2024-04-01 21:20:42] INFO root fetch - processPackages [clouddrift]: executing diffoscope
+[2024-04-01 21:20:42] INFO root fetch - processPackages [clouddrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clouddrift-0.8.0.tar.gz tmp/clouddrift-0.9.0.tar.gz --markdown 20240401/c/clouddrift/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-01 21:20:42] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.0b0.tar.gz tmp/homeassistant_stubs-2024.4.0b1.tar.gz --markdown 20240401/h/homeassistant-stubs/2024.4.0b0-2024.4.0b1/diff.md --exclude *.pyd
+[2024-04-01 21:20:43] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-01 21:20:43] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.0b0.tar.gz tmp/homeassistant_stubs-2024.4.0b1.tar.gz --markdown 20240401/h/homeassistant-stubs/2024.4.0b0-2024.4.0b1/diff.md --exclude *.pyd
+[2024-04-01 21:20:43] INFO root fetch - processPackages [ssz]: executing diffoscope
+[2024-04-01 21:20:43] INFO root fetch - processPackages [ssz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssz-0.4.0.tar.gz tmp/ssz-0.5.0.tar.gz --markdown 20240401/s/ssz/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 21:20:43] INFO root fetch - processPackages [drl-microgrid-ems]: Remove: archive file [/home/abi/fetcher/tmp/drl_microgrid_ems-0.1.0.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - processPackages [drl-microgrid-ems]: Remove: archive file [/home/abi/fetcher/tmp/drl_microgrid_ems-0.1.1.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - main [MainThread]: End processing [drl-microgrid-ems]: success
+[2024-04-01 21:20:43] INFO root fetch - processPackages [travdata]: Remove: archive file [/home/abi/fetcher/tmp/travdata-0.2.2.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - processPackages [travdata]: Remove: archive file [/home/abi/fetcher/tmp/travdata-0.3.1.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - main [MainThread]: End processing [travdata]: success
+[2024-04-01 21:20:43] INFO root fetch - processPackages [staff-graded-xblock]: Remove: archive file [/home/abi/fetcher/tmp/staff_graded-xblock-2.2.0.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - processPackages [staff-graded-xblock]: Remove: archive file [/home/abi/fetcher/tmp/staff_graded-xblock-2.3.0.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - main [MainThread]: End processing [staff-graded-xblock]: success
+[2024-04-01 21:20:43] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.8.0.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - processPackages [clouddrift]: Remove: archive file [/home/abi/fetcher/tmp/clouddrift-0.9.0.tar.gz]
+[2024-04-01 21:20:43] INFO root fetch - main [MainThread]: End processing [clouddrift]: success
+[2024-04-01 21:20:44] INFO root fetch - processPackages [ssz]: Remove: archive file [/home/abi/fetcher/tmp/ssz-0.4.0.tar.gz]
+[2024-04-01 21:20:44] INFO root fetch - processPackages [ssz]: Remove: archive file [/home/abi/fetcher/tmp/ssz-0.5.0.tar.gz]
+[2024-04-01 21:20:44] INFO root fetch - main [MainThread]: End processing [ssz]: success
+[2024-04-01 21:20:48] INFO root fetch - processPackages [shillelagh-gristapi]: executing diffoscope
+[2024-04-01 21:20:48] INFO root fetch - processPackages [shillelagh-gristapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shillelagh-gristapi-0.0.5.tar.gz tmp/shillelagh-gristapi-0.0.6.tar.gz --markdown 20240401/s/shillelagh-gristapi/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-01 21:20:49] INFO root fetch - processPackages [shillelagh-gristapi]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-gristapi-0.0.5.tar.gz]
+[2024-04-01 21:20:49] INFO root fetch - processPackages [shillelagh-gristapi]: Remove: archive file [/home/abi/fetcher/tmp/shillelagh-gristapi-0.0.6.tar.gz]
+[2024-04-01 21:20:49] INFO root fetch - main [MainThread]: End processing [shillelagh-gristapi]: success
+[2024-04-01 21:20:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b0.tar.gz]
+[2024-04-01 21:20:55] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b1.tar.gz]
+[2024-04-01 21:20:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-01 21:20:55] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-01 21:20:55] INFO root fetch - main [MainThread]: Store serial: [22574021]
