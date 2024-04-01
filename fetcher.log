@@ -1109,3 +1109,87 @@ EOFError: EOF read where object expected
 [2024-04-01 12:28:53] INFO root fetch - processPackages [yandex-360]: Remove: archive file [/home/abi/fetcher/tmp/yandex-360-2.2.1.tar.gz]
 [2024-04-01 12:28:53] INFO root fetch - main [MainThread]: End processing [yandex-360]: success
 [2024-04-01 12:28:53] INFO root fetch - main [MainThread]: Store serial: [22568169]
+[2024-04-01 12:30:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568169]
+[2024-04-01 12:31:03] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-barcodes
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-barcodes-gs1
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wakautosolver
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pm4py
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pm4pyminimal
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyyaml-include
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xchainpy2-thornode
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vysion
+[2024-04-01 12:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finazon-grpc-python
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pyyaml-include]: New version: [2.0b2] Old Version: [2.0b1]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.3.0.0] Old Version: [15.0.2.0.0.7]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [xchainpy2-thornode]: New version: [1.130.1] Old Version: [1.125.0]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [vysion]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pm4pyminimal]: New version: [2.7.9.4] Old Version: [2.7.9.3]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: New version: [15.0.3.0.0] Old Version: [15.0.2.0.0.2]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pm4py]: New version: [2.7.9.4] Old Version: [2.7.9.3]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.1] Old Version: [2024.3.3]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [finazon-grpc-python]: New version: [1.0.141] Old Version: [1.0.136.2]
+[2024-04-01 12:31:03] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/b5/64/5daec57d269ea132205264d76503e694780a35c7cf00722a5e2430094472/odoo_addon_stock_barcodes-15.0.2.0.0.7-py3-none-any.whl
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/f9/c6/85eb56e004076d6bc27caa782b664c001ff61a2d7aafd0be1cea7f2cd8ae/pyyaml-include-2.0b1.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [xchainpy2-thornode]: Downloading https://files.pythonhosted.org/packages/54/3e/a34927626cbbc582bb470d4a40344e3083969035ed2896ab5c150d45f39b/xchainpy2-thornode-1.125.0.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Downloading https://files.pythonhosted.org/packages/7b/14/2fa35fc5e528a62a4b33e59ca75cc60f41a14c7890817173432e89334995/odoo_addon_stock_barcodes_gs1-15.0.2.0.0.2-py3-none-any.whl
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pm4py]: Downloading https://files.pythonhosted.org/packages/59/b7/03e751fa4bb08af2ddcf33df7a384e067b11b50e04c9af098d6559b14501/pm4py-2.7.9.3.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/48/7c/fdc14cb71b7abf268b56c20da13eeec80c8625fdf893c4145b792543bba3/wakautosolver-2024.3.3-py3-none-any.whl
+[2024-04-01 12:31:03] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/5e/71/2e8f9c2cfd7ef015f4e6996bc4bb740a2737d77bd2be12e25c4307217861/vysion-1.0.8.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [pm4pyminimal]: Downloading https://files.pythonhosted.org/packages/86/3c/ac0bb1c689a2cf0b706670b21afbd2600da3a95c675b77428d36c5c1f30f/pm4pyminimal-2.7.9.3.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/f2/de/51415a5c6e6f20eb8f147cdc19559b89c11e7dc7a05f7e25b344bd6e50a7/finazon_grpc_python-1.0.136.2.tar.gz
+[2024-04-01 12:31:03] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/f1/3c/d37e76128c983c8cccba56a63478f52ff25d7cf83c4ef9ce26369c2c1999/odoo_addon_stock_barcodes-15.0.3.0.0-py3-none-any.whl
+[2024-04-01 12:31:03] INFO root fetch - processPackages [xchainpy2-thornode]: Downloading https://files.pythonhosted.org/packages/e9/3e/407692fc1d1452161add22b821859bf2dfdebc80612a6c824500ea013c93/xchainpy2-thornode-1.130.1.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Downloading https://files.pythonhosted.org/packages/be/bb/39065d1f9c86beea591eefe9c09d83b944c10914ee46c3598be35035a98d/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pyyaml-include]: Downloading https://files.pythonhosted.org/packages/37/f3/56432e920a05a95eeb528fa3d37601406678f0de88d76be64b8600c6de69/pyyaml-include-2.0b2.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/40/63/06b4c60a76805fe140c6323466a7b9278e9de21a91eac1c4851450f2076d/vysion-1.0.9.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4py]: Downloading https://files.pythonhosted.org/packages/0f/9f/e12046a39f99330fa169bd2fda726f69f8285eabdebf0b0e59e85608ea00/pm4py-2.7.9.4.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.2.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.3.0.0-py3-none-any.whl.zip --markdown 20240401/o/odoo-addon-stock-barcodes/15.0.2.0.0.7-15.0.3.0.0/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [finazon-grpc-python]: Downloading https://files.pythonhosted.org/packages/be/6c/1917de6759b83331c7bc213d3df65600decb92901128e0cc922e8bf4a7fe/finazon_grpc_python-1.0.141.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes_gs1-15.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl.zip --markdown 20240401/o/odoo-addon-stock-barcodes-gs1/15.0.2.0.0.2-15.0.3.0.0/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [xchainpy2-thornode]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [xchainpy2-thornode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xchainpy2-thornode-1.125.0.tar.gz tmp/xchainpy2-thornode-1.130.1.tar.gz --markdown 20240401/x/xchainpy2-thornode/1.125.0-1.130.1/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pyyaml-include]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pyyaml-include]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyaml-include-2.0b1.tar.gz tmp/pyyaml-include-2.0b2.tar.gz --markdown 20240401/p/pyyaml-include/2.0b1-2.0b2/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [vysion]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [vysion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysion-1.0.8.tar.gz tmp/vysion-1.0.9.tar.gz --markdown 20240401/v/vysion/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4pyminimal]: Downloading https://files.pythonhosted.org/packages/e1/e3/727c80b1141a27bc1a5909b8ba851450df8d2ee2cf3975c91ce0854fe40d/pm4pyminimal-2.7.9.4.tar.gz
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4py]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm4py-2.7.9.3.tar.gz tmp/pm4py-2.7.9.4.tar.gz --markdown 20240401/p/pm4py/2.7.9.3-2.7.9.4/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4pyminimal]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [pm4pyminimal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pm4pyminimal-2.7.9.3.tar.gz tmp/pm4pyminimal-2.7.9.4.tar.gz --markdown 20240401/p/pm4pyminimal/2.7.9.3-2.7.9.4/diff.md --exclude *.pyd
+[2024-04-01 12:31:04] INFO root fetch - processPackages [finazon-grpc-python]: executing diffoscope
+[2024-04-01 12:31:04] INFO root fetch - processPackages [finazon-grpc-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finazon_grpc_python-1.0.136.2.tar.gz tmp/finazon_grpc_python-1.0.141.tar.gz --markdown 20240401/f/finazon-grpc-python/1.0.136.2-1.0.141/diff.md --exclude *.pyd
+[2024-04-01 12:31:05] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_gs1-15.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-04-01 12:31:05] INFO root fetch - processPackages [odoo-addon-stock-barcodes-gs1]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_gs1-15.0.3.0.0-py3-none-any.whl.zip]
+[2024-04-01 12:31:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes-gs1]: success
+[2024-04-01 12:31:05] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.8.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.9.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - main [MainThread]: End processing [vysion]: success
+[2024-04-01 12:31:05] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-2.0b1.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - processPackages [pyyaml-include]: Remove: archive file [/home/abi/fetcher/tmp/pyyaml-include-2.0b2.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - main [MainThread]: End processing [pyyaml-include]: success
+[2024-04-01 12:31:05] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/01/17/a09fa7a774ce2bb49a6276e9d797b4f570f5271442430b996681a545c22d/wakautosolver-2024.4.1-py3-none-any.whl
+[2024-04-01 12:31:05] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.2.0.0.7-py3-none-any.whl.zip]
+[2024-04-01 12:31:05] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.0-py3-none-any.whl.zip]
+[2024-04-01 12:31:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2024-04-01 12:31:05] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-01 12:31:05] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.3.3-py3-none-any.whl.zip tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip --markdown 20240401/w/wakautosolver/2024.3.3-2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 12:31:05] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.0.136.2.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - processPackages [finazon-grpc-python]: Remove: archive file [/home/abi/fetcher/tmp/finazon_grpc_python-1.0.141.tar.gz]
+[2024-04-01 12:31:05] INFO root fetch - main [MainThread]: End processing [finazon-grpc-python]: success
+[2024-04-01 12:31:07] INFO root fetch - processPackages [xchainpy2-thornode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-thornode-1.125.0.tar.gz]
+[2024-04-01 12:31:07] INFO root fetch - processPackages [xchainpy2-thornode]: Remove: archive file [/home/abi/fetcher/tmp/xchainpy2-thornode-1.130.1.tar.gz]
+[2024-04-01 12:31:07] INFO root fetch - main [MainThread]: End processing [xchainpy2-thornode]: success
+[2024-04-01 12:31:10] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.3.tar.gz]
+[2024-04-01 12:31:10] INFO root fetch - processPackages [pm4py]: Remove: archive file [/home/abi/fetcher/tmp/pm4py-2.7.9.4.tar.gz]
+[2024-04-01 12:31:10] INFO root fetch - main [MainThread]: End processing [pm4py]: success
+[2024-04-01 12:31:10] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.3.tar.gz]
+[2024-04-01 12:31:10] INFO root fetch - processPackages [pm4pyminimal]: Remove: archive file [/home/abi/fetcher/tmp/pm4pyminimal-2.7.9.4.tar.gz]
+[2024-04-01 12:31:10] INFO root fetch - main [MainThread]: End processing [pm4pyminimal]: success
+[2024-04-01 12:31:18] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.3.3-py3-none-any.whl.zip]
+[2024-04-01 12:31:18] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip]
+[2024-04-01 12:31:18] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-01 12:31:18] INFO root fetch - main [MainThread]: Store serial: [22568190]
