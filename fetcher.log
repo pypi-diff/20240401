@@ -11762,3 +11762,60 @@ EOFError: EOF read where object expected
 [2024-04-01 20:07:01] INFO root fetch - processPackages [piperider-nightly]: Remove: archive file [/home/abi/fetcher/tmp/piperider-nightly-0.9.0.20220921.tar.gz]
 [2024-04-01 20:07:01] INFO root fetch - main [MainThread]: End processing [piperider-nightly]: success
 [2024-04-01 20:07:01] INFO root fetch - main [MainThread]: Store serial: [22573208]
+[2024-04-01 20:09:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573208]
+[2024-04-01 20:09:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MacroQueue
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ARS-Test-Runner
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zonevu
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitmat-tl
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nmigate
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyWavelets
+[2024-04-01 20:09:11] INFO root fetch - processPackages [MacroQueue]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 20:09:11] INFO root fetch - processPackages [ARS-Test-Runner]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-01 20:09:11] INFO root fetch - processPackages [nmigate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:09:11] INFO root fetch - processPackages [zonevu]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-01 20:09:12] INFO root fetch - processPackages [PyWavelets]: New version: [1.6.0rc1] Old Version: [1.6.0]
+[2024-04-01 20:09:12] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/d9/14/c57a417f0d348dc3b54b601bf553a49bf3cc3faed6673935b24eb20574b6/MacroQueue-0.2.1.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [bitmat-tl]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 20:09:12] INFO root fetch - processPackages [nmigate]: Downloading https://files.pythonhosted.org/packages/bd/80/df4b71ed0718e466a3192346915b8d8a1804dc4d59c6f6dd1d317dc4f368/nmigate-0.0.8.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [ARS-Test-Runner]: Downloading https://files.pythonhosted.org/packages/90/25/9b4372e53559ab587381ddf7198adaaab2eaa7309958f94469553d558874/ARS_Test_Runner-0.1.4.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/5f/68/a7f3c357f0db51de0cd837d5922f7b656e1300583c5dde57faf4739371aa/zonevu-1.1.0-py3-none-any.whl
+[2024-04-01 20:09:12] INFO root fetch - processPackages [PyWavelets]: Downloading https://files.pythonhosted.org/packages/0a/51/981d04e4c9b66565e0a2a1f394572f67bedeadaff9bf9282ef9b711d31b1/pywavelets-1.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-01 20:09:12] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/87/6a/feecc7946b1eb7930a9c85a581e062f85978799487de1e6e6ae8979149dc/bitmat-tl-0.1.5.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [nmigate]: Downloading https://files.pythonhosted.org/packages/d3/24/031415e4477de1002618e9711d868589ee94e24fcaf7376aa23f337aa68f/nmigate-0.0.9.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [ARS-Test-Runner]: Downloading https://files.pythonhosted.org/packages/a1/30/edbd8ecc2cbe072c2df3734e2bb2599de9083714d7f6519d089855dacc1a/ARS_Test_Runner-0.1.5.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/d8/83/1d3535023c3122a634dda33bb578f29357c632b740fdb73c45b9d24ba8f5/zonevu-1.1.1-py3-none-any.whl
+[2024-04-01 20:09:12] INFO root fetch - processPackages [nmigate]: executing diffoscope
+[2024-04-01 20:09:12] INFO root fetch - processPackages [nmigate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmigate-0.0.8.tar.gz tmp/nmigate-0.0.9.tar.gz --markdown 20240401/n/nmigate/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:09:12] INFO root fetch - processPackages [ARS-Test-Runner]: executing diffoscope
+[2024-04-01 20:09:12] INFO root fetch - processPackages [ARS-Test-Runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ARS_Test_Runner-0.1.4.tar.gz tmp/ARS_Test_Runner-0.1.5.tar.gz --markdown 20240401/A/ARS-Test-Runner/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-01 20:09:12] INFO root fetch - processPackages [MacroQueue]: Downloading https://files.pythonhosted.org/packages/d3/fc/4a257ac682ca7c5126f90651442faf618bea7cef270e9f2809b00e5524ae/MacroQueue-0.2.2.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/a8/61/9e61d57c17203c9b583ccca5d29b6c3dc7e342638af3ae8ebf48042df5bb/bitmat-tl-0.1.6.tar.gz
+[2024-04-01 20:09:12] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-01 20:09:12] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.0-py3-none-any.whl.zip tmp/zonevu-1.1.1-py3-none-any.whl.zip --markdown 20240401/z/zonevu/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 20:09:12] INFO root fetch - processPackages [MacroQueue]: executing diffoscope
+[2024-04-01 20:09:12] INFO root fetch - processPackages [MacroQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MacroQueue-0.2.1.tar.gz tmp/MacroQueue-0.2.2.tar.gz --markdown 20240401/M/MacroQueue/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 20:09:12] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-01 20:09:12] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.1.5.tar.gz tmp/bitmat-tl-0.1.6.tar.gz --markdown 20240401/b/bitmat-tl/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 20:09:13] INFO root fetch - processPackages [ARS-Test-Runner]: Remove: archive file [/home/abi/fetcher/tmp/ARS_Test_Runner-0.1.4.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - processPackages [ARS-Test-Runner]: Remove: archive file [/home/abi/fetcher/tmp/ARS_Test_Runner-0.1.5.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - main [MainThread]: End processing [ARS-Test-Runner]: success
+[2024-04-01 20:09:13] INFO root fetch - processPackages [nmigate]: Remove: archive file [/home/abi/fetcher/tmp/nmigate-0.0.8.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - processPackages [nmigate]: Remove: archive file [/home/abi/fetcher/tmp/nmigate-0.0.9.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - main [MainThread]: End processing [nmigate]: success
+[2024-04-01 20:09:13] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.1.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - processPackages [MacroQueue]: Remove: archive file [/home/abi/fetcher/tmp/MacroQueue-0.2.2.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - main [MainThread]: End processing [MacroQueue]: success
+[2024-04-01 20:09:13] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.5.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.6.tar.gz]
+[2024-04-01 20:09:13] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-01 20:09:14] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.0-py3-none-any.whl.zip]
+[2024-04-01 20:09:14] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.1-py3-none-any.whl.zip]
+[2024-04-01 20:09:14] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-01 20:09:16] INFO root fetch - processPackages [PyWavelets]: Downloading https://files.pythonhosted.org/packages/7b/cf/d4401b02e6b175bb6f654f0700d1aa4cdeada1843ec64ef2c939456e2d5a/pywavelets-1.6.0rc1.tar.gz
+[2024-04-01 20:09:16] INFO root fetch - processPackages [PyWavelets]: executing diffoscope
+[2024-04-01 20:09:16] INFO root fetch - processPackages [PyWavelets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywavelets-1.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip tmp/pywavelets-1.6.0rc1.tar.gz --markdown 20240401/P/PyWavelets/1.6.0-1.6.0rc1/diff.md --exclude *.pyd
+[2024-04-01 20:09:22] INFO root fetch - processPackages [PyWavelets]: Remove: archive file [/home/abi/fetcher/tmp/pywavelets-1.6.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-01 20:09:22] INFO root fetch - processPackages [PyWavelets]: Remove: archive file [/home/abi/fetcher/tmp/pywavelets-1.6.0rc1.tar.gz]
+[2024-04-01 20:09:22] INFO root fetch - main [MainThread]: End processing [PyWavelets]: success
+[2024-04-01 20:09:22] INFO root fetch - main [MainThread]: Store serial: [22573251]
