@@ -3016,3 +3016,45 @@ EOFError: EOF read where object expected
 [2024-04-01 14:12:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
 [2024-04-01 14:12:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
 [2024-04-01 14:12:59] INFO root fetch - main [MainThread]: Store serial: [22568981]
+[2024-04-01 14:15:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568981]
+[2024-04-01 14:15:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 14:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-contrastive-framework
+[2024-04-01 14:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2024-04-01 14:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rocat
+[2024-04-01 14:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickfin
+[2024-04-01 14:15:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docspotter
+[2024-04-01 14:15:08] INFO root fetch - processPackages [quickfin]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-01 14:15:08] INFO root fetch - processPackages [docspotter]: New version: [0.2] Old Version: [0.1]
+[2024-04-01 14:15:08] INFO root fetch - processPackages [rocat]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 14:15:08] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-01 14:15:08] WARNING root fetch - processPackages [torch-contrastive-framework]: Skipping, unable to determine old version
+[2024-04-01 14:15:08] INFO root fetch - main [MainThread]: End processing [torch-contrastive-framework] error
+[2024-04-01 14:15:09] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/19/5b/49b0e706fe239e68f9771a7a8ba953eadb82229de7ee0afef9f33a330ec5/rocat-0.1.3.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f4/4b/7245166b424f71c3d6de0bf730bd95bb8e69835f282bd6158794ab9a3b58/quickfin-1.1.0.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [docspotter]: Downloading https://files.pythonhosted.org/packages/b9/9d/baedca32880e6991068bf09c2e1c8673cd670503d39ea2445ebf23271acd/docspotter-0.1.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/23/ed/773ed92e3d69cea64452768e11c884d0b132c509faadba8019916c1e3adb/rocat-0.1.4.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-01 14:15:09] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.3.tar.gz tmp/rocat-0.1.4.tar.gz --markdown 20240401/r/rocat/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 14:15:09] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f1/eb/f3f48d8b396a84a51d978fc642cd81c14f8a0163f9e5aec2ae603790f1d3/quickfin-1.2.0.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2024-04-01 14:15:09] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20240401/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-01 14:15:09] INFO root fetch - processPackages [docspotter]: Downloading https://files.pythonhosted.org/packages/ad/02/a366fb21389d9d6896e2fa21d87efa7b987ed80d4e670dd459d2242a9ef2/docspotter-0.2.tar.gz
+[2024-04-01 14:15:09] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-01 14:15:09] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.1.0.tar.gz tmp/quickfin-1.2.0.tar.gz --markdown 20240401/q/quickfin/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 14:15:09] INFO root fetch - processPackages [docspotter]: executing diffoscope
+[2024-04-01 14:15:09] INFO root fetch - processPackages [docspotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docspotter-0.1.tar.gz tmp/docspotter-0.2.tar.gz --markdown 20240401/d/docspotter/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-01 14:15:10] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.3.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.4.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-01 14:15:10] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2024-04-01 14:15:10] INFO root fetch - processPackages [docspotter]: Remove: archive file [/home/abi/fetcher/tmp/docspotter-0.1.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - processPackages [docspotter]: Remove: archive file [/home/abi/fetcher/tmp/docspotter-0.2.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - main [MainThread]: End processing [docspotter]: success
+[2024-04-01 14:15:10] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.1.0.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.2.0.tar.gz]
+[2024-04-01 14:15:10] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-01 14:15:10] INFO root fetch - main [MainThread]: Store serial: [22568999]
