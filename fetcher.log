@@ -830,3 +830,115 @@
 [2024-04-01 12:13:26] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
 [2024-04-01 12:13:26] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
 [2024-04-01 12:13:26] INFO root fetch - main [MainThread]: Store serial: [22568069]
+[2024-04-01 12:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568069]
+[2024-04-01 12:15:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-confluentcloud
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cihai
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domain-admin
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zbxtool-cfomp
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: RL-OM
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ERA-V2-Architecture
+[2024-04-01 12:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indico
+[2024-04-01 12:15:36] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240401.9.41.243436] Old Version: [20240401.9.11.953054]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [domain-admin]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [zbxtool-cfomp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2024-04-01 12:15:36] WARNING root fetch - processPackages [ERA-V2-Architecture]: Skipping, unable to determine old version
+[2024-04-01 12:15:36] INFO root fetch - main [MainThread]: End processing [ERA-V2-Architecture] error
+[2024-04-01 12:15:36] INFO root fetch - processPackages [cihai]: New version: [0.9.0a5] Old Version: [0.9.0a4]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d9/db/ff9327d4ecf035b6275ff087f162f4488858ef51ed42a7ac77b3267d51b6/certora-cli-alpha-master-20240401.9.11.953054.tar.gz
+[2024-04-01 12:15:36] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/1e/54/9cc91bfce7346d0d230d3f480b202b5adb3a82c9b7707d5d385ac3a77f3d/RL_OM-0.7.8.tar.gz
+[2024-04-01 12:15:36] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14465524>=10485760
+[2024-04-01 12:15:36] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-01 12:15:36] INFO root fetch - processPackages [indico]: New version: [3.3.1] Old Version: [3.3]
+[2024-04-01 12:15:36] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/de/18/6b2ebbfc77836907642faa7dfaccb3a69ad3428104183520725639eab9ea/domain-admin-1.6.8.tar.gz
+[2024-04-01 12:15:36] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/a2/af/b197bd86cab21e82f9a9e5f3178e2cd10c9ed0caccddd151f0a722e203dd/zbxtool-cfomp-0.9.8.tar.gz
+[2024-04-01 12:15:36] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2024-04-01 12:15:36] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-01 12:15:37] INFO root fetch - processPackages [cihai]: Downloading https://files.pythonhosted.org/packages/8e/80/ab5ca1dbe6b53fdb51c67204d2c64db811c4999e09e2f92cd43c28c1d2b9/cihai-0.9.0a4.tar.gz
+[2024-04-01 12:15:37] INFO root fetch - processPackages [indico]: Downloading https://files.pythonhosted.org/packages/52/4d/0c8afcc035bb284a82424b6b883b5e6d0e3574fff5552237e9b53fd594ae/indico-3.3-py3-none-any.whl
+[2024-04-01 12:15:37] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-01 12:15:37] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.8.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240401/R/RL-OM/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 12:15:37] WARNING root fetch - processPackages [indico]: Skipping package: exceeds size limit 38093454>=10485760
+[2024-04-01 12:15:37] INFO root fetch - main [MainThread]: End processing [indico] error
+[2024-04-01 12:15:37] INFO root fetch - processPackages [zbxtool-cfomp]: Downloading https://files.pythonhosted.org/packages/d7/f7/5b055effe9c5650ac3ff3993bd9d1e2077b59cb55512af186bf0ed073c5c/zbxtool-cfomp-0.9.9.tar.gz
+[2024-04-01 12:15:37] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2024-04-01 12:15:37] INFO root fetch - processPackages [zbxtool-cfomp]: executing diffoscope
+[2024-04-01 12:15:37] INFO root fetch - processPackages [zbxtool-cfomp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zbxtool-cfomp-0.9.8.tar.gz tmp/zbxtool-cfomp-0.9.9.tar.gz --markdown 20240401/z/zbxtool-cfomp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 12:15:37] INFO root fetch - processPackages [cihai]: Downloading https://files.pythonhosted.org/packages/7b/fd/271d57f890d74851f00896f337a4acb861dd7a2e41bf21ea64ea73fd1d82/cihai-0.9.0a5.tar.gz
+[2024-04-01 12:15:37] INFO root fetch - processPackages [cihai]: executing diffoscope
+[2024-04-01 12:15:37] INFO root fetch - processPackages [cihai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cihai-0.9.0a4.tar.gz tmp/cihai-0.9.0a5.tar.gz --markdown 20240401/c/cihai/0.9.0a4-0.9.0a5/diff.md --exclude *.pyd
+[2024-04-01 12:15:37] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2024-04-01 12:15:37] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20240401/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2024-04-01 12:15:37] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.8.tar.gz]
+[2024-04-01 12:15:37] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-01 12:15:37] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-01 12:15:38] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.8.tar.gz]
+[2024-04-01 12:15:38] INFO root fetch - processPackages [zbxtool-cfomp]: Remove: archive file [/home/abi/fetcher/tmp/zbxtool-cfomp-0.9.9.tar.gz]
+[2024-04-01 12:15:38] INFO root fetch - main [MainThread]: End processing [zbxtool-cfomp]: success
+[2024-04-01 12:15:38] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/c2/4f/a660c8dc467793c416f781443478f0c9f7b1ee9b4cea27835c40b21245af/domain-admin-1.6.9.tar.gz
+[2024-04-01 12:15:38] ERROR root fetch - processPackages [cihai]: Diffoscope failed: time="2024-04-01T12:15:37+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 467, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 532, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 433, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2024-04-01 12:15:38] INFO root fetch - main [MainThread]: End processing [cihai] error
+[2024-04-01 12:15:38] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2024-04-01 12:15:38] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2024-04-01 12:15:38] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2024-04-01 12:15:38] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2024-04-01 12:15:38] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.6.8.tar.gz tmp/domain-admin-1.6.9.tar.gz --markdown 20240401/d/domain-admin/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2024-04-01 12:15:48] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.8.tar.gz]
+[2024-04-01 12:15:48] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
+[2024-04-01 12:15:48] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2024-04-01 12:15:48] INFO root fetch - main [MainThread]: Store serial: [22568102]
