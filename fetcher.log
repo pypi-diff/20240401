@@ -12122,3 +12122,60 @@ EOFError: EOF read where object expected
 [2024-04-01 20:22:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.tar.gz]
 [2024-04-01 20:22:50] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2024-04-01 20:22:50] INFO root fetch - main [MainThread]: Store serial: [22573377]
+[2024-04-01 20:24:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573377]
+[2024-04-01 20:24:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dimwit
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpp-runner
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nutshell
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: promptflow-vectordb
+[2024-04-01 20:24:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cartesify-backend
+[2024-04-01 20:24:59] INFO root fetch - processPackages [cpp-runner]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [nutshell]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [promptflow-vectordb]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [cpp-runner]: Downloading https://files.pythonhosted.org/packages/fe/30/3879430fbeacc1628512d76ad7fa77c148e57c192f7f443087a62a8ed602/cpp-runner-0.0.8.tar.gz
+[2024-04-01 20:24:59] INFO root fetch - processPackages [dimwit]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 20:24:59] INFO root fetch - processPackages [nutshell]: Downloading https://files.pythonhosted.org/packages/d4/26/6e18c580ee6e17661e60cd995905a7fba274cd34a081bf2a1f8a22043299/nutshell-0.2.1.tar.gz
+[2024-04-01 20:24:59] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-01 20:24:59] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/97/6d/cb3a33ce269af6998a61ba23c88decda5205505e15cecb29bb5b98436f44/MobileInventoryCLI-0.3.8.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [dimwit]: Downloading https://files.pythonhosted.org/packages/a9/18/678401ffda04d17a12961a9c0f4c90c376e51d1a35b99a2186ff88c770f4/dimwit-0.2.8.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [promptflow-vectordb]: Downloading https://files.pythonhosted.org/packages/8e/f9/6e893817ad45a77d2729dbd94c260d6e0fa98eba8f6e7f9b0051c38702c0/promptflow_vectordb-0.2.6-py3-none-any.whl
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cpp-runner]: Downloading https://files.pythonhosted.org/packages/09/6e/f76418b2914427e5522a6d30fc915fc5ef01a66554989deaf470a137ed36/cpp-runner-0.0.9.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [nutshell]: Downloading https://files.pythonhosted.org/packages/9d/ab/148a465d631b5816f8869a7ac4bdea1f1cd54b0920ad4180667765ca35cc/nutshell-0.2.2.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/a6/7e/66b1c182c54bc7c43f3e9bb944200df121f54528d4de80456635c332375c/MobileInventoryCLI-0.3.9.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cpp-runner]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cpp-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpp-runner-0.0.8.tar.gz tmp/cpp-runner-0.0.9.tar.gz --markdown 20240401/c/cpp-runner/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [nutshell]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [nutshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nutshell-0.2.1.tar.gz tmp/nutshell-0.2.2.tar.gz --markdown 20240401/n/nutshell/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240401/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.3.8.tar.gz tmp/MobileInventoryCLI-0.3.9.tar.gz --markdown 20240401/M/MobileInventoryCLI/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [dimwit]: Downloading https://files.pythonhosted.org/packages/64/17/44179468a24462cb26ef0c8037042f4558fd0afd1d01815707b277472ce8/dimwit-0.2.9.tar.gz
+[2024-04-01 20:25:00] INFO root fetch - processPackages [promptflow-vectordb]: Downloading https://files.pythonhosted.org/packages/fb/64/37cb7cd1b1883a53c425f5f083f519e1e2bc6248456281759f2bebf1abad/promptflow_vectordb-0.2.7-py3-none-any.whl
+[2024-04-01 20:25:00] INFO root fetch - processPackages [dimwit]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [dimwit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dimwit-0.2.8.tar.gz tmp/dimwit-0.2.9.tar.gz --markdown 20240401/d/dimwit/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [promptflow-vectordb]: executing diffoscope
+[2024-04-01 20:25:00] INFO root fetch - processPackages [promptflow-vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptflow_vectordb-0.2.6-py3-none-any.whl.zip tmp/promptflow_vectordb-0.2.7-py3-none-any.whl.zip --markdown 20240401/p/promptflow-vectordb/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-01 20:25:00] INFO root fetch - processPackages [nutshell]: Remove: archive file [/home/abi/fetcher/tmp/nutshell-0.2.1.tar.gz]
+[2024-04-01 20:25:00] INFO root fetch - processPackages [nutshell]: Remove: archive file [/home/abi/fetcher/tmp/nutshell-0.2.2.tar.gz]
+[2024-04-01 20:25:00] INFO root fetch - main [MainThread]: End processing [nutshell]: success
+[2024-04-01 20:25:01] INFO root fetch - processPackages [cpp-runner]: Remove: archive file [/home/abi/fetcher/tmp/cpp-runner-0.0.8.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - processPackages [cpp-runner]: Remove: archive file [/home/abi/fetcher/tmp/cpp-runner-0.0.9.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [cpp-runner]: success
+[2024-04-01 20:25:01] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-01 20:25:01] INFO root fetch - processPackages [dimwit]: Remove: archive file [/home/abi/fetcher/tmp/dimwit-0.2.8.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - processPackages [dimwit]: Remove: archive file [/home/abi/fetcher/tmp/dimwit-0.2.9.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [dimwit]: success
+[2024-04-01 20:25:01] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.3.8.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.3.9.tar.gz]
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-01 20:25:01] INFO root fetch - processPackages [promptflow-vectordb]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_vectordb-0.2.6-py3-none-any.whl.zip]
+[2024-04-01 20:25:01] INFO root fetch - processPackages [promptflow-vectordb]: Remove: archive file [/home/abi/fetcher/tmp/promptflow_vectordb-0.2.7-py3-none-any.whl.zip]
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: End processing [promptflow-vectordb]: success
+[2024-04-01 20:25:01] INFO root fetch - main [MainThread]: Store serial: [22573392]
