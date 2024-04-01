@@ -8482,3 +8482,54 @@ EOFError: EOF read where object expected
 [2024-04-01 17:55:41] INFO root fetch - processPackages [geoseeq]: Remove: archive file [/home/abi/fetcher/tmp/geoseeq-0.5.6a3.tar.gz]
 [2024-04-01 17:55:41] INFO root fetch - main [MainThread]: End processing [geoseeq]: success
 [2024-04-01 17:55:41] INFO root fetch - main [MainThread]: Store serial: [22571594]
+[2024-04-01 17:57:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571594]
+[2024-04-01 17:57:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoseeq
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sleipnirgroup-jormungandr
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: creyPY
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: drapi-lemur
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metan.core
+[2024-04-01 17:57:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: napari-cryoet-data-portal
+[2024-04-01 17:57:50] INFO root fetch - processPackages [geoseeq]: New version: [0.5.6a3] Old Version: [0.5.6a2]
+[2024-04-01 17:57:50] INFO root fetch - processPackages [creyPY]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 17:57:50] INFO root fetch - processPackages [geoseeq]: Downloading https://files.pythonhosted.org/packages/15/71/7c4a860a6cbae482c4866b327e210a5cd6594825a70c87db7b772891eb98/geoseeq-0.5.6a2.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [drapi-lemur]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-01 17:57:51] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/4d/d7/2a6152fc603d756767c607636a99b88647560a3afb4edcbde1362ce0f0c9/creyPY-0.0.3.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [napari-cryoet-data-portal]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 17:57:51] WARNING root fetch - processPackages [metan.core]: Skipping, unable to determine old version
+[2024-04-01 17:57:51] INFO root fetch - main [MainThread]: End processing [metan.core] error
+[2024-04-01 17:57:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev95] Old Version: [0.0.1.dev94]
+[2024-04-01 17:57:51] INFO root fetch - processPackages [geoseeq]: Downloading https://files.pythonhosted.org/packages/07/37/93614532e39eba989c17af661f6184b388771ac290d397c0f8e49fddfc73/geoseeq-0.5.6a3.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/3e/5b/5bfdc65218ade3245d4acca327f837b703a02117e393630ec6d424bea64e/drapi-lemur-1.0.4.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [napari-cryoet-data-portal]: Downloading https://files.pythonhosted.org/packages/fc/9e/afc84346bbf9cafd6e841fe2fd5077a3ab6e75c1f6f3a657f208217adcf3/napari-cryoet-data-portal-0.3.0.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/e5/55/6c92c97befc6840ffd0a5db8bd283df7f6cc382cfc02b5cc050c5527b157/sleipnirgroup_jormungandr-0.0.1.dev94.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/5f/47/92a947e9926606a73c0a71df53d180afc23eb575cde44ad02c104b0671e3/creyPY-0.0.4.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [geoseeq]: executing diffoscope
+[2024-04-01 17:57:51] INFO root fetch - processPackages [geoseeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoseeq-0.5.6a2.tar.gz tmp/geoseeq-0.5.6a3.tar.gz --markdown 20240401/g/geoseeq/0.5.6a2-0.5.6a3/diff.md --exclude *.pyd
+[2024-04-01 17:57:51] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 17:57:51] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.3.tar.gz tmp/creyPY-0.0.4.tar.gz --markdown 20240401/c/creyPY/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 17:57:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/08/a9/8eacbb8658f1d22ac1cb8000a3371c3ba65cbd550727fbff320f3f69dde7/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [drapi-lemur]: Downloading https://files.pythonhosted.org/packages/15/ce/710ec5c7b8555ce30083a9005f78d59379f62749b15e164fbb444cd64696/drapi-lemur-1.0.5.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [napari-cryoet-data-portal]: Downloading https://files.pythonhosted.org/packages/03/f4/ac02a5a2de7d2650c0d418d2191e10414c67b792b6dc1ff906e23853d0eb/napari-cryoet-data-portal-0.3.1.tar.gz
+[2024-04-01 17:57:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-01 17:57:51] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev94.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz --markdown 20240401/s/sleipnirgroup-jormungandr/0.0.1.dev94-0.0.1.dev95/diff.md --exclude *.pyd
+[2024-04-01 17:57:51] INFO root fetch - processPackages [drapi-lemur]: executing diffoscope
+[2024-04-01 17:57:51] INFO root fetch - processPackages [drapi-lemur]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drapi-lemur-1.0.4.tar.gz tmp/drapi-lemur-1.0.5.tar.gz --markdown 20240401/d/drapi-lemur/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-01 17:57:51] INFO root fetch - processPackages [napari-cryoet-data-portal]: executing diffoscope
+[2024-04-01 17:57:51] INFO root fetch - processPackages [napari-cryoet-data-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-cryoet-data-portal-0.3.0.tar.gz tmp/napari-cryoet-data-portal-0.3.1.tar.gz --markdown 20240401/n/napari-cryoet-data-portal/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 17:57:52] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.3.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.4.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 17:57:52] INFO root fetch - processPackages [geoseeq]: Remove: archive file [/home/abi/fetcher/tmp/geoseeq-0.5.6a2.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - processPackages [geoseeq]: Remove: archive file [/home/abi/fetcher/tmp/geoseeq-0.5.6a3.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - main [MainThread]: End processing [geoseeq]: success
+[2024-04-01 17:57:52] INFO root fetch - processPackages [napari-cryoet-data-portal]: Remove: archive file [/home/abi/fetcher/tmp/napari-cryoet-data-portal-0.3.0.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - processPackages [napari-cryoet-data-portal]: Remove: archive file [/home/abi/fetcher/tmp/napari-cryoet-data-portal-0.3.1.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - main [MainThread]: End processing [napari-cryoet-data-portal]: success
+[2024-04-01 17:57:52] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev94.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev95.tar.gz]
+[2024-04-01 17:57:52] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-01 17:57:53] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.4.tar.gz]
+[2024-04-01 17:57:53] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
+[2024-04-01 17:57:53] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
+[2024-04-01 17:57:53] INFO root fetch - main [MainThread]: Store serial: [22571627]
