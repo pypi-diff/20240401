@@ -12981,3 +12981,48 @@ EOFError: EOF read where object expected
 [2024-04-01 21:00:57] INFO root fetch - processPackages [tableschema]: Remove: archive file [/home/abi/fetcher/tmp/tableschema-1.9.0.tar.gz]
 [2024-04-01 21:00:57] INFO root fetch - main [MainThread]: End processing [tableschema]: success
 [2024-04-01 21:00:57] INFO root fetch - main [MainThread]: Store serial: [22573802]
+[2024-04-01 21:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573802]
+[2024-04-01 21:03:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drafter
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FAdo
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crc4
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ActivityRelay
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feud
+[2024-04-01 21:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-sphinx
+[2024-04-01 21:03:08] WARNING root fetch - processPackages [crc4]: Skipping, unable to determine old version
+[2024-04-01 21:03:08] INFO root fetch - main [MainThread]: End processing [crc4] error
+[2024-04-01 21:03:08] INFO root fetch - processPackages [FAdo]: New version: [2.2.0] Old Version: [2.1.2]
+[2024-04-01 21:03:08] INFO root fetch - processPackages [pytest-sphinx]: New version: [0.6.2] Old Version: [0.6.0]
+[2024-04-01 21:03:08] INFO root fetch - processPackages [feud]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-01 21:03:08] WARNING root fetch - processPackages [ActivityRelay]: Skipping, unable to determine old version
+[2024-04-01 21:03:08] INFO root fetch - main [MainThread]: End processing [ActivityRelay] error
+[2024-04-01 21:03:08] INFO root fetch - processPackages [drafter]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-01 21:03:08] INFO root fetch - processPackages [drafter]: Downloading https://files.pythonhosted.org/packages/76/66/b5a28ccc17e69294377224fe0dde453b6598a5884c9905b38ada527c9d93/drafter-1.0.4.tar.gz
+[2024-04-01 21:03:08] INFO root fetch - processPackages [FAdo]: Downloading https://files.pythonhosted.org/packages/5a/57/696996834167290dd9c199575a25e818c6a3345facd399a710a7d5e2ebc3/fado-2.1.2.tar.gz
+[2024-04-01 21:03:08] INFO root fetch - processPackages [pytest-sphinx]: Downloading https://files.pythonhosted.org/packages/1a/d1/24fe5ac752ee35a4c2fe1162ee2043bdfb82580ca1df192e6f2edb97bbb3/pytest-sphinx-0.6.0.tar.gz
+[2024-04-01 21:03:08] INFO root fetch - processPackages [feud]: Downloading https://files.pythonhosted.org/packages/69/6c/b93bd9e8ff7c4bca3e294fc912a7109162e1354050c60cdba9177ac639a8/feud-0.3.1.tar.gz
+[2024-04-01 21:03:09] INFO root fetch - processPackages [drafter]: Downloading https://files.pythonhosted.org/packages/15/57/db570466ce8d9455c909d74794dfda7cb508d120b1a4ba55935d4a206349/drafter-1.0.5.tar.gz
+[2024-04-01 21:03:09] INFO root fetch - processPackages [pytest-sphinx]: Downloading https://files.pythonhosted.org/packages/9a/f4/83d31c7212c4ecc3a784cf1fd7d2c3c3e605e5bcfe287b6364074f4353c4/pytest-sphinx-0.6.2.tar.gz
+[2024-04-01 21:03:09] INFO root fetch - processPackages [FAdo]: Downloading https://files.pythonhosted.org/packages/22/68/4cacecf84359bea0d9eb8d60c320d794b8d9d525c0cf9f5ef5bd964d10ce/fado-2.2.0.tar.gz
+[2024-04-01 21:03:09] INFO root fetch - processPackages [feud]: Downloading https://files.pythonhosted.org/packages/74/78/55b9704bf5022caa4e3eeb0f8efe0c2e5e43d4f082e1ddba4122a4e45d80/feud-0.3.2.tar.gz
+[2024-04-01 21:03:09] INFO root fetch - processPackages [drafter]: executing diffoscope
+[2024-04-01 21:03:09] INFO root fetch - processPackages [drafter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drafter-1.0.4.tar.gz tmp/drafter-1.0.5.tar.gz --markdown 20240401/d/drafter/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-01 21:03:09] INFO root fetch - processPackages [FAdo]: executing diffoscope
+[2024-04-01 21:03:09] INFO root fetch - processPackages [FAdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fado-2.1.2.tar.gz tmp/fado-2.2.0.tar.gz --markdown 20240401/F/FAdo/2.1.2-2.2.0/diff.md --exclude *.pyd
+[2024-04-01 21:03:09] INFO root fetch - processPackages [pytest-sphinx]: executing diffoscope
+[2024-04-01 21:03:09] INFO root fetch - processPackages [pytest-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sphinx-0.6.0.tar.gz tmp/pytest-sphinx-0.6.2.tar.gz --markdown 20240401/p/pytest-sphinx/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2024-04-01 21:03:09] INFO root fetch - processPackages [feud]: executing diffoscope
+[2024-04-01 21:03:09] INFO root fetch - processPackages [feud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feud-0.3.1.tar.gz tmp/feud-0.3.2.tar.gz --markdown 20240401/f/feud/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-01 21:03:10] INFO root fetch - processPackages [drafter]: Remove: archive file [/home/abi/fetcher/tmp/drafter-1.0.4.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - processPackages [drafter]: Remove: archive file [/home/abi/fetcher/tmp/drafter-1.0.5.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - main [MainThread]: End processing [drafter]: success
+[2024-04-01 21:03:10] INFO root fetch - processPackages [pytest-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sphinx-0.6.0.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - processPackages [pytest-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sphinx-0.6.2.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - main [MainThread]: End processing [pytest-sphinx]: success
+[2024-04-01 21:03:10] INFO root fetch - processPackages [feud]: Remove: archive file [/home/abi/fetcher/tmp/feud-0.3.1.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - processPackages [feud]: Remove: archive file [/home/abi/fetcher/tmp/feud-0.3.2.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - main [MainThread]: End processing [feud]: success
+[2024-04-01 21:03:10] INFO root fetch - processPackages [FAdo]: Remove: archive file [/home/abi/fetcher/tmp/fado-2.1.2.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - processPackages [FAdo]: Remove: archive file [/home/abi/fetcher/tmp/fado-2.2.0.tar.gz]
+[2024-04-01 21:03:10] INFO root fetch - main [MainThread]: End processing [FAdo]: success
+[2024-04-01 21:03:10] INFO root fetch - main [MainThread]: Store serial: [22573825]
