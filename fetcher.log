@@ -13758,3 +13758,27 @@ EOFError: EOF read where object expected
 [2024-04-01 21:34:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_fiscal-14.0.9.2.1.dev3-py3-none-any.whl.zip]
 [2024-04-01 21:34:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-fiscal]: success
 [2024-04-01 21:34:29] INFO root fetch - main [MainThread]: Store serial: [22574124]
+[2024-04-01 21:36:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22574124]
+[2024-04-01 21:36:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 21:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gepref
+[2024-04-01 21:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: minigram-py
+[2024-04-01 21:36:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: html-text-color
+[2024-04-01 21:36:44] INFO root fetch - processPackages [gepref]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 21:36:44] INFO root fetch - processPackages [html-text-color]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 21:36:44] WARNING root fetch - processPackages [minigram-py]: Skipping, unable to determine old version
+[2024-04-01 21:36:44] INFO root fetch - main [MainThread]: End processing [minigram-py] error
+[2024-04-01 21:36:44] INFO root fetch - processPackages [gepref]: Downloading https://files.pythonhosted.org/packages/98/59/9b6519dcf674eeeaf06c1e4ee196999a0d3eec2a2c6d0e368c1d837514c8/gepref-0.1.1.tar.gz
+[2024-04-01 21:36:44] INFO root fetch - processPackages [html-text-color]: Downloading https://files.pythonhosted.org/packages/0f/40/24648c8b5b7a37d62d0eae074d47b928f5b70e0859a8fadbcababcf6918c/html_text_color-0.0.6.tar.gz
+[2024-04-01 21:36:45] INFO root fetch - processPackages [gepref]: Downloading https://files.pythonhosted.org/packages/70/c8/38cbf5dcc88465badc96fb5a59d41b877400f326807b57b69eec628ce28d/gepref-0.1.2-py3-none-any.whl
+[2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: Downloading https://files.pythonhosted.org/packages/ef/2a/9b87b38b20843464d4d93198569dfabe998f655230c5b2dc5b4bdb9e009c/html_text_color-0.0.7.tar.gz
+[2024-04-01 21:36:45] INFO root fetch - processPackages [gepref]: executing diffoscope
+[2024-04-01 21:36:45] INFO root fetch - processPackages [gepref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gepref-0.1.1.tar.gz tmp/gepref-0.1.2-py3-none-any.whl.zip --markdown 20240401/g/gepref/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: executing diffoscope
+[2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_text_color-0.0.6.tar.gz tmp/html_text_color-0.0.7.tar.gz --markdown 20240401/h/html-text-color/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 21:36:45] INFO root fetch - processPackages [gepref]: Remove: archive file [/home/abi/fetcher/tmp/gepref-0.1.1.tar.gz]
+[2024-04-01 21:36:45] INFO root fetch - processPackages [gepref]: Remove: archive file [/home/abi/fetcher/tmp/gepref-0.1.2-py3-none-any.whl.zip]
+[2024-04-01 21:36:45] INFO root fetch - main [MainThread]: End processing [gepref]: success
+[2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: Remove: archive file [/home/abi/fetcher/tmp/html_text_color-0.0.6.tar.gz]
+[2024-04-01 21:36:45] INFO root fetch - processPackages [html-text-color]: Remove: archive file [/home/abi/fetcher/tmp/html_text_color-0.0.7.tar.gz]
+[2024-04-01 21:36:45] INFO root fetch - main [MainThread]: End processing [html-text-color]: success
+[2024-04-01 21:36:45] INFO root fetch - main [MainThread]: Store serial: [22574136]
