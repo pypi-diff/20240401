@@ -7043,3 +7043,36 @@ EOFError: EOF read where object expected
 [2024-04-01 17:04:10] INFO root fetch - processPackages [zha]: Remove: archive file [/home/abi/fetcher/tmp/zha-0.0.4.tar.gz]
 [2024-04-01 17:04:10] INFO root fetch - main [MainThread]: End processing [zha]: success
 [2024-04-01 17:04:10] INFO root fetch - main [MainThread]: Store serial: [22570899]
+[2024-04-01 17:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570899]
+[2024-04-01 17:06:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: temp-mails
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: han2kip
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansar-connect
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: timeoutcall
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-01 17:06:19] INFO root fetch - processPackages [temp-mails]: New version: [2.0] Old Version: [1.2]
+[2024-04-01 17:06:19] INFO root fetch - processPackages [timeoutcall]: New version: [1.0rc2] Old Version: [1.0]
+[2024-04-01 17:06:19] WARNING root fetch - processPackages [han2kip]: Skipping, unable to determine old version
+[2024-04-01 17:06:19] INFO root fetch - main [MainThread]: End processing [han2kip] error
+[2024-04-01 17:06:19] INFO root fetch - processPackages [timeoutcall]: Downloading https://files.pythonhosted.org/packages/5d/a2/1f88e274185ce6d12897b2f5553b932081242547cfd9213d31e57b69c288/timeoutcall-1.0.tar.gz
+[2024-04-01 17:06:19] INFO root fetch - processPackages [temp-mails]: Downloading https://files.pythonhosted.org/packages/72/2f/16d93e1e139a4ee74f098636bb058f8f0315ab8c427d9a5d5ec805c3f09e/temp_mails-1.2.tar.gz
+[2024-04-01 17:06:19] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-01 17:06:20] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-01 17:06:20] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240401/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-01 17:06:20] INFO root fetch - processPackages [temp-mails]: Downloading https://files.pythonhosted.org/packages/8f/53/4257cc82ee933fdea6396681057db179f5c2f91e8408ae6808e57600029e/temp_mails-2.0.tar.gz
+[2024-04-01 17:06:20] INFO root fetch - processPackages [temp-mails]: executing diffoscope
+[2024-04-01 17:06:20] INFO root fetch - processPackages [temp-mails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temp_mails-1.2.tar.gz tmp/temp_mails-2.0.tar.gz --markdown 20240401/t/temp-mails/1.2-2.0/diff.md --exclude *.pyd
+[2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: Downloading https://files.pythonhosted.org/packages/e5/7d/1a435726977a1afc696b8fbb94844b3385da011d515dbff3a5e211cad360/timeoutcall-1.0rc2.tar.gz
+[2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: executing diffoscope
+[2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeoutcall-1.0.tar.gz tmp/timeoutcall-1.0rc2.tar.gz --markdown 20240401/t/timeoutcall/1.0-1.0rc2/diff.md --exclude *.pyd
+[2024-04-01 17:06:20] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-01 17:06:20] INFO root fetch - processPackages [temp-mails]: Remove: archive file [/home/abi/fetcher/tmp/temp_mails-1.2.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - processPackages [temp-mails]: Remove: archive file [/home/abi/fetcher/tmp/temp_mails-2.0.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - main [MainThread]: End processing [temp-mails]: success
+[2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: Remove: archive file [/home/abi/fetcher/tmp/timeoutcall-1.0.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - processPackages [timeoutcall]: Remove: archive file [/home/abi/fetcher/tmp/timeoutcall-1.0rc2.tar.gz]
+[2024-04-01 17:06:20] INFO root fetch - main [MainThread]: End processing [timeoutcall]: success
+[2024-04-01 17:06:20] INFO root fetch - main [MainThread]: Store serial: [22570911]
