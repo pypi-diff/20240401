@@ -2205,3 +2205,58 @@ EOFError: EOF read where object expected
 [2024-04-01 13:31:25] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-04-01 13:31:25] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-04-01 13:31:25] INFO root fetch - main [MainThread]: Store serial: [22568669]
+[2024-04-01 13:33:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568669]
+[2024-04-01 13:33:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickfin
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Logflow
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre5g
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pre5g
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyzuoyz
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: QEasyWidgets
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atomicshop
+[2024-04-01 13:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upc-pymotion
+[2024-04-01 13:33:52] INFO root fetch - processPackages [upc-pymotion]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-01 13:33:52] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-01 13:33:52] WARNING root fetch - processPackages [Logflow]: Skipping, unable to determine old version
+[2024-04-01 13:33:52] INFO root fetch - main [MainThread]: End processing [Logflow] error
+[2024-04-01 13:33:52] INFO root fetch - processPackages [pyzuoyz]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-01 13:33:52] INFO root fetch - processPackages [pre5g]: New version: [0.9] Old Version: [0.8]
+[2024-04-01 13:33:52] INFO root fetch - processPackages [pre5g]: New version: [0.9] Old Version: [0.8]
+[2024-04-01 13:33:52] WARNING root fetch - processPackages [QEasyWidgets]: Skipping, unable to determine old version
+[2024-04-01 13:33:52] INFO root fetch - main [MainThread]: End processing [QEasyWidgets] error
+[2024-04-01 13:33:52] WARNING root fetch - processPackages [quickfin]: Skipping, unable to determine old version
+[2024-04-01 13:33:52] INFO root fetch - main [MainThread]: End processing [quickfin] error
+[2024-04-01 13:33:52] INFO root fetch - processPackages [upc-pymotion]: Downloading https://files.pythonhosted.org/packages/3b/30/d2f396f6508d5dfbc5c6b01bc297ddaef1123a82099e2a02e4df92bda558/upc_pymotion-0.1.0.tar.gz
+[2024-04-01 13:33:52] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/59/12/4446d16e1f7b880c833117e72b3b9ed33340fdb507cd6706e51731e8c7dc/pyzuoyz-0.1.2.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/17/83/1456dde549d5b37c40f04c5db13fc74037aa22f8d1c17660269c3d0c8cdd/pre5g-0.8.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/17/83/1456dde549d5b37c40f04c5db13fc74037aa22f8d1c17660269c3d0c8cdd/pre5g-0.8.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [upc-pymotion]: Downloading https://files.pythonhosted.org/packages/2f/1a/f4eefa012aac23106d961309abee6ad0d5371aa187c4c29f6e76755d8d96/upc_pymotion-0.1.1.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-01 13:33:53] INFO root fetch - processPackages [upc-pymotion]: executing diffoscope
+[2024-04-01 13:33:53] INFO root fetch - processPackages [upc-pymotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upc_pymotion-0.1.0.tar.gz tmp/upc_pymotion-0.1.1.tar.gz --markdown 20240401/u/upc-pymotion/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-01 13:33:53] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-01 13:33:53] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240401/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pyzuoyz]: Downloading https://files.pythonhosted.org/packages/7a/c6/209eee5a5d30ee84f0932e080a63ade01c2604e02fb83e36541a544be0af/pyzuoyz-0.1.3.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/43/57/1779c79260669527fbb20084102019c028b1ca761789107974b8e9b4a1a6/pre5g-0.9.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/43/57/1779c79260669527fbb20084102019c028b1ca761789107974b8e9b4a1a6/pre5g-0.9.tar.gz
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pyzuoyz]: executing diffoscope
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pyzuoyz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzuoyz-0.1.2.tar.gz tmp/pyzuoyz-0.1.3.tar.gz --markdown 20240401/p/pyzuoyz/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.8.tar.gz tmp/pre5g-0.9.tar.gz --markdown 20240401/p/pre5g/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-01 13:33:53] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.8.tar.gz tmp/pre5g-0.9.tar.gz --markdown 20240401/p/pre5g/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-01 13:33:54] INFO root fetch - processPackages [upc-pymotion]: Remove: archive file [/home/abi/fetcher/tmp/upc_pymotion-0.1.0.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - processPackages [upc-pymotion]: Remove: archive file [/home/abi/fetcher/tmp/upc_pymotion-0.1.1.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [upc-pymotion]: success
+[2024-04-01 13:33:54] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.2.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - processPackages [pyzuoyz]: Remove: archive file [/home/abi/fetcher/tmp/pyzuoyz-0.1.3.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [pyzuoyz]: success
+[2024-04-01 13:33:54] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.8.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.9.tar.gz]
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-01 13:33:54] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-01 13:33:54] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-01 13:33:54] INFO root fetch - main [MainThread]: Store serial: [22568697]
