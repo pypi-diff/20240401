@@ -131,3 +131,51 @@
 [2024-04-01 11:31:22] INFO root fetch - processPackages [gigachain]: Remove: archive file [/home/abi/fetcher/tmp/gigachain-0.1.9.tar.gz]
 [2024-04-01 11:31:22] INFO root fetch - main [MainThread]: End processing [gigachain]: success
 [2024-04-01 11:31:22] INFO root fetch - main [MainThread]: Store serial: [22567735]
+[2024-04-01 11:33:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22567735]
+[2024-04-01 11:33:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-butler-sdk
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SightTraining
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: core-pro
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gluepy
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scalifiai-client
+[2024-04-01 11:33:31] INFO root fetch - processPackages [SightTraining]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-01 11:33:31] INFO root fetch - processPackages [scalifiai-client]: New version: [1.1.1a9] Old Version: [1.1.1a8]
+[2024-04-01 11:33:31] INFO root fetch - processPackages [gluepy]: New version: [1.0.0] Old Version: [0.1.0]
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ai-butler-sdk]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-01 11:33:31] INFO root fetch - processPackages [core-pro]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 11:33:31] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/06/79/63a84f3eeef712a7d3d92ab9a8fd454282ac0713f873545542b97e3ba099/SightTraining-0.1.11.tar.gz
+[2024-04-01 11:33:31] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/6c/7a/0863d313132473bbd90bb4382355d5f37b7eba5cce0c7e85b333a728f19d/scalifiai-client-1.1.1a8.tar.gz
+[2024-04-01 11:33:31] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/cd/cd/d63f3fba71fd76c7f8ac1d6ae6b87160822cd40448430be4db93e9311943/gluepy-0.1.0.tar.gz
+[2024-04-01 11:33:31] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/dc/86/b3c6a8d290835afc0d7b1b25dde8bd558795bdce03403c0c90b2e7da9dff/core_pro-0.0.8.tar.gz
+[2024-04-01 11:33:31] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/26/c0/c72d5abc133f9c4b4bc74aeb0408f8195871d6823dadce79528a83fff5da/ai_butler_sdk-0.4.5.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [SightTraining]: Downloading https://files.pythonhosted.org/packages/d5/17/4e3b6cd33ee8fba6a12fa64335f0462df938e5b80f1e645bc3177088b1e6/SightTraining-0.1.12.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/db/f3/e29cdb2672cb5acf1f3ebfa514ce2c4ae5aa9f358da79078eb553a97ac7e/scalifiai-client-1.1.1a9.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [SightTraining]: executing diffoscope
+[2024-04-01 11:33:32] INFO root fetch - processPackages [SightTraining]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SightTraining-0.1.11.tar.gz tmp/SightTraining-0.1.12.tar.gz --markdown 20240401/S/SightTraining/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2024-04-01 11:33:32] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 11:33:32] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.1.1a8.tar.gz tmp/scalifiai-client-1.1.1a9.tar.gz --markdown 20240401/s/scalifiai-client/1.1.1a8-1.1.1a9/diff.md --exclude *.pyd
+[2024-04-01 11:33:32] INFO root fetch - processPackages [gluepy]: Downloading https://files.pythonhosted.org/packages/b3/e2/fcaa98a51ebbfb6fb55fc789f31dec80706c354f58b90871053739564703/gluepy-1.0.0.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [core-pro]: Downloading https://files.pythonhosted.org/packages/6f/4e/6f2935c9906443317c8d830ec5b4f1c67d988d87345c4ae116a0a613c079/core_pro-0.0.9.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/83/d6/246bead58b5a4a1dd8642c3b27bc6347aa4c0e11d2eec246250e7930667b/ai_butler_sdk-0.4.6.tar.gz
+[2024-04-01 11:33:32] INFO root fetch - processPackages [gluepy]: executing diffoscope
+[2024-04-01 11:33:32] INFO root fetch - processPackages [gluepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gluepy-0.1.0.tar.gz tmp/gluepy-1.0.0.tar.gz --markdown 20240401/g/gluepy/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-01 11:33:32] INFO root fetch - processPackages [ai-butler-sdk]: executing diffoscope
+[2024-04-01 11:33:32] INFO root fetch - processPackages [ai-butler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_butler_sdk-0.4.5.tar.gz tmp/ai_butler_sdk-0.4.6.tar.gz --markdown 20240401/a/ai-butler-sdk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2024-04-01 11:33:32] INFO root fetch - processPackages [core-pro]: executing diffoscope
+[2024-04-01 11:33:32] INFO root fetch - processPackages [core-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_pro-0.0.8.tar.gz tmp/core_pro-0.0.9.tar.gz --markdown 20240401/c/core-pro/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 11:33:32] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.11.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - processPackages [SightTraining]: Remove: archive file [/home/abi/fetcher/tmp/SightTraining-0.1.12.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - main [MainThread]: End processing [SightTraining]: success
+[2024-04-01 11:33:32] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-0.1.0.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - processPackages [gluepy]: Remove: archive file [/home/abi/fetcher/tmp/gluepy-1.0.0.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - main [MainThread]: End processing [gluepy]: success
+[2024-04-01 11:33:32] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a8.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.1.1a9.tar.gz]
+[2024-04-01 11:33:32] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 11:33:33] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.5.tar.gz]
+[2024-04-01 11:33:33] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.6.tar.gz]
+[2024-04-01 11:33:33] INFO root fetch - main [MainThread]: End processing [ai-butler-sdk]: success
+[2024-04-01 11:33:33] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.8.tar.gz]
+[2024-04-01 11:33:33] INFO root fetch - processPackages [core-pro]: Remove: archive file [/home/abi/fetcher/tmp/core_pro-0.0.9.tar.gz]
+[2024-04-01 11:33:33] INFO root fetch - main [MainThread]: End processing [core-pro]: success
+[2024-04-01 11:33:33] INFO root fetch - main [MainThread]: Store serial: [22567747]
