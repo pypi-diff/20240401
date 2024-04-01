@@ -7412,3 +7412,60 @@ EOFError: EOF read where object expected
 [2024-04-01 17:22:02] INFO root fetch - processPackages [clearml]: Remove: archive file [/home/abi/fetcher/tmp/clearml-1.9.3-py2.py3-none-any.whl.zip]
 [2024-04-01 17:22:02] INFO root fetch - main [MainThread]: End processing [clearml]: success
 [2024-04-01 17:22:02] INFO root fetch - main [MainThread]: Store serial: [22571108]
+[2024-04-01 17:24:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571108]
+[2024-04-01 17:24:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerline-wttr
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wecopttool
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CrunchyrollAPI
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metrics_layer
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: harp-proxy
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django_json_model_field
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adafruit-circuitpython-hx8357
+[2024-04-01 17:24:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gdinopy
+[2024-04-01 17:24:12] INFO root fetch - processPackages [CrunchyrollAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 17:24:12] WARNING root fetch - processPackages [powerline-wttr]: Skipping, unable to determine old version
+[2024-04-01 17:24:12] INFO root fetch - main [MainThread]: End processing [powerline-wttr] error
+[2024-04-01 17:24:12] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/47/c3/4c840a0d3da7428a0f4519a12807caef3020219646668e528987c612ca59/CrunchyrollAPI-0.1.8.tar.gz
+[2024-04-01 17:24:12] WARNING root fetch - processPackages [harp-proxy]: Skipping, unable to determine old version
+[2024-04-01 17:24:12] INFO root fetch - main [MainThread]: End processing [harp-proxy] error
+[2024-04-01 17:24:12] INFO root fetch - processPackages [wecopttool]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-01 17:24:12] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-01 17:24:12] INFO root fetch - processPackages [django_json_model_field]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-04-01 17:24:12] WARNING root fetch - processPackages [gdinopy]: Skipping, unable to determine old version
+[2024-04-01 17:24:12] INFO root fetch - main [MainThread]: End processing [gdinopy] error
+[2024-04-01 17:24:12] INFO root fetch - processPackages [metrics_layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 17:24:12] INFO root fetch - processPackages [django_json_model_field]: Downloading https://files.pythonhosted.org/packages/3f/70/51dd8a0c504e9ce20cc594781b4eae11e58e3010265ec2946bbb87eafbb2/django_json_model_field-0.0.1rc8.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [wecopttool]: Downloading https://files.pythonhosted.org/packages/68/7a/9f6971e1276264fb130bdafd9f5ddda2deda5415e2efe8f5623eb7a3621a/wecopttool-2.6.0.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/97/bf/9695615b27883251a6c836eafd3dbecfb350d07f29ef5d502b6b0dae7339/CrunchyrollAPI-0.1.9.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: Downloading https://files.pythonhosted.org/packages/72/87/ba9f11f631c45b58e6d4c3963a9fa379af251081408bba754a72dd0f85e2/adafruit-circuitpython-hx8357-1.4.2.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [CrunchyrollAPI]: executing diffoscope
+[2024-04-01 17:24:12] INFO root fetch - processPackages [CrunchyrollAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrunchyrollAPI-0.1.8.tar.gz tmp/CrunchyrollAPI-0.1.9.tar.gz --markdown 20240401/C/CrunchyrollAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 17:24:12] INFO root fetch - processPackages [wecopttool]: Downloading https://files.pythonhosted.org/packages/dc/e5/246ec2cc7746544d0d3fd82c066440802da83dc730ba6c5d67099ba13c23/wecopttool-2.7.0.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [metrics_layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: Downloading https://files.pythonhosted.org/packages/eb/ad/3e69e5de3bc3078706ee3c9b696128e1faa5ef77b88c8641b95fb7746ec3/adafruit-circuitpython-hx8357-1.4.3.tar.gz
+[2024-04-01 17:24:12] INFO root fetch - processPackages [django_json_model_field]: Downloading https://files.pythonhosted.org/packages/40/e7/a7e3b581d821d600b54557427b42f83e24e99dd61bd2018ff89b456128e9/django_json_model_field-0.0.1rc9.tar.gz
+[2024-04-01 17:24:13] INFO root fetch - processPackages [wecopttool]: executing diffoscope
+[2024-04-01 17:24:13] INFO root fetch - processPackages [wecopttool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wecopttool-2.6.0.tar.gz tmp/wecopttool-2.7.0.tar.gz --markdown 20240401/w/wecopttool/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2024-04-01 17:24:13] INFO root fetch - processPackages [metrics_layer]: executing diffoscope
+[2024-04-01 17:24:13] INFO root fetch - processPackages [metrics_layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20240401/m/metrics_layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-01 17:24:13] INFO root fetch - processPackages [django_json_model_field]: executing diffoscope
+[2024-04-01 17:24:13] INFO root fetch - processPackages [django_json_model_field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_json_model_field-0.0.1rc8.tar.gz tmp/django_json_model_field-0.0.1rc9.tar.gz --markdown 20240401/d/django_json_model_field/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2024-04-01 17:24:13] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: executing diffoscope
+[2024-04-01 17:24:13] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-hx8357-1.4.2.tar.gz tmp/adafruit-circuitpython-hx8357-1.4.3.tar.gz --markdown 20240401/a/adafruit-circuitpython-hx8357/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2024-04-01 17:24:13] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.8.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.9.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [CrunchyrollAPI]: success
+[2024-04-01 17:24:13] INFO root fetch - processPackages [django_json_model_field]: Remove: archive file [/home/abi/fetcher/tmp/django_json_model_field-0.0.1rc8.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - processPackages [django_json_model_field]: Remove: archive file [/home/abi/fetcher/tmp/django_json_model_field-0.0.1rc9.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [django_json_model_field]: success
+[2024-04-01 17:24:13] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - processPackages [metrics_layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [metrics_layer]: success
+[2024-04-01 17:24:13] INFO root fetch - processPackages [wecopttool]: Remove: archive file [/home/abi/fetcher/tmp/wecopttool-2.6.0.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - processPackages [wecopttool]: Remove: archive file [/home/abi/fetcher/tmp/wecopttool-2.7.0.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [wecopttool]: success
+[2024-04-01 17:24:13] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-hx8357-1.4.2.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - processPackages [adafruit-circuitpython-hx8357]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-hx8357-1.4.3.tar.gz]
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-hx8357]: success
+[2024-04-01 17:24:13] INFO root fetch - main [MainThread]: Store serial: [22571138]
