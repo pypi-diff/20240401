@@ -6093,3 +6093,77 @@ EOFError: EOF read where object expected
 [2024-04-01 16:28:52] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl.zip]
 [2024-04-01 16:28:52] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
 [2024-04-01 16:28:52] INFO root fetch - main [MainThread]: Store serial: [22570499]
+[2024-04-01 16:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22570499]
+[2024-04-01 16:31:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarkstudio
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-bibtex
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encrypting
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafruit-circuitpython-il91874
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-sidu
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esrt
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qodex-cameras
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: biomedicus
+[2024-04-01 16:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: biomedicus-client
+[2024-04-01 16:31:01] INFO root fetch - processPackages [quarkstudio]: New version: [6.6.2.7] Old Version: [6.6.2.6]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [qodex-cameras]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: New version: [1.4.0] Old Version: [1.3.1]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [mkdocs-bibtex]: New version: [2.9.0] Old Version: [2.8.9]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [pytorch-sidu]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [esrt]: New version: [1.22.0] Old Version: [1.21.0]
+[2024-04-01 16:31:01] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/88/8c/623b614ed97301cdb84310d825eb45fe9c368d11eabe0446fa1c5e9e7a35/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl
+[2024-04-01 16:31:01] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/b4/f7/f0daed42e5b3e30fcac489f44d8b9fca3066fb7ab111aa631b6ef9052aac/qodex_cameras-2.1.2-py3-none-any.whl
+[2024-04-01 16:31:02] WARNING root fetch - processPackages [encrypting]: Skipping, unable to determine old version
+[2024-04-01 16:31:02] INFO root fetch - main [MainThread]: End processing [encrypting] error
+[2024-04-01 16:31:02] INFO root fetch - processPackages [biomedicus]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-01 16:31:02] INFO root fetch - processPackages [biomedicus-client]: New version: [3.4.2] Old Version: [3.4.1]
+[2024-04-01 16:31:02] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: Downloading https://files.pythonhosted.org/packages/bf/ba/ea8ad5c894c445e9998852880d32ff66323b9fb206e69f8df9e2569425ba/adafruit-circuitpython-il91874-1.3.1.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/89/38/add60c2ab123f43e47511fab2b1c62ff400bc057f4022e8ee09b1d2b04d3/mkdocs-bibtex-2.8.9.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/12/7d/29ce1859e6a13f1cc2b8d64fcb5ba237b6bf30900f8acb84be21c8cd3ddf/pytorch-sidu-1.0.6.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/52/e6/5151dfdfe81ebef29b6899569e493a01a9b6ea6a8a2d50d7a6124812b697/esrt-1.21.0.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [quarkstudio]: Downloading https://files.pythonhosted.org/packages/3f/50/e05b0cbb975f4b8abe068bf7c860ad70e156da129aa64e0c33707dd0c70e/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl
+[2024-04-01 16:31:02] INFO root fetch - processPackages [biomedicus-client]: Downloading https://files.pythonhosted.org/packages/57/94/184a3ebddfae52949158ae077a7596fd58911e9249ed7bd6f02290980e63/biomedicus_client-3.4.1.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [biomedicus]: Downloading https://files.pythonhosted.org/packages/c2/7b/bdd160e9a5afdc9ecb89d19e9303ee6d4e978d66c1c615a4ba06c888c05b/biomedicus-3.4.1.tar.gz
+[2024-04-01 16:31:02] WARNING root fetch - processPackages [biomedicus]: Skipping package: exceeds size limit 97916121>=10485760
+[2024-04-01 16:31:02] INFO root fetch - main [MainThread]: End processing [biomedicus] error
+[2024-04-01 16:31:02] INFO root fetch - processPackages [qodex-cameras]: Downloading https://files.pythonhosted.org/packages/67/92/746acce0cb26aec7290ad371f1e96b3d7299caa04b99cb9e2731b2d98de3/qodex_cameras-2.1.3-py3-none-any.whl
+[2024-04-01 16:31:02] INFO root fetch - processPackages [quarkstudio]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [quarkstudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl.zip tmp/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl.zip --markdown 20240401/q/quarkstudio/6.6.2.6-6.6.2.7/diff.md --exclude *.pyd
+[2024-04-01 16:31:02] INFO root fetch - processPackages [qodex-cameras]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [qodex-cameras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qodex_cameras-2.1.2-py3-none-any.whl.zip tmp/qodex_cameras-2.1.3-py3-none-any.whl.zip --markdown 20240401/q/qodex-cameras/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-01 16:31:02] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/45/ce/ced07dc0831f7673c1b875eab10064ac756bd5f216b9ef03690dd0fa2466/mkdocs-bibtex-2.9.0.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/28/56/fcacd6f457d566da2370f76c2aeaaf235eb17f82b8fd853c878bc7a53f10/pytorch-sidu-1.0.7.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: Downloading https://files.pythonhosted.org/packages/6d/84/6567b4c1ba255251ec925473cdd1d08e282bffbdbf95da7f076b6ce81ad2/adafruit-circuitpython-il91874-1.4.0.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [esrt]: Downloading https://files.pythonhosted.org/packages/c9/1d/e09f6ae102953357c14193a6c5d417b868b863d9d38f7568cd02c2ac4606/esrt-1.22.0.tar.gz
+[2024-04-01 16:31:02] INFO root fetch - processPackages [biomedicus-client]: Downloading https://files.pythonhosted.org/packages/e8/6e/77abd519343ee14e4a61cb931614b24418904eaca17bd9a83f030e2185c6/biomedicus_client-3.4.2-py3-none-any.whl
+[2024-04-01 16:31:02] INFO root fetch - processPackages [mkdocs-bibtex]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [mkdocs-bibtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-bibtex-2.8.9.tar.gz tmp/mkdocs-bibtex-2.9.0.tar.gz --markdown 20240401/m/mkdocs-bibtex/2.8.9-2.9.0/diff.md --exclude *.pyd
+[2024-04-01 16:31:02] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-il91874-1.3.1.tar.gz tmp/adafruit-circuitpython-il91874-1.4.0.tar.gz --markdown 20240401/a/adafruit-circuitpython-il91874/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2024-04-01 16:31:02] INFO root fetch - processPackages [pytorch-sidu]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [pytorch-sidu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-sidu-1.0.6.tar.gz tmp/pytorch-sidu-1.0.7.tar.gz --markdown 20240401/p/pytorch-sidu/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-01 16:31:02] INFO root fetch - processPackages [esrt]: executing diffoscope
+[2024-04-01 16:31:02] INFO root fetch - processPackages [esrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esrt-1.21.0.tar.gz tmp/esrt-1.22.0.tar.gz --markdown 20240401/e/esrt/1.21.0-1.22.0/diff.md --exclude *.pyd
+[2024-04-01 16:31:03] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.6-cp312-none-win_amd64.whl.zip]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [quarkstudio]: Remove: archive file [/home/abi/fetcher/tmp/quarkstudio-6.6.2.7-cp310-none-win_amd64.whl.zip]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [quarkstudio]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.2-py3-none-any.whl.zip]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [qodex-cameras]: Remove: archive file [/home/abi/fetcher/tmp/qodex_cameras-2.1.3-py3-none-any.whl.zip]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [qodex-cameras]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [biomedicus-client]: executing diffoscope
+[2024-04-01 16:31:03] INFO root fetch - processPackages [biomedicus-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomedicus_client-3.4.1.tar.gz tmp/biomedicus_client-3.4.2-py3-none-any.whl.zip --markdown 20240401/b/biomedicus-client/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2024-04-01 16:31:03] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.6.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.7.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [pytorch-sidu]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.21.0.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [esrt]: Remove: archive file [/home/abi/fetcher/tmp/esrt-1.22.0.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [esrt]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.8.9.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.9.0.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [mkdocs-bibtex]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-il91874-1.3.1.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [adafruit-circuitpython-il91874]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-il91874-1.4.0.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-il91874]: success
+[2024-04-01 16:31:03] INFO root fetch - processPackages [biomedicus-client]: Remove: archive file [/home/abi/fetcher/tmp/biomedicus_client-3.4.1.tar.gz]
+[2024-04-01 16:31:03] INFO root fetch - processPackages [biomedicus-client]: Remove: archive file [/home/abi/fetcher/tmp/biomedicus_client-3.4.2-py3-none-any.whl.zip]
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: End processing [biomedicus-client]: success
+[2024-04-01 16:31:03] INFO root fetch - main [MainThread]: Store serial: [22570534]
