@@ -1636,3 +1636,24 @@ EOFError: EOF read where object expected
 [2024-04-01 12:56:45] WARNING root fetch - processPackages [second-test]: Skipping, unable to determine old version
 [2024-04-01 12:56:45] INFO root fetch - main [MainThread]: End processing [second-test] error
 [2024-04-01 12:56:45] INFO root fetch - main [MainThread]: Store serial: [22568342]
+[2024-04-01 12:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568342]
+[2024-04-01 12:59:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 12:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-mongodbatlas
+[2024-04-01 12:59:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-cython
+[2024-04-01 12:59:01] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-01 12:59:01] INFO root fetch - processPackages [pytest-cython]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-01 12:59:01] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: Downloading https://files.pythonhosted.org/packages/df/f4/2510675a350db5174a678cec6fd4b41a62da138313dd1f29d6e723334c38/pytest-cython-0.2.2.tar.gz
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20240401/p/pulumi-mongodbatlas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: Downloading https://files.pythonhosted.org/packages/c3/e3/3ba9e0030217039003dfa56331a521b568cfed745cc3f89fb68378bc5258/pytest-cython-0.3.0.tar.gz
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: executing diffoscope
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-cython-0.2.2.tar.gz tmp/pytest-cython-0.3.0.tar.gz --markdown 20240401/p/pytest-cython/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: Remove: archive file [/home/abi/fetcher/tmp/pytest-cython-0.2.2.tar.gz]
+[2024-04-01 12:59:02] INFO root fetch - processPackages [pytest-cython]: Remove: archive file [/home/abi/fetcher/tmp/pytest-cython-0.3.0.tar.gz]
+[2024-04-01 12:59:02] INFO root fetch - main [MainThread]: End processing [pytest-cython]: success
+[2024-04-01 12:59:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2024-04-01 12:59:04] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2024-04-01 12:59:04] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2024-04-01 12:59:04] INFO root fetch - main [MainThread]: Store serial: [22568348]
