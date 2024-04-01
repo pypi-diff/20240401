@@ -3864,3 +3864,42 @@ EOFError: EOF read where object expected
 [2024-04-01 15:01:25] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
 [2024-04-01 15:01:25] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
 [2024-04-01 15:01:25] INFO root fetch - main [MainThread]: Store serial: [22569334]
+[2024-04-01 15:03:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569334]
+[2024-04-01 15:03:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sssom-schema
+[2024-04-01 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: optionlab
+[2024-04-01 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pg8000
+[2024-04-01 15:03:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: b2-utils
+[2024-04-01 15:03:33] INFO root fetch - processPackages [sssom-schema]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-01 15:03:33] INFO root fetch - processPackages [b2-utils]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-01 15:03:33] INFO root fetch - processPackages [optionlab]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-01 15:03:33] INFO root fetch - processPackages [pg8000]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-01 15:03:33] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/4e/60/b9bc3ab1e39262a84e256a2624aec92394d08acb2a518fb5477d9fe7c80f/sssom-schema-0.9.3.tar.gz
+[2024-04-01 15:03:33] INFO root fetch - processPackages [b2-utils]: Downloading https://files.pythonhosted.org/packages/ce/ae/5f180e8f774a511e78b425cece52a36344fe8eb0daf5153bbb683af8ea2e/b2-utils-0.2.2.tar.gz
+[2024-04-01 15:03:33] INFO root fetch - processPackages [optionlab]: Downloading https://files.pythonhosted.org/packages/d8/a1/242dfb1a584d8316d6c1c1e37d2871d068e9a2af4adc5aa051fc93fa17cc/optionlab-1.1.0.tar.gz
+[2024-04-01 15:03:33] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/65/e9/ec11aa94842e65712402367dde63c925ef6ed5bfa3491de9e4cda23530bc/pg8000-1.9.8.tar.gz
+[2024-04-01 15:03:34] INFO root fetch - processPackages [b2-utils]: Downloading https://files.pythonhosted.org/packages/ef/ad/4a10c0f434c29b85d0f9106703e7edacae91cb3d261f66f064758792c83d/b2-utils-0.2.3.tar.gz
+[2024-04-01 15:03:34] INFO root fetch - processPackages [sssom-schema]: Downloading https://files.pythonhosted.org/packages/96/e0/5a7382d3263dc0b0dbfa0deae0e3d854eb9ab9f9deed9e2fe63be6bf5938/sssom-schema-0.9.4.tar.gz
+[2024-04-01 15:03:34] INFO root fetch - processPackages [pg8000]: Downloading https://files.pythonhosted.org/packages/76/38/3c2b3384c447bdac7cd3f1155894dd6522935f7c923492baed5cc3d9b2bf/pg8000-1.9.9.tar.gz
+[2024-04-01 15:03:34] INFO root fetch - processPackages [optionlab]: Downloading https://files.pythonhosted.org/packages/5f/96/7fdae0344417ab59374bca71f827b9916edd98b81d3b0b2001f27eb92341/optionlab-1.2.0.tar.gz
+[2024-04-01 15:03:34] INFO root fetch - processPackages [b2-utils]: executing diffoscope
+[2024-04-01 15:03:34] INFO root fetch - processPackages [b2-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-utils-0.2.2.tar.gz tmp/b2-utils-0.2.3.tar.gz --markdown 20240401/b/b2-utils/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-01 15:03:34] INFO root fetch - processPackages [optionlab]: executing diffoscope
+[2024-04-01 15:03:34] INFO root fetch - processPackages [optionlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optionlab-1.1.0.tar.gz tmp/optionlab-1.2.0.tar.gz --markdown 20240401/o/optionlab/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-01 15:03:34] INFO root fetch - processPackages [pg8000]: executing diffoscope
+[2024-04-01 15:03:34] INFO root fetch - processPackages [pg8000]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg8000-1.9.8.tar.gz tmp/pg8000-1.9.9.tar.gz --markdown 20240401/p/pg8000/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-01 15:03:34] INFO root fetch - processPackages [sssom-schema]: executing diffoscope
+[2024-04-01 15:03:34] INFO root fetch - processPackages [sssom-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sssom-schema-0.9.3.tar.gz tmp/sssom-schema-0.9.4.tar.gz --markdown 20240401/s/sssom-schema/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-01 15:03:35] INFO root fetch - processPackages [optionlab]: Remove: archive file [/home/abi/fetcher/tmp/optionlab-1.1.0.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - processPackages [optionlab]: Remove: archive file [/home/abi/fetcher/tmp/optionlab-1.2.0.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - main [MainThread]: End processing [optionlab]: success
+[2024-04-01 15:03:35] INFO root fetch - processPackages [b2-utils]: Remove: archive file [/home/abi/fetcher/tmp/b2-utils-0.2.2.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - processPackages [b2-utils]: Remove: archive file [/home/abi/fetcher/tmp/b2-utils-0.2.3.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - main [MainThread]: End processing [b2-utils]: success
+[2024-04-01 15:03:35] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.8.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - processPackages [pg8000]: Remove: archive file [/home/abi/fetcher/tmp/pg8000-1.9.9.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - main [MainThread]: End processing [pg8000]: success
+[2024-04-01 15:03:35] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.3.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - processPackages [sssom-schema]: Remove: archive file [/home/abi/fetcher/tmp/sssom-schema-0.9.4.tar.gz]
+[2024-04-01 15:03:35] INFO root fetch - main [MainThread]: End processing [sssom-schema]: success
+[2024-04-01 15:03:35] INFO root fetch - main [MainThread]: Store serial: [22569348]
