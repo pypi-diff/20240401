@@ -11897,3 +11897,54 @@ EOFError: EOF read where object expected
 [2024-04-01 20:11:46] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.7.tar.gz]
 [2024-04-01 20:11:46] INFO root fetch - main [MainThread]: End processing [zetascale]: success
 [2024-04-01 20:11:46] INFO root fetch - main [MainThread]: Store serial: [22573286]
+[2024-04-01 20:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573286]
+[2024-04-01 20:13:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonevu
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pinjet-common
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cff2toml
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightcurver
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cartesify-backend
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swimrankingsscraper
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jamba
+[2024-04-01 20:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: grain
+[2024-04-01 20:13:56] INFO root fetch - processPackages [zonevu]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-01 20:13:56] WARNING root fetch - processPackages [pinjet-common]: Skipping, unable to determine old version
+[2024-04-01 20:13:56] INFO root fetch - main [MainThread]: End processing [pinjet-common] error
+[2024-04-01 20:13:56] INFO root fetch - processPackages [cartesify-backend]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 20:13:56] WARNING root fetch - processPackages [cff2toml]: Skipping, unable to determine old version
+[2024-04-01 20:13:56] INFO root fetch - main [MainThread]: End processing [cff2toml] error
+[2024-04-01 20:13:56] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/d8/83/1d3535023c3122a634dda33bb578f29357c632b740fdb73c45b9d24ba8f5/zonevu-1.1.1-py3-none-any.whl
+[2024-04-01 20:13:56] INFO root fetch - processPackages [swimrankingsscraper]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 20:13:56] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/8d/66/8ba7d886e1f2e507b220841f3d5f9a8a14aa25b06d8aad875257555719e3/cartesify_backend-0.0.8.tar.gz
+[2024-04-01 20:13:56] WARNING root fetch - processPackages [jamba]: Skipping, unable to determine old version
+[2024-04-01 20:13:56] INFO root fetch - main [MainThread]: End processing [jamba] error
+[2024-04-01 20:13:56] INFO root fetch - processPackages [lightcurver]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-01 20:13:56] WARNING root fetch - processPackages [grain]: Skipping, unable to determine old version
+[2024-04-01 20:13:56] INFO root fetch - main [MainThread]: End processing [grain] error
+[2024-04-01 20:13:56] INFO root fetch - processPackages [swimrankingsscraper]: Downloading https://files.pythonhosted.org/packages/84/5b/6100960edae53a5dc11c8247a26bf5b33b8f08d276214930d187c016ff65/swimrankingsscraper-0.1.1.tar.gz
+[2024-04-01 20:13:56] INFO root fetch - processPackages [lightcurver]: Downloading https://files.pythonhosted.org/packages/ba/cc/ca9f5ffbca08b3383905adf6eaf83fdd5015deb2babe928a5c0995f68d8f/lightcurver-1.0.3.tar.gz
+[2024-04-01 20:13:57] INFO root fetch - processPackages [cartesify-backend]: Downloading https://files.pythonhosted.org/packages/d6/92/3a1ee788fa672cfa95a4e1ec9713ec76ef023911989a189d6709beb81dde/cartesify_backend-0.0.9.tar.gz
+[2024-04-01 20:13:57] INFO root fetch - processPackages [swimrankingsscraper]: Downloading https://files.pythonhosted.org/packages/c0/ae/24f8e7362ebb796696bd639e7e1889a88a057794aa5fb4d335b5b467dfb7/swimrankingsscraper-0.1.2.tar.gz
+[2024-04-01 20:13:57] INFO root fetch - processPackages [cartesify-backend]: executing diffoscope
+[2024-04-01 20:13:57] INFO root fetch - processPackages [cartesify-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartesify_backend-0.0.8.tar.gz tmp/cartesify_backend-0.0.9.tar.gz --markdown 20240401/c/cartesify-backend/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 20:13:57] INFO root fetch - processPackages [lightcurver]: Downloading https://files.pythonhosted.org/packages/5e/1d/c0c3598711aa27f48ade0b286fda895ffa11085aa7e8235edbca7d13f7f5/lightcurver-1.0.4.tar.gz
+[2024-04-01 20:13:57] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/5b/e7/286c9d7fc06f132d3f9c11b1893f4090af5f3e0968ef3105144ed913d0e0/zonevu-1.1.2-py3-none-any.whl
+[2024-04-01 20:13:57] INFO root fetch - processPackages [swimrankingsscraper]: executing diffoscope
+[2024-04-01 20:13:57] INFO root fetch - processPackages [swimrankingsscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swimrankingsscraper-0.1.1.tar.gz tmp/swimrankingsscraper-0.1.2.tar.gz --markdown 20240401/s/swimrankingsscraper/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 20:13:57] INFO root fetch - processPackages [lightcurver]: executing diffoscope
+[2024-04-01 20:13:57] INFO root fetch - processPackages [lightcurver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightcurver-1.0.3.tar.gz tmp/lightcurver-1.0.4.tar.gz --markdown 20240401/l/lightcurver/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-01 20:13:58] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-01 20:13:58] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.1-py3-none-any.whl.zip tmp/zonevu-1.1.2-py3-none-any.whl.zip --markdown 20240401/z/zonevu/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-01 20:13:58] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.8.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - processPackages [cartesify-backend]: Remove: archive file [/home/abi/fetcher/tmp/cartesify_backend-0.0.9.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - main [MainThread]: End processing [cartesify-backend]: success
+[2024-04-01 20:13:58] INFO root fetch - processPackages [swimrankingsscraper]: Remove: archive file [/home/abi/fetcher/tmp/swimrankingsscraper-0.1.1.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - processPackages [swimrankingsscraper]: Remove: archive file [/home/abi/fetcher/tmp/swimrankingsscraper-0.1.2.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - main [MainThread]: End processing [swimrankingsscraper]: success
+[2024-04-01 20:13:58] INFO root fetch - processPackages [lightcurver]: Remove: archive file [/home/abi/fetcher/tmp/lightcurver-1.0.3.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - processPackages [lightcurver]: Remove: archive file [/home/abi/fetcher/tmp/lightcurver-1.0.4.tar.gz]
+[2024-04-01 20:13:58] INFO root fetch - main [MainThread]: End processing [lightcurver]: success
+[2024-04-01 20:14:00] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.1-py3-none-any.whl.zip]
+[2024-04-01 20:14:00] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.2-py3-none-any.whl.zip]
+[2024-04-01 20:14:00] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-01 20:14:00] INFO root fetch - main [MainThread]: Store serial: [22573316]
