@@ -8569,3 +8569,27 @@ EOFError: EOF read where object expected
 [2024-04-01 18:00:03] INFO root fetch - processPackages [drapi-lemur]: Remove: archive file [/home/abi/fetcher/tmp/drapi-lemur-1.0.5.tar.gz]
 [2024-04-01 18:00:03] INFO root fetch - main [MainThread]: End processing [drapi-lemur]: success
 [2024-04-01 18:00:03] INFO root fetch - main [MainThread]: Store serial: [22571641]
+[2024-04-01 18:02:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571641]
+[2024-04-01 18:02:12] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 18:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lifecycle-ml-example
+[2024-04-01 18:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tensorneko-util
+[2024-04-01 18:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: findly-unified-reporting-sdk
+[2024-04-01 18:02:12] WARNING root fetch - processPackages [lifecycle-ml-example]: Skipping, unable to determine old version
+[2024-04-01 18:02:12] INFO root fetch - main [MainThread]: End processing [lifecycle-ml-example] error
+[2024-04-01 18:02:12] INFO root fetch - processPackages [tensorneko-util]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 18:02:12] INFO root fetch - processPackages [findly-unified-reporting-sdk]: New version: [0.6.2] Old Version: [0.6.0]
+[2024-04-01 18:02:12] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/6c/30/d301927021a6b908e481c4096c9bd4b6f354dc4f7b5ac834126fef61cc37/tensorneko_util-0.3.8.tar.gz
+[2024-04-01 18:02:12] INFO root fetch - processPackages [findly-unified-reporting-sdk]: Downloading https://files.pythonhosted.org/packages/f6/87/48176c7f94fbfe84d93b358d99ada0cbab1b6523420029e86f8c477d119b/findly_unified_reporting_sdk-0.6.0.tar.gz
+[2024-04-01 18:02:12] INFO root fetch - processPackages [findly-unified-reporting-sdk]: Downloading https://files.pythonhosted.org/packages/ef/23/9d7132316703838e06707410d8345bd5edd3b4bf1cd218645bb02c4f4d24/findly_unified_reporting_sdk-0.6.2.tar.gz
+[2024-04-01 18:02:13] INFO root fetch - processPackages [findly-unified-reporting-sdk]: executing diffoscope
+[2024-04-01 18:02:13] INFO root fetch - processPackages [findly-unified-reporting-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findly_unified_reporting_sdk-0.6.0.tar.gz tmp/findly_unified_reporting_sdk-0.6.2.tar.gz --markdown 20240401/f/findly-unified-reporting-sdk/0.6.0-0.6.2/diff.md --exclude *.pyd
+[2024-04-01 18:02:13] INFO root fetch - processPackages [tensorneko-util]: Downloading https://files.pythonhosted.org/packages/44/6e/a3d6aaf90349d556781694cb9e147d2267e187f267835e0bfdb74a3c5d6d/tensorneko_util-0.3.9.tar.gz
+[2024-04-01 18:02:13] INFO root fetch - processPackages [tensorneko-util]: executing diffoscope
+[2024-04-01 18:02:13] INFO root fetch - processPackages [tensorneko-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_util-0.3.8.tar.gz tmp/tensorneko_util-0.3.9.tar.gz --markdown 20240401/t/tensorneko-util/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 18:02:13] INFO root fetch - processPackages [findly-unified-reporting-sdk]: Remove: archive file [/home/abi/fetcher/tmp/findly_unified_reporting_sdk-0.6.0.tar.gz]
+[2024-04-01 18:02:13] INFO root fetch - processPackages [findly-unified-reporting-sdk]: Remove: archive file [/home/abi/fetcher/tmp/findly_unified_reporting_sdk-0.6.2.tar.gz]
+[2024-04-01 18:02:13] INFO root fetch - main [MainThread]: End processing [findly-unified-reporting-sdk]: success
+[2024-04-01 18:02:22] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.8.tar.gz]
+[2024-04-01 18:02:22] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
+[2024-04-01 18:02:22] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
+[2024-04-01 18:02:22] INFO root fetch - main [MainThread]: Store serial: [22571652]
