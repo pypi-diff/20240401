@@ -12098,3 +12098,27 @@ EOFError: EOF read where object expected
 [2024-04-01 20:20:36] INFO root fetch - processPackages [dcicutils]: Remove: archive file [/home/abi/fetcher/tmp/dcicutils-8.8.1.1b9.tar.gz]
 [2024-04-01 20:20:36] INFO root fetch - main [MainThread]: End processing [dcicutils]: success
 [2024-04-01 20:20:36] INFO root fetch - main [MainThread]: Store serial: [22573366]
+[2024-04-01 20:22:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573366]
+[2024-04-01 20:22:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-01 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: factorial-minh
+[2024-04-01 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eth-account
+[2024-04-01 20:22:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2024-04-01 20:22:44] WARNING root fetch - processPackages [factorial-minh]: Skipping, unable to determine old version
+[2024-04-01 20:22:44] INFO root fetch - main [MainThread]: End processing [factorial-minh] error
+[2024-04-01 20:22:44] INFO root fetch - processPackages [not1mm]: New version: [24.4.1] Old Version: [24.3.9]
+[2024-04-01 20:22:44] INFO root fetch - processPackages [eth-account]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-01 20:22:45] INFO root fetch - processPackages [eth-account]: Downloading https://files.pythonhosted.org/packages/04/f6/bfe7d0d06a2612c0ab85ef1dd08b59bf6ae57e2780310949f9b15a07110f/eth-account-0.8.0.tar.gz
+[2024-04-01 20:22:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/e2/7e/57f60a859076d7f6370a3c80b496df597af54a5ef2adf3b1ae97b4710a07/not1mm-24.3.9.tar.gz
+[2024-04-01 20:22:45] INFO root fetch - processPackages [eth-account]: Downloading https://files.pythonhosted.org/packages/e6/ec/41c8bd1b11997f6627f97ba7247d1d68f8089fe727cd6ae12c9fb2b966bc/eth-account-0.9.0.tar.gz
+[2024-04-01 20:22:45] INFO root fetch - processPackages [eth-account]: executing diffoscope
+[2024-04-01 20:22:45] INFO root fetch - processPackages [eth-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-account-0.8.0.tar.gz tmp/eth-account-0.9.0.tar.gz --markdown 20240401/e/eth-account/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:22:45] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/63/c9/b24ce2123da72d937c6f6a7238af6cc0423632f3d8ba70c15915a50ca6e1/not1mm-24.4.1.tar.gz
+[2024-04-01 20:22:46] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-01 20:22:46] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.3.9.tar.gz tmp/not1mm-24.4.1.tar.gz --markdown 20240401/n/not1mm/24.3.9-24.4.1/diff.md --exclude *.pyd
+[2024-04-01 20:22:46] INFO root fetch - processPackages [eth-account]: Remove: archive file [/home/abi/fetcher/tmp/eth-account-0.8.0.tar.gz]
+[2024-04-01 20:22:46] INFO root fetch - processPackages [eth-account]: Remove: archive file [/home/abi/fetcher/tmp/eth-account-0.9.0.tar.gz]
+[2024-04-01 20:22:46] INFO root fetch - main [MainThread]: End processing [eth-account]: success
+[2024-04-01 20:22:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.3.9.tar.gz]
+[2024-04-01 20:22:50] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.tar.gz]
+[2024-04-01 20:22:50] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-01 20:22:50] INFO root fetch - main [MainThread]: Store serial: [22573377]
