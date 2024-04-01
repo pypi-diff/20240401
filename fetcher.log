@@ -1034,3 +1034,36 @@ EOFError: EOF read where object expected
 [2024-04-01 12:22:21] INFO root fetch - processPackages [promuet]: Remove: archive file [/home/abi/fetcher/tmp/promuet-0.3.1.tar.gz]
 [2024-04-01 12:22:21] INFO root fetch - main [MainThread]: End processing [promuet]: success
 [2024-04-01 12:22:21] INFO root fetch - main [MainThread]: Store serial: [22568146]
+[2024-04-01 12:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568146]
+[2024-04-01 12:24:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 12:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: analysta-index
+[2024-04-01 12:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-chart-js
+[2024-04-01 12:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-flexutils
+[2024-04-01 12:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpsApi
+[2024-04-01 12:24:30] WARNING root fetch - processPackages [OpsApi]: Skipping, unable to determine old version
+[2024-04-01 12:24:30] INFO root fetch - main [MainThread]: End processing [OpsApi] error
+[2024-04-01 12:24:30] INFO root fetch - processPackages [scipion-em-flexutils]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-04-01 12:24:30] INFO root fetch - processPackages [streamlit-chart-js]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-01 12:24:30] INFO root fetch - processPackages [analysta-index]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 12:24:30] INFO root fetch - processPackages [scipion-em-flexutils]: Downloading https://files.pythonhosted.org/packages/c1/04/773ba9471e3f4b7c4cfcaed0fa034b3deca00a42f471175e52f20a3b9001/scipion-em-flexutils-3.1.5.tar.gz
+[2024-04-01 12:24:30] INFO root fetch - processPackages [streamlit-chart-js]: Downloading https://files.pythonhosted.org/packages/33/93/32e477f3c66adf1d4822f6a4b2083278ac1557d42ccf0a57010b491adec4/streamlit_chart_js-0.0.3.tar.gz
+[2024-04-01 12:24:30] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/01/cf/2384baabdae575209a6a4216033a9a5d5e61e6cdad49419226a7bb1ecc2f/analysta_index-0.2.8.tar.gz
+[2024-04-01 12:24:31] INFO root fetch - processPackages [streamlit-chart-js]: Downloading https://files.pythonhosted.org/packages/53/1a/055451be5a106f01c6a68105590403435ad2dde91c7bd95a35f87a987ed8/streamlit_chart_js-0.0.4.tar.gz
+[2024-04-01 12:24:31] INFO root fetch - processPackages [analysta-index]: Downloading https://files.pythonhosted.org/packages/ba/b4/33785982f782c702583fb17e14729d42cb8e9e1112a6cc6102f8435d1b45/analysta_index-0.2.9.tar.gz
+[2024-04-01 12:24:31] INFO root fetch - processPackages [scipion-em-flexutils]: Downloading https://files.pythonhosted.org/packages/34/b8/82473d400a388e2bc3fcc2863f12360fa2ea4aefe7d073c3ed016fd334d3/scipion-em-flexutils-3.1.6.tar.gz
+[2024-04-01 12:24:31] INFO root fetch - processPackages [streamlit-chart-js]: executing diffoscope
+[2024-04-01 12:24:31] INFO root fetch - processPackages [streamlit-chart-js]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_chart_js-0.0.3.tar.gz tmp/streamlit_chart_js-0.0.4.tar.gz --markdown 20240401/s/streamlit-chart-js/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-01 12:24:31] INFO root fetch - processPackages [analysta-index]: executing diffoscope
+[2024-04-01 12:24:31] INFO root fetch - processPackages [analysta-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/analysta_index-0.2.8.tar.gz tmp/analysta_index-0.2.9.tar.gz --markdown 20240401/a/analysta-index/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 12:24:31] INFO root fetch - processPackages [scipion-em-flexutils]: executing diffoscope
+[2024-04-01 12:24:31] INFO root fetch - processPackages [scipion-em-flexutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-flexutils-3.1.5.tar.gz tmp/scipion-em-flexutils-3.1.6.tar.gz --markdown 20240401/s/scipion-em-flexutils/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2024-04-01 12:24:32] INFO root fetch - processPackages [streamlit-chart-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chart_js-0.0.3.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - processPackages [streamlit-chart-js]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_chart_js-0.0.4.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - main [MainThread]: End processing [streamlit-chart-js]: success
+[2024-04-01 12:24:32] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.8.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - processPackages [analysta-index]: Remove: archive file [/home/abi/fetcher/tmp/analysta_index-0.2.9.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - main [MainThread]: End processing [analysta-index]: success
+[2024-04-01 12:24:32] INFO root fetch - processPackages [scipion-em-flexutils]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-flexutils-3.1.5.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - processPackages [scipion-em-flexutils]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-flexutils-3.1.6.tar.gz]
+[2024-04-01 12:24:32] INFO root fetch - main [MainThread]: End processing [scipion-em-flexutils]: success
+[2024-04-01 12:24:32] INFO root fetch - main [MainThread]: Store serial: [22568158]
