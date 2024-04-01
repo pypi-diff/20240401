@@ -8593,3 +8593,117 @@ EOFError: EOF read where object expected
 [2024-04-01 18:02:22] INFO root fetch - processPackages [tensorneko-util]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_util-0.3.9.tar.gz]
 [2024-04-01 18:02:22] INFO root fetch - main [MainThread]: End processing [tensorneko-util]: success
 [2024-04-01 18:02:22] INFO root fetch - main [MainThread]: Store serial: [22571652]
+[2024-04-01 18:04:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571652]
+[2024-04-01 18:04:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mongo-qas
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rocat
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorneko
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal-client
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gridworks-protocol
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: breezy
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: threadmem
+[2024-04-01 18:04:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flatfile
+[2024-04-01 18:04:31] INFO root fetch - processPackages [threadmem]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 18:04:31] WARNING root fetch - processPackages [rocat]: Skipping, unable to determine old version
+[2024-04-01 18:04:31] INFO root fetch - processPackages [rocat]: Start processing: pulumi-genesiscloud
+[2024-04-01 18:04:31] INFO root fetch - main [MainThread]: End processing [rocat] error
+[2024-04-01 18:04:31] INFO root fetch - processPackages [flatfile]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/d1/30/a9cf7f0975ba0079eb4b0074823ecadf7175a720835daa0dfe3c4994eb7a/threadmem-0.2.8.tar.gz
+[2024-04-01 18:04:31] INFO root fetch - processPackages [mongo-qas]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [gridworks-protocol]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [tensorneko]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [fastlane-bot]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [pulumi-genesiscloud]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-01 18:04:31] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-01 18:04:32] INFO root fetch - processPackages [breezy]: New version: [3.3.6] Old Version: [3.3.4]
+[2024-04-01 18:04:32] INFO root fetch - processPackages [flatfile]: Downloading https://files.pythonhosted.org/packages/ec/24/8d18810b1c138df03b1811a505e7d7d3a082c1e8f66b21a1e2db78ef9002/flatfile-0.0.8.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/77/5c/49a7f4d023994c8ad609fb31ba823b059e6d32c989664ef82746571674a8/gridworks_protocol-0.7.1.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [mongo-qas]: Downloading https://files.pythonhosted.org/packages/62/4a/2fd45a7e3ef2ca19e6d17d749361251c0cc7ec910a7b084dc989adbb5d88/mongo-qas-0.2.3.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/28/25/f4cbb7840b23a825490bf99de383f3384ade50f72a1995c6d2eda5c8321e/fastlane_bot-3.1.1-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/05/a1/337b7f3145cc0e8d6e495d974fd66dbef2b9998d03157de226fe5f78a6b4/tensorneko-0.3.8.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/7b/eb/c1987063b7330a56617c62d967ff70d44c2fde9e6c027effd7bd05f44cfc/pulumi_genesiscloud-0.0.8.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [threadmem]: Downloading https://files.pythonhosted.org/packages/87/25/85a9dacfcff4df9fa520c1badc3111f837a0e83a4abc57ead714a4c4b42b/threadmem-0.2.9.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [breezy]: Downloading https://files.pythonhosted.org/packages/5d/6e/cf538824a8ee831c761714f57803da7ba556e2bdfacd039ce8e5f27cbf98/breezy-3.3.4.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [threadmem]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [threadmem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadmem-0.2.8.tar.gz tmp/threadmem-0.2.9.tar.gz --markdown 20240401/t/threadmem/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [gridworks-protocol]: Downloading https://files.pythonhosted.org/packages/d8/7a/153d18b1fce968547530cd1ade5d256fb6e1ab87d415e06d6a93eca73a0c/gridworks_protocol-0.7.2.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [flatfile]: Downloading https://files.pythonhosted.org/packages/03/82/43177dd4c89426771c323a814f05bad69389ca1469012965e33091f7577e/flatfile-0.0.9.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [mongo-qas]: Downloading https://files.pythonhosted.org/packages/50/e6/00dd29abe77f2dc209de1d0b4ad325cfaeb6dd4d99731b1fcaf0688a7ff6/mongo-qas-0.2.4.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/b6/64/d4bb6c1bd1cc2b12b84151f2ed58ba71acd877bf8e0746ba08973cc3234d/fastlane_bot-3.1.2-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [gridworks-protocol]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [gridworks-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_protocol-0.7.1.tar.gz tmp/gridworks_protocol-0.7.2.tar.gz --markdown 20240401/g/gridworks-protocol/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [mongo-qas]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [mongo-qas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongo-qas-0.2.3.tar.gz tmp/mongo-qas-0.2.4.tar.gz --markdown 20240401/m/mongo-qas/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [flatfile]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [flatfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatfile-0.0.8.tar.gz tmp/flatfile-0.0.9.tar.gz --markdown 20240401/f/flatfile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [pulumi-genesiscloud]: Downloading https://files.pythonhosted.org/packages/85/48/c33e3e8789275770f6ecf59b3f8ba30057d291ef8fff95f7d0077bb2638c/pulumi_genesiscloud-0.0.9.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [tensorneko]: Downloading https://files.pythonhosted.org/packages/2f/15/74760826105ec8ad24dee75a9910cff8a2bf12fe3ba737a19330c158b2d5/tensorneko-0.3.9.tar.gz
+[2024-04-01 18:04:32] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-3.1.1-py3-none-any.whl.zip tmp/fastlane_bot-3.1.2-py3-none-any.whl.zip --markdown 20240401/f/fastlane-bot/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-01 18:04:32] INFO root fetch - processPackages [pulumi-genesiscloud]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [pulumi-genesiscloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_genesiscloud-0.0.8.tar.gz tmp/pulumi_genesiscloud-0.0.9.tar.gz --markdown 20240401/p/pulumi-genesiscloud/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:32] INFO root fetch - processPackages [tensorneko]: executing diffoscope
+[2024-04-01 18:04:32] INFO root fetch - processPackages [tensorneko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko-0.3.8.tar.gz tmp/tensorneko-0.3.9.tar.gz --markdown 20240401/t/tensorneko/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240401/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240401/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-01 18:04:33] INFO root fetch - processPackages [breezy]: Downloading https://files.pythonhosted.org/packages/3b/02/4be58921dcf9240858cc0f58543d2fe6e54a091b295963a6a60ee254dffc/breezy-3.3.6.tar.gz
+[2024-04-01 18:04:33] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.8.tar.gz]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [threadmem]: Start processing: biosequtils
+[2024-04-01 18:04:33] INFO root fetch - main [MainThread]: End processing [threadmem]: success
+[2024-04-01 18:04:33] INFO root fetch - processPackages [biosequtils]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [mongo-qas]: Remove: archive file [/home/abi/fetcher/tmp/mongo-qas-0.2.3.tar.gz]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [mongo-qas]: Remove: archive file [/home/abi/fetcher/tmp/mongo-qas-0.2.4.tar.gz]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [mongo-qas]: Start processing: odfdo
+[2024-04-01 18:04:33] INFO root fetch - main [MainThread]: End processing [mongo-qas]: success
+[2024-04-01 18:04:33] INFO root fetch - processPackages [breezy]: executing diffoscope
+[2024-04-01 18:04:33] INFO root fetch - processPackages [breezy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breezy-3.3.4.tar.gz tmp/breezy-3.3.6.tar.gz --markdown 20240401/b/breezy/3.3.4-3.3.6/diff.md --exclude *.pyd
+[2024-04-01 18:04:33] INFO root fetch - processPackages [biosequtils]: Downloading https://files.pythonhosted.org/packages/9a/9c/924795d49ea353a68cbcdec0608520ffd685f1fe5537d80cf43198089737/biosequtils-1.0.2.tar.gz
+[2024-04-01 18:04:33] INFO root fetch - processPackages [odfdo]: New version: [3.7.7] Old Version: [3.7.6]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-01 18:04:33] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-01 18:04:33] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [biosequtils]: Downloading https://files.pythonhosted.org/packages/d3/e0/9cfe12dda490afc13651e851cb0f12a87b7b54509a21d9c68b4ffb010f52/biosequtils-1.0.3.tar.gz
+[2024-04-01 18:04:34] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/e6/fa/8f8a6be477c7d5118e4a423aa89ef2d349e2af20c025b1985b036d5df5ac/odfdo-3.7.6.tar.gz
+[2024-04-01 18:04:34] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.8.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [pulumi-genesiscloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_genesiscloud-0.0.9.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [pulumi-genesiscloud]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.8.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [tensorneko]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko-0.3.9.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [tensorneko]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [biosequtils]: executing diffoscope
+[2024-04-01 18:04:34] INFO root fetch - processPackages [biosequtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosequtils-1.0.2.tar.gz tmp/biosequtils-1.0.3.tar.gz --markdown 20240401/b/biosequtils/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-01 18:04:34] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.1-py3-none-any.whl.zip]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-3.1.2-py3-none-any.whl.zip]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [odfdo]: Downloading https://files.pythonhosted.org/packages/1d/7f/4af5e6f7f8bbe2c82fe49773f14d2f43244c5fddac1502e8d6fd18aa6464/odfdo-3.7.7.tar.gz
+[2024-04-01 18:04:34] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.7.1.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [gridworks-protocol]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_protocol-0.7.2.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [gridworks-protocol]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [flatfile]: Remove: archive file [/home/abi/fetcher/tmp/flatfile-0.0.8.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [flatfile]: Remove: archive file [/home/abi/fetcher/tmp/flatfile-0.0.9.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [flatfile]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-01 18:04:34] INFO root fetch - processPackages [odfdo]: executing diffoscope
+[2024-04-01 18:04:34] INFO root fetch - processPackages [odfdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odfdo-3.7.6.tar.gz tmp/odfdo-3.7.7.tar.gz --markdown 20240401/o/odfdo/3.7.6-3.7.7/diff.md --exclude *.pyd
+[2024-04-01 18:04:34] INFO root fetch - processPackages [biosequtils]: Remove: archive file [/home/abi/fetcher/tmp/biosequtils-1.0.2.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - processPackages [biosequtils]: Remove: archive file [/home/abi/fetcher/tmp/biosequtils-1.0.3.tar.gz]
+[2024-04-01 18:04:34] INFO root fetch - main [MainThread]: End processing [biosequtils]: success
+[2024-04-01 18:04:35] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.6.tar.gz]
+[2024-04-01 18:04:35] INFO root fetch - processPackages [odfdo]: Remove: archive file [/home/abi/fetcher/tmp/odfdo-3.7.7.tar.gz]
+[2024-04-01 18:04:35] INFO root fetch - main [MainThread]: End processing [odfdo]: success
+[2024-04-01 18:04:49] INFO root fetch - processPackages [breezy]: Remove: archive file [/home/abi/fetcher/tmp/breezy-3.3.4.tar.gz]
+[2024-04-01 18:04:49] INFO root fetch - processPackages [breezy]: Remove: archive file [/home/abi/fetcher/tmp/breezy-3.3.6.tar.gz]
+[2024-04-01 18:04:49] INFO root fetch - main [MainThread]: End processing [breezy]: success
+[2024-04-01 18:04:49] INFO root fetch - main [MainThread]: Store serial: [22571689]
