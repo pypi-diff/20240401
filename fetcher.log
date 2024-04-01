@@ -1520,3 +1520,24 @@ EOFError: EOF read where object expected
 [2024-04-01 12:45:28] INFO root fetch - processPackages [velbus-aio]: Remove: archive file [/home/abi/fetcher/tmp/velbus-aio-2024.4.0.tar.gz]
 [2024-04-01 12:45:28] INFO root fetch - main [MainThread]: End processing [velbus-aio]: success
 [2024-04-01 12:45:28] INFO root fetch - main [MainThread]: Store serial: [22568304]
+[2024-04-01 12:47:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22568304]
+[2024-04-01 12:47:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-01 12:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Office365-REST-Python-Client
+[2024-04-01 12:47:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oceanai
+[2024-04-01 12:47:44] INFO root fetch - processPackages [oceanai]: New version: [1.0.0a5] Old Version: [1.0.0a23]
+[2024-04-01 12:47:44] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/44/99/d5e627a30466ad4a41e8ee72eeed6787530d8a6e7b77205d58bb46e8c5a7/oceanai-1.0.0a23.tar.gz
+[2024-04-01 12:47:44] INFO root fetch - processPackages [Office365-REST-Python-Client]: New version: [2.5.7] Old Version: [2.5.6]
+[2024-04-01 12:47:44] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/bf/00/1d21682b0ee7e8914b92c09564c9346fbdb7982d81e96f251044e18a7a03/Office365-REST-Python-Client-2.5.6.tar.gz
+[2024-04-01 12:47:44] INFO root fetch - processPackages [oceanai]: Downloading https://files.pythonhosted.org/packages/e2/2e/50ce0fa8c36664521d86bdf73f078d5b29e258c450bbbe4eb3eebccfc9e2/oceanai-1.0.0a5.tar.gz
+[2024-04-01 12:47:44] INFO root fetch - processPackages [oceanai]: executing diffoscope
+[2024-04-01 12:47:44] INFO root fetch - processPackages [oceanai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oceanai-1.0.0a23.tar.gz tmp/oceanai-1.0.0a5.tar.gz --markdown 20240401/o/oceanai/1.0.0a23-1.0.0a5/diff.md --exclude *.pyd
+[2024-04-01 12:47:44] INFO root fetch - processPackages [Office365-REST-Python-Client]: Downloading https://files.pythonhosted.org/packages/fc/00/01ba9d17ed3b109e03b55e4d4bf5ac7ecf9086718b42a2d8a81d6703495c/Office365-REST-Python-Client-2.5.7.tar.gz
+[2024-04-01 12:47:45] INFO root fetch - processPackages [Office365-REST-Python-Client]: executing diffoscope
+[2024-04-01 12:47:45] INFO root fetch - processPackages [Office365-REST-Python-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Office365-REST-Python-Client-2.5.6.tar.gz tmp/Office365-REST-Python-Client-2.5.7.tar.gz --markdown 20240401/O/Office365-REST-Python-Client/2.5.6-2.5.7/diff.md --exclude *.pyd
+[2024-04-01 12:47:45] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a23.tar.gz]
+[2024-04-01 12:47:45] INFO root fetch - processPackages [oceanai]: Remove: archive file [/home/abi/fetcher/tmp/oceanai-1.0.0a5.tar.gz]
+[2024-04-01 12:47:45] INFO root fetch - main [MainThread]: End processing [oceanai]: success
+[2024-04-01 12:47:49] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.5.6.tar.gz]
+[2024-04-01 12:47:49] INFO root fetch - processPackages [Office365-REST-Python-Client]: Remove: archive file [/home/abi/fetcher/tmp/Office365-REST-Python-Client-2.5.7.tar.gz]
+[2024-04-01 12:47:49] INFO root fetch - main [MainThread]: End processing [Office365-REST-Python-Client]: success
+[2024-04-01 12:47:49] INFO root fetch - main [MainThread]: Store serial: [22568311]
