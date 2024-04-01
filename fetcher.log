@@ -16418,3 +16418,71 @@ EOFError: EOF read where object expected
 [2024-04-01 22:49:38] ERROR root fetch - processPackages [moto]: Timeout during execution of pkgdiff
 [2024-04-01 22:49:38] INFO root fetch - main [MainThread]: End processing [moto] error
 [2024-04-01 22:49:38] INFO root fetch - main [MainThread]: Store serial: [22575271]
+[2024-04-01 22:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22575271]
+[2024-04-01 22:51:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-templates
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-dcdb
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elodin
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepview-converter
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: beep-utils
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tencentcloud-sdk-python-dlc
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lastmile-eval
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-domain
+[2024-04-01 22:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-explorer
+[2024-04-01 22:51:47] INFO root fetch - processPackages [model-explorer]: New version: [0.0.62] Old Version: [0.0.61]
+[2024-04-01 22:51:47] WARNING root fetch - processPackages [fast-templates]: Skipping, unable to determine old version
+[2024-04-01 22:51:47] INFO root fetch - main [MainThread]: End processing [fast-templates] error
+[2024-04-01 22:51:47] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/0a/2a/2584a062fa2172e1ef34dc35f549bb96e9fa7c6cc21d51ef2061ef8b67b3/model-explorer-0.0.61.tar.gz
+[2024-04-01 22:51:47] INFO root fetch - processPackages [elodin]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-01 22:51:47] WARNING root fetch - processPackages [beep-utils]: Skipping, unable to determine old version
+[2024-04-01 22:51:47] INFO root fetch - main [MainThread]: End processing [beep-utils] error
+[2024-04-01 22:51:47] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 22:51:47] INFO root fetch - processPackages [deepview-converter]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-04-01 22:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:51:47] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/ad/40/2de0b564f0651b488b2901648d6808e8b56370ecd895ef3ec7943d7437ca/lastmile-eval-0.0.4.tar.gz
+[2024-04-01 22:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: New version: [3.0.999] Old Version: [3.0.998]
+[2024-04-01 22:51:47] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/24/f7/74466a9f6b1cc5a3d78dc1ec322350a9fb42121d3cec89b6977012c51a31/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl
+[2024-04-01 22:51:47] INFO root fetch - processPackages [elodin]: Downloading https://files.pythonhosted.org/packages/c3/f1/1d6995a700eefa990ed143573f32cde3e7f4c51a4c4f93b6bc58a1ed1733/elodin-0.1.7-cp310-abi3-manylinux_2_35_x86_64.whl
+[2024-04-01 22:51:47] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/77/26/882302093c37af75b0bbd2eba6bd2a31eaf1070d14829fd8a5663bfabbed/tencentcloud-sdk-python-dlc-3.0.998.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Downloading https://files.pythonhosted.org/packages/e2/6a/2f36d4619fa0ea57eec22769415aec0bb3847d096b268f0c1084025779d2/tencentcloud-sdk-python-domain-3.0.998.tar.gz
+[2024-04-01 22:51:48] WARNING root fetch - processPackages [elodin]: Skipping package: exceeds size limit 84040142>=10485760
+[2024-04-01 22:51:48] INFO root fetch - main [MainThread]: End processing [elodin] error
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/1e/84/e6447d63875295fa993392beae63077aeb98badcb7bf94337b76c1516fb0/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/e2/84/179c892577d7c47f2dcb58996784d28cb9b5e82da7918a7f0e4a72450828/model-explorer-0.0.62.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/b2/0e10b6c16c064035f04f508e0014441a37f32040de81b4eb60cc3230916c/lastmile-eval-0.0.5.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/dd/0d/a7dd1e2cf650aed4ec4cd996a10e406c22f613f5b01ae3f42e6862ac2e36/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl
+[2024-04-01 22:51:48] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile-eval-0.0.4.tar.gz tmp/lastmile-eval-0.0.5.tar.gz --markdown 20240401/l/lastmile-eval/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Downloading https://files.pythonhosted.org/packages/33/56/05b42a08253b3f919b7dbb1462b60657ea3bbc8990e17befd8990a34bd43/tencentcloud-sdk-python-domain-3.0.999.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Downloading https://files.pythonhosted.org/packages/b7/d8/f75b5b755a1f360078e9fa445d2acd7bb3fe3eb14d4a2def5ae250f05faa/tencentcloud-sdk-python-dlc-3.0.999.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.61.tar.gz tmp/model-explorer-0.0.62.tar.gz --markdown 20240401/m/model-explorer/0.0.61-0.0.62/diff.md --exclude *.pyd
+[2024-04-01 22:51:48] INFO root fetch - processPackages [deepview-converter]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [deepview-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl.zip tmp/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl.zip --markdown 20240401/d/deepview-converter/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-domain-3.0.998.tar.gz tmp/tencentcloud-sdk-python-domain-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-domain/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Downloading https://files.pythonhosted.org/packages/57/78/20bd5c842526739c8595b5a11bedf4c9a88cbd40a3f78e93b51c52e65a8d/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-dlc/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: executing diffoscope
+[2024-04-01 22:51:48] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz --markdown 20240401/t/tencentcloud-sdk-python-dcdb/3.0.998-3.0.999/diff.md --exclude *.pyd
+[2024-04-01 22:51:49] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.4.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.5.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-04-01 22:51:49] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [deepview-converter]: success
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-domain-3.0.998.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-domain]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-domain-3.0.999.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-domain]: success
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.998.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-dlc]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dlc-3.0.999.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dlc]: success
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.998.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [tencentcloud-sdk-python-dcdb]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-dcdb-3.0.999.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-dcdb]: success
+[2024-04-01 22:51:49] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.61.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.62.tar.gz]
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-01 22:51:49] INFO root fetch - main [MainThread]: Store serial: [22575346]
