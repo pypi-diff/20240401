@@ -3283,3 +3283,42 @@ EOFError: EOF read where object expected
 [2024-04-01 14:28:32] INFO root fetch - processPackages [textual]: Remove: archive file [/home/abi/fetcher/tmp/textual-0.9.1.tar.gz]
 [2024-04-01 14:28:32] INFO root fetch - main [MainThread]: End processing [textual]: success
 [2024-04-01 14:28:32] INFO root fetch - main [MainThread]: Store serial: [22569151]
+[2024-04-01 14:30:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569151]
+[2024-04-01 14:30:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-01 14:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapelets
+[2024-04-01 14:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytubefix
+[2024-04-01 14:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: volcengine
+[2024-04-01 14:30:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyE2
+[2024-04-01 14:30:40] INFO root fetch - processPackages [pytubefix]: New version: [4.0rc3] Old Version: [4.0rc2]
+[2024-04-01 14:30:40] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/58/6a/7abe975782d31e3e634b1bee7ac45c92e53c64e923f56f4349e43c964285/pytubefix-4.0rc2.tar.gz
+[2024-04-01 14:30:40] INFO root fetch - processPackages [shapelets]: New version: [1.0] Old Version: [0.2]
+[2024-04-01 14:30:40] INFO root fetch - processPackages [volcengine]: New version: [1.0.98] Old Version: [1.0.97]
+[2024-04-01 14:30:40] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-01 14:30:40] INFO root fetch - processPackages [shapelets]: Downloading https://files.pythonhosted.org/packages/90/d5/7690ba12650c34471c5f479818ac563bf92efc2ab3d6e3712e59d1d6e227/shapelets-0.2.tar.gz
+[2024-04-01 14:30:40] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/ce/9b/1b86873adf515c13494ab2e6dcaa3348bd96a8bb57fa364b135a7f0f1192/volcengine-1.0.97.tar.gz
+[2024-04-01 14:30:40] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-01 14:30:40] INFO root fetch - processPackages [pytubefix]: Downloading https://files.pythonhosted.org/packages/23/9b/d456914c1611732ff8e1ae0120bf2e9a520b3ce1ef46723ca8f643ba69ca/pytubefix-4.0rc3.tar.gz
+[2024-04-01 14:30:41] INFO root fetch - processPackages [pytubefix]: executing diffoscope
+[2024-04-01 14:30:41] INFO root fetch - processPackages [pytubefix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytubefix-4.0rc2.tar.gz tmp/pytubefix-4.0rc3.tar.gz --markdown 20240401/p/pytubefix/4.0rc2-4.0rc3/diff.md --exclude *.pyd
+[2024-04-01 14:30:41] INFO root fetch - processPackages [shapelets]: Downloading https://files.pythonhosted.org/packages/f6/92/5498ee837aaf106157388cdec3f756c4564e8395c68d7dd399ed5a0b0046/shapelets-1.0.tar.gz
+[2024-04-01 14:30:41] INFO root fetch - processPackages [volcengine]: Downloading https://files.pythonhosted.org/packages/26/e5/298ef23df57f88b996ff862b7ee71ace3117ef389b1773b7af11f6a4c3e4/volcengine-1.0.98.tar.gz
+[2024-04-01 14:30:41] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-01 14:30:41] INFO root fetch - processPackages [shapelets]: executing diffoscope
+[2024-04-01 14:30:41] INFO root fetch - processPackages [shapelets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapelets-0.2.tar.gz tmp/shapelets-1.0.tar.gz --markdown 20240401/s/shapelets/0.2-1.0/diff.md --exclude *.pyd
+[2024-04-01 14:30:41] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-01 14:30:41] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240401/P/PyE2/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-01 14:30:41] INFO root fetch - processPackages [volcengine]: executing diffoscope
+[2024-04-01 14:30:41] INFO root fetch - processPackages [volcengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volcengine-1.0.97.tar.gz tmp/volcengine-1.0.98.tar.gz --markdown 20240401/v/volcengine/1.0.97-1.0.98/diff.md --exclude *.pyd
+[2024-04-01 14:30:41] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc2.tar.gz]
+[2024-04-01 14:30:41] INFO root fetch - processPackages [pytubefix]: Remove: archive file [/home/abi/fetcher/tmp/pytubefix-4.0rc3.tar.gz]
+[2024-04-01 14:30:41] INFO root fetch - main [MainThread]: End processing [pytubefix]: success
+[2024-04-01 14:30:41] INFO root fetch - processPackages [shapelets]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-0.2.tar.gz]
+[2024-04-01 14:30:41] INFO root fetch - processPackages [shapelets]: Remove: archive file [/home/abi/fetcher/tmp/shapelets-1.0.tar.gz]
+[2024-04-01 14:30:41] INFO root fetch - main [MainThread]: End processing [shapelets]: success
+[2024-04-01 14:30:42] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-01 14:30:42] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-01 14:30:42] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-01 14:30:43] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.97.tar.gz]
+[2024-04-01 14:30:43] INFO root fetch - processPackages [volcengine]: Remove: archive file [/home/abi/fetcher/tmp/volcengine-1.0.98.tar.gz]
+[2024-04-01 14:30:43] INFO root fetch - main [MainThread]: End processing [volcengine]: success
+[2024-04-01 14:30:43] INFO root fetch - main [MainThread]: Store serial: [22569163]
