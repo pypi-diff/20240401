@@ -3568,3 +3568,65 @@ EOFError: EOF read where object expected
 [2024-04-01 14:46:11] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-04-01 14:46:11] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-04-01 14:46:11] INFO root fetch - main [MainThread]: Store serial: [22569243]
+[2024-04-01 14:48:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22569243]
+[2024-04-01 14:48:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tet
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-bigquery
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-images-creator
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: godspeed-api
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botnikkk
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: podcast-archiver
+[2024-04-01 14:48:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aioaquarea
+[2024-04-01 14:48:19] INFO root fetch - processPackages [godspeed-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [video-images-creator]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [botnikkk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [godspeed-api]: Downloading https://files.pythonhosted.org/packages/84/c6/bd775561a0a8964740ca2613bfcddae31aef30c086fbe1d661d1ef157373/godspeed_api-0.0.2.tar.gz
+[2024-04-01 14:48:19] INFO root fetch - processPackages [aioaquarea]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/9c/fe/d93664cdaf5f5d449ccb19dc9b9a10674e5fdb9d6c03583ebd01b79b5935/video_images_creator-0.2.8.tar.gz
+[2024-04-01 14:48:19] INFO root fetch - processPackages [tet]: New version: [0.4.1] Old Version: [0.4.0.dev1]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [podcast-archiver]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-01 14:48:19] INFO root fetch - processPackages [google-cloud-bigquery]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-01 14:48:20] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/c8/ed/5f49eaf21663f0a71ee15502f61f0815716c15789baaa10c1bacbcef8a99/botnikkk-0.0.4.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [tet]: Downloading https://files.pythonhosted.org/packages/d6/19/34f6d7bdd59dae15a165a4faf043feb7979d313766151c360b4001f9c1c3/tet-0.4.0.dev1.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [google-cloud-bigquery]: Downloading https://files.pythonhosted.org/packages/49/e3/ad5fed86bdec58c69070b2d7b65317ae67161ebb39bfae7e3453cd40e321/google-cloud-bigquery-3.8.0.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [aioaquarea]: Downloading https://files.pythonhosted.org/packages/f6/0b/7f674075f963b91f3ceed2aec912d1505ad6c03fc1cbefe1354aa7335ff0/aioaquarea-0.7.1.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [podcast-archiver]: Downloading https://files.pythonhosted.org/packages/b2/1f/31cc45dd4d65cf35b2645b77d7c6010d1b8dc563ed2ac4f1298750574b51/podcast_archiver-1.3.0.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [godspeed-api]: Downloading https://files.pythonhosted.org/packages/72/95/076f381fd4dfc2989c752bb9ce7d4dffa5ce4da4a9e4ae044d5274d07b79/godspeed_api-0.0.3.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [botnikkk]: Downloading https://files.pythonhosted.org/packages/c2/04/fe9dfbc3154b852a11f1f1111aa65fae52881e6ae7569356d17ed6713be8/botnikkk-0.0.5.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [godspeed-api]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [godspeed-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godspeed_api-0.0.2.tar.gz tmp/godspeed_api-0.0.3.tar.gz --markdown 20240401/g/godspeed-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-01 14:48:20] INFO root fetch - processPackages [video-images-creator]: Downloading https://files.pythonhosted.org/packages/a7/78/5774aa3a1c705ebf467205b50d93347cc80cd0726ad8d15443a820266d78/video_images_creator-0.2.9.tar.gz
+[2024-04-01 14:48:20] ERROR root fetch - processPackages [podcast-archiver]: Unable to fetch info: No such project/version 'podcast-archiver' 1.3.1
+[2024-04-01 14:48:20] INFO root fetch - main [MainThread]: End processing [podcast-archiver] error
+[2024-04-01 14:48:20] INFO root fetch - processPackages [botnikkk]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [botnikkk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botnikkk-0.0.4.tar.gz tmp/botnikkk-0.0.5.tar.gz --markdown 20240401/b/botnikkk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-01 14:48:20] INFO root fetch - processPackages [aioaquarea]: Downloading https://files.pythonhosted.org/packages/9b/4d/cfeae0e75d026c65c7caf838bab3be4bd08600854dbfbe56831132fbf755/aioaquarea-0.7.2.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [tet]: Downloading https://files.pythonhosted.org/packages/fb/e0/c41d01e00d9f2bf77075f89825fe4a2b36ee72ca298b0abebd495c5e56c2/tet-0.4.1.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [tet]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [tet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tet-0.4.0.dev1.tar.gz tmp/tet-0.4.1.tar.gz --markdown 20240401/t/tet/0.4.0.dev1-0.4.1/diff.md --exclude *.pyd
+[2024-04-01 14:48:20] INFO root fetch - processPackages [google-cloud-bigquery]: Downloading https://files.pythonhosted.org/packages/9f/41/77c0ec111fb6eb0c0d6728149f4dbbf85e3f56ff7a2c3051f2f6b2fa14b0/google-cloud-bigquery-3.9.0.tar.gz
+[2024-04-01 14:48:20] INFO root fetch - processPackages [aioaquarea]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [aioaquarea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioaquarea-0.7.1.tar.gz tmp/aioaquarea-0.7.2.tar.gz --markdown 20240401/a/aioaquarea/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-01 14:48:20] INFO root fetch - processPackages [google-cloud-bigquery]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [google-cloud-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-bigquery-3.8.0.tar.gz tmp/google-cloud-bigquery-3.9.0.tar.gz --markdown 20240401/g/google-cloud-bigquery/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-01 14:48:20] INFO root fetch - processPackages [video-images-creator]: executing diffoscope
+[2024-04-01 14:48:20] INFO root fetch - processPackages [video-images-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_images_creator-0.2.8.tar.gz tmp/video_images_creator-0.2.9.tar.gz --markdown 20240401/v/video-images-creator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-01 14:48:21] INFO root fetch - processPackages [godspeed-api]: Remove: archive file [/home/abi/fetcher/tmp/godspeed_api-0.0.2.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - processPackages [godspeed-api]: Remove: archive file [/home/abi/fetcher/tmp/godspeed_api-0.0.3.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - main [MainThread]: End processing [godspeed-api]: success
+[2024-04-01 14:48:21] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.4.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - processPackages [botnikkk]: Remove: archive file [/home/abi/fetcher/tmp/botnikkk-0.0.5.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - main [MainThread]: End processing [botnikkk]: success
+[2024-04-01 14:48:21] INFO root fetch - processPackages [aioaquarea]: Remove: archive file [/home/abi/fetcher/tmp/aioaquarea-0.7.1.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - processPackages [aioaquarea]: Remove: archive file [/home/abi/fetcher/tmp/aioaquarea-0.7.2.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - main [MainThread]: End processing [aioaquarea]: success
+[2024-04-01 14:48:21] INFO root fetch - processPackages [tet]: Remove: archive file [/home/abi/fetcher/tmp/tet-0.4.0.dev1.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - processPackages [tet]: Remove: archive file [/home/abi/fetcher/tmp/tet-0.4.1.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - main [MainThread]: End processing [tet]: success
+[2024-04-01 14:48:21] INFO root fetch - processPackages [google-cloud-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-3.8.0.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - processPackages [google-cloud-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-bigquery-3.9.0.tar.gz]
+[2024-04-01 14:48:21] INFO root fetch - main [MainThread]: End processing [google-cloud-bigquery]: success
+[2024-04-01 14:48:22] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.8.tar.gz]
+[2024-04-01 14:48:22] INFO root fetch - processPackages [video-images-creator]: Remove: archive file [/home/abi/fetcher/tmp/video_images_creator-0.2.9.tar.gz]
+[2024-04-01 14:48:22] INFO root fetch - main [MainThread]: End processing [video-images-creator]: success
+[2024-04-01 14:48:22] INFO root fetch - main [MainThread]: Store serial: [22569263]
