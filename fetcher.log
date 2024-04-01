@@ -8294,3 +8294,77 @@ EOFError: EOF read where object expected
 [2024-04-01 17:49:06] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.8.0.20240401-py3-none-any.whl.zip]
 [2024-04-01 17:49:06] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
 [2024-04-01 17:49:06] INFO root fetch - main [MainThread]: Store serial: [22571468]
+[2024-04-01 17:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22571468]
+[2024-04-01 17:51:15] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: justogres
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepsparse-nightly
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bhbotlist
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tulona
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-vector-stores-kdbai
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scalifiai-client
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tensorneko-lib
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: harp-proxy
+[2024-04-01 17:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CrunchyrollAPI
+[2024-04-01 17:51:15] INFO root fetch - processPackages [scalifiai-client]: New version: [1.2.0a8] Old Version: [1.2.0a7]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [harp-proxy]: New version: [0.5.0b4] Old Version: [0.5.0b3]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [CrunchyrollAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.8.0.20240401] Old Version: [1.7.0.20240304]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [bhbotlist]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [justogres]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-01 17:51:15] WARNING root fetch - processPackages [tulona]: Skipping, unable to determine old version
+[2024-04-01 17:51:15] INFO root fetch - main [MainThread]: End processing [tulona] error
+[2024-04-01 17:51:15] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [tensorneko-lib]: New version: [0.3.12] Old Version: [0.3.11]
+[2024-04-01 17:51:15] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/43/0f/fa63ed5557643d531500ba487a08d21d9b54ffd418d7c748e304d7001d43/scalifiai-client-1.2.0a7.tar.gz
+[2024-04-01 17:51:15] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/47/c3/4c840a0d3da7428a0f4519a12807caef3020219646668e528987c612ca59/CrunchyrollAPI-0.1.8.tar.gz
+[2024-04-01 17:51:15] INFO root fetch - processPackages [harp-proxy]: Downloading https://files.pythonhosted.org/packages/c5/1e/1b7ee14121f2a499dfb28c7d3fcb45e168b128dc09a9a223c5cc02334553/harp_proxy-0.5.0b3.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/71/de/fa0974b51efa40927a8e3db2e44346aa05686e9602f95dbfca446e72623d/deepsparse-nightly-1.7.0.20240304.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [justogres]: Downloading https://files.pythonhosted.org/packages/83/af/0429df44b59681a6eae793d74acee810d5d3e04a7ecbc7bf7a0444c64a4b/justogres-3.0.8.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [bhbotlist]: Downloading https://files.pythonhosted.org/packages/36/c5/b8a2158fe2f6c084d6787d274b1d7d26d670727eb9043ab49b3ec216f0d1/bhbotlist-3.0.4.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/20/eb/b753e088ea12e365eadc23040da6cba4afb0cdd2b7bdb6ff83b9dd943531/llama_index_vector_stores_kdbai-0.1.3.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [tensorneko-lib]: Downloading https://files.pythonhosted.org/packages/ec/1d/c560d87d612ba0f8df71d8e4782e37e54fe9575654829fc23128f6a26e76/tensorneko_lib-0.3.11.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/97/bf/9695615b27883251a6c836eafd3dbecfb350d07f29ef5d502b6b0dae7339/CrunchyrollAPI-0.1.9.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/bd/c4/3ab80f33621a6110e942d2cb9066ecd47cbe5e28317a211b51c03edd9623/scalifiai-client-1.2.0a8.tar.gz
+[2024-04-01 17:51:16] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 46898852>=10485760
+[2024-04-01 17:51:16] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2024-04-01 17:51:16] INFO root fetch - processPackages [CrunchyrollAPI]: executing diffoscope
+[2024-04-01 17:51:16] INFO root fetch - processPackages [CrunchyrollAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrunchyrollAPI-0.1.8.tar.gz tmp/CrunchyrollAPI-0.1.9.tar.gz --markdown 20240401/C/CrunchyrollAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 17:51:16] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-01 17:51:16] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a7.tar.gz tmp/scalifiai-client-1.2.0a8.tar.gz --markdown 20240401/s/scalifiai-client/1.2.0a7-1.2.0a8/diff.md --exclude *.pyd
+[2024-04-01 17:51:16] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/bc/af/4f024343a195ff844f3e2a3ffa7c05bf9e9d8295ef154598b302ba8a3b49/llama_index_vector_stores_kdbai-0.1.4.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [bhbotlist]: Downloading https://files.pythonhosted.org/packages/43/12/0bd1dea79434144709e832264fd056d710bb70bde69ba360fa268b98baaf/bhbotlist-3.0.5.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [justogres]: Downloading https://files.pythonhosted.org/packages/29/f4/744e1424ffa9209567566b548fa08e568cd74830eea5ae52e6a52fc50a32/justogres-3.0.9.tar.gz
+[2024-04-01 17:51:16] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: executing diffoscope
+[2024-04-01 17:51:16] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_kdbai-0.1.3.tar.gz tmp/llama_index_vector_stores_kdbai-0.1.4.tar.gz --markdown 20240401/l/llama-index-vector-stores-kdbai/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-01 17:51:16] INFO root fetch - processPackages [bhbotlist]: executing diffoscope
+[2024-04-01 17:51:16] INFO root fetch - processPackages [bhbotlist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhbotlist-3.0.4.tar.gz tmp/bhbotlist-3.0.5.tar.gz --markdown 20240401/b/bhbotlist/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2024-04-01 17:51:16] INFO root fetch - processPackages [justogres]: executing diffoscope
+[2024-04-01 17:51:16] INFO root fetch - processPackages [justogres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/justogres-3.0.8.tar.gz tmp/justogres-3.0.9.tar.gz --markdown 20240401/j/justogres/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2024-04-01 17:51:16] INFO root fetch - processPackages [tensorneko-lib]: Downloading https://files.pythonhosted.org/packages/05/24/42e96c48270d190545f1161100f3e16991024c29e5aacc6747a7909fad46/tensorneko_lib-0.3.12-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-01 17:51:16] INFO root fetch - processPackages [harp-proxy]: Downloading https://files.pythonhosted.org/packages/17/b6/2f00374a19b3ca419a75f93d8aa8df111879043a9de0e6232cb2bc196cbc/harp_proxy-0.5.0b4.tar.gz
+[2024-04-01 17:51:17] INFO root fetch - processPackages [harp-proxy]: executing diffoscope
+[2024-04-01 17:51:17] INFO root fetch - processPackages [harp-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harp_proxy-0.5.0b3.tar.gz tmp/harp_proxy-0.5.0b4.tar.gz --markdown 20240401/h/harp-proxy/0.5.0b3-0.5.0b4/diff.md --exclude *.pyd
+[2024-04-01 17:51:17] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.8.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.9.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - main [MainThread]: End processing [CrunchyrollAPI]: success
+[2024-04-01 17:51:17] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a7.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a8.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-01 17:51:17] INFO root fetch - processPackages [justogres]: Remove: archive file [/home/abi/fetcher/tmp/justogres-3.0.8.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - processPackages [justogres]: Remove: archive file [/home/abi/fetcher/tmp/justogres-3.0.9.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - main [MainThread]: End processing [justogres]: success
+[2024-04-01 17:51:17] INFO root fetch - processPackages [bhbotlist]: Remove: archive file [/home/abi/fetcher/tmp/bhbotlist-3.0.4.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - processPackages [bhbotlist]: Remove: archive file [/home/abi/fetcher/tmp/bhbotlist-3.0.5.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - main [MainThread]: End processing [bhbotlist]: success
+[2024-04-01 17:51:17] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.3.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.4.tar.gz]
+[2024-04-01 17:51:17] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-kdbai]: success
+[2024-04-01 17:51:17] INFO root fetch - processPackages [tensorneko-lib]: executing diffoscope
+[2024-04-01 17:51:17] INFO root fetch - processPackages [tensorneko-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorneko_lib-0.3.11.tar.gz tmp/tensorneko_lib-0.3.12-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240401/t/tensorneko-lib/0.3.11-0.3.12/diff.md --exclude *.pyd
+[2024-04-01 17:51:18] INFO root fetch - processPackages [tensorneko-lib]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_lib-0.3.11.tar.gz]
+[2024-04-01 17:51:18] INFO root fetch - processPackages [tensorneko-lib]: Remove: archive file [/home/abi/fetcher/tmp/tensorneko_lib-0.3.12-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-01 17:51:18] INFO root fetch - main [MainThread]: End processing [tensorneko-lib]: success
+[2024-04-01 17:51:18] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b3.tar.gz]
+[2024-04-01 17:51:18] INFO root fetch - processPackages [harp-proxy]: Remove: archive file [/home/abi/fetcher/tmp/harp_proxy-0.5.0b4.tar.gz]
+[2024-04-01 17:51:18] INFO root fetch - main [MainThread]: End processing [harp-proxy]: success
+[2024-04-01 17:51:18] INFO root fetch - main [MainThread]: Store serial: [22571532]
