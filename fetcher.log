@@ -10102,3 +10102,60 @@ EOFError: EOF read where object expected
 [2024-04-01 18:54:38] INFO root fetch - processPackages [ooo-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/ooo_dev_tools-0.9.8.tar.gz]
 [2024-04-01 18:54:38] INFO root fetch - main [MainThread]: End processing [ooo-dev-tools]: success
 [2024-04-01 18:54:38] INFO root fetch - main [MainThread]: Store serial: [22572420]
+[2024-04-01 18:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572420]
+[2024-04-01 18:56:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xarg-python
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deep-agent
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nwb4fp
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spectrum-image
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ontolocy
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: model-explorer
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ontolocy]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.8.0] Old Version: [0.5.7.9]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [xarg-python]: New version: [1.4a1] Old Version: [1.4]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [ontolocy]: Downloading https://files.pythonhosted.org/packages/26/6c/c22da1e78c314f681f3daefdfe4e30c234b2b410fc051bcb1873a86a4dae/ontolocy-0.7.1.tar.gz
+[2024-04-01 18:56:47] INFO root fetch - processPackages [model-explorer]: New version: [0.0.59] Old Version: [0.0.58]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [spectrum-image]: New version: [0.2.1] Old Version: [0.2]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [deep-agent]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-01 18:56:47] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/62/b8/d2714814f0bfda2cd6e84f84888347d1bae3bb6f1fe3d6463d6ad6aef060/nwb4fp-0.5.7.9.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/62/8e/d65d84aaf190f11ac395adcdff35b40dc96a3343f35716c9183c391b2754/xarg-python-1.4.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [ontolocy]: Downloading https://files.pythonhosted.org/packages/b9/12/52946d74f634086de23d20f8729f94e21123ebf021ec27f4ce70671060f8/ontolocy-0.7.2.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/10/21/4e01d2da36e626065b0163bac2f0c57a1749a673269211c592e447267f88/model-explorer-0.0.58.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/08/72/2cd1a00eee486a943648b650dfa082b6f2ce9f471ebd8a8880138e9d7e00/deep_agent-1.1.0.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/61/14/e4d19d30f15ac07e5902f6b4c2fa449e2fcab567b4ebe21c4d6844be8603/spectrum_image-0.2.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [ontolocy]: executing diffoscope
+[2024-04-01 18:56:48] INFO root fetch - processPackages [ontolocy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ontolocy-0.7.1.tar.gz tmp/ontolocy-0.7.2.tar.gz --markdown 20240401/o/ontolocy/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-01 18:56:48] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/9b/cc/7e082e753ddbc34a681b6e80bbe976a14bc2c05843a4e65146e6382fdf62/nwb4fp-0.5.8.0.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-01 18:56:48] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.7.9.tar.gz tmp/nwb4fp-0.5.8.0.tar.gz --markdown 20240401/n/nwb4fp/0.5.7.9-0.5.8.0/diff.md --exclude *.pyd
+[2024-04-01 18:56:48] INFO root fetch - processPackages [xarg-python]: Downloading https://files.pythonhosted.org/packages/e7/ca/e378c6bf17dc17783630a5c09f972aa78c8ee13e27feebeea39495c96cdf/xarg-python-1.4a1.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/13/e9/ccde8c8f2da4d2d8f0fb1a25f1d6e6584b010f9da07ecd7b988e986ce340/spectrum_image-0.2.1.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [deep-agent]: Downloading https://files.pythonhosted.org/packages/b0/21/c35abdd7f273d5b3c7d870ebfa53455c3d5bc20557f0bd1a6004c8b76d90/deep_agent-1.1.1.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [xarg-python]: executing diffoscope
+[2024-04-01 18:56:48] INFO root fetch - processPackages [xarg-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarg-python-1.4.tar.gz tmp/xarg-python-1.4a1.tar.gz --markdown 20240401/x/xarg-python/1.4-1.4a1/diff.md --exclude *.pyd
+[2024-04-01 18:56:48] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/e0/5c/b68f674efa4ccae1c996a5b0e8c674f95a37eb1cb3884aeb9885bbd0b9b1/model-explorer-0.0.59.tar.gz
+[2024-04-01 18:56:48] INFO root fetch - processPackages [spectrum-image]: executing diffoscope
+[2024-04-01 18:56:48] INFO root fetch - processPackages [spectrum-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_image-0.2.tar.gz tmp/spectrum_image-0.2.1.tar.gz --markdown 20240401/s/spectrum-image/0.2-0.2.1/diff.md --exclude *.pyd
+[2024-04-01 18:56:48] INFO root fetch - processPackages [deep-agent]: executing diffoscope
+[2024-04-01 18:56:48] INFO root fetch - processPackages [deep-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_agent-1.1.0.tar.gz tmp/deep_agent-1.1.1.tar.gz --markdown 20240401/d/deep-agent/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-01 18:56:48] INFO root fetch - processPackages [ontolocy]: Remove: archive file [/home/abi/fetcher/tmp/ontolocy-0.7.1.tar.gz]
+[2024-04-01 18:56:48] INFO root fetch - processPackages [ontolocy]: Remove: archive file [/home/abi/fetcher/tmp/ontolocy-0.7.2.tar.gz]
+[2024-04-01 18:56:48] INFO root fetch - main [MainThread]: End processing [ontolocy]: success
+[2024-04-01 18:56:49] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.7.9.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.8.0.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-01 18:56:49] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-1.4.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - processPackages [xarg-python]: Remove: archive file [/home/abi/fetcher/tmp/xarg-python-1.4a1.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - main [MainThread]: End processing [xarg-python]: success
+[2024-04-01 18:56:49] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-01 18:56:49] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.58.tar.gz tmp/model-explorer-0.0.59.tar.gz --markdown 20240401/m/model-explorer/0.0.58-0.0.59/diff.md --exclude *.pyd
+[2024-04-01 18:56:49] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.1.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
+[2024-04-01 18:56:49] INFO root fetch - processPackages [deep-agent]: Remove: archive file [/home/abi/fetcher/tmp/deep_agent-1.1.0.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - processPackages [deep-agent]: Remove: archive file [/home/abi/fetcher/tmp/deep_agent-1.1.1.tar.gz]
+[2024-04-01 18:56:49] INFO root fetch - main [MainThread]: End processing [deep-agent]: success
+[2024-04-01 18:56:50] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.58.tar.gz]
+[2024-04-01 18:56:50] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.59.tar.gz]
+[2024-04-01 18:56:50] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-01 18:56:50] INFO root fetch - main [MainThread]: Store serial: [22572440]
