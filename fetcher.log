@@ -9810,3 +9810,54 @@ EOFError: EOF read where object expected
 [2024-04-01 18:45:44] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-01 18:45:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-01 18:45:44] INFO root fetch - main [MainThread]: Store serial: [22572299]
+[2024-04-01 18:47:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572299]
+[2024-04-01 18:47:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: platform-plugin-aspects
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-kv
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RipeDB
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sagemaker
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: utils-huna
+[2024-04-01 18:47:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datarobot-early-access
+[2024-04-01 18:47:55] INFO root fetch - processPackages [utils-huna]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-01 18:47:55] WARNING root fetch - processPackages [sqlite-kv]: Skipping, unable to determine old version
+[2024-04-01 18:47:55] INFO root fetch - main [MainThread]: End processing [sqlite-kv] error
+[2024-04-01 18:47:55] INFO root fetch - processPackages [platform-plugin-aspects]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-01 18:47:55] INFO root fetch - processPackages [RipeDB]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-01 18:47:55] INFO root fetch - processPackages [datarobot-early-access]: New version: [3.4.0.2024.4.1] Old Version: [3.4.0.2024.3.4]
+[2024-04-01 18:47:55] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-01 18:47:55] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/f9/96/8cd5a1b8cdb0ea6595a0f053b4ab18fedc1940ffe04ee64ba3b32e45c77c/utils_huna-0.1.1.tar.gz
+[2024-04-01 18:47:55] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/a5/34/ef43226d1a1d562c8ac8b8568e4b29fb09ff63d9addcf03d53efe4372b49/platform-plugin-aspects-0.4.0.tar.gz
+[2024-04-01 18:47:55] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/52/99/5f5d052533331c3836de8367e2d7a096b12851eb6af0fa299093b7b72465/RipeDB-0.3.3.tar.gz
+[2024-04-01 18:47:55] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/de/9d/2510e467ff4de9f9f77cafe90ed55f2ee2270a9a21c074f6711d65c04675/datarobot_early_access-3.4.0.2024.3.4.tar.gz
+[2024-04-01 18:47:55] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [utils-huna]: Downloading https://files.pythonhosted.org/packages/c1/ad/2135cc8409ec95a50b1c53478bcb5af9c1d79cf48679f6cd90db3b6a94d6/utils_huna-0.1.2.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [RipeDB]: Downloading https://files.pythonhosted.org/packages/10/77/a9627484f6cb26ee638be3862521a954504963ad3991c40612da5d0b1e40/RipeDB-0.3.4.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [utils-huna]: executing diffoscope
+[2024-04-01 18:47:56] INFO root fetch - processPackages [utils-huna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_huna-0.1.1.tar.gz tmp/utils_huna-0.1.2.tar.gz --markdown 20240401/u/utils-huna/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-01 18:47:56] INFO root fetch - processPackages [platform-plugin-aspects]: Downloading https://files.pythonhosted.org/packages/71/06/db67e3ece10239b0b9121f91fe1342c36d9e04612577726fcf35227f3c2d/platform-plugin-aspects-0.5.0.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [datarobot-early-access]: Downloading https://files.pythonhosted.org/packages/02/20/79fc7417c7c5cb4de83883e9b780e34c26c40373f6e7ac180cac73211c45/datarobot_early_access-3.4.0.2024.4.1.tar.gz
+[2024-04-01 18:47:56] INFO root fetch - processPackages [RipeDB]: executing diffoscope
+[2024-04-01 18:47:56] INFO root fetch - processPackages [RipeDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RipeDB-0.3.3.tar.gz tmp/RipeDB-0.3.4.tar.gz --markdown 20240401/R/RipeDB/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-01 18:47:56] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2024-04-01 18:47:56] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20240401/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2024-04-01 18:47:56] INFO root fetch - processPackages [platform-plugin-aspects]: executing diffoscope
+[2024-04-01 18:47:56] INFO root fetch - processPackages [platform-plugin-aspects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/platform-plugin-aspects-0.4.0.tar.gz tmp/platform-plugin-aspects-0.5.0.tar.gz --markdown 20240401/p/platform-plugin-aspects/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 18:47:56] INFO root fetch - processPackages [datarobot-early-access]: executing diffoscope
+[2024-04-01 18:47:56] INFO root fetch - processPackages [datarobot-early-access]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_early_access-3.4.0.2024.3.4.tar.gz tmp/datarobot_early_access-3.4.0.2024.4.1.tar.gz --markdown 20240401/d/datarobot-early-access/3.4.0.2024.3.4-3.4.0.2024.4.1/diff.md --exclude *.pyd
+[2024-04-01 18:47:56] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.1.tar.gz]
+[2024-04-01 18:47:56] INFO root fetch - processPackages [utils-huna]: Remove: archive file [/home/abi/fetcher/tmp/utils_huna-0.1.2.tar.gz]
+[2024-04-01 18:47:56] INFO root fetch - main [MainThread]: End processing [utils-huna]: success
+[2024-04-01 18:47:56] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.3.tar.gz]
+[2024-04-01 18:47:56] INFO root fetch - processPackages [RipeDB]: Remove: archive file [/home/abi/fetcher/tmp/RipeDB-0.3.4.tar.gz]
+[2024-04-01 18:47:56] INFO root fetch - main [MainThread]: End processing [RipeDB]: success
+[2024-04-01 18:47:57] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform-plugin-aspects-0.4.0.tar.gz]
+[2024-04-01 18:47:57] INFO root fetch - processPackages [platform-plugin-aspects]: Remove: archive file [/home/abi/fetcher/tmp/platform-plugin-aspects-0.5.0.tar.gz]
+[2024-04-01 18:47:57] INFO root fetch - main [MainThread]: End processing [platform-plugin-aspects]: success
+[2024-04-01 18:47:58] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.4.0.2024.3.4.tar.gz]
+[2024-04-01 18:47:58] INFO root fetch - processPackages [datarobot-early-access]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_early_access-3.4.0.2024.4.1.tar.gz]
+[2024-04-01 18:47:58] INFO root fetch - main [MainThread]: End processing [datarobot-early-access]: success
+[2024-04-01 18:47:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2024-04-01 18:47:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2024-04-01 18:47:58] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2024-04-01 18:47:58] INFO root fetch - main [MainThread]: Store serial: [22572318]
