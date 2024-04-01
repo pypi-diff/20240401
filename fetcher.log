@@ -9333,3 +9333,114 @@ EOFError: EOF read where object expected
 [2024-04-01 18:32:20] ERROR root fetch - processPackages [fetchcode]: Timeout during execution of pkgdiff
 [2024-04-01 18:32:20] INFO root fetch - main [MainThread]: End processing [fetchcode] error
 [2024-04-01 18:32:20] INFO root fetch - main [MainThread]: Store serial: [22572064]
+[2024-04-01 18:34:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22572064]
+[2024-04-01 18:34:28] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccpn-project-checker
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creyPY
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quasi-utils
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: likeprocessing
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glcidocs
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: makelive
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: causalimpactx
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rocat
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pylance
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: GivAPI
+[2024-04-01 18:34:28] INFO root fetch - processPackages [creyPY]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-01 18:34:28] INFO root fetch - processPackages [rocat]: New version: [0.1.11] Old Version: [0.1.10]
+[2024-04-01 18:34:28] WARNING root fetch - processPackages [ccpn-project-checker]: Skipping, unable to determine old version
+[2024-04-01 18:34:28] INFO root fetch - processPackages [ccpn-project-checker]: Start processing: glcidocs
+[2024-04-01 18:34:28] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker] error
+[2024-04-01 18:34:28] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/fd/ab/ece0e860c7ad244336fdf7b2796246c9090327b531be8425981f823bd683/creyPY-0.0.6.tar.gz
+[2024-04-01 18:34:28] INFO root fetch - processPackages [likeprocessing]: New version: [0.1.7.4.2] Old Version: [0.1.7.4.1]
+[2024-04-01 18:34:28] INFO root fetch - processPackages [GivAPI]: New version: [0.2.0] Old Version: [0.1.2b0]
+[2024-04-01 18:34:28] INFO root fetch - processPackages [glcidocs]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2024-04-01 18:34:28] INFO root fetch - processPackages [quasi-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-01 18:34:28] INFO root fetch - processPackages [makelive]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-01 18:34:28] WARNING root fetch - processPackages [causalimpactx]: Skipping, unable to determine old version
+[2024-04-01 18:34:28] INFO root fetch - processPackages [causalimpactx]: Start processing: bioomics
+[2024-04-01 18:34:28] INFO root fetch - main [MainThread]: End processing [causalimpactx] error
+[2024-04-01 18:34:28] INFO root fetch - processPackages [glcidocs]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2024-04-01 18:34:29] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/3f/7d/548185acc89543fad2a55a64ab437092488740be0d014551302aaded3dc4/rocat-0.1.10.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/39/0f/6d6ba384a7343ad82db1432af56de3ec1683d09ef5dff4fbd4b480c9ad7a/likeprocessing-0.1.7.4.1.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [bioomics]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: Downloading https://files.pythonhosted.org/packages/c4/5a/feaf816756a433f0aeec12c36fce1dcf0a24e941331bce8968142aa30198/glcidocs-0.0.1b1.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [GivAPI]: Downloading https://files.pythonhosted.org/packages/67/15/faa95e3e019bc9769b0198ce04471b52be9b6af375e587f5049e78d7f874/givapi-0.1.2b0.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/9e/e5/9f95eabc27ba8a43e68f1d1d6a638b133173b1ac6e2ef58d76dd754b9d60/quasi_utils-0.1.8.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: Downloading https://files.pythonhosted.org/packages/c4/5a/feaf816756a433f0aeec12c36fce1dcf0a24e941331bce8968142aa30198/glcidocs-0.0.1b1.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [pylance]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-01 18:34:29] INFO root fetch - processPackages [makelive]: Downloading https://files.pythonhosted.org/packages/5b/e2/61b6f0bb92155ca82ce9b7d0910325d6cf503c608e98302ade5de52749cf/makelive-0.4.2.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/a9/d6/ba1c5cb5f45bac3c1b979e559aa837b4a0b63bcdfd583caab236b1ddd226/creyPY-0.0.7.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/b0/92/ad4eccef2e8afc8b5df35302d059ab6ed72ecb0c5b141940eca2ae32ebcf/rocat-0.1.11.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/8b/8e/d1bbaefdde94a9fdc909f4eb9393f64ba3bf80173498a9c5be86601ec34b/bioomics-0.1.6.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.0.6.tar.gz tmp/creyPY-0.0.7.tar.gz --markdown 20240401/c/creyPY/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/df/e7/efb74c945b018c4703636b6208241b70437285a0d8367da60323f5d78563/pylance-0.9.8-cp38-abi3-win_amd64.whl
+[2024-04-01 18:34:29] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.10.tar.gz tmp/rocat-0.1.11.tar.gz --markdown 20240401/r/rocat/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [GivAPI]: Downloading https://files.pythonhosted.org/packages/1d/a8/133647b173fb3f3b1aadc1fea8cbfb97e0ab9ec88ddc6cc049c35e46f1dc/givapi-0.2.0.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: Downloading https://files.pythonhosted.org/packages/b2/f5/19c54e3514758e20cc51ee42e91edd7c0bb9ac0e20ce3ffc0024eab2d5c6/glcidocs-0.0.1b2.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: Downloading https://files.pythonhosted.org/packages/b2/f5/19c54e3514758e20cc51ee42e91edd7c0bb9ac0e20ce3ffc0024eab2d5c6/glcidocs-0.0.1b2.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [quasi-utils]: Downloading https://files.pythonhosted.org/packages/83/a9/29917aa3429c6c45fe10c486e529150e543d167462c617b427e6babe0efe/quasi_utils-0.1.9.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [likeprocessing]: Downloading https://files.pythonhosted.org/packages/9a/b2/e0cf73fe19a1c7573f6d6db1f79c74d99cb4904f2a9e044509e97f1709f3/likeprocessing-0.1.7.4.2.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [makelive]: Downloading https://files.pythonhosted.org/packages/df/86/e9c78c64a4db64a5b28131fd92e6841b6a854e0708857fb938c4e9de1b2e/makelive-0.5.0.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [GivAPI]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [GivAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/givapi-0.1.2b0.tar.gz tmp/givapi-0.2.0.tar.gz --markdown 20240401/G/GivAPI/0.1.2b0-0.2.0/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcidocs-0.0.1b1.tar.gz tmp/glcidocs-0.0.1b2.tar.gz --markdown 20240401/g/glcidocs/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [glcidocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glcidocs-0.0.1b1.tar.gz tmp/glcidocs-0.0.1b2.tar.gz --markdown 20240401/g/glcidocs/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [quasi-utils]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [quasi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quasi_utils-0.1.8.tar.gz tmp/quasi_utils-0.1.9.tar.gz --markdown 20240401/q/quasi-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [bioomics]: Downloading https://files.pythonhosted.org/packages/f1/0d/1390746e73b015c2dd5bd06c1c7cb4fbef10a2fbe3543ce286db32910da1/bioomics-0.1.7.tar.gz
+[2024-04-01 18:34:29] INFO root fetch - processPackages [likeprocessing]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [likeprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/likeprocessing-0.1.7.4.1.tar.gz tmp/likeprocessing-0.1.7.4.2.tar.gz --markdown 20240401/l/likeprocessing/0.1.7.4.1-0.1.7.4.2/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] INFO root fetch - processPackages [makelive]: executing diffoscope
+[2024-04-01 18:34:29] INFO root fetch - processPackages [makelive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makelive-0.4.2.tar.gz tmp/makelive-0.5.0.tar.gz --markdown 20240401/m/makelive/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-01 18:34:29] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 19067957>=10485760
+[2024-04-01 18:34:29] INFO root fetch - processPackages [pylance]: Start processing: ansys-fluent-parametric
+[2024-04-01 18:34:29] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2024-04-01 18:34:29] INFO root fetch - processPackages [ansys-fluent-parametric]: New version: [0.9.0] Old Version: [0.8.dev0]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/53/7d/4f4df0725d35f51c6d492aa3bdcfeb6c5fd7037a9f0b822f482cf4ea9139/ansys_fluent_parametric-0.8.dev0.tar.gz
+[2024-04-01 18:34:30] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.10.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.11.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [rocat]: Start processing: amsdal_cli
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.6.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.0.7.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [GivAPI]: Remove: archive file [/home/abi/fetcher/tmp/givapi-0.1.2b0.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [GivAPI]: Remove: archive file [/home/abi/fetcher/tmp/givapi-0.2.0.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [GivAPI]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [amsdal_cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.8.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [quasi-utils]: Remove: archive file [/home/abi/fetcher/tmp/quasi_utils-0.1.9.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [quasi-utils]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [makelive]: Remove: archive file [/home/abi/fetcher/tmp/makelive-0.4.2.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [makelive]: Remove: archive file [/home/abi/fetcher/tmp/makelive-0.5.0.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [makelive]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [glcidocs]: Remove: archive file [/home/abi/fetcher/tmp/glcidocs-0.0.1b1.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [glcidocs]: Remove: archive file [/home/abi/fetcher/tmp/glcidocs-0.0.1b2.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [glcidocs]: success
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [glcidocs]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [likeprocessing]: Remove: archive file [/home/abi/fetcher/tmp/likeprocessing-0.1.7.4.1.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - processPackages [likeprocessing]: Remove: archive file [/home/abi/fetcher/tmp/likeprocessing-0.1.7.4.2.tar.gz]
+[2024-04-01 18:34:30] INFO root fetch - main [MainThread]: End processing [likeprocessing]: success
+[2024-04-01 18:34:30] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/78/96/d895e2b9d14121edf5894f9c064cbdc4fffcfbc35af55c0a13199fa62638/amsdal_cli-0.1.5.tar.gz
+[2024-04-01 18:34:31] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/4c/16/16b50502f396e4e8b546707829d74fec55cfb56922cb45e5211f542dcdd4/amsdal_cli-0.1.6.tar.gz
+[2024-04-01 18:34:31] INFO root fetch - processPackages [amsdal_cli]: executing diffoscope
+[2024-04-01 18:34:31] INFO root fetch - processPackages [amsdal_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_cli-0.1.5.tar.gz tmp/amsdal_cli-0.1.6.tar.gz --markdown 20240401/a/amsdal_cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-01 18:34:31] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/58/e1/edbf72c776099c72128979309ead4a97f2643f858c2552325997f5eec94f/ansys_fluent_parametric-0.9.0.tar.gz
+[2024-04-01 18:34:31] INFO root fetch - processPackages [ansys-fluent-parametric]: executing diffoscope
+[2024-04-01 18:34:31] INFO root fetch - processPackages [ansys-fluent-parametric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_parametric-0.8.dev0.tar.gz tmp/ansys_fluent_parametric-0.9.0.tar.gz --markdown 20240401/a/ansys-fluent-parametric/0.8.dev0-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 18:34:32] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.5.tar.gz]
+[2024-04-01 18:34:32] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.6.tar.gz]
+[2024-04-01 18:34:32] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
+[2024-04-01 18:34:32] INFO root fetch - processPackages [ansys-fluent-parametric]: Remove: archive file [/home/abi/fetcher/tmp/ansys_fluent_parametric-0.8.dev0.tar.gz]
+[2024-04-01 18:34:32] INFO root fetch - processPackages [ansys-fluent-parametric]: Remove: archive file [/home/abi/fetcher/tmp/ansys_fluent_parametric-0.9.0.tar.gz]
+[2024-04-01 18:34:32] INFO root fetch - main [MainThread]: End processing [ansys-fluent-parametric]: success
+[2024-04-01 18:34:37] INFO root fetch - processPackages [bioomics]: executing diffoscope
+[2024-04-01 18:34:37] INFO root fetch - processPackages [bioomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioomics-0.1.6.tar.gz tmp/bioomics-0.1.7.tar.gz --markdown 20240401/b/bioomics/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-01 18:34:37] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.6.tar.gz]
+[2024-04-01 18:34:37] INFO root fetch - processPackages [bioomics]: Remove: archive file [/home/abi/fetcher/tmp/bioomics-0.1.7.tar.gz]
+[2024-04-01 18:34:37] INFO root fetch - main [MainThread]: End processing [bioomics]: success
+[2024-04-01 18:34:37] INFO root fetch - main [MainThread]: Store serial: [22572135]
