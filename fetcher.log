@@ -12828,3 +12828,87 @@ EOFError: EOF read where object expected
 [2024-04-01 20:53:22] INFO root fetch - processPackages [epdx]: Remove: archive file [/home/abi/fetcher/tmp/epdx-1.2.1.tar.gz]
 [2024-04-01 20:53:22] INFO root fetch - main [MainThread]: End processing [epdx]: success
 [2024-04-01 20:53:22] INFO root fetch - main [MainThread]: Store serial: [22573735]
+[2024-04-01 20:55:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22573735]
+[2024-04-01 20:55:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flet-core
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flet-runtime
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flet-embed
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flet
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flet-pyodide
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-search
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cript
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picachain
+[2024-04-01 20:55:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: optype
+[2024-04-01 20:55:31] INFO root fetch - processPackages [picachain]: New version: [0.1.20] Old Version: [0.1.2]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [picachain]: Downloading https://files.pythonhosted.org/packages/47/ce/be44a0e15801fc5d00b3a3879d5b25b60ee9dcab91d6fa6ea9604dfe9210/picachain-0.1.2.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-embed]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-pyodide]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-core]: New version: [0.9.0.dev1631] Old Version: [0.9.0.dev1630]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-runtime]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [cript]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [optype]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [edx-search]: New version: [3.9.1] Old Version: [3.8.2]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/78/0b/3b2abde2d3702bc07cf45b3f8552c52075ee039269b94f62432c08e3a549/flet_embed-0.8.4.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/15/82/9fa16b72f5adaebe976011591b069855d21edeaa5b2c89f27fc177fb62f1/flet_runtime-0.8.4.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [edx-search]: Downloading https://files.pythonhosted.org/packages/d0/07/6e608900e07af07ccd18a60c0210fdc2c13f2d92e97429fa0a1b667eb9eb/edx-search-3.8.2.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [picachain]: Downloading https://files.pythonhosted.org/packages/7d/2d/4544026e453b84765eeaa679cade652412a5f934cb4d0f9ae72b54a2f320/picachain-0.1.20.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/f5/35/853e25293958dcbd636693f30ba26fe5cdc28b47ead0afcb3ecaa9fffad1/flet_pyodide-0.8.4.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/ce/fc/0ddf2fc596aee033604fc82eaba85dae0d03a7ccf44591e532a1f9e3db17/flet-0.8.4.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/06/78/2b607ba8cf90f09185f6b1de3138bf723d510d19ee11130a68433cce2d20/flet_core-0.9.0.dev1630.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [cript]: Downloading https://files.pythonhosted.org/packages/e0/b8/81c44930933c7b85f6a8a6d1dc3ef7397aad06f0cddfc61b4cfd24716955/cript-2.2.0.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [optype]: Downloading https://files.pythonhosted.org/packages/cb/1b/05efdb3b80eca0c08f8d69d7c4007bdacc6fa5da7584bd1b8134084302f4/optype-0.3.0.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [picachain]: executing diffoscope
+[2024-04-01 20:55:31] INFO root fetch - processPackages [picachain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picachain-0.1.2.tar.gz tmp/picachain-0.1.20.tar.gz --markdown 20240401/p/picachain/0.1.2-0.1.20/diff.md --exclude *.pyd
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-embed]: Downloading https://files.pythonhosted.org/packages/81/7e/d8933b7cb514fb7fd415c9368e2a55ab10465ad0c1277670abc72164e31b/flet_embed-0.9.0.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [edx-search]: Downloading https://files.pythonhosted.org/packages/2b/48/683e919ec6a5f880f3260c4c75104003897cd94721cf194285a36142d2b0/edx-search-3.9.1.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [flet-runtime]: Downloading https://files.pythonhosted.org/packages/7d/21/4486f082fce6b7ee7174ae6b6c9bd62faeeb1cf712e65ccbd42d2a02b641/flet_runtime-0.9.0.tar.gz
+[2024-04-01 20:55:31] INFO root fetch - processPackages [cript]: Downloading https://files.pythonhosted.org/packages/65/5b/5f1206efdaa8bf900edc0f9ee53c4b59f6e9d678a87f9a481ff6536603c2/cript-2.3.0.tar.gz
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-core]: Downloading https://files.pythonhosted.org/packages/4f/c9/c2705045754a5e96e2a0e04c30f12e30cc27d1e60b1fb83e686da4c0a8e6/flet_core-0.9.0.dev1631.tar.gz
+[2024-04-01 20:55:32] INFO root fetch - processPackages [edx-search]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [edx-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-search-3.8.2.tar.gz tmp/edx-search-3.9.1.tar.gz --markdown 20240401/e/edx-search/3.8.2-3.9.1/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-runtime]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_runtime-0.8.4.tar.gz tmp/flet_runtime-0.9.0.tar.gz --markdown 20240401/f/flet-runtime/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-pyodide]: Downloading https://files.pythonhosted.org/packages/0b/26/a5b2ba93c30d3a89efc6b6734cc4db067c9d2ca16059ed4685281d46c1f7/flet_pyodide-0.9.0.tar.gz
+[2024-04-01 20:55:32] INFO root fetch - processPackages [optype]: Downloading https://files.pythonhosted.org/packages/d9/02/64ce4f99a25bb54b5483958b13c75752eb5c80c4ed341d4de2ccb89e0831/optype-0.3.1.tar.gz
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-embed]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_embed-0.8.4.tar.gz tmp/flet_embed-0.9.0.tar.gz --markdown 20240401/f/flet-embed/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [cript]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [cript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cript-2.2.0.tar.gz tmp/cript-2.3.0.tar.gz --markdown 20240401/c/cript/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-core]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_core-0.9.0.dev1630.tar.gz tmp/flet_core-0.9.0.dev1631.tar.gz --markdown 20240401/f/flet-core/0.9.0.dev1630-0.9.0.dev1631/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-pyodide]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-pyodide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet_pyodide-0.8.4.tar.gz tmp/flet_pyodide-0.9.0.tar.gz --markdown 20240401/f/flet-pyodide/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [picachain]: Remove: archive file [/home/abi/fetcher/tmp/picachain-0.1.2.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - processPackages [picachain]: Remove: archive file [/home/abi/fetcher/tmp/picachain-0.1.20.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - main [MainThread]: End processing [picachain]: success
+[2024-04-01 20:55:32] INFO root fetch - processPackages [optype]: executing diffoscope
+[2024-04-01 20:55:32] INFO root fetch - processPackages [optype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optype-0.3.0.tar.gz tmp/optype-0.3.1.tar.gz --markdown 20240401/o/optype/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet]: Downloading https://files.pythonhosted.org/packages/70/f1/c96f61c9817584ef31d84401520cb5d02e9b320f79d8aff85ba005ca6132/flet-0.9.0.tar.gz
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.8.4.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-embed]: Remove: archive file [/home/abi/fetcher/tmp/flet_embed-0.9.0.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - main [MainThread]: End processing [flet-embed]: success
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.8.4.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - processPackages [flet-runtime]: Remove: archive file [/home/abi/fetcher/tmp/flet_runtime-0.9.0.tar.gz]
+[2024-04-01 20:55:32] INFO root fetch - main [MainThread]: End processing [flet-runtime]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.8.4.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet-pyodide]: Remove: archive file [/home/abi/fetcher/tmp/flet_pyodide-0.9.0.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - main [MainThread]: End processing [flet-pyodide]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [edx-search]: Remove: archive file [/home/abi/fetcher/tmp/edx-search-3.8.2.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - processPackages [edx-search]: Remove: archive file [/home/abi/fetcher/tmp/edx-search-3.9.1.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - main [MainThread]: End processing [edx-search]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [optype]: Remove: archive file [/home/abi/fetcher/tmp/optype-0.3.0.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - processPackages [optype]: Remove: archive file [/home/abi/fetcher/tmp/optype-0.3.1.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - main [MainThread]: End processing [optype]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1630.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet-core]: Remove: archive file [/home/abi/fetcher/tmp/flet_core-0.9.0.dev1631.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - main [MainThread]: End processing [flet-core]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [cript]: Remove: archive file [/home/abi/fetcher/tmp/cript-2.2.0.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - processPackages [cript]: Remove: archive file [/home/abi/fetcher/tmp/cript-2.3.0.tar.gz]
+[2024-04-01 20:55:33] INFO root fetch - main [MainThread]: End processing [cript]: success
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet]: executing diffoscope
+[2024-04-01 20:55:33] INFO root fetch - processPackages [flet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240401:/home/abi/fetcher/20240401:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flet-0.8.4.tar.gz tmp/flet-0.9.0.tar.gz --markdown 20240401/f/flet/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-01 20:56:22] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.8.4.tar.gz]
+[2024-04-01 20:56:22] INFO root fetch - processPackages [flet]: Remove: archive file [/home/abi/fetcher/tmp/flet-0.9.0.tar.gz]
+[2024-04-01 20:56:22] INFO root fetch - main [MainThread]: End processing [flet]: success
+[2024-04-01 20:56:22] INFO root fetch - main [MainThread]: Store serial: [22573773]
